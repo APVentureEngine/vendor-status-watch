@@ -22,7 +22,7 @@ log "gen_site"
 python3 gen_site.py
 test -s docs/index.html && test -s docs/api/snapshot.json && test -s docs/sitemap.xml
 grep -q '@media' docs/index.html
-cp vendors.json docs/api/vendors.json
+# NOTE: gen_site writes docs/api/vendors.json itself (alias-collapsed). Do not cp the raw map over it.
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
