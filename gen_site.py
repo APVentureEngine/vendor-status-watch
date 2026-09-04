@@ -155,7 +155,7 @@ TREND = [(d[5:], per_day.get(d, 0)) for d in days]
 
 
 # ------------------------------------------------------------------ html shell
-CSS = """
+CSS = """.hits{list-style:none;padding:0;margin:10px 0 0}.hits li{padding:8px 0;border-top:1px solid #e5e7eb}.hits li:first-child{border-top:0}#check{margin-top:20px}
 :root{--bg:#fbfbf8;--ink:#14213d;--muted:#5b6478;--line:#e3e5ea;--card:#fff;--accent:#d9480f;--accent-ink:#fff;
 --ok:#1f8a4c;--warn:#c98a00;--bad:#c8102e;--unk:#8a8f9c;--maxw:1040px}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
@@ -300,6 +300,15 @@ def render_index():
 <div class="cta"><a class="btn" href="#template">Get alerts in your Slack — free</a><a class="btn ghost" href="#board">See who is down right now</a></div>
 {kpis}
 <p class="small muted">Numbers are recomputed by the daily pipeline from the vendors' own status APIs; last poll {E(GEN_AT)}. Vendor state is what the vendor publishes, not our measurement.</p>
+<div class="card" id="check"><h3>Is my vendor watchable?</h3>
+<label for="vq" class="small muted">Type a vendor name — answers from today's map of {N_MAP:,} status pages</label>
+<input id="vq" class="filter" type="search" placeholder="e.g. stripe, cloudflare, twilio, datadog" autocomplete="off" aria-describedby="vres">
+<div id="vres" class="small" aria-live="polite"></div></div>
+<script>(function(){{var q=document.getElementById('vq'),o=document.getElementById('vres'),d=null,ld=false,al={json.dumps(ALIAS)};var lab={json.dumps(STATE_LABEL)};function esc(s){{return String(s).replace(/[&<>"]/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}}
+function show(){{var s=q.value.toLowerCase().trim();if(!s){{o.innerHTML='';return}}if(!d){{o.textContent='Loading the map…';return}}var m=d.filter(function(v){{return v.q.indexOf(s)>-1}}).slice(0,8);if(!m.length){{o.innerHTML='<p>Not in the map yet. <a href="{REPO}/issues/new?title=Add%20vendor%3A%20'+encodeURIComponent(q.value)+'">Ask for it</a> — most requests ship in the next daily build.</p>';return}}
+o.innerHTML='<ul class="hits">'+m.map(function(v){{var st=v.sup?'<span class="pill s-'+esc(v.st)+'">'+esc(lab[v.st]||v.st)+'</span>':'<span class="pill s-unknown">no public feed</span>';return '<li><a href="'+esc(v.u)+'">'+esc(v.n)+'</a> '+st+' <span class="muted">'+(v.sup?'watchable · slug <code>'+esc(v.s)+'</code>':'listed, not watchable ('+esc(v.p)+')')+'</span></li>'}}).join('')+'</ul>'}}
+function load(){{if(ld)return;ld=true;fetch('{SITE}/api/snapshot.json').then(function(r){{return r.json()}}).then(function(sn){{var st={{}};sn.vendors.forEach(function(r){{st[r.slug]=r.state}});return fetch('{SITE}/api/vendors.json').then(function(r){{return r.json()}}).then(function(vj){{var rev={{}};Object.keys(al).forEach(function(a){{(rev[al[a]]=rev[al[a]]||[]).push(a)}});d=vj.vendors.map(function(v){{var a=(rev[v.slug]||[]).join(' ');return{{n:v.name,s:v.slug,p:v.platform,sup:!!v.supported,st:st[v.slug]||'unknown',u:'{SITE}/v/'+v.slug+'/',q:(v.name+' '+v.slug+' '+a).toLowerCase()}}}});show()}})}}).catch(function(){{ld=false;o.innerHTML='Could not load the map — try the <a href="{SITE}/vendors.html">full list</a>.'}})}}
+q.addEventListener('focus',load);q.addEventListener('input',function(){{load();show()}})}})();</script>
 </section>
 
 <section id="board"><h2>Live board — {len(NOT_OK):,} vendors not fully operational</h2>
@@ -499,6 +508,8 @@ def render_feeds_and_meta():
     write("api/vendors.json", json.dumps(vendors, indent=0))
     write("api/snapshot.json", json.dumps(snap, indent=0))
     write(".nojekyll", "")
+    if CFG.get("indexnow_key"):
+        write(CFG["indexnow_key"] + ".txt", CFG["indexnow_key"])
 
 
 def prune_and_redirect():

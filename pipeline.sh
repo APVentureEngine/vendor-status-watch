@@ -26,7 +26,7 @@ grep -q '@media' docs/index.html
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
-  git add -A vendors.json history docs seed_extra.json
+  git add -A vendors.json history docs seed_extra.json .indexnow_last 2>/dev/null || git add -A vendors.json history docs seed_extra.json
   if git diff --cached --quiet; then log "nothing to commit"; else
     git -c user.name=vendor-status-watch -c user.email=bot@apventureengine.invalid commit -q -m "daily: $(date -u +%F) $(python3 -c 'import json;r=json.load(open("poll_report.json"));print(r["parsed"],"/",r["polled"],"parsed,",r["states"])')"
     git push -q "https://x-access-token:${GITHUB_ORG_TOKEN}@github.com/APVentureEngine/vendor-status-watch.git" HEAD:main
@@ -34,6 +34,9 @@ if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
 else
   log "no git repo / token here — skipped push (pre-creation dry run)"
 fi
+# IndexNow: only when the URL set changed; needs the key file live, so it naturally waits for the first deploy.
+log "indexnow"; python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
+
 # Hugging Face mirror (second discovery surface). Non-fatal: the site is already live; report honestly.
 HFPY="${HF_PYTHON:-$(dirname "$0")/../../warn-feed/product/.venv-hf/bin/python3}"
 [ -x "$HFPY" ] || HFPY=python3
