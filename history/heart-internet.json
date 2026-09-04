@@ -31,6 +31,14 @@
 {
 "at": "2026-09-04T11:14:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T12:15:55Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T12:24:18Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -48,7 +56,7 @@
 "url": "https://www.heartstatus.uk"
 }
 },
-"last_checked": "2026-09-04T11:14:03Z",
+"last_checked": "2026-09-04T12:24:18Z",
 "last_description": "operational",
 "last_error": null,
 "last_state": "ok",

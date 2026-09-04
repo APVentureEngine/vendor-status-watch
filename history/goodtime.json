@@ -31,6 +31,14 @@
 {
 "at": "2026-09-04T11:14:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T12:15:55Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T12:24:18Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -40,7 +48,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2025-10-09T09:36:58.605-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-09T09:25:11.553-07:00",
@@ -53,7 +61,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-07-30T10:05:18.063-07:00",
 "resolved_inferred": false,
 "started_at": "2026-07-30T05:44:31.242-07:00",
@@ -66,7 +74,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2025-10-24T08:53:25.882-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-24T07:44:47.409-07:00",
@@ -79,7 +87,7 @@
 "body": "The issue has been resolved by Lever / Cloudflare.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-04-17T16:12:08.001-07:00",
 "resolved_inferred": false,
 "started_at": "2026-04-17T09:59:03.000-07:00",
@@ -92,7 +100,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2025-11-05T05:14:04.233-08:00",
 "resolved_inferred": false,
 "started_at": "2025-11-04T06:12:49.452-08:00",
@@ -105,7 +113,7 @@
 "body": "The incident has been resolved. We will continue monitoring all services.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2025-10-20T16:47:51.370-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T01:52:58.000-07:00",
@@ -115,7 +123,7 @@
 "url": "https://stspg.io/rk747c4xmrjk"
 }
 },
-"last_checked": "2026-09-04T11:14:03Z",
+"last_checked": "2026-09-04T12:24:18Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

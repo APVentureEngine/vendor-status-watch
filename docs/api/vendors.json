@@ -1,15 +1,18 @@
 {
-"generated_at": "2026-09-04T11:14:03Z",
+"generated_at": "2026-09-04T12:24:16Z",
 "source": "metoro-io/statusphere (MIT) + live probe",
-"count": 1130,
-"supported": 800,
+"count": 1127,
+"supported": 799,
 "vendors": [
 {
 "slug": "1password",
 "name": "1Password",
 "platform": "statuspage",
-"base": "https://1password.statuspage.io",
-"supported": true
+"base": "https://status.1password.com",
+"supported": true,
+"aliases": [
+"https://1password.statuspage.io"
+]
 },
 {
 "slug": "20i",
@@ -1546,7 +1549,10 @@
 "name": "Cohere",
 "platform": "statuspage",
 "base": "https://status.cohere.ai",
-"supported": true
+"supported": true,
+"aliases": [
+"https://status.cohere.com"
+]
 },
 {
 "slug": "cohesity",
@@ -3076,18 +3082,13 @@
 },
 {
 "slug": "godaddy",
-"name": "GoDaddy (www.godaddy.com)",
-"platform": "dead",
-"base": "https://www.godaddy.com",
-"supported": false,
-"note": "unreachable at probe time (403)"
-},
-{
-"slug": "godaddy-2",
-"name": "GoDaddy (status.godaddy.com)",
+"name": "GoDaddy",
 "platform": "statuspage",
 "base": "https://status.godaddy.com",
-"supported": true
+"supported": true,
+"aliases": [
+"https://www.godaddy.com"
+]
 },
 {
 "slug": "golinks",
@@ -3727,14 +3728,14 @@
 },
 {
 "slug": "innovo",
-"name": "Innovo (status.goinnovo.com)",
+"name": "Innovo",
 "platform": "statuspage",
 "base": "http://status.goinnovo.com",
 "supported": true
 },
 {
 "slug": "innovo-2",
-"name": "Innovo (status.inriver.com)",
+"name": "Innovo (inriver.com)",
 "platform": "unknown-html",
 "base": "https://status.inriver.com",
 "supported": false,
@@ -3807,17 +3808,13 @@
 },
 {
 "slug": "ionos",
-"name": "IONOS (www.ionos-status.de)",
+"name": "IONOS",
 "platform": "statuspage",
 "base": "https://www.ionos-status.de",
-"supported": true
-},
-{
-"slug": "ionos-2",
-"name": "IONOS (www.ionos-status.com)",
-"platform": "statuspage",
-"base": "https://www.ionos-status.com",
-"supported": true
+"supported": true,
+"aliases": [
+"https://www.ionos-status.com"
+]
 },
 {
 "slug": "ionos-cloud",
@@ -4713,8 +4710,11 @@
 "slug": "mongodb",
 "name": "MongoDB",
 "platform": "statuspage",
-"base": "http://status.cloud.mongodb.com",
-"supported": true
+"base": "https://status.mongodb.com",
+"supported": true,
+"aliases": [
+"http://status.cloud.mongodb.com"
+]
 },
 {
 "slug": "moodle",
@@ -5616,8 +5616,11 @@
 "slug": "postman",
 "name": "Postman",
 "platform": "statuspage",
-"base": "https://status.getpostman.com",
-"supported": true
+"base": "https://status.postman.com",
+"supported": true,
+"aliases": [
+"https://status.getpostman.com"
+]
 },
 {
 "slug": "postmark",
@@ -6311,17 +6314,12 @@
 {
 "slug": "sap",
 "name": "SAP",
-"platform": "dead",
-"base": "https://www.sap.com",
-"supported": false,
-"note": "unreachable at probe time (403)"
-},
-{
-"slug": "sap-for-me-sap-one-support-launchpad",
-"name": "Sap For Me Sap One Support Launchpad",
 "platform": "statuspage",
-"base": "https://status.support.sap.com",
-"supported": true
+"base": "https://status.me.sap.com",
+"supported": true,
+"aliases": [
+"https://www.sap.com"
+]
 },
 {
 "slug": "sapiens",
@@ -8291,10 +8289,8 @@
 }
 ],
 "aliases": {
-"1password-2": "1password",
 "cherwell": "ivanti-cloud",
 "cloudamqp": "cloudampq",
-"cohere-2": "cohere",
 "rivery": "dell-boomi",
 "thru": "dell-boomi",
 "webshrinker": "dnsfilter",
@@ -8302,11 +8298,9 @@
 "logmein-rescue": "gotomypc",
 "grafana": "grafana-labs",
 "incapsula": "imperva",
-"mongodb-2": "mongodb",
 "runpanther": "panther-labs",
-"postman-2": "postman",
 "red-hat": "quay",
-"sap-2": "sap-for-me-sap-one-support-launchpad",
+"sap-for-me-sap-one-support-launchpad": "sap",
 "sendgrid": "twilio",
 "sumo-logic-us2": "sumo-logic-us1"
 }

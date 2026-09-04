@@ -31,6 +31,14 @@
 {
 "at": "2026-09-04T11:14:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T12:15:55Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T12:24:18Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -40,7 +48,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-02-27T17:54:46.913+05:00",
 "resolved_inferred": false,
 "started_at": "2026-02-27T16:30:38.752+05:00",
@@ -50,7 +58,7 @@
 "url": "https://stspg.io/gw64vzs6n6j5"
 }
 },
-"last_checked": "2026-09-04T11:14:03Z",
+"last_checked": "2026-09-04T12:24:18Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

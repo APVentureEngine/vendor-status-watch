@@ -1,22 +1,18 @@
 {
- "generated_at": "2026-09-04T11:14:03Z",
+ "generated_at": "2026-09-04T12:24:16Z",
  "source": "metoro-io/statusphere (MIT) + live probe",
- "count": 1148,
- "supported": 818,
+ "count": 1141,
+ "supported": 813,
  "vendors": [
   {
    "slug": "1password",
    "name": "1Password",
    "platform": "statuspage",
-   "base": "https://1password.statuspage.io",
-   "supported": true
-  },
-  {
-   "slug": "1password-2",
-   "name": "1Password",
-   "platform": "statuspage",
    "base": "https://status.1password.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://1password.statuspage.io"
+   ]
   },
   {
    "slug": "20i",
@@ -1567,14 +1563,10 @@
    "name": "Cohere",
    "platform": "statuspage",
    "base": "https://status.cohere.ai",
-   "supported": true
-  },
-  {
-   "slug": "cohere-2",
-   "name": "Cohere",
-   "platform": "statuspage",
-   "base": "https://status.cohere.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://status.cohere.com"
+   ]
   },
   {
    "slug": "cohesity",
@@ -3105,17 +3097,12 @@
   {
    "slug": "godaddy",
    "name": "GoDaddy",
-   "platform": "dead",
-   "base": "https://www.godaddy.com",
-   "supported": false,
-   "note": "unreachable at probe time (403)"
-  },
-  {
-   "slug": "godaddy-2",
-   "name": "GoDaddy",
    "platform": "statuspage",
    "base": "https://status.godaddy.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://www.godaddy.com"
+   ]
   },
   {
    "slug": "golinks",
@@ -3776,7 +3763,7 @@
   },
   {
    "slug": "innovo-2",
-   "name": "Innovo",
+   "name": "Innovo (inriver.com)",
    "platform": "unknown-html",
    "base": "https://status.inriver.com",
    "supported": false,
@@ -3852,14 +3839,10 @@
    "name": "IONOS",
    "platform": "statuspage",
    "base": "https://www.ionos-status.de",
-   "supported": true
-  },
-  {
-   "slug": "ionos-2",
-   "name": "IONOS",
-   "platform": "statuspage",
-   "base": "https://www.ionos-status.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://www.ionos-status.com"
+   ]
   },
   {
    "slug": "ionos-cloud",
@@ -4769,15 +4752,11 @@
    "slug": "mongodb",
    "name": "MongoDB",
    "platform": "statuspage",
-   "base": "http://status.cloud.mongodb.com",
-   "supported": true
-  },
-  {
-   "slug": "mongodb-2",
-   "name": "MongoDB",
-   "platform": "statuspage",
    "base": "https://status.mongodb.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "http://status.cloud.mongodb.com"
+   ]
   },
   {
    "slug": "moodle",
@@ -5679,15 +5658,11 @@
    "slug": "postman",
    "name": "Postman",
    "platform": "statuspage",
-   "base": "https://status.getpostman.com",
-   "supported": true
-  },
-  {
-   "slug": "postman-2",
-   "name": "Postman",
-   "platform": "statuspage",
    "base": "https://status.postman.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://status.getpostman.com"
+   ]
   },
   {
    "slug": "postmark",
@@ -6402,17 +6377,12 @@
   {
    "slug": "sap",
    "name": "SAP",
-   "platform": "dead",
-   "base": "https://www.sap.com",
-   "supported": false,
-   "note": "unreachable at probe time (403)"
-  },
-  {
-   "slug": "sap-2",
-   "name": "SAP",
    "platform": "statuspage",
    "base": "https://status.me.sap.com",
-   "supported": true
+   "supported": true,
+   "aliases": [
+    "https://www.sap.com"
+   ]
   },
   {
    "slug": "sap-for-me-sap-one-support-launchpad",

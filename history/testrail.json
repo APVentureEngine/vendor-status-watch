@@ -31,6 +31,14 @@
 {
 "at": "2026-09-04T11:14:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T12:15:55Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T12:24:18Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -40,7 +48,7 @@
 "body": "Following the implementation of the fix, we have completed a period of monitoring and have confirmed that the issue affecting authentication with the Jira integration has been fully resolved, with no further errors observed.\n\nUsers should ensure they have reauthenticated with Jira within TestRail to maintain normal functionality.\n\nThank you for your patience while we worked to resolve this issue.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-03-23T22:20:50.601Z",
 "resolved_inferred": false,
 "started_at": "2026-03-20T02:00:43.000Z",
@@ -53,7 +61,7 @@
 "body": "The issue affecting TestRail has been resolved and all services are now fully operational. Thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-08-19T14:00:26.000Z",
 "resolved_inferred": false,
 "started_at": "2026-08-19T11:32:35.435Z",
@@ -66,7 +74,7 @@
 "body": "The issue affecting a small subset of customers has been resolved and all services are now fully operational. Thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-08-14T15:39:04.984Z",
 "resolved_inferred": false,
 "started_at": "2026-08-11T18:03:06.621Z",
@@ -79,7 +87,7 @@
 "body": "We identified a DNS issue that may have prevented some users from accessing TestRail. The issue has been resolved, and all services are now fully operational. We apologize for any inconvenience and thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T12:24:18Z",
 "resolved_at": "2026-08-17T12:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-08-17T12:00:00.000Z",
@@ -89,7 +97,7 @@
 "url": "https://stspg.io/1gy9f9yyt3rq"
 }
 },
-"last_checked": "2026-09-04T11:14:03Z",
+"last_checked": "2026-09-04T12:24:18Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
