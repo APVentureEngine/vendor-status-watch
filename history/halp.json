@@ -1,0 +1,23 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "degraded"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "degraded"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "Partially Degraded Service",
+"last_error": null,
+"last_state": "degraded",
+"platform": "statuspage",
+"slug": "halp",
+"status_url": "https://status.halp.com",
+"vendor": "Halp"
+}

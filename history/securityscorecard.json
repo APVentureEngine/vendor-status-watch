@@ -1,0 +1,102 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"51l0nz4tl0b4": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-25T17:20:25.017Z",
+"resolved_inferred": false,
+"started_at": "2025-11-25T16:35:35.959Z",
+"state": "resolved",
+"title": "Microsoft Entra ID users may experience login issues",
+"updated_at": "2025-11-25T17:20:25.035Z",
+"url": "https://stspg.io/3w0n433bl9h3"
+},
+"cr40pr48hff3": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-14T21:28:12.581Z",
+"resolved_inferred": false,
+"started_at": "2026-08-14T10:43:51.464Z",
+"state": "resolved",
+"title": "Custom Scorecard Issue",
+"updated_at": "2026-08-14T21:28:12.596Z",
+"url": "https://stspg.io/ydqlblwnjdp9"
+},
+"glkskwhsv1nm": {
+"body": "The issue has now been fully resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-20T20:02:30.128Z",
+"resolved_inferred": false,
+"started_at": "2026-04-20T15:19:45.475Z",
+"state": "resolved",
+"title": "Atlas and Questionnaires issue",
+"updated_at": "2026-04-20T20:02:30.141Z",
+"url": "https://stspg.io/2lvl7vj1j7y0"
+},
+"ryqhcb2fzqgr": {
+"body": "The issue has now been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-01T17:13:53.000Z",
+"resolved_inferred": false,
+"started_at": "2025-12-01T15:29:42.920Z",
+"state": "resolved",
+"title": "Evidence Locker Issue",
+"updated_at": "2025-12-01T17:55:18.347Z",
+"url": "https://stspg.io/p05c15frdzkg"
+},
+"tb721yxkjp8m": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-25T14:00:39.898Z",
+"resolved_inferred": false,
+"started_at": "2026-05-25T12:20:57.500Z",
+"state": "resolved",
+"title": "Scorecard page load error",
+"updated_at": "2026-05-25T14:00:39.916Z",
+"url": "https://stspg.io/2tq80f8p3ts9"
+},
+"ybc1nm1z9y2n": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T21:49:16.156Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T12:31:34.290Z",
+"state": "resolved",
+"title": "Some Platform Services Degraded Related to AWS Incident",
+"updated_at": "2025-10-20T21:49:16.174Z",
+"url": "https://stspg.io/rchtkkl8kvdy"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "securityscorecard",
+"status_url": "https://status.securityscorecard.com",
+"vendor": "SecurityScorecard"
+}

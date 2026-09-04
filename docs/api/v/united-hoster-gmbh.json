@@ -1,0 +1,38 @@
+{
+"vendor": "United Hoster GmbH",
+"slug": "united-hoster-gmbh",
+"platform": "statuspage",
+"status_url": "https://status.united-hoster.de",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Die DENIC hat das Problem am 06.05.2026, 03:42 Uhr behoben.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-06T07:21:46.105+02:00",
+"resolved_inferred": false,
+"started_at": "2026-05-06T00:54:15.850+02:00",
+"state": "resolved",
+"title": "gro\u00dffl\u00e4chigen DNS-St\u00f6rung in der .de-Zone",
+"updated_at": "2026-05-06T07:21:46.122+02:00",
+"url": "https://stspg.io/j17cxws6zvk2"
+},
+{
+"body": "Nach R\u00fcckmeldung unseres Anbieters wurde das Problem behoben.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T13:13:52.947+01:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T13:07:47.934+01:00",
+"state": "resolved",
+"title": "Hosted Exchange Verwaltung nicht erreichbar",
+"updated_at": "2025-11-18T13:20:32.950+01:00",
+"url": "https://stspg.io/rdvgt4hkfj9l"
+}
+]
+}

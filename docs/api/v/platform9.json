@@ -1,0 +1,51 @@
+{
+"vendor": "Platform9",
+"slug": "platform9",
+"platform": "statuspage",
+"status_url": "https://status.platform9.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-24T06:06:13.058-07:00",
+"resolved_inferred": false,
+"started_at": "2026-07-24T05:50:56.499-07:00",
+"state": "resolved",
+"title": "PCD, PMK, PMO Control Plane is experience degradation",
+"updated_at": "2026-07-24T06:06:17.737-07:00",
+"url": "https://stspg.io/nrc0jdlvyrv1"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-23T05:14:47.355-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-22T22:56:30.919-07:00",
+"state": "resolved",
+"title": "PMK Control Plane is experience degradation",
+"updated_at": "2026-04-23T05:14:47.368-07:00",
+"url": "https://stspg.io/hdvbbw2d2p0s"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-29T22:14:20.951-07:00",
+"resolved_inferred": false,
+"started_at": "2025-09-28T11:00:18.000-07:00",
+"state": "resolved",
+"title": "PCD Kuberenetes Outage",
+"updated_at": "2025-09-29T22:14:20.966-07:00",
+"url": "https://stspg.io/t20h1l43961n"
+}
+]
+}

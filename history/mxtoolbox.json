@@ -1,0 +1,115 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"b8k1vpnlg1yp": {
+"body": "The incident with the MailFlow monitors has been resolved and the system is functioning properly now. Thank you for your patience and understanding during our investigation and resolution implementation.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-04T13:57:44.257-05:00",
+"resolved_inferred": false,
+"started_at": "2025-08-04T10:33:01.128-05:00",
+"state": "resolved",
+"title": "MailFlow Down",
+"updated_at": "2025-08-04T13:57:44.271-05:00",
+"url": "https://stspg.io/1c451m8blq19"
+},
+"gndk8x2fk5zn": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-10T13:32:42.025-06:00",
+"resolved_inferred": false,
+"started_at": "2025-12-10T12:26:02.497-06:00",
+"state": "resolved",
+"title": "MxToolbox Monitoring & Delivery Center Outage",
+"updated_at": "2025-12-10T13:32:42.044-06:00",
+"url": "https://stspg.io/2qgc9s06fyz9"
+},
+"jnb832921hl3": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-01T15:34:53.448-05:00",
+"resolved_inferred": false,
+"started_at": "2025-10-01T09:35:31.890-05:00",
+"state": "resolved",
+"title": "MailFlow Monitors Latency Issues",
+"updated_at": "2025-10-01T15:34:53.463-05:00",
+"url": "https://stspg.io/08hyshbdjgl8"
+},
+"k981v52xgtvt": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-23T10:31:56.786-05:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:18:16.928-05:00",
+"state": "resolved",
+"title": "MailFlow Monitoring Down / AWS Outage",
+"updated_at": "2025-10-23T10:31:56.802-05:00",
+"url": "https://stspg.io/xfqbqqpdf8l7"
+},
+"njkq2q7yh1xv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-13T15:36:42.335-06:00",
+"resolved_inferred": false,
+"started_at": "2026-02-13T10:46:43.855-06:00",
+"state": "resolved",
+"title": "MailFlow Monitoring Impacted by SpamHaus Blocklisting",
+"updated_at": "2026-02-13T15:36:42.351-06:00",
+"url": "https://stspg.io/vgw734j2h9d4"
+},
+"tyc7lxycffzr": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-24T09:42:18.614-06:00",
+"resolved_inferred": false,
+"started_at": "2026-02-23T14:15:04.955-06:00",
+"state": "resolved",
+"title": "Red MxError / Parse Syntax in Monitoring and Notification UI",
+"updated_at": "2026-02-24T09:42:18.630-06:00",
+"url": "https://stspg.io/pklkpqwr5sx7"
+},
+"vxk1l0dnlqdp": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-11T16:00:00.765-05:00",
+"resolved_inferred": false,
+"started_at": "2025-09-11T11:17:17.927-05:00",
+"state": "resolved",
+"title": "MxToolbox Outage 20250911",
+"updated_at": "2025-09-11T16:00:00.781-05:00",
+"url": "https://stspg.io/3qd1vh04n4c4"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "mxtoolbox",
+"status_url": "https://mxtoolbox.statuspage.io",
+"vendor": "MxToolbox"
+}

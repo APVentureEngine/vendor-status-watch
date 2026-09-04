@@ -1,0 +1,128 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "degraded"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "degraded"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"0wr2951ks8ss": {
+"body": "An issue with our hosting provider was identified and resolved, again our apologies for the disruption.\n\nNeed assistance with a Vistage-related technical issue? Reach out to our IT Support team! 888.261.3911 | support@vistage.com | chat.vistage.com Vistage IT Support is staffed M - F, 6 a.m. - 6 p.m. PT",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-01T17:07:26.653-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-01T16:53:43.682-07:00",
+"state": "resolved",
+"title": "Investigating MyVistage site connection error messages (unable to connect or unsupported protocol)",
+"updated_at": "2026-06-01T17:07:26.670-07:00",
+"url": "https://stspg.io/6d0hmfltssvn"
+},
+"263pk954sw1k": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-11T16:24:44.747-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-11T11:08:28.346-07:00",
+"state": "resolved",
+"title": "IT SERVICE ADVISORY: Vistage.com, MyVistage, ChairApp and other sites affected by Hosting Provider Issue",
+"updated_at": "2026-08-11T16:24:44.765-07:00",
+"url": "https://stspg.io/hg26dyfjjcxr"
+},
+"3xbgh7rg4z4q": {
+"body": "The campaign email send issue has now been resolved and any queued campaigns will send by tomorrow morning, affected Chairs are being contacted directly by the support team. Our apologies for the disruption, for further support please contact 888.261.3911 | support@vistage.com | chat.vistage.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-01T13:25:45.841-07:00",
+"resolved_inferred": false,
+"started_at": "2025-09-30T13:26:47.027-07:00",
+"state": "resolved",
+"title": "Chair App - email marketing campaigns not sending",
+"updated_at": "2025-10-01T13:25:45.857-07:00",
+"url": "https://stspg.io/fghnmthmnsnn"
+},
+"6p7q80315pxy": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-27T11:05:12.522-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-27T09:20:10.659-07:00",
+"state": "resolved",
+"title": "Chairapp certificate error preventing access",
+"updated_at": "2026-06-27T11:05:12.544-07:00",
+"url": "https://stspg.io/55nc1zrstw42"
+},
+"g3144n39b1vq": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-22T21:45:55.441-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-22T12:35:12.123-08:00",
+"state": "resolved",
+"title": "IT SERVICE ADVISORY: Microsoft 365 Services Outage",
+"updated_at": "2026-01-22T21:45:55.459-08:00",
+"url": "https://stspg.io/ldxpy064j7t9"
+},
+"hjq2cbkcpy18": {
+"body": "We have confirmed that the database and email flow issues are fully resolved, again our apologies for the disruption.\n\nNeed assistance with a Vistage-related technical issue? Reach out to our IT Support team! 888.261.3911 | support@vistage.com | chat.vistage.com Vistage IT Support is staffed M - F, 6 a.m. - 6 p.m. PT",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-28T14:54:43.673-07:00",
+"resolved_inferred": false,
+"started_at": "2026-05-28T09:24:40.472-07:00",
+"state": "resolved",
+"title": "MyVistage - intermittent database connection error",
+"updated_at": "2026-05-28T14:54:43.701-07:00",
+"url": "https://stspg.io/lgm9lcq0wcwt"
+},
+"tq1g7cy7vr3j": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-09T11:13:06.644-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-09T09:03:33.635-08:00",
+"state": "resolved",
+"title": "Chair Reports feature currently unavailable in Chair App",
+"updated_at": "2026-02-09T11:13:06.663-08:00",
+"url": "https://stspg.io/bwcmkhpxcgx4"
+},
+"vcjz5788fjkm": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-31T12:00:11.128-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-31T11:37:10.367-07:00",
+"state": "resolved",
+"title": "IT SERVICE ADVISORY: Friday, October 31 - MyVistage Performance Degradation",
+"updated_at": "2025-10-31T12:00:11.146-07:00",
+"url": "https://stspg.io/7mllyj09hqk5"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "Partially Degraded Service",
+"last_error": null,
+"last_state": "degraded",
+"platform": "statuspage",
+"slug": "vistage-worldwide-inc",
+"status_url": "https://status.vistage.com",
+"vendor": "Vistage Worldwide, Inc."
+}

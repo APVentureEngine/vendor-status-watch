@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Magensa incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/magensa/</link><description>Incidents from Magensa's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Non-Magensa - Worldpay incident. [resolved]</title><link>https://stspg.io/l6n0ps3gf1jq</link><guid isPermaLink="false">magensa:2026-08-19T16:48:11.311Z</guid><pubDate>Wed, 19 Aug 2026 16:48:11 +0000</pubDate><description>Worldpay update: Resolved.
+
+Incident Start:  2026-08-19 16:09:00 UTC | 2026-08-19 12:09:00 EDT
+
+Platform Affected:  Integrated Payments - Transaction Authorizations
+
+Issue:  There is an increase in failures for transaction authorizations processing on the Integrated Payments - Express, MercuryPay, and triPOS Cloud platforms.
+
+Status:  Final
+
+Impact:  Some transactions may have been declined.
+
+Actions Taken to Restore Service:  Traffic was redirected to mitigate the impact to clients. Worldpay technical resources will continue to monitor the environment for stability.
+
+Incident Resolved:  2026-08-19 16:40:00 UTC | 2026-08-19 12:40:00 EDT</description></item><item><title>Service interruption [postmortem]</title><link>https://stspg.io/b0tbfmrfx7pv</link><guid isPermaLink="false">magensa:2026-07-23T15:15:03.705Z</guid><pubDate>Thu, 23 Jul 2026 15:15:03 +0000</pubDate><description>Microsoft identified a recent change that was strongly correlated with the onset of impact. They have completed the rollback of this change and telemetry across services are continuing to show signs of recovery.
+
+Magensa Customers should observe recovery at this time.
+
+We are closely monitoring service health and will provide additional updates if necessary.</description></item><item><title>Non-Magensa Incident: WorldPay, element Express, slow response times. [resolved]</title><link>https://stspg.io/vk7pp64rlw60</link><guid isPermaLink="false">magensa:2026-05-20T07:30:00.000Z</guid><pubDate>Wed, 20 May 2026 07:30:00 +0000</pubDate><description>From WorldPay Incident Communications:
+
+Final
+Incident #: INC0505900 
+Incident Start:  2026-05-20 07:42:00 UTC | 2026-05-20 03:42:00 EDT
+
+Platform Affected:  Integrated Payments - Express, MercuryPay, triPOS Cloud
+Issue:  There was an incident affecting transaction processing on the Integrated Payments - Express, MercuryPay and triPOS Cloud platforms.
+
+Status:  Final
+
+Impact:  Some transactions may have resulted in an error.
+Actions Taken to Restore Service:  Worldpay technical resources identified an unexpected issue during a scheduled change event. Worldpay will continue to monitor the processing environment for stability.
+
+Incident Resolved:  2026-05-20 08:12:00 UTC | 2026-05-20 04:12:00 EDT
+
+Worldpay Incident Communication Management
+Global Command Center</description></item><item><title>Magensa service degradation [resolved]</title><link>https://stspg.io/mz3cl6txqvnm</link><guid isPermaLink="false">magensa:2026-04-05T19:00:00.000Z</guid><pubDate>Sun, 05 Apr 2026 19:00:00 +0000</pubDate><description>Slow/Intermittent transaction processing. Impacted services: MPPG, Unigate, DAF, Decrypt
+
+Network connections may have been delayed or rejected resulting in retries or failures (500 errors).</description></item><item><title>Magensa Unigate Service Down. [resolved]</title><link>https://stspg.io/6sc7d61z1f75</link><guid isPermaLink="false">magensa:2026-04-01T18:08:03.602Z</guid><pubDate>Wed, 01 Apr 2026 18:08:03 +0000</pubDate><description>As of 11:28am PT, this incident was resolved</description></item><item><title>Magensa Decryption, Intermittent errors reported. [resolved]</title><link>https://stspg.io/hh02qgn2v55f</link><guid isPermaLink="false">magensa:2026-03-25T16:26:53.310Z</guid><pubDate>Wed, 25 Mar 2026 16:26:53 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Non-Magensa transaction errors during processing to HeartlandPortico endpoint impacting MPPGv3/v4 and DAFv3/v4 [resolved]</title><link>https://stspg.io/8knp04p7j18y</link><guid isPermaLink="false">magensa:2025-11-10T16:10:37.917Z</guid><pubDate>Mon, 10 Nov 2025 16:10:37 +0000</pubDate><description>It appears the Heartland processing issue has been resolved.</description></item><item><title>Magensa Azure DC intermittent connection failures [resolved]</title><link>https://stspg.io/vfgbr34fmq22</link><guid isPermaLink="false">magensa:2025-10-27T21:07:45.065Z</guid><pubDate>Mon, 27 Oct 2025 21:07:45 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Magensa Services Unavailable [resolved]</title><link>https://stspg.io/96xztf3131nh</link><guid isPermaLink="false">magensa:2025-10-15T19:21:14.302Z</guid><pubDate>Wed, 15 Oct 2025 19:21:14 +0000</pubDate><description>Connectivity restored.</description></item><item><title>Customer Reported Connectivity Issues - researching. [resolved]</title><link>https://stspg.io/tcvgdtx55ywp</link><guid isPermaLink="false">magensa:2025-09-17T17:44:01.398Z</guid><pubDate>Wed, 17 Sep 2025 17:44:01 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Intermittent Processing Errors [resolved]</title><link>https://stspg.io/669zftvkgrkd</link><guid isPermaLink="false">magensa:2025-09-17T01:30:00.000Z</guid><pubDate>Wed, 17 Sep 2025 01:30:00 +0000</pubDate><description>Intermittent processing errors with message similar to &quot;Unable to read data from the transport connection&quot; causing transaction failures has been resolved.</description></item><item><title>TSYS Processing errors (721) [resolved]</title><link>https://stspg.io/hc19sfr312nb</link><guid isPermaLink="false">magensa:2025-08-12T23:58:16.585Z</guid><pubDate>Tue, 12 Aug 2025 23:58:16 +0000</pubDate><description>Appears TSYS processing issue is resolved.</description></item></channel></rss>

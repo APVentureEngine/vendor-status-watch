@@ -1,0 +1,103 @@
+{
+"vendor": "Paycor",
+"slug": "paycor",
+"platform": "statuspage",
+"status_url": "https://status.recruitingbypaycor.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-30T12:51:52.850-04:00",
+"resolved_inferred": false,
+"started_at": "2026-06-30T11:25:52.654-04:00",
+"state": "resolved",
+"title": "In-Development Updates Temporarily Enabled in Production",
+"updated_at": "2026-06-30T12:51:52.863-04:00",
+"url": "https://stspg.io/05zq7fdmjktd"
+},
+{
+"body": "This incident is resolved and all transferred hires are appearing in the New Hire bucket in Onboarding.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-26T11:42:59.225-04:00",
+"resolved_inferred": false,
+"started_at": "2026-06-25T14:14:55.787-04:00",
+"state": "resolved",
+"title": "Transfer Hires to Paycor",
+"updated_at": "2026-06-26T11:42:59.241-04:00",
+"url": "https://stspg.io/vdrj2dqwd695"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-15T19:18:25.464-04:00",
+"resolved_inferred": false,
+"started_at": "2026-05-15T12:13:12.478-04:00",
+"state": "resolved",
+"title": "Heavier than normal traffic load",
+"updated_at": "2026-05-15T19:18:25.480-04:00",
+"url": "https://stspg.io/xddh00k5dgvf"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-02T13:03:18.033-05:00",
+"resolved_inferred": false,
+"started_at": "2026-03-02T10:19:55.831-05:00",
+"state": "resolved",
+"title": "Gravity App Outage",
+"updated_at": "2026-03-02T13:03:18.051-05:00",
+"url": "https://stspg.io/py6dtf26h36k"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-02T18:44:38.777-05:00",
+"resolved_inferred": false,
+"started_at": "2026-01-02T14:06:37.316-05:00",
+"state": "resolved",
+"title": "Slow Loading Candidate Profiles",
+"updated_at": "2026-01-02T18:44:38.793-05:00",
+"url": "https://stspg.io/jltxfgr0yw82"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-04T02:03:01.835-05:00",
+"resolved_inferred": false,
+"started_at": "2025-12-03T09:46:37.962-05:00",
+"state": "resolved",
+"title": "Candidate Indexing Delays",
+"updated_at": "2025-12-04T02:03:01.851-05:00",
+"url": "https://stspg.io/gy90rsj8djqb"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-10T09:27:47.617-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-09T15:56:59.817-04:00",
+"state": "resolved",
+"title": "Integrated Background Check Submissions",
+"updated_at": "2025-10-10T09:27:47.639-04:00",
+"url": "https://stspg.io/dtzf5bjpwtnc"
+}
+]
+}

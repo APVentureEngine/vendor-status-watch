@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"5d87zmv3jllm": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T00:39:26.485Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T12:36:23.786Z",
+"state": "resolved",
+"title": "Lifesize cloud Platform \u2013 Service Interruption",
+"updated_at": "2025-10-21T00:39:26.506Z",
+"url": "https://stspg.io/vjdtypmyrhbr"
+},
+"h9drrklsj2cr": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-25T16:32:54.510Z",
+"resolved_inferred": false,
+"started_at": "2026-03-25T14:15:20.221Z",
+"state": "resolved",
+"title": "Call Management Service Issue \u2013 Users in the EU region are unable to join Teams, Zoom, or Google meetings using Icon devices.",
+"updated_at": "2026-03-25T16:32:54.538Z",
+"url": "https://stspg.io/tlq482fn25rg"
+},
+"t2vyb8w4ldq4": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-17T17:36:26.784Z",
+"resolved_inferred": false,
+"started_at": "2026-03-17T13:52:34.598Z",
+"state": "resolved",
+"title": "Call management service users from US unable to connect to meetings",
+"updated_at": "2026-03-17T17:36:26.800Z",
+"url": "https://stspg.io/5s0825qznnf6"
+},
+"v6vs0grrglkb": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-21T17:21:23.949Z",
+"resolved_inferred": false,
+"started_at": "2026-01-21T13:52:08.111Z",
+"state": "resolved",
+"title": "Call management service users from US unable to connect to meetings",
+"updated_at": "2026-01-21T17:21:23.969Z",
+"url": "https://stspg.io/lhxxgd92cq4z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "lifesize-cloud",
+"status_url": "http://status.lifesizecloud.com",
+"vendor": "lifesize-cloud"
+}

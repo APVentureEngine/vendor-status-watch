@@ -1,0 +1,240 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01K30R1F4HZ0FK0KGQ49MRGQ62": {
+"body": "The issue affecting Tables and Timelines has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-19T09:37:50Z",
+"resolved_inferred": false,
+"started_at": "2025-08-19T08:44:56Z",
+"state": "resolved",
+"title": "Issues with Tables and Timelines in EU region",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01K4S5A309MDBN7BZ55C5Q2EFD": {
+"body": "The Learning centre issue affecting users in Japanese and Portuguese languages has now been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-10T07:04:02Z",
+"resolved_inferred": false,
+"started_at": "2025-09-10T06:34:18Z",
+"state": "resolved",
+"title": "Issue with creating support requests for customers with language set to Japanese",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01K80CZ70SR41FT8JBV97YJZMA": {
+"body": "Earlier disruptions were due to a significant Amazon Web Services outage. While AWS is completing their remediation, the majority of their services are now operational and we have observed recovery in multiple third-party systems.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T11:01:06Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T08:49:57Z",
+"state": "resolved",
+"title": "Potential Service Disruptions (External Incident)",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01K81BQFCS8P3JDDJFGFWF6VMV": {
+"body": "Following the completion of the rollout of a fix to all enterprise customers, the degradation affecting user search has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T15:30:45Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T17:47:29Z",
+"state": "resolved",
+"title": "User search degradation",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01K81J86Q4Y53CZGTXS2X7RBT5": {
+"body": "The issue affecting core Miro functionality has now been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T00:29:43Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T19:41:29Z",
+"state": "resolved",
+"title": "Miro degraded",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01K8T9K84X7XJB90J0KGT0QCSY": {
+"body": "Everything is operational again. Thank you for your patience!",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T11:11:21Z",
+"resolved_inferred": false,
+"started_at": "2025-10-30T10:11:14Z",
+"state": "resolved",
+"title": "Application degradation in the US data residency",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KABMWHYWEXDX4PBHQ2JTH5Z4": {
+"body": "Our services have returned to normal. We will continue to monitor the Cloudflare updates and change the status accordingly if needed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T17:30:48Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T14:11:21Z",
+"state": "resolved",
+"title": "Ongoing incident with one of our providers - Cloudflare",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KCKY2CTE9QFX3W0FH4W2AJ6T": {
+"body": "The degradation affecting our services has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-16T16:20:00Z",
+"resolved_inferred": false,
+"started_at": "2025-12-16T15:57:08Z",
+"state": "resolved",
+"title": "Degraded service in US region",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KD4VCDPFY0JFB5R9BY2166QT": {
+"body": "The issue affecting certain upgrade/trial start scenarios has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-23T10:33:33Z",
+"resolved_inferred": false,
+"started_at": "2025-12-23T05:37:17Z",
+"state": "resolved",
+"title": "Inability to upgrade/reactivate accounts from free/startup tier and start trials",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KFKC5JB1JDNFY7KB1J2PK55B": {
+"body": "The _issue_ affecting Enterprise Guard customers has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-22T22:13:55Z",
+"resolved_inferred": false,
+"started_at": "2026-01-22T17:31:23Z",
+"state": "resolved",
+"title": "Enterprise Guard Admin Console issues",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KHBGSP4C6WA0PXCPJ3NZC5K4": {
+"body": "The performance degradation affecting Public API and MCP Server has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-13T15:45:05Z",
+"resolved_inferred": false,
+"started_at": "2026-02-13T12:49:45Z",
+"state": "resolved",
+"title": "Calls to Public API and MCP server are failing",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KJD245QK5ZAEPPHNPVA8H7JB": {
+"body": "The Performance Degradation affecting MCP server has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-26T13:36:04Z",
+"resolved_inferred": false,
+"started_at": "2026-02-26T13:27:31Z",
+"state": "resolved",
+"title": "MCP server performance degraded",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KJWXGPVC0QZMDWH3XQNTCM1J": {
+"body": "Issue is resolved. ",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-04T17:41:39Z",
+"resolved_inferred": false,
+"started_at": "2026-03-04T17:14:50Z",
+"state": "resolved",
+"title": "Issue affecting our service performance",
+"updated_at": "2026-03-12T18:19:29Z"
+},
+"01KKHEQEPYS4BC7ANWTRANAAHY": {
+"body": "Incident was resolved. Thank you for your patience. Board functionality is back to normal.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-12T19:49:00Z",
+"resolved_inferred": false,
+"started_at": "2026-03-12T16:40:25Z",
+"state": "resolved",
+"title": "Board access issue",
+"updated_at": "2026-03-12T19:49:00Z"
+},
+"01KQAAGPH5QCZE34W1TRM0EA1Q": {
+"body": "Following continued monitoring after mitigation was applied, we can confirm that the issue has been fully resolved and all affected AI-powered functionality is operating normally. We apologize again for the inconvenience caused.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-28T15:38:47Z",
+"resolved_inferred": false,
+"started_at": "2026-04-28T15:14:56Z",
+"state": "resolved",
+"title": "Some users experienced issues with AI features",
+"updated_at": "2026-04-28T15:38:47Z"
+},
+"01KQSWV9S3DGDDJ6WDQ6NEQD1E": {
+"body": "The partial outage affecting Miro has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-04T19:01:22Z",
+"resolved_inferred": false,
+"started_at": "2026-05-04T16:23:54Z",
+"state": "resolved",
+"title": "Miro is partially down",
+"updated_at": "2026-05-04T19:01:22Z"
+},
+"01KS5HMCMPZTHS7FX5B5HSYTWP": {
+"body": "The issue affecting Miro AI has been fully resolved. We apologize for the inconvenience caused and appreciate your understanding. If you continue to experience any issues, please reach out to our support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-21T18:56:18Z",
+"resolved_inferred": false,
+"started_at": "2026-05-21T15:14:28Z",
+"state": "resolved",
+"title": "Functionality degradation in Miro AI",
+"updated_at": "2026-05-21T18:56:18Z"
+},
+"01M1C3Q046HQDEZ69N9ZNFK5H2": {
+"body": "The issue affecting user registrations and logins has been resolved. Normal system operations have resumed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-31T15:57:15Z",
+"resolved_inferred": false,
+"started_at": "2026-08-31T14:31:29Z",
+"state": "resolved",
+"title": "Intermittent Issues with User Registration and Login",
+"updated_at": "2026-08-31T15:57:15Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "miro",
+"status_url": "https://status.miro.com",
+"vendor": "Miro"
+}

@@ -1,0 +1,193 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"1v32bgz02f37": {
+"body": "The issue affecting inbound calls in Hong Kong and Israel has now been fully resolved.\n\nTesting and monitoring confirm that services are operating normally, with calls connecting as expected.\n\nWe will continue to monitor to ensure ongoing stability. If you experience any further issues, please contact servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-20T12:29:18.519Z",
+"resolved_inferred": false,
+"started_at": "2026-03-20T09:25:53.033Z",
+"state": "resolved",
+"title": "Possible service disruption in South Korea and Israel",
+"updated_at": "2026-03-20T12:29:18.538Z",
+"url": "https://stspg.io/q28s0c0zdll5"
+},
+"4p7sc7mmfpmv": {
+"body": "Vivo has implemented an anti-spam call filtering system that is affecting call completion to Vivo mobile numbers across Brazil. This is an industry-wide issue affecting all telecom operators, not something specific to LoopUp or any single carrier partner.\n\nImpact: \nCustomers may experience calls to Vivo mobile numbers in Brazil failing to connect or ring.\n\nWhat we're doing: \nWe're monitoring the situation alongside our carrier partners and will update you if Vivo's filtering criteria change or a resolution timeline emerges. There is currently no fix timeline, as this is a unilateral change on Vivo's network.\n\nWhat customers can do: \nIf a specific number needs to be reviewed, Vivo offers a business unblock request form at vivo.com.br/para-empresas/modo-seguro/anti-spam, requiring the CNPJ, company name, and the affected number.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-25T08:17:36.947Z",
+"resolved_inferred": false,
+"started_at": "2026-08-25T08:17:36.896Z",
+"state": "resolved",
+"title": "Call completion issues to Vivo network numbers in Brazil",
+"updated_at": "2026-08-25T08:17:36.957Z",
+"url": "https://stspg.io/gy74ggdft025"
+},
+"4s2vcfrcdrlt": {
+"body": "We\u2019re pleased to confirm that the assessment has been fully completed and all functionality has now been restored.\n\nWe apologize for any inconvenience this may have caused. This audit is an essential part of telephony operations in China, ensuring compliance with national standards and regulations so that our service remains trusted, robust, and compliant.\n\nThank you for your patience and cooperation throughout this process. If you experience any further issues, please contact us at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T09:07:03.299Z",
+"resolved_inferred": false,
+"started_at": "2025-09-17T13:55:14.037Z",
+"state": "resolved",
+"title": "Potential Service Impact in China",
+"updated_at": "2025-10-21T09:07:03.318Z",
+"url": "https://stspg.io/4yr3nvyml514"
+},
+"7hq4bl1c7yd1": {
+"body": "The issue impacting inbound calls has now been resolved. Callers should no longer be routed to the 'Welcome to LoopUp' prompt and calls are connecting to their intended destinations as normal.\n\nWe will follow up directly with affected customers to explain what happened and outline the steps we are taking to prevent a recurrence.\n\nWe apologise for any inconvenience caused. Our Service Desk Team remain available 24/7 at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-22T12:26:27.980Z",
+"resolved_inferred": false,
+"started_at": "2026-08-21T21:57:55.548Z",
+"state": "resolved",
+"title": "Cloud Telephony \u2013 Inbound Call Routing \u2013 Partial Service Degradation",
+"updated_at": "2026-08-22T12:26:27.999Z",
+"url": "https://stspg.io/vnxlhk0g3xzp"
+},
+"9kvq0s5t447m": {
+"body": "The issue affecting a subset of inbound calls to UK numbers has now been resolved. The temporary workaround has been removed, and services are operating normally.\n\nTesting and monitoring confirm that call routing and audio are stable across the platform. If you experience any further issues, please contact servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-28T09:32:03.680Z",
+"resolved_inferred": false,
+"started_at": "2026-05-27T14:12:50.891Z",
+"state": "resolved",
+"title": "Cloud Telephony - Some Calls to UK Numbers Connecting Without Audio",
+"updated_at": "2026-05-28T09:32:03.697Z",
+"url": "https://stspg.io/rd2ftvt98w5w"
+},
+"9pjpw5m5mssh": {
+"body": "We believe the issue has now been resolved. Testing indicates that services are functioning normally, with calls completing successfully across the network.\n\nWe will continue to monitor the situation to ensure stability. If you experience any further issues, please contact us at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-10T10:45:24.926Z",
+"resolved_inferred": false,
+"started_at": "2026-03-10T08:41:52.290Z",
+"state": "resolved",
+"title": "South Africa - Network Issue",
+"updated_at": "2026-03-10T10:45:24.945Z",
+"url": "https://stspg.io/sht6sd14gynj"
+},
+"bhdck1lb7kcn": {
+"body": "Our monitoring indicates that the Cloudflare issue affecting LoopUp One has now been resolved and full service has been restored.\n\nIf you experience any further issues, please contact us at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-19T09:04:05.062Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T14:36:39.992Z",
+"state": "resolved",
+"title": "Cloudflare Outage Impacting LoopUp Admin Portal",
+"updated_at": "2025-11-19T09:04:05.077Z",
+"url": "https://stspg.io/7d936d4yxrd9"
+},
+"ckfc36n26nhk": {
+"body": "We believe that all impacted service areas are now operational. Should you require additional information or wish to report a new issue, please contact our Support Team at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-27T16:49:48.838Z",
+"resolved_inferred": false,
+"started_at": "2026-01-27T09:18:13.735Z",
+"state": "resolved",
+"title": "Cloud Telephony - APAC - Call failures impacting outbound calling in China",
+"updated_at": "2026-01-27T16:49:48.856Z",
+"url": "https://stspg.io/b8lll3t969gs"
+},
+"j8g1gqxvnvhn": {
+"body": "Following monitoring, it appears that full portal functionality has now been restored as of 23:15 UTC on 29th October 2025. Will continue to monitor performance closely.\n\nFor more information on the root cause and a full post incident review (PIR), please refer to https://azure.status.microsoft/en-us/status/history/.\n\nIf you encounter any new issues, please contact us at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T08:24:58.562Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T16:15:29.171Z",
+"state": "resolved",
+"title": "Cloud Telephony - Intermittent load issues impacting the LoopUp Admin Portal (admin.loopup.com and one.loopup.com)",
+"updated_at": "2025-10-30T08:24:58.580Z",
+"url": "https://stspg.io/grjx7yvxr0c2"
+},
+"p9gmp8wmld06": {
+"body": "The issue affecting inbound calls in South Korea has now been fully resolved. Testing and monitoring confirm that services are operating normally, with calls connecting as expected.\n\nWe will continue to monitor to ensure ongoing stability. If you experience any further issues, please contact servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-24T09:53:59.978Z",
+"resolved_inferred": false,
+"started_at": "2026-03-23T11:31:59.362Z",
+"state": "resolved",
+"title": "Cloud Telephony - South Korea - Service disruption impacting inbound calls",
+"updated_at": "2026-03-24T09:53:59.994Z",
+"url": "https://stspg.io/mb8bw67l08s5"
+},
+"qf2kql257p11": {
+"body": "We believe that all CDR data has now been restored. Will continue to monitor performance closely. If you encounter any further issues, please contact us at servicedesk@loopup.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-09T08:30:53.784Z",
+"resolved_inferred": false,
+"started_at": "2026-03-05T08:46:42.502Z",
+"state": "resolved",
+"title": "Cloud Telephony - Admin Portal - Reporting Dashboard",
+"updated_at": "2026-03-09T08:30:53.799Z",
+"url": "https://stspg.io/t2l9nwrrp3hc"
+},
+"rk2j4h1svz7p": {
+"body": "We believe that full portal functionality has now been restored. Will continue to monitor performance closely.\n\nIf you encounter any further issues, please contact us at servicedesk@loopup.com.\n\nFor updates on the root cause and future mitigations, please refer to https://azure.status.microsoft/en-us/status",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-09T14:23:46.869Z",
+"resolved_inferred": false,
+"started_at": "2025-10-09T08:41:43.118Z",
+"state": "resolved",
+"title": "Cloud Telephony - Intermittent load issues impacting the LoopUp Admin Portal (admin.loopup.com and one.loopup.com)",
+"updated_at": "2025-10-09T14:23:46.887Z",
+"url": "https://stspg.io/8rfw42593dv0"
+},
+"vc8v548056hx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-20T16:05:35.973Z",
+"resolved_inferred": false,
+"started_at": "2025-11-20T10:38:43.806Z",
+"state": "resolved",
+"title": "Cloud Telephony - Intermittent load issues impacting the LoopUp Admin Portal (admin.loopup.com and one.loopup.com)",
+"updated_at": "2025-11-20T16:05:35.991Z",
+"url": "https://stspg.io/r0my0lmrnz9y"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "loopup",
+"status_url": "https://status.loopup.com",
+"vendor": "loopup"
+}

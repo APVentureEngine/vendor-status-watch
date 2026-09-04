@@ -1,0 +1,168 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01K74P7S0YPS337NJYD6PW96HZ": {
+"body": "The GreyNoise API is fully operational.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-09T15:02:34Z",
+"resolved_inferred": false,
+"started_at": "2025-10-09T14:33:10Z",
+"state": "resolved",
+"title": "GreyNoise API Outage",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01K80X9HF21PB3P1SKWXT3NYCQ": {
+"body": "AWS has recovered from their outage. GreyNoise services are fully operational. Greynoise sensor data from during the outage window has been processed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T00:11:44Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T13:35:12Z",
+"state": "resolved",
+"title": "Sporadic Issues from AWS Outage",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01K8R44FYGD0ER6F3TPH9R9QE2": {
+"body": "Bulk data processing has caught up",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-29T14:30:15Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T13:57:19Z",
+"state": "resolved",
+"title": "Delay in processing bulk data",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KC6GRWEN8BBNX3FTGQEVM1Q8": {
+"body": "Our data service has been restored to real time.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-11T17:59:18Z",
+"resolved_inferred": false,
+"started_at": "2025-12-11T10:54:38Z",
+"state": "resolved",
+"title": "Delay in processing data",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KEFP4T42SZ0WF3Y4Y1YSCGW7": {
+"body": "The issue with Visualizer logins is resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-08T22:10:17Z",
+"resolved_inferred": false,
+"started_at": "2026-01-08T20:53:05Z",
+"state": "resolved",
+"title": "Visualizer Login Outage",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KJ9JDG6H70G9CF4FYM8MTVZY": {
+"body": "Bulk data backfill is complete. Overall platform data processing is performance is restored.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-25T15:06:49Z",
+"resolved_inferred": false,
+"started_at": "2026-02-25T04:55:16Z",
+"state": "resolved",
+"title": "Delayed Data Processing",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KJDE7XR1E7RB592TZCC1CC0P": {
+"body": "Data backfill is complete. All bulk data hours are available.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-27T01:32:09Z",
+"resolved_inferred": false,
+"started_at": "2026-02-26T16:59:17Z",
+"state": "resolved",
+"title": "Data Processing Delays",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KJXJN1GZPRN6V470ZAA561HG": {
+"body": "Bulk data file processing is complete for all impacted hours and pipeline data delivery is stable.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-05T16:39:07Z",
+"resolved_inferred": false,
+"started_at": "2026-03-04T23:24:12Z",
+"state": "resolved",
+"title": "Data Processing Delayed",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KKC7NCCZ90WMCCHJ7MSG1T8F": {
+"body": "The Visualizer is fully operational.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-10T16:19:23Z",
+"resolved_inferred": false,
+"started_at": "2026-03-10T16:00:45Z",
+"state": "resolved",
+"title": "Visualizer Errors",
+"updated_at": "2026-03-12T18:18:41Z"
+},
+"01KP941JW44C20KB9R7WVXCBMB": {
+"body": "We have confirmed resolution of the issue that led to the errors.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-15T21:12:16Z",
+"resolved_inferred": false,
+"started_at": "2026-04-15T17:46:53Z",
+"state": "resolved",
+"title": "Intermittent IP Details Page Failures",
+"updated_at": "2026-04-15T21:12:16Z"
+},
+"01KV6ZA8Q96M5S6Z6F8Y7ZYS2M": {
+"body": "Data backlog processing has completed and bulk data exports are available.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-16T07:11:09Z",
+"resolved_inferred": false,
+"started_at": "2026-06-16T01:04:15Z",
+"state": "resolved",
+"title": "Delayed Data Processing",
+"updated_at": "2026-06-16T07:11:09Z"
+},
+"01KZEEQMAYQVK5QF969C0VT322": {
+"body": "The issue was tracked down to DoS-level traffic to our API.  We\u2019ve temporarily suspended the accounts generating that traffic, and will be implementing stricter rate limiting of API calls to prevent future occurrences.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-07T16:55:13Z",
+"resolved_inferred": false,
+"started_at": "2026-08-07T15:51:09Z",
+"state": "resolved",
+"title": "API Outage",
+"updated_at": "2026-08-07T16:55:13Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "greynoise",
+"status_url": "https://status.greynoise.io",
+"vendor": "GreyNoise"
+}

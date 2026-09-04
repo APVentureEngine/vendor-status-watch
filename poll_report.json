@@ -1,0 +1,22 @@
+{
+ "at": "2026-09-04T07:16:22Z",
+ "polled": 812,
+ "parsed": 769,
+ "unknown": 43,
+ "seconds": 383.8,
+ "errors": {
+  "http 401": 19,
+  "moved: not a statuspage any more": 20,
+  "http 526": 1,
+  "moved: not an instatus page any more": 1,
+  "http 404": 2
+ },
+ "states": {
+  "ok": 682,
+  "maintenance": 27,
+  "degraded": 41,
+  "partial": 10,
+  "major": 4,
+  "unknown": 48
+ }
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cisco Systems incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/cisco-systems/</link><description>Incidents from Cisco Systems's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>[Cisco Secure Access] Investigate Dashboard Degradation [resolved]</title><link>https://stspg.io/jwf9q94k7vct</link><guid isPermaLink="false">cisco-systems:2026-09-01T18:01:59.000Z</guid><pubDate>Tue, 01 Sep 2026 18:01:59 +0000</pubDate><description>Between approximately 14:15 and 15:40 UTC, customers using the Investigate dashboard and associated data retrieval APIs may have experienced 503 errors, unavailable graphs or data, and errors when retrieving logs or graph information. The issue has been resolved, and service has returned to normal.</description></item><item><title>Cisco Secure Access Service Degradation – US East (Miami) DCv2 [resolved]</title><link>https://stspg.io/kvp0xgnjjj6z</link><guid isPermaLink="false">cisco-systems:2026-08-31T15:08:45.000Z</guid><pubDate>Mon, 31 Aug 2026 15:08:45 +0000</pubDate><description>The issue affecting Cisco Secure Access services in the US East (Miami) DCv2 region has been resolved as of 18:21 UTC.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access Remote Access VPN Service Degradation – US West (Oregon) [resolved]</title><link>https://stspg.io/981zqrb76jxs</link><guid isPermaLink="false">cisco-systems:2026-08-28T19:25:11.934Z</guid><pubDate>Fri, 28 Aug 2026 19:25:11 +0000</pubDate><description>The issue affecting Cisco Secure Access Remote Access VPN service in the US West (Oregon) region was resolved as of 18:11 UTC.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+We’re Here to Help
+If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Secure Access] – Firewall Policy Enforcement Issue - Global [resolved]</title><link>https://stspg.io/q4glb14w1p3n</link><guid isPermaLink="false">cisco-systems:2026-08-28T11:57:44.394Z</guid><pubDate>Fri, 28 Aug 2026 11:57:44 +0000</pubDate><description>The issue affecting Firewall as a Service has been resolved. Service has returned to normal operation. 
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>[Cisco Secure Access] – Private Resource Access Issue - Global [resolved]</title><link>https://stspg.io/0tp5lbhm65ft</link><guid isPermaLink="false">cisco-systems:2026-08-25T12:24:02.237Z</guid><pubDate>Tue, 25 Aug 2026 12:24:02 +0000</pubDate><description>The incident has been resolved at 13:25 UTC</description></item><item><title>Cisco Secure Access – Policy Enforcement Traffic Disruption – United Kingdom [resolved]</title><link>https://stspg.io/thfcgjl5ct8g</link><guid isPermaLink="false">cisco-systems:2026-08-25T03:40:09.712Z</guid><pubDate>Tue, 25 Aug 2026 03:40:09 +0000</pubDate><description>The issue affecting the Policy Enforcement service for some customers connecting through the London data center has been resolved as of 22:46 UTC on August 24, 2026.
+Between 22:37 UTC and 22:46 UTC, affected customers may have experienced intermittent traffic disruption through the firewall service. The impacted workload was moved to a healthy infrastructure node, and all services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - Traffic Degradation for 6 minutes in US Virginia [resolved]</title><link>https://stspg.io/skr48brs5nyf</link><guid isPermaLink="false">cisco-systems:2026-08-24T12:55:59.196Z</guid><pubDate>Mon, 24 Aug 2026 12:55:59 +0000</pubDate><description>The issue has been resolved. 
+
+Customers in US Virginia DC may have experienced  traffic degradation due to a service health-check failure that caused traffic handling to move to a healthy node between 9:52 UTC to 9:58 UTC, when the issue got resolved.
+
+No customer action is required.</description></item><item><title>Cisco Secure Access - Policy Update Delays - Johannesburg [resolved]</title><link>https://stspg.io/095vbj2hcd1d</link><guid isPermaLink="false">cisco-systems:2026-08-21T17:09:28.979Z</guid><pubDate>Fri, 21 Aug 2026 17:09:28 +0000</pubDate><description>The network issue affecting Cisco Secure Access policy update processing in Johannesburg, South Africa has been resolved. New and updated policy changes are now applying as expected. 
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>[Cisco Secure Access] – Data Classification Accuracy Issue (DSPM) [resolved]</title><link>https://stspg.io/7x9fnpvsb9sz</link><guid isPermaLink="false">cisco-systems:2026-08-21T13:27:18.000Z</guid><pubDate>Fri, 21 Aug 2026 13:27:18 +0000</pubDate><description>Between 12:12 UTC and 13:15 UTC, customers may have experienced default document classification values for some files in the DSPM dashboard. All other DSPM functions remained fully operational throughout this period. The issue affecting document classification within the Data Security Posture Management (DSPM) service is now resolved.
+
+ Affected files will be updated automatically as soon as any activity on the file happens. No customer action is required.
+
+We sincerely appreciate your patience and understanding.</description></item><item><title>Cisco Secure Access - Dashboard logging issue - China ( Beijng ) [resolved]</title><link>https://stspg.io/zgnl8pfttmw4</link><guid isPermaLink="false">cisco-systems:2026-08-17T06:13:00.290Z</guid><pubDate>Mon, 17 Aug 2026 06:13:00 +0000</pubDate><description>The issue affecting Dashboard service with web proxy log in China data Center has been resolved.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Secure Access] - Intermittent Website Access Issues with Reserved IP [resolved]</title><link>https://stspg.io/r8mzg2pjsndw</link><guid isPermaLink="false">cisco-systems:2026-08-17T01:20:17.413Z</guid><pubDate>Mon, 17 Aug 2026 01:20:17 +0000</pubDate><description>The issue affecting Website Access Issue in Tokyo region has been resolved.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Secure Access] - Intermittent Service Disruption in Multiple Regions [resolved]</title><link>https://stspg.io/r3s5938dclwm</link><guid isPermaLink="false">cisco-systems:2026-08-15T09:30:09.639Z</guid><pubDate>Sat, 15 Aug 2026 09:30:09 +0000</pubDate><description>All services in Frankfurt and previously affected sites are now fully restored. Connectivity and reporting are back to normal.
+
+We sincerely appreciate your patience and understanding.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Secure Access] - Intermittent Service Disruption in Europe (Germany) [resolved]</title><link>https://stspg.io/4cjq1tngxk7d</link><guid isPermaLink="false">cisco-systems:2026-08-15T03:18:04.521Z</guid><pubDate>Sat, 15 Aug 2026 03:18:04 +0000</pubDate><description>Traffic has been successfully redirected away from the affected data center, and all services have been stabilized as of 05:01 UTC. Customers should now experience normal service performance. 
+
+Reporting services may take a few hours to fully catch up. During this time, some log and report data may appear delayed. 
+
+We sincerely appreciate your patience and understanding.</description></item><item><title>[Cisco Secure Access] Remote Access VPN Connectivity Degradation - DCv2 Sites [resolved]</title><link>https://stspg.io/cym97r188t25</link><guid isPermaLink="false">cisco-systems:2026-08-09T01:37:02.000Z</guid><pubDate>Sun, 09 Aug 2026 01:37:02 +0000</pubDate><description>The issue affecting Remote Access VPN connectivity in the Miami, Reston, Dallas, and Jeddah data centers was resolved.
+
+Services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions, please contact our support team. Thank you for your understanding as we continue to improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - Intermittent Clientless Access and Enterprise Browser issues - US East and Canada [resolved]</title><link>https://stspg.io/rrt1ym0xl0jy</link><guid isPermaLink="false">cisco-systems:2026-08-05T16:50:23.080Z</guid><pubDate>Wed, 05 Aug 2026 16:50:23 +0000</pubDate><description>The impact has been mitigated and this incident has been resolved.
+
+Affected customers may have experienced intermittent failures when starting new Clientless Access or Enterprise Browser sessions, including some step-up login workflows, in the US East and Canada regions. Some onboarding-related workflows may also have experienced intermittent failures.
+
+Services have returned to normal operation.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>Cisco Secure Access - Traffic slowness in Japan region - Japan ( Osaka ) [resolved]</title><link>https://stspg.io/4ny0fx8qtsfw</link><guid isPermaLink="false">cisco-systems:2026-08-05T06:47:03.187Z</guid><pubDate>Wed, 05 Aug 2026 06:47:03 +0000</pubDate><description>The issue affecting traffic performance in the Japan (Osaka) region has been resolved as of 09:18 UTC. All services are now operating normally, with response times and throughput fully restored.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - Intermittent connectivity issues with Firewall and VPN services - India and Tokyo [resolved]</title><link>https://stspg.io/glj70vjmdc2j</link><guid isPermaLink="false">cisco-systems:2026-08-04T20:35:27.000Z</guid><pubDate>Tue, 04 Aug 2026 20:35:27 +0000</pubDate><description>We have mitigated the issue affecting Cisco Secure Access Firewall and VPN services in specific India and Tokyo locations.
+
+Affected customers may have experienced intermittent connectivity issues, including packet loss or temporary connection drops, for services associated with the csc_ap-south-1_1_0 location in India and the csc-apne1-1-0-0 location in Tokyo. This issue did not affect all Cisco Secure Access services or all customers in these regions.
+
+Remote Access VPN service has recovered in both affected locations, and services are currently stable. Our teams are continuing to monitor service health and have paused related maintenance activity while the incident is reviewed.
+
+We appreciate your patience and understanding during this time.</description></item><item><title>Cisco Secure Access- Traffic Disruption and VPN Connection Impact - US (Miami DCv2) [resolved]</title><link>https://stspg.io/lcnwxscprk4t</link><guid isPermaLink="false">cisco-systems:2026-08-04T06:11:38.923Z</guid><pubDate>Tue, 04 Aug 2026 06:11:38 +0000</pubDate><description>Impact has been resolved as of 12:18 UTC, Aug 4, 2026. Affected services have been successfully brought back into rotation as of 13:02 UTC, Aug 5, 2026. All services are healthy, and the environment is operating normally.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you continue to experience issues, please contact Cisco Support.</description></item><item><title>Cisco Secure Access - New Organization Creation Delay [resolved]</title><link>https://stspg.io/cd4r03jtgm0w</link><guid isPermaLink="false">cisco-systems:2026-07-31T18:41:40.254Z</guid><pubDate>Fri, 31 Jul 2026 18:41:40 +0000</pubDate><description>This issue has been resolved.
+
+Certificate issuance for Cisco Secure Access Remote Access VPN provisioning has returned to normal, and the certificate provisioning backlog has cleared. New Remote Access VPN region provisioning and first-time VPN setup workflows should now complete as expected.
+
+Existing VPN regions and active access were not expected to be impacted.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>Cisco Secure Access - [Completed Emergency Maintenance] US (Virginia) - From 2026-07-30 18:34 UTC to 2026-07-30 19:21 UTC Notification [resolved]</title><link>https://stspg.io/yvzf5trht0x4</link><guid isPermaLink="false">cisco-systems:2026-07-30T20:00:15.000Z</guid><pubDate>Thu, 30 Jul 2026 20:00:15 +0000</pubDate><description>This emergency maintenance activity was completed on July 30, 2026. We are publishing this notice retrospectively to provide customers with a complete record of the activity.
+
+&lt;b&gt;Maintenance Details&lt;/b&gt;
+Cisco performed emergency maintenance on the load-balancing infrastructure supporting internet traffic in the US East region. The activity addressed a known issue with the existing load balancer and involved removing the affected load-balancing component to restore service stability.
+
+&lt;b&gt;Date and Time&lt;/b&gt;
+July 30, 2026, from 18:34 UTC to 19:21 UTC.
+
+&lt;b&gt;Impact&lt;/b&gt;
+During the maintenance window, customers using the affected Secure Web Gateway data center may have experienced intermittent issues reaching internet destinations. Service has been restored, and no further customer action is requir</description></item><item><title>Cisco Secure Access - Microsoft 365 access issues with Copilot category blocking - Global [resolved]</title><link>https://stspg.io/w2hdb2plrnm2</link><guid isPermaLink="false">cisco-systems:2026-07-25T17:07:45.919Z</guid><pubDate>Sat, 25 Jul 2026 17:07:45 +0000</pubDate><description>This issue has been resolved.
+
+Cisco Secure Access customers with policies configured to block the &quot;M365 Copilot&quot; or &quot;Microsoft Copilot&quot; application categories should no longer experience related access issues with Microsoft 365 services.
+
+Customers who applied the previously provided workaround can review and restore their policy settings as appropriate for their organization’s security requirements.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>[Cisco Secure Access] – Network Infrastructure Issue - Global [resolved]</title><link>https://stspg.io/zb03ngjpf6qz</link><guid isPermaLink="false">cisco-systems:2026-07-24T11:34:15.114Z</guid><pubDate>Fri, 24 Jul 2026 11:34:15 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>[Cisco Secure Access] - Intermittent Service Degradation - Global [resolved]</title><link>https://stspg.io/1q434r8kb1mq</link><guid isPermaLink="false">cisco-systems:2026-07-15T15:27:22.909Z</guid><pubDate>Wed, 15 Jul 2026 15:27:22 +0000</pubDate><description>Mitigation actions have been completed, and Cisco Secure Access services are operating normally.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>[Cisco Secure Access] - Intermittent API call failures  - Global [resolved]</title><link>https://stspg.io/cyhrx5kb4fqq</link><guid isPermaLink="false">cisco-systems:2026-07-15T09:11:01.000Z</guid><pubDate>Wed, 15 Jul 2026 09:11:01 +0000</pubDate><description>The mitigation has been successfully completed across all regions, and the affected Identity service is operating normally.
+
+Policy processing for ZTA traffic, ZTNA enrollment, new policy creation, and new user connections have been restored. Existing configurations and ongoing data traffic remain unaffected.
+
+We appreciate your patience while we worked to resolve this issue.</description></item><item><title>Cisco Secure Access - Dashboard Issue - China [resolved]</title><link>https://stspg.io/wgql6bzrs6p0</link><guid isPermaLink="false">cisco-systems:2026-07-15T06:27:30.900Z</guid><pubDate>Wed, 15 Jul 2026 06:27:30 +0000</pubDate><description>The issue affecting the Cisco Secure Access Dashboard in the China data centers has been resolved.
+
+Services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - Policy Enforcement Issues - Asia Pacific (Tokyo) [resolved]</title><link>https://stspg.io/7dnrjm5pnncj</link><guid isPermaLink="false">cisco-systems:2026-07-15T03:22:48.991Z</guid><pubDate>Wed, 15 Jul 2026 03:22:48 +0000</pubDate><description>Between 01:40 and 02:05 UTC, we experienced intermittent policy evaluation failures in Tokyo region, resulting in fail-open conditions. During this period, some security policies may not have been applied for affected users, potentially impacting policy enforcement.
+
+Services is now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - Policy Enforcement Issues - Asia Pacific (Tokyo) [resolved]</title><link>https://stspg.io/sq0s1xm7ybmx</link><guid isPermaLink="false">cisco-systems:2026-07-14T02:59:48.879Z</guid><pubDate>Tue, 14 Jul 2026 02:59:48 +0000</pubDate><description>Between 01:40 and 02:05 UTC, we experienced intermittent policy evaluation failures in Tokyo region, resulting in fail-open conditions. During this period, some security policies may not have been applied for affected users, potentially impacting policy enforcement.
+
+Services is now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access- Dashboard Component Intermittent Issues - Global [resolved]</title><link>https://stspg.io/1mdpqk1350f0</link><guid isPermaLink="false">cisco-systems:2026-07-08T19:08:32.000Z</guid><pubDate>Wed, 08 Jul 2026 19:08:32 +0000</pubDate><description>The issue affecting dashboard component has been resolved.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Secure Access - UI Login Issues - Global [resolved]</title><link>https://stspg.io/2p11mkld9gj2</link><guid isPermaLink="false">cisco-systems:2026-07-08T16:30:49.505Z</guid><pubDate>Wed, 08 Jul 2026 16:30:49 +0000</pubDate><description>The single sign-on issue affecting Cisco Security Cloud access to the Secure Access UI has been resolved. Customers should now be able to log in successfully.
+
+Thank you for your patience and understanding.</description></item><item><title>Cisco Secure Access - VPN Connectivity Issues Affecting Private Application Access - Australia (Sydney) [resolved]</title><link>https://stspg.io/439lz9x5s8jw</link><guid isPermaLink="false">cisco-systems:2026-07-04T03:05:03.000Z</guid><pubDate>Sat, 04 Jul 2026 03:05:03 +0000</pubDate><description>The issue affecting Cisco Secure Access in Australia (Sydney) has been resolved.
+
+All services are now operating normally.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item></channel></rss>

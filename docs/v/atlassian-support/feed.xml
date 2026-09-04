@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Atlassian Support incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/atlassian-support/</link><description>Incidents from Atlassian Support's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/ycypwk2gvz95</link><guid isPermaLink="false">atlassian-support:2026-05-14T05:03:32.221Z</guid><pubDate>Thu, 14 May 2026 05:03:32 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Multiple Atlassian services are experiencing issues [postmortem]</title><link>https://stspg.io/sk0lcf8f0skk</link><guid isPermaLink="false">atlassian-support:2026-05-08T01:31:38.263Z</guid><pubDate>Fri, 08 May 2026 01:31:38 +0000</pubDate><description>All dates and times below are in UTC unless stated otherwise.
+
+### Summary
+
+On May 8, 2026 between 00:22 and 06:08, one of our hosting providers suffered a significant incident in a specific availability zone in prod-east which led to Atlassian customers experiencing degraded performance and delays of background operations and automation execution.
+
+The incident started on May 8, 2026 at 00:22 and was detected within 4 minutes by automated monitoring systems. Our teams worked to restore core access by 06:08. Final cleanup of backlogged processes and minor issues progressed in stages from there was completed iteratively by 19:15.
+
+### **IMPACT**
+
+The primary infrastructure affected in this incident was the event processing pipeline in the prod-east region, which distributes events between A</description></item><item><title>The Work Item view experience of Jira is restored [postmortem]</title><link>https://stspg.io/5bl24cvpgwpw</link><guid isPermaLink="false">atlassian-support:2026-05-02T01:38:27.814Z</guid><pubDate>Sat, 02 May 2026 01:38:27 +0000</pubDate><description>### SUMMARY
+
+###   
+
+Between May 1, 2026 at 23:34 UTC and May 2, 2026 at 02:53 UTC Atlassian customers using Jira and Jira Service Management (JSM) across all Cloud tenants received an error page when attempting to open a work item due to a schema incompatibility, and editing work item fields was degraded for both products. Navigating to and interacting with boards were degraded for Jira specifically. On Jira mobile, users were unable to view work items and work item search was degraded. This was caused by a deployment of a schema configuration change that had only been validated against some production environments.
+
+  
+
+The issue also affected Atlassian&#x27;s customer support operations and temporarily impacted Atlassian’s ability to respond to incoming support requests. Customers were able </description></item><item><title>Users experiencing issues with login across Atlassian products [postmortem]</title><link>https://stspg.io/rdnnmfyz76r3</link><guid isPermaLink="false">atlassian-support:2026-04-13T07:29:45.882Z</guid><pubDate>Mon, 13 Apr 2026 07:29:45 +0000</pubDate><description>### Summary
+
+On April 13, 2026, between 05:49 and 06:29 UTC, customers experienced failures when attempting to log in, sign up, reset passwords, and complete multi-factor authentication flows across Atlassian cloud products. Approximately 90% of authentication requests failed during the peak impact window, affecting users in the US East and EU regions. The incident was mitigated within 40 minutes through manual intervention, and full service was restored by 06:29 UTC.
+
+### **IMPACT**
+
+* **Duration**: ~40 minutes \(05:49–06:29 UTC, April 13, 2026\)
+* **Affected regions**: US East and EU \(authentication infrastructure serves EU traffic from US East, with traffic primarily from EU at this time of day\).
+* **Affected products**: All Atlassian cloud products requiring authentication, including</description></item><item><title>Confluence documentation and knowledge base is unavailable [resolved]</title><link>https://stspg.io/tynnp6w0tz4v</link><guid isPermaLink="false">atlassian-support:2026-04-02T01:49:20.929Z</guid><pubDate>Thu, 02 Apr 2026 01:49:20 +0000</pubDate><description>Our team has been able to successfully recover all services from confluence.atlassian.com and ja.confluence.atlassian.com and these sites are now performing as expected. This incident is now resolved.
+We apologize for any inconvenience that this issue may have caused.</description></item><item><title>Support Ticket creation is slow or partially impacted [resolved]</title><link>https://stspg.io/ph5l64fgyzb7</link><guid isPermaLink="false">atlassian-support:2025-12-17T13:48:38.385Z</guid><pubDate>Wed, 17 Dec 2025 13:48:38 +0000</pubDate><description>Team has reconfirmed everything is working as expected. This issue is resolved.</description></item><item><title>Multiple customer sites have lost access to Support tickets [resolved]</title><link>https://stspg.io/04xdhd8ks86b</link><guid isPermaLink="false">atlassian-support:2025-12-05T08:08:52.709Z</guid><pubDate>Fri, 05 Dec 2025 08:08:52 +0000</pubDate><description>The feature flag causing the issue has been reverted, fixing the problem. With that this incident is resolved.</description></item><item><title>Atlassian Community is experiencing the slowness on Forums [resolved]</title><link>https://stspg.io/kp5hgrqsd1xk</link><guid isPermaLink="false">atlassian-support:2025-11-06T19:36:32.503Z</guid><pubDate>Thu, 06 Nov 2025 19:36:32 +0000</pubDate><description>The issue has been resolved and there is no performance related slowness on Atlassian Community Forums now.</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/57ppvb7h9wgm</link><guid isPermaLink="false">atlassian-support:2025-10-20T07:56:12.455Z</guid><pubDate>Mon, 20 Oct 2025 07:56:12 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item><item><title>Loom Users on Chrome Extension Encountering Video Saving Delays [resolved]</title><link>https://stspg.io/c4m1g48r2sx8</link><guid isPermaLink="false">atlassian-support:2025-10-08T22:20:37.356Z</guid><pubDate>Wed, 08 Oct 2025 22:20:37 +0000</pubDate><description>We have resolved the incident. A new version of the Loom chrome extension has been approved and published to the Chrome Extension store. Update to the latest version(v5.5.142) of the extension.</description></item><item><title>Visibility of Support tickets and uploading attachments in Atlassian support portal is partially impacted [resolved]</title><link>https://stspg.io/nkhtlldhm8fr</link><guid isPermaLink="false">atlassian-support:2025-10-06T01:10:49.669Z</guid><pubDate>Mon, 06 Oct 2025 01:10:49 +0000</pubDate><description>We are closing this incident on Statuspage as the Atlassian Support portal functionality has been restored. 
+
+We are aware that the ticket attachments panel remains unavailable and that some customers may be receiving a &#x27;Something went wrong!&#x27; error message despite successfully uploading ticket attachments. We are working to resolve these UX issues. Atlassian Support is available for customers needing further assistance.</description></item></channel></rss>

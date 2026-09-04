@@ -1,0 +1,11 @@
+{
+"vendor": "SG Test",
+"slug": "sg-test",
+"platform": "statuspage",
+"status_url": "https://sgtest1.statuspage.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "partial",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

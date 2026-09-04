@@ -1,0 +1,7 @@
+{
+  "vendors": ["github", "openai", "twilio", "cloudflare"],
+  "format": "auto",
+  "map_url": "https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/vendors.json",
+  "unreachable_after": 3,
+  "mute_maintenance": false
+}

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sauce Labs incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/sauce-labs/</link><description>Incidents from Sauce Labs's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>2026-September-02 Service Incident [resolved]</title><link>https://stspg.io/7gpvwzpnd6r5</link><guid isPermaLink="false">sauce-labs:2026-09-02T09:39:15.089Z</guid><pubDate>Wed, 02 Sep 2026 09:39:15 +0000</pubDate><description>After taking remedial action, Real Device test error rates have returned to normal in the EU-Central-1 data center. All services are fully operational.</description></item><item><title>2026-August-25 Service Incident [postmortem]</title><link>https://stspg.io/2t9ydqgksldm</link><guid isPermaLink="false">sauce-labs:2026-08-25T12:33:24.168Z</guid><pubDate>Tue, 25 Aug 2026 12:33:24 +0000</pubDate><description>### **Dates:**
+
+Tuesday August 25th 2026, 11:38 – 13:10 UTC
+
+### **What happened:**
+
+Customers running macOS and iOS tests in our US-West region experienced degraded service. Roughly 50% of the virtual Mac capacity in the region stopped accepting new tests, so tests either queued or failed to start. Remaining capacity came under additional pressure as work shifted onto it, which extended start times for both desktop and simulator tests.
+
+### **Why it happened:**
+
+An internal security certificate used by our Mac hosts to reach a supporting cloud service reached its expiry date. Once it lapsed, the hosts could no longer establish a trusted connection to that service and stopped provisioning new test machines. The certificate had been issued manually and had neither automated renewal nor expi</description></item><item><title>2026-August-07 Service Incident [postmortem]</title><link>https://stspg.io/sq0702yxhnqg</link><guid isPermaLink="false">sauce-labs:2026-08-07T12:08:31.103Z</guid><pubDate>Fri, 07 Aug 2026 12:08:31 +0000</pubDate><description>### **Dates:**
+
+Friday, August 7th 2026, 11:00 UTC - 13:04 UTC.
+
+### **What happened:**
+
+Windows and Intel Mac jobs in `us-west1` failed to start due to virtual machine \(VM\) allocation starvation.
+
+### **Why it happened:**
+
+A service crash loop left VMs in an allocated but unclaimed state, while a cleanup bug prevented the system from releasing the orphaned capacity to boot new VMs.
+
+### **How we fixed it:**
+
+Restored service stability and cleared stale allocations to resume VM provisioning and clear queued jobs.
+
+### **What we are doing to prevent it from happening again:**
+
+Fixing allocator cleanup logic, strengthening deployment health checks, and improving capacity accounting for stale allocations.</description></item><item><title>2026-July-16 Resolved Service Incident - Error Reporting (Backtrace) [postmortem]</title><link>https://stspg.io/vs92t5j754q8</link><guid isPermaLink="false">sauce-labs:2026-07-16T13:00:00.000Z</guid><pubDate>Thu, 16 Jul 2026 13:00:00 +0000</pubDate><description>### **Dates:**
+
+Thursday July 16th 2026, 13:03 – 17:33 UTC
+
+### **What happened:**
+
+Symbol archives uploaded in multiple parts failed to process. All regions were affected.
+
+### **Why it happened:**
+
+Our symbol processing service sent an upload-verification field that our cloud storage provider&#x27;s API does not accept for multi-part uploads, so those uploads were rejected. A fix for this had already been developed, but it had not yet been included in a released build and the service was not configured to use it. As in the first incident, rejected uploads were retried and accumulated on local disk.
+
+### **How we fixed it:**
+
+We deployed a build containing the fix and corrected the service configuration on the affected workers. A large backlog of uploads then processed, which briefly re-filled</description></item><item><title>2026-July-15 Resolved Service Incident - Error Reporting (Backtrace) [postmortem]</title><link>https://stspg.io/lbr0cfj9sp0s</link><guid isPermaLink="false">sauce-labs:2026-07-14T23:30:00.000Z</guid><pubDate>Tue, 14 Jul 2026 23:30:00 +0000</pubDate><description>### **Dates:**
+
+Tuesday July 14th 2026, 23:45 UTC – Wednesday July 15th 2026, 23:05 UTC
+
+### **What happened:**
+
+Symbol archive uploads to Error Reporting \(Backtrace\) projects failed with HTTP 400 errors. All regions were affected.
+
+### **Why it happened:**
+
+The credentials our symbol processing service used to write to cloud storage were no longer valid, so uploads could not be stored. Failed uploads were retried repeatedly and accumulated on local disk until the service ran out of space, at which point it also began rejecting new uploads.
+
+### **How we fixed it:**
+
+We reissued the storage credentials, increased disk capacity on the affected workers, and restarted the service. The queued uploads then processed successfully, and we confirmed recovery with affected customers.
+
+### **What </description></item><item><title>2026-July-14 Service Incident [postmortem]</title><link>https://stspg.io/vk8vqbfz6bqb</link><guid isPermaLink="false">sauce-labs:2026-07-14T17:19:52.472Z</guid><pubDate>Tue, 14 Jul 2026 17:19:52 +0000</pubDate><description>### **Dates:**
+
+Tuesday July 14th 2026, 09:00 - 18:28 UTC
+
+### **What happened:**
+
+iOS ARM tests running in our EU data center failed.
+
+### **Why it happened:**
+
+A fault occurred with our primary network provider in our EU data center.
+
+### **How we fixed it:**
+
+We failed over to a secondary network provider from our EU data center.
+
+### **What we are doing to prevent it from happening again:**
+
+We&#x27;ve improved our monitoring and alerting to catch issues with third party network providers.</description></item><item><title>2026-July-1 Resolved Service Incident 1 [postmortem]</title><link>https://stspg.io/xtz3j0b48605</link><guid isPermaLink="false">sauce-labs:2026-07-01T17:02:00.000Z</guid><pubDate>Wed, 01 Jul 2026 17:02:00 +0000</pubDate><description>### **Dates:**
+
+Wednesday July 1st 2026, 17:02 UTC - 21:31 UTC
+
+### **What happened:**
+
+macOS 14 tests in the US West and EU Central data centers were unable to start.
+
+### **Why it happened:**
+
+An internal datasource was unavailable due to a missing configuration entry.
+
+### **How we fixed it:**
+
+The missing entry was replaced.
+
+### **What we are doing to prevent it from happening again:**
+
+Safeguards have been put in place to prevent in-use datasource removal from configuration.</description></item><item><title>2026-July-01 Service Incident [postmortem]</title><link>https://stspg.io/rgrqs3y0dwnx</link><guid isPermaLink="false">sauce-labs:2026-07-01T12:12:33.438Z</guid><pubDate>Wed, 01 Jul 2026 12:12:33 +0000</pubDate><description>### **Dates:**
+
+Wednesday July 1st 2026, 09:37 – 12:46 UTC
+
+### **What happened:**
+
+The Appium Inspector feature, used during real device live testing sessions, became unavailable after a scheduled UI deployment. Users who attempted to use the feature during a live test were presented with a 500 error, disrupting their active testing session. Automated test pipelines were not affected.
+
+### **Why it happened:**
+
+A routine upgrade of a core frontend library introduced an incompatibility with the Appium Inspector&#x27;s rendering logic. The previous library version tolerated the pattern, but the updated version did not. The issue was not caught before deployment due to insufficient end-to-end test coverage for this specific feature.
+
+### **How we fixed it:**
+
+We rolled back the UI to the last kno</description></item><item><title>2026-June-24 Resolved Service Incident [postmortem]</title><link>https://stspg.io/fvy9cvc0wq3s</link><guid isPermaLink="false">sauce-labs:2026-06-24T16:39:09.847Z</guid><pubDate>Wed, 24 Jun 2026 16:39:09 +0000</pubDate><description>### **Dates:** 
+
+Wednesday, June 24th 2026, 09:42 UTC - 15:45 UTC.
+
+### **What happened:**
+
+Real Device test sessions using Appium and Access API experienced increased error rates in the US East, US West, and EU data centers.
+
+Sessions were timing out after approximately 90 seconds or becoming stuck in the &quot;Connecting&quot; state, preventing them from being closed.
+
+### **Why it happened:**
+
+A product defect was introduced, causing Real Device test sessions to fail to start and preventing active sessions from being closed.
+
+### **How we fixed it:**
+
+Rollback to a stable version.
+
+### **What we are doing to prevent it from happening again:**
+
+Improve monitoring &amp; alerting and enhance post deployment validation.</description></item><item><title>2026-June-18 Service Incident [postmortem]</title><link>https://stspg.io/bqy2th03pgdz</link><guid isPermaLink="false">sauce-labs:2026-06-18T05:30:39.270Z</guid><pubDate>Thu, 18 Jun 2026 05:30:39 +0000</pubDate><description>### **Dates:**
+
+Thursday June 18 2026, 03:45 UTC - 06:45 UTC.
+
+### **What happened:**
+
+Approximately 7% of iOS devices in our EU data center were temporarily unavailable for customer test sessions after a loss of power to the rack hosting them.
+
+### **Why it happened:**
+
+The power circuit feeding the affected rack exceeded its capacity, and a protective breaker tripped to safeguard the line - cutting power to the devices on that rack until the circuit was restored.
+
+### **How we fixed it:**
+
+The affected circuit was reset and power restored to the rack, returning the devices to customer service.
+
+### **What we are doing to prevent it from happening again:**
+
+We are redistributing power load across affected racks, adding capacity monitoring with early-warning alerts ahead of circuit limits,</description></item><item><title>2026-June-1 Service Incident [postmortem]</title><link>https://stspg.io/7l70v858zpwm</link><guid isPermaLink="false">sauce-labs:2026-06-01T14:02:09.100Z</guid><pubDate>Mon, 01 Jun 2026 14:02:09 +0000</pubDate><description>### **Dates:**
+
+Monday, June 1st 2026, 13:06 UTC -  15:42 UTC.
+
+### **What happened:**
+
+Customers served by the US-EAST-4 region were unable to authenticate or start new test sessions because an incomplete TLS certificate chain was deployed to the core directory services. 
+
+### **Why it happened:**
+
+A certificate extraction script defect silently truncated the certificate chain after the certificate authority transitioned to a longer hierarchy. 
+
+### **How we fixed it:**
+
+Reverted the certificate rotation and re-applied the previous known ,good certificate to restore authentication services.
+
+### **What we are doing to prevent it from happening again:**
+
+Implementing pre-deployment certificate chain validation, adding active monitoring, and fixing the script&#x27;s chain-length limitations.</description></item><item><title>2026-May-13 Resolved Service Incident [postmortem]</title><link>https://stspg.io/55lgnt55wjd4</link><guid isPermaLink="false">sauce-labs:2026-05-21T14:53:43.890Z</guid><pubDate>Thu, 21 May 2026 14:53:43 +0000</pubDate><description>### **Dates:**
+
+Wednesday, May 13th 2026, 18:47 UTC - Friday, May 15th 2026, 09:23 UTC.
+
+### **What happened:**
+
+Customers were unable to access test run summaries for Real Device Cloud \(RDC\) jobs because events stopped publishing to the jobs Kafka topic in US-EAST.
+
+### **Why it happened:**
+
+An authentication key used by the message producer unexpectedly lost its permissions during an account cleanup.
+
+### **How we fixed it:**
+
+Manually restored the required permissions to re-establish the connection and resume service.
+
+### **What we are doing to prevent it from happening again:**
+
+Migrating to a permanent service account, implementing a Dead Letter Queue \(DLQ\) for the jobs Kafka topic, and replaying the missing events to restore customer data.</description></item><item><title>2026-April-23 Resolved Service Incident [postmortem]</title><link>https://stspg.io/qzrzvgdd9srp</link><guid isPermaLink="false">sauce-labs:2026-04-24T16:33:12.727Z</guid><pubDate>Fri, 24 Apr 2026 16:33:12 +0000</pubDate><description>### **Dates:**
+
+Thursday, April 23rd 2026, 22:43 UTC - Friday, April 24th 2026, 15:29 UTC
+
+### **What happened:**
+
+Video assets were missing for virtual iOS simulator tests on ARM and macOS ARM desktop tests in the US-West and EU data centers.
+
+### **Why it happened:**
+
+A product defect was introduced resulting in a screen capture failure.
+
+### **How we fixed it:**
+
+We performed a rollback to a stable version.
+
+### **What we are doing to prevent it from happening again:**
+
+We are improving monitoring &amp; alerting to enhance our post deployment validation.</description></item><item><title>2026-April-16 Resolved Service Incident [postmortem]</title><link>https://stspg.io/kd3z9szx8n3c</link><guid isPermaLink="false">sauce-labs:2026-04-16T10:10:56.165Z</guid><pubDate>Thu, 16 Apr 2026 10:10:56 +0000</pubDate><description>### **Dates:**
+
+Thursday, April 16th 2026, 00:00 UTC – 09:15 UTC
+
+### **What happened:**
+
+Live and automated tests on iOS 17.0 simulators failed to start in both the EU and US-West data centers. Customers running tests on iOS 17.0 Intel-based simulators were unable to execute their tests for approximately 9 hours.
+
+### **Why it happened:**
+
+A deployment introduced an incompatibility affecting iOS 17.0 on Intel-based infrastructure. The issue was not caught prior to release due to insufficient post-deployment test coverage for that specific simulator configuration.
+
+### **How we fixed it:**
+
+We performed a rollback to the previous deployment, which restored full iOS 17.0 simulator functionality.
+
+### **What we are doing to prevent it from happening again:**
+
+We are reviving and expanding au</description></item><item><title>2026-April-07 Service Incident [postmortem]</title><link>https://stspg.io/x33t24l825cq</link><guid isPermaLink="false">sauce-labs:2026-04-07T15:02:39.190Z</guid><pubDate>Tue, 07 Apr 2026 15:02:39 +0000</pubDate><description>### **Dates:**
+
+Monday April 7th 2026, ~11:00 – 15:55 UTC
+
+### **What happened:**
+
+Some customers experienced 503 errors when running tests via saucectl. The test-composer service was intermittently unavailable, preventing framework-based test execution.
+
+### **Why it happened:**
+
+A stale Docker image was deployed to the test-composer service due to a packaging issue that arose during an internal container registry migration. This caused service pods to crash.
+
+### **How we fixed it:**
+
+We identified the stale image and redeployed the correct version, restoring the service.
+
+### **What we are doing to prevent it from happening again:**
+
+We are hardening our image deployment pipeline and adding validation checks to ensure container registry migrations do not result in stale or incorrect ima</description></item><item><title>2026-March-24 Resolved Service Incident [postmortem]</title><link>https://stspg.io/7t8yy3cvkzsb</link><guid isPermaLink="false">sauce-labs:2026-03-24T17:36:32.770Z</guid><pubDate>Tue, 24 Mar 2026 17:36:32 +0000</pubDate><description>### **Dates:**
+
+Tuesday, March 24th 2026, 09:32 UTC – 15:13 UTC
+
+### **What happened:**
+
+Network calls failed on iOS devices during Real Device Cloud sessions where network capture was enabled. Approximately 12-13% of iOS sessions were affected. Android was not impacted.
+
+### **Why it happened:**
+
+A deployment introduced a DNS resolution change that was incompatible with the iOS platform, causing network capture to break.
+
+### **How we fixed it:**
+
+Rolled back the deployment to restore service.
+
+### **What we are doing to prevent it from happening again:**
+
+Adding synthetic tests to catch network capture regressions before production, and implementing monitoring alerts for faster detection after deployments.</description></item><item><title>2026-March-19 Service Incident [postmortem]</title><link>https://stspg.io/qsrmlzlqy09n</link><guid isPermaLink="false">sauce-labs:2026-03-19T09:51:49.053Z</guid><pubDate>Thu, 19 Mar 2026 09:51:49 +0000</pubDate><description>### **Dates:**
+
+Wednesday, March 19 2026, 04:45 UTC - 10:47 UTC.
+
+### **What happened:**
+
+Approximately 15% of iOS devices in our US-West data center were temporarily unavailable for customer test sessions due to failed internet connectivity checks.
+
+### **Why it happened:**
+
+An automated wireless network optimization feature adjusted transmit power levels on access points serving the affected devices, degrading wireless connectivity and causing devices to fail their availability checks.
+
+### **How we fixed it:**
+
+The affected access points were identified and restarted, restoring normal wireless connectivity.
+
+### **What we are doing to prevent it from happening again:**
+
+Evaluation of the automated optimization tools and a monitoring improvement.</description></item><item><title>2026-March-13 Resolved Service Incident [postmortem]</title><link>https://stspg.io/xl8wdzgbv98p</link><guid isPermaLink="false">sauce-labs:2026-03-13T14:30:00.000Z</guid><pubDate>Fri, 13 Mar 2026 14:30:00 +0000</pubDate><description>### **Dates:**
+
+Friday, March 13th 2026, 14:43 UTC - 15:11 UTC.
+
+### **What happened:**
+
+Real Devices \(iOS and Android\) availability gradually decreased across all data centers.
+
+### **Why it happened:**
+
+A product defect was introduced resulting in a small subset of Real Devices \(~10%\) failing to maintain required connectivity.
+
+### **How we fixed it:**
+
+Rollback to a stable version.
+
+### **What we are doing to prevent it from happening again:**
+
+Improve monitoring &amp; alerting, enhance post deployment validation.</description></item><item><title>2026-March-10 Service Incident [postmortem]</title><link>https://stspg.io/2629b66924m5</link><guid isPermaLink="false">sauce-labs:2026-03-10T18:46:06.000Z</guid><pubDate>Tue, 10 Mar 2026 18:46:06 +0000</pubDate><description>### **Dates:**
+
+Tuesday March 10th 2026, 17:52 - 23:34 UTC
+
+### **What happened:**
+
+The majority of iOS devices across all regions became unavailable.
+
+### **Why it happened:**
+
+Apple&#x27;s [ppq.apple.com](http://ppq.apple.com) app verification endpoint was down, causing internal device monitoring checks to fail, bringing devices offline.
+
+### **How we fixed it:**
+
+We temporarily disabled these device monitoring checks.
+
+### **What we are doing to prevent it from happening again:**
+
+Improved external monitoring to catch outages of apple’s [ppq.apple.com](http://ppq.apple.com) endpoint, loosened device monitoring to not take down live iOS devices if [ppq.apple.com](http://ppq.apple.com) is down.</description></item><item><title>2026-March-6 Resolved Service Incident [postmortem]</title><link>https://stspg.io/n3lfqk75kx30</link><guid isPermaLink="false">sauce-labs:2026-03-06T21:38:00.000Z</guid><pubDate>Fri, 06 Mar 2026 21:38:00 +0000</pubDate><description>### **Dates:** 
+
+Friday, March 6th 2026, 21:38 UTC - 23:11 UTC
+
+### **What happened:**
+
+During the incident timeline, customers running virtual iOS simulator tests on ARM or macOS ARM desktop tests in the EU Data Center were unable to start new sessions for either live or automated.
+
+### **Why it happened:**
+
+There was a sequencing issue on the release of the ARM side disk images in the EU.
+
+### **How we fixed it:**
+
+The image reference for the ARM side disk was rolled back to the previous reference to restore service.
+
+### **What we are doing to prevent it from happening again:**
+
+The tests that run to validate the image syncing have been completed in each region.</description></item><item><title>2026-February-27 Service Incident [postmortem]</title><link>https://stspg.io/6kt2bq70kmvp</link><guid isPermaLink="false">sauce-labs:2026-02-27T18:42:01.000Z</guid><pubDate>Fri, 27 Feb 2026 18:42:01 +0000</pubDate><description>### **Dates:**
+
+Friday, February 27th 2026, 16:15 UTC - 19:50 UTC 
+
+### **What happened:**
+
+Requests made using API client authentication would return 500 errors. 
+
+### **Why it happened:**
+
+An internal data structure became corrupted due to a race condition.
+
+### **How we fixed it:**
+
+The affected service was restarted, and a long-term fix was applied. 
+
+### **What we are doing to prevent it from happening again:**
+
+Thread locking has been applied to the affected service.</description></item><item><title>2026-February-23 Service Incident [postmortem]</title><link>https://stspg.io/v7cttsc5jc76</link><guid isPermaLink="false">sauce-labs:2026-02-23T17:22:02.217Z</guid><pubDate>Mon, 23 Feb 2026 17:22:02 +0000</pubDate><description>### **Dates:**
+
+Monday, February 23rd 2026, 17:22 UTC - 22:31 UTC
+
+### **What happened:**
+
+WDIO-based tests run by customers using Sauce Connect 4 could not be started.
+
+### **Why it happened:**
+
+Misconfiguration caused failing health checks in some cases, causing customer tunnels to shut down.
+
+### **How we fixed it:**
+
+Misconfiguration was corrected.
+
+### **What we are doing to prevent it from happening again:**
+
+Evaluation of the underlying software stack. 
+
+Customers who are still using SC4 that can migrate to SC5 should do so at their earliest convenience.</description></item><item><title>2026 - January - 29  Resolved Service Incident [postmortem]</title><link>https://stspg.io/2q85hbtzw2v5</link><guid isPermaLink="false">sauce-labs:2026-01-29T17:30:00.000Z</guid><pubDate>Thu, 29 Jan 2026 17:30:00 +0000</pubDate><description>### **Dates:**
+
+Thursday, January 29th 2026, 19:30 UTC - 22:25 UTC.
+
+### **What happened:**
+
+Application uploads and automated tests in the US-West-1 data center experienced intermittent errors between 5:43 pm \(UTC\) and 9:45 pm \(UTC\)
+
+### **Why it happened:**
+
+Due to a high number of concurrent uploads and a temporary change to the network topology schema, the App Storage Service experienced increased connection latency and delays in acquiring connections to the backend.
+
+### **How we fixed it:**
+
+App Storage Service network topology schema was restored to its original state.
+
+### **What we are doing to prevent it from happening again:**
+
+We are improving monitoring, alerting and validations for the App Storage Service backend connectivity.
+
+We are working to implement processes to han</description></item><item><title>2026-January-29 Resolved Service Incident [postmortem]</title><link>https://stspg.io/2mb9wb4g2d9d</link><guid isPermaLink="false">sauce-labs:2026-01-29T11:11:02.860Z</guid><pubDate>Thu, 29 Jan 2026 11:11:02 +0000</pubDate><description>### **Dates:**
+
+Thursday, January 29th 2026, 07:04 - 08:46 UTC.
+
+### **What happened:**
+
+Between 07:04 UTC and 08:46 UTC on January 29, 2026, customers using our US-West-1 region experienced instability with Mac resources. Specifically:
+
+* Approximately 20% of iOS simulator jobs failed to start due to infrastructure errors.
+
+* 10% of Virtual MacOS/iOS jobs failed to upload assets to S3. As a result, logs, videos, and screenshots for these specific jobs were lost and remain unavailable for download.
+
+### **Why it happened:**
+
+Scheduled maintenance on a primary network circuit coincided with high traffic volume, which led to congestion on the backup circuit.
+
+### **How we fixed it:**
+
+Full connectivity was restored when traffic was routed back to the primary circuit following the completion </description></item><item><title>2026-January-13 Service Incident [postmortem]</title><link>https://stspg.io/c5jtb2fzrnq7</link><guid isPermaLink="false">sauce-labs:2026-01-13T10:43:07.792Z</guid><pubDate>Tue, 13 Jan 2026 10:43:07 +0000</pubDate><description>### **Dates:**
+
+Tuesday, January 13th 2025, 9:10 UTC - 10:37 UTC.
+
+### **What happened:**
+
+The App Storage Service experienced high response times in the US-West-1 datacenter.
+
+### **Why it happened:**
+
+Due to a high number of concurrent uploads, the App Storage Service experienced increased connection latency and delays in acquiring connections to the backend.
+
+### **How we fixed it:**
+
+Service was restored by restarting the application.
+
+### **What we are doing to prevent it from happening again:**
+
+We are improving monitoring, alerting and validations for the App Storage Service to backend connectivity. We are also evaluating how to handle periods of increased load and proactively detect performance degradation to implement automated remediation and self-healing capabilities.</description></item><item><title>2026-January-5 Service Incident [postmortem]</title><link>https://stspg.io/83fr90kc5pmc</link><guid isPermaLink="false">sauce-labs:2026-01-05T21:15:54.374Z</guid><pubDate>Mon, 05 Jan 2026 21:15:54 +0000</pubDate><description>### **Dates:**
+
+Monday, January 5th 2026, 20:40 UTC - 21:04 UTC.
+
+### **What happened:**
+
+There was a decrease in Real Device availability in the US-West-1 datacenter.
+
+### **Why it happened:**
+
+During a planned traffic flow migration, a network policy applied to the new traffic path was more restrictive than intended and this resulted in a subset of Real Devices \(~40%\) failing to maintain required connectivity.
+
+Although the change followed standard change management and peer review processes, the issue was not identified prior to activation.
+
+### **How we fixed it:**
+
+The network policy was corrected and affected services recovered.
+
+### **What we are doing to prevent it from happening again:**
+
+We are reviewing our network change processes to provide earlier detection of unintended be</description></item><item><title>2025-December-18 Resolved Service Incident [postmortem]</title><link>https://stspg.io/kn6l21v1dqlk</link><guid isPermaLink="false">sauce-labs:2025-12-18T05:30:00.000Z</guid><pubDate>Thu, 18 Dec 2025 05:30:00 +0000</pubDate><description>### **Dates:**
+
+Thursday, December 18th 2025, 5:32 UTC - 7:09 UTC.
+
+### **What happened:**
+
+The App Storage Service experienced high response times in the US-West-1 datacenter.
+
+### **Why it happened:**
+
+Due to a high number of concurrent uploads, the App Storage Service experienced increased connection latency and delays in acquiring connections to the backend.
+
+### **How we fixed it:**
+
+The service was restored by restarting the application.
+
+### **What we are doing to prevent it from happening again:**
+
+We are implementing improved monitoring, alerting and validations for App Storage Service backend connectivity.
+
+We will also look to enhance processes to handle periods of increased load and detect performance degradation proactively, in order to implement automated remediation and self</description></item><item><title>2025-December-17 Resolved Service Incident [postmortem]</title><link>https://stspg.io/t1bqjv1793c4</link><guid isPermaLink="false">sauce-labs:2025-12-17T10:30:00.000Z</guid><pubDate>Wed, 17 Dec 2025 10:30:00 +0000</pubDate><description>### **When it happened:**
+
+Wednesday, December 17th 2025, 10:37 UTC - Thursday, December 18th 2025, 11:59 UTC
+
+### **What happened:**
+
+Applications were unable to be downloaded via Mobile App Distribution for a subset of customers.
+
+### **Why it happened:**
+
+A product change combined with an increased and sustained load resulted in higher resource usage than anticipated, exceeding established limits for certain clients.
+
+### **How we fixed it:**
+
+The service was rolled back to a stable version.
+
+### **What we are doing to prevent it from happening again:**
+
+There are multiple improvements planned. 
+
+1. Improved monitoring &amp; alerting, 
+2. Enhanced post-deployment validation
+3. Capacity planning forecasting
+4. More advanced communication where possible ahead of major changes
+5. Adding canary</description></item><item><title>2025-November-19 Service Incident [postmortem]</title><link>https://stspg.io/zh4q2kw13smh</link><guid isPermaLink="false">sauce-labs:2025-11-19T18:54:55.602Z</guid><pubDate>Wed, 19 Nov 2025 18:54:55 +0000</pubDate><description>### **Dates:**
+
+Wednesday, November 19th 2025, 09:00 UTC – Thursday, November 20th 2025, 21:00 UTC
+
+### **What happened:**
+
+Following a scheduled maintenance deployment, a subset of customers utilising Single Sign-On \(SSO\) were unable to log in to the platform. While the application remained up and running, authentication requests for these specific accounts were rejected, preventing access to the application.
+
+### **Why it happened:**
+
+A major backend infrastructure upgrade aimed at improving performance and security, inadvertently caused the incident. The new authentication system&#x27;s default settings were incompatible with existing customer SSO configurations, leading to valid login attempts being incorrectly rejected.
+
+### **How we fixed it:**
+
+To restore immediate access, we reverted </description></item><item><title>2025-November-04 Service Incident [postmortem]</title><link>https://stspg.io/nsbjq1skbn89</link><guid isPermaLink="false">sauce-labs:2025-11-04T08:02:39.103Z</guid><pubDate>Tue, 04 Nov 2025 08:02:39 +0000</pubDate><description>### **Dates:**
+
+Monday November 4 2025, 04:35 UTC - 08:20 UTC.
+
+### **What happened:**
+
+The web UI for Insights and Test Results was intermittently unresponsive.
+
+### **Why it happened:**
+
+A data store of components of the UI experienced unexpectedly high load, resulting in an unresponsive service.
+
+### **How we fixed it:**
+
+The issue was resolved without human intervention.
+
+### **What we are doing to prevent it from happening again:**
+
+We have improved support for the 3rd party vendor&#x27;s logging and metrics tools.</description></item></channel></rss>

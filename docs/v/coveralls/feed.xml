@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Coveralls incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/coveralls/</link><description>Incidents from Coveralls's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>&quot;Website under heavy load&quot; warning [resolved]</title><link>https://stspg.io/nd9v2n7g91wc</link><guid isPermaLink="false">coveralls:2026-08-11T12:02:12.967-07:00</guid><pubDate>Tue, 11 Aug 2026 19:02:12 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Increased latency for large repos [resolved]</title><link>https://stspg.io/fddc34gx1s03</link><guid isPermaLink="false">coveralls:2026-07-15T10:28:59.136-07:00</guid><pubDate>Wed, 15 Jul 2026 17:28:59 +0000</pubDate><description>This issue was resolved over the weekend. We will continue to monitor for elevated latency in the modified queues.</description></item><item><title>Increased latency for large repos [resolved]</title><link>https://stspg.io/tyhgk4l60pfp</link><guid isPermaLink="false">coveralls:2026-07-10T08:00:47.000-07:00</guid><pubDate>Fri, 10 Jul 2026 15:00:47 +0000</pubDate><description>This incident has been resolved but we believe it triggered a worsened incident overnight Sun night/Mon morning (US PDT) which has just been resolved. To be confirmed by full RCA, we believe a deluge of large repo uploads tied up individual web servers that handle frontline requests. Each web server is able to recover on its own, and did, but as volume increased all servers were eventually affected, only allowing short windows where requests could get through—rejecting most requests with 504 errors.
+
+We&#x27;ll post a post-mortem when we understand more about what happened and how to prevent it going forward.</description></item><item><title>Increased latency for large repos [resolved]</title><link>https://stspg.io/rsxh917p1sk6</link><guid isPermaLink="false">coveralls:2026-07-07T09:43:22.969-07:00</guid><pubDate>Tue, 07 Jul 2026 16:43:22 +0000</pubDate><description>Increased latency for large repos has been resolved for the general public. We will be clearing three outlier repos overnight, which should be fully cleared by tomorrow AM.</description></item><item><title>Increased latency for large projects [resolved]</title><link>https://stspg.io/84xn0rdzf008</link><guid isPermaLink="false">coveralls:2026-05-18T09:41:15.110-07:00</guid><pubDate>Mon, 18 May 2026 16:41:15 +0000</pubDate><description>We are closing this incident. Our main background processing queue for larger repos has had no backups in 48 hrs. We will continue monitoring for recurrence.</description></item><item><title>Unschedule maintenance [resolved]</title><link>https://stspg.io/gspzxkkdmphc</link><guid isPermaLink="false">coveralls:2026-05-10T07:44:16.282-07:00</guid><pubDate>Sun, 10 May 2026 14:44:16 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service outage (RESTORED, MONITORING) [postmortem]</title><link>https://stspg.io/1sfctfdlmr9c</link><guid isPermaLink="false">coveralls:2026-02-24T14:52:29.054-08:00</guid><pubDate>Tue, 24 Feb 2026 22:52:29 +0000</pubDate><description># Suspended for Not Paying—While Paying
+
+_Latest update: Tuesday, Mar 24_
+
+[This post-mortem is also available as a PDF](https://s3.amazonaws.com/assets.coveralls.io/statuspage/incidents/20260224/postmortem/Coveralls-Post-Mortem-Service-Outage-Feb-2026.pdf).
+
+## Overview
+
+On February 24, our hosting provider suspended our account. Our service was down for 68 hours. The stated reason was past-due charges. When we reached our account manager on the day of suspension, he reviewed our account and told us what he saw: an &quot;account restriction&quot; that, in his words, &quot;shouldn&#x27;t have happened.&quot;
+
+Bizarrely, his review turned up an internal note claiming we&#x27;d made _no payments in six months_. That was demonstrably false and we provided immediate evidence to prove it.
+
+We did have an outstanding balance</description></item><item><title>All Systems Operational [resolved]</title><link>https://stspg.io/gn1j89710t5h</link><guid isPermaLink="false">coveralls:2026-02-02T09:33:51.977-08:00</guid><pubDate>Mon, 02 Feb 2026 17:33:51 +0000</pubDate><description>Just a note to address the gap in our Coverage Calculation Background Job Dequeue Time Graph today, MON, FEB 2 from 00:15:00 PST to 07:35:00 PST:
+
+Coveralls experienced no disruption in service at this time. Instead, a deployment issue cause the cron job that reports the metric to fail until it was resolved at 07:35:00 PST.</description></item><item><title>Elevated Latency in APAC and EU [resolved]</title><link>https://stspg.io/02l24lf4x109</link><guid isPermaLink="false">coveralls:2025-12-19T06:34:44.392-08:00</guid><pubDate>Fri, 19 Dec 2025 14:34:44 +0000</pubDate><description>We had to pause some queues to recover performance for new jobs, but will clear those as soon as we&#x27;ve recovered normal build times for new jobs (ETA: 15-min).
+
+If you are a user in APAC or EU, you may have had your jobs paused. One repo in particular has represented 90% overnight workload. We will reach out to that user.</description></item><item><title>Elevated Latency in APAC and EU [resolved]</title><link>https://stspg.io/7hg0tqpk0948</link><guid isPermaLink="false">coveralls:2025-12-18T06:51:18.919-08:00</guid><pubDate>Thu, 18 Dec 2025 14:51:18 +0000</pubDate><description>Build times are normal for all new builds. Background queues have been cleared of 99% of backlogged jobs; the only ones that remain are for large repos (&gt;5K source files), which should clear in the next 30-45 minutes depending on size.
+
+No further effects on latency expected. 
+
+Closing this incident.</description></item><item><title>Elevated Latency [resolved]</title><link>https://stspg.io/79r8vvnz4l3m</link><guid isPermaLink="false">coveralls:2025-11-17T08:35:03.565-08:00</guid><pubDate>Mon, 17 Nov 2025 16:35:03 +0000</pubDate><description>This incident has been resolved. Build times for all new builds is normal across the board.
+
+We are still clearing a backlog of background jobs, which should be clear in the next 15-20-min.
+
+If you are having issues with a slow or stuck build, feel free to reach out to us at support@coveralls.io. These steps will save time:
+
+1) Mention this incident:
+https://status.coveralls.io/incidents/hkqt790213m5
+
+2) Share your Coveralls Build URL (from your CI build log), or your CI build number.</description></item><item><title>Elevated Latency [resolved]</title><link>https://stspg.io/j214kcyh341b</link><guid isPermaLink="false">coveralls:2025-11-10T08:14:00.004-08:00</guid><pubDate>Mon, 10 Nov 2025 16:14:00 +0000</pubDate><description>We have attempted to improve latency this morning for new jobs from users in EU and US time zones, which has meant offloading older jobs to specialized queues with scaled up resources, which, at this point, have already drained.
+
+System-wide, latency continues improving for all users and should reach normal in 15-30 minutes for most users.
+
+If you are still experiencing elevated latency after that, or have any jobs from CI builds run in the last 24 hrs that have not completed, please reach out to us at support@coveralls.io and we&#x27;ll investigate to determine whether your builds were caught up in this incident, or if they have a different cause.
+
+NOTE: Missing data points in the &quot;DEQUEUE&quot; Graph on our main Status Page does not indicate that processing stopped during that period, just that th</description></item><item><title>504 Gateway Timeouts (Resolved) [resolved]</title><link>https://stspg.io/b71rcnbr99wp</link><guid isPermaLink="false">coveralls:2025-10-24T11:35:11.000-07:00</guid><pubDate>Fri, 24 Oct 2025 18:35:11 +0000</pubDate><description>We are closing this incident having received no further reports of 504 errors today. We will continue to monitor for them.</description></item><item><title>Some reports of 504 Timeouts [resolved]</title><link>https://stspg.io/3424pqnymqnp</link><guid isPermaLink="false">coveralls:2025-10-13T11:02:40.474-07:00</guid><pubDate>Mon, 13 Oct 2025 18:02:40 +0000</pubDate><description>We have received no further reports of 504 timeout errors on coverage report uploads today, but we continue to monitor and will continue trying to improve our mitigations.</description></item><item><title>504 Timeouts (Resolved) [resolved]</title><link>https://stspg.io/fjs06cmd8l4d</link><guid isPermaLink="false">coveralls:2025-10-10T08:23:27.445-07:00</guid><pubDate>Fri, 10 Oct 2025 15:23:27 +0000</pubDate><description>This incident is resolved. 
+
+We have applied an additional layer of monitoring that should help us catch these cases earlier.</description></item><item><title>504 Timeout Errors on Coverage Uploads [resolved]</title><link>https://stspg.io/km3p38qs5n00</link><guid isPermaLink="false">coveralls:2025-09-26T08:28:03.000-07:00</guid><pubDate>Fri, 26 Sep 2025 15:28:03 +0000</pubDate><description>We are closing this incident after recent mitigations and a weekend without any reports.
+
+We continue to implement mitigations and infrastructure changes we believe will further reduce incidents of this error type.</description></item><item><title>Elevated 504 Timeout Errors [postmortem]</title><link>https://stspg.io/lhyfrgjdj1dj</link><guid isPermaLink="false">coveralls:2025-09-03T11:00:31.000-07:00</guid><pubDate>Wed, 03 Sep 2025 18:00:31 +0000</pubDate><description>**This is a postmortem on this specific issue:** Intermittent 500 Errors on Coverage Uploads
+
+**Summary**  
+Between September 20–24, some customers experienced intermittent `500 Internal Server Error` responses during coverage uploads \(`POST /api/v1/jobs`\). The issue was initially hard to diagnose because:
+
+* Failures did not surface reliably in our error tracker \(BugSnag\).
+* They appeared to affect only some requests, some customers.
+
+**Impact**
+
+* Some coverage uploads failed to process, causing build reporting delays or gaps.
+* Frequency was low enough to appear intermittent, which delayed detection and resolution.
+
+**Timeline**
+
+* **Sep 20–23**: First customer reports of intermittent 500s. Initial theories involved a regression in a recent release of our coverage-reporter integrati</description></item><item><title>More reports of “Website under heavy load” [postmortem]</title><link>https://stspg.io/4jcpgc1b166l</link><guid isPermaLink="false">coveralls:2025-08-20T08:48:22.100-07:00</guid><pubDate>Wed, 20 Aug 2025 15:48:22 +0000</pubDate><description>We believe this issue has been resolved for now.
+
+The underlying cause still appears to be large spikes in incoming Web traffic from other outlier repositories that we have not yet identified or not yet paused.
+
+**Interim Solution**:
+
+To reduce the risk of recurrence, we have applied _temporary load balancer adjustments_ that change how requests are distributed, which should _lower_—if not _eliminate_—the frequency of **503** “**This website is under heavy load**” **errors**.
+
+**Permanent Solution**:
+
+We are also designing a permanent solution to _rate-limit abnormal request patterns_. This will require coordination at the policy/SLA level before it can be fully implemented.
+
+In the meantime, we will continue to closely monitor traffic and use targeted load balancer and web server configur</description></item><item><title>Reports of &quot;Website under heavy load&quot; errors [postmortem]</title><link>https://stspg.io/3srf5qdsc4s1</link><guid isPermaLink="false">coveralls:2025-08-19T08:21:44.595-07:00</guid><pubDate>Tue, 19 Aug 2025 15:21:44 +0000</pubDate><description>### Postmortem: Reports of “Website under heavy load” errors
+
+We experienced multiple intermittent errors over the past several days before we were able to identify the true root cause and resolve the issue.
+
+**Root Cause**  
+The errors were caused by a single outlier repository generating extremely high-volume requests \(750–1,800\+ coverage report uploads per build\). Combined with the default “sticky request” behavior in Passenger Enterprise \(which routes repeat requests from the same IP to the same HTTP server\), this overwhelmed individual servers. Once a server’s request queue was exhausted, subsequent requests returned a `503` error with the message: _“This website is under heavy load.”_
+
+Although each server was able to process individual requests within normal timeframes, the con</description></item><item><title>Reports of &quot;Website under heavy load&quot; errors [postmortem]</title><link>https://stspg.io/xyv9nm9f08k9</link><guid isPermaLink="false">coveralls:2025-08-18T12:25:56.000-07:00</guid><pubDate>Mon, 18 Aug 2025 19:25:56 +0000</pubDate><description>A postmortem for this incident and its related incidents has been posted [here](https://status.coveralls.io/incidents/wqbsxnzv0jsf):
+
+* [**Postmortem: Reports of “Website under heavy load” errors**](https://status.coveralls.io/incidents/wqbsxnzv0jsf)
+
+**Related incidents**
+
+1. **Aug 13**: [Intermittent request rejections](https://status.coveralls.io/incidents/1n7plxrj8j44)
+2. **Aug 14**: [Service unavailable with HTML error page or 500 errors](https://status.coveralls.io/incidents/v5mcbrsbhgt4)
+3. **Aug 18**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/fr6sp5kyn128)
+4. **Aug 19 \(Today\)**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/wqbsxnzv0jsf)</description></item><item><title>Service unavailable with HTML error page or 500 errors [postmortem]</title><link>https://stspg.io/h69wjdsj5hsr</link><guid isPermaLink="false">coveralls:2025-08-14T07:35:14.384-07:00</guid><pubDate>Thu, 14 Aug 2025 14:35:14 +0000</pubDate><description>A postmortem for this incident and its related incidents has been posted [here](https://status.coveralls.io/incidents/wqbsxnzv0jsf):
+
+* [**Postmortem: Reports of “Website under heavy load” errors**](https://status.coveralls.io/incidents/wqbsxnzv0jsf)
+
+**Related incidents**
+
+1. **Aug 13**: [Intermittent request rejections](https://status.coveralls.io/incidents/1n7plxrj8j44)
+2. **Aug 14**: [Service unavailable with HTML error page or 500 errors](https://status.coveralls.io/incidents/v5mcbrsbhgt4)
+3. **Aug 18**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/fr6sp5kyn128)
+4. **Aug 19 \(Today\)**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/wqbsxnzv0jsf)
+
+‌
+
+**Previous postmortem, prior to final resolution:**
+
+We re</description></item><item><title>Intermittent request rejections [postmortem]</title><link>https://stspg.io/qbz08fdtjbjt</link><guid isPermaLink="false">coveralls:2025-08-13T10:14:07.058-07:00</guid><pubDate>Wed, 13 Aug 2025 17:14:07 +0000</pubDate><description>A postmortem for this incident and its related incidents has been posted [here](https://status.coveralls.io/incidents/wqbsxnzv0jsf):
+
+* [**Postmortem: Reports of “Website under heavy load” errors**](https://status.coveralls.io/incidents/wqbsxnzv0jsf)
+
+**Related incidents**
+
+1. **Aug 13**: [Intermittent request rejections](https://status.coveralls.io/incidents/1n7plxrj8j44)
+2. **Aug 14**: [Service unavailable with HTML error page or 500 errors](https://status.coveralls.io/incidents/v5mcbrsbhgt4)
+3. **Aug 18**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/fr6sp5kyn128)
+4. **Aug 19 \(Today\)**: [Reports of &quot;Website under heavy load&quot; errors](https://status.coveralls.io/incidents/wqbsxnzv0jsf)</description></item><item><title>Elevated Latency — Resolved [resolved]</title><link>https://stspg.io/y06mmb72wfbn</link><guid isPermaLink="false">coveralls:2025-08-08T01:00:00.000-07:00</guid><pubDate>Fri, 08 Aug 2025 08:00:00 +0000</pubDate><description>We experienced a period of elevated latency due to overnight traffic for about 6 hours today, Fri, Aug 8, from about 1am-7am PDT. We paused a couple of outlier repos, scaled servers to clear a backlog, and resolved ongoing latency. It took approximately 30-min to clear our remaining backlog of background jobs.
+
+We&#x27;d also like to take this opportunity to address a question we get, which is: 
+
+Q: &quot;If the Dequeue Time Graph is missing from the Status Page, does that mean processing has stopped?&quot;
+
+A: No. While a missing graph can indicate a problem, it’s often isolated to the sampling process itself—either the cron job that collects the data or the single server we currently use for sampling. This “flagship” server runs additional packages and handles control and reporting tasks beyond normal </description></item><item><title>Elevated Latency — Resolved [resolved]</title><link>https://stspg.io/mw6zv9ptxz9p</link><guid isPermaLink="false">coveralls:2025-08-01T06:58:25.914-07:00</guid><pubDate>Fri, 01 Aug 2025 13:58:25 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

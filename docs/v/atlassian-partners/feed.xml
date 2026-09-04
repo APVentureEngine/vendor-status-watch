@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Atlassian Partners incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/atlassian-partners/</link><description>Incidents from Atlassian Partners's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/c4qcqpj1t4dr</link><guid isPermaLink="false">atlassian-partners:2026-05-14T05:11:20.126Z</guid><pubDate>Thu, 14 May 2026 05:11:20 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Atlassian Shop site is currently unavailable [resolved]</title><link>https://stspg.io/smlqssl6b4h4</link><guid isPermaLink="false">atlassian-partners:2026-05-07T02:27:15.303Z</guid><pubDate>Thu, 07 May 2026 02:27:15 +0000</pubDate><description>Users attempting to access the Atlassian shop will now be directed to our Homepage. This will prevent ongoing security related error messages from being presented in the meantime while the shop is able to be restored to its full functionality.
+Please reach out to Atlassian Support for additional assistance if required.</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/f1lkjdfrv1cp</link><guid isPermaLink="false">atlassian-partners:2025-10-20T07:56:11.485Z</guid><pubDate>Mon, 20 Oct 2025 07:56:11 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item></channel></rss>

@@ -1,0 +1,64 @@
+{
+"vendor": "Splashtop",
+"slug": "splashtop",
+"platform": "statuspage",
+"status_url": "http://status.splashtop.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-15T01:45:45.156-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-15T01:01:08.138-07:00",
+"state": "resolved",
+"title": "Unable to reach Splashtop Servers (EU stack)",
+"updated_at": "2026-04-15T01:45:45.169-07:00",
+"url": "https://stspg.io/8kqx0xwysy2b"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-26T03:51:49.589-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-26T02:57:17.689-08:00",
+"state": "resolved",
+"title": "(Global & EU stack) Our servers are currently experiencing an issue. You might not be able to log in Splashtop apps or my.splashtop.com. Our engineers are working to resolve it as soon as possible. We apologize for the inconvenience.",
+"updated_at": "2026-02-26T03:51:49.613-08:00",
+"url": "https://stspg.io/j5lq31dfs0mt"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-04T23:33:21.455-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-04T23:02:31.995-08:00",
+"state": "resolved",
+"title": "Unable to reach Splashtop Servers (Global stack)",
+"updated_at": "2026-01-04T23:33:21.470-08:00",
+"url": "https://stspg.io/fy29z08jyw99"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-25T18:06:03.188-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-25T17:42:57.666-08:00",
+"state": "resolved",
+"title": "Intermittently unable to log in Splashtop app",
+"updated_at": "2025-11-25T18:06:03.204-08:00",
+"url": "https://stspg.io/wvcjf89r83c9"
+}
+]
+}

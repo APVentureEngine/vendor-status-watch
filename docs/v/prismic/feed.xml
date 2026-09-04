@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Prismic incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/prismic/</link><description>Incidents from Prismic's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Error on new document publication [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-06-29T18:52:55Z</guid><pubDate>Mon, 29 Jun 2026 18:52:55 +0000</pubDate><description>The issue affecting publication system has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Elevate errors on Writing Room [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-05-19T09:14:22Z</guid><pubDate>Tue, 19 May 2026 09:14:22 +0000</pubDate><description>The issue affecting Prismic Writing Room has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Prismic.io is currently experiencing issues with authentication [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-04-22T18:45:07Z</guid><pubDate>Wed, 22 Apr 2026 18:45:07 +0000</pubDate><description>The issue affecting an upstream provider has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Error accessing Prismic [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-04-13T17:00:54Z</guid><pubDate>Mon, 13 Apr 2026 17:00:54 +0000</pubDate><description>The issue affecting the dashboard has been fully resolved. All systems are now operational.
+
+🚀 **Thank you for your support!**</description></item><item><title>Issue with Media Library [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-04-07T16:26:38Z</guid><pubDate>Tue, 07 Apr 2026 16:26:38 +0000</pubDate><description>The issue affecting media-library has been fully resolved. All systems are now operational.
+
+ 
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>New users are encountering issues when creating repositories [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-04-03T10:47:25Z</guid><pubDate>Fri, 03 Apr 2026 10:47:25 +0000</pubDate><description>The issue affecting repository creation has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Issue with Media Library [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-03-20T15:37:47Z</guid><pubDate>Fri, 20 Mar 2026 15:37:47 +0000</pubDate><description>The issue affecting Media Library has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Issue with Media Library [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-03-02T15:44:11Z</guid><pubDate>Mon, 02 Mar 2026 15:44:11 +0000</pubDate><description>The issue affecting the Media Library has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact Support via our [Help Center](https://prismic.io/docs/help-center).
+
+🚀 **Thank you for your support!**</description></item><item><title>Issue with Media Library [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-02-18T14:51:13Z</guid><pubDate>Wed, 18 Feb 2026 14:51:13 +0000</pubDate><description>The issue affecting Media Library has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Unable to sign up [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-02-12T14:19:38Z</guid><pubDate>Thu, 12 Feb 2026 14:19:38 +0000</pubDate><description>The issue affecting sign-ups has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Service Disruption [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-02-11T10:38:11Z</guid><pubDate>Wed, 11 Feb 2026 10:38:11 +0000</pubDate><description>**Incident Summary**
+
+On February 10, 2026, between approximately 10:15 PM and 11:30 PM CET, some Prismic customers experienced difficulties logging in and accessing their repositories. These issues were caused by a DNS resolution failure on [AWS CloudFront](https://health.aws.com/health/status), one of the infrastructure providers Prismic relies on.
+
+**What Happened**
+
+• AWS identified the root cause and progressively restored normal operations.
+
+• All Prismic services returned to full availability by late evening CET.
+
+• We identified gaps in our alerting that delayed our awareness of the issue.
+
+**What We Are Doing Next**
+
+To improve our response to similar events in the future, we are taking the following actions:
+
+• **Improving our alerting**: We are enhancing our monitoring to detect</description></item><item><title>[Page Builder] Issue with oEmbed feature  [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2026-01-07T10:17:13Z</guid><pubDate>Wed, 07 Jan 2026 10:17:13 +0000</pubDate><description>The issue affecting oEmbed feature has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Real Time Collaboration Unavailable [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2025-11-18T12:13:49Z</guid><pubDate>Tue, 18 Nov 2025 12:13:49 +0000</pubDate><description>The issue affecting **Real Time Collaboration** has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Center].
+
+🚀 **Thank you for your support!**</description></item><item><title>Authentication via SSO and Github [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2025-11-07T13:25:27Z</guid><pubDate>Fri, 07 Nov 2025 13:25:27 +0000</pubDate><description>The issue affecting new users authenticating via SSO and GitHub has now been fully resolved, and all systems are operating normally.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact our Support.
+
+🚀 Thank you for your support!</description></item><item><title>Increased Errors on Content API [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2025-10-20T12:49:14Z</guid><pubDate>Mon, 20 Oct 2025 12:49:14 +0000</pubDate><description>The issue affecting Content API has been fully resolved. 
+All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Contact].
+
+🚀 **Thank you for your support!**</description></item><item><title>Webhook Triggers &amp; Integration Fields [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2025-10-20T11:26:19Z</guid><pubDate>Mon, 20 Oct 2025 11:26:19 +0000</pubDate><description>The issue affecting Webhooks and Integration Fields has been fully resolved. All systems are now operational.
+
+We apologize for any inconvenience caused and appreciate your patience during this time. If you experience any further issues, please contact [Support Contact].
+
+🚀 **Thank you for your support!**</description></item><item><title>Increased Error Rates and Latencies [resolved]</title><link>https://status.prismic.io</link><guid isPermaLink="false">prismic:2025-10-20T07:30:59Z</guid><pubDate>Mon, 20 Oct 2025 07:30:59 +0000</pubDate><description>The issue affecting **Prismic Platform** has been **fully resolved**, and all systems are now **operational**.
+
+We sincerely apologize for any inconvenience caused and greatly appreciate your patience during this time. If you experience any further issues, please contact our support team at **[Support center]**.
+
+🚀 **Thank you for your continued support!**</description></item></channel></rss>

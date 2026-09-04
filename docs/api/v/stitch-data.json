@@ -1,0 +1,38 @@
+{
+"vendor": "Stitch Data",
+"slug": "stitch-data",
+"platform": "statuspage",
+"status_url": "https://status.stitchdata.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This\u202fissue\u202fhas been resolved. We apologize for the inconvenience and appreciate your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-23T08:16:02.712-04:00",
+"resolved_inferred": false,
+"started_at": "2026-03-23T04:30:18.195-04:00",
+"state": "resolved",
+"title": "Stitch API calls to Meta for data are interrupted",
+"updated_at": "2026-03-23T08:16:02.733-04:00",
+"url": "https://stspg.io/l1trnyl2q2s3"
+},
+{
+"body": "This\u202fissue\u202fhas been resolved. We apologize for the inconvenience and appreciate your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-12T09:45:22.609-04:00",
+"resolved_inferred": false,
+"started_at": "2026-03-12T09:12:59.119-04:00",
+"state": "resolved",
+"title": "Stitch - UI issues",
+"updated_at": "2026-03-12T09:45:22.629-04:00",
+"url": "https://stspg.io/n81g107zfs76"
+}
+]
+}

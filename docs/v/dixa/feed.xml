@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Dixa incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/dixa/</link><description>Incidents from Dixa's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Advanced Insight &amp; Miuros: Degraded performance [postmortem]</title><link>https://stspg.io/t9zx7mjmj9fv</link><guid isPermaLink="false">dixa:2026-07-28T12:47:20.793+02:00</guid><pubDate>Tue, 28 Jul 2026 10:47:20 +0000</pubDate><description>### **Post-Mortem: Advanced Insight &amp; Miuros Degraded Performance**
+
+**Date of Incident:** July 28, 2026
+
+**Duration:** 12:47 PM – 1:15 PM CEST \(28 minutes\)
+
+**Severity:** Medium — degraded performance, partial access issues
+
+#### **Summary**
+
+On July 28, 2026, at 12:47 PM CEST, users began experiencing degraded performance and intermittent difficulty accessing Advanced Insight &amp; Miuros. Our team identified the issue and began investigating shortly after it was detected. A fix was implemented, and full service was confirmed restored by 1:15 PM CEST.
+
+#### **Impact**
+
+Between 12:47 PM and 1:15 PM CEST, some users experienced slow load times or were unable to reliably access Advanced Insight &amp; Miuros. No data loss occurred, and access was fully restored once the fix was deployed.
+
+#### **R</description></item><item><title>Services not fully functioning [postmortem]</title><link>https://stspg.io/gr8y278qkj5b</link><guid isPermaLink="false">dixa:2026-07-28T09:00:00.000+02:00</guid><pubDate>Tue, 28 Jul 2026 07:00:00 +0000</pubDate><description>### **Post-Mortem: Conversation Handling &amp; Login Service Disruption**
+
+**Date of Incident:** July 28, 2026
+
+**Duration:** 8:53 AM – 9:03 AM CEST \(10 minutes\)
+
+**Severity:** High — partial service disruption
+
+#### **Summary**
+
+On July 28, 2026, at 8:53 AM CEST, Dixa experienced a service disruption affecting conversation handling and user login functionality. The issue was identified quickly by our engineering team, a fix was deployed at 9:03 AM CEST, and full functionality was restored within 10 minutes of the initial impact.
+
+#### **Impact**
+
+Users may have experienced difficulty logging into Dixa or handling conversations during the affected window. No data loss occurred, and all systems returned to normal operation by 9:03 AM CEST.
+
+#### **Root Cause**
+
+The disruption was traced to a </description></item><item><title>Advanced Insights unavailable [resolved]</title><link>https://stspg.io/rr5lb5z1zhsg</link><guid isPermaLink="false">dixa:2026-06-29T11:04:35.000+02:00</guid><pubDate>Mon, 29 Jun 2026 09:04:35 +0000</pubDate><description>All data is now re-deployed and we&#x27;re completely up to date for everyone.</description></item><item><title>Update delays on Conversation view and Real-Time Dashboard [resolved]</title><link>https://stspg.io/bqbbk474qlrk</link><guid isPermaLink="false">dixa:2026-04-23T13:42:51.123+02:00</guid><pubDate>Thu, 23 Apr 2026 11:42:51 +0000</pubDate><description>Data ingestion has fully caught up and the Real-Time Dashboard, Search and Conversations pages are showing live data again.</description></item><item><title>Partial outage of Agent Interface connections [postmortem]</title><link>https://stspg.io/8pwz7dpdm6y8</link><guid isPermaLink="false">dixa:2026-04-08T18:32:27.000+02:00</guid><pubDate>Wed, 08 Apr 2026 16:32:27 +0000</pubDate><description>## **Summary**
+
+On April 8, 2026, Dixa experienced a partial outage lasting approximately 58 minutes. New WebSocket connections were unable to be established, which meant that new logins failed, and any agents who refreshed their browser or lost their connection could not reconnect. Agents who remained on an existing session were unaffected during the incident.
+
+The root cause was a TLS certificate misconfiguration introduced during a planned migration of our ingress controller infrastructure. The issue was identified, fixed, and fully resolved within the hour.
+
+## **Impact**
+
+Between 18:26 and 19:24 CEST, customers attempting to log in to Dixa or re-establish a WebSocket connection \(e.g., after a page reload\) were unable to do so. Browsers rejected the connection due to an invalid TLS c</description></item><item><title>Degraded performance: AiCoPilot: Smart replies [postmortem]</title><link>https://stspg.io/p4cdnnshd0jw</link><guid isPermaLink="false">dixa:2026-03-18T16:02:38.364+01:00</guid><pubDate>Wed, 18 Mar 2026 15:02:38 +0000</pubDate><description>_Dixa experienced issues with the Smart Reply feature in AI CoPilot on 18 March 2026._  
+  
+_**Summary**_  
+_18 March 2026 at 14:37 CET - 20:20 CET, customers experienced issues with the Smart Reply feature in AI CoPilot. Agents were unable to use Smart Reply._
+
+  
+_**Root cause**_  
+_A code change introduced a regression that caused agents&#x27; browsers to block completing the request to load Smart Reply suggestions._  
+  
+_**Timeline**_  
+_At 14:37 CET on 18 March 2026: Issue flagged internally after several customers reported the issue_  
+_At 15:33 CET: Engineering investigates and attempts an initial rollback, which does not resolve the issue._  
+_At 16:02 CET: Status page updated to &quot;Investigating&quot; — customers notified of difficulties with AiCoPilot Smart Replies._  
+_At 16:48 CET: Status</description></item><item><title>Degraded performance [postmortem]</title><link>https://stspg.io/9zb167xystfd</link><guid isPermaLink="false">dixa:2026-03-11T09:18:20.141+01:00</guid><pubDate>Wed, 11 Mar 2026 08:18:20 +0000</pubDate><description>**Summary:** On March 11, 2026, Dixa experienced platform-wide degraded performance lasting approximately 3 hours \(08:30 - 12:35 CET\). Customers experienced slow or failed conversation loading, timeouts on email sending, conversation transfers, assignments, and flow processing. No data was lost, and there were no security issues at any point.
+
+**Impact:**
+
+* _Availability_: Platform-wide slowness and partial inaccessibility for ~3 hours.
+* _Affected functionality_: Conversation loading, email sending, conversation transfers, conversation assignments, and flow processing - all experienced significant slowness and intermittent failures.
+* _Data integrity:_ All emails were fully processed after the fix. No data was lost, and no security issues occurred at any point.
+
+**Root Cause:** The inc</description></item><item><title>Degraded performance [postmortem]</title><link>https://stspg.io/pfn5sz4fd6r3</link><guid isPermaLink="false">dixa:2026-03-10T13:38:16.571+01:00</guid><pubDate>Tue, 10 Mar 2026 12:38:16 +0000</pubDate><description>**Summary**: On March 10, 2026, all public Dixa Knowledge Help Centers were unavailable following a production deployment performed during scheduled maintenance. 
+
+**Impact**
+
+* Dixa Knowledge Public Help Centers remained inaccessible for 6 hours \(approximately\) 
+* Customers with advanced custom CSS styling were contacted directly with instructions on how to update their selectors to prevent recurrence.
+
+**Root Cause:** After the production deployment performed during a scheduled maintenance, all public Help Centers became unavailable. Visitors saw an error page \(500\) instead of help content.
+
+**Timeline \(CET\)**
+
+Mar 10, 08:00 - Maintenance completed. No anomalies detected.
+
+Mar 10, 11:52 - Initial customer reports received. Considered isolated cases at the time.
+
+Mar 10, 13:38 - Inc</description></item><item><title>Degraded performance [postmortem]</title><link>https://stspg.io/4655y75j34qq</link><guid isPermaLink="false">dixa:2026-03-02T19:08:07.114+01:00</guid><pubDate>Mon, 02 Mar 2026 18:08:07 +0000</pubDate><description>**Summary**  
+On March 2, 2026, Dixa experienced platform-wide degraded performance lasting approximately 3 hours and 45 minutes. Customers experienced slow or failed conversation loading, timeouts on email sending, conversation transfers, assignments, and flow processing. No data was lost, and there were no security issues at any point.
+
+**Impact**
+
+* **Availability:** Platform-wide slowness and partial inaccessibility for ~3 hours 45 minutes.
+* **Affected functionality:** Inbound email processing, conversation loading, conversation transfers, conversation assignments, and flow processing — all experienced significant slowness and intermittent failures.
+* **Side effect:** Some inbound emails resulted in empty, queue-less conversations being created. These are safe to close or merge with t</description></item><item><title>Degraded performance [postmortem]</title><link>https://stspg.io/qv0n5f86x4sc</link><guid isPermaLink="false">dixa:2026-02-20T15:24:47.000+01:00</guid><pubDate>Fri, 20 Feb 2026 14:24:47 +0000</pubDate><description>**Incident Summary**  
+On Feb 20, 2026 - 15:24 CET, we experienced a brief period of degraded performance across the platform. Some customers may have noticed slower response times and intermittent timeouts while using the interface.
+
+**Impact**  
+During the incident window, a subset of requests were delayed or failed, which may have affected normal usage for some customers.
+
+**Root Cause**  
+The issue was caused by an internal service experiencing elevated load, which temporarily impacted request processing across the platform.
+
+**Resolution**  
+Our engineering team identified the issue quickly and restored normal performance. The platform has been operating normally since the fix was applied.
+
+**Prevention**  
+We are reviewing monitoring and scaling controls for the affected service to r</description></item><item><title>Degraded performance - AI Voice transcript [postmortem]</title><link>https://stspg.io/q674hr1z88t0</link><guid isPermaLink="false">dixa:2026-01-27T12:41:10.851+01:00</guid><pubDate>Tue, 27 Jan 2026 11:41:10 +0000</pubDate><description>Dixa experienced issues with transcription on Tuesday 27th January 2026 between 11:27 and 13:15 CET
+
+  
+**Timeline**
+
+* At 10:22 CET / 4:22 EST Azure reports issues on the Azure OpenAI Service 
+* At 11:27 CET / 5:27 EST the first issues with transcriptions start to happen at Dixa. At 11:46 CET / 5:46 EST Dixa investigates unrelated issues with live chats and calls. 
+* At 12:16 CET / 6:16 EST While investigating the unrelated issues, Dixa noticed the issues with transcriptions. 
+* At 13:15 CET / 7:15 EST Transcription issues disappear.
+
+**Impact**  
+Transcriptions were not available or delayed in the specified timeframe.  
+  
+**Root cause**   
+Our provider for AI voice transcriptions, Azure, reported issues. According to their [status](https://azure.status.microsoft/en-us/status/history/): </description></item><item><title>Degraded performance - Contact Search in Outbound Calling [resolved]</title><link>https://stspg.io/9qh8r0zw7t0v</link><guid isPermaLink="false">dixa:2026-01-06T16:24:58.794+01:00</guid><pubDate>Tue, 06 Jan 2026 15:24:58 +0000</pubDate><description>All known issues to this incident have been resolved. We thank you for your patience and cooperation.</description></item><item><title>Degraded performance - AI voice transcriptions and delayed webhook events [postmortem]</title><link>https://stspg.io/b0pr4vyhxvbc</link><guid isPermaLink="false">dixa:2025-12-22T11:30:19.148+01:00</guid><pubDate>Mon, 22 Dec 2025 10:30:19 +0000</pubDate><description># **Degraded performance - AI Voice Transcription and webhooks**
+
+## **Summary**
+
+On 22 December 2025, Dixa experienced an issue with the AI Voice Transcription feature. Transcriptions were not being generated for phone calls. Once the issue was resolved, a temporary period of degraded performance on Webhooks occurred as the system processed a backlog of pending transcriptions.
+
+## **Root cause**
+
+Following a scheduled release, a component responsible for processing voice transcription requests stopped functioning correctly. When the issue was resolved, the system began processing all pending transcription requests. The high volume of these requests temporarily affected Webhook delivery times, causing delays in notifications to third-party integrations.
+
+## **Timeline**
+
+**Monday 22 Decemb</description></item><item><title>Intermittent issues with AI features [postmortem]</title><link>https://stspg.io/zmz0d9479dck</link><guid isPermaLink="false">dixa:2025-12-16T20:49:59.000+01:00</guid><pubDate>Tue, 16 Dec 2025 19:49:59 +0000</pubDate><description>**Summary**
+
+On the 16th of December 2025 between 8:49 PM CET and 9:34 PM CET we experienced intermittent issues with AI features such as Co-pilot and intent detection automation on some of the Dixa instances.
+
+**Root cause**
+
+The incident was caused by the increased usage of the above mentioned features which caused hitting the set usage limit. 
+
+**Timeline**
+
+At 8:49 PM CET: We started observing usage spikes which resulted in errors that started occurring around AI related features. 
+
+At 8:55 PM CET: Status page was updated with the areas that were impacted by the issue.
+
+At 9:03 PM CET: We found the root cause and moved the incident status to Identified.  
+
+At 9:12 PM CET: The fix was deployed and the incident status changed to Monitoring.
+
+At 9:34 PM CET: After a period of monitoring w</description></item><item><title>Search - Partial Outage [resolved]</title><link>https://stspg.io/69tg8fwlp36t</link><guid isPermaLink="false">dixa:2025-12-08T14:30:00.000+01:00</guid><pubDate>Mon, 08 Dec 2025 13:30:00 +0000</pubDate><description>Summary
+Parts of Dixa’s search functionality malfunctioned during a 30-minute window, following a deployment including some deficient code, affecting, amongst others, the search feature within the Email and Phone composer features, respectively. 
+
+Root Cause
+Starting at 2.28 PM (CET) on 8 Dec, the faulty application started serving requests, some of which it was unable to handle. This was due to an insufficiently tested code path that got invoked under certain feature flag configurations, resulting in the search request not being handled correctly.
+
+Action Items
+On-call engineers were alerted about elevated error levels within 15 minutes of the first failing requests, and shortly after, were able to identify the impaired deployment, rolling it back to a previous version while investigation</description></item><item><title>Degraded performance [postmortem]</title><link>https://stspg.io/p9fs6swndf5k</link><guid isPermaLink="false">dixa:2025-11-18T12:59:22.233+01:00</guid><pubDate>Tue, 18 Nov 2025 11:59:22 +0000</pubDate><description>**Summary** 
+
+On the 18th of November 2025 at 12:55 PM CET we received reports of Dixa Knowledge help centers not being available due to a Cloudflare error. At roughly the same time, we were made aware internally that we were receiving a lot of errors on AI-related functionality from one of our upstream sub-processors handling AI requests.‌
+
+**Root cause** 
+
+The incident originated from a major Cloudflare service disruption \([https://www.cloudflarestatus.com/incidents/8gmgl950y3h7\)](https://www.cloudflarestatus.com/incidents/8gmgl950y3h7)) caused by a configuration file used for Cloudflare’s Bot Management system. The file was auto-generated and due to a bug became too large, subsequently crashing Cloudflare services and causing major disruption across the globe. 
+
+Dixa is using Cloudfla</description></item><item><title>Degraded performance - telephony services [postmortem]</title><link>https://stspg.io/6gyk0t4b8hz3</link><guid isPermaLink="false">dixa:2025-10-20T18:55:44.806+02:00</guid><pubDate>Mon, 20 Oct 2025 16:55:44 +0000</pubDate><description>**Summary** 
+
+On the 20th of October 2025 at 6:55 PM CEST due to the ongoing AWS incident Dixa experienced intermittent issues with Telephony Inbound and Outbound connectivity. On some Dixa instances the calls were not being placed or the connection between agents and users was not established. 
+
+‌
+
+**Root cause** 
+
+The incident originated from a **major AWS service disruption in the us-east-1 region** caused by a **DNS race condition within Amazon DynamoDB’s endpoint management system**. The fault temporarily removed valid DNS records for several AWS services, resulting in widespread API resolution failures across multiple dependent systems.
+
+Dixa is using Twilio’s APIs for **telephony services.** When DynamoDB’s DNS records were invalidated, Twilio’s **regional load balancers lost access</description></item><item><title>Multiple services disruptions [postmortem]</title><link>https://stspg.io/m8cjfld1zvj6</link><guid isPermaLink="false">dixa:2025-10-20T09:16:46.353+02:00</guid><pubDate>Mon, 20 Oct 2025 07:16:46 +0000</pubDate><description>**Summary** 
+
+On the 20th of October 2025, starting from 08:58 am CEST, Dixa experienced widespread disruptions caused by the issues coming from third-party services. 
+
+**Impacted services**
+
+* Telephony Inbound and Outbound traffic - Calls were not being placed for the most part of the incident, and for a period of time, calls were placed, but the connection between agents and end users was not established. 
+* WhatsApp channel - conversations were queued but not sent during the incident. All queued messages were sent as soon as the issue was resolved.
+* SMS channel - conversations were queued but not sent during the incident. All queued messages were sent as soon as the issue was resolved.
+* Login to Elevio - login to Elevio was impacted. Help Centers were fully operational. 
+* Login to t</description></item><item><title>Degraded performance - Translations not working [postmortem]</title><link>https://stspg.io/gr1d3qdbx04f</link><guid isPermaLink="false">dixa:2025-10-14T10:24:45.881+02:00</guid><pubDate>Tue, 14 Oct 2025 08:24:45 +0000</pubDate><description>### Summary
+
+Dixa experienced partial degraded performance of AI-Co pilot features on October 14 2025 between 08:13-13:13 CEST. Users who never changed their translation settings were affected, experiencing unwanted auto-translations and non working translations. The issues were cause by an increased number of translation requests hitting our api, leading to overload. We eventually solved it by increasing the capacity for handing requests and by reverting the changes  
+  
+**Timeline**
+
+At 08:13 am CEST A change was deployed for AI copilot to default the Auto summary and translations  to “Automatic” for users who never changed their preferences
+
+At 09:48 am CEST First reports of difficulties with translations for AI Co-pilot that didn’t work at all.
+
+At 10:23 am CEST A fix is deployed to su</description></item><item><title>Degraded performance for Analytics and Real-time Dashboard [postmortem]</title><link>https://stspg.io/t5wcxd74xy7j</link><guid isPermaLink="false">dixa:2025-09-09T15:45:32.841+02:00</guid><pubDate>Tue, 09 Sep 2025 13:45:32 +0000</pubDate><description>## Summary
+
+On the 9th of September, 2025, a deployment at 2:45 PM CEST caused an ingestion delay affecting the Intelligence and the Realtime Dashboards. The incident was detected at 2:47 PM CEST by internal alerts as well as reports coming in to our Customer Support. A fix was released at 3:25 PM CEST, and all data was caught up at 3:51 PM CEST. The total incident was 66 minutes, with an impact on customers relying on our real-time dashboard and Intelligence module.
+
+## Timeline
+
+* **2:45 PM CEST** - Deployment released that caused the incident where ingestion of data to Intelligence- and the Realtime Dashboards was delayed
+* **2:47 PM CEST** - Internal alerts notified relevant stakeholders at Dixa around the incident, and a fix was worked on
+* **3:25 PM CEST** - A fix was released, and d</description></item><item><title>Mim Data Source Sync Failures [postmortem]</title><link>https://stspg.io/8pb92m5ctnnq</link><guid isPermaLink="false">dixa:2025-08-26T16:30:36.692+02:00</guid><pubDate>Tue, 26 Aug 2025 14:30:36 +0000</pubDate><description>**Date**: August 22, 2025    
+**Duration**: 5 days \(August 22-27, 2025\)    
+**Severity**: Degraded
+
+## Summary
+
+Between August 22-27, 2025, our AI assistant \(Mim\) experienced degraded response quality due to inconsistent knowledge base indexing failures. The incident was caused by our OpenSearch cluster rejecting document index requests due to memory constraints from oversized embeddings. While Mim continued to operate with partial knowledge data, customers experienced reduced response accuracy for 5 days until the issue was resolved through cluster scaling.
+
+## Timeline
+
+* **August 22, 2025:** First indexing failures begin occurring
+* **August 22-25, 2025:** Indexing failures continue to grow in frequency
+* **August 25, 2025:** Issue escalated by CS team
+* **August 27, 2025 - 18:00 CE</description></item><item><title>DNS Configuration Issue Impacting API Connectivity [postmortem]</title><link>https://stspg.io/bg68ybr3d23p</link><guid isPermaLink="false">dixa:2025-08-26T14:20:00.000+02:00</guid><pubDate>Tue, 26 Aug 2025 12:20:00 +0000</pubDate><description>**Date:** August 26, 2025  
+**Duration:** 25 minutes \(14:20 - 14:45 CEST\)  
+**Severity:** High - Complete API unavailability
+
+## Summary
+
+A DNS configuration error during staging environment setup caused a complete outage of our public API at [dev.dixa.io](http://dev.dixa.io) for 25 minutes. All external integrations and services dependent on our API were affected.
+
+## Timeline
+
+* **14:20 CEST** - DNS records for [dev.dixa.io](http://dev.dixa.io) inadvertently deleted during staging setup
+* **14:20 CEST** - API connectivity issues began affecting all external services
+* **14:45 CEST** - DNS configuration restored, services resumed normal operation
+
+## Root Cause
+
+During the setup of staging DNS entries for [euw1.dev.dixa.io](http://euw1.dev.dixa.io), the existing DNS records for [dev.dix</description></item><item><title>TrustPilot Queue Service Outage [postmortem]</title><link>https://stspg.io/dc3fd2f527q8</link><guid isPermaLink="false">dixa:2025-08-26T10:58:35.516+02:00</guid><pubDate>Tue, 26 Aug 2025 08:58:35 +0000</pubDate><description>## Summary
+
+On August 26, 2025, a deployment at 10:32 AM CEST caused a complete outage of the TrustPilot queue service, preventing agents from opening TrustPilot conversations in the agent interface. The incident was detected by Customer Support 20 minutes after deployment and resolved through a rollback at 11:30 AM CEST. Total downtime was 58 minutes, with a high impact on TrustPilot customer service operations.
+
+## Timeline
+
+* **10:32 CEST** - Image deployment initiated
+* **10:52 CEST** - Customer Support \(CS\) identified the TrustPilot queue service outage and notified the engineering team
+* **11:30 CEST** - Changes rolled back, service restored  
+  **Total Duration:** 58 minutes
+
+## Root Cause
+
+The incident was caused by a deployment that contained changes incompatible with the TrustP</description></item></channel></rss>

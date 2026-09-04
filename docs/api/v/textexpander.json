@@ -1,0 +1,90 @@
+{
+"vendor": "TextExpander",
+"slug": "textexpander",
+"platform": "statuspage",
+"status_url": "http://status.textexpander.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-15T16:41:40.872-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-15T13:59:30.104-07:00",
+"state": "resolved",
+"title": "Emails not being sent from TextExpander",
+"updated_at": "2026-06-15T16:41:40.892-07:00",
+"url": "https://stspg.io/n8d964rrdkf9"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-15T13:25:58.815-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-15T10:32:15.342-07:00",
+"state": "resolved",
+"title": "Emails not getting sent from TextExpander",
+"updated_at": "2026-06-15T13:25:58.831-07:00",
+"url": "https://stspg.io/c5wx0d1bmxxz"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-06T14:06:49.331-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-06T12:46:56.122-07:00",
+"state": "resolved",
+"title": "Users having trouble logging in.",
+"updated_at": "2026-04-06T14:06:49.350-07:00",
+"url": "https://stspg.io/jry01cw2tg14"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-03T11:13:59.743-08:00",
+"resolved_inferred": false,
+"started_at": "2025-12-03T08:06:39.347-08:00",
+"state": "resolved",
+"title": "System performance degredation",
+"updated_at": "2025-12-03T11:13:59.758-08:00",
+"url": "https://stspg.io/2flwt7z50j49"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T16:20:33.746-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:13:40.672-07:00",
+"state": "resolved",
+"title": "Slower connection times",
+"updated_at": "2025-10-20T16:20:33.769-07:00",
+"url": "https://stspg.io/063fr8t93l18"
+},
+{
+"body": "Our systems are back up and operational.  We will continue to monitor the situation.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T01:30:00.000-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T01:30:00.000-07:00",
+"state": "postmortem",
+"title": "Server connection issues",
+"updated_at": "2025-10-20T07:32:15.774-07:00",
+"url": "https://stspg.io/zdb7l91832l0"
+}
+]
+}

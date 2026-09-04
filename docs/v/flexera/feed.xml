@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Flexera incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/flexera/</link><description>Incidents from Flexera's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Spot - Service Degradation [postmortem]</title><link>https://stspg.io/yjfyh10vnd8v</link><guid isPermaLink="false">flexera:2026-08-25T20:44:32.018-07:00</guid><pubDate>Wed, 26 Aug 2026 03:44:32 +0000</pubDate><description>**Description:** Spot Ocean - Resource State Discrepancies and Under-Capacity Alerts
+
+**Timeframe:** August 25, 2026, 6:15 PM PDT – August 25, 2026, 10:22 PM PDT  
+
+**Incident Summary**
+
+On Tuesday, August 25, 2026, at 6:15 PM PDT, Ocean customers began experiencing service degradation affecting resource state visibility and management operations.  
+  
+During the incident, customers may have observed instances remaining in a Resuming state longer than expected, under-capacity alerts, and discrepancies between resource status information displayed in Spot and AWS. In some cases, resource state information displayed within Spot did not accurately reflect the actual state of resources in AWS.  
+  
+Technical teams investigated the issue and identified degradation within a central Ocean service</description></item><item><title>Flexera One - IT Asset Management - North America - Inventory Processing Delays [resolved]</title><link>https://stspg.io/y5c0j39bh3xm</link><guid isPermaLink="false">flexera:2026-08-24T06:04:05.058-07:00</guid><pubDate>Mon, 24 Aug 2026 13:04:05 +0000</pubDate><description>Technical teams have confirmed that inventory processing has returned to normal operation following the capacity, workload, and concurrency tuning changes implemented during the incident.
+
+Backlog recovery has been completed across the previously impacted production environment, and processing throughput has remained stable following the implemented changes. Technical teams have validated recovery and confirmed that inventory processing is operating as expected.
+
+Technical teams will continue to review the incident as part of the post-incident process and identify any additional improvements to further strengthen service resiliency and inventory processing performance.
+
+A detailed post-incident review report will be shared in the coming days, including investigation findings, corrective ac</description></item><item><title>Flexera One - APAC -  Access discruption [postmortem]</title><link>https://stspg.io/9zxc8zlfb5c6</link><guid isPermaLink="false">flexera:2026-08-18T02:32:31.000-07:00</guid><pubDate>Tue, 18 Aug 2026 09:32:31 +0000</pubDate><description>**Description:** Flexera One - IT Asset management - APAC - Access disruption
+
+**Timeframe:**  August 18, 2026, 2:10 AM PDT to August 18, 2026, 4:26:03 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Tuesday, August 18, 2026, at 2:10 AM PDT , Flexera identified an issue affecting the Flexera One APAC Production environment that prevented customers from accessing Flexera One services. During the impact window, customers experienced login failures, session refresh failures, and issues retrieving user-related application data, resulting in widespread service access unavailability across the platform.
+
+Initial investigation indicated that the impact was limited to IT Asset Management. Further analysis determined that the issue involved a shared platform service supporting authentication and authorizati</description></item><item><title>Flexera One – IT Asset Management – EU – Reconciliation Failures [postmortem]</title><link>https://stspg.io/lgy2978cdh3p</link><guid isPermaLink="false">flexera:2026-08-12T18:08:56.642-07:00</guid><pubDate>Thu, 13 Aug 2026 01:08:56 +0000</pubDate><description>**Description:** Flexera One IT Asset Management – EU – Reconciliation Failures
+
+**Timeframe:**  August 12, 2026, 5:50 PM PDT to August 12, 2026, 8:29 PM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Wednesday, August 12, 2026, at 5:50 PM PDT , Flexera identified an issue affecting reconciliation process within the Flexera One IT Asset Management \(ITAM\) EU Production environment. During the impact period, Some reconciliation jobs experienced failures when they were assigned to a specific processing instance that had not completed its required configuration.
+
+Initial investigation determined that the issue was isolated to a single server that did not complete its configuration successfully. As a result, the affected server was unable to establish communication with a required dependent service. Rec</description></item><item><title>Flexera One - Cloud Cost Optimization (CCO) - NAM - Service Degradation [postmortem]</title><link>https://stspg.io/dk3gp7fr5l3d</link><guid isPermaLink="false">flexera:2026-08-11T10:26:42.000-07:00</guid><pubDate>Tue, 11 Aug 2026 17:26:42 +0000</pubDate><description>**Description:** Flexera One - Cloud Cost Optimization \(CCO\) - North America - Service Degradation Affecting Certain Functionality
+
+**Timeframe:** August 11, 2026, 9:51 AM PDT – August 11, 2026, 10:45 AM PDT
+
+**Incident Summary**
+
+On August 11, 2026, customers may have experienced issues accessing certain Cloud Cost Optimization \(CCO\) functionality in the North America region. Impacted pages could remain in a continuous loading state and fail to render correctly.
+
+Technical teams began investigating after identifying that certain application requests were not completing successfully. The impact was limited to specific functionality rather than the entire CCO service. 
+
+During the investigation, technical teams determined that dependent application services were unable to successfully r</description></item><item><title>Flexera Support Cases - Delayed or Failed Email Notifications for Case Updates [postmortem]</title><link>https://stspg.io/gc2f663xhz0z</link><guid isPermaLink="false">flexera:2026-08-06T21:55:10.252-07:00</guid><pubDate>Fri, 07 Aug 2026 04:55:10 +0000</pubDate><description>**Description:** Flexera Support Cases – Delayed or Failed Email Notifications
+
+**Timeframe:**  August 5, 2026, 12:00 AM PDT to August 13, 2026, 11:10 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On August 5, 2026, our teams identified an issue affecting email notifications for Flexera Support cases. During the incident, some customers did not receive email notifications when updates were made to their support cases, which may have delayed awareness of case activity and progress.
+
+Our technical teams investigated the issue and determined that an issue with the email delivery configuration was causing some outbound support case notifications to be rejected by recipient email systems.
+
+As an interim measure, customers were advised to access the Flexera Community Support Case portal directly to review</description></item><item><title>Flexera One - IT Asset management -  APAC - Data loading failures/slowness [postmortem]</title><link>https://stspg.io/z0fwqsdk6mtg</link><guid isPermaLink="false">flexera:2026-08-05T01:28:39.751-07:00</guid><pubDate>Wed, 05 Aug 2026 08:28:39 +0000</pubDate><description>**Description:** Flexera One - IT Asset management - APAC - Data loading failures/slowness
+
+**Timeframe:**  August 4, 2026, 4:04 AM PDT to August 4, 2026, 4:25 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Tuesday, August 4, 2026, our teams identified an issue affecting a subset of customers in the APAC Production environment. During the incident, some customers experienced intermittent application slowness, temporary unresponsiveness, and failures when loading data within Flexera One IT Asset Management.
+
+Our technical teams investigated the issue and determined that an unexpected database resource exhaustion event affected the production environment. The condition resulted in temporary performance degradation for a subset of customer tenants.
+
+The database condition resolved automatically after</description></item><item><title>Flexera One- IT Asset management - EU  - Inventory upload and Beacon communication issues [postmortem]</title><link>https://stspg.io/bqxvlf3421k1</link><guid isPermaLink="false">flexera:2026-08-02T23:56:20.688-07:00</guid><pubDate>Mon, 03 Aug 2026 06:56:20 +0000</pubDate><description>**Description:** Flexera One- IT Asset management - EU - Inventory upload errors
+
+**Timeframe:**  July 31, 2026, 6:00 PM PDT to August 4, 2026, 4:09 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Sunday, August 2, 2026, at 11:42 PM PDT, Flexera identified an issue affecting inventory package \(\*.zip\) uploads and select beacon communications within the Flexera One IT Asset Management EU Production environment. Affected customers experienced failed inventory package uploads, including HTTP 504 \(Gateway Timeout\) and HTTP 405 \(Method Not Allowed\) responses. The issue also disrupted select beacon-to-platform communications, causing delays or failures in inventory processing and inventory data ingestion.
+
+The investigation determined that earliest impact started at 6:00 PM PDT on July 31st , 2026.</description></item><item><title>Software Vulnerability Research (SVR) - Service Disruption [postmortem]</title><link>https://stspg.io/sy76mhkrh4t3</link><guid isPermaLink="false">flexera:2026-07-28T21:36:06.142-07:00</guid><pubDate>Wed, 29 Jul 2026 04:36:06 +0000</pubDate><description>**Description:** Software Vulnerability Research \(SVR\) - Service Disruption
+
+**Timeframe:**  July 28, 2026, 2:00 PM PDT to July 29, 2026, 2:53 AM PDT
+
+‌
+
+**Incident Summary**
+
+On Tuesday, 28 July 2026, at 2:00 PM PDT, the Flexera Software Vulnerability Research\(SVR\) production environment experienced a service disruption that affected API availability and application functionality. The incident occurred when the primary database instance supporting the SVR platform became unavailable. Existing database connections were unexpectedly terminated, and application servers were unable to establish new connections. As a result, customers were unable to reliably access SVR services and APIs during the incident.
+
+During the investigation, our teams determined that the disruption was caused by a</description></item><item><title>Flexera One - APAC - Service Disruption [postmortem]</title><link>https://stspg.io/wfwr9zq8npq9</link><guid isPermaLink="false">flexera:2026-07-28T16:14:54.944-07:00</guid><pubDate>Tue, 28 Jul 2026 23:14:54 +0000</pubDate><description>**Description:** Flexera One - APAC - Intermittent Service Disruption
+
+## Timeframe
+
+**Timeframe:** July 28, 2026, 3:16 PM PDT - July 28, 2026, 5:39 PM PDT
+
+## Incident Summary
+
+On Tuesday, July 28, 2026, at 3:49 PM PDT, customers using Flexera One services in the APAC region began experiencing intermittent service disruptions affecting multiple applications and platform capabilities. Customers may have encountered login issues, application errors, failed page loads, API errors, and intermittent access to certain Flexera One functionality.
+
+During the incident, multiple services experienced intermittent communication failures with shared platform services. As a result, customers experienced inconsistent application behavior, with some requests succeeding while others failed.
+
+Technical tea</description></item><item><title>Snow Atlas - APAC - Login Failures and 404 Errors [postmortem]</title><link>https://stspg.io/459ynts50k3j</link><guid isPermaLink="false">flexera:2026-07-26T17:11:18.717-07:00</guid><pubDate>Mon, 27 Jul 2026 00:11:18 +0000</pubDate><description>**Description:** Snow Atlas - APAC - Login Failures and 404 Errors
+
+**Timeframe:**  July 26, 2026, 5:00 PM PDT to July 26, 2026, 6:15 PM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Sunday, 26 July 2026, Flexera experienced a service disruption affecting Snow Atlas customers in the APAC Production environment, resulting in login failures and temporary inability to access Agreement pages. The issue was isolated to the APAc region, with no impact to other production regions.
+
+Investigation by our technical teams determined that the disruption was caused by a backend service communication issue that prevented Agreement data from being retrieved successfully. The condition was consistent with a runtime synchronization issue following recent platform infrastructure maintenance.
+
+Flexera teams validated </description></item><item><title>Flexera One- IT Visibility- EU - Failure to load reports [postmortem]</title><link>https://stspg.io/s2tkp8s858rh</link><guid isPermaLink="false">flexera:2026-07-22T03:33:52.886-07:00</guid><pubDate>Wed, 22 Jul 2026 10:33:52 +0000</pubDate><description>**Description:** Flexera One – IT Visibility – EU – Failure to Load Reports
+
+**Timeframe:** July 22, 2026, 3:11 AM PDT – July 22, 2026, 11:04 PM PDT  
+
+**Incident Summary**
+
+On July 22, 2026, at approximately 3:11 AM PDT, an issue began affecting IT Visibility reporting functionality in the Flexera One EU production environment. During the affected period, customers in the EU region experienced failures when attempting to load IT Visibility reports and dashboards, including Software Inventory, Hardware Inventory, Technology Intelligence \(TI\), Sustainability, and FinOps reporting views.
+
+Technical teams began investigating after multiple customer reports were received regarding report loading failures across the EU region. Initial analysis confirmed the issue was limited to the EU product</description></item><item><title>Flexera One- IT Asset management- US - Degraded performance [postmortem]</title><link>https://stspg.io/n9wdjbhwd6d6</link><guid isPermaLink="false">flexera:2026-07-22T01:25:49.902-07:00</guid><pubDate>Wed, 22 Jul 2026 08:25:49 +0000</pubDate><description>**Description:** Flexera One – IT Asset Management – North America – Degraded Performance
+
+**Timeframe:** July 20, 2026, 8:13 PM PDT – July 22, 2026, 8:41 AM PDT
+
+‌
+
+**Incident Summary**
+
+On July 20, 2026, at approximately 8:13 PM PDT, an issue began affecting Flexera One IT Asset Management customers in the North America production environment following completion of the production release.
+
+During the affected period, some customers experienced intermittent application slowness, delayed processing, reconcile failures, timeout conditions, and degraded performance across inventory-related workflows. Technical teams investigated performance and reliability issues observed following the release and worked to determine the underlying cause and scope of impact.
+
+The investigation determined th</description></item><item><title>Flexera- Spot- All regions - Incorrect billing data for AWS customers [postmortem]</title><link>https://stspg.io/rgkjf2ypvr0n</link><guid isPermaLink="false">flexera:2026-07-17T03:24:31.000-07:00</guid><pubDate>Fri, 17 Jul 2026 10:24:31 +0000</pubDate><description>**Description:** Flexera Spot – AWS Billing Service Disruption
+
+Timeframe: July 17, 2026, 1:33 AM PDT – July 18, 2026, 6:57 AM PDT  
+
+**Incident Summary**
+
+On July 17, 2026, at approximately 1:33 AM PDT, Flexera technical teams became aware of an AWS issue affecting estimated billing and usage data displayed within AWS Billing and Cost Management, Cost Explorer, and Cost and Usage Reports.
+
+Given the nature of the AWS service disruption, technical teams initiated an investigation to determine whether Spot billing, cost analysis, or savings calculations for AWS customers were affected. During the investigation, teams reviewed the billing and pricing data used by Spot, validated relevant cost and pricing tables, monitored AWS updates, and assessed whether any customer-facing billing or savin</description></item><item><title>Flexera One- IT Asset management- APAC &amp; EU - Slowness and degraded performance [postmortem]</title><link>https://stspg.io/s2btch7sfpwk</link><guid isPermaLink="false">flexera:2026-07-17T01:24:32.000-07:00</guid><pubDate>Fri, 17 Jul 2026 08:24:32 +0000</pubDate><description>**Description:** Flexera One – IT Asset Management – APAC &amp; EU – Slowness and Degraded Performance
+
+**Timeframe:** July 13, 2026, 1:00 PM PDT – July 18, 2026, 7:10 AM PDT  
+
+**Incident Summary**
+
+On July 13, 2026, at approximately 1:00 PM PDT, an issue began affecting Flexera One IT Asset Management customers in the APAC and Europe production environments following deployment of the 2026 R1.1 release.
+
+During the affected period, some customers experienced intermittent application slowness, delayed processing, reconcile failures, and degraded performance when accessing certain areas of the application or performing inventory-related activities. As customer reports increased, technical teams began investigating common patterns across the reported symptoms to determine the underlying cause.
+</description></item><item><title>Flexera One - IT Asset Management - EU - Congnos analytics access issue [postmortem]</title><link>https://stspg.io/grh8pnrkdnnk</link><guid isPermaLink="false">flexera:2026-07-14T02:13:56.224-07:00</guid><pubDate>Tue, 14 Jul 2026 09:13:56 +0000</pubDate><description>**Description:** Flexera One - IT Asset Management - EU - Congnos analytics access issue
+
+**Timeframe:**  July 13, 2026, 12:51 PM PDT to July 14, 2026, 1:52 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Monday, July 13, 2026, at 12:51 PM PDT, Following the Cognos Analytics 12.1.2 upgrade implemented as part of the Flexera One IT Asset Management release in the Europe \(EU\) Production environment, our teams identified an issue that prevented customers from accessing Cognos Analytics. As a result, affected users were unable to successfully launch the application after the scheduled maintenance activities had been completed.
+
+Technical teams immediately initiated an investigation and confirmed that the issue was isolated to the EU Production environment, with no impact observed in any other product</description></item><item><title>Flexera One - IT Asset Management - APAC - Missing Menu Items [postmortem]</title><link>https://stspg.io/2ly0d68hfzf7</link><guid isPermaLink="false">flexera:2026-07-12T16:51:15.759-07:00</guid><pubDate>Sun, 12 Jul 2026 23:51:15 +0000</pubDate><description>**Description:** Flexera One - IT Asset Management - APAC - Missing Menu Items
+
+**Timeframe:** July 12, 2026, 3:00 PM PDT - July 12, 2026, 7:16 PM PDT
+
+**Incident Summary**
+
+On Sunday, July 12, 2026, at 3:00 PM PDT, customers in the APAC production environment began reporting that several IT Asset Management \(ITAM\) menu items, including functionality such as Reports and All Applications, were no longer visible within the Flexera One user interface. Multiple customers were affected, impacting their ability to navigate and access portions of the ITAM application.
+
+Technical teams immediately began investigating the issue and identified authentication-related errors affecting the ITAM user interface. During the investigation, teams reviewed infrastructure health, application behavior, and r</description></item><item><title>Spot Ocean – AWS – Ocean ECS Console Performance Degradation [postmortem]</title><link>https://stspg.io/nwr6y4xy9y3n</link><guid isPermaLink="false">flexera:2026-07-06T07:19:02.000-07:00</guid><pubDate>Mon, 06 Jul 2026 14:19:02 +0000</pubDate><description>**Description:** Spot Ocean – AWS – Ocean ECS Console Performance Degradation
+
+**Timeframe:**  July 6, 2026, 05:45 AM PDT to July 6, 2026, 07:53 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Monday, July 6, 2026, at 05:45 AM PDT , our teams identified a performance degradation affecting Spot Ocean ECS for AWS customers. During the impact window, customers experienced increased latency when accessing the Ocean ECS console, and some AWS-related operations were delayed or did not complete successfully.
+
+Technical teams immediately initiated an investigation to identify the source of the issue. As an AWS service disruption was occurring concurrently in the AWS us-east-1 region, the investigation initially considered both the external AWS event and a recently completed production deployment as potenti</description></item><item><title>Flexera One – APAC – Intermittent Access Issues [postmortem]</title><link>https://stspg.io/bwpc9zln0f68</link><guid isPermaLink="false">flexera:2026-07-03T12:07:58.037-07:00</guid><pubDate>Fri, 03 Jul 2026 19:07:58 +0000</pubDate><description>**Description:** Flexera One – APAC – Intermittent Access Issues
+
+**Timeframe:** July 3, 2026, 11:20 AM PDT – July 3, 2026, 11:50 AM PDT
+
+**Incident Summary**
+
+On July 3, 2026, at approximately 11:20 AM PDT, an issue was identified affecting a subset of Flexera One services in the APAC production environment.
+
+During the incident window, some customers may have experienced intermittent access issues or failures when accessing certain areas of the Flexera One platform. The impact was intermittent in nature, as redundant service capacity remained available and continued serving traffic during the incident. Other Flexera One regions, including NAM and EU, were not impacted.
+
+Technical teams began investigating immediately and reviewed the affected services and supporting platform components w</description></item><item><title>Flexera One- IT Asset management- APAC &amp; EU - Inventory Import Failures [postmortem]</title><link>https://stspg.io/p5tp7jy2k5q5</link><guid isPermaLink="false">flexera:2026-06-24T23:54:13.000-07:00</guid><pubDate>Thu, 25 Jun 2026 06:54:13 +0000</pubDate><description>**Description:** Flexera One- IT Asset management- APAC &amp; EU - NDI Inventory Import Failures
+
+**Timeframe:**  June 18, 2026, 09:00 AM PDT to June 25, 2026, 02:42 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Wednesday, June 24, 2026, 11:35 PM PDT, following the deployment of the Flexera One IT Asset Management 2026 R1 release to the Australia and Europe Production environments, our teams identified an issue affecting the processing of NDI inventory files. As a result, a significant number of inventory files failed during processing and were not reflected in customer inventory data, causing inventory information displayed in Flexera One ITAM to become outdated for affected customers.
+
+Technical teams immediately initiated an investigation and determined that the issue occurred within the inventory</description></item><item><title>Flexera One – EU – Login Access Disruption [postmortem]</title><link>https://stspg.io/xtp281cng8c0</link><guid isPermaLink="false">flexera:2026-06-24T01:00:25.516-07:00</guid><pubDate>Wed, 24 Jun 2026 08:00:25 +0000</pubDate><description>**Description:** Flexera One – EU – Login Access Disruption
+
+**Timeframe:**  June 24, 2026, 12:41 AM PDT to June 24, 2026, 02:04 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Wednesday, June 24, 2026, at 12:41 AM PDT, our teams detected an issue affecting customers in the EU region. Impacted users experienced authentication failures when attempting to sign in to Flexera One using Single Sign-On \(SSO\), resulting in server errors and preventing access to the platform.
+
+Upon detection, technical teams immediately initiated an investigation and confirmed that the issue was isolated to the authentication workflow. Validation of the application and underlying platform services showed that all core infrastructure remained healthy and operational. Further analysis determined that a service account used</description></item><item><title>Snow Atlas - West Europe - Service Disruption [postmortem]</title><link>https://stspg.io/5c0kg3l5cx0m</link><guid isPermaLink="false">flexera:2026-06-18T08:33:23.732-07:00</guid><pubDate>Thu, 18 Jun 2026 15:33:23 +0000</pubDate><description>**Description:** Snow Atlas - West Europe - Service Disruption
+
+**Timeframe:**  June 18, 2026, 07:00 AM PDT to June 18, 2026, 08:23 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Thursday, 18 June 2026 at 07:00 AM PDT, customers in the West Europe production region experienced a service disruption that affected access to Snow Atlas. During this service event, users encountered HTTP 504 timeout and HTTP 404 errors, which prevented access to the platform and impacted the use of Snow Atlas functionality.
+
+Upon detection, technical teams immediately initiated an investigation and identified the issue within a core platform component responsible for communication between backend services. The degradation disrupted service interactions, resulting in request failures and temporary service unavailability.</description></item><item><title>Flexera One - IT Visibility - APAC - Data Explorer Service Disruption [postmortem]</title><link>https://stspg.io/5wbphy2y0qzn</link><guid isPermaLink="false">flexera:2026-06-18T07:44:23.000-07:00</guid><pubDate>Thu, 18 Jun 2026 14:44:23 +0000</pubDate><description>**Description:** Flexera One – IT Visibility – APAC – Data Explorer Service Disruption
+
+**Timeframe:** June 17, 2026, 6:47 PM PDT – June 18, 2026, 7:46 AM PDT
+
+**Incident Summary**
+
+During the incident window, customers experienced issues with Data Explorer functionality for Flexera One IT Visibility in the APAC region.
+
+Affected customers experienced failures when running queries, delays and errors when retrieving data, and issues accessing related functionality that depends on Data Explorer. Some dependent functionality, including reporting and connections, did not operate as expected.
+
+Technical teams investigated and identified that Data Explorer and related services were unable to successfully communicate with required internal services used for request processing. This resulted in qu</description></item><item><title>Flexera One- IT Asset management- APAC - Page loading issues [postmortem]</title><link>https://stspg.io/xcwwv2x5mzgw</link><guid isPermaLink="false">flexera:2026-06-18T05:45:37.467-07:00</guid><pubDate>Thu, 18 Jun 2026 12:45:37 +0000</pubDate><description>**Description:** Flexera One- IT Asset management- APAC - Page loading issues
+
+**Timeframe:**  June 18, 2026, 05:22 AM PDT to June 18, 2026, 06:09 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Thursday, 18 June 2026, at 05:22 AM PDT, our teams detected an issue affecting customers in the APAC production region. Impacted users were unable to access the Flexera One IT Asset Management \(ITAM\) service, as the ITAM landing page failed to load and key navigation components did not initialise correctly. As a result, customers were unable to access ITAM functionality through the user interface.
+
+Upon detection, our technical teams immediately launched an investigation and confirmed that the issue was isolated to the APAC region. Initial assessments indicated that the underlying application infrastructu</description></item><item><title>Snow Atlas - Australia - Few SAM core pages are not loading [postmortem]</title><link>https://stspg.io/fw1q5wklzkf3</link><guid isPermaLink="false">flexera:2026-06-11T18:38:18.099-07:00</guid><pubDate>Fri, 12 Jun 2026 01:38:18 +0000</pubDate><description>**Description:** Snow Atlas - Australia - Few SAM core pages are down
+
+**Timeframe:**  June 11, 2026, 05:44 PM PDT to June 11, 2026, 11:22 PM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On June 11, 2026, a small subset of customers in the Australia production environment began experiencing issues accessing Snow Atlas SAM Core functionality. Affected users encountered HTTP 500 errors, application page failures, or pages that remained in a continuous loading state. The impact was limited to SAM Core functionality, while SaaS Manager remained fully operational.
+
+Technical teams immediately initiated an investigation and determined that the issue was isolated to the affected tenant environments. The investigation identified that a critical database service required to support SAM Core operations was not </description></item><item><title>Flexera One - IT Asset Management - All Regions - Third-Party Inventory Import Issues [postmortem]</title><link>https://stspg.io/zfxrlqfn6rdd</link><guid isPermaLink="false">flexera:2026-06-04T14:17:22.000-07:00</guid><pubDate>Thu, 04 Jun 2026 21:17:22 +0000</pubDate><description>**Description:** Flexera One - IT Asset Management - All Regions - Third-Party Inventory Import Issues
+
+**Timeframe:**  June 4, 2026, 1:45 PM PDT to June 08, 2026, 00:47 PDT 
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Thursday, June 4, 2026, at 1:45 PM PDT, our teams identified an issue affecting third-party inventory imports in IT Asset Management caused some inventory uploads to time out, fail, or remain in progress longer than expected. The issue impacted the processing of certain third-party inventory sources and resulted in delays to inventory data availability for affected customers.
+
+Investigation determined that, following a recent platform change, a subset of third-party inventory imports encountered issues during the transfer of inventory data into IT Asset Management. 
+
+The issue was initi</description></item><item><title>Flexera One IT Asset Management - NA - Batch Job Processing Delays [postmortem]</title><link>https://stspg.io/wrm285d55kbq</link><guid isPermaLink="false">flexera:2026-06-03T09:00:59.654-07:00</guid><pubDate>Wed, 03 Jun 2026 16:00:59 +0000</pubDate><description>**Description:** Flexera One IT Asset Management \(ITAM\) - North America - Delayed Batch Processing
+
+**Timeframe:** June 2, 2026, 10:29 PM PDT - June 4, 2026, 6:29 AM PDT  
+
+**Incident Summary**  
+On June 2, 2026, following a scheduled production release in the North America production environment, customers using Flexera One IT Asset Management \(ITAM\) experienced delays in batch processing activities.
+
+After the release completed, technical teams identified that batch processing workloads were accumulating in processing queues and were not being executed at the expected rate. As the backlog increased, customers experienced delays in processing activities that relied on the ITAM batch processing platform.
+
+Technical teams immediately began investigating the issue and observed that proce</description></item><item><title>Snow Atlas - West EU - Service Disruption [postmortem]</title><link>https://stspg.io/mndtgdwh1k4x</link><guid isPermaLink="false">flexera:2026-06-03T07:49:56.243-07:00</guid><pubDate>Wed, 03 Jun 2026 14:49:56 +0000</pubDate><description>**Description:** Snow Atlas - West EU - Service Disruption
+
+**Timeframe:** June 3, 2026, 06:33 AM PDT to June 3, 2026, 07:28 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Wednesday,  June 3, 2026 at 06:33 AM PDT, customers in the West EU production environment experienced a service disruption that prevented access to Snow Atlas through snowsoftware.io. Affected users were unable to log in to the platform and, in some cases, encountered service availability errors during authentication attempts.
+
+Upon investigation, our teams determined that a critical identity and authentication service within the West EU environment became unavailable during infrastructure maintenance activities being performed in a separate region. As a result, authentication requests could not be processed successfully, preven</description></item><item><title>Snow Atlas - Australia - Data Ingestion and Export Disruption [postmortem]</title><link>https://stspg.io/q4jb9f5rg6p2</link><guid isPermaLink="false">flexera:2026-06-02T07:46:38.000-07:00</guid><pubDate>Tue, 02 Jun 2026 14:46:38 +0000</pubDate><description>**Description:** Snow Atlas - Australia - Service Unavailable
+
+**Timeframe:** June 02, 2026, 5:30 AM PDT to June 02, 2026, 9:18 AM PDT
+
+‌
+
+**Incident Summary**
+
+‌
+
+On Tuesday, June 02, 2026, 5:30 AM PDT, A service disruption affected Snow Atlas customers in the Australia region following a scheduled maintenance activity. As part of a planned infrastructure maintenance activity, our teams performed a migration between Australia South East and Australia East. The maintenance was expected to be completed within the scheduled window; however, the activity extended beyond the planned duration due to unexpected delays encountered during execution.
+
+Throughout the issue, customers retained access to the Snow Atlas application and were able to view and browse existing data. The impact was limited </description></item><item><title>Flexera One - IT Visibility - NA &amp; EU - Inventory Processing Delays and Timeout Status [postmortem]</title><link>https://stspg.io/5dt5dl6jg11s</link><guid isPermaLink="false">flexera:2026-06-02T07:29:05.000-07:00</guid><pubDate>Tue, 02 Jun 2026 14:29:05 +0000</pubDate><description>**Description:** Flexera One - IT Visibility - NA - Inventory Processing Delays and Timeout Status
+
+**Timeframe:** June 2, 2026, 7:29 AM PDT - June 15, 2026, 7:58 AM PDT
+
+**Incident Summary**
+
+On June 2, 2026, at approximately 7:29 AM PDT, we received customer reports of IT Visibility inventory imports displaying timeout status in the North America production environment.
+
+The ITV platform remained accessible during the incident. The primary customer impact was delayed inventory processing and delayed availability of updated inventory data for some customers. In some cases, imports displayed timeout status while processing was still pending or delayed. This status did not always indicate that processing had failed, as some processing activity could continue in the background and complete l</description></item></channel></rss>

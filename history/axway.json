@@ -1,0 +1,89 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"645xs93cwp85": {
+"body": "We\u2019re sorry \u2014 between 13:00 UTC and 14:00 UTC today some customers experienced partial interruptions to Axway Platform, Axway Analytics, Amplify Marketplace, and Amplify Engage. During that window an internal service error caused elevated failures and automated retries, which temporarily prevented normal access for some users.\n\nWe restored access by allowing queued requests to proceed while we validated and deployed a tested fix; normal service was confirmed at 14:00 UTC. No customer data was exposed.\n\nWe\u2019re taking steps to reduce the chance of this happening again, including additional safeguards, improved test coverage, and broader alerting so production issues are surfaced to our public status page and support teams more quickly.\n\nIf you\u2019re still seeing problems or need help, please contact support through your usual channels.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-19T13:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-02-19T13:00:00.000Z",
+"state": "resolved",
+"title": "Axway Platform Outage",
+"updated_at": "2026-02-19T18:03:20.250Z",
+"url": "https://stspg.io/dl71qqn3ypj0"
+},
+"dn2p3gxxg59b": {
+"body": "Unbounded queries overwhelmed the analytics systems in use by Engage and Platform, causing delays in processing between 2PM-3PM UTC today.\n\nWe will be working to improve query size and performance as well as introduce further restrictions to prevent this from causing issues in the future.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-11T14:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-05-11T14:00:00.000Z",
+"state": "resolved",
+"title": "Axway Platform Analytics intermittent query failure",
+"updated_at": "2026-05-11T16:25:31.543Z",
+"url": "https://stspg.io/zsn7bqfhvm6d"
+},
+"f2996fg9l2zj": {
+"body": "Description: During the detected outage on Amplify Studio, users experienced instability in activating integrations. Additionally, the receipt of monitoring data from Fusion was affected.\n\nRoot Cause: The introduction of additional monitoring checks in the environments led to a permissions error on the clusters. This error disrupted connectivity between the Studio and Fusion instances. The standard validation routines prior to being deployed in production didn\u2019t catch this permission mismatch. \n\nCorrective Action: The permissions were promptly reverted, and impacted services were verified. To prevent recurrence, we have implemented additional checks to ensure such changes do not affect production without being detected in lower environments first.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-09T06:30:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-12-09T06:30:00.000Z",
+"state": "resolved",
+"title": "Amplify Studio outage - US & EU",
+"updated_at": "2025-12-12T10:13:24.134Z",
+"url": "https://stspg.io/ztw875f7v6g7"
+},
+"q3q8vhxrvjng": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-18T20:05:39.000Z",
+"resolved_inferred": false,
+"started_at": "2026-08-18T19:40:42.000Z",
+"state": "resolved",
+"title": "Axway Login Issues",
+"updated_at": "2026-08-18T21:55:29.150Z",
+"url": "https://stspg.io/6mhnq8btwxzm"
+},
+"wj241z11j0jk": {
+"body": "We observed a brief period of degraded authentication service between 05:50 UTC and 06:50 UTC on 11 August 2026, during which a small number of users may have experienced login failures.\n\nThe issue has been fully resolved, and services are operating normally. Additional monitoring and preventive measures have been put in place to help maintain service reliability.\n\nWe regret any disruption this may have caused and appreciate your continued trust.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-11T06:50:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-08-11T05:50:00.000Z",
+"state": "resolved",
+"title": "Axway Platform Intermittent Login Issues",
+"updated_at": "2026-08-11T12:03:23.294Z",
+"url": "https://stspg.io/c4mg0y9k9hkf"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "axway",
+"status_url": "https://status.axway.com",
+"vendor": "Axway"
+}

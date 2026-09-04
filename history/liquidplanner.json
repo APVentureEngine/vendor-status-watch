@@ -1,0 +1,240 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01K4DA4BA02MAESV6XGPN0A97Z": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-06-13T19:51:32Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:40Z",
+"state": "resolved",
+"title": "LiquidPlanner Service Report",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4D1WV7E4H821E73XN6C1": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-05-13T00:05:42Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:41Z",
+"state": "resolved",
+"title": "LiquidPlanner Website & Support pages unavailable",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4DNMMP1NQW3KZ8F05AK9": {
+"body": "Our service provider reported their email services are fully operational again and this incident is resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-02-28T18:38:04Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:42Z",
+"state": "resolved",
+"title": "LiquidPlanner Classic: inbound & outbound email processing issue",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4E60TDST95H6H7M7MQNP": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-01-06T19:52:29Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:43Z",
+"state": "resolved",
+"title": "LiquidPlanner Classic: Inbound Notifications Error",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4GDQK3DJQXZ88R90G5Y5": {
+"body": "Our notification queue is now empty, and notifications are functioning normally. This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2022-06-09T14:15:28Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:45Z",
+"state": "resolved",
+"title": "LiquidPlanner Classic: Inbound & Outbound Notifications Delayed",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4JA4VHGAAQP7F8YXSZ2H": {
+"body": "AWS confirms that the incident is resolved and systems are operating normally.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2021-12-15T19:37:09Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:47Z",
+"state": "resolved",
+"title": "LiquidPlanner Service Report",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4KY92HDHD12769AY34H6": {
+"body": "This incident has been resolved. Our provider confirms that service is operating normally.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2021-08-31T23:38:46Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:48Z",
+"state": "resolved",
+"title": "Slow network traffic due to vendor issue",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4MQ1ATX572261TZ42WNS": {
+"body": "Our email service provider resolved the issue and systems have returned to normal.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2020-08-07T18:05:36Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:49Z",
+"state": "resolved",
+"title": "Inbound Notifications Delayed",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4NMNG7WRVTXAAQJAH8E0": {
+"body": "Our team investigated the incident and determined that some of the recurring automated tuning operations performed by the PostgreSQL database platform created a bottleneck in the LiquidPlanner operating environment. Requests backed up and some users experienced slow operations and errors.\n\nWe've since added additional database I/O capacity and adjusted the automated tuning operations to prevent this issue in the future.\n\nThanks for your continuing support and patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2019-03-02T00:29:05Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:50Z",
+"state": "resolved",
+"title": "Slow load times and intermittent timeout",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4NXSQQKKDF6YEAQSPDVP": {
+"body": "Degraded performance in a back up system resulted in isolated slow-downs in service. That infrastructure has stabilized and this incident is resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2018-09-13T21:45:30Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:50Z",
+"state": "resolved",
+"title": "LiquidPlanner Service Report",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4P5SVPW4FPMN6MFTDGG8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2018-07-13T16:43:35Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:51Z",
+"state": "resolved",
+"title": "LiquidPlanner notifications delayed",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4PQH3FA29C0FYAEMAVNZ": {
+"body": "We determined that a particular request pattern with poor performance consumed all of a webserver's available resources. This caused our health check to pull that host out of the load-balancing pool. The increased traffic to other hosts caused them to become overwhelmed as well, resulting in a brown-out of the application.\n\nOur team acted quickly and service restored in ten minutes.\n\nThere was no impact to customer data during this period. The application is accessible and operating as expected at this time.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2018-05-17T19:22:52Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:51Z",
+"state": "resolved",
+"title": "LiquidPlanner Service Alert",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4Q8F6WAWB7D3GE2Q8ZYD": {
+"body": "After thorough investigation, we determined that we hit some unforeseen I/O limits with our database. The combination of a cache flush due to a restart, recalculation of some statistics, and peak load resulted in brownouts and occasional errors in our application.\r\n\r\nTo remediate this type of resource exhaustion, we've purchased additional I/O capacity from AWS. As always, we'll continue to monitor and tune our database configuration in response to the large amounts of data that we process.\r\n\r\nThere was no impact to customer data during this period. The application is accessible and operating as expected at this time.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2018-04-24T16:13:07Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:52Z",
+"state": "resolved",
+"title": "Delays and increased error rates",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4RNA0YTG4A9QPR247SWK": {
+"body": "We determined that a particular request pattern with poor performance consumed all of a webserver's available resources. This caused our health check to pull that host out of the load-balancing pool. The increased traffic to other hosts caused them to become overwhelmed as well, resulting in a brown-out of the entire application. \r\n\r\nThere was no impact to customer data during this period. The application is accessible and operating as expected at this time.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2018-01-31T17:02:00Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:53Z",
+"state": "resolved",
+"title": "Slow load times and intermittent timeout",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4SDFW56A86AKME3YEFA0": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2017-11-10T18:19:02Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:54Z",
+"state": "resolved",
+"title": "500 Error when accessing member profile or accepting invitations",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01K4DA4SMCNFCMFJT6ZNWS6WNM": {
+"body": "Some customers reported issues with email delivery (sending invitations, password reset, comments, recent change notifications, daily digest). Mail had been queued on our local servers following the release this weekend (7am Pacific, Saturday, November 4). Email notifications are flowing as expected now. We apologize for the inconvenience. You will receive all mail that had been generated, and you do not need to resend anything that was initiated while the mail was in queue.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2017-11-06T16:33:54Z",
+"resolved_inferred": false,
+"started_at": "2025-09-05T16:07:54Z",
+"state": "resolved",
+"title": "Email delivery issues",
+"updated_at": "2026-03-12T18:22:44Z"
+},
+"01M1MN8CBFH0SP693372DZ0A2A": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-09-03T23:14:06Z",
+"resolved_inferred": false,
+"started_at": "2026-09-03T22:12:00Z",
+"state": "resolved",
+"title": "Degraded performance",
+"updated_at": "2026-09-03T23:14:06Z"
+},
+"01M1MNETCC9KMVM8WN1NFNP79K": {
+"body": "We're no longer seeing errors in the affected region. We'll continue to monitor, but no further issues are expected.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-09-03T23:12:31Z",
+"resolved_inferred": false,
+"started_at": "2026-09-03T22:15:31Z",
+"state": "resolved",
+"title": "Application errors with subset of features",
+"updated_at": "2026-09-03T23:12:31Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "liquidplanner",
+"status_url": "http://status.liquidplanner.com",
+"vendor": "LiquidPlanner"
+}

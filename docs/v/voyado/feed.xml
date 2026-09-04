@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Voyado incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/voyado/</link><description>Incidents from Voyado's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>[Engage] Issues with Abandoned Cart, Revenue Overview Dashboard and Automation Performance Dashboard [postmortem]</title><link>https://stspg.io/ld805zvm337f</link><guid isPermaLink="false">voyado:2026-09-02T08:58:27.135+02:00</guid><pubDate>Wed, 02 Sep 2026 06:58:27 +0000</pubDate><description># **Incident report**
+
+## **Summary**
+
+On September 1, an issue with an underlying service used by Voyado caused parts of the platform to stop working as expected.
+
+The issue affected Abandoned Cart, the Revenue Overview Dashboard, new Analytics reports, and the Automation Overview Dashboard for all tenants using these features.
+
+We identified the cause and implemented a fix that restored the affected functionality.
+
+## **Customer impact**
+
+During the incident, customers using the affected features experienced errors or were unable to access the expected information.
+
+The following features were affected:
+
+* Abandoned Cart
+* Revenue Overview Dashboard
+* New Analytics reports
+* Automation Overview Dashboard
+
+No customer data was lost, modified, or exposed as a result of the incident.
+
+## **</description></item><item><title>Engage - email sending issues [resolved]</title><link>https://stspg.io/qhc90ryrt8q1</link><guid isPermaLink="false">voyado:2026-08-21T12:41:40.102+02:00</guid><pubDate>Fri, 21 Aug 2026 10:41:40 +0000</pubDate><description>The issue affecting email sending has been resolved. During the monitoring period, we have seen no indications of the issue recurring.
+
+The disruption affected some email sendouts for a subset of customers between approximately 19:30 on Thursday and 17:30 on Friday. For affected sendouts, some emails were sent successfully, while a percentage were not sent due to the issue.
+
+The delivery information shown in Engage is correct. Emails with an unknown delivery status were not delivered and will not be resent automatically.
+
+We will conduct a post-mortem to further investigate the incident and determine the underlying root cause.
+
+We apologize for the inconvenience caused.</description></item><item><title>[Engage] - Shopify App Service Disruption [resolved]</title><link>https://stspg.io/gg50r6vk67cw</link><guid isPermaLink="false">voyado:2026-07-13T13:00:04.454+02:00</guid><pubDate>Mon, 13 Jul 2026 11:00:04 +0000</pubDate><description>The Shopify App has been operating normally, and the service has remained stable.
+
+Additional information has been shared directly with the customers affected by the incident.</description></item><item><title>[Elevate] Partial outage of the Elevate Application [resolved]</title><link>https://stspg.io/zxc0v0wgqphv</link><guid isPermaLink="false">voyado:2026-07-10T13:00:03.000+02:00</guid><pubDate>Fri, 10 Jul 2026 11:00:03 +0000</pubDate><description>The 3rd party provider has resolved the issue.</description></item><item><title>[Engage] Degraded API performance [postmortem]</title><link>https://stspg.io/2wjc2t0cngm2</link><guid isPermaLink="false">voyado:2026-07-07T15:29:42.722+02:00</guid><pubDate>Tue, 07 Jul 2026 13:29:42 +0000</pubDate><description>## Summary
+
+On July 7, 2026, between approximately 14:50 and 16:32 CEST, some Engage customers experienced degraded platform performance. This included slow response times, timeouts, and intermittent error messages.
+
+The issue was caused by an infrastructure event that temporarily affected the platform’s ability to process requests as expected.
+
+The incident was fully resolved at 16:32 CEST, and performance returned to normal.
+
+## Customer impact
+
+During the incident, affected customers may have experienced slower than normal response times, request timeouts, and intermittent error messages when using Engage.
+
+The impact was limited to parts of the platform, and no customer data was lost.
+
+## Root cause
+
+The incident was triggered by an infrastructure event in one part of the platform. Thi</description></item><item><title>Engage - issues with registration forms redirection not working [postmortem]</title><link>https://stspg.io/hlbdfxxx7s4m</link><guid isPermaLink="false">voyado:2026-06-02T15:44:05.508+02:00</guid><pubDate>Tue, 02 Jun 2026 13:44:05 +0000</pubDate><description>### **Summary**
+
+On 2 June 2026, we identified an issue where short links used in SMS campaigns did not redirect users to the intended destination. Instead, recipients were redirected to the login screen. The issue was resolved the same day.
+
+### **Customer impact**
+
+The issue affected customers using short links in SMS campaigns, including links to registration forms and mobile swipes. The impact period was approximately 15:40–18:17 CEST.
+
+### **Root cause**
+
+A code change introduced in the release on 2 June changed how short link redirects were handled. As a result, some SMS short links redirected to the login screen instead of the intended page. 
+
+### **Mitigation**
+
+A hotfix was developed, verified, and deployed to production. The fix was confirmed working in production before the inci</description></item><item><title>[Engage] Issues with displaying Design Studio messages [postmortem]</title><link>https://stspg.io/rfmh80y8q2r2</link><guid isPermaLink="false">voyado:2026-05-22T11:28:56.476+02:00</guid><pubDate>Fri, 22 May 2026 09:28:56 +0000</pubDate><description>### Summary
+
+On Friday, May 22, between approximately 11:15 and 12:45 CEST, users experienced issues when opening the Design Studio in Engage to list send-out messages.
+
+Message sending was not impacted. Scheduled send-outs, automation send-outs, and message delivery to recipients continued to work as expected.
+
+The issue was resolved after deploying a hotfix to the affected frontend services.
+
+### Customer impact
+
+Customers using Design Studio in Engage were affected, the classic email editor was not impacted. During the incident, affected users could experience problems with:
+
+* Viewing existing send-outs
+* Working with send-outs
+* Opening the Design Studio
+
+There was no impact on recipients or outbound message delivery.
+
+### Root cause
+
+The issue was caused by a recent frontend change r</description></item><item><title>Elevate Classification Issue [resolved]</title><link>https://stspg.io/t7fb6kv01cmy</link><guid isPermaLink="false">voyado:2026-05-22T09:40:40.236+02:00</guid><pubDate>Fri, 22 May 2026 07:40:40 +0000</pubDate><description>The classification issue has been fixed. New and changed product data is now being processed again. We are working through the backlog, so classification for some recently added products may take some time to complete.</description></item><item><title>Engage - FTP server issues [postmortem]</title><link>https://stspg.io/3lwxzxj4wzdk</link><guid isPermaLink="false">voyado:2026-04-23T16:12:30.322+02:00</guid><pubDate>Thu, 23 Apr 2026 14:12:30 +0000</pubDate><description>## Summary
+
+On April 23rd, approximately between 15:55 and 16:27 CET, our FTP service experienced an outage after the underlying infrastructure became unresponsive due to a spike in CPU usage. The service was restored after corrective actions were taken. After recovery, we verified stability and completed follow-up maintenance to reduce operational risk.
+
+## Customer Impact
+
+During the incident, FTP connections and transfers were unavailable for customers using the FTP service. Once recovery actions were completed, the service resumed normal operation.
+
+## Root Cause
+
+The incident was triggered by an unexpected spike in CPU usage that caused the underlying infrastructure to become unresponsive. As a result, the FTP service stopped responding and could not be reached for troubleshooting unt</description></item><item><title>Voyado Engage - Performance degradation affecting a subset of customers [resolved]</title><link>https://stspg.io/sz03qnvnw8hg</link><guid isPermaLink="false">voyado:2026-04-09T11:38:43.473+02:00</guid><pubDate>Thu, 09 Apr 2026 09:38:43 +0000</pubDate><description>Resolved: Following earlier performance degradation, all services have been operating normally since yesterday.
+
+We will continue to monitor to ensure stability.</description></item><item><title>Voyado Engage- Performance degradation affecting a subset of customers [resolved]</title><link>https://stspg.io/fsslqkrhyt4y</link><guid isPermaLink="false">voyado:2026-04-08T10:49:26.648+02:00</guid><pubDate>Wed, 08 Apr 2026 08:49:26 +0000</pubDate><description>All services are now operating normally. We will continue to monitor to ensure stability.</description></item><item><title>Voyado Engage- Performance degradation affecting a subset of customers [postmortem]</title><link>https://stspg.io/g2hnw23hd2xh</link><guid isPermaLink="false">voyado:2026-04-07T14:56:20.310+02:00</guid><pubDate>Tue, 07 Apr 2026 12:56:20 +0000</pubDate><description>**Summary**    
+Between April 7 and April 9, 2026, parts of the Voyado platform experienced degraded performance related to one of our database clusters.    
+The issue caused slower response times and intermittent errors in affected parts of the platform, including our APIs and some connected background processing. We took immediate action to reduce the load, mitigate customer impact, and restore stability.    
+Customers that were most affected by the database load were promptly moved to other database clusters, which resolved the issue for those customers.
+
+**Customer impact**    
+Customers connected to the affected database cluster may have experienced degraded performance, including slow or failing API requests, delays in background processing, and intermittent issues in some platform f</description></item><item><title>Engage - Vipps integration issues [postmortem]</title><link>https://stspg.io/hzvp0f0gx9m8</link><guid isPermaLink="false">voyado:2026-03-20T17:27:23.504+01:00</guid><pubDate>Fri, 20 Mar 2026 16:27:23 +0000</pubDate><description>## Summary
+
+On the afternoon of 20 March, we experienced a disruption affecting Vipps and Treazure integrations. The investigation showed that the issue was caused by a very large burst of webhook-triggering updates from one customer workflow. The issue was mitigated the same day by disabling the affected workflow, after which service returned to normal.
+
+## Customer Impact
+
+Multiple customers experienced failed or interrupted external API call activities connected to Vipps flows, and some impact was also seen in Treazure flows. This resulted in timeouts and failed processing during the incident window.
+
+## Root Cause
+
+The incident was caused by a massive simultaneous burst of webhook-triggering updates from one customer workflow, which overloaded the shared integration service. This creat</description></item><item><title>[Engage] Incorrect timestamp format in Delta Share exports [postmortem]</title><link>https://stspg.io/g9tqhm3vdkfw</link><guid isPermaLink="false">voyado:2026-03-16T11:45:46.014+01:00</guid><pubDate>Mon, 16 Mar 2026 10:45:46 +0000</pubDate><description>## Summary
+
+On March 15th 2026, an issue affecting Delta Share was identified. The issue was caused by a change in how timestamp values were stored. This change was introduced as part of an infrastructure upgrade on March 13, 2026. The incident was limited in scope and, based on our investigations, only one tenant/partner was affected.
+
+## Customer impact
+
+One tenants/partners Delta Share integration failed when loading data containing timestamp fields. This meant that some shared data could not be processed correctly in their integration. At this time, no other Delta Share users have been identified as affected.
+
+## Root cause
+
+As part of an upgrade, the infrastructure used to prepare shared data was moved to a newer cluster setup. Following this change, timestamp values were written in a</description></item><item><title>Elevate 3 API partially unavailable [resolved]</title><link>https://stspg.io/lwcq1qplx07s</link><guid isPermaLink="false">voyado:2026-02-10T09:13:13.000+01:00</guid><pubDate>Tue, 10 Feb 2026 08:13:13 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Engage - Vipps integration issues [postmortem]</title><link>https://stspg.io/g4yz0st59pgt</link><guid isPermaLink="false">voyado:2026-02-05T11:56:23.943+01:00</guid><pubDate>Thu, 05 Feb 2026 10:56:23 +0000</pubDate><description>## Summary
+
+On the afternoon of February 5th, we experienced a disruption affecting the delivery of app push notifications for customers using the Vipps integration. The issue was caused by an expired security certificate in a third-party integration service. The problem was identified and resolved the same day, and all delayed events were sent shortly after recovery.
+
+## Customer impact
+
+Some customers experienced **delayed app push notifications**.  
+No notifications were lost, and no other functionality within the Voyado platform was affected. The impact was considered minor and non-critical.
+
+## Root cause
+
+The issue was caused by an **expired security certificate** used by a third-party integration service that handles communication between Voyado Engage and Vipps. Once the certificat</description></item><item><title>App unavailable [postmortem]</title><link>https://stspg.io/hmljwyy0xybm</link><guid isPermaLink="false">voyado:2026-02-03T14:39:39.923+01:00</guid><pubDate>Tue, 03 Feb 2026 13:39:39 +0000</pubDate><description>A recent network configuration update unintentionally interrupted communication between the Elevate App backend and a subset of Elevate clusters. 
+
+Because DNS records were still being served from cache, the change didn’t take effect right away. Once those cached entries expired, the loss of connectivity surfaced. 
+
+This timing gap made it harder to connect the incident to the earlier change, which extended our troubleshooting and recovery time.</description></item><item><title>Voyado telecommunications outage for incoming calls [resolved]</title><link>https://stspg.io/qxtqz7bw6tv8</link><guid isPermaLink="false">voyado:2026-01-28T09:03:26.917+01:00</guid><pubDate>Wed, 28 Jan 2026 08:03:26 +0000</pubDate><description>This has been reported as resolved from our provider. 
+We apologize for any inconvenience caused by the outage.</description></item><item><title>Engage - FTP unavailable [postmortem]</title><link>https://stspg.io/smm64t8vfx67</link><guid isPermaLink="false">voyado:2026-01-23T15:22:15.783+01:00</guid><pubDate>Fri, 23 Jan 2026 14:22:15 +0000</pubDate><description>## Summary
+
+On January 23, approximately between 15:20–16:25 CET, our FTP service experienced an outage after the underlying server became unresponsive following an unexpected spike in resource usage. The service was restored by restarting the affected server. After recovery, we verified stability and completed follow-up maintenance to reduce operational risk.
+
+## Customer impact
+
+During the timeframe of the  incident, FTP connections and transfers were unavailable for customers using the FTP service. Once recovery actions were completed, the service resumed normal operation.
+
+## Root Cause
+
+The incident was triggered by an unexpected CPU spike that caused the server to stall at the system level. As a result, the FTP service stopped responding and the server could not be reached for troubl</description></item><item><title>[Elevate] Increased response times on various storefront API endpoints [postmortem]</title><link>https://stspg.io/mnz6sdkt372r</link><guid isPermaLink="false">voyado:2026-01-20T11:20:12.859+01:00</guid><pubDate>Tue, 20 Jan 2026 10:20:12 +0000</pubDate><description>A release of Elevate introduced a bug in the calculation of promotion statistics, which caused CPU exhaustion leading to performance degradation of some Storefront endpoints.
+
+When noticed, the release was aborted and rollback was made to the previous version.
+
+The endpoints primarily affected were the landing-page and the product-page.
+
+Not all customers were affected.</description></item><item><title>[Engage] Design Studio: Issues with Design Studio and Data Sources [postmortem]</title><link>https://stspg.io/r64pzmzhqs7w</link><guid isPermaLink="false">voyado:2026-01-13T09:34:24.820+01:00</guid><pubDate>Tue, 13 Jan 2026 08:34:24 +0000</pubDate><description>## **Summary**
+
+On January 13th, we experienced an issue that temporarily prevented access to the Design Studio for some customers using the Orders module.
+
+## **Customer Impact**
+
+Customers with the Orders module enabled and using a specific storage configuration were unable to access data sources and email modules in the Design Studio. Email sending was not affected.
+
+## **Root Cause**
+
+The issue was caused by a configuration error that prevented necessary data from loading correctly.
+
+## **Mitigation**
+
+We identified the root cause and applied a fix by adjusting the storage setup. Full functionality was restored by 12:14 CET on the same day.
+
+## **Next Steps**
+
+To prevent this from happening again, we are improving our internal testing environments and reviewing the need for this specif</description></item><item><title>Engage - issue with one server affecting a subset of customers [postmortem]</title><link>https://stspg.io/b3hdvlnljp37</link><guid isPermaLink="false">voyado:2025-12-30T12:04:18.322+01:00</guid><pubDate>Tue, 30 Dec 2025 11:04:18 +0000</pubDate><description>## Summary
+
+On December 30th, a performance issue on one of our servers led to delayed API response times for a subset of customers. The issue was quickly identified and mitigated within approximately one hour.
+
+## Customer Impact
+
+The delays affected API responses for customers hosted on one specific server. All other parts of the platform remained fully functional.
+
+## Root Cause
+
+The issue was triggered by a large import job that attempted to process a high volume of transactions in a single run. This created a significant number of internal locks in our database, leading to degraded performance. 
+
+## Remediation &amp; Prevention 
+
+Once the problematic job was identified, it was stopped, and a work-around was made to prevent further issues.
+
+## Next Steps
+
+We are reviewing the job and do ne</description></item><item><title>[Engage] Delays in Processing Message Statistics [postmortem]</title><link>https://stspg.io/p2j7d13dtsw4</link><guid isPermaLink="false">voyado:2025-11-28T10:49:09.818+01:00</guid><pubDate>Fri, 28 Nov 2025 09:49:09 +0000</pubDate><description>### Summary
+
+On the morning of November 28, we experienced a delay in the systems responsible for processing message statistics in Voyado Engage. While message delivery worked as expected, statistics—such as opens, clicks, and bounces—were shown with a delay of up to 60 minutes in the user interface.
+
+### Customer Impact
+
+* Message delivery was not affected.
+* Users saw delays of up to 60 minutes when reviewing delivery statistics for email send-outs.
+* Segmentation based on message statistics continued to work, though with a delay.
+* This affected all customers using Engage to send messages during the morning and early afternoon, the impact was isolated to a delay in viewing the statistics for the messages sent.
+
+### Root Cause
+
+The issue was caused by limitations in how our internal mess</description></item><item><title>Engage - Problems submitting registration forms [postmortem]</title><link>https://stspg.io/4w0n7n4vxd82</link><guid isPermaLink="false">voyado:2025-11-12T10:49:27.628+01:00</guid><pubDate>Wed, 12 Nov 2025 09:49:27 +0000</pubDate><description>## **Summary**
+
+On 2025-11-12, an issue was introduced in a morning update that caused registration forms to fail silently on submission for multiple customers. The forms appeared to work but did not process user input.
+
+## **Customer Impact**
+
+End-users were unable to submit registration forms or update communication preferences. No error messages were shown, which impacted onboarding and preference management flows.
+
+## **Root Cause**
+
+A bug in the released code affected how registration forms handled certain preference fields, causing submissions to fail without visible errors.
+
+## **Mitigation**
+
+A fix was identified and deployed to resolve the issue.
+
+## **Next Steps**
+
+We are implementing additional testing safeguards and improving our internal processes to detect similar issues earl</description></item><item><title>Voyado Engage - Delay in Event Processing [postmortem]</title><link>https://stspg.io/mjlrnbtstlh2</link><guid isPermaLink="false">voyado:2025-11-07T12:42:00.203+01:00</guid><pubDate>Fri, 07 Nov 2025 11:42:00 +0000</pubDate><description>## Summary
+
+On November 7th, an unusually high number of internal events were generated due to a planned feature rollout. This caused delays in processing certain automations.
+
+## Customer Impact
+
+Automations triggered by customer interactions or audience targeting were delayed by up to 12 hours. All affected automations were eventually executed. Other parts of the platform operated as normal.
+
+## Root Cause and Mitigation
+
+When the new Marketing Groups feature was enabled for all customers, a large volume of events \(hundreds of millions\) was generated in a short time. The system processing these events could not keep up, which resulted in delays for other events in the same internal queue.
+
+To restore normal flow, we temporarily cleared out the backlog of non-critical events and perform</description></item><item><title>[Elevate] Search-page returning sporadic errors [postmortem]</title><link>https://stspg.io/ddnnl0jctp9d</link><guid isPermaLink="false">voyado:2025-10-14T11:08:01.298+02:00</guid><pubDate>Tue, 14 Oct 2025 09:08:01 +0000</pubDate><description>**Description**
+
+During an A/B test of personalization functionality, an update introduced data that was not compatible with older system versions. This caused search-page errors for some shoppers when their requests were routed between nodes running different versions. 
+
+The A/B test was disabled promptly, preventing new incompatible data from being written. This action significantly reduced the error rate. Errors continued to occur for a limited number of shoppers who had already been affected, until all older nodes were fully upgraded.  
+
+* The majority of customers running the test experienced no impact. 
+
+* Most customers faced none or a few errors. 
+
+All systems were upgraded to the new version, eliminating the incompatibility and restoring full stability. 
+
+**Business impact**
+
+* So</description></item><item><title>[Engage] - Inacurate Data In Revenue Overview Dashboard [postmortem]</title><link>https://stspg.io/ds94d9125gjz</link><guid isPermaLink="false">voyado:2025-10-09T11:35:22.287+02:00</guid><pubDate>Thu, 09 Oct 2025 09:35:22 +0000</pubDate><description>## Summary
+
+A background system component failed to start due to outdated software. This caused some data to stop updating for a short period.
+
+## Customer Impact
+
+For a limited time, some customers saw outdated or missing data in the Revenue Overview Dashboard.
+
+## Root Cause and Mitigation
+
+The issue was caused by an outdated software dependency. The system was updated to the latest version, and we’ve added improved monitoring to detect similar issues earlier in the future.</description></item><item><title>[Engage] Delayed sendout status updates [postmortem]</title><link>https://stspg.io/3fqtxj6w7cgg</link><guid isPermaLink="false">voyado:2025-10-08T12:02:21.937+02:00</guid><pubDate>Wed, 08 Oct 2025 10:02:21 +0000</pubDate><description>### Summary
+
+Between October 7th and October 8th, users could experience delays in the display of message send-out status updates in the Engage interface. While the messages were sent as expected, the visual feedback in the interface did not reflect their actual status.
+
+### Customer Impact
+
+During the incident, message send-out status and related statistics were delayed in Engage. No messages were lost or failed to send—this was a display issue only.
+
+### Root Cause
+
+The delay was caused by an unusually large batch of events from our data processing pipeline that overwhelmed an internal message handler. The large batch occurred due to a change in configuration during refactoring that led to unintentionally re-sending of all historic events. While the initial ingestion layer could handle t</description></item><item><title>[Engage] v3 Orders Currently Unavailable [postmortem]</title><link>https://stspg.io/zw595rp8wssz</link><guid isPermaLink="false">voyado:2025-10-01T12:27:41.528+02:00</guid><pubDate>Wed, 01 Oct 2025 10:27:41 +0000</pubDate><description># **Summary**
+
+  
+On October 1st, 2025, the Order V3 API was unavailable between 12:00 and 14:30 CEST. The issue was caused by a faulty update intended to handle previously failed orders and led to serialization errors that made the API unresponsive. The problem was identified and a fix was deployed to restore normal operations.
+
+# **Customer Impact**
+
+  
+A few customers were affected during the incident. Customers using the Order V3 API were unable to place or manage orders through this version of the API during the downtime. Other versions and platform features remained unaffected.
+
+# **Root Cause**
+
+  
+The issue derived from a serialization error introduced during a fix deployment aimed at resending failed order messages. This error caused all incoming commands to fail, rendering the Or</description></item><item><title>[Engage] Email Sendout Disruption [postmortem]</title><link>https://stspg.io/y94nhxwsw1ft</link><guid isPermaLink="false">voyado:2025-09-30T09:21:22.877+02:00</guid><pubDate>Tue, 30 Sep 2025 07:21:22 +0000</pubDate><description>## Summary
+
+On September 30th, Engage experienced a temporary disruption in email send-outs due to an error in newly deployed code. The issue was quickly identified, and a hotfix was deployed. While no messages were lost, some email messages were delayed as the system worked through a backlog.
+
+## Customer Impact
+
+Majority of customers were potentially affected. Most experienced delays in automation emails. In a few cases, delays were up to 8 hours, but the majority of impacted messages were delivered within 3–4 hours. No SMS or priority messages were affected.
+
+## Root Cause
+
+The disruption was caused by an internal misconfiguration in how the platform determined where to store and retrieve data for email messages. When a new code deployment corrected this configuration, it unintentionall</description></item></channel></rss>

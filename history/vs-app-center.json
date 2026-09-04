@@ -1,0 +1,37 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"ypxst9993cxx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T09:03:44.415Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T17:32:02.669Z",
+"state": "resolved",
+"title": "App Center is experiencing issues",
+"updated_at": "2025-10-30T09:03:44.783Z",
+"url": "https://stspg.io/0fx2sfzk52nr"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "vs-app-center",
+"status_url": "https://status.appcenter.ms",
+"vendor": "VS App Center"
+}

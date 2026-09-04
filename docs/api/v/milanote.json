@@ -1,0 +1,38 @@
+{
+"vendor": "Milanote",
+"slug": "milanote",
+"platform": "statuspage",
+"status_url": "https://status.milanote.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Link cards are working again. Sorry for any inconvenience",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-24T21:40:34.796Z",
+"resolved_inferred": false,
+"started_at": "2025-10-24T21:02:34.105Z",
+"state": "resolved",
+"title": "Pasting a URL into link cards isn't working",
+"updated_at": "2025-10-24T21:40:34.811Z",
+"url": "https://stspg.io/h03vsln22tls"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-25T17:17:12.181Z",
+"resolved_inferred": false,
+"started_at": "2025-08-25T15:43:13.470Z",
+"state": "resolved",
+"title": "Database performance impacted",
+"updated_at": "2025-08-25T17:17:12.199Z",
+"url": "https://stspg.io/wbfgtcvxspj7"
+}
+]
+}

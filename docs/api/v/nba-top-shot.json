@@ -1,0 +1,25 @@
+{
+"vendor": "NBA Top Shot",
+"slug": "nba-top-shot",
+"platform": "statuspage",
+"status_url": "https://status.nbatopshot.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-22T14:42:17.487-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-22T08:49:35.517-07:00",
+"state": "resolved",
+"title": "Scheduled Maintenance: Flow Network Upgrade",
+"updated_at": "2025-10-22T14:42:17.502-07:00",
+"url": "https://stspg.io/0cy35c3lxd27"
+}
+]
+}

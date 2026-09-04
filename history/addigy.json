@@ -1,0 +1,180 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"3y0rytt1sc0w": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-15T18:53:14.554Z",
+"resolved_inferred": false,
+"started_at": "2026-07-09T21:09:51.891Z",
+"state": "resolved",
+"title": "Addigy Identity: \"Something went wrong\" error affecting some users",
+"updated_at": "2026-07-15T18:53:14.578Z",
+"url": "https://stspg.io/4ldt8x7bhwb9"
+},
+"875vvq10f6ph": {
+"body": "This incident has been resolved and correlated to an upstream provider incident: https://www.cloudflarestatus.com/incidents/d9n3g1vnxdd2",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T19:46:35.000Z",
+"resolved_inferred": false,
+"started_at": "2025-08-21T18:14:09.616Z",
+"state": "resolved",
+"title": "Elevated Latency on Addigy Cloud Interface",
+"updated_at": "2025-08-21T19:46:35.020Z",
+"url": "https://stspg.io/nbcr59sy17sv"
+},
+"cnx7thv4f2nl": {
+"body": "This incident has been resolved. A fix has been deployed and monitoring has been verified.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-30T16:58:42.189Z",
+"resolved_inferred": false,
+"started_at": "2026-01-30T14:27:02.492Z",
+"state": "resolved",
+"title": "Trouble logging in",
+"updated_at": "2026-01-30T16:58:42.208Z",
+"url": "https://stspg.io/pf1lvthzv3yn"
+},
+"fnxh3zwmgzwf": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-22T20:15:17.409Z",
+"resolved_inferred": false,
+"started_at": "2026-02-22T18:41:04.312Z",
+"state": "resolved",
+"title": "Trouble logging in",
+"updated_at": "2026-02-22T20:15:17.424Z",
+"url": "https://stspg.io/z052mx56477c"
+},
+"hct0stdgxkn8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-09T19:39:31.578Z",
+"resolved_inferred": false,
+"started_at": "2025-09-09T18:50:27.266Z",
+"state": "resolved",
+"title": "Trouble logging into Addigy Platform",
+"updated_at": "2025-09-09T19:39:31.598Z",
+"url": "https://stspg.io/jw9hv07tqy3c"
+},
+"l62vmrhvmt93": {
+"body": "This issue has been resolved. Logging in to Addigy is working as expected. If you continue to see errors, please open a support ticket and we will assist.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-03T16:12:51.277Z",
+"resolved_inferred": false,
+"started_at": "2026-08-03T16:08:03.498Z",
+"state": "resolved",
+"title": "Addigy Cloud Interface Unavailable",
+"updated_at": "2026-08-03T16:12:51.294Z",
+"url": "https://stspg.io/91tfkl283t4c"
+},
+"q9h5yz2t74js": {
+"body": "A fix has been applied and the incident is now resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-18T13:00:46.889Z",
+"resolved_inferred": false,
+"started_at": "2026-06-18T12:53:46.874Z",
+"state": "resolved",
+"title": "Issue with direct agent installer download links on Add Devices page",
+"updated_at": "2026-06-18T13:00:46.905Z",
+"url": "https://stspg.io/v2g0s8mywhbk"
+},
+"rs71l3hz3vlk": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-17T23:05:42.149Z",
+"resolved_inferred": false,
+"started_at": "2026-03-17T21:11:09.394Z",
+"state": "resolved",
+"title": "Addigy Cloud Interface Unavailable",
+"updated_at": "2026-03-17T23:05:42.165Z",
+"url": "https://stspg.io/tlx3xdknpnt9"
+},
+"rsmqvq4yhc1z": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-20T15:53:31.533Z",
+"resolved_inferred": false,
+"started_at": "2026-08-20T14:04:11.677Z",
+"state": "resolved",
+"title": "Post-Maintenance Login and Data Viewing Issues",
+"updated_at": "2026-08-20T15:53:31.546Z",
+"url": "https://stspg.io/mzd1v3b2mp58"
+},
+"rzpvzcl4d0g6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-22T18:01:24.359Z",
+"resolved_inferred": false,
+"started_at": "2026-06-22T14:15:24.695Z",
+"state": "resolved",
+"title": "Elevated Latency on Addigy Cloud Interface",
+"updated_at": "2026-06-22T18:01:24.376Z",
+"url": "https://stspg.io/hwvj35gnv7kf"
+},
+"tzkxjxnnbjsz": {
+"body": "This issue has been resolved. To create or renew your push certificate, first download a fresh AddigyCSR.plist from your Addigy instance, then upload it to Apple\u2019s APNs portal. An older AddigyCSR.plist file will not work. If you still see errors after using a newly downloaded file, please open a support ticket and we will assist.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-03T16:54:24.436Z",
+"resolved_inferred": false,
+"started_at": "2026-08-03T16:01:49.990Z",
+"state": "resolved",
+"title": "Issue affecting Apple Push Notification service (APNs) certificates",
+"updated_at": "2026-08-03T16:54:24.459Z",
+"url": "https://stspg.io/rrt2jljzv6lm"
+},
+"xhgsv0pb2glm": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-30T18:18:34.051Z",
+"resolved_inferred": false,
+"started_at": "2025-09-30T17:34:01.703Z",
+"state": "resolved",
+"title": "Issues with Device Filtering and Device Searching",
+"updated_at": "2025-09-30T18:18:34.069Z",
+"url": "https://stspg.io/wttg84bfbwft"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "addigy",
+"status_url": "https://status.addigy.com",
+"vendor": "Addigy"
+}

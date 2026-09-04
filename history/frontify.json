@@ -1,0 +1,102 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"3r8wp7wjl7jn": {
+"body": "We recently experienced a partial outage caused by a global Amazon Web Services (AWS) issue. This led to temporary disruption of file processing and degraded performance across some other functionalities.\n\nAWS has since mitigated the issue, and all Frontify services are now fully operational.\n\nIf you continue to experience any issues, please contact our support team at support@frontify.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T11:56:24.725Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T11:56:24.676Z",
+"state": "resolved",
+"title": "Partial outage due to AWS issue",
+"updated_at": "2025-10-20T11:56:24.736Z",
+"url": "https://stspg.io/m4pbhc6gtp6q"
+},
+"69j1kt00vf3w": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-13T16:52:01.556Z",
+"resolved_inferred": false,
+"started_at": "2026-01-13T16:38:20.119Z",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2026-01-13T16:52:01.572Z",
+"url": "https://stspg.io/709p5h8x50lr"
+},
+"htfdvrwt2gb8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-12T15:07:24.689Z",
+"resolved_inferred": false,
+"started_at": "2026-03-12T14:34:02.804Z",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2026-03-12T15:07:24.706Z",
+"url": "https://stspg.io/chjgn4c43tqj"
+},
+"k6w0w7ms87vx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T18:22:35.693Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T14:18:27.862Z",
+"state": "resolved",
+"title": "Partial outage due to AWS issue - SelfService",
+"updated_at": "2025-10-20T18:22:35.711Z",
+"url": "https://stspg.io/9xbndmtr3d47"
+},
+"v14fvkch46yt": {
+"body": "After AWS reported that all issues had been resolved, we were able to migrate the delivery and processing of assets back to the US for US hosted customers this morning.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T08:13:23.398Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T15:37:48.994Z",
+"state": "resolved",
+"title": "Asset processing and delivery broken for some assets",
+"updated_at": "2025-10-21T08:13:23.413Z",
+"url": "https://stspg.io/tzk23v0g9szz"
+},
+"y8sc7zjk9y0z": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-24T14:04:30.918Z",
+"resolved_inferred": false,
+"started_at": "2026-07-24T12:05:42.034Z",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2026-07-24T14:04:30.932Z",
+"url": "https://stspg.io/k0w1nm1kmtbc"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "frontify",
+"status_url": "https://status.frontify.com",
+"vendor": "frontify"
+}

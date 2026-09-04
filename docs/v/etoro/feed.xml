@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>eToro incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/etoro/</link><description>Incidents from eToro's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Outbound eToro Money Payments Temporarily Halted [resolved]</title><link>https://stspg.io/bdk6rwlsggnk</link><guid isPermaLink="false">etoro:2026-08-07T08:41:12.754Z</guid><pubDate>Fri, 07 Aug 2026 08:41:12 +0000</pubDate><description>The issue affecting outbound payments from eToro Money has now been resolved.
+
+All outbound payments are now fully enabled, and clients can complete their transactions as expected.
+
+We sincerely apologize for the inconvenience and appreciate your patience while our team worked to resolve the issue.
+
+Thank you for your understanding.
+
+Sincerely,
+The eToro Team</description></item><item><title>Temporary Issue with Credit Card Deposits [resolved]</title><link>https://stspg.io/g5507mkr79wg</link><guid isPermaLink="false">etoro:2026-07-07T13:45:28.633Z</guid><pubDate>Tue, 07 Jul 2026 13:45:28 +0000</pubDate><description>The issue affecting credit card deposits has now been resolved.
+
+Customers can now enter their credit card details and complete deposits as expected.
+
+We sincerely apologize for the inconvenience and appreciate your patience while our team worked to resolve the issue.
+
+Thank you for your understanding.
+
+Sincerely,
+The eToro Team</description></item><item><title>Temporary Issue with Deposits and Withdrawals [resolved]</title><link>https://stspg.io/mvk6vbyv21pq</link><guid isPermaLink="false">etoro:2026-06-28T13:20:11.757Z</guid><pubDate>Sun, 28 Jun 2026 13:20:11 +0000</pubDate><description>We&#x27;ve restored all affected services, and the customer impact has been mitigated.
+
+Deposits, withdrawals, and the ability to open new positions are now functioning normally. Our team will continue to closely monitor the platform to ensure everything remains stable.
+
+We sincerely apologize for the disruption and thank you for your patience and understanding throughout this incident.
+
+Sincerely,
+The eToro Team</description></item><item><title>Placing Open orders is unavailable [resolved]</title><link>https://stspg.io/gcgdv0ls9hjy</link><guid isPermaLink="false">etoro:2026-06-25T14:21:57.000Z</guid><pubDate>Thu, 25 Jun 2026 14:21:57 +0000</pubDate><description>Dear Customers,
+
+The issue has been resolved. 
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely,
+The eToro Team</description></item><item><title>Incorrect Daily Change Display for Certain Instruments and Account Balances [resolved]</title><link>https://stspg.io/52sn97s1fnb2</link><guid isPermaLink="false">etoro:2026-06-25T08:07:15.678Z</guid><pubDate>Thu, 25 Jun 2026 08:07:15 +0000</pubDate><description>Dear eToro Customers and Partners,
+The incident has been resolved.
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Incorrect Daily Change Percentage for Certain Instruments [resolved]</title><link>https://stspg.io/qndx3gl2mv5l</link><guid isPermaLink="false">etoro:2026-06-23T09:29:24.291Z</guid><pubDate>Tue, 23 Jun 2026 09:29:24 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>iOS App Service Page Loading Degradation [resolved]</title><link>https://stspg.io/30fbfvhfz29l</link><guid isPermaLink="false">etoro:2026-06-19T17:45:55.839Z</guid><pubDate>Fri, 19 Jun 2026 17:45:55 +0000</pubDate><description>The issue affecting some pages in the iOS app has been resolved.
+
+A hotfix was deployed, and our QA team has verified that it successfully restored functionality for the affected pages, including the Deposit, Registration, and News pages.
+
+We apologize for any inconvenience this may have caused and appreciate your patience while we worked to resolve the issue.
+
+Sincerely,
+The eToro Team</description></item><item><title>Credit Card Deposit Processing Delays [resolved]</title><link>https://stspg.io/b18lct3bk6lz</link><guid isPermaLink="false">etoro:2026-06-11T17:53:40.598Z</guid><pubDate>Thu, 11 Jun 2026 17:53:40 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.</description></item><item><title>Some Clients unable to execute or cancel Limit Orders [resolved]</title><link>https://stspg.io/wgk0pfm0z7fw</link><guid isPermaLink="false">etoro:2026-05-11T09:39:17.313Z</guid><pubDate>Mon, 11 May 2026 09:39:17 +0000</pubDate><description>Dear eToro Customers and Partners,
+ 
+The incident has been resolved. Clients can now fully manage limit (rate) orders placed during the incident, including:
+- Canceling existing limit orders;
+- Having limit orders executed normally once the requested market rate is reached.
+
+We apologize for the inconvenience and appreciate your understanding.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Charts are not loading on the platform for some instruments [resolved]</title><link>https://stspg.io/rm9004z1zn55</link><guid isPermaLink="false">etoro:2026-04-29T15:24:41.564Z</guid><pubDate>Wed, 29 Apr 2026 15:24:41 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Prices are not updated for the instruments [resolved]</title><link>https://stspg.io/zqn4mr1vg51x</link><guid isPermaLink="false">etoro:2026-04-27T19:36:53.912Z</guid><pubDate>Mon, 27 Apr 2026 19:36:53 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>The markets may be displayed as closed [resolved]</title><link>https://stspg.io/7s1yg3x0m5hk</link><guid isPermaLink="false">etoro:2026-03-30T10:41:37.896Z</guid><pubDate>Mon, 30 Mar 2026 10:41:37 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Login is currently unavailable [resolved]</title><link>https://stspg.io/nqjqjmg0l60g</link><guid isPermaLink="false">etoro:2026-03-17T11:14:10.911Z</guid><pubDate>Tue, 17 Mar 2026 11:14:10 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Crypto markets may be displayed as closed [resolved]</title><link>https://stspg.io/000jqf3k8bsc</link><guid isPermaLink="false">etoro:2026-03-15T14:27:14.000Z</guid><pubDate>Sun, 15 Mar 2026 14:27:14 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Some users unable to view individual stocks in the Watchlist [resolved]</title><link>https://stspg.io/6kj6wwc4jd88</link><guid isPermaLink="false">etoro:2026-02-22T19:48:37.091Z</guid><pubDate>Sun, 22 Feb 2026 19:48:37 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Some users unable to view individual stocks in the Watchlist [resolved]</title><link>https://stspg.io/p56sm7w6ngdd</link><guid isPermaLink="false">etoro:2026-02-22T12:17:56.634Z</guid><pubDate>Sun, 22 Feb 2026 12:17:56 +0000</pubDate><description>Dear eToro Customers,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Login is currently unavailable for some users [resolved]</title><link>https://stspg.io/2qgvvycpd5m3</link><guid isPermaLink="false">etoro:2025-11-18T13:53:06.761Z</guid><pubDate>Tue, 18 Nov 2025 13:53:06 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item><item><title>Portfolio balance and Instruments Profit/ Lost are displaying incorrectly [resolved]</title><link>https://stspg.io/7p7w16xsxp3q</link><guid isPermaLink="false">etoro:2025-10-21T10:18:03.184Z</guid><pubDate>Tue, 21 Oct 2025 10:18:03 +0000</pubDate><description>Dear eToro Customers and Partners,
+
+The incident has been resolved.
+
+We apologize for the inconvenience and appreciate your understanding in this matter.
+
+Sincerely, 
+The eToro Team</description></item></channel></rss>

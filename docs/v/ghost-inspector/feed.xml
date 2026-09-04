@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Ghost Inspector incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/ghost-inspector/</link><description>Incidents from Ghost Inspector's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Test Runner Queue Surges And Performance Degradation [resolved]</title><link>https://stspg.io/2xrmsngk8fjz</link><guid isPermaLink="false">ghost-inspector:2026-06-17T09:55:44.000-07:00</guid><pubDate>Wed, 17 Jun 2026 16:55:44 +0000</pubDate><description>Early this morning, we experienced degraded performance affecting Chrome and Firefox test execution. Customers may have noticed:
+ 
+ - Delayed test runs - Chrome and Firefox tests were queued longer than usual.
+ - Failed results on our end; during a short window (~14:45 –15:10 UTC), some Chrome and Firefox test runs returned a failed result due to a temporary issue in our system. This is not a problem with your tests.
+
+The cause has been resolved, and we&#x27;ve added further system capacity to work through the delay. Test execution is catching up now, and we expect normal performance shortly. Any such failed test runs will re-run normally on their next scheduled execution and can be disregarded. All tests stuck in a queued state should be starting to run over the next 2 hours.
+ 
+All other Ghost</description></item><item><title>Service Availability Incident [resolved]</title><link>https://stspg.io/mfv1z9h80vlx</link><guid isPermaLink="false">ghost-inspector:2025-10-20T01:12:22.000-07:00</guid><pubDate>Mon, 20 Oct 2025 08:12:22 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

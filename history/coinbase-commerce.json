@@ -1,0 +1,128 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"07bkr4gjqx5l": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-28T14:18:24.078-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-20T17:25:07.992-07:00",
+"state": "resolved",
+"title": "Partial Interruption",
+"updated_at": "2026-07-28T14:18:24.097-07:00",
+"url": "https://stspg.io/4y6jkp8sckl3"
+},
+"4mxz4m5fqcgd": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-16T06:35:30.164-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-15T07:07:45.233-07:00",
+"state": "resolved",
+"title": "Degraded performance - Coinbase Commerce",
+"updated_at": "2025-10-16T06:35:30.180-07:00",
+"url": "https://stspg.io/p55sm16cgbsp"
+},
+"5dzqkjp628yv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T13:06:47.628-07:00",
+"resolved_inferred": false,
+"started_at": "2025-08-21T12:11:43.000-07:00",
+"state": "resolved",
+"title": "Degraded performance - Cloudflare Network Outage",
+"updated_at": "2025-08-21T13:06:47.646-07:00",
+"url": "https://stspg.io/njrtpzyhq6bg"
+},
+"6gwpq31t1hn6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-27T14:15:07.397-07:00",
+"resolved_inferred": false,
+"started_at": "2025-09-26T00:23:12.567-07:00",
+"state": "resolved",
+"title": "Degraded performance - Coinbase Commerce",
+"updated_at": "2025-09-27T14:15:07.412-07:00",
+"url": "https://stspg.io/ftytgsl8tl7q"
+},
+"82x27m4v5nzq": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-09T09:21:52.605-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-09T08:16:19.719-08:00",
+"state": "resolved",
+"title": "Commerce Payments",
+"updated_at": "2025-11-09T09:21:52.620-08:00",
+"url": "https://stspg.io/kgv2lnj63347"
+},
+"c91gnsjllvpx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-09T07:23:51.644-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-07T13:37:38.725-08:00",
+"state": "resolved",
+"title": "Degraded Performance - Coinbase Commerce",
+"updated_at": "2026-02-09T07:23:51.661-08:00",
+"url": "https://stspg.io/wh48kxy4l96k"
+},
+"nb8gn8xlwcqh": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-17T19:52:05.796-07:00",
+"resolved_inferred": false,
+"started_at": "2025-09-17T18:12:44.019-07:00",
+"state": "resolved",
+"title": "Delayed Payment Confirmation",
+"updated_at": "2025-09-17T19:52:05.815-07:00",
+"url": "https://stspg.io/vr8zpqy9cvg8"
+},
+"zmr4w5wymh0n": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T17:58:56.368-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T00:33:19.512-07:00",
+"state": "resolved",
+"title": "Site Performance - Login, Trading, Transactions",
+"updated_at": "2025-10-20T17:58:56.389-07:00",
+"url": "https://stspg.io/rp1vsrv07dd2"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "coinbase-commerce",
+"status_url": "https://status.commerce.coinbase.com",
+"vendor": "Coinbase Commerce"
+}

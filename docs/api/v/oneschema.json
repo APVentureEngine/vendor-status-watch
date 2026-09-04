@@ -1,0 +1,103 @@
+{
+"vendor": "OneSchema",
+"slug": "oneschema",
+"platform": "statuspage",
+"status_url": "https://status.oneschema.co",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-28T20:30:51.242Z",
+"resolved_inferred": false,
+"started_at": "2026-07-28T19:21:36.965Z",
+"state": "resolved",
+"title": "Partial outage in US Servers",
+"updated_at": "2026-07-28T20:30:51.265Z",
+"url": "https://stspg.io/mrmb2hxvq890"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-17T21:29:37.251Z",
+"resolved_inferred": false,
+"started_at": "2026-07-17T21:05:57.000Z",
+"state": "resolved",
+"title": "File storage service outage in US",
+"updated_at": "2026-07-17T21:30:11.051Z",
+"url": "https://stspg.io/gg9j75n4scp1"
+},
+{
+"body": "An infrastructure change caused unhealthy nodes that led to imports failing in US production.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-05T00:30:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-05-05T00:30:00.000Z",
+"state": "resolved",
+"title": "Imports failing to submit in US Production",
+"updated_at": "2026-05-06T00:34:01.126Z",
+"url": "https://stspg.io/l6v80db2c01b"
+},
+{
+"body": "We had a temporary outage of our web services that lasted about 5 minutes, starting at 9:40 am PT. All services are back online now and we're monitoring the situation.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T17:40:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-02-10T17:40:00.000Z",
+"state": "resolved",
+"title": "Partial Outage on US Server",
+"updated_at": "2026-02-10T18:49:03.075Z",
+"url": "https://stspg.io/1dsfmvwdsn2j"
+},
+{
+"body": "Service is stable, incident is resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-12T20:23:05.969Z",
+"resolved_inferred": false,
+"started_at": "2026-01-12T20:05:38.672Z",
+"state": "resolved",
+"title": "Partial service degradation of the US servers",
+"updated_at": "2026-01-12T20:23:05.990Z",
+"url": "https://stspg.io/wn0bkvzgxq98"
+},
+{
+"body": "All systems are back to normal performance now.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-30T02:40:05.105Z",
+"resolved_inferred": false,
+"started_at": "2025-09-29T16:04:40.033Z",
+"state": "resolved",
+"title": "Partial service degradation of the US servers",
+"updated_at": "2025-09-30T02:40:05.122Z",
+"url": "https://stspg.io/s0wd44j1sdrk"
+},
+{
+"body": "OneSchema has experienced an partial outage on the US server. Total downtime was 23 minutes from 11:45am to 12:08pm PT. An unintentional infrastructure change caused this outage and a fix has been implemented to resolve the issue and prevent it from happening again in the future.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-06T19:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-08-06T19:00:00.000Z",
+"state": "resolved",
+"title": "Partial Outage on US Server",
+"updated_at": "2025-08-06T22:49:01.766Z",
+"url": "https://stspg.io/9thnl52mzhk9"
+}
+]
+}

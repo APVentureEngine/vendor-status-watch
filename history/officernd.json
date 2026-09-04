@@ -1,0 +1,141 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"3f3bn9zmhcll": {
+"body": "DataHub report fails to load without proper initialization",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-18T14:30:00.000+03:00",
+"resolved_inferred": false,
+"started_at": "2026-05-18T14:30:00.000+03:00",
+"state": "resolved",
+"title": "Partial Outage for DataHub",
+"updated_at": "2026-05-18T17:14:24.208+03:00",
+"url": "https://stspg.io/zvym3ylcnp7n"
+},
+"47wm91jzjqr9": {
+"body": "The incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-01T19:21:37.532+03:00",
+"resolved_inferred": false,
+"started_at": "2025-09-01T13:48:38.488+03:00",
+"state": "resolved",
+"title": "Public API v2 Partial Outage",
+"updated_at": "2025-09-01T19:21:37.550+03:00",
+"url": "https://stspg.io/wzlgflg7mtx7"
+},
+"6tdbf5kgqmzv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-23T19:21:41.312+03:00",
+"resolved_inferred": false,
+"started_at": "2026-06-23T17:58:51.713+03:00",
+"state": "resolved",
+"title": "Partial Outage of Email Activity Log",
+"updated_at": "2026-06-23T19:21:41.330+03:00",
+"url": "https://stspg.io/9k1dr29wm8y6"
+},
+"fxjkgnfj45ls": {
+"body": "We identified a platform outage that lasted approximately two minutes, affecting mainly the Flex Admin portal.\nThe platform's performance recovered fully within 20 minutes.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-12T15:00:00.000+02:00",
+"resolved_inferred": false,
+"started_at": "2025-11-12T15:00:00.000+02:00",
+"state": "resolved",
+"title": "Flex Admin portal Downtime",
+"updated_at": "2025-11-14T18:07:23.831+02:00",
+"url": "https://stspg.io/d08stfz0grtx"
+},
+"j0v8ndwxtths": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-30T16:39:54.134+03:00",
+"resolved_inferred": false,
+"started_at": "2025-09-30T16:06:50.154+03:00",
+"state": "resolved",
+"title": "We are currently investigating performance issues with the Workplace platform. Users may experience slow load times or intermittent errors. We apologize for the disruption and will provide an update shortly.",
+"updated_at": "2025-09-30T16:39:54.151+03:00",
+"url": "https://stspg.io/q50766w8qjzy"
+},
+"mr6r6m79xn80": {
+"body": "We've experienced Degraded performance in our Flex product (Admin Portal and Members Portal) for four (4) minutes in total. \nWe are investigating!",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-10T13:00:00.000+02:00",
+"resolved_inferred": false,
+"started_at": "2025-12-10T13:00:00.000+02:00",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2025-12-10T15:39:06.269+02:00",
+"url": "https://stspg.io/xz9026pryj2p"
+},
+"t76c1kvyk7nr": {
+"body": "The system is currently experiencing a degradation in performance, resulting in slower response times",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-01T06:30:00.000+02:00",
+"resolved_inferred": false,
+"started_at": "2026-01-01T06:30:00.000+02:00",
+"state": "resolved",
+"title": "We are seeing performance degradation in the system",
+"updated_at": "2026-01-06T10:31:36.806+02:00",
+"url": "https://stspg.io/szmm4tt8127z"
+},
+"w7z0y48wcd72": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-27T11:14:07.029+02:00",
+"resolved_inferred": false,
+"started_at": "2025-10-27T09:55:00.410+02:00",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2025-10-27T11:14:07.046+02:00",
+"url": "https://stspg.io/bk3flgwms45p"
+},
+"zx1vrm0g7rg8": {
+"body": "Cloudflare has confirmed the issue is resolved, and custom domains are now functioning normally again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T21:18:51.341+02:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T13:48:47.790+02:00",
+"state": "resolved",
+"title": "CouldFlare incident",
+"updated_at": "2025-11-18T21:18:51.360+02:00",
+"url": "https://stspg.io/crrkws9l3kyp"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "officernd",
+"status_url": "https://status.officernd.com",
+"vendor": "OfficeRnD"
+}

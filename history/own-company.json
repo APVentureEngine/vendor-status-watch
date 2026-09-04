@@ -1,0 +1,51 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "maintenance"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "maintenance"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": false,
+"incidents": {
+"cmtk8dhu6037x1nnwsscx1muh": {
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-09-06T05:00:00.000Z",
+"state": "maintenance",
+"title": "[ CA1 ] Scheduled Maintenance - Backup & Recover,Accelerate,Archiver-app",
+"updated_at": "2026-09-03T05:00:00.734Z",
+"url": "https://status.owndata.com/cmtk8dhu6037x1nnwsscx1muh"
+},
+"cmtlbmb0g0af914qtk1atue0z": {
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-09-06T07:00:00.000Z",
+"state": "maintenance",
+"title": "[ARCHIVE] - Scheduled Maintenance: APP1",
+"updated_at": "2026-09-03T09:26:44.032Z",
+"url": "https://status.owndata.com/cmtlbmb0g0af914qtk1atue0z"
+},
+"cmtlm9wom000h0ws0hv0b25k9": {
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-09-06T08:00:00.000Z",
+"state": "maintenance",
+"title": "[ARCHIVE] - Scheduled Maintenance: HIPAA4",
+"updated_at": "2026-09-03T14:25:01.366Z",
+"url": "https://status.owndata.com/cmtlm9wom000h0ws0hv0b25k9"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "UP",
+"last_error": null,
+"last_state": "maintenance",
+"platform": "instatus",
+"slug": "own-company",
+"status_url": "https://status.owndata.com",
+"vendor": "Own Company"
+}

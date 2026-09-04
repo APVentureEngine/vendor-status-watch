@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cisco Umbrella incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/cisco-umbrella/</link><description>Incidents from Cisco Umbrella's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>[Umbrella] Investigate Dashboard Degradation [resolved]</title><link>https://stspg.io/plgrp35bscr8</link><guid isPermaLink="false">cisco-umbrella:2026-09-01T18:00:25.000Z</guid><pubDate>Tue, 01 Sep 2026 18:00:25 +0000</pubDate><description>Between approximately 14:15 and 15:40 UTC, customers using the Investigate dashboard and associated data retrieval APIs may have experienced 503 errors, unavailable graphs or data, and errors when retrieving logs or graph information. The issue has been resolved, and service has returned to normal.</description></item><item><title>Cisco Umbrella - Policy Update Delays [resolved]</title><link>https://stspg.io/dyz91fcy2j05</link><guid isPermaLink="false">cisco-umbrella:2026-08-21T17:07:14.941Z</guid><pubDate>Fri, 21 Aug 2026 17:07:14 +0000</pubDate><description>The network issue affecting Cisco Umbrella policy update processing in Johannesburg, South Africa has been resolved. New and updated policy changes are now applying as expected.
+
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>Cisco Umbrella - DNS Policy issue - Global [resolved]</title><link>https://stspg.io/bz187xj4vvj5</link><guid isPermaLink="false">cisco-umbrella:2026-08-20T03:18:07.245Z</guid><pubDate>Thu, 20 Aug 2026 03:18:07 +0000</pubDate><description>The issue affecting incorrectly categorized DNS Tunneling VPN issue for some domains has been resolved.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Secure Connect] – New Connections Redirected in Europe (France) [resolved]</title><link>https://stspg.io/d1vhhb36dkxl</link><guid isPermaLink="false">cisco-umbrella:2026-08-19T07:49:41.000Z</guid><pubDate>Wed, 19 Aug 2026 07:49:41 +0000</pubDate><description>The capacity condition affecting Europe (France) has been resolved. Cisco Secure Connect Remote Access client connections are operating normally.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>[Cisco Secure Connect and Umbrella] - Connectivity Issue - Palo Alto [resolved]</title><link>https://stspg.io/hrhv08b6jfql</link><guid isPermaLink="false">cisco-umbrella:2026-08-17T15:56:20.048Z</guid><pubDate>Mon, 17 Aug 2026 15:56:20 +0000</pubDate><description>The connectivity issue in the Palo Alto data center is now resolved. All services are restored and the site is back in rotation. We have confirmed that traffic flow is stable. Thank you for your patience.</description></item><item><title>[Cisco Secure Connect] - Intermittent Service Disruption in Multiple Regions [resolved]</title><link>https://stspg.io/0w85j4rflhtr</link><guid isPermaLink="false">cisco-umbrella:2026-08-15T09:52:06.893Z</guid><pubDate>Sat, 15 Aug 2026 09:52:06 +0000</pubDate><description>All services in Frankfurt and previously affected sites are now fully restored. Connectivity and reporting are back to normal.
+
+We sincerely appreciate your patience and understanding.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>[Cisco Umbrella/Secure Connect] – Intermittent Service Disruption in Europe (Germany) [resolved]</title><link>https://stspg.io/lybj0qypcxv7</link><guid isPermaLink="false">cisco-umbrella:2026-08-15T03:23:03.841Z</guid><pubDate>Sat, 15 Aug 2026 03:23:03 +0000</pubDate><description>Traffic has been successfully redirected away from the affected data center, and all services have been stabilized as of 05:01 UTC.
+
+Customers should now experience normal service performance. If your connection has not restored automatically, we kindly ask that you reconnect manually using Cisco Secure Client to be routed to a healthy location. Reporting services may take a few hours to fully catch up. During this time, some log and report data may appear delayed. 
+
+We sincerely appreciate your patience and understanding.</description></item><item><title>Cisco Umbrella - Cisco Secure Client Download Issue - Global [resolved]</title><link>https://stspg.io/ftx05g3h2b64</link><guid isPermaLink="false">cisco-umbrella:2026-08-14T17:16:23.868Z</guid><pubDate>Fri, 14 Aug 2026 17:16:23 +0000</pubDate><description>This issue has been resolved. Cisco Umbrella customers are now able to download Cisco Secure Client from the dashboard.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>[Cisco Secure Connect] – Network Connectivity Disruption -  India (Mumbai) [resolved]</title><link>https://stspg.io/r6yt1zbp4s4x</link><guid isPermaLink="false">cisco-umbrella:2026-08-12T12:33:01.236Z</guid><pubDate>Wed, 12 Aug 2026 12:33:01 +0000</pubDate><description>Between approximately 11:52 UTC and 12:12 UTC on August 12, 2026, customers connecting through the India (Mumbai) data center may have experienced a brief network disruption. During this period, some customers may have experienced disconnections, reduced traffic throughput, or difficulty establishing new connections. 
+Service was restored as of 12:12 UTC, and all services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you continue to experience issues, please contact Cisco Support.</description></item><item><title>[Cisco Secure Connect] – Resiliency Region Provisioning Issue – Global [resolved]</title><link>https://stspg.io/bkssjgmvzc3l</link><guid isPermaLink="false">cisco-umbrella:2026-08-05T11:59:12.687Z</guid><pubDate>Wed, 05 Aug 2026 11:59:12 +0000</pubDate><description>This issue has been resolved.
+
+Cisco Secure Connect resiliency region provisioning has returned to normal, and customers should no longer experience issues provisioning new resiliency regions. Current connectivity was not expected to be impacted during this incident.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>Cisco Umbrella - Cloud Delivered Firewall User Identity Policy Enforcement Issue - Singapore [resolved]</title><link>https://stspg.io/7z2yfg07mh11</link><guid isPermaLink="false">cisco-umbrella:2026-08-04T19:50:02.000Z</guid><pubDate>Tue, 04 Aug 2026 19:50:02 +0000</pubDate><description>The issue affecting Cisco Umbrella Cloud Delivered Firewall policy enforcement in Singapore has been resolved. Services have returned to normal operation.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>Cisco Secure Connect - Connectivity issues in India - Mumbai and Chennai [resolved]</title><link>https://stspg.io/qmmm1219t6z5</link><guid isPermaLink="false">cisco-umbrella:2026-07-31T18:08:16.069Z</guid><pubDate>Fri, 31 Jul 2026 18:08:16 +0000</pubDate><description>This issue has been resolved.
+
+Cisco Secure Connect Remote Access Client connectivity through the Mumbai and Chennai locations has been restored, and the affected services have returned to normal operation.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>Cisco Secure Connect - New Connection Provisioning Impact in Frankfurt, London and Copenhagen [resolved]</title><link>https://stspg.io/vh6y3y6rnf4f</link><guid isPermaLink="false">cisco-umbrella:2026-07-31T15:21:53.407Z</guid><pubDate>Fri, 31 Jul 2026 15:21:53 +0000</pubDate><description>Certificate provisioning has returned to normal processing, and new connection provisioning and onboarding requests are completing successfully.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>Cisco Umbrella - Microsoft 365 access issues with Copilot category blocking - Global [resolved]</title><link>https://stspg.io/jx3d6qgm8b8q</link><guid isPermaLink="false">cisco-umbrella:2026-07-25T14:54:46.851Z</guid><pubDate>Sat, 25 Jul 2026 14:54:46 +0000</pubDate><description>This issue has been resolved.
+
+Cisco Umbrella customers with DNS policies configured to block the &quot;M365 Copilot&quot; or &quot;Microsoft Copilot&quot; application categories should no longer experience related access issues with Microsoft 365 services.
+
+Customers who applied the previously provided workaround can review and restore their DNS policy settings as appropriate for their organization’s security requirements.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>[Cisco Umbrella/Secure Connect] – Network Infrastructure Issue - Global [resolved]</title><link>https://stspg.io/lrrl4cbdkjpr</link><guid isPermaLink="false">cisco-umbrella:2026-07-24T11:39:33.332Z</guid><pubDate>Fri, 24 Jul 2026 11:39:33 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Cisco Umbrella - Certificate errors with HTTPS inspection - US (Los Angeles and Miami) [resolved]</title><link>https://stspg.io/052k9kbt2c6z</link><guid isPermaLink="false">cisco-umbrella:2026-07-21T22:08:36.512Z</guid><pubDate>Tue, 21 Jul 2026 22:08:36 +0000</pubDate><description>This issue has been resolved.
+
+Cisco Umbrella customers using HTTPS inspection in the Los Angeles and Miami regions should no longer experience certificate warnings or errors when accessing websites or applications inspected by Cisco Umbrella.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>Cisco Umbrella - Overview dashboard links not directing to Activity page - Global [resolved]</title><link>https://stspg.io/5j9mjz9z17zj</link><guid isPermaLink="false">cisco-umbrella:2026-07-20T23:41:47.310Z</guid><pubDate>Mon, 20 Jul 2026 23:41:47 +0000</pubDate><description>This issue has been resolved.
+
+Metric links on the Umbrella Overview dashboard page are now directing customers to the expected Activity page.
+
+Thank you for your patience. If you continue to experience issues, please contact Cisco Customer Support.</description></item><item><title>[Cisco Umbrella] - Intermittent Service Degradation - Global [resolved]</title><link>https://stspg.io/dkkc73v7w8t3</link><guid isPermaLink="false">cisco-umbrella:2026-07-15T15:32:29.000Z</guid><pubDate>Wed, 15 Jul 2026 15:32:29 +0000</pubDate><description>Mitigation actions have been completed, and Umbrella services are operating normally.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>Cisco Umbrella - Intermittent API call failures  - Global [resolved]</title><link>https://stspg.io/gszptjftdtxf</link><guid isPermaLink="false">cisco-umbrella:2026-07-15T09:11:19.000Z</guid><pubDate>Wed, 15 Jul 2026 09:11:19 +0000</pubDate><description>The mitigation has been successfully completed across all regions, and the affected Identity service is operating normally.
+
+Policy processing for ZTA traffic, ZTNA enrollment, new policy creation, and new user connections have been restored. Existing configurations and ongoing data traffic remain unaffected.
+
+We appreciate your patience while we worked to resolve this issue.</description></item><item><title>Cisco Umbrella - DNS and Secure Web Gateway timeout errors - North America (Mexico) [resolved]</title><link>https://stspg.io/77dtt93klcjg</link><guid isPermaLink="false">cisco-umbrella:2026-07-10T23:21:19.000Z</guid><pubDate>Fri, 10 Jul 2026 23:21:19 +0000</pubDate><description>The connectivity issues affecting the Mexico region have been resolved. The data center was brought back into rotation at 10:20 UTC, and all services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;&lt;big&gt;We&#x27;re Here to Help&lt;/big&gt;&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team. Thank you for your understanding and support as we work to improve your Cisco Umbrella experience.</description></item><item><title>Cisco Umbrella- Dashboard Component Intermittent Issues - Global [resolved]</title><link>https://stspg.io/1g006b7cjq0h</link><guid isPermaLink="false">cisco-umbrella:2026-07-08T19:09:43.139Z</guid><pubDate>Wed, 08 Jul 2026 19:09:43 +0000</pubDate><description>The issue affecting dashboard component has been resolved.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Umbrella - UI Login Issues - Global [resolved]</title><link>https://stspg.io/qtw50kvqrrt9</link><guid isPermaLink="false">cisco-umbrella:2026-07-08T16:32:21.961Z</guid><pubDate>Wed, 08 Jul 2026 16:32:21 +0000</pubDate><description>The single sign-on issue affecting Cisco Security Cloud access to the Umbrella UI has been resolved. Customers should now be able to log in successfully.
+
+Thank you for your patience and understanding.</description></item><item><title>[Cisco Secure Connect] – Certificate Issuance and Renewal Issue - Global [resolved]</title><link>https://stspg.io/pq8prlplmt55</link><guid isPermaLink="false">cisco-umbrella:2026-07-07T13:14:58.102Z</guid><pubDate>Tue, 07 Jul 2026 13:14:58 +0000</pubDate><description>The issue affecting certificate issuance and renewal for the Cisco Secure Connect platform globally between 12:16 UTC and 13:00 UTC on July 07, 2026 has been resolved. All services are now operating normally, and customers can resume onboarding and provisioning new sites.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We&#x27;re Here to Help&lt;/b&gt;
+If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure onnect experience.</description></item><item><title>[Cisco Umbrella] – DNS response latency in Amsterdam [resolved]</title><link>https://stspg.io/n0ncz294rqhn</link><guid isPermaLink="false">cisco-umbrella:2026-06-23T15:29:38.160Z</guid><pubDate>Tue, 23 Jun 2026 15:29:38 +0000</pubDate><description>The increased DNS response latency affecting DNS resolution services in Amsterdam has been resolved.
+
+Customers using DNS resolution services through Amsterdam should no longer experience delayed DNS responses related to this issue.Service has been restored to normal operation.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>Cisco Secure Connect - Connectivity Issues in London Data Center [resolved]</title><link>https://stspg.io/ll72l5bqp4tj</link><guid isPermaLink="false">cisco-umbrella:2026-06-18T14:24:34.795Z</guid><pubDate>Thu, 18 Jun 2026 14:24:34 +0000</pubDate><description>Between 13:33 UTC and 14:13 UTC on 18 June 2026, customers connected through the London location experienced disruption to traffic processing. The issue has been resolved, and services are operating normally.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team.</description></item><item><title>SL VPN Traffic Interruption Affecting Multiple Customers [resolved]</title><link>https://stspg.io/vkyyccky4lnl</link><guid isPermaLink="false">cisco-umbrella:2026-06-17T20:34:37.987Z</guid><pubDate>Wed, 17 Jun 2026 20:34:37 +0000</pubDate><description>The issue affecting the SL VPN service has been resolved.
+
+Customers connecting to the Ashburn, Miami, and France DCs should no longer experience SL VPN traffic interruptions. Service has been restored, and no further impact is expected.
+
+We appreciate your patience and understanding during this incident.</description></item><item><title>Umbrella networks page not showing correct primary policy [resolved]</title><link>https://stspg.io/0d2z22jnvp6j</link><guid isPermaLink="false">cisco-umbrella:2026-06-16T18:07:02.158Z</guid><pubDate>Tue, 16 Jun 2026 18:07:02 +0000</pubDate><description>The issue affecting the Umbrella Networks page has been resolved as of 18:55 UTC.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item><item><title>Cisco Umbrella - ISP packet loss affecting service traffic - Brazil [resolved]</title><link>https://stspg.io/j0ftx7zv6t2q</link><guid isPermaLink="false">cisco-umbrella:2026-06-13T23:24:17.348Z</guid><pubDate>Sat, 13 Jun 2026 23:24:17 +0000</pubDate><description>The connectivity issues affecting Cisco Umbrella services in the Rio de Janeiro region have been resolved. All services are now operating normally and performance has returned to expected levels.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;&lt;big&gt;We’re Here to Help&lt;/big&gt;&lt;/b&gt;
+If you have any questions or need assistance, please contact our support team. Thank you for your understanding and support as we work to improve your Cisco Umbrella experience.</description></item><item><title>Cisco Umbrella - DNSCrypt DNS resolution issues - Atlanta [resolved]</title><link>https://stspg.io/4st9z0hjqb2q</link><guid isPermaLink="false">cisco-umbrella:2026-06-12T20:59:37.000Z</guid><pubDate>Fri, 12 Jun 2026 20:59:37 +0000</pubDate><description>Between 18:06 and 18:46 UTC on June 12, 2026, some customers using the Umbrella/Cisco SSE DNS resolver service with DNSCrypt may have experienced DNS resolution issues when traffic was served through Atlanta.
+
+The issue has been resolved, and DNS resolution has been restored. No further impact is expected.</description></item><item><title>Cisco Umbrella - Intermittent Unavailability of Dashboard Components – Global [resolved]</title><link>https://stspg.io/z6p4z5b4yb1f</link><guid isPermaLink="false">cisco-umbrella:2026-06-04T19:14:25.847Z</guid><pubDate>Thu, 04 Jun 2026 19:14:25 +0000</pubDate><description>On June 4th, 2026, between 17:09 UTC and 18:18 UTC, users experienced intermittent unavailability within specific components of the Cisco Umbrella and Cisco Secure Access dashboards.
+
+All services are now operating normally.
+
+We apologize for any inconvenience caused and thank you for your patience.
+
+&lt;b&gt;We’re Here to Help&lt;/b&gt; If you have any questions, please contact our support team. Thank you for your understanding as we improve your Cisco Secure Access experience.</description></item></channel></rss>

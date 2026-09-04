@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"0f92qctb80v2": {
+"body": "We experienced an elevated number of errors returned by our API. Our team resolved the issue, and the API is operating normally. We apologize for any inconvenience caused.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-31T17:04:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-07-31T16:55:00.000Z",
+"state": "resolved",
+"title": "Elevated number of errors",
+"updated_at": "2026-07-31T18:02:47.604Z",
+"url": "https://stspg.io/7gvk7y5pb7pq"
+},
+"87dt6c9q90vp": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-08T16:41:00.831Z",
+"resolved_inferred": false,
+"started_at": "2026-05-08T04:31:52.717Z",
+"state": "resolved",
+"title": "Degraded performance and latency due to upstream provider issues",
+"updated_at": "2026-05-08T16:41:00.849Z",
+"url": "https://stspg.io/ml5svqjjxmb3"
+},
+"hh03vdwg6z2j": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-22T23:01:59.706Z",
+"resolved_inferred": false,
+"started_at": "2026-01-22T23:01:59.652Z",
+"state": "resolved",
+"title": "API Outage",
+"updated_at": "2026-01-22T23:01:59.718Z",
+"url": "https://stspg.io/8pcg5pk4v8ty"
+},
+"z1wf2s2b5j52": {
+"body": "We experienced an issue with downsizing one of our underlying nodes that affected the 25% of our traffic.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-17T09:56:21.150Z",
+"resolved_inferred": false,
+"started_at": "2026-03-17T09:56:21.098Z",
+"state": "resolved",
+"title": "Risk and Filter API Outage",
+"updated_at": "2026-03-17T09:56:21.162Z",
+"url": "https://stspg.io/hz9zsp7h31yg"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "castle",
+"status_url": "https://status.castle.io",
+"vendor": "Castle"
+}

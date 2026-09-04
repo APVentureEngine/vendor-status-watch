@@ -1,0 +1,38 @@
+{
+"vendor": "Guru",
+"slug": "guru",
+"platform": "statuspage",
+"status_url": "https://status.getguru.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-07T17:37:40.480-04:00",
+"resolved_inferred": false,
+"started_at": "2026-08-07T17:20:25.915-04:00",
+"state": "resolved",
+"title": "Service Disruption",
+"updated_at": "2026-08-07T17:37:40.501-04:00",
+"url": "https://stspg.io/5vjpd57kzgwy"
+},
+{
+"body": "Early morning on July 24th, 2026, our team became aware of a third-party incident occurred and affecting network traffic into the Guru service. During this time customers on the impacted cell may experience timeout and not able to login. The issue was resolved at 4:25 AM PT and Guru continues to monitor as our monitoring shows a recovery to normal conditions.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-24T07:30:00.000-04:00",
+"resolved_inferred": false,
+"started_at": "2026-07-24T07:30:00.000-04:00",
+"state": "resolved",
+"title": "Guru Service Disruption",
+"updated_at": "2026-07-24T09:48:40.486-04:00",
+"url": "https://stspg.io/7bvbzpv1gwp3"
+}
+]
+}

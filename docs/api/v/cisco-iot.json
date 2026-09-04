@@ -1,0 +1,25 @@
+{
+"vendor": "Cisco IoT",
+"slug": "cisco-iot",
+"platform": "statuspage",
+"status_url": "https://status.ciscoiot.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Org Hierarchy component has been decommissioned, closing this incident.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-13T09:11:06.842Z",
+"resolved_inferred": false,
+"started_at": "2026-07-13T08:29:20.979Z",
+"state": "resolved",
+"title": "EU Organization Hierarchy Service Investigating",
+"updated_at": "2026-07-13T09:11:06.856Z",
+"url": "https://stspg.io/wflrt4hwl36g"
+}
+]
+}

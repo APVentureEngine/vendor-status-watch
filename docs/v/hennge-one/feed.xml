@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>HENNGE One incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/hennge-one/</link><description>Incidents from HENNGE One's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>An Issue in HENNGE Endpoint &amp; Managed Security [resolved]</title><link>https://stspg.io/rq08spt76wnc</link><guid isPermaLink="false">hennge-one:2026-09-03T14:20:14.590+09:00</guid><pubDate>Thu, 03 Sep 2026 05:20:14 +0000</pubDate><description>本件につきまして続報です。
+
+発生しておりました事象は解消し、現在は問題なく動作していることを確認いたしました。
+
+この度はご迷惑をおかけしました事をお詫び申し上げます。
+
+---------------------------------------------------------
+
+The issue has been resolved, and we have confirmed that the service is now operating normally.
+We sincerely apologize for any inconvenience this may have caused.</description></item><item><title>An Issue in HENNGE Email DLP：Unable to access the file download page. [resolved]</title><link>https://stspg.io/7395f633r84w</link><guid isPermaLink="false">hennge-one:2026-07-16T17:49:57.645+09:00</guid><pubDate>Thu, 16 Jul 2026 08:49:57 +0000</pubDate><description>本件につきまして続報です。
+HENNGE Email DLP の Secure Download 経由でファイルを受信したゲストユーザーが、ダウンロードページへアクセスした際、エラーが表示される事象につきまして AWS側でも原因となっていた障害は解消したことがアナウンスされたことを確認いたしました。
+
+本件のインシデントレポートは後日、サービスのご契約があるお客さまにメールで個別にご案内いたします。
+
+この度はご迷惑をおかけしました事をお詫び申し上げます。
+---------------------
+Here is an update regarding this matter.
+
+We have confirmed that AWS has announced the resolution of the outage that caused the issue where guest users who received files through HENNGE Email DLP&#x27;s Secure Download encountered an error when accessing the download page.
+
+An incident report regarding this issue will be sent individually via email to customers with an active service subscription at a later date.
+
+We sincerely apologize for the inconvenience this issue has caused.</description></item><item><title>An Issue in HENNGE Tadrill：Unable to access the service. [resolved]</title><link>https://stspg.io/yphrfhk08hc2</link><guid isPermaLink="false">hennge-one:2026-07-16T17:28:59.311+09:00</guid><pubDate>Thu, 16 Jul 2026 08:28:59 +0000</pubDate><description>本件につきまして続報です。
+Tadrill のページへアクセスした際にエラーが表示される事象につきまして AWS側でも原因となっていた障害は解消したことがアナウンスされたことを確認いたしました。
+
+本件のインシデントレポートは後日、サービスのご契約があるお客さまにメールで個別にご案内いたします。
+
+この度はご迷惑をおかけしました事をお詫び申し上げます。
+---------------------
+Here is an update regarding this matter.
+
+We have confirmed that AWS has announced the resolution of the outage that caused the issue where an error was displayed when accessing Tadrill page.
+
+An incident report regarding this issue will be sent individually via email to customers with an active service subscription at a later date.
+
+We sincerely apologize for the inconvenience this issue has caused.</description></item><item><title>An Issue in HENNGE Secure Transfer：Unable to access the service. [resolved]</title><link>https://stspg.io/zv2ncf39kmfb</link><guid isPermaLink="false">hennge-one:2026-07-16T17:20:49.000+09:00</guid><pubDate>Thu, 16 Jul 2026 08:20:49 +0000</pubDate><description>本件につきまして続報です。
+
+HENNGE Secure Transfer へアクセスした際、エラーが表示される事象につきまして AWS側でも原因となっていた障害は解消したことがアナウンスされたことを確認いたしました。
+
+本件のインシデントレポートは後日、サービスのご契約があるお客さまにメールで個別にご案内いたします。
+
+この度はご迷惑をおかけしました事をお詫び申し上げます。
+
+-----------------------------
+
+Here is an update regarding this issue.
+Regarding the issue where an error was displayed when accessing HENNGE Secure Transfer, we have confirmed that AWS has announced the resolution of the underlying outage that caused this problem.
+
+An incident report regarding this matter will be sent individually via email at a later date to customers subscribed to the service.
+
+We sincerely apologize for the inconvenience this has caused.</description></item><item><title>An Issue by HENNGE Email DLP: Email Blacklisting [resolved]</title><link>https://stspg.io/hds8h5g08b50</link><guid isPermaLink="false">hennge-one:2026-06-12T15:57:26.273+09:00</guid><pubDate>Fri, 12 Jun 2026 06:57:26 +0000</pubDate><description>本件につきまして続報です。
+
+その後、監視を継続してまいりましたが事象の再発は無く、解消したことを確認いたしました。
+本事象の発生時間は下記の通りです。
+
+・2026年6月12日14時52分〜18時24分頃
+
+ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+-------------------------------------------------
+This is the final update on the issue.
+
+We have maintained our monitoring and confirmed no further recurrences. The issue is now considered completely resolved.
+The incident occurred during the following timeframe:
+
+- Around 14:52 to 18:24 on June 12, 2026 (JST)
+
+We deeply apologize for any disruption this may have caused.</description></item><item><title>An Issue in HENNGE Email Archive: An error occurs during the search [resolved]</title><link>https://stspg.io/j8stff3m57cg</link><guid isPermaLink="false">hennge-one:2026-05-21T15:14:37.475+09:00</guid><pubDate>Thu, 21 May 2026 06:14:37 +0000</pubDate><description>Email Archive におきまして、下記の時間帯に一時的に検索ができない事象が発生していた可能性があることを確認いたしました。
+現在は正常に検索が行えることを確認しております。
+
+■事象発生期間
+2026年5月19日 13時41分～14時06分頃
+
+なお、メールのアーカイブ処理につきましては、上記時間帯においても正常に行われていたことを確認しておりますので、ご安心ください。
+
+このたびはご迷惑をおかけしましたこと、深くお詫び申し上げます。
+----------------------------------------------------------------
+We have confirmed that there may have been a temporary issue during the time period below in which searches in Email Archive were unavailable.
+
+We have also confirmed that searches are currently functioning normally.
+
+■ Incident period
+May 19, 2026, approximately 13:41–14:06 （JST）
+
+Please note that email archiving itself continued to operate normally during the above time period.
+
+We sincerely apologize for any inconvenience caused.</description></item><item><title>An Issue in Support Service: Temporary Unavailability of Phone Support [resolved]</title><link>https://stspg.io/b6djpjffjbwm</link><guid isPermaLink="false">hennge-one:2026-04-23T16:39:59.975+09:00</guid><pubDate>Thu, 23 Apr 2026 07:39:59 +0000</pubDate><description>本件について続報です。
+
+HENNGE One サポートおよび導入支援の電話受付窓口の電話受付窓口につきまして
+正常に繋がるようになったことを確認いたしました。
+
+ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+-----------------------------------
+
+We are pleased to inform you that the issue affecting the phone lines for HENNGE One Support and the Onboarding desk has been resolved. We have confirmed that all lines are now connecting normally.
+
+We sincerely apologize for any inconvenience this may have caused and appreciate your patience.</description></item><item><title>An Issue in HENNGE Access Control: SSO (SAML) Configuration Settings [resolved]</title><link>https://stspg.io/b53dz5dsygxt</link><guid isPermaLink="false">hennge-one:2026-04-23T13:47:39.493+09:00</guid><pubDate>Thu, 23 Apr 2026 04:47:39 +0000</pubDate><description>本件につきまして続報です。
+
+システムチームにて修正が完了し、 [属性の設定] で 「+ 属性の追加」をクリックした際のエラーが解消されたことを確認いたしました。
+本事象にて、SAML SSO 設定の作成や変更が行えなかったお客様は、お手数ですが再度お試し下さいますようお願い申し上げます。
+
+ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+-----------------------------
+
+Update on the ongoing issue:
+
+Our engineering team has completed the fix and confirmed that the error occurring when clicking &quot;+ Add new attribute row&quot; under [Attribute Settings] has been resolved.
+
+For customers who were unable to create or modify SAML SSO settings due to this issue, we kindly ask that you try again.
+
+We sincerely apologize for any inconvenience this may have caused.</description></item><item><title>An Issue in HENNGE Email DLP: Email delivery delays from Gmail [resolved]</title><link>https://stspg.io/b3jj1m3dzxp7</link><guid isPermaLink="false">hennge-one:2026-04-09T04:03:36.886+09:00</guid><pubDate>Wed, 08 Apr 2026 19:03:36 +0000</pubDate><description>本件につきまして、弊社サービス側でも Gmail からのメール受付および、Gmail 宛のメール配信ともに正常に行われていることを確認いたしました。
+システム側でも異常は見られないため解消したと判断いたします。
+
+本事象につきましては Gmail（Google）側のインシデントに起因したものとなりますので、恐れ入りますが詳細は Google 社へお問い合わせ下さいますようお願い申し上げます。
+https://www.google.com/appsstatus/dashboard/incidents/224ozRqzW4sFBDK8hLnT?hl=ja
+
+----------------------------------------------------------------
+Regarding this issue, we have confirmed that both receiving emails from Gmail and delivering emails to Gmail are functioning normally on our service side.
+As no abnormalities are detected in our systems, we consider this matter resolved.
+
+This issue was caused by an incident on the Gmail (Google) side. For further details, we kindly ask that you contact Google directly.
+https://www.google.com/appsstatus/dashboard/incidents/224ozRqzW4sFBDK8hLnT?hl=en</description></item><item><title>An Issue in HENNGE Email Archive: Message Search&amp;Download [resolved]</title><link>https://stspg.io/j3q48df18lt3</link><guid isPermaLink="false">hennge-one:2026-03-19T12:11:02.291+09:00</guid><pubDate>Thu, 19 Mar 2026 03:11:02 +0000</pubDate><description>本件につきまして続報です。
+
+本事象につきまして、弊社システムチームにて対応を行い、復旧したことを確認いたしました。
+
+なお、先日お伝えしたとおり、本件の影響範囲は一部テナントのアーカイブ検索のみに限られており、新規メールのアーカイブ取得などには影響はございませんでしたので、ご安心ください。
+
+この度はご迷惑をおかけし申し訳ありませんでした。
+-------------------------------------------
+Update on the recent issue:
+
+Regarding this issue, our system team has taken corrective action and confirmed that the service has been restored.
+
+As previously mentioned, the impact of this issue was limited to archive searches in some tenants, and there was no impact on the archiving of new emails, so please rest assured.
+
+We sincerely apologize for any inconvenience caused.</description></item><item><title>An Issue in HENNGE Device Certificate [resolved]</title><link>https://stspg.io/v5cf98tp212c</link><guid isPermaLink="false">hennge-one:2026-03-04T17:43:34.119+09:00</guid><pubDate>Wed, 04 Mar 2026 08:43:34 +0000</pubDate><description>本件について続報です。
+
+一部の環境でデバイス証明書の発行申請を行うと「保留中」のステータスのままになってしまう事象につきまして
+システムチームによる対応を実施いたしました。
+
+HENNGE Access Control 管理画面の [ログ管理] &gt; [デバイス証明書操作履歴] の画面で
+「保留中」のまま処理が止まってしまっていた発行申請についてステータスが「エラー」に変更されております。
+お手数ですが「エラー」と表示されている発行申請分につきましては、再度発行申請を実施くださいますようお願い申し上げます。
+
+ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+---------------------------------
+We are providing an update regarding the issue where some HENNGE Device Certificate issuance requests remained in &quot;Pending&quot; status. Our system team has completed the necessary actions to address this.
+
+For requests that were stuck in &quot;Pending&quot; status, the status has now been changed to &quot;Error.&quot; You can verify this in the HENNGE Access Control Admin Console under [Log Management] &gt; [Device Certificate Operations].
+
+If your request is now showing as &quot;Error,&quot; we kindly ask that y</description></item><item><title>[Resolved]An Issue in HENNGE Access Control (Microsoft 365 User Sync) [resolved]</title><link>https://stspg.io/tm24fn3s3c4c</link><guid isPermaLink="false">hennge-one:2026-02-20T17:34:47.374+09:00</guid><pubDate>Fri, 20 Feb 2026 08:34:47 +0000</pubDate><description>HENNGE Access Control から Microsoft 365(Entra ID) へのクラウド同期につきまして
+下記の通りの期間と内容の事象が発生しておりました。
+
+なお、本事象によるログイン等のユーザー影響はございませんでしたのでご安心下さい。
+
+・期間
+2026年2月19日12時〜2月20日16:00頃（JST）
+
+・発生事象
+定期同期（1時間毎）および手動同期の実行時、変更のないユーザーについても同期ログに 更新（Update） として出力される
+
+ご迷惑をおかけし申し訳ありません。
+
+-----------------------------------------
+We have identified and resolved an issue regarding the cloud synchronization between HENNGE Access Control and Microsoft 365(Entra ID).
+
+Please be assured that this incident had no impact on user logins or other authentication services.
+
+Period:
+Thursday, February 19, 2026, 12:00 PM – Friday, February 20, 2026, 4:00 PM (JST)
+
+Details:
+During both scheduled (hourly) and manual synchronizations, users with no changes were incorrectly recorded as &quot;Update&quot; in the synchronization logs.
+
+We apologize f</description></item><item><title>An Issue in HENNGE Email Archive: Message Search&amp;Download [resolved]</title><link>https://stspg.io/y674d7mdkn6g</link><guid isPermaLink="false">hennge-one:2026-02-09T12:18:35.521+09:00</guid><pubDate>Mon, 09 Feb 2026 03:18:35 +0000</pubDate><description>本件について続報です。
+
+残りのごく一部の HENNGE Email Archive 環境につきましても対応を実施し、復旧したことを確認いたしました。
+先日お伝えした通り、本件の影響は一部テナントのアーカイブ検索のみであり、新規メールのアーカイブ取得などに影響はございませんでした。
+
+この度はご迷惑をおかけし申し訳ありませんでした。
+
+-------------------------------------------
+Update on the recent issue:
+
+We have completed the necessary actions for the remaining few HENNGE Email Archive environments and confirmed that they have been fully restored.
+
+As previously reported, this incident only affected the archive search function for certain tenants. There was no impact on the archiving of new incoming/outgoing emails.
+
+We sincerely apologize for any inconvenience caused.</description></item><item><title>An Issue in HENNGE Email DLP: Email Delivery [resolved]</title><link>https://stspg.io/8k2ts9b89x9y</link><guid isPermaLink="false">hennge-one:2026-02-02T19:50:41.218+09:00</guid><pubDate>Mon, 02 Feb 2026 10:50:41 +0000</pubDate><description>本件につきまして、継続して監視を行っておりましたが再発等はなくサービスが正常に稼働していることを確認いたしました。
+なお、本件によるメールのロスト等は発生しておりません。
+
+この度はご迷惑をおかけし申し訳ありませんでした。
+
+------------------------------------------
+We have completed our continuous monitoring of the system and can confirm that the service is operating normally with no recurrences.
+
+Our investigation has confirmed that no emails were lost as a result of this incident.
+
+We sincerely apologize for any inconvenience caused.</description></item><item><title>An Issue in HENNGE File DLP: False positive detections of public links [resolved]</title><link>https://stspg.io/cs3gm4ny5jhc</link><guid isPermaLink="false">hennge-one:2026-01-14T14:20:30.834+09:00</guid><pubDate>Wed, 14 Jan 2026 05:20:30 +0000</pubDate><description>本件につきまして続報です。
+
+本事象において誤検知が発生し、自動停止ポリシーにより公開リンクが削除されていたファイルにつきまして、
+システム側にて同様の権限範囲（Microsoft 365 組織内のみ公開）となるよう、再設定によるリカバリ対応が完了しました。
+
+なお、本リカバリ対応により、組織内での公開権限は事象発生前の状態に復旧しておりますが、公開リンクの URL は変更されております。
+そのため、SharePoint 上のフォルダからファイルへアクセスされる場合には問題ありませんが、直接公開リンクにてファイルをご利用される場合は、改めて新たな公開 URL を共有し直して下さい。
+
+この度はご迷惑をおかけしましたことを改めてお詫び申し上げます。
+-------------------------------------------
+Here is an update regarding this matter.
+
+In this incident, a false positive occurred, and as a result, the organization-scoped links for the affected file were removed by an automatic suspension policy.
+We have completed recovery actions on the system side by reconfiguring the file to restore the same permission scope as before (shared only within the Microsoft 365 organization).
+
+Please note that while the internal sharing</description></item><item><title>An Issue in HENNGE Email DLP: Secure Download for Box [resolved]</title><link>https://stspg.io/xqf2dfn3nxt5</link><guid isPermaLink="false">hennge-one:2025-12-17T10:38:32.006+09:00</guid><pubDate>Wed, 17 Dec 2025 01:38:32 +0000</pubDate><description>本件につきまして、継続して監視を行っておりましたが再発等はなくサービスが正常に稼働していることを確認いたしました。
+
+なお遅延しておりました HENNGE Secure Download for Box をご利用のメールにつきましては
+すべて正常に処理が完了しており、本事象の影響によるメールのロストやバウンス等は発生しておりません。
+※ メール宛先側の問題などによるその他のバウンスは含まれません。
+
+この度はご迷惑をおかけし申し訳ありません。
+
+−−−−−−−−−−−−−−−−−−−−−−−−−−−
+We have been continuously monitoring this matter and have confirmed that the service is operating normally with no recurrence of the issue.
+
+Furthermore, all emails using HENNGE Secure Download for Box that were previously delayed have been processed successfully, and no bounces occurred due to the impact of this incident. 
+*This does not include other bounces caused by issues on the recipient&#x27;s mail server side.
+
+We sincerely apologize for the inconvenience this has caused.</description></item><item><title>An Issue in HENNGE Cloud Protection: False positive detection for a specific URL [resolved]</title><link>https://stspg.io/y5yb0hk4nsh2</link><guid isPermaLink="false">hennge-one:2025-12-03T10:32:59.000+09:00</guid><pubDate>Wed, 03 Dec 2025 01:32:59 +0000</pubDate><description>本件につきまして続報です。
+
+誤って検知され隔離されてしまったメールなどのアイテムにつきまして 
+WithSecure 社側で一括解放を実施し、解放が完了していることを確認しております。
+
+この度はご迷惑をおかけしましたことを改めてお詫び申し上げます。
+
+-------------------------------------------
+
+Here is an update regarding this matter.
+
+We have confirmed that WithSecure has completed the bulk release of the quarantined items, such as emails, that were erroneously detected and isolated.
+
+We sincerely apologize again for the inconvenience this has caused.</description></item><item><title>An Issue in HENNGE Cloud Protection: [resolved]</title><link>https://stspg.io/xl1k02z1m0cw</link><guid isPermaLink="false">hennge-one:2025-12-02T17:56:49.960+09:00</guid><pubDate>Tue, 02 Dec 2025 08:56:49 +0000</pubDate><description>本件につきまして続報です。
+WitSecure社による対応が行われ、現在は Microsoft Teams の招待メールや予定表が誤って検知される事象は解消したことを確認いたしました。
+
+誤って検知されてしまったメールや予定表につきましては、恐れ入りますが管理画面から解放の操作を実施くださいますようお願い致します。
+
+この度はご迷惑をおかけしましたことをお詫び申し上げます。
+
+----------------------------------------------
+
+Here is an update regarding this matter.
+
+We have confirmed that the issue where Microsoft Teams invitation emails and calendar items were being incorrectly flagged has been resolved following the action taken by WitSecure.
+
+Regarding the emails and calendar items that were incorrectly flagged, we kindly ask you to release them via the administration screen.
+
+We apologize for the inconvenience this has caused.</description></item><item><title>File DLP Admin Console Dashboard is not displayed [resolved]</title><link>https://stspg.io/tsjgvf4qgdk7</link><guid isPermaLink="false">hennge-one:2025-12-01T10:39:45.999+09:00</guid><pubDate>Mon, 01 Dec 2025 01:39:45 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>[Resolved]An Issue in HENNGE Tadrill [resolved]</title><link>https://stspg.io/x3f49fshn938</link><guid isPermaLink="false">hennge-one:2025-11-27T16:04:34.435+09:00</guid><pubDate>Thu, 27 Nov 2025 07:04:34 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>An Issue in HENNGE Device Certificate [resolved]</title><link>https://stspg.io/vd2x47jzk28b</link><guid isPermaLink="false">hennge-one:2025-11-25T16:59:44.000+09:00</guid><pubDate>Tue, 25 Nov 2025 07:59:44 +0000</pubDate><description>本件につきまして続報です。
+
+HENNGE Access Control のデバイス証明書（HENNGE Device Certificate）の発行および失効に時間がかかる事象につきまして
+対応が完了し現在は正常に処理が行われることを確認しております。
+
+また本事象の発生中にリクエストいただいた発行及び失効の処理もすべて完了していることを確認しております。
+
+本件、ご迷惑をおかけし申し訳ありません。
+
+----------------------------------------------------------
+Here is an update regarding this matter.
+
+We have confirmed that the issue where issuing and revoking HENNGE Access Control device certificates (HENNGE Device Certificate) took a long time has been resolved, and processing is now being carried out normally.
+
+Furthermore, we have verified that all issuing and revocation requests made during the period when this issue occurred have also been completed.
+
+We apologize for the inconvenience this matter has caused.</description></item><item><title>An Issue in HENNGE Email DLP: Undeliverable for a specific email [resolved]</title><link>https://stspg.io/znr5vpxztf6h</link><guid isPermaLink="false">hennge-one:2025-11-13T14:08:41.000+09:00</guid><pubDate>Thu, 13 Nov 2025 05:08:41 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>An Issue in HENNGE Cloud Protection: Unable to receive SMS verification code. [resolved]</title><link>https://stspg.io/vf9xmzgs0qd9</link><guid isPermaLink="false">hennge-one:2025-11-11T16:00:21.042+09:00</guid><pubDate>Tue, 11 Nov 2025 07:00:21 +0000</pubDate><description>本件につきまして続報です。
+
+WithSecure社により対応が行われ、正常にSMSでの認証コード送信が行われるようになったことを確認いたしました。
+
+本件、ご迷惑をおかけしました事をお詫び申し上げます。
+
+----------------------
+Here is an update on this matter.
+
+We have confirmed that WithSecure has addressed the issue, and SMS verification codes are now being sent successfully.
+
+We sincerely apologize for any inconvenience this may have caused.</description></item><item><title>An Issue in HENNGE Cloud Protection: Access Denied to Admin Console [resolved]</title><link>https://stspg.io/3f60v02v50cj</link><guid isPermaLink="false">hennge-one:2025-10-20T18:16:19.876+09:00</guid><pubDate>Mon, 20 Oct 2025 09:16:19 +0000</pubDate><description>本件について続報です。
+
+その後の確認の結果、昨日発生しておりました AWS障害による HENNGE Cloud Protection への影響は下記の2点であることがわかりました。
+
+・管理画面へのアクセス不可（10月20日復旧済み）
+・一部のスキャン不可（復旧後、自動的に再試行が行われております）
+
+上述の通り、AWS障害発生中に一部のスキャンが行われない状況もございましたが、復旧後に自動的に再試行が行われております。
+
+この度はご迷惑をおかけしましたことを改めてお詫び申し上げます。
+
+--------------------------------
+We are providing a follow-up report on this issue.
+
+Following further investigation, we have determined that the impact of the AWS outage on HENNGE Cloud Protection, which occurred yesterday, was limited to the following two points:
+
+Inability to access the Management Screen (Restored on October 20th)
+
+Partial scanning failure (Automatic retries were initiated after restoration)
+
+As mentioned above, while some scans were not executed during the AWS outage, automatic retries have been performed following the restor</description></item><item><title>[OtherService/Microsoft 365]Access Denied from Specific URLs [resolved]</title><link>https://stspg.io/6l32vcf8cbqk</link><guid isPermaLink="false">hennge-one:2025-09-26T12:51:30.906+09:00</guid><pubDate>Fri, 26 Sep 2025 03:51:30 +0000</pubDate><description>本件につきまして続報です。
+
+Microsoft 365のサービス正常性にて本事象の解消が確認された旨の更新がありました。
+弊社環境でも確認したところ、正常にアクセスが可能であることを確認いたしました。
+
+引き続き、本事象につきましての詳細は Microsoft 社へお問い合わせくださいますようお願い申し上げます。
+
+
+-------------------------------------
+Update on this matter.
+
+Microsoft 365&#x27;s service health dashboard has been updated to indicate that this issue is resolved. We have also confirmed on our end that access is now working properly.
+
+For further details on this matter, please continue to direct your inquiries to Microsoft.</description></item><item><title>An Issue by HENNGE Email DLP: Email Blacklisting [resolved]</title><link>https://stspg.io/4ylnr6t5qrbd</link><guid isPermaLink="false">hennge-one:2025-09-12T12:21:43.033+09:00</guid><pubDate>Fri, 12 Sep 2025 03:21:43 +0000</pubDate><description>本件について続報です。
+
+HENNGE Email DLP からの送信メールが RBL誤登録により宛先で受信拒否される事象につきまして解消したことを確認いたしました。
+現時点で新たな受信拒否は発生していないことを確認しております。
+
+なお、事象発生中に受信拒否されたメールにつきましては自動的に再送は行われませんので、恐れ入りますが手動での再送をお願いいたします。
+また、HENNGE Email DLP の切り離しを実施された場合は再接続の実施もお願いいたします。
+
+
+引き続きメールが拒否されており改善が見られない場合は、HENNGE One サポート窓口までご連絡くださいますと幸いです。
+本件、ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+
+------------------------
+Here is a follow-up on this matter.
+
+We have confirmed that the issue of emails sent from HENNGE Email DLP being rejected by recipients due to incorrect RBL listings has been resolved. We have not observed any new rejections at this time.
+
+Please note that emails that were rejected during the incident will not be resent automatically. We kindly ask you to resend them manually. Also, if you temporarily disconnected HENNGE Email DLP, please rec</description></item><item><title>An Issue by HENNGE Email DLP: Admin Console [resolved]</title><link>https://stspg.io/n4gx3qwg0khr</link><guid isPermaLink="false">hennge-one:2025-09-01T11:44:35.509+09:00</guid><pubDate>Mon, 01 Sep 2025 02:44:35 +0000</pubDate><description>本件につきまして続報です。
+
+事象の原因の特定、及び対応を完了いたしました。
+
+もし事象が継続している場合には、ご利用のブラウザでページの再読み込みを実施いただき改善されるかをご確認ください。
+改善が見られない場合は、HENNGE One サポート窓口までご連絡くださいますと幸いです。
+
+本件、ご迷惑をおかけしました事を深くお詫び申し上げます。
+
+----------------------
+Here&#x27;s an update regarding this matter. 
+
+We have identified the cause of the issue and completed the necessary countermeasures.
+
+If the issue persists, please refresh the page in your browser to see if that resolves the problem. If it does not, please contact the HENNGE One support desk.
+
+We sincerely apologize for any inconvenience this may have caused.</description></item></channel></rss>

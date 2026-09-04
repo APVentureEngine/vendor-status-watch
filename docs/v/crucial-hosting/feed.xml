@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Crucial Hosting incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/crucial-hosting/</link><description>Incidents from Crucial Hosting's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Service Disruption – Email Delivery and Website Availability [monitoring]</title><link>https://stspg.io/1s98mrbyl7cs</link><guid isPermaLink="false">crucial-hosting:2026-09-01T21:30:19.757+10:00</guid><pubDate>Tue, 01 Sep 2026 11:30:19 +0000</pubDate><description>The issue affecting email delivery and website availability has now been resolved.
+ 
+Our Engineering Team has confirmed that websites and email services are operating normally.
+ 
+We will continue to monitor the services to ensure stability.
+ 
+We appreciate your patience and understanding while we worked to address this issue.</description></item><item><title>Phone Support Service Disruption [resolved]</title><link>https://stspg.io/gs1g4w0nwy36</link><guid isPermaLink="false">crucial-hosting:2026-08-14T11:12:51.507+10:00</guid><pubDate>Fri, 14 Aug 2026 01:12:51 +0000</pubDate><description>Our phone support lines have now been restored and are fully operational.
+
+Our engineers have completed the necessary work to resolve the issue and are taking steps to help prevent it from happening again.
+
+We apologize for the inconvenience and appreciate your patience and understanding.
+
+Live Chat Support: Our live chat support remains available 24/7 if you need further assistance.</description></item><item><title>Security Advisory: Immediate cPanel Update Recommended for VPS &amp; Dedicated Servers [monitoring]</title><link>https://stspg.io/dzgc42fh1v7s</link><guid isPermaLink="false">crucial-hosting:2026-08-03T20:30:59.778+10:00</guid><pubDate>Mon, 03 Aug 2026 10:30:59 +0000</pubDate><description>Dear Customers,
+
+cPanel has released a security update to address CVE-2026-58048, a database privilege escalation vulnerability affecting supported cPanel &amp; WHM versions. We strongly recommend that all customers update their servers to the patched versions available.
+
+Please refer to the official advisories below for more details:
+
+https://support.cpanel.net/hc/en-us/articles/42285745783703-Security-CVE-2026-58048-Database-Privilege-Escalation
+
+Action Required 
+
+Please log in to your server via SSH as the root user and run the following command:
+
+/scripts/upcp
+
+This command will download and install the latest available cPanel &amp; WHM updates, including the security fixes released by cPanel.
+
+After the update completes, verify your cPanel version:
+
+/usr/local/cpanel/cpanel -V
+
+Why This Updat</description></item><item><title>Service Advisory: Webmail and Email Service Impact [resolved]</title><link>https://stspg.io/lx64x53ms8l8</link><guid isPermaLink="false">crucial-hosting:2026-07-31T11:50:55.439+10:00</guid><pubDate>Fri, 31 Jul 2026 01:50:55 +0000</pubDate><description>The issue affecting the email services, along with webmail access, has now been resolved. Our Engineering Team will continue to closely monitor the situation to ensure ongoing stability.
+We appreciate your patience and understanding while we worked to address this matter. Please be assured that we will continue to provide updates should any new developments arise.</description></item><item><title>Email Delivery Issue Affecting Hotmail Domains [resolved]</title><link>https://stspg.io/cbqnp7z5pm4h</link><guid isPermaLink="false">crucial-hosting:2026-07-29T22:13:08.588+10:00</guid><pubDate>Wed, 29 Jul 2026 12:13:08 +0000</pubDate><description>The issue affecting email delivery to Hotmail domains has been resolved, and email delivery has returned to normal.
+
+Our Engineering Team has completed the necessary work, and we are no longer observing the reported delivery issue.
+
+Thank you for your patience and understanding while we worked to resolve this issue.</description></item><item><title>Service Advisory – Shared Linux Hosting [resolved]</title><link>https://stspg.io/kyp74wwp6v9y</link><guid isPermaLink="false">crucial-hosting:2026-07-21T14:09:38.319+10:00</guid><pubDate>Tue, 21 Jul 2026 04:09:38 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Email Delivery Issues Affecting External Recipients [resolved]</title><link>https://stspg.io/v2g42q4n4ytz</link><guid isPermaLink="false">crucial-hosting:2026-06-15T08:39:52.310+10:00</guid><pubDate>Sun, 14 Jun 2026 22:39:52 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Duplicate Emails Received from Gmail [resolved]</title><link>https://stspg.io/qf2nbn0mw4c7</link><guid isPermaLink="false">crucial-hosting:2026-06-05T14:00:48.568+10:00</guid><pubDate>Fri, 05 Jun 2026 04:00:48 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Advisory: Website and Service Impact [resolved]</title><link>https://stspg.io/f4f79cpmh9f4</link><guid isPermaLink="false">crucial-hosting:2026-05-18T14:06:24.155+10:00</guid><pubDate>Mon, 18 May 2026 04:06:24 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Update – Recommended Security Updates for cPanel Servers [resolved]</title><link>https://stspg.io/ykcrydl178jk</link><guid isPermaLink="false">crucial-hosting:2026-05-09T03:44:16.155+10:00</guid><pubDate>Fri, 08 May 2026 17:44:16 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Security Alert – cPanel, WHM and Webmail Access Restricted [resolved]</title><link>https://stspg.io/35kz6hnwc3h6</link><guid isPermaLink="false">crucial-hosting:2026-05-08T16:59:05.298+10:00</guid><pubDate>Fri, 08 May 2026 06:59:05 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Security Advisory: Immediate cPanel Update Recommended for VPS &amp; Dedicated Servers [resolved]</title><link>https://stspg.io/4jv27khwbcwt</link><guid isPermaLink="false">crucial-hosting:2026-04-29T16:34:42.022+10:00</guid><pubDate>Wed, 29 Apr 2026 06:34:42 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Interruption - Share Hosting Server [resolved]</title><link>https://stspg.io/gr1852743rnp</link><guid isPermaLink="false">crucial-hosting:2025-09-22T11:22:40.007+10:00</guid><pubDate>Mon, 22 Sep 2025 01:22:40 +0000</pubDate><description>Restore for vmsh02.performance-hosting.com.au has been completed successfully
+All the affected servers are now up and running</description></item></channel></rss>

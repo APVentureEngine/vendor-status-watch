@@ -1,0 +1,115 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"4r6kvhx65xxf": {
+"body": "On August 21, from approximately 8:00 AM to 8:35 AM Eastern Daylight Time, some Nutshell customers experienced difficulty logging in or accessing their Nutshell account. We identified an overloaded authentication service, due to an upcoming software upgrade. We've resolved the configuration issue. Sorry for the trouble!",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T08:00:00.000-04:00",
+"resolved_inferred": false,
+"started_at": "2025-08-21T08:00:00.000-04:00",
+"state": "resolved",
+"title": "Temporary Nutshell access issues",
+"updated_at": "2025-08-21T09:43:34.986-04:00",
+"url": "https://stspg.io/7qpwywgd0c5z"
+},
+"c47nzkr7ydpk": {
+"body": "Our upgrade completed successfully, with no customer impact.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-10T01:10:32.627-04:00",
+"resolved_inferred": false,
+"started_at": "2026-04-09T20:17:35.011-04:00",
+"state": "resolved",
+"title": "Database upgrade",
+"updated_at": "2026-04-10T01:10:32.642-04:00",
+"url": "https://stspg.io/vrvngf59dxy6"
+},
+"p36qb9tlklrl": {
+"body": "Nutshell has been performing at optimal levels for several hours. We continue to monitor for any issues that might result from our infrastructure provider. Our team will perform a retrospective to identify ways to mitigate future issues and learn from this experience. No data was lost during this event.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T17:29:35.131-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T08:30:49.323-04:00",
+"state": "resolved",
+"title": "Nutshell outage",
+"updated_at": "2025-10-20T17:29:35.152-04:00",
+"url": "https://stspg.io/yjfsht5m24hf"
+},
+"qs7rb0k0245j": {
+"body": "We have addressed the database issue which caused some slowdowns for our customers. We are continuing to expand our infrastructure fleet for a more reliable and speedy Nutshell experience!",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-04T13:16:34.971-04:00",
+"resolved_inferred": false,
+"started_at": "2026-06-04T12:45:56.163-04:00",
+"state": "resolved",
+"title": "Slowdown & delays for some customers",
+"updated_at": "2026-06-04T13:16:34.987-04:00",
+"url": "https://stspg.io/zmjgrbldtmfw"
+},
+"vbv5ngwl80gv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-09T17:37:25.338-04:00",
+"resolved_inferred": false,
+"started_at": "2026-03-09T17:23:19.653-04:00",
+"state": "resolved",
+"title": "Reports of Nutshell not loading for several customers",
+"updated_at": "2026-03-09T17:37:25.353-04:00",
+"url": "https://stspg.io/fs8hxv6y3kfg"
+},
+"w5rkk0lhwgkj": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-07T21:01:08.280-04:00",
+"resolved_inferred": false,
+"started_at": "2026-07-07T20:49:25.556-04:00",
+"state": "resolved",
+"title": "Database Upgrade",
+"updated_at": "2026-07-07T21:01:08.298-04:00",
+"url": "https://stspg.io/nxrpysckhx5q"
+},
+"x8v49cfn5070": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-23T16:57:12.592-04:00",
+"resolved_inferred": false,
+"started_at": "2025-09-23T08:59:46.177-04:00",
+"state": "resolved",
+"title": "Investigating reports of slowness",
+"updated_at": "2025-09-23T16:57:12.610-04:00",
+"url": "https://stspg.io/sfxpvjbflz83"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "nutshell",
+"status_url": "https://status.nutshell.com",
+"vendor": "Nutshell"
+}

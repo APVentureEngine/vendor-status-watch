@@ -1,0 +1,11 @@
+{
+"vendor": "Halp",
+"slug": "halp",
+"platform": "statuspage",
+"status_url": "https://status.halp.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "degraded",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

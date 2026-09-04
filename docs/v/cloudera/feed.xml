@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cloudera incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/cloudera/</link><description>Incidents from Cloudera's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Cloudera Management Console not accessible in US Control Plane [resolved]</title><link>https://stspg.io/jzl2h2lmr01s</link><guid isPermaLink="false">cloudera:2026-09-03T23:18:07.714Z</guid><pubDate>Thu, 03 Sep 2026 23:18:07 +0000</pubDate><description>Current Status: Our teams have successfully implemented a solution to resolve the issue. Our teams are currently monitoring the solution and will provide another update once confirmed.
+
+Customer Experience: Customer may have observed an Error message: &quot;no healthy upstream&quot; while accessing Cloudera Management Console.
+If you are still experiencing issues or have any questions, please raise a support case with us. A Root Cause Analysis (RCA) will be published within seven business days.</description></item><item><title>Intermittent Performance Issues - US Control Plane [postmortem]</title><link>https://stspg.io/6t0hy3kcj8g0</link><guid isPermaLink="false">cloudera:2026-05-11T10:00:00.000Z</guid><pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate><description>On March 10, 2026, between 15:23 UTC to 17:09 UTC, users may have experienced intermittent connectivity issues accessing the workloads in the Cloudera Management Console of the US region.
+
+This disruption was traced to the termination of jumpgate-proxy pods, which entered an OOMKilled status after memory utilization exceeded configured limits. This, in turn, impacted connectivity between the control plane and the workloads within the Cloudera Management Console.
+
+Service consistency was restored by increasing the memory limits and replica counts for the jumpgate-proxy deployment.
+
+To prevent recurrence, we will implement alerting mechanisms for jumpgate pod memory utilization and pod states \(such as CrashLoopBackoff or OOMKilled events\). This will enable us to proactively detect and miti</description></item><item><title>Intermittent Management Console Access Issues Across US, EU, and AP Regions [postmortem]</title><link>https://stspg.io/2f2l4x28khkx</link><guid isPermaLink="false">cloudera:2026-03-10T20:00:00.000Z</guid><pubDate>Tue, 10 Mar 2026 20:00:00 +0000</pubDate><description>On March 10, 2026, around 19:56 UTC users may have started experiencing intermittent timeouts accessing the Cloudera Management Console across the US, EU, and AP regions. 
+
+This disruption was traced to an internal service certificate expiration where, despite a successful renewal initiation, a misalignment in the deployment sequence prevented the updated credentials from propagating to the active service mesh. The impact was strictly limited to administrative console and API access; all existing data workloads and running environments continued to operate without interruption. 
+
+Service consistency was restored by regenerating and manually applying the certificates across all affected clusters. To prevent recurrence, we have audited all regional clusters and are transitioning to an automa</description></item><item><title>FreeIPA connectivity issues [postmortem]</title><link>https://stspg.io/5ts1ff98nf42</link><guid isPermaLink="false">cloudera:2025-09-25T10:23:34.323Z</guid><pubDate>Thu, 25 Sep 2025 10:23:34 +0000</pubDate><description>The intermittent performance and access issues with the Cloudera Management Console and FreeIPA were triggered by a scheduled service upgrade intended to improve platform stability.
+
+Our investigation determined that a change in a core component introduced a latent configuration issue. This specific condition was not exposed in our testing environments, preventing dependent services from applying dynamic configuration updates in production and leading to the outage.
+
+We&#x27;ve taken immediate action to prevent this issue from recurring:  
+System Fix: The problematic component change was rolled back, and a permanent patch was deployed to restore proper dynamic configuration functionality.  
+Process Overhaul: We&#x27;ve implemented a more rigorous upgrade process with mandatory, near-production scale</description></item><item><title>Intermittent Performance and Access Issues with the Cloudera Management Console [postmortem]</title><link>https://stspg.io/sk4jg5x4pjxb</link><guid isPermaLink="false">cloudera:2025-09-24T19:42:22.945Z</guid><pubDate>Wed, 24 Sep 2025 19:42:22 +0000</pubDate><description>The intermittent performance and access issues with the Cloudera Management Console and FreeIPA were triggered by a scheduled service upgrade intended to improve platform stability.
+
+Our investigation determined that a change in a core component introduced a latent configuration issue. This specific condition was not exposed in our testing environments, preventing dependent services from applying dynamic configuration updates in production and leading to the outage.
+
+We&#x27;ve taken immediate action to prevent this issue from recurring:  
+System Fix: The problematic component change was rolled back, and a permanent patch was deployed to restore proper dynamic configuration functionality.  
+Process Overhaul: We&#x27;ve implemented a more rigorous upgrade process with mandatory, near-production scale</description></item><item><title>DataHubs, DataLakes and FreeIPA are unreachable in US region [postmortem]</title><link>https://stspg.io/kjv7xw15yn3n</link><guid isPermaLink="false">cloudera:2025-08-13T14:33:47.920Z</guid><pubDate>Wed, 13 Aug 2025 14:33:47 +0000</pubDate><description>A recent system update, intended to enhance stability of our platform, inadvertently led to an unforeseen memory issue affecting a critical internal service responsible for platform access management.
+
+‌
+
+A subsequent incoming request spike caused the memory limits exhaustion, which resulted in the service to become intermittently unavailable.
+
+‌
+
+The memory allocation for the service was manually increased, which restored normal operations. This change was then made permanent to circumvent any recurrence.
+
+‌
+
+We have implemented more robust monitoring and alerting to detect similar issues in the future before they can impact our customers. This includes updating the existing alerts for resource exhaustion and adding new alerts based on the incident, to ensure that the right teams are noti</description></item></channel></rss>

@@ -1,0 +1,23 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "unknown"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "unknown"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "unknown",
+"last_error": "http 401",
+"last_state": "unknown",
+"platform": "statuspage",
+"slug": "quadency",
+"status_url": "https://status.quadency.com",
+"vendor": "Quadency"
+}

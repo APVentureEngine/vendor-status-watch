@@ -1,0 +1,38 @@
+{
+"vendor": "Entrata",
+"slug": "entrata",
+"platform": "statuspage",
+"status_url": "https://status.entrata.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-26T12:09:14.370-06:00",
+"resolved_inferred": false,
+"started_at": "2026-05-26T08:40:10.444-06:00",
+"state": "resolved",
+"title": "Intermittent UI access issue",
+"updated_at": "2026-05-26T12:09:14.385-06:00",
+"url": "https://stspg.io/kqr1sy8zx149"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T09:35:46.373-07:00",
+"resolved_inferred": false,
+"started_at": "2026-02-09T10:46:54.764-07:00",
+"state": "resolved",
+"title": "Entrata Standard Login Degraded Performance",
+"updated_at": "2026-02-10T09:35:46.392-07:00",
+"url": "https://stspg.io/1n9s0211pmkt"
+}
+]
+}

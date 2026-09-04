@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Webroot incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/webroot/</link><description>Incidents from Webroot's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Zix - M365 - Some users may be unable to connect to Microsoft 365 Exchange Online [monitoring]</title><link>https://stspg.io/ggdcpztx6wcf</link><guid isPermaLink="false">webroot:2026-08-31T16:33:46.217Z</guid><pubDate>Mon, 31 Aug 2026 16:33:46 +0000</pubDate><description>Update from Microsoft:
+
+All user impact scenarios are now resolved as they rectified the additional mitigation efforts for the Outlook impact which occurred in less than one percent of their infrastructure. They will continue to monitor their telemetry to ensure all services remain healthy and plan to close this communication by next update.</description></item><item><title>Desktop Messaging BMS experienced delays in processing outbound fax delivery [resolved]</title><link>https://stspg.io/vc5rb7vy7ww3</link><guid isPermaLink="false">webroot:2026-08-28T16:15:40.294Z</guid><pubDate>Fri, 28 Aug 2026 16:15:40 +0000</pubDate><description>Desktop Messaging BMS experienced delays in processing outbound fax delivery. Backlogs have been cleared, and the issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3987893</description></item><item><title>Core Communications Europe was unavailable [resolved]</title><link>https://stspg.io/fjpx1fyx65t3</link><guid isPermaLink="false">webroot:2026-08-28T02:42:57.453Z</guid><pubDate>Fri, 28 Aug 2026 02:42:57 +0000</pubDate><description>Core Communications Europe was unavailable. The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3987509</description></item><item><title>MailStore Cloud was unavailable [resolved]</title><link>https://stspg.io/x2fcd03b4y79</link><guid isPermaLink="false">webroot:2026-08-26T14:12:11.563Z</guid><pubDate>Wed, 26 Aug 2026 14:12:11 +0000</pubDate><description>MailStore Cloud was unavailable. The issue is now resolved. We appreciate your patience.</description></item><item><title>Core EDR/MDR experienced service degradation [resolved]</title><link>https://stspg.io/r76w36z2jh28</link><guid isPermaLink="false">webroot:2026-08-22T01:41:34.911Z</guid><pubDate>Sat, 22 Aug 2026 01:41:34 +0000</pubDate><description>Core EDR/MDR in the US region experienced service degradation. The issue has been resolved. We appreciate your patience.</description></item><item><title>Core EDR/MDR is currently experiencing service degradation [resolved]</title><link>https://stspg.io/55ns7v9srmmd</link><guid isPermaLink="false">webroot:2026-08-20T15:54:21.000Z</guid><pubDate>Thu, 20 Aug 2026 15:54:21 +0000</pubDate><description>Core EDR/MDR experienced service degradation. The issue is now resolved. We appreciate your patience.</description></item><item><title>Zix - Secure Cloud Portal - Microsoft 365 - Unable to assign licensing [resolved]</title><link>https://stspg.io/2j89qzpw7scq</link><guid isPermaLink="false">webroot:2026-08-13T18:36:55.673Z</guid><pubDate>Thu, 13 Aug 2026 18:36:55 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Cloud Fax services experienced delays in processing of fax files [resolved]</title><link>https://stspg.io/8238ndf99z1l</link><guid isPermaLink="false">webroot:2026-08-13T15:09:11.857Z</guid><pubDate>Thu, 13 Aug 2026 15:09:11 +0000</pubDate><description>Desktop Messaging BMS experienced delays in processing fax files. The issue is now resolved. We appreciate your patience.
+ 
+Tracking Number: IM3978817</description></item><item><title>Enterprise Service Management might have experienced issues accessing applications. [postmortem]</title><link>https://stspg.io/13xx9gnzqc3s</link><guid isPermaLink="false">webroot:2026-08-09T08:05:50.577Z</guid><pubDate>Sun, 09 Aug 2026 08:05:50 +0000</pubDate><description>**Root Cause Analysis**
+
+**Tracking number:** IM3976323 PM1011709  
+**Incident window:** August 9, 2026, from 01:00 GMT to 11:35 GMT  
+**Services affected:** OpenText™ Shared Network Services
+
+**Overview**  
+On August 9, 2026, at 06:24 GMT, Incident Management was engaged to investigate client-reported access issues affecting multiple OpenText SaaS services.
+
+**Impact**  
+Clients were unable to access the OpenText SaaS services.
+
+**Root Cause**  
+The investigation determined that a Domain Name System Security Extensions \(DNSSEC\) Key Signing Key \(KSK\) expired for the [microfocus.com](http://microfocus.com) DNS zone, resulting in DNS resolution failures across multiple services. This condition disrupted DNS resolution across multiple DNSSEC-enabled subzones, including [saas.microfocus.co</description></item><item><title>&quot;Unknown Error&quot; in CP Portal [resolved]</title><link>https://stspg.io/vnn2f10l5p32</link><guid isPermaLink="false">webroot:2026-08-08T15:05:49.196Z</guid><pubDate>Sat, 08 Aug 2026 15:05:49 +0000</pubDate><description>The issue affecting the CP Portal, where users may have encountered an &quot;Unknown Error&quot; message, has been identified and resolved by our Backend Engineering team. The fix has been successfully implemented, and services are now operating as expected.
+Tracking Number - IM3976014</description></item><item><title>Secure Cloud Portal - Microsoft 365 License Adjustements [resolved]</title><link>https://stspg.io/crt579pkjntl</link><guid isPermaLink="false">webroot:2026-08-07T17:59:01.769Z</guid><pubDate>Fri, 07 Aug 2026 17:59:01 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Zix Encryption Services - Secure Cloud Email Encryption AEE DLP requiring login [resolved]</title><link>https://stspg.io/v6h759drq6tb</link><guid isPermaLink="false">webroot:2026-08-06T17:18:07.339Z</guid><pubDate>Thu, 06 Aug 2026 17:18:07 +0000</pubDate><description>Zix Encryption Services - Secure Cloud Email Encryption AEE DLP experienced an issue requiring the sender of an email to log in to an interface to release messages from DLP. 
+
+The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3975128</description></item><item><title>Core EDR/MDR experienced service degradation [resolved]</title><link>https://stspg.io/nscr6tsvj583</link><guid isPermaLink="false">webroot:2026-08-03T20:28:20.560Z</guid><pubDate>Mon, 03 Aug 2026 20:28:20 +0000</pubDate><description>Core EDR/MDR experienced service degradation. The issue is now resolved. We appreciate your patience.</description></item><item><title>TLS connection issues with multiple encryption services [resolved]</title><link>https://stspg.io/6sk6fmp03byd</link><guid isPermaLink="false">webroot:2026-07-31T14:29:56.568Z</guid><pubDate>Fri, 31 Jul 2026 14:29:56 +0000</pubDate><description>The following services are experienced an issue with TLS connections to multiple external mail services. 
+
+ - Zix Encryption Services - Hosted SMB
+ - Zix Encryption Services - Secure Cloud Email Encryption (AEE/ZEE)
+ - Zix Encryption Services - ZixGateway (Hosted)
+ - Zix Threat Protection Services - ZixProtect
+
+The issue is now resolved.  We appreciate your patience. 
+
+Tracking Number: IM3971825</description></item><item><title>São Paulo BR14 was experiencing service degradation. [postmortem]</title><link>https://stspg.io/4tfln3xzpk6d</link><guid isPermaLink="false">webroot:2026-07-31T04:43:18.247Z</guid><pubDate>Fri, 31 Jul 2026 04:43:18 +0000</pubDate><description>**Interim Root Cause** 
+
+**Tracking number:** IM3971517 PM1011702  
+**Incident window:** July 31, 2026, from 03:32 GMT to 04:42 GMT on July 30, 226  
+**Services affected:** OpenText™ Enterprise Service Management \(ESM BR14\)  
+
+**Overview**  
+On July 31, 2026, at 04:10 GMT, Incident Management was engaged to investigate degraded system performance on the OpenText™ Enterprise Service Management \(ESM BR14\) environment.
+
+**Impact**  
+Users experienced degraded system performance and functionality issues.
+
+**Root Cause**  
+The investigation revealed intermittent connectivity failures between the RabbitMQ cluster and dependent application components. RabbitMQ, which operates as a multi-node clustered service facilitating communication between the core application engine and other components,</description></item><item><title>Zix - Customer Portal incorrectly authentication issue [resolved]</title><link>https://stspg.io/pgv5w3hqc8gv</link><guid isPermaLink="false">webroot:2026-07-28T17:31:22.504Z</guid><pubDate>Tue, 28 Jul 2026 17:31:22 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Oregon US6 experienced intermittent service unavailability [postmortem]</title><link>https://stspg.io/3d15dqydqyym</link><guid isPermaLink="false">webroot:2026-07-27T14:21:28.974Z</guid><pubDate>Mon, 27 Jul 2026 14:21:28 +0000</pubDate><description>**Interim Root Cause** 
+
+**Tracking number:** IM3968671 PM1011655  
+**Incident windows:** July 27, 2026, from 13:28 GMT to 14:15 GMT  
+**Services affected:** OpenText™ Enterprise Service Management \(ESM US6\)
+
+**Overview**  
+On July 27, 2026, at 14:11 GMT, Incident Management was engaged to investigate intermittent availability and performance degradation in the US6 environment.
+
+**Impact**  
+Clients experienced degraded service performance, resulting in slow user interface \(UI\) response times.
+
+**Root Cause**  
+The root cause analysis identified two primary contributing factors:  
+     • RabbitMQ Metadata Store Instability: An instability within the RabbitMQ Metadata store caused inconsistencies in queue metadata, resulting in messaging disruptions across the platform.  
+     • Connect</description></item><item><title>Frankfurt EU8 experienced intermittent service unavailability. [postmortem]</title><link>https://stspg.io/sv2fqt3h95pz</link><guid isPermaLink="false">webroot:2026-07-27T09:03:31.696Z</guid><pubDate>Mon, 27 Jul 2026 09:03:31 +0000</pubDate><description>**Interim Root Cause**
+
+**Tracking number:** IM3968415 PM1011655  
+**Incident windows:** July 27, 2026, from 06:31 GMT to 09:41 GMT  
+**Services affected:** OpenText™ Enterprise Service Management \(ESM EU8\)
+
+**Overview**  
+On July 27, 2026, at 07:10 GMT, Incident Management was engaged to investigate intermittent access issues and service unavailability.
+
+**Impact**  
+Several clients experienced intermittent access issues and service unavailability across the ESM EU8 environment.
+
+**Root Cause**  
+The root cause analysis identified two primary contributing factors:  
+     • RabbitMQ Metadata Store Instability: An instability within the RabbitMQ Metadata store caused inconsistencies in queue metadata, resulting in messaging disruptions across the platform.  
+     • Connection Recovery Fai</description></item><item><title>Frankfurt EU8 is currently experiencing intermittent service unavailability [resolved]</title><link>https://stspg.io/sfvc924h2tyy</link><guid isPermaLink="false">webroot:2026-07-27T07:17:48.586Z</guid><pubDate>Mon, 27 Jul 2026 07:17:48 +0000</pubDate><description>Frankfurt EU8 is currently experiencing intermittent service unavailability. Teams are currently assembled and working to resolve the issue.  We appreciate your patience. 
+
+Tracking Number: IM3968415</description></item><item><title>Frankfurt EU8 experienced an issue [resolved]</title><link>https://stspg.io/5rl6wjvhn51j</link><guid isPermaLink="false">webroot:2026-07-26T16:15:36.183Z</guid><pubDate>Sun, 26 Jul 2026 16:15:36 +0000</pubDate><description>Frankfurt EU8 experienced an issue, and the CMS component was inaccessible for 20 minutes. The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3968161</description></item><item><title>Zix Hosted Exchange/Customer Portal not saving updates to user settings [resolved]</title><link>https://stspg.io/d700s59y9bbk</link><guid isPermaLink="false">webroot:2026-07-25T21:57:06.295Z</guid><pubDate>Sat, 25 Jul 2026 21:57:06 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Cloud Fax services North America experienced issues [resolved]</title><link>https://stspg.io/rnk6zh0my8r5</link><guid isPermaLink="false">webroot:2026-07-24T15:05:06.616Z</guid><pubDate>Fri, 24 Jul 2026 15:05:06 +0000</pubDate><description>The following services experienced issues. Users may have experienced intermittent access to web portals, along with delays in fax delivery and fax status updates. Backlogs have been cleared, and the issue is now resolved. We appreciate your patience. 
+
+ - Desktop Messaging BMS
+ - Fax Cloud Connect (RightFax)
+ - Fax2Mail
+
+Tracking Number: IM3966995</description></item><item><title>Zix Encryption Services - Secure Cloud Email Encryption (AEE/ZEE) Errors while delivering to DLP [resolved]</title><link>https://stspg.io/2qvwln965nrf</link><guid isPermaLink="false">webroot:2026-07-23T17:30:36.837Z</guid><pubDate>Thu, 23 Jul 2026 17:30:36 +0000</pubDate><description>Zix Encryption Services - Secure Cloud Email Encryption (AEE/ZEE) experienced an issue while sending messages to the DLP service. 
+
+The issue is now resolved. 
+
+We appreciate your patience. 
+
+Tracking Number: IM3966467</description></item><item><title>Secure Messaging Portal (ZixPortal) Email sporadic message delivery delays [resolved]</title><link>https://stspg.io/w4l019b1bwgk</link><guid isPermaLink="false">webroot:2026-07-22T16:21:35.588Z</guid><pubDate>Wed, 22 Jul 2026 16:21:35 +0000</pubDate><description>Secure Messaging Portal (ZixPortal) experienced an issue with sporadic message delivery delays. 
+
+The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3965742</description></item><item><title>Zix Encryption Services - Secure Cloud Email Encryption (AEE/ZEE) not delivering messages [resolved]</title><link>https://stspg.io/rns4cswrg2w7</link><guid isPermaLink="false">webroot:2026-07-22T13:31:56.939Z</guid><pubDate>Wed, 22 Jul 2026 13:31:56 +0000</pubDate><description>Zix Encryption Services - Secure Cloud Email Encryption (AEE/ZEE) experienced an issue delivering messages when the DLP service is enabled on policies. 
+
+The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3965099</description></item><item><title>Core Archive CH is currently experiencing degradation of service. [resolved]</title><link>https://stspg.io/21689my93dcn</link><guid isPermaLink="false">webroot:2026-07-22T09:42:09.539Z</guid><pubDate>Wed, 22 Jul 2026 09:42:09 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Email Message Privacy (EMP) Gateway Users unable to messages [resolved]</title><link>https://stspg.io/d8dz0q5dcy5x</link><guid isPermaLink="false">webroot:2026-07-21T22:21:08.960Z</guid><pubDate>Tue, 21 Jul 2026 22:21:08 +0000</pubDate><description>Zix Encryption Services - Email Message Privacy (EMP) experienced an issue with the outbound gateway.  
+
+The issue is now resolved. We appreciate your patience. 
+
+Tracking Number: IM3965145</description></item><item><title>Frankfurt EU18 experienced service unavailability [postmortem]</title><link>https://stspg.io/p0ywjs55wbyy</link><guid isPermaLink="false">webroot:2026-07-20T13:34:07.989Z</guid><pubDate>Mon, 20 Jul 2026 13:34:07 +0000</pubDate><description>**Overview**
+
+On July 20, 2026, Incident Management was engaged to investigate two separate incidents resulting in degraded performance and functionality impacts for multiple OpenText™ Enterprise Service Management clients hosted on the Frankfurt EU18 farm. The tracking numbers for the incidents are below:
+
+Incident 1: **IM3963996** – 09:42 to 10:45 GMT
+
+Incident 2: **IM3964099** – 12:59 to 13:40 GMT
+
+**Impact**
+
+Customers experienced intermittent service degradation, resulting in delayed workflows, reduced application performance, and temporary loss of functionality.
+
+**Root Cause**
+
+The root cause analysis identified two primary contributing factors:
+
+* **RabbitMQ Metadata Store Instability**: An instability within the RabbitMQ Metadata store caused inconsistencies in queue metadata, res</description></item><item><title>Frankfurt EU18 may have experienced degradation issues with SLT calculation [postmortem]</title><link>https://stspg.io/fck9t09r0h6q</link><guid isPermaLink="false">webroot:2026-07-20T10:43:14.651Z</guid><pubDate>Mon, 20 Jul 2026 10:43:14 +0000</pubDate><description>**Overview**
+
+On July 20, 2026, Incident Management was engaged to investigate two separate incidents resulting in degraded performance and functionality impacts for multiple OpenText™ Enterprise Service Management clients hosted on the Frankfurt EU18 farm. The tracking numbers for the incidents are below:
+
+Incident 1: **IM3963996** – 09:42 to 10:45 GMT
+
+Incident 2: **IM3964099** – 12:59 to 13:40 GMT
+
+**Impact**
+
+Customers experienced intermittent service degradation, resulting in delayed workflows, reduced application performance, and temporary loss of functionality.
+
+**Root Cause**
+
+The root cause analysis identified two primary contributing factors:
+
+* **RabbitMQ Metadata Store Instability**: An instability within the RabbitMQ Metadata store caused inconsistencies in queue metadata, res</description></item><item><title>Zix - Hosted Exchange - Mailboxes unable to connect - OWA/Outlook [resolved]</title><link>https://stspg.io/yhl4d62vdp91</link><guid isPermaLink="false">webroot:2026-07-14T15:25:07.821Z</guid><pubDate>Tue, 14 Jul 2026 15:25:07 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

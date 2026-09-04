@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Keeper incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/keeper/</link><description>Incidents from Keeper's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>EU KeeperPAM router and gateway connections [postmortem]</title><link>https://stspg.io/sfd3sgm5mpbh</link><guid isPermaLink="false">keeper:2026-07-30T23:00:00.000-07:00</guid><pubDate>Fri, 31 Jul 2026 06:00:00 +0000</pubDate><description># Post-Incident Report
+
+**July 31, 2026**
+
+## Summary
+
+On July 30, 2026 at 11:33 PM CT, the KeeperPAM connection routing service in the EU region started throwing errors. The Router/Gateway errors lasted approximately 12 hours and 45 minutes, with full service restored at approximately 12:18 PM CT on July 31. During this window, the main Keeper EU platform \(vault access, authentication, and all other Keeper services\) remained fully operational throughout.
+
+## What Happened
+
+On July 22, a routine deployment to our connection routing service \(“Keeper Router”\) included an updated dependency that changed how the service retrieves its startup configuration. A misconfiguration in the endpoint caused EU region to look for a FIPS endpoints, which are not available. As a result, when service co</description></item><item><title>Resolved: Keeper Gateway and KSM API errors [resolved]</title><link>https://stspg.io/4z131lx31smt</link><guid isPermaLink="false">keeper:2026-07-08T11:51:48.000-07:00</guid><pubDate>Wed, 08 Jul 2026 18:51:48 +0000</pubDate><description>API errors have been resolved. The Keeper Gateway and KSM client version is no longer returning an error.</description></item><item><title>GovCloud region maintenance [resolved]</title><link>https://stspg.io/00z3qcqm8j47</link><guid isPermaLink="false">keeper:2026-06-26T15:43:05.888-07:00</guid><pubDate>Fri, 26 Jun 2026 22:43:05 +0000</pubDate><description>The issue is resolved.</description></item><item><title>Direct record sharing enforcement issue [resolved]</title><link>https://stspg.io/9fn1hl2hblcd</link><guid isPermaLink="false">keeper:2026-06-19T08:05:50.000-07:00</guid><pubDate>Fri, 19 Jun 2026 15:05:50 +0000</pubDate><description>The issue was resolved at 12:30PM PST.</description></item><item><title>API errors during maintenance operation [resolved]</title><link>https://stspg.io/gv00jgz9gls4</link><guid isPermaLink="false">keeper:2026-03-30T20:00:00.000-07:00</guid><pubDate>Tue, 31 Mar 2026 03:00:00 +0000</pubDate><description>On March 30 at 8:00 PM PST, Keeper performed a scheduled minor upgrade to our multi-region AWS RDS clusters as part of routine maintenance. The upgrade itself completed in approximately 3 minutes, followed by a standard application restart process that took about 15 minutes. While this process is typically non-disruptive, recent changes to service health checks caused unexpected customer impact during the restart window.
+
+This maintenance was not communicated in advance due to an internal miscommunication and the expectation of no impact. We apologize for the disruption and are taking steps to ensure all future maintenance—regardless of expected impact—is communicated ahead of time, as well as reviewing our health check configurations to prevent similar issues.</description></item><item><title>Resolved: KeeperPAM Connection Errors in US Data Center [postmortem]</title><link>https://stspg.io/7pcmbl7mcjs5</link><guid isPermaLink="false">keeper:2026-03-23T10:07:28.854-07:00</guid><pubDate>Mon, 23 Mar 2026 17:07:28 +0000</pubDate><description>At 9:05 AM PST, alerts were triggered for issues affecting KeeperPAM connections managed through Keeper’s ECS deployments in the US-EAST region. There were no recent changes to the application or environment.
+
+Investigation identified a low-level concurrency bug in the Keeper EPM service that caused request failures under high simultaneous load. These failures led to instability in the ECS services supporting KeeperPAM connections.
+
+As a temporary mitigation, we blocked the error condition, restoring KeeperPAM connectivity by approximately 1:00 PM PST.
+
+The engineering team then developed and deployed an updated Keeper Router version to address the underlying issue and prevent EPM agents from triggering server errors. The fix was fully validated by 3:00 PM PST, at which point all KeeperPAM</description></item><item><title>Resolved: KeeperPAM Connection Errors in US Data Center [postmortem]</title><link>https://stspg.io/xmv5k609bq2r</link><guid isPermaLink="false">keeper:2026-03-16T11:25:39.762-07:00</guid><pubDate>Mon, 16 Mar 2026 18:25:39 +0000</pubDate><description>At 11:08 AM PST, DevOps and customers reported sporadic error messages occurring after login for KeeperPAM customers with connections and tunnels enabled. While vault login itself was not affected, the errors were triggered asynchronously after login due to a communication issue with the KeeperPAM router endpoint.
+
+Further investigation determined that a &quot;scheduler&quot; database within the AWS RDS environment - used for certain PAM scheduling operations - was encountering an unexpected error. The operations team resolved the underlying database issue and restarted the affected services.
+
+This scheduler service was inadvertently impacting connection establishment. To prevent similar issues in the future, we will be implementing software changes to ensure that scheduling-related errors cannot af</description></item><item><title>US GovCloud Region - Login Errors Resolved [postmortem]</title><link>https://stspg.io/ppmr21yzdrkv</link><guid isPermaLink="false">keeper:2026-02-18T21:30:15.665-08:00</guid><pubDate>Thu, 19 Feb 2026 05:30:15 +0000</pubDate><description>Maintenance in the GovCloud region was scheduled to begin at 8:00 PM PST with a planned duration of 30 minutes.
+
+During the maintenance window, certain services required additional reconfiguration beyond the original scope. Core services were restored within the planned 30-minute window. However, due to the extended reconfiguration activities, some users experienced API errors during login for approximately 15 minutes following service restoration.</description></item><item><title>EU data center login errors - Resolved [postmortem]</title><link>https://stspg.io/s03qflw92x5v</link><guid isPermaLink="false">keeper:2025-12-02T14:48:46.000-08:00</guid><pubDate>Tue, 02 Dec 2025 22:48:46 +0000</pubDate><description>On December 2, our **EU region** experienced an unexpected outage during planned infrastructure updates. The issue began at **1:24 PM PT** and service was fully restored by **4:10 PM PT**.
+
+**What Happened**  
+During an update to our server configuration, a region-specific configuration error caused the EU environment to begin throwing API errors. Although the underlying issue was identified quickly, each corrective change required a full autoscaling group rollout \(up to 30 minutes per cycle\) which extended the total recovery time.
+
+**Resolution**  
+Our engineering team implemented the necessary fixes and restored service. We have also updated our infrastructure-as-code to ensure this issue cannot recur in future deployments.
+
+We apologize for the disruption and appreciate your patience </description></item><item><title>AWS outage affecting KeeperPAM connections and scheduled rotations [resolved]</title><link>https://stspg.io/09y8zn8d18l7</link><guid isPermaLink="false">keeper:2025-10-20T10:25:40.746-07:00</guid><pubDate>Mon, 20 Oct 2025 17:25:40 +0000</pubDate><description>Clearing this alert as most AWS services are restored.</description></item><item><title>Email delivery in US region due to AWS US-EAST outage [resolved]</title><link>https://stspg.io/wylsd3hwpx38</link><guid isPermaLink="false">keeper:2025-10-20T02:20:49.722-07:00</guid><pubDate>Mon, 20 Oct 2025 09:20:49 +0000</pubDate><description>All Keeper email delivery services in US-EAST-1 were restored around 4AM PST.</description></item><item><title>EU Region login API errors [postmortem]</title><link>https://stspg.io/p6vlghlxh5vy</link><guid isPermaLink="false">keeper:2025-09-10T08:42:41.658-07:00</guid><pubDate>Wed, 10 Sep 2025 15:42:41 +0000</pubDate><description>On **September 10 at 8:42 AM PDT**, our monitoring detected elevated errors with the **Auth API in the EU region**. The issue was identified promptly and fully resolved by **8:49 AM PDT**. Total impact duration was approximately **7 minutes**.
+
+### Impact
+
+* **Region affected:** EU
+* **Service affected:** Authentication API
+* **Customer impact:** Customers in the EU experienced failed authentication attempts during the incident window.
+
+### Timeline \(PDT\)
+
+* **08:42** – Incident detected. Elevated Auth API errors in the EU region reported.
+* **08:43** – Engineering and DevOps teams engaged.
+* **08:46** – Root cause isolated to a Terraform-related configuration change involving a VPC endpoint.
+* **08:49** – Configuration change rolled back; Auth API errors resolved.
+
+### Root Cause
+
+The o</description></item><item><title>Resolved: Vault login API errors [resolved]</title><link>https://stspg.io/3xx2lxq4wkvm</link><guid isPermaLink="false">keeper:2025-08-21T10:36:36.285-07:00</guid><pubDate>Thu, 21 Aug 2025 17:36:36 +0000</pubDate><description>Resolved - At 9:49 AM PST, we experienced login API request failures due to errors on an RDS database in the US region. The database failover completed successfully, and all systems were fully operational by 10:00 AM PST.</description></item></channel></rss>

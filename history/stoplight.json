@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"3c6mbl2nf9ly": {
+"body": "We performed service restarts as part of the mitigation process, and all services are currently operating normally. Monitoring remains in place to ensure continued stability.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-25T12:11:14.000-05:00",
+"resolved_inferred": false,
+"started_at": "2026-05-25T11:51:45.310-05:00",
+"state": "resolved",
+"title": "Stoplight Outage",
+"updated_at": "2026-05-25T12:19:18.963-05:00",
+"url": "https://stspg.io/0tx6tqcg1fb6"
+},
+"5jyy7mj6n3s6": {
+"body": "The stoplight.io website is available again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-05T03:20:03.066-06:00",
+"resolved_inferred": false,
+"started_at": "2025-12-05T03:15:11.000-06:00",
+"state": "resolved",
+"title": "stoplight.io Website is unavailable",
+"updated_at": "2025-12-05T03:20:03.083-06:00",
+"url": "https://stspg.io/8dfdcrjyy5hd"
+},
+"6fnkrjynrrrf": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-17T04:56:58.815-06:00",
+"resolved_inferred": false,
+"started_at": "2025-11-17T03:45:32.665-06:00",
+"state": "resolved",
+"title": "Stoplight.io website unavailable",
+"updated_at": "2025-11-17T04:56:58.832-06:00",
+"url": "https://stspg.io/tt12dkjwv0f7"
+},
+"ldpsz8c5mz0j": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T10:54:09.704-06:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T06:11:23.582-06:00",
+"state": "resolved",
+"title": "Stoplight.io website unavailable",
+"updated_at": "2025-11-18T10:54:09.729-06:00",
+"url": "https://stspg.io/0gg8619n0t1m"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "stoplight",
+"status_url": "http://status.stoplight.io",
+"vendor": "StopLight"
+}

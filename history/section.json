@@ -1,0 +1,37 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"q20pl717xx47": {
+"body": "The incident has been resolved. Our upstream partner has also officially concluded their investigation and closed the underlying incident. We have verified that all services are operating at expected performance levels and have now concluded our monitoring period. We apologize for the disruption and appreciate your patience while we worked toward this resolution.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-20T23:51:22.000Z",
+"resolved_inferred": false,
+"started_at": "2026-02-20T18:45:33.000Z",
+"state": "resolved",
+"title": "Connectivity issues with Section Anycast network",
+"updated_at": "2026-02-20T23:58:33.672Z",
+"url": "https://stspg.io/lzvx7rhvxp99"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "section",
+"status_url": "https://status.section.io",
+"vendor": "Section"
+}

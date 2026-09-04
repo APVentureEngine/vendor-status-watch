@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>SnapLogic incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/snaplogic/</link><description>Incidents from SnapLogic's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Control Plane Background Maintenance - No service interruption anticipated [maintenance]</title><link>https://stspg.io/dcs5jjxwx83h</link><guid isPermaLink="false">snaplogic:2026-08-13T01:00:00.000Z</guid><pubDate>Thu, 13 Aug 2026 01:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Control Plane Background Maintenance - No service interruption anticipated [maintenance]</title><link>https://stspg.io/7k8y8gr3kq9x</link><guid isPermaLink="false">snaplogic:2026-08-13T01:00:00.000Z</guid><pubDate>Thu, 13 Aug 2026 01:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Few customers intermittently facing UI login issue [resolved]</title><link>https://stspg.io/ql0zng0xm2c6</link><guid isPermaLink="false">snaplogic:2026-07-24T12:00:02.000Z</guid><pubDate>Fri, 24 Jul 2026 12:00:02 +0000</pubDate><description>Resolution
+
+Status: Resolved
+
+End Time: 4:15 AM PST
+
+No login issues observed. 
+
+Monitoring confirms stable operation across the affected scope. 
+
+Customers requiring operational review may coordinate directly with support.</description></item><item><title>SnapLogic Platform pipeline preparation, affecting a subset of our customers [resolved]</title><link>https://stspg.io/pl17ht5wdc6k</link><guid isPermaLink="false">snaplogic:2026-04-17T17:02:33.000Z</guid><pubDate>Fri, 17 Apr 2026 17:02:33 +0000</pubDate><description>Resolved
+Status: Resolved
+End Time: 11:30 AM PST
+
+Performance has returned to expected baseline levels.Monitoring confirms stable operation across the affected scope. 
+
+We will maintain elevated observation as a precautionary measure.
+
+Customers requiring operational review may coordinate directly with support.</description></item><item><title>SnapLogic Platform pipeline preparation, affecting a subset of our customers [resolved]</title><link>https://stspg.io/l39y8qr6y0kt</link><guid isPermaLink="false">snaplogic:2026-04-15T12:09:10.000Z</guid><pubDate>Wed, 15 Apr 2026 12:09:10 +0000</pubDate><description>Status: Resolved
+End Time: 6:36 AM PST
+
+Performance has returned to expected baseline levels.Monitoring confirms stable operation across the affected scope. 
+
+We will maintain elevated observation as a precautionary measure.
+
+Customers requiring operational review may coordinate directly with support.</description></item><item><title>SnapLogic Platform Latency issue [resolved]</title><link>https://stspg.io/j1lzt9kzyjsw</link><guid isPermaLink="false">snaplogic:2026-03-02T14:21:05.705Z</guid><pubDate>Mon, 02 Mar 2026 14:21:05 +0000</pubDate><description>Status: Resolved
+
+End Time : March 12th 2026  5:00PM PST
+
+The issue impacting production workloads in US region has been fully resolved. As of March 5th at 9:05 PM PST, there have been no further disruptions after corrective actions were performed on the Control Plane.
+
+All services are operating within normal performance thresholds, and validation confirms stable operation.
+
+We recognize the operational dependency our customers place on this platform and appreciate your partnership during remediation.</description></item><item><title>SnapLogic Platform Latency issue [resolved]</title><link>https://stspg.io/17wzqv9q44bj</link><guid isPermaLink="false">snaplogic:2026-02-25T22:24:31.000Z</guid><pubDate>Wed, 25 Feb 2026 22:24:31 +0000</pubDate><description>Resolution
+
+Status: Resolved
+
+End Time: 4:13 PM PST
+
+Performance has returned to expected baseline levels.
+Monitoring confirms stable operation across the affected scope. 
+
+We will maintain elevated observation as a precautionary measure.
+
+Customers requiring operational review may coordinate directly with support.</description></item><item><title>SnapLogic Platform Issues [resolved]</title><link>https://stspg.io/jdytw5p3kr9h</link><guid isPermaLink="false">snaplogic:2026-02-24T08:17:39.619Z</guid><pubDate>Tue, 24 Feb 2026 08:17:39 +0000</pubDate><description>We have fully resolved the issue impacting production workloads in the US region. All services are now operating within normal performance thresholds.
+
+We recognize the operational dependency you place on our platform and appreciate your patience during the remediation process. 
+
+Our teams continue to monitor system health and remain available for direct coordination should you require an additional review.</description></item><item><title>Critical Production Disruption [resolved]</title><link>https://stspg.io/446x5fhh17v2</link><guid isPermaLink="false">snaplogic:2026-02-23T17:19:38.000Z</guid><pubDate>Mon, 23 Feb 2026 17:19:38 +0000</pubDate><description>Resolution
+
+Status: Resolved
+
+We have fully resolved the issue impacting production workloads in the US region. All services are now operating within normal performance thresholds.
+
+We recognize the operational dependency you place on our platform and appreciate your patience during the remediation process. 
+
+Our teams continue to monitor system health and remain available for direct coordination should you require an additional review.</description></item><item><title>Critical Production Disruption [resolved]</title><link>https://stspg.io/zrz8psmjctvc</link><guid isPermaLink="false">snaplogic:2026-02-19T23:46:53.000Z</guid><pubDate>Thu, 19 Feb 2026 23:46:53 +0000</pubDate><description>Resolution
+
+Status: Resolved
+
+We have fully resolved the issue impacting production workloads in the US region. All services are now operating within normal performance thresholds, and validation confirms stable operation.
+
+We recognize the operational dependency you place on our platform and appreciate your patience during the remediation process. We will share a detailed incident summary, including corrective and preventative measures.
+
+Our teams continue to monitor system health and remain available for direct coordination should you require an additional review.</description></item><item><title>SnapLogic Platform Latency issue [resolved]</title><link>https://stspg.io/3x36w7d9whvp</link><guid isPermaLink="false">snaplogic:2026-02-19T12:41:13.705Z</guid><pubDate>Thu, 19 Feb 2026 12:41:13 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>SnapLogic Platform Latency issue [resolved]</title><link>https://stspg.io/ch7n2xmmcrlm</link><guid isPermaLink="false">snaplogic:2026-02-02T23:56:32.401Z</guid><pubDate>Mon, 02 Feb 2026 23:56:32 +0000</pubDate><description>The latency that had been occurring on the US Control plane of the SnapLogic platform has been addressed after corrective actions were taken. As the expected levels of performance and stability have been returned to the US Control Plane, this issue is now resolved. Please contact Support team by emailing support@snaplogic.com with any questions or concerns.</description></item><item><title>Snaplogic Platform UI login issue due to cloudflare incident [resolved]</title><link>https://stspg.io/093wxg694fr3</link><guid isPermaLink="false">snaplogic:2025-11-18T12:07:33.474Z</guid><pubDate>Tue, 18 Nov 2025 12:07:33 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Our monitor is alerting us on 401 errors. Team is investigating [resolved]</title><link>https://stspg.io/023jylwq8xcj</link><guid isPermaLink="false">snaplogic:2025-09-24T21:53:18.160Z</guid><pubDate>Wed, 24 Sep 2025 21:53:18 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>SnapLogic Platform issue that is impacting pipeline preparation from ground nodes [resolved]</title><link>https://stspg.io/hdlj0874f10t</link><guid isPermaLink="false">snaplogic:2025-08-18T17:19:32.540Z</guid><pubDate>Mon, 18 Aug 2025 17:19:32 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>EMEA control plane issue -  SnapLogic pipeline initialization issues for a subset of customers [resolved]</title><link>https://stspg.io/d2vk4bs7k4d0</link><guid isPermaLink="false">snaplogic:2025-08-13T14:09:51.527Z</guid><pubDate>Wed, 13 Aug 2025 14:09:51 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

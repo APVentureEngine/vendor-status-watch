@@ -1,0 +1,11 @@
+{
+"vendor": "Deno Deploy",
+"slug": "deno-deploy",
+"platform": "instatus",
+"status_url": "https://denostatus.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

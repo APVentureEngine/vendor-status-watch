@@ -1,0 +1,23 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "degraded"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "degraded"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "HASISSUES",
+"last_error": null,
+"last_state": "degraded",
+"platform": "instatus",
+"slug": "slab",
+"status_url": "https://slabstatus.com",
+"vendor": "Slab"
+}

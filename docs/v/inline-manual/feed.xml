@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Inline Manual incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/inline-manual/</link><description>Incidents from Inline Manual's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Reviewing potential exposure to CVE-2026-66066 [resolved]</title><link>https://stspg.io/qx9qw5486w8r</link><guid isPermaLink="false">inline-manual:2026-07-31T13:27:27.911+02:00</guid><pubDate>Fri, 31 Jul 2026 11:27:27 +0000</pubDate><description>Resolved - no evidence of exploitation
+
+We have completed our investigation into the potential impact of CVE-2026-66066.
+
+We took a deliberately thorough approach and went beyond our standard review process to ensure we had examined every relevant source of information. This included:
+
+- Patching the affected systems immediately
+- Reviewing application, infrastructure, and access logs covering the relevant period
+- Searching for known indicators and patterns associated with exploitation
+- Investigating unusual requests and activity in greater detail
+- Rotating all potentially affected secret keys as a precaution
+- Continuing enhanced monitoring after the initial review was completed
+- Verifying that the affected component could not provide access to customer data
+
+After completing this wor</description></item></channel></rss>

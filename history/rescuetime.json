@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"qpx4khzr8fn6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-27T10:07:21.159-04:00",
+"resolved_inferred": false,
+"started_at": "2026-04-23T10:39:32.216-04:00",
+"state": "resolved",
+"title": "Degraded log processing",
+"updated_at": "2026-04-27T10:07:21.187-04:00",
+"url": "https://stspg.io/fdb8wg5vwzg0"
+},
+"zm6838xc2rx2": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-29T13:09:43.635-04:00",
+"resolved_inferred": false,
+"started_at": "2026-05-29T10:52:32.531-04:00",
+"state": "resolved",
+"title": "Disruption in user data processing",
+"updated_at": "2026-05-29T13:09:43.649-04:00",
+"url": "https://stspg.io/wcfqmtwjnwxk"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "rescuetime",
+"status_url": "https://status.rescuetime.com",
+"vendor": "RescueTime"
+}

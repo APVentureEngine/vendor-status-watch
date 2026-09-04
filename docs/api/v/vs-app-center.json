@@ -1,0 +1,25 @@
+{
+"vendor": "VS App Center",
+"slug": "vs-app-center",
+"platform": "statuspage",
+"status_url": "https://status.appcenter.ms",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T09:03:44.415Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T17:32:02.669Z",
+"state": "resolved",
+"title": "App Center is experiencing issues",
+"updated_at": "2025-10-30T09:03:44.783Z",
+"url": "https://stspg.io/0fx2sfzk52nr"
+}
+]
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Jira Work Management incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/jira-work-management/</link><description>Incidents from Jira Work Management's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Jira - Work Item transition failures [resolved]</title><link>https://stspg.io/l0d6pngd9rrt</link><guid isPermaLink="false">jira-work-management:2026-09-01T09:12:36.805Z</guid><pubDate>Tue, 01 Sep 2026 09:12:36 +0000</pubDate><description>On 1st Sept 2026, between 04:22 UTC to 10:59 UTC, some Jira users may have experienced service disruptions. 
+
+The issue has now been resolved and the service is operating normally for all the customers.</description></item><item><title>Degraded performance of JIRA [resolved]</title><link>https://stspg.io/1sndnjmt785j</link><guid isPermaLink="false">jira-work-management:2026-08-07T01:26:48.663Z</guid><pubDate>Fri, 07 Aug 2026 01:26:48 +0000</pubDate><description>On August 7, 2026, JIRA, JWM, and JSM users may have experienced performance degradation when viewing issues and boards. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>For Jira-software viewIssues and viewBoard are degraded [postmortem]</title><link>https://stspg.io/zkfjwt0k03lr</link><guid isPermaLink="false">jira-work-management:2026-06-01T08:06:30.785Z</guid><pubDate>Mon, 01 Jun 2026 08:06:30 +0000</pubDate><description>**SUMMARY**
+
+  
+
+On June 01, 2026, between 06:54 and 08:28 UTC, Atlassian customers using Jira, Jira Service Management, and Jira Work Management were unable to view issues, boards, and backlogs, and experienced errors when performing transitions, adding comments, and navigating the product. The event was triggered by caching infrastructure autoscaling failure. The issue only impacted customers hosted in Europe. The incident was detected within 8 minutes by our automated monitoring system and mitigated by progressively scaling the caching clusters manually. The total time to resolution was 1 hour and 34 minutes due to the progressive recovery.
+
+  
+
+**IMPACT**
+
+  
+
+The incident caused service disruption for customers hosted in the Europe region who were unable to access core experiences acr</description></item><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/dd2wp6425d3y</link><guid isPermaLink="false">jira-work-management:2026-05-14T05:11:20.113Z</guid><pubDate>Thu, 14 May 2026 05:11:20 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Multiple Atlassian services are experiencing issues [postmortem]</title><link>https://stspg.io/dpplsyqbtp8p</link><guid isPermaLink="false">jira-work-management:2026-05-08T01:31:38.250Z</guid><pubDate>Fri, 08 May 2026 01:31:38 +0000</pubDate><description>All dates and times below are in UTC unless stated otherwise.
+
+### Summary
+
+On May 8, 2026 between 00:22 and 06:08, one of our hosting providers suffered a significant incident in a specific availability zone in prod-east which led to Atlassian customers experiencing degraded performance and delays of background operations and automation execution.
+
+The incident started on May 8, 2026 at 00:22 and was detected within 4 minutes by automated monitoring systems. Our teams worked to restore core access by 06:08. Final cleanup of backlogged processes and minor issues progressed in stages from there was completed iteratively by 19:15.
+
+### **IMPACT**
+
+The primary infrastructure affected in this incident was the event processing pipeline in the prod-east region, which distributes events between A</description></item><item><title>Jira users unable to log time while on business board [resolved]</title><link>https://stspg.io/bgbskn8ns4jl</link><guid isPermaLink="false">jira-work-management:2026-05-06T03:18:26.388Z</guid><pubDate>Wed, 06 May 2026 03:18:26 +0000</pubDate><description>The issue causing Jira users inability to log time on business board has been resolved. A fix was deployed to address the problem and the service is operating normally for all affected customers.</description></item><item><title>The Work Item view experience of Jira is restored [postmortem]</title><link>https://stspg.io/m8y33t0z5tzq</link><guid isPermaLink="false">jira-work-management:2026-05-02T00:55:47.610Z</guid><pubDate>Sat, 02 May 2026 00:55:47 +0000</pubDate><description>### SUMMARY
+
+###   
+
+Between May 1, 2026 at 23:34 UTC and May 2, 2026 at 02:53 UTC Atlassian customers using Jira and Jira Service Management (JSM) across all Cloud tenants received an error page when attempting to open a work item due to a schema incompatibility, and editing work item fields was degraded for both products. Navigating to and interacting with boards were degraded for Jira specifically. On Jira mobile, users were unable to view work items and work item search was degraded. This was caused by a deployment of a schema configuration change that had only been validated against some production environments.
+
+  
+
+The issue also affected Atlassian&#x27;s customer support operations and temporarily impacted Atlassian’s ability to respond to incoming support requests. Customers were able </description></item><item><title>Disrupted Rovo availability for Automation rules [resolved]</title><link>https://stspg.io/1q440l8q743p</link><guid isPermaLink="false">jira-work-management:2026-04-14T12:12:58.255Z</guid><pubDate>Tue, 14 Apr 2026 12:12:58 +0000</pubDate><description>On April 14, 2026, affected users may have experienced some service disruption with automation rules that use Rovo agents. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>Users experiencing issues with login across Atlassian products [postmortem]</title><link>https://stspg.io/ys9yfmqzr7c4</link><guid isPermaLink="false">jira-work-management:2026-04-13T07:29:45.520Z</guid><pubDate>Mon, 13 Apr 2026 07:29:45 +0000</pubDate><description>### Summary
+
+On April 13, 2026, between 05:49 and 06:29 UTC, customers experienced failures when attempting to log in, sign up, reset passwords, and complete multi-factor authentication flows across Atlassian cloud products. Approximately 90% of authentication requests failed during the peak impact window, affecting users in the US East and EU regions. The incident was mitigated within 40 minutes through manual intervention, and full service was restored by 06:29 UTC.
+
+### **IMPACT**
+
+* **Duration**: ~40 minutes \(05:49–06:29 UTC, April 13, 2026\)
+* **Affected regions**: US East and EU \(authentication infrastructure serves EU traffic from US East, with traffic primarily from EU at this time of day\).
+* **Affected products**: All Atlassian cloud products requiring authentication, including</description></item><item><title>Automation events delayed for some customers in the APAC region [resolved]</title><link>https://stspg.io/lms5h6xqxtkg</link><guid isPermaLink="false">jira-work-management:2026-03-10T00:06:29.000Z</guid><pubDate>Tue, 10 Mar 2026 00:06:29 +0000</pubDate><description>On 9 March UTC, Automation users in the APAC region may have experienced performance degradation within Jira, Jira Product Discovery, Jira Service Management, Jira Work Management, Confluence. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>Outbound Email, Mobile Push Notifications, and Support Ticket Delivery Impacting All Cloud Products [postmortem]</title><link>https://stspg.io/5w3x2w72gv3w</link><guid isPermaLink="false">jira-work-management:2025-12-27T04:42:32.892Z</guid><pubDate>Sat, 27 Dec 2025 04:42:32 +0000</pubDate><description>### Summary
+
+On **December 27, 2025**, between **02:48 UTC and 05:20 UTC**, some Atlassian cloud customers experienced failures in sending and receiving emails and mobile notifications. Core Jira and Confluence functionality remained available.
+
+The issue was triggered when **TLS certificates used by Atlassian’s monitoring infrastructure expired**, causing parts of our metrics pipeline to stop accepting traffic. Services responsible for email and mobile notifications had a critical path dependency on monitoring path leading to service disruptions.
+
+All impacted services were fully restored by **05:20 UTC**, around **2.5 hours** after customer impact began.
+
+### IMPACT
+
+During the impact window, customers experienced:
+
+* **Outbound product email failures** \(notifications and other product </description></item><item><title>Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo [resolved]</title><link>https://stspg.io/6mr1xtcyt6n2</link><guid isPermaLink="false">jira-work-management:2025-12-15T16:26:38.689Z</guid><pubDate>Mon, 15 Dec 2025 16:26:38 +0000</pubDate><description>On December 15th, 2025, Admin Hub, Atlassian Analytics, Confluence Cloud, Ecosystem, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo users in the prod-us-east region may have experienced performance degradations and errors on the web page and mobile apps. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>Degraded Performance for Some Jira Users [resolved]</title><link>https://stspg.io/sxvkv1d8nw5s</link><guid isPermaLink="false">jira-work-management:2025-12-01T17:24:45.034Z</guid><pubDate>Mon, 01 Dec 2025 17:24:45 +0000</pubDate><description>Impact
+
+Jira Software users experienced degraded performance affecting their ability to view issues and boards. Users may have encountered an error or slowdown during this time.
+
+Current Status
+
+The situation is currently mitigated due to actions taken on the affected systems, leading to a stabilization of services. 
+
+Next Steps
+
+The team is actively monitoring the systems.</description></item><item><title>Some users are unable to send emails from Jira [resolved]</title><link>https://stspg.io/4nghwhzdgl4s</link><guid isPermaLink="false">jira-work-management:2025-11-15T16:29:42.996Z</guid><pubDate>Sat, 15 Nov 2025 16:29:42 +0000</pubDate><description>The issue has been resolved. All systems are healthy and fully operational, with no further problems observed in sending emails from Jira.</description></item><item><title>Jira Platform Incident - viewIssue and createIssue Service Disruption [resolved]</title><link>https://stspg.io/7mbbwffjq45p</link><guid isPermaLink="false">jira-work-management:2025-10-27T16:33:50.764Z</guid><pubDate>Mon, 27 Oct 2025 16:33:50 +0000</pubDate><description>Between 15:09 UTC to 17:16 UTC, some customers experienced partial outage for Jira Work Management, Jira Service Management, and Jira viewIssue, createIssue and editIssue caused by a faulty code rollout.  We have deployed a fix to mitigate the issue and have verified that the services have recovered.  The root cause is still being investigated and will be provided in the post incident review. The conditions that cause the errors are being addressed and we&#x27;re actively working on a permanent fix. The issue has been resolved and the services are operating normally.</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/pw7bm5jwf7b6</link><guid isPermaLink="false">jira-work-management:2025-10-20T07:56:12.526Z</guid><pubDate>Mon, 20 Oct 2025 07:56:12 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item><item><title>Unable to perform UI Operations [resolved]</title><link>https://stspg.io/31j420tkykfr</link><guid isPermaLink="false">jira-work-management:2025-10-15T13:43:56.095Z</guid><pubDate>Wed, 15 Oct 2025 13:43:56 +0000</pubDate><description>Between 14:00 UTC to 16:00 UTC, we experienced automation rule functionality degradation for Confluence, Jira Work Management, Jira Service Management, and Jira. 
+
+Impact
+
+Some customers using Jira, Confluence, and Jira Service Management were not able to create or update Automation rules, and some Automation rules which triggered webhooks might have been throttled and require re-running. Approximately 50 percent of Automation API calls were affected in the us-east-1 region with customers receiving 429 status codes.
+
+Current Status
+
+The incident has been mitigated by increasing the API Gateway rate limit service quota and disabling the internal service that was causing high traffic volume. 
+
+Next Steps
+
+We are conducting a root cause analysis of the internal service. A post incident review</description></item><item><title>Degraded performance to multiple Atlassian experiences [postmortem]</title><link>https://stspg.io/ks66j52hl5n1</link><guid isPermaLink="false">jira-work-management:2025-09-22T05:38:57.880Z</guid><pubDate>Mon, 22 Sep 2025 05:38:57 +0000</pubDate><description>### **SUMMARY**
+
+On September 22, 2025, between 04:38 and 04:48 UTC, Atlassian customers experienced connection errors preventing access to their [atlassian.net](http://atlassian.net/) sites. Some customers observed intermittent errors as services gradually recovered until 06:17 UTC.
+
+The event was triggered by a faulty configuration change to our Content Delivery Network \(CDN\). The change included an invalid hostname which prevented customers from successfully connecting to [atlassian.net](http://atlassian.net/) domains.
+
+The incident was detected within 1 minute by our monitoring systems and mitigated by rolling back the change, which put Atlassian systems into a known good state. The acute impact was resolved in 10 minutes and all lingering errors resolved in 1 hour 38 minutes.
+
+### *</description></item><item><title>Degraded performance in Confluence and Jira for Microsoft Edge users [resolved]</title><link>https://stspg.io/y3lhks0rbpkn</link><guid isPermaLink="false">jira-work-management:2025-09-09T10:23:55.773Z</guid><pubDate>Tue, 09 Sep 2025 10:23:55 +0000</pubDate><description>An update has been released by Microsoft to resolve this issue for users of the Edge browser. To verify that you are running the required version of Edge, you can navigate to edge://components/ in the address bar, click the &#x27;Check for update&#x27; button for the &#x27;Trust Protections List&#x27;, ensuring that you are on version 1.0.0.31 or higher to ensure you are running the version that contains the fixed release.
+All Edge browsers should otherwise receive this update within 10 hours without user intervention.</description></item><item><title>Custom Fields loses values after submission on Global Issue Create Screen [resolved]</title><link>https://stspg.io/2xrkwqbhnl52</link><guid isPermaLink="false">jira-work-management:2025-08-07T22:25:09.970Z</guid><pubDate>Thu, 07 Aug 2025 22:25:09 +0000</pubDate><description>Between 02:00 am UTC and 11:57 am UTC, we experienced issues with custom fields created by the Forge app for Jira Work Management and Jira. The issue has been resolved, and the service is now operating normally.</description></item></channel></rss>

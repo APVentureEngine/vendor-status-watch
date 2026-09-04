@@ -1,0 +1,19 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:16:22Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "betterstack",
+"slug": "hugging-face",
+"status_url": "https://status.huggingface.co",
+"vendor": "Hugging Face"
+}

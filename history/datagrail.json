@@ -1,0 +1,63 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"2w5sknlxzpth": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-22T15:31:11.942-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-22T14:42:45.400-07:00",
+"state": "resolved",
+"title": "Platform-wide service disruption",
+"updated_at": "2026-08-22T15:31:11.955-07:00",
+"url": "https://stspg.io/p91zsxwz6z51"
+},
+"8c9tjnpjtnsw": {
+"body": "This degradation has been resolved. All Privacy Request intake forms are loading at normal speed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-08T14:15:17.000-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-08T12:20:01.047-08:00",
+"state": "resolved",
+"title": "Privacy Request Intake Forms Experiencing Slow Load Times",
+"updated_at": "2026-01-09T07:42:35.150-08:00",
+"url": "https://stspg.io/hh2t9z4hsrqz"
+},
+"f7xz0xjycnlm": {
+"body": "This issue has been resolved!",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-26T13:39:13.252-07:00",
+"resolved_inferred": false,
+"started_at": "2025-08-26T09:58:16.406-07:00",
+"state": "resolved",
+"title": "Direct Contact Form Submission Error",
+"updated_at": "2025-08-26T13:39:13.266-07:00",
+"url": "https://stspg.io/kcl861qbjbxv"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "datagrail",
+"status_url": "https://status.datagrail.io",
+"vendor": "DataGrail"
+}

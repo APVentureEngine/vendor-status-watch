@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Workspot incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/workspot/</link><description>Incidents from Workspot's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Azure East US Capacity Constraints Impacting Virtual Desktop Availability [resolved]</title><link>https://stspg.io/n4cbgp4d0gcr</link><guid isPermaLink="false">workspot:2026-05-21T16:05:26.000Z</guid><pubDate>Thu, 21 May 2026 16:05:26 +0000</pubDate><description>Update from Microsoft: 
+
+Current Status: Resolved
+
+What went wrong and why?
+Due to an increase in demand for compute resources in a particular zone in the region, there were capacity constraints on available compute infrastructure. This in turn resulted in service management operation and allocation failures for VM resources.
+
+How did we respond?
+We’ve load balanced the capacity demands and restored the capacity buffers to a healthy state. With the congestion resolved, services should now function as usual.
+
+What happens next?
+•	Ensuring capacity for our customers is a top priority for Microsoft. We sincerely apologize for any impact this may have caused, but be assured, we are continuously improving tools around monitoring usage, forecasting stock out, maintaining healthy buffers and impr</description></item><item><title>Intermittent Restarts of Control Dynos [resolved]</title><link>https://stspg.io/83zmh55s13tv</link><guid isPermaLink="false">workspot:2026-05-05T12:08:30.488Z</guid><pubDate>Tue, 05 May 2026 12:08:30 +0000</pubDate><description>Workspot investigated the restart of the Control Dynos reported by our platform provider. The system is stable and we are closing the incident on status, but continuing to actively monitor and investigate the root cause.  
+We will share the RCA and updates as soon as they become available. Thank you.</description></item><item><title>VM Connectivity Issues – Azure East US [resolved]</title><link>https://stspg.io/c2k0zn43l7yg</link><guid isPermaLink="false">workspot:2026-04-24T13:31:39.174Z</guid><pubDate>Fri, 24 Apr 2026 13:31:39 +0000</pubDate><description>Update:
+ 
+We have received the Preliminary Post Incident Review(PIR) from Microsoft for the Azure East US control plane issue that impacted your environment on April 24.
+ 
+Here is a summary of what happened and why:
+ 
+STATUS:  RCA
+ 
+COMMUNICATION:
+ 
+This is our Preliminary PIR to share what we know so far. After our internal retrospective is completed (generally within 14 days) we will publish a Final PIR with additional details.
+ 
+What happened?
+ 
+Between 11:30 UTC on 24 April and 00:15 UTC on 25 April 2026, customers may have experienced failures or delays when attempting to provision, scale, or update resources in East US. Beyond this, a smaller subset of impacted customers may have experienced intermittent connectivity issues on existing workloads (including Virtual Machines and Azure </description></item><item><title>Workspot Control Reported Five Minutes Downtime [resolved]</title><link>https://stspg.io/fr45njm1g65x</link><guid isPermaLink="false">workspot:2026-03-20T18:09:24.602Z</guid><pubDate>Fri, 20 Mar 2026 18:09:24 +0000</pubDate><description>The system has been stable and functioning normally for the past 48 hours. Our internal investigation found no application-level anomalies.
+
+We are closing this incident while the root cause analysis (RCA) from our infrastructure provider is still ongoing. We will share updates as soon as they become available.
+
+Thank you for your patience.</description></item><item><title>Workspot Control Experiencing Intermittent Availability [resolved]</title><link>https://stspg.io/lyw2n6x10nty</link><guid isPermaLink="false">workspot:2026-02-02T09:38:47.985Z</guid><pubDate>Mon, 02 Feb 2026 09:38:47 +0000</pubDate><description>The service has been fully restored after the rollback was performed. We appreciate your patience. 
+
+A detailed Root Cause Analysis (RCA) will be shared once available.</description></item><item><title>Workspot Control Login Instability [resolved]</title><link>https://stspg.io/v00q4hfv7q7z</link><guid isPermaLink="false">workspot:2025-11-14T15:57:43.419Z</guid><pubDate>Fri, 14 Nov 2025 15:57:43 +0000</pubDate><description>This issue has been resolved, and customers can now log in to Workspot Control and access non-persistent VMs without any issues. The platform is stable, and normal operations have resumed. We will continue to monitor the environment to ensure stability. 
+ 
+We will share a post-incident summary once our investigation ends and relevant details are available.</description></item><item><title>AWS Operational Issues - No Impact - Workspot is closely monitoring the situation [resolved]</title><link>https://stspg.io/xvfz06l6vsmk</link><guid isPermaLink="false">workspot:2025-10-20T17:11:29.178Z</guid><pubDate>Mon, 20 Oct 2025 17:11:29 +0000</pubDate><description>This incident has been resolved, and no Workspot customers have reported experiencing the issue.
+
+Here is the summary of the AWS incident: https://aws.amazon.com/message/101925/</description></item><item><title>Users are experiencing Authentication failures while using Workspot Windows Client. [resolved]</title><link>https://stspg.io/gnc0wm5vb40f</link><guid isPermaLink="false">workspot:2025-10-15T18:58:53.445Z</guid><pubDate>Wed, 15 Oct 2025 18:58:53 +0000</pubDate><description>This issue has been resolved in accordance with the Microsoft article: https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-25h2#issue-details.
+
+The problem is addressed in the October Windows non-security preview update (KB5067036) and all subsequent updates. Microsoft recommends installing the latest Windows updates, as they include important improvements and fixes, including this resolution.
+
+Additionally, we have not received any further reports of this issue from customers who have applied the recommended Microsoft updates.</description></item><item><title>Failure in Azure East US and East US2 region [resolved]</title><link>https://stspg.io/bjjsydbyqsdb</link><guid isPermaLink="false">workspot:2025-09-10T14:43:01.297Z</guid><pubDate>Wed, 10 Sep 2025 14:43:01 +0000</pubDate><description>Microsoft has informed us that the outage in the region has been mitigated. Please, find the summary below, as per Microsoft:
+ 
+STATUS: Mitigated 9/10/2025 9:55:15 PM UTC
+
+SUMMARY OF IMPACT:
+
+What happened?
+Between 09:12 UTC and 18:50 UTC on 10 September 2025, a platform issue resulted in an impact on multiple Azure services in the East US 2 region, more specifically, two zones (Az02 and Az03). Impacted customers may have experienced error notifications when performing service management operations, such as creating, deleting, updating, scaling, starting, or stopping, for resources hosted in this region. The primary impacted service was Virtual Machines or Virtual Machine Scale Sets, but this would have resulted in issues for services dependent on such Compute resources, such as Azure Data</description></item></channel></rss>

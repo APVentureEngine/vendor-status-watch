@@ -1,0 +1,64 @@
+{
+"vendor": "Tresorit",
+"slug": "tresorit",
+"platform": "statuspage",
+"status_url": "https://status.tresorit.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-02T11:03:12.015Z",
+"resolved_inferred": false,
+"started_at": "2026-04-01T22:00:00.000Z",
+"state": "resolved",
+"title": "eSign issues",
+"updated_at": "2026-04-02T11:03:12.028Z",
+"url": "https://stspg.io/2dmdjmmq3q9k"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-17T21:00:22.678Z",
+"resolved_inferred": false,
+"started_at": "2025-12-17T19:45:50.847Z",
+"state": "resolved",
+"title": "tresorit.com website is down",
+"updated_at": "2025-12-17T21:00:22.696Z",
+"url": "https://stspg.io/636p0rkzy21t"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-29T19:20:24.052Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T16:00:12.000Z",
+"state": "resolved",
+"title": "Website connectivity issues",
+"updated_at": "2025-10-29T19:20:24.073Z",
+"url": "https://stspg.io/fjqp349rd75x"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-09T16:15:01.000Z",
+"resolved_inferred": false,
+"started_at": "2025-10-09T11:34:09.390Z",
+"state": "resolved",
+"title": "Partial outage affecting the web interface and the signups",
+"updated_at": "2025-10-09T17:45:22.815Z",
+"url": "https://stspg.io/y8b7z340ct44"
+}
+]
+}

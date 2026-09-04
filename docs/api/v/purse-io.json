@@ -1,0 +1,11 @@
+{
+"vendor": "Purse.io",
+"slug": "purse-io",
+"platform": "statuspage",
+"status_url": "https://status.purse.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

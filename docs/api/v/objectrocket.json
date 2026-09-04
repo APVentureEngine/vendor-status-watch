@@ -1,0 +1,22 @@
+{
+"vendor": "ObjectRocket",
+"slug": "objectrocket",
+"platform": "status.io",
+"status_url": "http://status.objectrocket.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Hello,\r\n\r\nRackspace engineers are investigating observed intermittent connection errors with sharded clusters in the ORD Zone.\r\n\r\nThank you,\r\nRackspace DBaaS Support",
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-04-18T03:20:00.000Z",
+"state": "investigating",
+"title": "Issues Observed with MongoDB Sharding in ORD",
+"updated_at": "2026-04-18T03:20:00.000Z",
+"url": "http://status.objectrocket.com"
+}
+]
+}

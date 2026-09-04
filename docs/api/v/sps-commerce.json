@@ -1,0 +1,90 @@
+{
+"vendor": "SPS Commerce",
+"slug": "sps-commerce",
+"platform": "statuspage",
+"status_url": "https://status.spscommerce.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-18T11:15:26.802-05:00",
+"resolved_inferred": false,
+"started_at": "2026-08-18T11:08:28.142-05:00",
+"state": "resolved",
+"title": "AS2 Communications",
+"updated_at": "2026-08-18T11:15:26.823-05:00",
+"url": "https://stspg.io/p5pnlh2gm69p"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-25T07:08:45.880-05:00",
+"resolved_inferred": false,
+"started_at": "2026-07-25T07:00:32.419-05:00",
+"state": "resolved",
+"title": "Document Processing Delay",
+"updated_at": "2026-07-25T07:08:45.898-05:00",
+"url": "https://stspg.io/8h3m1s0twrl2"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-06T19:33:33.431-05:00",
+"resolved_inferred": false,
+"started_at": "2026-07-06T15:25:04.500-05:00",
+"state": "resolved",
+"title": "Document Processing Delay",
+"updated_at": "2026-07-06T19:33:33.447-05:00",
+"url": "https://stspg.io/6cj0nk3f0nnl"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-06T14:35:08.484-05:00",
+"resolved_inferred": false,
+"started_at": "2026-07-06T13:44:42.730-05:00",
+"state": "resolved",
+"title": "Document Processing Delay for Web customers",
+"updated_at": "2026-07-06T14:35:08.500-05:00",
+"url": "https://stspg.io/q4grcvl8xmvw"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-18T04:25:07.723-05:00",
+"resolved_inferred": false,
+"started_at": "2026-06-18T03:02:31.467-05:00",
+"state": "resolved",
+"title": "Document Processing Delay",
+"updated_at": "2026-06-18T04:25:07.744-05:00",
+"url": "https://stspg.io/2wc3hj4ww64j"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-10T17:06:14.175-05:00",
+"resolved_inferred": false,
+"started_at": "2026-04-10T15:37:10.218-05:00",
+"state": "resolved",
+"title": "NetSuite Integrations - Investigating",
+"updated_at": "2026-04-10T17:06:14.191-05:00",
+"url": "https://stspg.io/c2yzgpkkv2v3"
+}
+]
+}

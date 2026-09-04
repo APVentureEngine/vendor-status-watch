@@ -1,0 +1,103 @@
+{
+"vendor": "Roam",
+"slug": "roam",
+"platform": "statuspage",
+"status_url": "https://www.roamstatus.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "From 11:36 AM to 12:35 PM ET chat messages and invites were delayed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-20T11:30:00.000-04:00",
+"resolved_inferred": false,
+"started_at": "2026-07-20T11:30:00.000-04:00",
+"state": "resolved",
+"title": "Chat messages and invites delayed",
+"updated_at": "2026-07-20T13:03:30.767-04:00",
+"url": "https://stspg.io/ffn8dq97jg9x"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-14T13:41:24.993-04:00",
+"resolved_inferred": false,
+"started_at": "2026-07-14T10:54:26.155-04:00",
+"state": "resolved",
+"title": "Roam Lobby pages are slow to load and sometimes error",
+"updated_at": "2026-07-14T13:41:25.012-04:00",
+"url": "https://stspg.io/x19tm5lqff1y"
+},
+{
+"body": "All traffic has been moved to other regions.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-19T15:03:34.929-04:00",
+"resolved_inferred": false,
+"started_at": "2026-03-10T12:31:10.671-04:00",
+"state": "resolved",
+"title": "AWS incident in me-central-1 impacting some customers",
+"updated_at": "2026-03-19T15:03:34.950-04:00",
+"url": "https://stspg.io/v7g538pv7b2r"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T17:25:33.153-05:00",
+"resolved_inferred": false,
+"started_at": "2026-02-10T15:45:17.003-05:00",
+"state": "resolved",
+"title": "Network Error Connecting to Roam",
+"updated_at": "2026-02-10T17:25:33.173-05:00",
+"url": "https://stspg.io/nck2rzvsnfhn"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-08T13:20:14.794-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-08T11:53:44.000-04:00",
+"state": "resolved",
+"title": "Roam Lobbies Are Unavailable",
+"updated_at": "2025-10-08T13:20:14.810-04:00",
+"url": "https://stspg.io/gxt4vyzx70y5"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-26T08:03:31.113-04:00",
+"resolved_inferred": false,
+"started_at": "2025-08-26T03:00:55.000-04:00",
+"state": "resolved",
+"title": "Roam Chat Message Delivery Impaired",
+"updated_at": "2025-08-26T08:04:42.033-04:00",
+"url": "https://stspg.io/j9blqp62n6nv"
+},
+{
+"body": "We have applied a mitigation. Once Argentina-based users restart their Roam application, this issue should be resolved. We identified that some other Argentina-based users may have been affected by this issue.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-12T13:15:23.134-04:00",
+"resolved_inferred": false,
+"started_at": "2025-08-12T10:49:44.240-04:00",
+"state": "resolved",
+"title": "Connectivity issues with Telecom Argentina S.A.",
+"updated_at": "2025-08-12T13:15:23.152-04:00",
+"url": "https://stspg.io/mq0qvyj396w9"
+}
+]
+}

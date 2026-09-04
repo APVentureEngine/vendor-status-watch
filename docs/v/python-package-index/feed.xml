@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Python Package Index incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/python-package-index/</link><description>Incidents from Python Package Index's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Python Infrastructure Outage [postmortem]</title><link>https://stspg.io/7slh65j2y14b</link><guid isPermaLink="false">python-package-index:2026-02-26T20:04:21.943Z</guid><pubDate>Thu, 26 Feb 2026 20:04:21 +0000</pubDate><description>The incident has been resolved.
+
+## Incident Report: Cluster-wide service outage
+
+**Duration**: ~36 minutes \(20:04–20:40 UTC\)
+
+**Impact**: Some PSF-hosted services were unavailable, including [python.org](http://python.org), [us.pycon.org](http://us.pycon.org), PyPI stats, [bugs.python.org](http://bugs.python.org), and related services. 
+
+What was unaffected was our other cluster that manages [PyPI.org](http://PyPI.org) among other services related to PyPI.
+
+**Root Cause**: During local development of kubernetes workloads locally there was an incorrect context switch to one of our production clusters.
+
+The scale-down commands ran against the production cluster instead of the local environment, iterating through all deployments and setting them to zero replicas. which created cascading fa</description></item><item><title>API Traffic experiencing intermittent failures [resolved]</title><link>https://stspg.io/zhcdc6gwlhrs</link><guid isPermaLink="false">python-package-index:2026-02-19T22:46:46.414Z</guid><pubDate>Thu, 19 Feb 2026 22:46:46 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>PyPI Uploads failing [resolved]</title><link>https://stspg.io/x0hv9ys48d17</link><guid isPermaLink="false">python-package-index:2026-01-07T22:42:33.653Z</guid><pubDate>Wed, 07 Jan 2026 22:42:33 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Slow updates to PyPI pages/API responses [resolved]</title><link>https://stspg.io/rjh2ytldcr0k</link><guid isPermaLink="false">python-package-index:2025-11-12T15:46:54.533Z</guid><pubDate>Wed, 12 Nov 2025 15:46:54 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

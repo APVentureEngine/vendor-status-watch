@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"5lbsr99pvg5x": {
+"body": "On July 12, 2026, we experienced delays in our alerting system, resulting in an interruption to alert processing for some Loggly customers.\n\nThe issue was traced to a production scheduler service responsible for evaluating and scheduling alerts. Due to resource exhaustion on the host, the scheduler was unable to operate normally, preventing alert jobs from being process downstream.\n\nThe team restored service by increasing the capacity of the affected host, returning resource utilization to healthy levels and allowing the scheduler to resume normal operation.\n\nFollowing the remediation, alert processing has since been operating normally.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-07T13:54:25.422-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-07T13:54:25.382-07:00",
+"state": "resolved",
+"title": "Alerting Delay",
+"updated_at": "2026-08-07T13:54:25.431-07:00",
+"url": "https://stspg.io/1ry0k9y7mv9v"
+},
+"gfnsmjgl558r": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T08:19:40.191-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T04:07:34.266-08:00",
+"state": "resolved",
+"title": "Front-end experiencing issues",
+"updated_at": "2025-11-18T08:19:40.212-08:00",
+"url": "https://stspg.io/pg2s1r8vyygx"
+},
+"hdwpf8qdj9lc": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-11T15:21:18.088-07:00",
+"resolved_inferred": false,
+"started_at": "2026-05-11T14:06:50.950-07:00",
+"state": "resolved",
+"title": "Alerts Issue",
+"updated_at": "2026-05-11T15:21:18.103-07:00",
+"url": "https://stspg.io/2h2sbfsm9mrw"
+},
+"n0mywz5wx5w6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-21T08:27:59.823-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-21T07:44:56.414-08:00",
+"state": "resolved",
+"title": "Alerts Issue",
+"updated_at": "2026-01-21T08:28:14.049-08:00",
+"url": "https://stspg.io/jml1x565lndw"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "solarwinds-loggly",
+"status_url": "https://status.loggly.com",
+"vendor": "SolarWinds Loggly"
+}

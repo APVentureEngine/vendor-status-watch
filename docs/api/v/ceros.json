@@ -1,0 +1,64 @@
+{
+"vendor": "Ceros",
+"slug": "ceros",
+"platform": "statuspage",
+"status_url": "https://status.ceros.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-14T11:54:21.286-04:00",
+"resolved_inferred": false,
+"started_at": "2026-04-14T08:56:03.897-04:00",
+"state": "resolved",
+"title": "Degraded Performance with Content Creation",
+"updated_at": "2026-04-14T11:54:21.315-04:00",
+"url": "https://stspg.io/fx0zb9pyb3cl"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-03T12:38:02.898-05:00",
+"resolved_inferred": false,
+"started_at": "2025-12-03T08:49:39.445-05:00",
+"state": "resolved",
+"title": "User Access Disrupted",
+"updated_at": "2025-12-03T12:42:11.042-05:00",
+"url": "https://stspg.io/9qkgd4pbjxts"
+},
+{
+"body": "We are continuing to monitor one issue affecting video uploads, however all other functionality is now back online.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T11:07:18.534-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T05:50:16.877-04:00",
+"state": "resolved",
+"title": "Service Disruption Due to Downstream Provider Outage",
+"updated_at": "2025-10-20T11:07:18.550-04:00",
+"url": "https://stspg.io/y170dcw3ntxz"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T18:05:28.028-04:00",
+"resolved_inferred": false,
+"started_at": "2025-08-21T14:53:46.961-04:00",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2025-08-21T18:05:28.048-04:00",
+"url": "https://stspg.io/6w0p8697stc6"
+}
+]
+}

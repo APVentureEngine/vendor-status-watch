@@ -1,0 +1,63 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"gkd83mqzysh6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-23T16:12:29.893Z",
+"resolved_inferred": false,
+"started_at": "2025-09-23T13:03:03.048Z",
+"state": "resolved",
+"title": "OpenNode WebApp and API are back up",
+"updated_at": "2025-09-23T16:12:29.912Z",
+"url": "https://stspg.io/4sf7nhpv7tvg"
+},
+"wnqy5x4f0gyr": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-06T17:36:32.424Z",
+"resolved_inferred": false,
+"started_at": "2025-09-06T17:00:41.852Z",
+"state": "resolved",
+"title": "Email Sending Issues",
+"updated_at": "2025-09-06T17:36:32.437Z",
+"url": "https://stspg.io/ktfv5fvsbr1t"
+},
+"xmfmpk1clx4h": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-02T21:56:11.037Z",
+"resolved_inferred": false,
+"started_at": "2026-04-02T21:28:21.512Z",
+"state": "resolved",
+"title": "BTC withdrawals temporarily disabled",
+"updated_at": "2026-04-02T21:56:11.053Z",
+"url": "https://stspg.io/g6c7g4jj6shb"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "opennode",
+"status_url": "https://status.opennode.co",
+"vendor": "OpenNode"
+}

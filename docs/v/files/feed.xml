@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Files incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/files/</link><description>Incidents from Files's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>SFTP Login Failures for ed25519 key-based authentication only in all regions [postmortem]</title><link>https://stspg.io/k06cmc4qmt06</link><guid isPermaLink="false">files:2026-06-05T08:00:00.000-07:00</guid><pubDate>Fri, 05 Jun 2026 15:00:00 +0000</pubDate><description>Between 17:13 UTC on June 4, 2026 and 15:12 UTC on June 5, 2026, [Files.com](http://Files.com) customers using SFTP with ed25519 SSH key-based authentication experienced authentication failures. This incident was limited to SFTP connections using ed25519 public keys. All other authentication methods — including password-based SFTP authentication, RSA key authentication, and all other [Files.com](http://Files.com) protocols and services — continued to operate normally throughout this period.
+
+We deployed a change to our SFTP server infrastructure intended to improve host key handling, but it inadvertently broke the authentication path for clients using ed25519 public keys.
+
+We failed to catch this regression before it reached production. We use automated testing to avoid this sort of regres</description></item><item><title>Uploads, create, update and delete operations failures [postmortem]</title><link>https://stspg.io/6svkxh1mvhvp</link><guid isPermaLink="false">files:2026-05-26T07:06:35.000-07:00</guid><pubDate>Tue, 26 May 2026 14:06:35 +0000</pubDate><description>Between 13:30 and 13:39 UTC on May 26, 2026, the [Files.com](http://Files.com) platform experienced a 9-minute issue during which uploads, as well as create, update, and delete operations against any resource, failed. Logins, downloads, and listings were unaffected during this period. Authentication-only and read-only workflows continued to operate normally.
+
+ The issue was caused by a routine maintenance event on our underlying Aurora MySQL database cluster, which moved the writer role from one database instance to another. Our application failed to recognize this change and continued attempting to write to the previous instance, which was now operating in a read-only capacity. We restored full write capability at 13:39 UTC by restarting the application, which forced it to reconnect to th</description></item><item><title>Elevated Errors – USA Region [postmortem]</title><link>https://stspg.io/tm2kcngdtfpn</link><guid isPermaLink="false">files:2026-04-01T10:30:00.000-07:00</guid><pubDate>Wed, 01 Apr 2026 17:30:00 +0000</pubDate><description>From 17:32 UTC until 19:14 UTC on April 1, 2026, a subset of servers in our primary US region returned TLS errors that produced elevated failure rates across the [Files.com](http://Files.com) Web UI, API, FTP/S, SFTP, and WebDAV.
+
+Customers whose traffic was routed to unaffected hosts experienced no issues; others saw login timeouts or &quot;invalid password&quot; messages.
+
+**What Happened**  
+While adding an additional domain to our primary wildcard SSL certificate, a bug in our internal certificate management software generated a certificate that omitted the wildcard entries for many of our domains. Our automated certificate rotation process then installed that faulty certificate on a portion of the fleet, causing those hosts to reject connections. Because traffic is  
+load-balanced evenly, some </description></item><item><title>Failures loading the Files.com Editor [postmortem]</title><link>https://stspg.io/wtfk7bv828jy</link><guid isPermaLink="false">files:2026-02-10T10:30:00.000-08:00</guid><pubDate>Tue, 10 Feb 2026 18:30:00 +0000</pubDate><description>From approximately 18:20 UTC to 19:23 UTC on 10 February 2026, customers could not preview or edit Office documents in the [Files.com](http://Files.com) Editor.  All other [Files.com](http://Files.com) services remained fully available.
+
+ 
+
+**What happened**
+
+Our document-editing service relies on an internal message broker \(Amazon MQ / RabbitMQ\).  A routine broker maintenance reboot caused our editor software to stop accepting new editing sessions but continued to report itself as healthy.  Because our health check logic was flawed and yielding that incorrect status, our load balancer kept sending traffic to the failing servers, resulting in the spinning “Loading…” message you observed.
+
+ 
+
+**What we found**
+
+* The editor’s own health endpoint did accurately represent its real status af</description></item><item><title>Failures loading the Files.com Editor [resolved]</title><link>https://stspg.io/0ymbcb9090hz</link><guid isPermaLink="false">files:2026-01-20T11:44:23.947-08:00</guid><pubDate>Tue, 20 Jan 2026 19:44:23 +0000</pubDate><description>We have resolved an incident causing failures to load the Files.com Editor in our web interface.  
+
+This incident was resolved at 19:45 UTC on January 20th.  
+
+Office documents can once again be previewed and edited in the built-in Files.com Editor.  
+
+We apologize for the inconvenience that this incident caused.  We will perform a full postmortem on this incident and publish the report here when it is available.</description></item><item><title>Sites with Custom Domains only:  Failures Uploading and downloading to Remote Server Mounts [postmortem]</title><link>https://stspg.io/2mw3w2dr7s8f</link><guid isPermaLink="false">files:2026-01-09T08:00:00.000-08:00</guid><pubDate>Fri, 09 Jan 2026 16:00:00 +0000</pubDate><description>From 21:45 UTC to 22:55 UTC on 9 January 2026, a subset of customers with custom domains enabled experienced elevated “500 – Internal Server Error” responses when uploading \(and in some cases downloading\) files through certain Remote Server Mount–backed transfer paths, including [Files.com](http://Files.com) Agent- backed connections.
+
+A code change in the [Files.com](http://Files.com) API control plane, intended to correct a bug in custom-domain uploads, introduced an unintended error condition affecting uploads routed through remote server mounts for sites with custom domains. Specifically, the API returned an invalid \(blank\) upload URL in its response, which caused subsequent upload steps to fail and resulted in HTTP 500 errors.
+
+These errors were immediately generated and logged by</description></item><item><title>Outbound Connections to Sharepoint and OneDrive: Elevated Error Rates [resolved]</title><link>https://stspg.io/fnxl2k67l3kd</link><guid isPermaLink="false">files:2025-11-25T05:23:00.000-08:00</guid><pubDate>Tue, 25 Nov 2025 13:23:00 +0000</pubDate><description>We have resolved an issue which caused elevated error rates in outbound connections from Files.com to Sharepoint and OneDrive remote servers.  
+
+The impact was limited to these two remote server integrations and did not impact any inbound connections to Files.com that don’t involve Onedrive or SharePoint remote servers. This incident occurred between the times of 1:23PM and 2:58PM UTC.</description></item><item><title>Google Safe Browsing is falsely reporting the Files.com login page as a &quot;Dangerous Site&quot; if it is navigated to directly [postmortem]</title><link>https://stspg.io/y9vt2m7c8b59</link><guid isPermaLink="false">files:2025-08-04T05:28:32.000-07:00</guid><pubDate>Mon, 04 Aug 2025 12:28:32 +0000</pubDate><description>From 10:03 UTC to 19:02 UTC on August 4, 2025, some users attempting to sign in to [Files.com](http://Files.com) via URLs ending in /login \(e.g., [acme.files.com/login](http://acme.files.com/login)\) encountered a red warning stating “Deceptive site ahead.”
+
+This warning appeared in Chrome, Safari, Firefox, and other browsers that rely on Google Safe Browsing.
+
+Affected access paths included: 
+
+* Bookmarked links to /login 
+* Direct navigation to /login 
+* The &quot;Sign In&quot; button on our marketing website
+
+All other product surfaces—including APIs, desktop and CLI apps, agents, mobile apps, custom domains, and already-loaded web app sessions—remained fully functional and unaffected. 
+
+**Root Cause** 
+
+The Chrome, Safari, and Firefox browsers all use a service from Google called Google Safe Br</description></item></channel></rss>

@@ -1,0 +1,37 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"ndqqlgcmfp7m": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-14T02:23:29.750Z",
+"resolved_inferred": false,
+"started_at": "2025-08-13T23:29:37.522Z",
+"state": "resolved",
+"title": "Platform Outage",
+"updated_at": "2025-08-14T02:23:29.767Z",
+"url": "https://stspg.io/n61ktmv4cdrf"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "bitfinex",
+"status_url": "https://bitfinex.statuspage.io",
+"vendor": "Bitfinex"
+}

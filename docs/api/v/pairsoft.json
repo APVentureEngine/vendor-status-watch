@@ -1,0 +1,51 @@
+{
+"vendor": "PairSoft",
+"slug": "pairsoft",
+"platform": "statuspage",
+"status_url": "https://status.pairsoft.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-17T16:04:14.564-05:00",
+"resolved_inferred": false,
+"started_at": "2025-11-17T10:46:17.758-05:00",
+"state": "resolved",
+"title": "Docupeak Service Interruption Alert",
+"updated_at": "2025-11-17T16:04:14.581-05:00",
+"url": "https://stspg.io/kgt0mlj8vt7b"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T09:03:01.366-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-29T12:50:19.840-04:00",
+"state": "resolved",
+"title": "PaperSaveCloud Service Interruption Alert",
+"updated_at": "2025-10-30T09:03:01.384-04:00",
+"url": "https://stspg.io/839rgk40ztbj"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-29T12:56:05.910-04:00",
+"resolved_inferred": false,
+"started_at": "2025-09-29T12:04:14.703-04:00",
+"state": "resolved",
+"title": "Docupeak Cloud Service - Interruption Alert",
+"updated_at": "2025-09-29T12:56:05.925-04:00",
+"url": "https://stspg.io/x063l04r4wr8"
+}
+]
+}

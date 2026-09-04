@@ -1,0 +1,64 @@
+{
+"vendor": "CloudBees",
+"slug": "cloudbees",
+"platform": "statuspage",
+"status_url": "https://www.cloudbeesstatus.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-23T08:56:02.362Z",
+"resolved_inferred": false,
+"started_at": "2026-06-23T07:17:31.627Z",
+"state": "resolved",
+"title": "Cloudbees Unify is not accessible",
+"updated_at": "2026-06-23T08:56:02.379Z",
+"url": "https://stspg.io/4mcb7yt05khj"
+},
+{
+"body": "The incident has been fixed and the Unify AI assistant available to the customers.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-08T11:04:04.847Z",
+"resolved_inferred": false,
+"started_at": "2026-05-08T10:57:06.531Z",
+"state": "resolved",
+"title": "Unify AI assistant unavailable.",
+"updated_at": "2026-05-08T11:04:04.862Z",
+"url": "https://stspg.io/69sz47bzt4r7"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T10:52:36.752Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:19:35.933Z",
+"state": "resolved",
+"title": "Cloud Provider issues affecting our services",
+"updated_at": "2025-10-20T11:37:00.178Z",
+"url": "https://stspg.io/3j15nl3wwk3k"
+},
+{
+"body": "Customer(s) could not login to the https://app.rollout.io/cloudbees/login due to an FM outage",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-05T08:30:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-10-05T08:30:00.000Z",
+"state": "resolved",
+"title": "Customer(s) could not login to the https://app.rollout.io/cloudbees/login",
+"updated_at": "2025-10-15T18:27:01.286Z",
+"url": "https://stspg.io/y0pmy4dtxl21"
+}
+]
+}

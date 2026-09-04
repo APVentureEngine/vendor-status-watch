@@ -1,0 +1,25 @@
+{
+"vendor": "Esa",
+"slug": "esa",
+"platform": "statuspage",
+"status_url": "https://status.esa.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-21T21:02:07.288+09:00",
+"resolved_inferred": false,
+"started_at": "2026-05-21T20:31:31.000+09:00",
+"state": "resolved",
+"title": "\u8a18\u4e8b\u306e\u65b0\u898f\u4f5c\u6210\u3084\u691c\u7d22index\u306e\u4f5c\u6210\u30a8\u30e9\u30fc",
+"updated_at": "2026-05-21T21:02:07.304+09:00",
+"url": "https://stspg.io/hrvr7qz72v07"
+}
+]
+}

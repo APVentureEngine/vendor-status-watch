@@ -1,0 +1,154 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"16pz5wz0zmhp": {
+"body": "It appears a misplaced space in a configuration update of caused the configured library to throw exceptions for some of the requests. We've fixed the configuration and will be patching the library to ensure this is handled more gracefully. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-18T10:28:11.685-07:00",
+"resolved_inferred": false,
+"started_at": "2025-09-18T08:37:01.308-07:00",
+"state": "resolved",
+"title": "Elevated error rates",
+"updated_at": "2025-09-18T10:28:11.699-07:00",
+"url": "https://stspg.io/7r2167vrv7dr"
+},
+"2cwyw2glnf77": {
+"body": "Upstream issue has been resolved. We are back to normal. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T03:41:47.039-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T03:15:37.253-07:00",
+"state": "resolved",
+"title": "AWS outage effects",
+"updated_at": "2025-10-20T03:41:47.056-07:00",
+"url": "https://stspg.io/jtbfzvx230s3"
+},
+"55k6w1d4ldp0": {
+"body": "Errors have returned to normal levels. Fix confirmed. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-09T08:46:44.089-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-09T06:38:22.473-07:00",
+"state": "resolved",
+"title": "Elevated error rates for badge service",
+"updated_at": "2026-08-09T08:46:44.109-07:00",
+"url": "https://stspg.io/vw223zl5r73m"
+},
+"8zcy8k5snrfl": {
+"body": "Operations returned to normal. We will address the performance issue through our development cycle.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-21T22:51:14.568-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-21T20:59:17.981-08:00",
+"state": "resolved",
+"title": "Elevated errors",
+"updated_at": "2026-02-21T22:51:14.582-08:00",
+"url": "https://stspg.io/p92k9q68j7v2"
+},
+"984nmnwqbz44": {
+"body": "Jobs processing normally, and outstanding work has been completed. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-25T01:31:10.415-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-25T00:44:39.424-07:00",
+"state": "resolved",
+"title": "Elevated errors for uploads and asynchronous work",
+"updated_at": "2026-03-25T01:31:10.435-07:00",
+"url": "https://stspg.io/h7kcrh3l5dp5"
+},
+"fyv7wjfdzt07": {
+"body": "Production-specific misconfiguration caused our async workers to enter a crash-restart loop. We've fixed the issue, and we will be looking into how to catch these issues earlier in the release process. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-24T11:40:34.753-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-24T09:34:53.654-07:00",
+"state": "resolved",
+"title": "Job processing delays & errors",
+"updated_at": "2026-03-24T11:40:34.766-07:00",
+"url": "https://stspg.io/yz7bqxctkr2t"
+},
+"jm0jjmgmwcww": {
+"body": "We've tracked the issue down to a frequent DB update and applied a fix to reduce it. Resolving the incident while we will keep monitoring the fix.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-09T08:21:31.925-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-09T03:21:42.872-08:00",
+"state": "resolved",
+"title": "Elevated errors & timeouts",
+"updated_at": "2026-02-09T08:21:31.942-08:00",
+"url": "https://stspg.io/dw0mc2sbg7dg"
+},
+"mcp749ygf99y": {
+"body": "**Summary**  \nFirst, we want to thank everyone for your patience as we worked through this incident. After restoring platform availability, we noticed that some services \\(e.g. uploads\\) did not immediately recover. This postmortem explains what happened, what we found, and what we\u2019re doing to prevent similar issues in the future.\n\n**What Happened**  \nThe platform experienced a temporary availability outage that affected several services. While core systems came back online as expected, a subset of services continued to experience availability issues after the upstream outage.\n\n**Root Cause**  \nThe affected services were still using stale DNS cache entries from during the outage, preventing them from reaching other internal components. While DNS caching is technically correct, our monitoring should have detected the failures, and prompted corrective action. However, our existing checks were only performing shallow availability tests and did not verify internal reachability, leading to a false positive.\n\n**Resolution**  \nOnce identified, clearing the DNS caches restored full connectivity and service availability. To prevent recurrence, we\u2019ve extended our monitoring to include internal reachability probes, ensuring that similar issues are surfaced automatically in the future.\n\n**Closing**  \nWe understand how disruptive downtime can be, and we\u2019re committed to learning from each incident to make our platform more resilient. Thank you again for your patience and continued trust.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T21:39:58.641-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T08:59:53.000-07:00",
+"state": "postmortem",
+"title": "AWS outage effects",
+"updated_at": "2025-10-23T21:37:45.844-07:00",
+"url": "https://stspg.io/d9ysxqqlzq1d"
+},
+"spms6v3jqd8q": {
+"body": "Resolving the incident to continue the investigation and fix offline.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-16T10:23:55.543-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-16T08:41:58.570-07:00",
+"state": "resolved",
+"title": "Elevated errors",
+"updated_at": "2026-03-16T10:23:55.558-07:00",
+"url": "https://stspg.io/w807zc1hmyls"
+},
+"z9ym7l5tq5wv": {
+"body": "Configuration & scaling improvements seem to be absorbing the traffic spikes more comfortably now. Resolving.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-20T08:55:31.753-07:00",
+"resolved_inferred": false,
+"started_at": "2026-05-20T06:20:22.000-07:00",
+"state": "resolved",
+"title": "Investigating elevated repo errors",
+"updated_at": "2026-05-20T08:55:31.773-07:00",
+"url": "https://stspg.io/jtntfl4gfhyf"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "gemfury",
+"status_url": "https://status.fury.co",
+"vendor": "Gemfury"
+}

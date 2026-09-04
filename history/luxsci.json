@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"9b1v8wvv7b26": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-22T21:33:21.925-05:00",
+"resolved_inferred": false,
+"started_at": "2026-01-22T16:46:41.809-05:00",
+"state": "resolved",
+"title": "Proofpoint Outage Affecting Some users With Premium Email Filtering",
+"updated_at": "2026-01-22T21:33:22.298-05:00",
+"url": "https://stspg.io/w3vrym577zty"
+},
+"dl6sfgvdkzrr": {
+"body": "Due to a side effect of the Amazon Web Servers (AWS) outage from yesterday, some of LuxSci's customer domains may have had archival disabled for a short time frame. This occurred between 9:19pm ET and 2am ET.During this time email may not have been archived. The problem has been resolved and archival has been re-enabled on all domains that had it previous to this issue.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T09:57:48.955-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-21T09:57:48.911-04:00",
+"state": "resolved",
+"title": "Archival may have been temporarily disabled for some domains last night",
+"updated_at": "2025-10-21T09:58:19.804-04:00",
+"url": "https://stspg.io/6wwq93c0btnz"
+},
+"lzbbf7d5y6n7": {
+"body": "Status: Resolved\n\nMessage:\nOracle has confirmed the issue affecting our Phoenix data center has been resolved. All services have returned to normal operation. We are sorry for any inconvenience this issue may have caused.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-15T19:53:48.433-04:00",
+"resolved_inferred": false,
+"started_at": "2026-07-15T15:43:20.611-04:00",
+"state": "resolved",
+"title": "Degraded services due to server issues at our Phoenix data center",
+"updated_at": "2026-07-15T19:53:48.449-04:00",
+"url": "https://stspg.io/4nxc8bmjgnrw"
+},
+"mw47kksp20f1": {
+"body": "Emails to @us1.journaladdress.com are now being delivered as normal. Old emails that are queued will start to be delivered to our customer's archives as our system works through the queued emails.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T18:56:26.445-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T15:36:47.264-04:00",
+"state": "resolved",
+"title": "Bounces caused by Archival Service which uses Amazon Web Services",
+"updated_at": "2025-10-20T18:56:26.982-04:00",
+"url": "https://stspg.io/x8jjkbf953gk"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "luxsci",
+"status_url": "https://status.luxsci.com",
+"vendor": "LuxSci"
+}

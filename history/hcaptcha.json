@@ -1,0 +1,128 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"32p9xyvc5djy": {
+"body": "We are no longer seeing elevated latency in IAD.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T19:47:20.359Z",
+"resolved_inferred": false,
+"started_at": "2025-08-21T19:39:36.817Z",
+"state": "resolved",
+"title": "Elevated latency in IAD region for connections from AWS us-east-1",
+"updated_at": "2025-08-26T11:03:49.688Z",
+"url": "https://stspg.io/vtl4hy1sk2y8"
+},
+"8kv066g6p1b1": {
+"body": "This notice is purely informational.\n\nThere was zero impact to hCaptcha from the AWS us-east-1 outage that took down many other online services this week.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T21:29:04.073Z",
+"resolved_inferred": false,
+"started_at": "2025-10-21T21:29:04.028Z",
+"state": "resolved",
+"title": "hCaptcha is completely unaffected by the AWS outages",
+"updated_at": "2025-10-21T21:29:04.085Z",
+"url": "https://stspg.io/90bymck493bm"
+},
+"pb97zyt78f80": {
+"body": "Query service maintenance is now complete.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-27T12:27:11.000Z",
+"resolved_inferred": false,
+"started_at": "2026-08-27T12:10:21.000Z",
+"state": "resolved",
+"title": "Enterprise: Analytics queries under maintenance",
+"updated_at": "2026-08-27T12:35:52.922Z",
+"url": "https://stspg.io/wzl08dk0b91y"
+},
+"sjt4tk0bs37r": {
+"body": "Maintenance is now complete.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-08T16:14:25.000Z",
+"resolved_inferred": false,
+"started_at": "2025-10-08T16:05:53.000Z",
+"state": "resolved",
+"title": "Maintenance to Passkey support",
+"updated_at": "2025-10-08T16:14:57.161Z",
+"url": "https://stspg.io/710w6lpb1p0l"
+},
+"t8hy5vnrw0hq": {
+"body": "We are monitoring sporadic latency impact related to network-level issues at an upstream WAF provider: https://www.cloudflarestatus.com/incidents/dz87vqwvl8wr\n\nThis appeared to primarily affect some LATAM and EUR region POPs.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-19T15:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-12-19T15:00:00.000Z",
+"state": "resolved",
+"title": "Increased latency on API calls in some regions",
+"updated_at": "2025-12-19T15:57:39.909Z",
+"url": "https://stspg.io/r30rx588kh2j"
+},
+"tc2cwtvk6sq0": {
+"body": "Due to an issue at an upstream edge CDN, P99 times in several regions, primarily GIG and GRU, were elevated between 14:15 UTC and 14:45 UTC.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-08T15:22:21.000Z",
+"resolved_inferred": false,
+"started_at": "2025-09-08T15:22:21.000Z",
+"state": "resolved",
+"title": "Elevated P99 times in South America (Brazil) regions",
+"updated_at": "2025-10-28T15:33:04.317Z",
+"url": "https://stspg.io/8slwldy29gh6"
+},
+"zc4r0ywbn8dx": {
+"body": "429 rates on several networks briefly increased for approximately 60 seconds. This issue has now been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-29T17:31:07.483Z",
+"resolved_inferred": false,
+"started_at": "2026-07-29T17:31:07.446Z",
+"state": "resolved",
+"title": "Increased 429 rates on several ASNs",
+"updated_at": "2026-07-29T17:31:07.491Z",
+"url": "https://stspg.io/7hz1jyr4mg69"
+},
+"ztn3pw8tg2cv": {
+"body": "Between 14:15 UTC and 14:22 UTC, some loads of API assets returned 403s in some regions. This incident has now been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-05T14:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-05-05T14:00:00.000Z",
+"state": "resolved",
+"title": "Increased error rate on API loads",
+"updated_at": "2026-05-05T14:37:47.002Z",
+"url": "https://stspg.io/2hk8wfn6mcmk"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "hcaptcha",
+"status_url": "https://www.hcaptchastatus.com",
+"vendor": "hCaptcha"
+}

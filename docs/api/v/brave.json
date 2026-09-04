@@ -1,0 +1,11 @@
+{
+"vendor": "Brave",
+"slug": "brave",
+"platform": "betterstack",
+"status_url": "https://status.brave.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "major",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

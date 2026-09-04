@@ -1,0 +1,115 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"0bgll0dx7hy8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-07T09:33:09.972Z",
+"resolved_inferred": false,
+"started_at": "2025-11-07T02:59:11.650Z",
+"state": "resolved",
+"title": "Issues with BugSnag Dashboard",
+"updated_at": "2025-11-13T20:35:50.946Z",
+"url": "https://stspg.io/n48ph7x3zlyg"
+},
+"3ffmn1lrn257": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-10T11:39:56.064Z",
+"resolved_inferred": false,
+"started_at": "2025-11-10T11:33:56.830Z",
+"state": "resolved",
+"title": "Some uploads are failing with a 403 forbidden error message",
+"updated_at": "2025-11-13T20:35:50.858Z",
+"url": "https://stspg.io/wdrs491gzxls"
+},
+"3h3t2k5d3ll8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T17:43:39.568Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T14:40:48.000Z",
+"state": "resolved",
+"title": "BugSnag Marketing Site Down",
+"updated_at": "2025-11-18T17:43:39.896Z",
+"url": "https://stspg.io/yhmg6pzm4y5v"
+},
+"mrh9thn5dcgg": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-20T19:57:07.320Z",
+"resolved_inferred": false,
+"started_at": "2026-08-20T17:36:30.110Z",
+"state": "resolved",
+"title": "Sessions processing delays",
+"updated_at": "2026-08-20T19:57:07.344Z",
+"url": "https://stspg.io/2bmcvpgb72qz"
+},
+"r119q2n29vkj": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-22T18:10:21.872Z",
+"resolved_inferred": false,
+"started_at": "2026-01-22T16:54:36.724Z",
+"state": "resolved",
+"title": "Issues with the BugSnag Error Reporting API",
+"updated_at": "2026-01-22T18:10:22.677Z",
+"url": "https://stspg.io/b49sx2bpck74"
+},
+"x1qgttpxmbf1": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-11T09:26:36.524Z",
+"resolved_inferred": false,
+"started_at": "2025-11-11T08:49:56.754Z",
+"state": "resolved",
+"title": "Issues with BugSnag Dashboard",
+"updated_at": "2025-11-13T20:35:50.783Z",
+"url": "https://stspg.io/mbvfhjyrlmz2"
+},
+"y1bkymhlw5vx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T10:59:40.928Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:11:12.994Z",
+"state": "resolved",
+"title": "AWS outage impacting SmartBear ID logins and email notifications",
+"updated_at": "2025-11-13T20:35:51.009Z",
+"url": "https://stspg.io/7kwq1s65rzg9"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "bugsnag",
+"status_url": "https://status.bugsnag.com",
+"vendor": "Bugsnag"
+}

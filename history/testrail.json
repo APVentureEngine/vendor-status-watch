@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"1zhwllp48yw2": {
+"body": "Following the implementation of the fix, we have completed a period of monitoring and have confirmed that the issue affecting authentication with the Jira integration has been fully resolved, with no further errors observed.\n\nUsers should ensure they have reauthenticated with Jira within TestRail to maintain normal functionality.\n\nThank you for your patience while we worked to resolve this issue.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-23T22:20:50.601Z",
+"resolved_inferred": false,
+"started_at": "2026-03-20T02:00:43.000Z",
+"state": "resolved",
+"title": "Jira Integration Degradation",
+"updated_at": "2026-03-23T22:20:50.619Z",
+"url": "https://stspg.io/rtfxsf680t1b"
+},
+"nyxlnh10rx6t": {
+"body": "The issue affecting TestRail has been resolved and all services are now fully operational. Thank you for your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-19T14:00:26.000Z",
+"resolved_inferred": false,
+"started_at": "2026-08-19T11:32:35.435Z",
+"state": "resolved",
+"title": "Performance issue impacting access to TestRail",
+"updated_at": "2026-08-19T15:39:30.027Z",
+"url": "https://stspg.io/cyb7ykh0c1rz"
+},
+"q14lcphdq7v3": {
+"body": "The issue affecting a small subset of customers has been resolved and all services are now fully operational. Thank you for your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-14T15:39:04.984Z",
+"resolved_inferred": false,
+"started_at": "2026-08-11T18:03:06.621Z",
+"state": "resolved",
+"title": "Performance Degradation Affecting a Subset of Cloud Instances",
+"updated_at": "2026-08-14T15:39:04.999Z",
+"url": "https://stspg.io/jp723hhm252z"
+},
+"yb99fxrh4lxc": {
+"body": "We identified a DNS issue that may have prevented some users from accessing TestRail. The issue has been resolved, and all services are now fully operational. We apologize for any inconvenience and thank you for your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-17T12:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-08-17T12:00:00.000Z",
+"state": "resolved",
+"title": "Resolved: DNS Issue Affecting Access to TestRail",
+"updated_at": "2026-08-17T15:18:46.585Z",
+"url": "https://stspg.io/1gy9f9yyt3rq"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "testrail",
+"status_url": "https://testrail.statuspage.io",
+"vendor": "TestRail"
+}

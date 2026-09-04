@@ -1,0 +1,77 @@
+{
+"vendor": "SugarSync",
+"slug": "sugarsync",
+"platform": "statuspage",
+"status_url": "https://status.sugarsync.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved. Support is fully operational.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-26T10:32:53.714-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-26T09:30:38.234-07:00",
+"state": "resolved",
+"title": "Support limited due to network maintenance",
+"updated_at": "2026-08-26T10:32:53.729-07:00",
+"url": "https://stspg.io/p5v0h6h832d1"
+},
+{
+"body": "Our engineers have fully resolved the issue affecting connectivity and access to SugarSync.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-16T07:18:14.060-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-15T10:11:18.764-07:00",
+"state": "resolved",
+"title": "Login and connectivity issues",
+"updated_at": "2026-04-16T07:18:14.076-07:00",
+"url": "https://stspg.io/s181s8p0zgpl"
+},
+{
+"body": "Our engineers have resolved the issue affecting connectivity and access to SugarSync. All systems are functioning.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-13T07:50:28.394-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-11T17:57:02.674-07:00",
+"state": "resolved",
+"title": "Login and connectivity issues",
+"updated_at": "2026-04-13T07:50:28.413-07:00",
+"url": "https://stspg.io/b6k7cjlg3ms1"
+},
+{
+"body": "Google has indicated that the issue has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-08T17:04:40.015-07:00",
+"resolved_inferred": false,
+"started_at": "2026-04-08T12:29:43.182-07:00",
+"state": "resolved",
+"title": "Email Message Delays",
+"updated_at": "2026-04-08T17:04:40.032-07:00",
+"url": "https://stspg.io/hlh9xk265rjs"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T13:32:06.714-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T06:46:42.312-08:00",
+"state": "resolved",
+"title": "Services affected due to Cloudflare outage",
+"updated_at": "2025-11-18T13:32:06.732-08:00",
+"url": "https://stspg.io/w28h9bm44ypd"
+}
+]
+}

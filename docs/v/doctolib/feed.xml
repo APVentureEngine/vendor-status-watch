@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Doctolib incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/doctolib/</link><description>Incidents from Doctolib's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Financial OS is partially down [resolved]</title><link>https://stspg.io/f08dx3bn14pf</link><guid isPermaLink="false">doctolib:2026-09-01T18:05:46.261+02:00</guid><pubDate>Tue, 01 Sep 2026 16:05:46 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Consultation Assistant is not available [resolved]</title><link>https://stspg.io/3gl04jsw253t</link><guid isPermaLink="false">doctolib:2026-09-01T11:38:50.887+02:00</guid><pubDate>Tue, 01 Sep 2026 09:38:50 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Degraded performance on Clinical solution [resolved]</title><link>https://stspg.io/9nf4gfhnn0td</link><guid isPermaLink="false">doctolib:2026-08-28T13:02:02.185+02:00</guid><pubDate>Fri, 28 Aug 2026 11:02:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>[data-science-production-aws-de-fra-1][Consultation Assistant] SLI consultation-assistant high error and timeout rate over 10% and more than 40 hits on *summarization* *transcription [resolved]</title><link>https://stspg.io/xh3wsq99970m</link><guid isPermaLink="false">doctolib:2026-08-18T17:24:56.020+02:00</guid><pubDate>Tue, 18 Aug 2026 15:24:56 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Hospitals and CF customers can&#x27;t do patient search from the agenda [resolved]</title><link>https://stspg.io/l2c58n5121fq</link><guid isPermaLink="false">doctolib:2026-08-04T16:44:30.091+02:00</guid><pubDate>Tue, 04 Aug 2026 14:44:30 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Consultation assitant is showing degraded perfomance and latency for some users [resolved]</title><link>https://stspg.io/s6rxtml90qpg</link><guid isPermaLink="false">doctolib:2026-07-28T10:54:41.628+02:00</guid><pubDate>Tue, 28 Jul 2026 08:54:41 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>High error on Consultation Assistant [resolved]</title><link>https://stspg.io/f82vsz7gp3cz</link><guid isPermaLink="false">doctolib:2026-07-16T09:30:26.565+02:00</guid><pubDate>Thu, 16 Jul 2026 07:30:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>20k Users (source SENTRY) can&#x27;t use DDV [resolved]</title><link>https://stspg.io/63ynmdmpq5c4</link><guid isPermaLink="false">doctolib:2026-06-30T12:18:39.816+02:00</guid><pubDate>Tue, 30 Jun 2026 10:18:39 +0000</pubDate><description>The performance incident affecting the following components has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Phone assistant is not answering calls for patients. No impact on Pro side [resolved]</title><link>https://stspg.io/r1cqxvhndxxs</link><guid isPermaLink="false">doctolib:2026-06-25T15:49:47.051+02:00</guid><pubDate>Thu, 25 Jun 2026 13:49:47 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Phone assistant is not available for users in the old infrastructure [resolved]</title><link>https://stspg.io/d7knjydr3cgm</link><guid isPermaLink="false">doctolib:2026-06-23T14:58:51.240+02:00</guid><pubDate>Tue, 23 Jun 2026 12:58:51 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>All doctors are not being able to make an appointment by experiencing frontend error [resolved]</title><link>https://stspg.io/t9yjscq9p5p9</link><guid isPermaLink="false">doctolib:2026-06-05T16:03:33.012+02:00</guid><pubDate>Fri, 05 Jun 2026 14:03:33 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Components impacted: Phone Assistant [resolved]</title><link>https://stspg.io/44tsm0yx3l48</link><guid isPermaLink="false">doctolib:2026-05-29T17:11:14.457+02:00</guid><pubDate>Fri, 29 May 2026 15:11:14 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Phone assistant slow answers or hangups; general latency degradation for all AI products [resolved]</title><link>https://stspg.io/4x93l9chn4c1</link><guid isPermaLink="false">doctolib:2026-05-29T13:42:23.464+02:00</guid><pubDate>Fri, 29 May 2026 11:42:23 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>5 min drop of traffic which had a snowball effect on MDP when traffic came back [resolved]</title><link>https://stspg.io/wwc3s4rxz9h7</link><guid isPermaLink="false">doctolib:2026-05-20T17:28:42.478+02:00</guid><pubDate>Wed, 20 May 2026 15:28:42 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Impossible for admin telesecretariat accounts to access the calendars. [resolved]</title><link>https://stspg.io/t8k2p5vygd9q</link><guid isPermaLink="false">doctolib:2026-05-06T08:54:08.098+02:00</guid><pubDate>Wed, 06 May 2026 06:54:08 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Components impacted: Consultation Assistant [resolved]</title><link>https://stspg.io/wmp4b7xs2697</link><guid isPermaLink="false">doctolib:2026-05-05T09:57:05.298+02:00</guid><pubDate>Tue, 05 May 2026 07:57:05 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved.
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Components impacted: Phone Assistant [resolved]</title><link>https://stspg.io/590f56ns7ycz</link><guid isPermaLink="false">doctolib:2026-04-22T10:45:30.832+02:00</guid><pubDate>Wed, 22 Apr 2026 08:45:30 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved.
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Components impacted: All [resolved]</title><link>https://stspg.io/jbg9987cckhd</link><guid isPermaLink="false">doctolib:2026-04-10T15:21:31.242+02:00</guid><pubDate>Fri, 10 Apr 2026 13:21:31 +0000</pubDate><description>The performance incident affecting the following component has been fully resolved.
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>[Automated Alert] Timeline Items error rate [resolved]</title><link>https://stspg.io/zv01y93z52l0</link><guid isPermaLink="false">doctolib:2026-04-07T14:09:07.960+02:00</guid><pubDate>Tue, 07 Apr 2026 12:09:07 +0000</pubDate><description>The performance incident affecting the following components has been fully resolved:
+
+All services are stable and operating normally.
+
+We apologize for the inconvenience and thank you for your patience.
+
+— Your Doctolib Team</description></item><item><title>Doctolib Connect is degraded [resolved]</title><link>https://stspg.io/g27rb64188c1</link><guid isPermaLink="false">doctolib:2025-12-05T10:51:14.999+01:00</guid><pubDate>Fri, 05 Dec 2025 09:51:14 +0000</pubDate><description>Doctolib fonctionne à nouveau normalement pour tout le monde.
+
+---
+
+Doctolib ist wieder für alle Nutzer:innen verfügbar.
+
+---
+
+Doctolib funziona per tutti gli utenti.</description></item><item><title>Doctolib est momentanément indisponible / Doctolib ist vorübergehend nicht verfügbar / Doctolib è momentaneamente non disponibile [resolved]</title><link>https://stspg.io/5j8h751dbsqg</link><guid isPermaLink="false">doctolib:2025-12-05T10:04:36.030+01:00</guid><pubDate>Fri, 05 Dec 2025 09:04:36 +0000</pubDate><description>Doctolib fonctionne à nouveau normalement pour tout le monde.
+
+---
+
+Doctolib ist wieder für alle Nutzer:innen verfügbar.
+
+---
+
+Doctolib funziona per tutti gli utenti.</description></item></channel></rss>

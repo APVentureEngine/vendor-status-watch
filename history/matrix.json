@@ -1,0 +1,193 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"0w6lwnjdkmln": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-13T11:35:58.540Z",
+"resolved_inferred": false,
+"started_at": "2025-10-13T08:57:52.723Z",
+"state": "resolved",
+"title": "Degraded performance across client endpoints",
+"updated_at": "2025-10-13T11:35:58.555Z",
+"url": "https://stspg.io/wl519nprhk0b"
+},
+"2s15xntbhnn7": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-01T09:29:46.343Z",
+"resolved_inferred": false,
+"started_at": "2025-07-31T20:59:17.000Z",
+"state": "resolved",
+"title": "matrix.org federation outage",
+"updated_at": "2025-08-01T09:29:46.366Z",
+"url": "https://stspg.io/znl203ckrtj1"
+},
+"4vw2h6xx6fjp": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-03T11:42:56.824Z",
+"resolved_inferred": false,
+"started_at": "2026-08-03T00:16:33.000Z",
+"state": "resolved",
+"title": "Matrix.org Homeserver: Degraded performance",
+"updated_at": "2026-08-03T11:46:46.482Z",
+"url": "https://stspg.io/c7l87l4vd5fk"
+},
+"6yfzqkxvrxgf": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-04T12:18:24.407Z",
+"resolved_inferred": false,
+"started_at": "2026-03-02T20:39:12.580Z",
+"state": "resolved",
+"title": "Performance of sending and loading messages is degraded",
+"updated_at": "2026-03-04T12:18:24.431Z",
+"url": "https://stspg.io/g2gnjhkb6zrh"
+},
+"cb74tl4czcgc": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-02T12:04:27.755Z",
+"resolved_inferred": false,
+"started_at": "2026-03-02T08:47:25.183Z",
+"state": "resolved",
+"title": "Sending messages has reduced performance",
+"updated_at": "2026-03-02T12:04:27.773Z",
+"url": "https://stspg.io/3n6wlmjwyk4h"
+},
+"ccbjwf3h466l": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-19T11:38:41.774Z",
+"resolved_inferred": false,
+"started_at": "2026-03-19T11:15:31.000Z",
+"state": "resolved",
+"title": "Slow outbound federation",
+"updated_at": "2026-03-19T11:38:41.790Z",
+"url": "https://stspg.io/n8xl3y3m9g4l"
+},
+"jzjhrzw5129b": {
+"body": "The homeserver has been stable since rolling back. The Synapse team will work on a resolution to the bug that caused the outage.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-16T22:15:06.255Z",
+"resolved_inferred": false,
+"started_at": "2026-04-16T15:05:07.000Z",
+"state": "resolved",
+"title": "Problems sending messages via matrix.org",
+"updated_at": "2026-04-16T22:15:06.268Z",
+"url": "https://stspg.io/trhxz227b11r"
+},
+"mm9hdm78svgv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-04T09:28:50.380Z",
+"resolved_inferred": false,
+"started_at": "2025-09-02T17:39:55.716Z",
+"state": "resolved",
+"title": "Database incident",
+"updated_at": "2025-09-04T09:28:50.396Z",
+"url": "https://stspg.io/wkdvc5tmt5m5"
+},
+"qytwdq4dlrd3": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-24T11:13:33.712Z",
+"resolved_inferred": false,
+"started_at": "2026-02-24T08:00:06.000Z",
+"state": "resolved",
+"title": "Slow logins",
+"updated_at": "2026-02-24T11:13:33.726Z",
+"url": "https://stspg.io/wsb3q66nb7sq"
+},
+"t5dw75mncmnm": {
+"body": "matrix.org inbound federation was inoperable from roughly 18:55 UTC to 20:00 UTC due to a logic error during a code roll out. The issue is now resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-07-31T19:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-07-31T19:00:00.000Z",
+"state": "resolved",
+"title": "Matrix.org Federation Outage",
+"updated_at": "2025-07-31T20:04:52.215Z",
+"url": "https://stspg.io/chrhr96nkkj5"
+},
+"xqq9chks4tnv": {
+"body": "Around 07:00 UTC until 08:00 UTC, performance on the matrix.org homeserver was degraded due to a transient problem preventing database maintenance.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-05T07:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-05-05T06:00:00.000Z",
+"state": "resolved",
+"title": "Performance degradation",
+"updated_at": "2026-05-05T08:07:01.441Z",
+"url": "https://stspg.io/l1c0f16hj016"
+},
+"xqrc8nqrzcc8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-02T18:34:25.764Z",
+"resolved_inferred": false,
+"started_at": "2026-03-02T15:20:57.692Z",
+"state": "resolved",
+"title": "Performance issues regarding message sending on matrix.org",
+"updated_at": "2026-03-02T18:34:25.780Z",
+"url": "https://stspg.io/1nz6p9kyjk0w"
+},
+"yhvr636dp1b0": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-12T05:07:54.767Z",
+"resolved_inferred": false,
+"started_at": "2026-02-11T18:30:42.110Z",
+"state": "resolved",
+"title": "Degraded performance",
+"updated_at": "2026-02-12T05:07:54.781Z",
+"url": "https://stspg.io/ykvv05zqrb42"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "matrix",
+"status_url": "https://status.matrix.org",
+"vendor": "Matrix"
+}

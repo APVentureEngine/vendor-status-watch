@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"8h8yjb3jgf2q": {
+"body": "Maintenance on our primary message bus is done and all systems are back to normal. This kind of maintenance shouldn't be causing timeouts or delayed processing and we will be digging into it to ensure it doesn't occur again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-22T19:03:45.184-05:00",
+"resolved_inferred": false,
+"started_at": "2025-11-22T12:12:00.630-05:00",
+"state": "resolved",
+"title": "Timeouts with check-in receiving",
+"updated_at": "2025-11-22T19:03:45.199-05:00",
+"url": "https://stspg.io/7yqm5qqfqn4j"
+},
+"ns2mg4n0wghp": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T15:18:39.589-04:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T13:19:17.364-04:00",
+"state": "resolved",
+"title": "Delayed Email Alerts",
+"updated_at": "2025-10-20T15:18:39.604-04:00",
+"url": "https://stspg.io/wf1x1fc5pdq4"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "dead-man-s-snitch",
+"status_url": "https://status.deadmanssnitch.com",
+"vendor": "Dead Man's Snitch"
+}

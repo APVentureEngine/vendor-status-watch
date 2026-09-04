@@ -1,0 +1,62 @@
+{
+"vendor": "Athennian",
+"slug": "athennian",
+"platform": "statuspage",
+"status_url": "https://athennian.statuspage.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "degraded",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved. The issue causing documents and folders to appear missing in Minute Books for a subset of entities has been fixed, and we've confirmed normal behavior is restored. If you continue to experience any issues, please contact support.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-28T21:51:04.540-06:00",
+"resolved_inferred": false,
+"started_at": "2026-08-28T11:30:20.000-06:00",
+"state": "resolved",
+"title": "Missing Documents/Folders in Some Minute Books",
+"updated_at": "2026-08-28T21:51:04.560-06:00",
+"url": "https://stspg.io/84g0lg3y44sv"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-06T16:47:10.853-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-06T14:30:01.313-07:00",
+"state": "resolved",
+"title": "Degraded Performance",
+"updated_at": "2026-03-06T16:47:10.870-07:00",
+"url": "https://stspg.io/6r4s0t0rys6m"
+},
+{
+"body": "The site is currently back online, though some components may still experience intermittent degradation or elevated latency.\n\nAWS continues to work on restoring the affected infrastructure and services within the Middle East region. While our primary services are recovering, we are keeping the incident open as we monitor system stability and wait for final confirmation of full resolution from AWS.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-03-02T10:27:22.000-07:00",
+"state": "monitoring",
+"title": "AWS Middle East Region Disruption",
+"updated_at": "2026-03-06T14:54:11.597-07:00",
+"url": "https://stspg.io/x01c9dnc4bgb"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T13:51:25.319-07:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T07:42:48.315-07:00",
+"state": "resolved",
+"title": "Degraded Performance due to Cloudflare",
+"updated_at": "2025-11-18T13:51:25.334-07:00",
+"url": "https://stspg.io/kwb0yfbmkkzn"
+}
+]
+}

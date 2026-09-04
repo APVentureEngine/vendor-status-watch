@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"9mh8l8q0gdd4": {
+"body": "Early this morning, we experienced degraded performance affecting Chrome and Firefox test execution. Customers may have noticed:\n\u00a0\n\u00a0- Delayed test runs - Chrome and Firefox tests were queued longer than usual.\n\u00a0- Failed results on our end; during a short window (~14:45 \u201315:10 UTC), some Chrome and Firefox test runs returned a failed result due to a temporary issue in our system. This is not a problem with your tests.\n\nThe cause has been resolved, and we've added further system capacity to work through the delay. Test execution is catching up now, and we expect normal performance shortly. Any such failed test runs will re-run normally on their next scheduled execution and can be disregarded. All tests stuck in a queued state should be starting to run over the next 2 hours.\n\u00a0\nAll other Ghost Inspector functionality was not affected. \n\nWe greatly apologize for this system disruption. We take system reliability seriously and will do our best to ensure this does not happen again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-17T09:55:44.000-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-17T09:55:44.000-07:00",
+"state": "resolved",
+"title": "Test Runner Queue Surges And Performance Degradation",
+"updated_at": "2026-06-18T11:35:17.307-07:00",
+"url": "https://stspg.io/2xrmsngk8fjz"
+},
+"hs1jnn6nk02m": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T13:49:22.193-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T01:12:22.000-07:00",
+"state": "resolved",
+"title": "Service Availability Incident",
+"updated_at": "2025-10-21T13:49:22.212-07:00",
+"url": "https://stspg.io/mfv1z9h80vlx"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "ghost-inspector",
+"status_url": "https://ghostinspector.statuspage.io",
+"vendor": "Ghost Inspector"
+}

@@ -1,0 +1,11 @@
+{
+"vendor": "Own Company",
+"slug": "own-company",
+"platform": "instatus",
+"status_url": "https://status.owndata.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "maintenance",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

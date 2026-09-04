@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>xMatters incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/xmatters/</link><description>Incidents from xMatters's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Notice:  Issue discovered with xMatters and ServiceNow update Zurich Patch 10 Hotfix 4 [resolved]</title><link>https://stspg.io/jd2yqlwvzbh7</link><guid isPermaLink="false">xmatters:2026-08-26T16:16:46.641-07:00</guid><pubDate>Wed, 26 Aug 2026 23:16:46 +0000</pubDate><description>ServiceNow has resolved this issue on Friday, August 28, 2026 with a maintenance patch.   The problem was related to an issue in the ServiceNow patch identified in their article KB3147727 (https://support.servicenow.com/kb_view.do?sysparm_article=KB3147727)</description></item><item><title>Issue Discovered - Service disruption in North American Region - Multiple Services [postmortem]</title><link>https://stspg.io/rr5l7tfls2f3</link><guid isPermaLink="false">xmatters:2026-07-01T12:53:34.099-07:00</guid><pubDate>Wed, 01 Jul 2026 19:53:34 +0000</pubDate><description>**What happened?** 
+
+On July 1st, 2026, some customers reported an issue to xMatters Customer Support where they were encountering authentication errors when accessing the web user interface. 
+
+**Why did it happen?** 
+
+This issue occurred because a database cluster reached 100% resource utilization, causing database requests to time out. An exceptional traffic pattern exposed a set of slow-running queries, which significantly increased query latency on the cluster. As latency increased, there was resource starvation and further degradation of the cluster&#x27;s responsiveness, resulting in timeouts. 
+
+**How did we respond?** 
+
+As soon as Customer Support confirmed the issue, they engaged the Engineering teams to investigate. As designed, the system had restored itself before Engineering could i</description></item><item><title>Issue Discovered - Service disruption in Europe Region – Web User Interface [postmortem]</title><link>https://stspg.io/5xj4dkqqktbz</link><guid isPermaLink="false">xmatters:2026-05-01T01:45:10.606-07:00</guid><pubDate>Fri, 01 May 2026 08:45:10 +0000</pubDate><description>**What happened?** 
+
+On May 1st, 2026, some customers reported an issue to xMatters Customer Support where attempting to send a message via the web user interface or viewing an alert on the Alerts report resulted in an error being displayed. The issue only affected the Reporting functions in the EMEA region; the system continued to accept signals, generate alerts, and send notifications across all regions. 
+
+**Why did it happen?** 
+
+The issue occurred when, during routine database maintenance, the database called a mismatched version of the library, resulting in an internal database error. The version mismatch within the cluster was traced to a prior database engine upgrade where a subset of replica nodes did not restart into the upgraded version. At no point was there any risk to data int</description></item><item><title>Issue Discovered - Service disruption in North American Region – API [postmortem]</title><link>https://stspg.io/stp58bcvly6g</link><guid isPermaLink="false">xmatters:2026-04-01T07:06:41.982-07:00</guid><pubDate>Wed, 01 Apr 2026 14:06:41 +0000</pubDate><description>**What happened?** 
+
+On April 1st, 2026, some customers reported an issue to xMatters Customer Support where the Alerts or Notifications reports were timing out and failing to load. 
+
+**Why did it happen?** 
+
+This issue occurred because a backend service was experiencing significant unexpected load that caused report processing to be delayed. The ongoing resource constraint resulted in timeouts. 
+
+**How did we respond?** 
+
+As soon as customers reported an issue, Customer Support launched an investigation and escalated to the Engineering teams. The teams initiated rolling restart procedures for the applicable backend services to restore functionality. Once the rolling restart was completed, service was fully restored. 
+
+**What are we doing to prevent it from happening again?** 
+
+The Enginee</description></item><item><title>Issue Discovered - Service disruption in All Regions – SSO login to Web User Interface [postmortem]</title><link>https://stspg.io/7vy4td4c9861</link><guid isPermaLink="false">xmatters:2026-03-10T13:36:46.236-07:00</guid><pubDate>Tue, 10 Mar 2026 20:36:46 +0000</pubDate><description>**What happened?** 
+
+On March 10th, 2026, some customers reported an issue to xMatters Customer Support where they were encountering a 404 error page when attempting to log in to their instances via SSO. Some users may also have encountered a “We’ve run into a problem while retrieving your data.” error message. 
+
+**Why did it happen?** 
+
+This issue occurred during a routine maintenance update to the xMatters platform. Although several components of the platform were updated, specific configurations of the component related to SSO-based authentication conflicted with the update and resulted in 404 errors. This issue was limited to those few customers that had specific criteria set for their SSO configuration. 
+
+**How did we respond?** 
+
+As soon as customers reported the issue, Customer Supp</description></item><item><title>Issue Discovered - Service disruption in North American Region - Multiple Services [postmortem]</title><link>https://stspg.io/9n18jzrfh0rz</link><guid isPermaLink="false">xmatters:2025-11-21T05:54:24.529-08:00</guid><pubDate>Fri, 21 Nov 2025 13:54:24 +0000</pubDate><description>**What happened?**
+
+On November 21, 2025, at 12:50 PM UTC, the xMatters internal monitoring tools detected irregular behavior in how internal traffic was being routed. Some customers in the APAC region   communicating with services in North America \(specifically US-East\) may have encountered   intermittent request failures or increased latency. Only traffic between these two regions was affected; all other systems and regions continued normal operations.
+
+**Why did it happen?**
+
+A temporary network disruption between Australia Southeast and US-East caused one internal routing node in Australia to lose accurate information about available backend systems in USEast. The node generated an incomplete routing configuration and temporarily stopped directing traffic to US-East. Under normal cir</description></item><item><title>Issue Discovered - Service disruption in All Regions – Conferencing [postmortem]</title><link>https://stspg.io/db5cqb4vbchv</link><guid isPermaLink="false">xmatters:2025-10-20T03:20:02.415-07:00</guid><pubDate>Mon, 20 Oct 2025 10:20:02 +0000</pubDate><description>**What happened?** 
+
+On October 20th, 2025, at approximately 1:21 AM Pacific, customers began reporting an issue affecting live call routing, conferences, and voice notifications. During this issue, customers in all regions would have been affected.
+
+**Why did it happen?** 
+
+This issue was caused by a global AWS outage that impacted one of our downstream providers, resulting in voice notifications, live call routing, and conferencing they were handling to fail. 
+
+**How did we respond?** 
+
+As soon as the first customer reported an issue, Customer Support engaged the Engineering teams and launched an investigation. Once they identified the root cause, the teams updated the primary provider for affected regions to an alternate provider that was not affected by the AWS outage. When the new pro</description></item><item><title>Issue Discovered - Degraded performance in North American Region – Integration Platform [postmortem]</title><link>https://stspg.io/m0k3kwvgw5mj</link><guid isPermaLink="false">xmatters:2025-10-10T15:58:28.200-07:00</guid><pubDate>Fri, 10 Oct 2025 22:58:28 +0000</pubDate><description>**What happened?** 
+
+On October 10th, 2025, at approximately 4:14 PM Pacific, the xMatters internal monitoring tools alerted Customer Support to service degradation related to an issue that was already being internally monitored with the Integration Platform in the North American region. While this issue was being investigated and mitigated, customers may have experienced intermittent request failures and occasional slowdowns. 
+
+**Why did it happen?** 
+
+These particular issues were caused by a security update that caused conflicts with the underlying runtime environment, specifically the memory management routine. Slow performance of the routine was triggering frequent health checks for a request processing service and causing automatic restarts. 
+
+**How did we respond?** 
+
+As soon as the </description></item><item><title>Issue Discovered - Service disruption in All Regions – Mobile App [postmortem]</title><link>https://stspg.io/flkww2gjqc6w</link><guid isPermaLink="false">xmatters:2025-09-23T20:59:54.123-07:00</guid><pubDate>Wed, 24 Sep 2025 03:59:54 +0000</pubDate><description>**What happened?** 
+
+On September 23rd, 2025, at approximately 8:31 PM Pacific, the xMatters internal monitoring tools alerted the xMatters Support Team to an issue with Apple iOS notifications. Users were not receiving notifications on Apple iOS devices; other device types and alert and response processing were not impacted and continued to operate without interruption. 
+
+**Why did it happen?** 
+
+The issue occurred because of a backend service patch applied by the Engineering teams that affected necessary dependencies for Apple Push notification delivery. 
+
+**How did we respond?** 
+
+As soon as the monitoring tools alerted the Support team, they engaged the Engineering teams to launch an investigation. The teams quickly identified the source of the issue as a recent backend service patch a</description></item><item><title>Issue Discovered - Service disruption in North America – Multiple Services [postmortem]</title><link>https://stspg.io/kfmbcgph0nhl</link><guid isPermaLink="false">xmatters:2025-08-05T20:27:54.843-07:00</guid><pubDate>Wed, 06 Aug 2025 03:27:54 +0000</pubDate><description>### What happened?
+
+On August 5th, 2025, at approximately 7:53 PM Pacific, the xMatters internal monitoring tools alerted the xMatters Support team to an issue in the North America region with notification delivery. Some xMatters customers may have experienced delays when receiving notifications or noticed failed alerts in the system.
+
+### Why did it happen?
+
+The issue occurred because of a network problem that disrupted communication between parts of the queuing system. This caused some components to become temporarily out of sync, leading to timeouts, internal connectivity failures, and a small number of messages not being processed during the disruption. As the system recovered, some performance was degraded until normal operation could be restored.
+
+### How did we respond?
+
+As soon as </description></item></channel></rss>

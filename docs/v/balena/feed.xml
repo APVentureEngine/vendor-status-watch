@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Balena incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/balena/</link><description>Incidents from Balena's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Elevated Error on Public Device Url [resolved]</title><link>https://stspg.io/68jqp7m96k5w</link><guid isPermaLink="false">balena:2026-07-27T16:49:05.052Z</guid><pubDate>Mon, 27 Jul 2026 16:49:05 +0000</pubDate><description>Unusual load on the proxy, caused some degraded performances on the device URL. 
+Everything is now working properly.</description></item><item><title>Elevated API Errors [postmortem]</title><link>https://stspg.io/cp8l2tp32btz</link><guid isPermaLink="false">balena:2026-07-06T13:47:23.022Z</guid><pubDate>Mon, 06 Jul 2026 13:47:23 +0000</pubDate><description>A routine version upgrade to a backend cache changed how the API handled its request queues. Under unusually heavy request load, those queues filled up and the API started dropping traffic, returning timeouts and errors.
+
+Over the course of the incident, affected users saw elevated API error rates that intermittently disrupted dashboard logins, API access, and device connectivity.
+
+We mitigated it by rate-limiting the abnormal traffic at our edge and rolling the cache back to the previous version, which restored normal queue behaviour and recovered the platform.
+
+To avoid a repeat, we&#x27;re improving rate limiting so a single heavy consumer can&#x27;t degrade service for others, and exploring autoscaling and load testing so infrastructure changes are validated under realistic load before they reac</description></item><item><title>Elevated API Errors [resolved]</title><link>https://stspg.io/bd8n10fr2bgw</link><guid isPermaLink="false">balena:2026-07-02T14:03:50.645Z</guid><pubDate>Thu, 02 Jul 2026 14:03:50 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Elevated API Errors [postmortem]</title><link>https://stspg.io/t1ymgw8km62t</link><guid isPermaLink="false">balena:2026-05-05T18:12:25.509Z</guid><pubDate>Tue, 05 May 2026 18:12:25 +0000</pubDate><description>A vulnerability mitigation update required replacing compute cluster nodes, which, when applied, rolled back due to a timeout. This caused some workloads \(API, delta, builder\) to become temporarily unavailable and triggering some undesired secondary effects, including ungracefully terminating a few long lived instances servicing VPN connections. While the rest of the services came back reasonably quickly within a minute or so, it too around one and a quarter hours to re-establish VPN tunnels.
+
+A scheduled maintenance will be posted later to perform this update during a planned outage window.</description></item><item><title>Elevated GIT/Application Builder Errors [postmortem]</title><link>https://stspg.io/nkpt9dcys9ng</link><guid isPermaLink="false">balena:2026-03-31T12:55:25.446Z</guid><pubDate>Tue, 31 Mar 2026 12:55:25 +0000</pubDate><description>Starting around March 11, some cloud builds began failing intermittently with no such image errors. The failures were non-deterministic and affected all architectures. At peak, some users saw around 50% failure rates.
+
+We identified and fixed several bugs in the builder&#x27;s image garbage collector that caused it to over-count freed disk space and run too aggressively, eventually deleting images that in-progress builds still needed. Fixes were deployed between March 19 and April 14, with build failure rates dropping to near-zero after the final deploy.
+
+We&#x27;re continuing to monitor and working on additional safeguards to prevent the garbage collector from targeting images that active builds depend on.</description></item><item><title>Elevated API Errors [resolved]</title><link>https://stspg.io/s8bkp2tw5vx1</link><guid isPermaLink="false">balena:2026-03-24T12:43:08.142Z</guid><pubDate>Tue, 24 Mar 2026 12:43:08 +0000</pubDate><description>We experienced degraded API performance due to an internal configuration change that unintentionally increased system load, resulting in slower response times and reduced request capacity. Our team identified the issue and rolled back the change to restore stability. A root cause fix has been implemented and deployed aswell. The system has now fully recovered, and services are operating normally.</description></item><item><title>Builder Degraded performance [postmortem]</title><link>https://stspg.io/z889t6dhkljg</link><guid isPermaLink="false">balena:2026-03-23T16:57:53.653Z</guid><pubDate>Mon, 23 Mar 2026 16:57:53 +0000</pubDate><description>Between March 11 and March 25, some cloud builds experienced intermittent failures with &quot;no such image&quot; errors. The issue was non-deterministic and did not affect all builds.
+
+We&#x27;ve identified a likely contributing factor and deployed mitigations that have stabilized build reliability. We&#x27;re continuing to investigate the underlying cause to prevent recurrence.
+
+If you experienced build failures during this window, re-running your build should succeed. We appreciate your patience while we worked through this, and we apologize for the disruption.</description></item><item><title>Elevated Dashboard Errors [postmortem]</title><link>https://stspg.io/wflk617tf0yj</link><guid isPermaLink="false">balena:2026-03-03T17:44:25.283Z</guid><pubDate>Tue, 03 Mar 2026 17:44:25 +0000</pubDate><description>We identified an issue in Dashboard v32.2.0, released on March 2, 2026, where opening the dashboard via a direct link to certain pages \(such as billing or other account management pages\) could result in being unexpectedly redirected to the fleets overview. This was caused by a race condition in our access control logic that made a routing decision before all authorization data had finished loading.
+
+The issue was resolved on March 3, 2026 with a fix that ensures the dashboard waits for all access information to be available before determining whether a user can view a page.
+
+We understand this was frustrating, particularly for users trying to manage billing or account settings via bookmarked or shared links. We apologize for the disruption and are adding test coverage for direct-link nav</description></item><item><title>Elevated Device SSH Errors [postmortem]</title><link>https://stspg.io/n404yktrjs0w</link><guid isPermaLink="false">balena:2026-02-26T19:20:35.588Z</guid><pubDate>Thu, 26 Feb 2026 19:20:35 +0000</pubDate><description>On February 26, 2026 at approximately 19:00 UTC, users began experiencing failures when connecting to their devices via balena device ssh. The command returned a generic &quot;host error&quot; with no further detail. The issue affected all CLI-based SSH access through the balena proxy.
+
+Web terminal access and balena device tunnel remained functional throughout the incident and were available as workarounds. Devices themselves were online and healthy; the failure occurred at the authentication stage between the proxy and the device.
+
+**Root cause**
+
+The balena proxy runs several internal processes. As a resource-saving measure, the service that handles web terminal connections had been disabled in the proxy pods dedicated to CLI SSH, since those pods do not serve web terminal sessions. What was not </description></item><item><title>Elevated Device SSH Errors [postmortem]</title><link>https://stspg.io/1yy5hzvbtc40</link><guid isPermaLink="false">balena:2026-02-24T17:27:22.514Z</guid><pubDate>Tue, 24 Feb 2026 17:27:22 +0000</pubDate><description>On Feb 24, 2026 around ~17:20 UTC, a routine infrastructure deployment caused intermittent availability issues with Device URLs and web terminal access. Devices remained online and functional throughout, and CLI-based SSH access was unaffected.
+
+The issue was caused by a configuration change that intentionally disabled several internal services no longer required by our proxy infrastructure. However, these services were still associated with pod health checks. A misconfigured override mechanism applied this change to production before it had passed through all required release gate checks, which would have caught the failing health checks.
+
+The issue was identified quickly through automated monitoring and service was restored manually while a permanent fix was deployed. We have since corre</description></item><item><title>Elevated Delta Errors [postmortem]</title><link>https://stspg.io/yxn2lz6gz60x</link><guid isPermaLink="false">balena:2026-02-10T09:33:42.929Z</guid><pubDate>Tue, 10 Feb 2026 09:33:42 +0000</pubDate><description>v2 delta generation service experienced failures from ~21:15 UTC Feb 9 to ~10:00 UTC Feb 10, 2026, due to a missing configuration dependency during a logic change.
+
+**Impact:**
+
+* v2 delta generation requests failed to complete
+* No data loss or security impact
+
+**Root Cause:** Recent logic changes were deployed without the required accompanying configuration update, preventing the service from completing v2 delta requests.
+
+**Resolution:** The logic changes were rolled back, restoring the service to its previous stable state.
+
+**Follow-up Actions:**
+
+* Prepare and deploy the permanent fix
+
+We apologize for the disruption and any inconvenience this caused. We are committed to improving our processes to prevent similar issues in the future.</description></item><item><title>Elevated Cloudlink Errors [postmortem]</title><link>https://stspg.io/5c61796hff90</link><guid isPermaLink="false">balena:2026-02-10T04:05:10.780Z</guid><pubDate>Tue, 10 Feb 2026 04:05:10 +0000</pubDate><description>Balena devices were unable to connect to Cloudlink on February 10, 2026, from approximately 02:26 GMT to 07:11 GMT due to an expired server certificate. Devices that were already connected to Cloudlink were unaffected unless the connection was terminated.
+
+**Root Cause:** The Cloudlink servers were using an expired certificate that was due for replacement.  Consequently, incoming Cloudlink connections failed with a certificate verification error.
+
+**Resolution:** The certificate has been replaced, and Cloudlink servers were restarted to use the new certificate. Balena devices are expected to reconnect to Cloudlink within a few minutes after being disconnected due to the restart.
+
+**Follow-up Actions:**
+
+* Expand certificate expiry monitoring coverage to include all active certificates
+* Au</description></item><item><title>Elevated GIT/Application Builder Errors [postmortem]</title><link>https://stspg.io/z3jzy1kyfsch</link><guid isPermaLink="false">balena:2026-02-04T20:43:19.771Z</guid><pubDate>Wed, 04 Feb 2026 20:43:19 +0000</pubDate><description>Delta generation service experienced degraded performance from ~0900 UTC Feb 4 to ~1700 UTC Feb 5, 2026, due to 32-bit address space limitations affecting large image delta processing.
+
+**Impact:**
+
+* Delta generation timeout rate increased significantly for large container images
+* Users experienced slower image deployments and potential timeouts
+* No data loss or security impact
+
+**Root Cause:** Worker auto-discovery began routing some large delta generation tasks to 32-bit Docker sockets, causing memory constraint failures.
+
+**Resolution:** Corrected worker selection routing to only use 64-bit sockets for delta generation.
+
+**Follow-up Actions:**
+
+* Improve monitoring of delta generation performance and failure rates
+* Add alerting for threshold violations to detect similar issues faste</description></item><item><title>Elevated API Errors [postmortem]</title><link>https://stspg.io/kr137qqn1n5h</link><guid isPermaLink="false">balena:2026-01-28T18:54:18.743Z</guid><pubDate>Wed, 28 Jan 2026 18:54:18 +0000</pubDate><description>### What Happened
+
+On January 28, our API experienced degraded performance due to a cascading pod failure triggered by infrastructure inconsistency.
+
+### Root Cause
+
+We unexpectedly had one node running on an older generation CPU, which caused uneven load distribution. When that node&#x27;s pod failed a health check under normal traffic spikes, it triggered a cascading failure across other pods \(a &quot;thundering herd&quot; effect\).
+
+### Resolution
+
+We resolved the incident by:
+
+* Scaling up the number of API pods to restore capacity during recovery
+* Removing the infrastructure inconsistency that caused the initial failure
+* Adjusting health check configurations to prevent similar cascading failures
+
+We apologize for any disruption this caused and appreciate your patience as we continue improving our</description></item><item><title>Partial API Outage [postmortem]</title><link>https://stspg.io/l3qpv6nvkn0b</link><guid isPermaLink="false">balena:2026-01-28T01:00:00.000Z</guid><pubDate>Wed, 28 Jan 2026 01:00:00 +0000</pubDate><description>Between 00:35 GMT and 01:00 GMT on January 28, 2026, users may have experienced intermittent connectivity issues with the balenaCloud API. Consequently, users may have had difficulty using the balenaCloud dashboard, and some devices also faced delays in reporting their current state to the backend.
+
+**Root Cause:** The incident was triggered during a planned configuration update to our environment. This update caused a brief, simultaneous restart of several core service components. As these services resumed, a high volume of concurrent device Cloudlink reconnections created a temporary surge in traffic. This surge exceeded the immediate processing capacity of our API backend, leading to increased latency and a temporary reduction in available service instances as they struggled to clear th</description></item><item><title>Degraded Performance [resolved]</title><link>https://stspg.io/92xzdkjfyx06</link><guid isPermaLink="false">balena:2025-12-23T16:32:02.019Z</guid><pubDate>Tue, 23 Dec 2025 16:32:02 +0000</pubDate><description>Insufficient AWS compute capacity overloaded the remaining nodes. This high load caused readiness probes to fail, triggering API restarts that created a feedback loop of increasing pressure.</description></item><item><title>An upstream provider outage is affecting connectivity to balenaCloud services [resolved]</title><link>https://stspg.io/ztn70qkg57j3</link><guid isPermaLink="false">balena:2025-12-05T09:05:53.807Z</guid><pubDate>Fri, 05 Dec 2025 09:05:53 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Builder partially degraded service [postmortem]</title><link>https://stspg.io/99fbcq1zkjnl</link><guid isPermaLink="false">balena:2025-11-12T09:13:13.927Z</guid><pubDate>Wed, 12 Nov 2025 09:13:13 +0000</pubDate><description>### Summary
+
+On November 12, 2025, we experienced an incident causing increased build failures. This was traced to a significant network issue upstream of our hosting provider, which was outside their direct control. Build success rates returned to normal as of 17:15 UTC, and we formally closed the incident at 20:00 UTC after a period of extended monitoring.
+
+### What Happened
+
+A network issue between upstream service providers resulted in severe packet loss. This network degradation disrupted connections to our remote builder workers, causing an increase in builds failing with connection timeout errors \(e.g., `ETIMEDOUT`\).
+
+### Our Response &amp; Mitigation
+
+* While the upstream network issue was being addressed, we brought additional builder workers online in unaffected regions to successf</description></item><item><title>Elevated GIT/Application Builder Errors [resolved]</title><link>https://stspg.io/3vrqwm48cqk3</link><guid isPermaLink="false">balena:2025-10-20T08:45:35.303Z</guid><pubDate>Mon, 20 Oct 2025 08:45:35 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Elevated Device URLs/VPN Errors [resolved]</title><link>https://stspg.io/7xx354czl8y8</link><guid isPermaLink="false">balena:2025-10-01T13:30:00.000Z</guid><pubDate>Wed, 01 Oct 2025 13:30:00 +0000</pubDate><description>An update to our kube-system infrastructure resulted in a disruptive pod rollout that left some devices disconnected from Cloudlink for up to 10 minutes. We apologize for the interruption and future updates to this component will be handled within planned maintenance windows.</description></item><item><title>Elevated Device VPN Tunnel Errors [postmortem]</title><link>https://stspg.io/w6zn70z5jp4d</link><guid isPermaLink="false">balena:2025-09-30T19:47:47.495Z</guid><pubDate>Tue, 30 Sep 2025 19:47:47 +0000</pubDate><description>On **September 30th**, following a production deployment of a core component, a critical authorization failure affected the `balena device tunnel` command, preventing users from establishing port tunnel connections.
+
+### Summary of the Incident
+
+A subtle bug was introduced several weeks ago in a **small database query change** within a component. This change passed our standard review process and all pre-deployment testing, including unit tests utilizing mocked API endpoints.
+
+Because of other pending changes, this component update was not immediately deployed. When it was finally released to production on September 30th, the query exhibited an unexpected incompatibility with the **live production API environment**.
+
+The failure was not immediately apparent through our primary monitoring, </description></item><item><title>Elevated Device URLs/VPN Errors [postmortem]</title><link>https://stspg.io/fn5s8f1bc5kn</link><guid isPermaLink="false">balena:2025-09-17T20:10:15.971Z</guid><pubDate>Wed, 17 Sep 2025 20:10:15 +0000</pubDate><description>#### Impact
+
+Users were unable to access their devices via SSH through the web-terminal or the CLI. The CLI would return an error:
+
+`user does not have permission to access device`
+
+An error in our Renovate configuration allowed our automation system to merge and deploy an unintended backend component to production. 
+
+#### Resolution
+
+Our team quickly identified the issue and:
+
+1. Immediately rolled back the component to the previous verified version
+2. Restored remote SSH access for all affected devices
+3. Corrected the Renovate bot configuration to prevent similar automatic deployments
+
+#### Response
+
+* **Enhanced deployment controls:** We&#x27;ve restored our automation configuration to ensure all components must pass manual review before production deployment
+* **Improved monitoring:** We&#x27;r</description></item><item><title>Builder partially degraded service [postmortem]</title><link>https://stspg.io/r20kt9pxrg6y</link><guid isPermaLink="false">balena:2025-09-16T02:33:40.760Z</guid><pubDate>Tue, 16 Sep 2025 02:33:40 +0000</pubDate><description>The core problem stemmed from processing large files in the build context, which led to increased memory usage and, at times, network latency between regions.
+
+### Summary of Events
+
+* **Investigation and Identification \(September 16, 2025\):** We initially identified the issue as excessive memory consumption on our builder services.
+* **Temporary Mitigation \(September 23, 2025\):** We detected that network latency, particularly with larger build contexts, was contributing to the problem. We deployed temporary servers to mitigate this regional impact.
+* **Resolution \(September 25, 2025\):** The issue was resolved by implementing higher memory allocations on the builder services to handle the larger build context files and buffer memory issues.
+
+### Permanent Fixes and Structural Changes</description></item><item><title>Elevated API Errors [postmortem]</title><link>https://stspg.io/qv310jqz0lzm</link><guid isPermaLink="false">balena:2025-09-10T13:47:40.754Z</guid><pubDate>Wed, 10 Sep 2025 13:47:40 +0000</pubDate><description>On Sept. 10th, around 13:30pm UTC, our alerting system reported intermittent elevated API errors. We quickly determined the cause of the incident to be an overly aggressive liveness probe rotating our API pods. A fix was deployed immediately.
+
+While the API was recovering, an automatic update of the Cloudlink pods occurred. As the API was slower to respond, device reconnections and SSH authentication were slower than usual, but steadily improving.
+
+This apparent recovery was masking a different issue in the Cloudlink update itself—an issue that was severely impacting container performance under high concurrency. This problem was only apparent at the scale of the production environment and was completely invisible at the lower scale of our development and testing environments.
+
+Once the con</description></item><item><title>Elevated Dashboard Errors [postmortem]</title><link>https://stspg.io/zdb5z94v8g4x</link><guid isPermaLink="false">balena:2025-08-27T16:48:35.907Z</guid><pubDate>Wed, 27 Aug 2025 16:48:35 +0000</pubDate><description>We experienced a temporary outage affecting ESR image downloads due to a recent system update. The issue was quickly identified and resolved by rolling back to a previous stable version while we address the underlying compatibility issue.</description></item><item><title>Elevated API Errors [resolved]</title><link>https://stspg.io/bcq092dbpjs9</link><guid isPermaLink="false">balena:2025-08-19T11:20:51.617Z</guid><pubDate>Tue, 19 Aug 2025 11:20:51 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Partial API Outage [resolved]</title><link>https://stspg.io/zq9m2tzy8w2p</link><guid isPermaLink="false">balena:2025-08-14T13:52:15.670Z</guid><pubDate>Thu, 14 Aug 2025 13:52:15 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

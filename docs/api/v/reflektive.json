@@ -1,0 +1,51 @@
+{
+"vendor": "Reflektive",
+"slug": "reflektive",
+"platform": "statuspage",
+"status_url": "https://status.reflektive.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Starting from Saturday, April 4th at 11:52 AM PST, we experienced intermittent performance issues within our infrastructure that led to a higher-than-normal error rate. During this time, some users may have encountered slowness or pages not loading as expected.\n\nOur team actively investigated the issue and identified the root cause within a specific component of our system. We have since taken corrective action by optimizing configurations and stabilizing the affected components.\n\nAs a result, error rates have now returned to normal levels, and system performance has stabilized. Customers should no longer experience any disruptions.\n\nWe will continue to closely monitor the system to ensure consistent performance and prevent recurrence.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-04T18:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2026-04-04T18:00:00.000Z",
+"state": "resolved",
+"title": "Reflektive App Degradation Resolved",
+"updated_at": "2026-04-07T15:30:03.959Z",
+"url": "https://stspg.io/lhp1t7n52zkw"
+},
+{
+"body": "Reflektive application is back to healthy state. All the services are functional. AWS team confirmed that their operational issue is resolved. \n\nPlease follow the AWS public status to know more about their operational issue and the resolution here: https://health.aws.amazon.com/health/status",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T03:57:26.415Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T15:44:09.153Z",
+"state": "resolved",
+"title": "Performance Degradation \u2013 Impacted by AWS Incident",
+"updated_at": "2025-10-21T03:57:26.430Z",
+"url": "https://stspg.io/6gpjy9hsxppr"
+},
+{
+"body": "The application was unavailable for about 15mins. The issue has been resolved but the root cause is yet to be determined.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-06T15:00:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-10-06T14:00:00.000Z",
+"state": "resolved",
+"title": "Reflektive Application Outage",
+"updated_at": "2025-10-07T11:53:00.300Z",
+"url": "https://stspg.io/mj6b6tt4b6ck"
+}
+]
+}

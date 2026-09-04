@@ -1,0 +1,37 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"sw0839wd6jzc": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-05T10:27:54.037+01:00",
+"resolved_inferred": false,
+"started_at": "2025-12-05T10:00:56.272+01:00",
+"state": "resolved",
+"title": "Doodle.com service interruption",
+"updated_at": "2025-12-05T10:27:54.054+01:00",
+"url": "https://stspg.io/0yn7xw2j832s"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "doodle",
+"status_url": "https://uptime.doodle.com",
+"vendor": "Doodle"
+}

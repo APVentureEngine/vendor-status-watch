@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Auvik incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/auvik/</link><description>Incidents from Auvik's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Incident Title [resolved]</title><link>https://stspg.io/sk7gl55zfj27</link><guid isPermaLink="false">auvik:2026-09-03T07:12:53.072-04:00</guid><pubDate>Thu, 03 Sep 2026 11:12:53 +0000</pubDate><description>The incident has been fully resolved, and all services are operating normally.
+
+Customers should no longer experience any related issues. If you continue to experience problems, please don&#x27;t hesitate to contact Auvik Support.
+
+We will provide a Root Cause Analysis (RCA) once it is available.</description></item><item><title>Service Disruption -  AU1 Cluster Sites [postmortem]</title><link>https://stspg.io/8ztjw0r1mtth</link><guid isPermaLink="false">auvik:2026-08-27T08:46:10.771-04:00</guid><pubDate>Thu, 27 Aug 2026 12:46:10 +0000</pubDate><description># Service Disruption - Availability Issues on the AU1 Cluster
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 27, 2026  12:20 - UTC  
+Resolved:     Aug 27, 2026  13:15 - UTC
+
+### Customer impact
+
+Clients hosted in the AU1 region experienced a temporary interruption of Auvik services. Depending on the client, monitoring, alerting, collector connectivity, and access to the web interface were unavailable for up to approximately one hour.
+
+### Cause
+
+A cascading failure in core platform services caused multiple service components to restart, including a central coordination component. This resulted in widespread client-environment restarts across the AU1 region.
+
+### Effect
+
+Affected client environments became temporarily unavailable while services restarted. The platfor</description></item><item><title>Inaccurate notifications being sent for legacy alerts [postmortem]</title><link>https://stspg.io/701sb7knmbl9</link><guid isPermaLink="false">auvik:2026-08-17T13:53:50.634-04:00</guid><pubDate>Mon, 17 Aug 2026 17:53:50 +0000</pubDate><description># Service Degradation - Legacy Alerts Notification
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 17, 2026  13:15 - UTC  
+Resolved:     Aug 21, 2026  14:12 - UTC
+
+### Customer impact
+
+Some customers using Legacy Alerts experienced inaccurate alert notifications, including false-positive alerts and unintended email notifications. During remediation, some legacy alert processing was delayed, and alert visibility in the user interface temporarily lagged. V2 Alerts remained operational throughout the incident.
+
+### Cause
+
+A product release intended to retire older default Legacy Alert configurations for new environments also removed supporting alert conditions that were still required by some existing customers with customized Legacy Alerts. Without the complete conditi</description></item><item><title>Issue with Legacy Alert Delivery [resolved]</title><link>https://stspg.io/lcbjryjg4jzj</link><guid isPermaLink="false">auvik:2026-08-17T11:00:40.735-04:00</guid><pubDate>Mon, 17 Aug 2026 15:00:40 +0000</pubDate><description>The incident has been fully resolved, and all services are operating normally.
+
+Customers should no longer experience any related issues. If you continue to experience problems, please don&#x27;t hesitate to contact Auvik Support.
+
+We will provide a Root Cause Analysis (RCA) once it is available.</description></item><item><title>Emergency Collector Rollback [postmortem]</title><link>https://stspg.io/16gkwgd9vr90</link><guid isPermaLink="false">auvik:2026-04-13T20:32:11.502-04:00</guid><pubDate>Tue, 14 Apr 2026 00:32:11 +0000</pubDate><description># Service Disruption - SNMPv3 Monitoring Loss Following Collector Upgrade
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Apr 13, 2026 20:00 - UTC  
+Resolved:     Apr 13, 2026 22:32 - UTC
+
+### Customer impact
+
+Customers experienced a loss of monitoring data from only devices using specific SNMPv3 configurations. While devices remained online and reachable, monitoring data was not collected, resulting in reduced visibility across environments.
+
+### Cause
+
+A recent collector upgrade introduced changes to encryption handling that affected support for certain legacy SNMPv3 configurations. This resulted in failures when attempting to collect data from devices configured that way.
+
+### Effect
+
+Monitoring data collection failed for affected devices across multiple clusters. Thi</description></item><item><title>Service Degradation – Some Customers Experiencing Login Issues After Maintenance [postmortem]</title><link>https://stspg.io/y5q08g56cky8</link><guid isPermaLink="false">auvik:2026-03-08T15:10:43.417-04:00</guid><pubDate>Sun, 08 Mar 2026 19:10:43 +0000</pubDate><description># Service Degraded - Some Customers Experiencing Login Issues After Maintenance
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Mar 7, 2026 18:42 - UTC  
+Resolved:     Mar 9, 2026 21:10 - UTC
+
+### Cause
+
+Following a platform upgrade, an internal reconciliation process incorrectly identified a subset of user records as deleted. This occurred due to an error condition in a synchronization component that failed to process all expected user data during reconciliation.
+
+### Effect
+
+Affected users were able to log in to the platform but were unable to access their expected sites or tenants due to missing user authorizations. In some cases, API access using previously generated API keys was also affected.
+
+Monitoring, alerting, and data collection services continued to function</description></item><item><title>Emergency maintenance for EU2 [postmortem]</title><link>https://stspg.io/jgsqkrqz30t6</link><guid isPermaLink="false">auvik:2025-12-15T18:28:18.629-05:00</guid><pubDate>Mon, 15 Dec 2025 23:28:18 +0000</pubDate><description># Service Disruption - The EU2 cluster was unavailable 
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Dec 15, 2025 20:00 – UTC  
+Resolved:     Dec 16, 2025 02:00 – UTC
+
+### Customer impact
+
+During the incident window, customers hosted in the EU2 region experienced intermittent service degradation. This included slower system responsiveness, temporary inconsistencies in monitoring data, and brief periods where alerts may have been delayed or inaccurate.  
+Most customers regained access as services were progressively restored, and complete stability was confirmed before the incident was closed.
+
+### Cause
+
+The incident was caused by an elevated load in the EU2 service environment, resulting in an uneven workload distribution across backend resources. As the load increase</description></item><item><title>Meraki Switch stacks creating duplicate devices in the product [postmortem]</title><link>https://stspg.io/t6wwffd07tjk</link><guid isPermaLink="false">auvik:2025-12-15T09:35:29.220-05:00</guid><pubDate>Mon, 15 Dec 2025 14:35:29 +0000</pubDate><description># Service Degraded - Duplicated Devices for Meraki Switch Stacks
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Dec 15, 2025 08:34 – UTC  
+Resolved:     Dec 15, 2025 13:20 – UTC
+
+### Customer impact
+
+Customers with Meraki switch stacks across all clusters experienced:  
+Duplicate Meraki switches are appearing in the device inventory, including entries without management IP addresses.  
+Inability to manually delete duplicates, as they were automatically recreated.  
+Confusing or inaccurate device and stack representations.  
+Temporary inflation of billable device counts for some tenants \(billing data captured and under review\).  
+No other device types were affected.
+
+### Cause
+
+A configuration update intended to improve how Meraki switch stacks are represented in the p</description></item><item><title>Duplicate FortiNet firewalls created on the EU2 cluster. [postmortem]</title><link>https://stspg.io/yq5p5r9dms36</link><guid isPermaLink="false">auvik:2025-12-11T09:30:41.924-05:00</guid><pubDate>Thu, 11 Dec 2025 14:30:41 +0000</pubDate><description># Service Degraded - FortiGate firewalls duplicated in the EU2 cluster, causing a flood of alerts.
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Dec 11, 2025 14:00 – UTC  
+Resolved:     Dec 17, 2025 06:45 – UTC
+
+### Customer impact
+
+Clients with FortiGate firewalls in the EU2 region experienced:
+
+* A significant increase in “device offline” alerts due to status flapping between duplicate and original device entries.
+* Duplicate firewalls appear in inventory views, leading to confusion in device management.
+* Inaccurate device statistics and monitoring gaps.
+* In some cases, customers attempted to delete duplicates, which resulted in the loss of historical data on the original device.
+
+No other device types or regions were affected.
+
+### Cause
+
+A system change intended </description></item><item><title>Auvik Live Chat is Inaccessible [resolved]</title><link>https://stspg.io/1gxz2qhl20kj</link><guid isPermaLink="false">auvik:2025-12-05T07:50:30.000-05:00</guid><pubDate>Fri, 05 Dec 2025 12:50:30 +0000</pubDate><description>The incident has been fully resolved, and all services are operating normally.
+
+Customers should no longer experience any related issues. If you continue to experience problems, please don&#x27;t hesitate to contact Auvik Support.
+
+We appreciate your understanding and patience.</description></item><item><title>Service Disruption -  Login issues [resolved]</title><link>https://stspg.io/19npfpys2xh2</link><guid isPermaLink="false">auvik:2025-12-03T09:21:09.865-05:00</guid><pubDate>Wed, 03 Dec 2025 14:21:09 +0000</pubDate><description>Latest update from Okta
+Incident Resolved
+
+December 3, 2025 at 8:58am PST
+
+An issue impacting the core authentication service for customers in Okta Cell US7 has been resolved. Additional root cause information will be available within five business days.
+
+We will close the status page for Auvik&#x27;s sites.</description></item><item><title>Service Disruption -  Reduced functionality across all clusters [postmortem]</title><link>https://stspg.io/9phgpqx8cp1d</link><guid isPermaLink="false">auvik:2025-11-21T13:29:10.342-05:00</guid><pubDate>Fri, 21 Nov 2025 18:29:10 +0000</pubDate><description># Service Degraded - Data Not Loading Across All Clusters
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Nov 21, 2025 17:43 – UTC  
+Resolved:     Nov 21, 2025 19:18 – UTC
+
+### Customer impact
+
+Customers across all regions were able to log in, but many were unable to view key data within the platform. This included features such as:
+
+* Network maps
+* Inventory and site lists
+* Dashboards
+* Other views are dependent on permissions and hierarchical data.
+
+This resulted in degraded usability and limited visibility into managed environments.
+
+### Cause
+
+During a routine maintenance task intended to clean up older data records, an incorrect piece of information was unintentionally added to the system. This faulty data prevented a core component—responsible for organizing how </description></item><item><title>Partial service degradation due to AWS outage [resolved]</title><link>https://stspg.io/h5xgd9bd0q4y</link><guid isPermaLink="false">auvik:2025-10-20T05:51:11.783-04:00</guid><pubDate>Mon, 20 Oct 2025 09:51:11 +0000</pubDate><description>The incident has been fully resolved, and all services are operating normally.
+
+Customers should no longer experience any related issues. If you continue to experience problems, please don&#x27;t hesitate to contact Auvik Support.</description></item><item><title>Clients on US4 cluster are experiencing 500 Errors [postmortem]</title><link>https://stspg.io/x1w54rqkp966</link><guid isPermaLink="false">auvik:2025-10-15T11:22:07.158-04:00</guid><pubDate>Wed, 15 Oct 2025 15:22:07 +0000</pubDate><description># Service Degraded - Sites have lost settings after maintenance
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Oct 11, 2025 – 12:00 UTC  
+Resolved:     Oct 15, 2025 – 22:00 UTC
+
+### Cause
+
+During a scheduled system update, a background maintenance process unintentionally removed reference files used to identify stored site configurations. When affected systems restarted after the update, they were unable to locate those configuration files and temporarily appeared as new, empty sites.
+
+This occurred because the maintenance process was using outdated information when determining which data to clean up safely. The underlying data remained securely stored, but the missing reference files prevented normal access until they were restored.
+
+### Effect
+
+A subset of tenants acr</description></item><item><title>Site performance and access issues [postmortem]</title><link>https://stspg.io/083y9jrc99c4</link><guid isPermaLink="false">auvik:2025-09-23T13:45:56.147-04:00</guid><pubDate>Tue, 23 Sep 2025 17:45:56 +0000</pubDate><description># Service Disruption - Platform Availability and Login Access 
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Sep 23, 2025 – 17:45- UTC  
+Resolved:     Sep 26, 2025 – 13:58 - UTC
+
+### Customer impact
+
+Tenants on the CA1 cluster lost their settings, and Auvik was inaccessible for a time.
+
+Intermittent platform errors and degraded performance for some customers.
+
+A temporary issue prevented certain users from logging in via Okta.
+
+Delays in data synchronization in the EU1 region necessitate restarting the cluster.
+
+### Cause
+
+A configuration update intended for specific tenants was applied globally due to a missing query constraint.
+
+This caused the deletion of tenant and user records in one cluster, leading to cascading synchronization and workload impacts across other c</description></item><item><title>Service Disruption - Log in issues to Auvik [postmortem]</title><link>https://stspg.io/lsrwk842p6dl</link><guid isPermaLink="false">auvik:2025-09-17T09:53:56.227-04:00</guid><pubDate>Wed, 17 Sep 2025 13:53:56 +0000</pubDate><description># Service Degraded - Clients experienced login issues to their site because the URL redirect was not working.
+
+## Root Cause Analysis
+
+  
+A recent update led to more traffic than expected, resulting in simultaneous overload of the same systems. This overloaded them, leading to delays and occasional failures when customers tried to log in. Some customers also experienced issues when trying to start new trials.
+
+### Duration of the incident
+
+Discovered: Sep 17, 2025 13:50 - UTC  
+Resolved:     Sep 18, 2025 21:00 - UTC
+
+### Cause
+
+The update unintentionally created extra demand on shared systems. As a result, the login process and new trial creation sometimes failed or responded slowly.
+
+### Effect
+
+* Some customers could not log in after entering their password or completing MFA.
+* Occasiona</description></item><item><title>Users are having issues connecting to Auvik [postmortem]</title><link>https://stspg.io/mc885g7yw5lw</link><guid isPermaLink="false">auvik:2025-09-10T12:43:33.677-04:00</guid><pubDate>Wed, 10 Sep 2025 16:43:33 +0000</pubDate><description># Service Degraded - Login and Collector Installation Issues on US3 Cluster
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Sep 10, 2025 13:17 UTC  
+Resolved:     Sep 12, 2025 15:08 UTC
+
+### Cause
+
+Two separate but overlapping issues contributed to this incident:
+
+* Collector Installation Failures – Windows collectors were unable to install due to missing service principal credentials on the backend agent server, which prevented successful API calls for subscription data.
+* Login and Redirect Failures – Following a restart of the US3 frontend, requests for user and tenant data from secondary clusters intermittently failed. This caused login attempts through Okta to hang and product redirects to fail.
+
+### Effect
+
+* Users attempting to log in via Okta were unable to compl</description></item><item><title>US4 clients are not accessible [resolved]</title><link>https://stspg.io/lnwns1f9qndc</link><guid isPermaLink="false">auvik:2025-08-27T17:30:17.548-04:00</guid><pubDate>Wed, 27 Aug 2025 21:30:17 +0000</pubDate><description>The access issues for clients on the US4 cluster have been fully resolved, and services are operating as expected.
+
+Impact: 
+Customers should no longer experience any related issues. If you continue to experience issues, please report them to Auvik Support.</description></item><item><title>Service Disruption -  Auvik clients are experiencing a disruption of services - Multiple Clusters [postmortem]</title><link>https://stspg.io/3rk0kw6jl8zw</link><guid isPermaLink="false">auvik:2025-08-25T14:32:03.498-04:00</guid><pubDate>Mon, 25 Aug 2025 18:32:03 +0000</pubDate><description># Service Disruption - Intermittent Availability &amp; Performance Issues Across Multiple Clusters
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 25, 2025 18:00 - UTC  
+Resolved:     Aug 29, 2025 14:00 - UTC
+
+### Cause
+
+A configuration rollout unexpectedly generated a large number of configuration entries, which propagated across tenants. This resulted in excessive background processing and memory pressure in core services. The strain led to degraded performance, instability, and in some cases, brief service crashes across clusters.
+
+### Effect
+
+Customers experienced:
+
+* Intermittent access and sign-in issues in several regions
+* Slow page loads and missing/delayed alert notifications
+* Errors or gaps in specific dashboard and visualization views
+* Temporary unavailabil</description></item><item><title>Site Dropdown and permission issues in the Auvik UI [postmortem]</title><link>https://stspg.io/r1x66knlhw3s</link><guid isPermaLink="false">auvik:2025-08-25T12:58:53.838-04:00</guid><pubDate>Mon, 25 Aug 2025 16:58:53 +0000</pubDate><description># Performance Degraded - Site dropdown not working for several clusters
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 25, 2025 – 15:40 UTC  
+Resolved:     Aug 25, 2025 – 16:45 UTC
+
+### Cause
+
+A recent system update introduced a change that depended on data not yet available in our production environment. As a result, the site selector \(drop-down\) was unable to load correctly, which prevented users from switching between sites until the update was rolled back.
+
+### Effect
+
+Customers were unable to switch sites in the platform, which limited access to some account information and historical data.
+
+### Action taken
+
+_All times are in UTC_
+
+**08/25/2025**
+
+**15:40** – Update deployed across production clusters.
+
+**16:17** – Customer reports received that the site dro</description></item><item><title>Service Degraded - Clients on the EU1 cluster using V2 alerting are not reviewing device alerts [postmortem]</title><link>https://stspg.io/kf7r0frdl94l</link><guid isPermaLink="false">auvik:2025-08-22T05:32:22.637-04:00</guid><pubDate>Fri, 22 Aug 2025 09:32:22 +0000</pubDate><description># Service Degraded - Clients on the EU1 cluster using V2 alerting are not reviewing device alerts.
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 21, 2025 23:47 - UTC  
+Resolved:     Aug 22, 2025 12:00 - UTC
+
+### Cause
+
+A change to the alert-processing timing logic introduced a defect where time windows did not close properly. This prevented events from being processed promptly, causing alerts to queue up and delaying their delivery to the user interface.
+
+### Effect
+
+Customers on the EU1 cluster using V2 alerting experienced delays in reviewing device alerts, with some alerts being delayed by up to 12 hours.
+
+### Action taken
+
+_All times are in UTC_
+
+**08/21/2025**
+
+**23:47** – Alert processing began lagging; backlog started building.
+
+**08/22/2025**
+
+**06:00** – I</description></item><item><title>Performance Issue - Slowness on site on the EU2 cluster [postmortem]</title><link>https://stspg.io/vwdtzhn64n7d</link><guid isPermaLink="false">auvik:2025-08-20T09:50:24.176-04:00</guid><pubDate>Wed, 20 Aug 2025 13:50:24 +0000</pubDate><description># Performance Degraded - Sites on the EU2 cluster are slow to load
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 20, 2025 09:27 – UTC  
+Resolved:     Aug 20, 2025 10:05 – UTC
+
+### Cause
+
+One application component handling user requests on EU2 became unhealthy and stopped responding normally.
+
+### Effect
+
+Some EU2 customers experienced slow page loads and intermittent timeouts in the web experience during the incident window.  
+Action taken
+
+_All times are in UTC_
+
+**08/20/2025**
+
+**09:27** – Potential slowness on EU2 reported; investigation initiated.
+
+**09:35** – Elevated errors observed; incident declared; response team engaged.
+
+**09:45** – Application components restarted to restore service.
+
+**10:05** – Service performance restored.
+
+**10:07** – Validation con</description></item><item><title>Performance Issue - Sites on US2 cluster are slow to load [postmortem]</title><link>https://stspg.io/gynnswxpd4jv</link><guid isPermaLink="false">auvik:2025-08-19T11:30:00.000-04:00</guid><pubDate>Tue, 19 Aug 2025 15:30:00 +0000</pubDate><description># Performance Degraded - Clients on the US2 cluster are slow to load
+
+## Root Cause Analysis
+
+### Duration of the incident
+
+Discovered: Aug 19, 2025 – 13:10 UTC  
+Resolved:    Aug 19, 2025 – 15:30 UTC
+
+### Cause
+
+Recent configuration changes to backend data replication caused a surge in database writes. This increased CPU utilization across all clusters, but while other clusters recovered, the US2 database instance did not. The elevated CPU load persisted for over 24 hours, which led to customer-facing slowness when loading sites on the US2 cluster.
+
+### Effect
+
+Customers on the US2 cluster experienced significantly slower site load times in the Auvik UI. This impacted demos, trials, and production users, resulting in degraded user experience until resolution.
+
+### Action taken
+
+_All times</description></item></channel></rss>

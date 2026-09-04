@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Project44 incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/project44/</link><description>Incidents from Project44's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Disptach Request Failing [resolved]</title><link>https://stspg.io/n4glmztlrwd6</link><guid isPermaLink="false">project44:2026-09-01T16:53:04.000Z</guid><pubDate>Tue, 01 Sep 2026 16:53:04 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Shipment Shared-Visibility Degraded for Carrier Tenants [resolved]</title><link>https://stspg.io/t1xz94lrlxy3</link><guid isPermaLink="false">project44:2026-09-01T16:45:26.000Z</guid><pubDate>Tue, 01 Sep 2026 16:45:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Container Track &amp; Trace (CTT) – Partial Service Disruption [resolved]</title><link>https://stspg.io/8b3rqnd8418p</link><guid isPermaLink="false">project44:2026-08-26T11:41:34.229Z</guid><pubDate>Wed, 26 Aug 2026 11:41:34 +0000</pubDate><description>Dear Valued Customer,
+
+The disruption affecting the Container Track &amp; Trace (CTT) system has been resolved.
+
+Our engineering team has confirmed that the affected services have returned to normal, and we have verified that the Container Track &amp; Trace (CTT) system is operating as expected.
+
+We sincerely apologize for any inconvenience this issue may have caused and greatly appreciate your patience and understanding while we worked to resolve it.
+
+As an organization, we remain committed to delivering reliable, high-availability services to our customers. If you have any questions or require further assistance, please feel free to contact us at support@project44.com.
+
+Thank you for your continued trust.
+
+Best Regards,
+Customer Support</description></item><item><title>Delay in Ocean Shipment Updates [resolved]</title><link>https://stspg.io/fl2zczq0nmxh</link><guid isPermaLink="false">project44:2026-07-27T11:51:39.432Z</guid><pubDate>Mon, 27 Jul 2026 11:51:39 +0000</pubDate><description>Dear Valued Customer,
+
+The issue causing delays in the processing of ocean shipment data has been resolved.
+
+Our engineering team has confirmed that processing has returned to normal, and shipment updates are now flowing as expected in both Movement and CTT. We have verified that the affected services are operating normally.
+
+We sincerely apologize for any inconvenience this issue may have caused and appreciate your patience and understanding while we worked to resolve it.
+
+As an organization, we remain committed to delivering reliable, high-availability services to our customers. If you have any questions or require further assistance, please feel free to contact us at support@project44.com.
+
+Thank you for your continued trust.
+
+Best Regards,
+Customer Support</description></item><item><title>Partial Service Disruption – Movement Login Issues (Some Customers) [resolved]</title><link>https://stspg.io/mgc4cj5nd8kw</link><guid isPermaLink="false">project44:2026-07-08T18:12:37.701Z</guid><pubDate>Wed, 08 Jul 2026 18:12:37 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting Movement login in the NA Production environment has been resolved.
+
+Our investigation determined that the issue impacted some customers using specific internet service providers (ISPs). We have confirmed that affected users are now able to successfully log in to Movement, and service has been restored.
+
+We apologize for the inconvenience and appreciate your patience throughout this incident.
+
+If you continue to experience login issues, please contact **[support@project44.com](mailto:support@project44.com)**.
+
+Best Regards,
+Customer Support Team</description></item><item><title>Temporary Service Disruption – YMS Driver Text Messaging [resolved]</title><link>https://stspg.io/tjnxlqpvz2vg</link><guid isPermaLink="false">project44:2026-06-30T19:53:25.040Z</guid><pubDate>Tue, 30 Jun 2026 19:53:25 +0000</pubDate><description>Dear Valued Customer,
+
+We are pleased to inform you that the issue affecting the Driver Text Messaging functionality has been fully resolved, and the service is now operating normally.
+
+Our engineering team identified the root cause of the issue and implemented the necessary corrective actions to restore full functionality. Users should now be able to send and receive driver text messages as expected without any further disruption.
+
+We sincerely apologize for any inconvenience this may have caused and greatly appreciate your patience and understanding throughout this incident. As an organization, we remain committed to providing reliable, high-availability services to our customers.
+
+If you have any questions or continue to experience any issues, please do not hesitate to contact us at sup</description></item><item><title>Start Tracking Not Working in the Drive View App [resolved]</title><link>https://stspg.io/smtkvhx6l11f</link><guid isPermaLink="false">project44:2026-06-25T17:19:40.933Z</guid><pubDate>Thu, 25 Jun 2026 17:19:40 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting the DriveView App in the North America and Europe production environments has been resolved.
+
+Our team has implemented the necessary fixes, and the service has been fully restored. Drivers should now be able to successfully start tracking for shipments, and shipment tracking initiation is functioning as expected.
+
+We sincerely appreciate your patience and understanding while we worked to resolve this issue. As an organization, we remain committed to providing reliable, high-availability services to our customers.
+
+If you continue to experience any issues or have any questions, please do not hesitate to contact us at support@project44.com.
+
+Best Regards
+Customer Support Team</description></item><item><title>FedEx Last Mile Webhook Migration: Known Issues and Status Update [resolved]</title><link>https://stspg.io/69yswnpz3ysv</link><guid isPermaLink="false">project44:2026-06-17T19:52:55.652Z</guid><pubDate>Wed, 17 Jun 2026 19:52:55 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Movement Export (Emails) Functionality Temporarily Unavailable [resolved]</title><link>https://stspg.io/zyfnyxkm2q30</link><guid isPermaLink="false">project44:2026-05-18T09:32:34.022Z</guid><pubDate>Mon, 18 May 2026 09:32:34 +0000</pubDate><description>Dear Valued Customer,
+
+We are pleased to inform you that the issue affecting the Movement Export (Emails) functionality has been fully resolved, and the service is now operating normally.
+
+Our engineering team identified the root cause of the issue and implemented the necessary corrective actions to restore full functionality. Users should now be able to successfully receive movement-related export emails and other operational email notifications without further disruption.
+
+We sincerely apologize for the inconvenience caused and appreciate your patience and understanding throughout this incident. As an organization, we remain committed to providing reliable, high-availability services to our customers.
+
+If you have any questions or continue to experience any issues, please do not hesitate</description></item><item><title>CSS (Sailing Schedules) Unavailable [resolved]</title><link>https://stspg.io/67p4qqbn8kmv</link><guid isPermaLink="false">project44:2026-05-08T10:55:25.015Z</guid><pubDate>Fri, 08 May 2026 10:55:25 +0000</pubDate><description>Dear valued Customer,
+
+We are pleased to inform you that the issue affecting the CSS (Sailing Schedules) product has been fully resolved, and the service is now available.
+
+Our team identified the root cause of the outage and implemented the necessary fixes to restore full functionality. The incident has been resolved completely.
+
+We sincerely apologize for the inconvenience caused and appreciate your patience and understanding throughout the incident. As an organization, we remain committed to providing reliable, high-availability services to our customers.
+
+If you have any questions or continue to experience any issues, please don&#x27;t hesitate to contact us at support@project44.com.
+
+Best Regards
+Customer Support Team</description></item><item><title>GHTrack Portal Disruption - License Expiration [resolved]</title><link>https://stspg.io/sdfl7l27bdh1</link><guid isPermaLink="false">project44:2026-05-08T08:43:53.671Z</guid><pubDate>Fri, 08 May 2026 08:43:53 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting access to the ghTrack portal, caused by a license expiration from our third-party service provider, has been fully resolved.
+
+All services are now operating normally, and our systems remain stable following a period of monitoring.
+
+We appreciate your patience and understanding while we worked to restore service.
+
+As always, we are committed to providing reliable and high-availability service. If you have any questions, please reach out to support@project44.com.</description></item><item><title>SMS Notifications Delayed for Appointment Manager and DriveView - NA Region [resolved]</title><link>https://stspg.io/qsgs1p56156d</link><guid isPermaLink="false">project44:2026-05-05T17:06:03.002Z</guid><pubDate>Tue, 05 May 2026 17:06:03 +0000</pubDate><description>Dear Valued Customer,
+
+We are pleased to inform you that the issue has been resolved and services are now fully restored. SMS messages are being delivered successfully, and the platform is operating normally.
+
+We sincerely appreciate your patience and understanding while our engineering team worked with the upstream SMS service provider to address the issue.
+
+If you continue to experience any problems, please feel free to contact our support team.
+
+Regards,
+Customer Support</description></item><item><title>PYLE (A.DuiePYLE) API disruption - Dispatch and Rating impacted [resolved]</title><link>https://stspg.io/015mzldsvlq2</link><guid isPermaLink="false">project44:2026-05-04T15:26:05.377Z</guid><pubDate>Mon, 04 May 2026 15:26:05 +0000</pubDate><description>Dear Valued Customer,
+
+The issue from the carrier PYLE (A.DuiePYLE) has been resolved.
+
+Regards,
+Customer Support</description></item><item><title>Appointment Manager – Partial Service Disruption (NA Production) [resolved]</title><link>https://stspg.io/zqz990p115s7</link><guid isPermaLink="false">project44:2026-04-30T22:00:22.232Z</guid><pubDate>Thu, 30 Apr 2026 22:00:22 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting the Appointment Manager in our North America Production environment has been resolved. All services are now functioning as expected, and shipments are being processed normally.
+
+As an organization, we remain committed to delivering reliable, high-availability services to our customers. If you have any questions or require further assistance, please feel free to contact us at support@project44.com.
+
+Regards, Customer Support</description></item><item><title>TForce Freight Outage - Rating Impacted [resolved]</title><link>https://stspg.io/9n9vkh2s2pgp</link><guid isPermaLink="false">project44:2026-04-29T15:48:21.220Z</guid><pubDate>Wed, 29 Apr 2026 15:48:21 +0000</pubDate><description>Dear Valued Customer,
+
+Tforce has confirmed that their system has been restored.
+
+Regards,
+Customer Support</description></item><item><title>Tracking Updates Delayed Across All Modes – EU Production [resolved]</title><link>https://stspg.io/4wmbc4r0qv9n</link><guid isPermaLink="false">project44:2026-04-29T09:46:43.806Z</guid><pubDate>Wed, 29 Apr 2026 09:46:43 +0000</pubDate><description>Dear Valued Customer,
+
+All services are now functioning as expected, and system stability has been fully restored.
+
+As an organization, we remain committed to delivering reliable, high-availability services to our customers. If you have any questions or require further assistance, please feel free to contact us at support@project44.com.
+
+Thank you for your patience and continued trust.
+
+Regards,
+Customer Support</description></item><item><title>Errors in YMS Tasks and Spots in Tablets [resolved]</title><link>https://stspg.io/7j44g7nk5d6b</link><guid isPermaLink="false">project44:2026-04-16T20:01:51.079Z</guid><pubDate>Thu, 16 Apr 2026 20:01:51 +0000</pubDate><description>Dear Valued Customer,
+
+The Issue: YMS system displayed &quot;invalid task to location&quot; error during task moves has been resolved, The root cause has been addressed, and remediation steps have been applied and all affected services are now operating normally. 
+
+As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don&#x27;t hesitate to contact us at support@project44.com.
+
+Regards,
+Customer Support</description></item><item><title>Getconvey Tracking Page – Intermittent Errors [resolved]</title><link>https://stspg.io/xbmlr6sz6f6g</link><guid isPermaLink="false">project44:2026-04-06T18:36:59.000Z</guid><pubDate>Mon, 06 Apr 2026 18:36:59 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting the Tracking Page in Getconvey within our North America production environment has been resolved. The project44 Tracking Page is now functioning normally.
+
+As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don&#x27;t hesitate to contact us at support@project44.com.
+
+Regards,
+Customer Support</description></item><item><title>Partial Service Disruption on Last Mile Platform [resolved]</title><link>https://stspg.io/p4gl5qfbkx82</link><guid isPermaLink="false">project44:2026-04-02T20:30:21.573Z</guid><pubDate>Thu, 02 Apr 2026 20:30:21 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting our Last Mile product has been resolved. Order submission and processing are now functioning normally.
+
+As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don&#x27;t hesitate to contact us at support@project44.com.
+
+Regards,
+Customer Support</description></item><item><title>Login Issues Impacting Last Mile Platform [resolved]</title><link>https://stspg.io/fwbt74k27hcl</link><guid isPermaLink="false">project44:2026-04-02T18:58:17.807Z</guid><pubDate>Thu, 02 Apr 2026 18:58:17 +0000</pubDate><description>Dear Valued Customer,
+
+Our engineering team has resolved the issue affecting the Last Mile platform. The application is now fully accessible and operating normally.
+
+As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don’t hesitate to contact us at support@project44.com.
+
+Regards,
+Customer Support.</description></item><item><title>USPS tracking disruption - Last Mile [resolved]</title><link>https://stspg.io/35x4fxx1dkv3</link><guid isPermaLink="false">project44:2026-04-02T18:45:00.495Z</guid><pubDate>Thu, 02 Apr 2026 18:45:00 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Disruption: VOC Shipment Visibility Unavailable in EU Production [resolved]</title><link>https://stspg.io/xb5v5bvx4svx</link><guid isPermaLink="false">project44:2026-02-25T14:48:10.000Z</guid><pubDate>Wed, 25 Feb 2026 14:48:10 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue has been fully resolved, and the system is now operating as expected.</description></item><item><title>Service Disruption – Samsara Integration [resolved]</title><link>https://stspg.io/nmln0kkc1vqz</link><guid isPermaLink="false">project44:2026-02-23T20:48:19.174Z</guid><pubDate>Mon, 23 Feb 2026 20:48:19 +0000</pubDate><description>Dear Valued Customer,
+
+The issue has been fully resolved, as confirmed by Samsara.</description></item><item><title>Dayton Freight Carrier Dispatch Failures : Service Unavailable Notice [resolved]</title><link>https://stspg.io/gb0q44nsr2sz</link><guid isPermaLink="false">project44:2026-02-20T22:05:58.358Z</guid><pubDate>Fri, 20 Feb 2026 22:05:58 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue has been fully resolved, and the system is now operating as expected.
+
+Best regards,
+Customer Support</description></item><item><title>Ocean Tracking – Missing Hapag-Lloyd Ocean Tracking Updates [resolved]</title><link>https://stspg.io/p5q00jy0wkwb</link><guid isPermaLink="false">project44:2026-02-05T17:03:41.852Z</guid><pubDate>Thu, 05 Feb 2026 17:03:41 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue has been fully resolved, and the system is now operating as expected.
+
+Best regards,
+Customer Support</description></item><item><title>Analytics Dashboard Access Issue for New Users [resolved]</title><link>https://stspg.io/6mvxcv2qmkvt</link><guid isPermaLink="false">project44:2026-02-05T12:15:12.960Z</guid><pubDate>Thu, 05 Feb 2026 12:15:12 +0000</pubDate><description>Dear Valued Customer,
+
+The issue impacting first-time access to Analytics Dashboards and Data Quality Reports has been resolved. Users can now access these features without any issues. Existing users were not affected during the incident. We apologize for any inconvenience and appreciate your patience.
+
+As an organization, we are committed to providing reliable and high-availability service to our customers. In case of any questions, please do not hesitate to reach out to support@project44.com
+
+Thank you for your continued patience and understanding.</description></item><item><title>Air Tracking Service Disruption – North America &amp; Europe [resolved]</title><link>https://stspg.io/j5kyz90k7v7d</link><guid isPermaLink="false">project44:2026-02-04T01:19:52.317Z</guid><pubDate>Wed, 04 Feb 2026 01:19:52 +0000</pubDate><description>Dear Valued Customer,
+
+The issue impacting Air Tracking in the North America and Europe Production environments has been fully resolved.
+Positional ping data for air shipments is now processing normally, and all systems are operating as expected. Our teams have confirmed platform stability following the fix.
+
+Thank you for your patience during this incident. We remain committed to delivering reliable, high-availability services to support your operations. If you experience any further issues or have questions, please contact us at support@project44.com.
+
+Regards,
+Customer Support</description></item><item><title>YMS Reporting Data Delay – NA Region [resolved]</title><link>https://stspg.io/bcrf9qj15wdq</link><guid isPermaLink="false">project44:2026-01-12T05:59:12.138Z</guid><pubDate>Mon, 12 Jan 2026 05:59:12 +0000</pubDate><description>Dear Valued Customer,
+
+The issue affecting Yard Management System (YMS) reporting in the North America Production environment has been resolved. All systems are operating normally.
+
+As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don&#x27;t hesitate to contact us at support@project44.com.
+
+Regards,
+Customer support.</description></item><item><title>Service Update: Kuehne + Nagel Shipment Tracking [resolved]</title><link>https://stspg.io/x8y196x258wn</link><guid isPermaLink="false">project44:2026-01-08T07:59:01.953Z</guid><pubDate>Thu, 08 Jan 2026 07:59:01 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue has been resolved from the carrier&#x27;s (Kuehne Nagel) side. The Shipment Tracking is now operating as expected for this carrier.
+
+Best regards,
+Customer Support</description></item><item><title>Partial Service Disruption | FTL Position Data – North America [resolved]</title><link>https://stspg.io/9dj6w79784k3</link><guid isPermaLink="false">project44:2026-01-07T09:36:59.094Z</guid><pubDate>Wed, 07 Jan 2026 09:36:59 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue has been fully resolved, and the system is now operating as expected.
+
+Best regards,
+Customer Support</description></item></channel></rss>

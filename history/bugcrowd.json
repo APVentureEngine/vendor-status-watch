@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"88h6rryxk2bw": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-25T21:33:14.766-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-25T21:08:26.660-08:00",
+"state": "resolved",
+"title": "Temporary login issues for Hackers",
+"updated_at": "2026-02-25T21:33:14.806-08:00",
+"url": "https://stspg.io/90r3dtj7vmtm"
+},
+"my8mx6fdx14c": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T17:50:48.753-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-21T17:14:38.322-07:00",
+"state": "resolved",
+"title": "Tracker portal is experiencing issues",
+"updated_at": "2025-10-21T17:50:49.094-07:00",
+"url": "https://stspg.io/hjbydlhxtj2m"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "bugcrowd",
+"status_url": "https://www.bugcrowdstatus.com",
+"vendor": "Bugcrowd"
+}

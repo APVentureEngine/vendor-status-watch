@@ -1,0 +1,25 @@
+{
+"vendor": "Cdnjs",
+"slug": "cdnjs",
+"platform": "statuspage",
+"status_url": "https://status.cdnjs.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "We have confirmed that searching libraries on cdnjs continues to be available. Our upstream search provider has also confirmed resolution on their end.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-30T16:57:18.702Z",
+"resolved_inferred": false,
+"started_at": "2026-07-30T11:50:20.268Z",
+"state": "resolved",
+"title": "Searching libraries unavailable",
+"updated_at": "2026-07-30T16:57:18.718Z",
+"url": "https://stspg.io/2zt39bdqk46d"
+}
+]
+}

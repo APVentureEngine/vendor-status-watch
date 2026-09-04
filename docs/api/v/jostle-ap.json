@@ -1,0 +1,64 @@
+{
+"vendor": "Jostle AP",
+"slug": "jostle-ap",
+"platform": "statuspage",
+"status_url": "https://jostleap.statuspage.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Jostle's platform is available again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-22T07:17:42.697+10:00",
+"resolved_inferred": false,
+"started_at": "2026-07-22T07:11:28.483+10:00",
+"state": "resolved",
+"title": "Jostle's platform is currently unavailable",
+"updated_at": "2026-07-22T07:17:42.714+10:00",
+"url": "https://stspg.io/3kn6r49bw542"
+},
+{
+"body": "Closing Maintenance",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-12T06:19:38.396+11:00",
+"resolved_inferred": false,
+"started_at": "2025-11-20T07:15:44.000+11:00",
+"state": "resolved",
+"title": "Jostle issue",
+"updated_at": "2025-12-12T06:19:38.417+11:00",
+"url": "https://stspg.io/cx6v39y4x5rv"
+},
+{
+"body": "Jostle's platform is available again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-06T04:54:57.317+11:00",
+"resolved_inferred": false,
+"started_at": "2025-11-06T04:53:53.334+11:00",
+"state": "resolved",
+"title": "Jostle's platform is currently unavailable",
+"updated_at": "2025-11-06T04:54:57.344+11:00",
+"url": "https://stspg.io/63zktpstkhx9"
+},
+{
+"body": "Currently the problems appears to be isolated in the us-east datacentre.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T03:15:33.763+11:00",
+"resolved_inferred": false,
+"started_at": "2025-10-21T03:07:45.962+11:00",
+"state": "resolved",
+"title": "Jostle issue",
+"updated_at": "2025-10-21T03:15:33.780+11:00",
+"url": "https://stspg.io/hjclkqsbkh9j"
+}
+]
+}

@@ -1,0 +1,193 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"4q3phjp4b21h": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-05T10:24:18.487+01:00",
+"resolved_inferred": false,
+"started_at": "2025-12-05T10:10:17.484+01:00",
+"state": "resolved",
+"title": "Issues Due to Cloudflare Outage",
+"updated_at": "2025-12-05T10:24:19.189+01:00",
+"url": "https://stspg.io/sjqxsnrymbdg"
+},
+"5nmypw27t6ty": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T10:55:40.146+02:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T11:50:51.964+02:00",
+"state": "resolved",
+"title": "Elevated Issues Affecting Chat Solution",
+"updated_at": "2025-10-21T10:55:40.166+02:00",
+"url": "https://stspg.io/76tpnjlfnj6g"
+},
+"5tmdfp6cy8gl": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-10T09:33:08.187+02:00",
+"resolved_inferred": false,
+"started_at": "2026-04-09T12:24:04.198+02:00",
+"state": "resolved",
+"title": "We are currently investigating a memory leak issue affecting PHP, most notably version 8.4.",
+"updated_at": "2026-04-10T09:33:08.212+02:00",
+"url": "https://stspg.io/5ljwshrt2kpr"
+},
+"cvv1bcc92tnw": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-05T17:24:30.746+02:00",
+"resolved_inferred": false,
+"started_at": "2026-06-05T11:07:09.677+02:00",
+"state": "resolved",
+"title": "Connectivity outage in London data center",
+"updated_at": "2026-06-05T17:24:30.766+02:00",
+"url": "https://stspg.io/kd1v8cdwzfjp"
+},
+"f9nqzhycxnny": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-10T07:15:41.097+02:00",
+"resolved_inferred": false,
+"started_at": "2026-08-10T05:21:08.847+02:00",
+"state": "resolved",
+"title": "Memory issues on node jana-osl",
+"updated_at": "2026-08-10T07:15:41.116+02:00",
+"url": "https://stspg.io/354j1h7p2b09"
+},
+"jwcr2ntztwk6": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-28T18:07:45.952+01:00",
+"resolved_inferred": false,
+"started_at": "2025-10-28T18:05:25.300+01:00",
+"state": "resolved",
+"title": "New Let's Encrypt SSL ordering failures",
+"updated_at": "2025-10-28T18:07:45.966+01:00",
+"url": "https://stspg.io/hs8q358grfsv"
+},
+"k50sn5yx880d": {
+"body": "The server is now operational again. We experienced an issue affecting the database layer, but it has been resolved and systems are running normally. We will continue to monitor performance closely.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-04T08:45:38.600+01:00",
+"resolved_inferred": false,
+"started_at": "2025-12-04T08:39:35.420+01:00",
+"state": "resolved",
+"title": "Outage for \"luna-osl\" in Oslo data center",
+"updated_at": "2025-12-04T08:45:40.640+01:00",
+"url": "https://stspg.io/t13gj9y0vwx1"
+},
+"mq0c6yf3pq0y": {
+"body": "The incident has been resolved and the missing data in our admin panel has been re-imported.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-19T12:28:50.549+01:00",
+"resolved_inferred": false,
+"started_at": "2025-12-19T12:02:18.316+01:00",
+"state": "resolved",
+"title": "Site statistics not available for 17th and 18th of December",
+"updated_at": "2025-12-19T12:28:50.898+01:00",
+"url": "https://stspg.io/zd5ngq2p5tjk"
+},
+"r3mf37g9yz8p": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-23T15:34:40.899+02:00",
+"resolved_inferred": false,
+"started_at": "2025-10-22T12:36:13.709+02:00",
+"state": "resolved",
+"title": "Elevated Issues Affecting Chat Solution",
+"updated_at": "2025-10-23T15:34:40.923+02:00",
+"url": "https://stspg.io/ctq9gw7myg5j"
+},
+"sh7tt3r5fdsb": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T16:06:50.297+01:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T14:11:29.000+01:00",
+"state": "resolved",
+"title": "Servebolt Services affected by Cloudflare Global Network Issue",
+"updated_at": "2025-11-18T16:06:50.312+01:00",
+"url": "https://stspg.io/4431830fb6s2"
+},
+"xjfqlsf2l82h": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-16T13:45:39.484+02:00",
+"resolved_inferred": false,
+"started_at": "2026-05-16T13:23:40.758+02:00",
+"state": "resolved",
+"title": "Some sites unavailable in Amsterdam",
+"updated_at": "2026-05-16T13:45:39.502+02:00",
+"url": "https://stspg.io/p9bfsfhkyghr"
+},
+"y503v32hz1jh": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-20T14:51:03.684+02:00",
+"resolved_inferred": false,
+"started_at": "2026-05-20T14:38:20.597+02:00",
+"state": "resolved",
+"title": "MariaDB issues on edward-nyc",
+"updated_at": "2026-05-20T14:51:03.702+02:00",
+"url": "https://stspg.io/753ttnv9dsq0"
+},
+"z4md1m0vj3c5": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-19T11:01:06.804+02:00",
+"resolved_inferred": false,
+"started_at": "2026-06-03T11:29:59.302+02:00",
+"state": "resolved",
+"title": "Incomplete or missing storage usage information for some customers in Oslo data center",
+"updated_at": "2026-06-19T11:01:06.822+02:00",
+"url": "https://stspg.io/n722q4qmr1sc"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "servebolt",
+"status_url": "https://serveboltstatus.com",
+"vendor": "Servebolt"
+}

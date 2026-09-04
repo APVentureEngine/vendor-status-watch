@@ -1,0 +1,25 @@
+{
+"vendor": "Sharegate",
+"slug": "sharegate",
+"platform": "statuspage",
+"status_url": "https://app-status.sharegate.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Thanks for bearing with us! Our team has resolved the issue. If you're still experiencing any issues, please reach out to <a href=\"mailto:support@sharegate.com\">support@sharegate.com</a>.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-13T13:08:34.649-04:00",
+"resolved_inferred": false,
+"started_at": "2026-03-13T09:18:29.087-04:00",
+"state": "resolved",
+"title": "ShareGate Protect - Intermittent Access Issues",
+"updated_at": "2026-03-13T13:08:34.666-04:00",
+"url": "https://stspg.io/ktg6d6n8sctt"
+}
+]
+}

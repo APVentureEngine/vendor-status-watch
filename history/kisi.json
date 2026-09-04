@@ -1,0 +1,141 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"10vk8pxsn4g4": {
+"body": "Our systems have fully recovered.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-10T18:58:24.304Z",
+"resolved_inferred": false,
+"started_at": "2026-04-10T16:03:36.376Z",
+"state": "resolved",
+"title": "Disruption with Kisi Marketplace service",
+"updated_at": "2026-04-10T18:58:24.321Z",
+"url": "https://stspg.io/cg68906210k9"
+},
+"b1hdp9kdwk9w": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-13T11:43:33.522Z",
+"resolved_inferred": false,
+"started_at": "2026-03-12T11:29:20.193Z",
+"state": "resolved",
+"title": "Video exports are failing for VORTEX cameras",
+"updated_at": "2026-03-13T11:43:33.547Z",
+"url": "https://stspg.io/t9y2cwc0cf2v"
+},
+"jjybvldxc1rg": {
+"body": "Mindbody team has confirmed that they have fixed the issue. Daily sync should proceed as usual. If you notice any issues, please reach out to Kisi Support team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-16T16:52:03.304Z",
+"resolved_inferred": false,
+"started_at": "2026-06-16T09:20:11.565Z",
+"state": "resolved",
+"title": "Mindbody integration issue",
+"updated_at": "2026-06-16T16:52:03.323Z",
+"url": "https://stspg.io/8mm96r7796jk"
+},
+"km3g5xjb0rms": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-17T19:30:49.130Z",
+"resolved_inferred": false,
+"started_at": "2026-03-16T20:05:20.667Z",
+"state": "resolved",
+"title": "Failing video exports for VORTEX cameras",
+"updated_at": "2026-03-17T19:30:49.149Z",
+"url": "https://stspg.io/13l6xpqh0r6j"
+},
+"l259g2jhf8sx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-01T07:16:22.709Z",
+"resolved_inferred": false,
+"started_at": "2026-04-30T12:12:16.125Z",
+"state": "resolved",
+"title": "Disruption in Events and Incidents",
+"updated_at": "2026-05-01T07:16:22.728Z",
+"url": "https://stspg.io/dsw6fz3hmsr5"
+},
+"nvt5wpxcx5nj": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-25T14:13:09.921Z",
+"resolved_inferred": false,
+"started_at": "2026-03-25T05:50:20.045Z",
+"state": "resolved",
+"title": "VORTEX Tailgating feature is experiencing issues",
+"updated_at": "2026-03-25T14:13:09.949Z",
+"url": "https://stspg.io/lmgss2yj88wb"
+},
+"s9t1bbrtqkps": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-12T14:12:46.875Z",
+"resolved_inferred": false,
+"started_at": "2026-06-12T10:19:03.938Z",
+"state": "resolved",
+"title": "API caching backend issue",
+"updated_at": "2026-06-12T14:12:46.891Z",
+"url": "https://stspg.io/4hbptmfhcl7p"
+},
+"sb80v45jrtyj": {
+"body": "Between 13:10 and 16:50 UTC, customers may have experienced a delay in synchronization of reader, controller and door configurations from the cloud to the devices. The issue has since been resolved. All device configurations are now up-to-date.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T17:26:32.685Z",
+"resolved_inferred": false,
+"started_at": "2025-10-30T17:26:32.645Z",
+"state": "resolved",
+"title": "Delayed hardware configuration synchronization",
+"updated_at": "2025-10-30T17:26:33.001Z",
+"url": "https://stspg.io/hn1hwnv1s79g"
+},
+"vjn098c5d8l8": {
+"body": "Cisco Meraki Snapshots are working normally again. We have a backlog but it will be cleared in sometime.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-16T04:42:14.498Z",
+"resolved_inferred": false,
+"started_at": "2026-07-15T02:27:56.161Z",
+"state": "resolved",
+"title": "Cisco Meraki Snapshot API Unavailable",
+"updated_at": "2026-07-16T04:42:14.515Z",
+"url": "https://stspg.io/sr0c0dd6sdjp"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "kisi",
+"status_url": "https://status.kisi.io",
+"vendor": "Kisi"
+}

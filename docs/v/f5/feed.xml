@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/f5/</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
+
+F5 Distributed Cloud Expands Global Footprint into Seoul, South Korea.
+
+We are pleased to announce the launch of a new Regional Edge (RE) cluster in Seoul, South Korea (sel1-kr), further expanding the F5 Distributed Cloud global network. This new point of presence strengthens our coverage in East Asia.
+
+The Seoul, South Korea RE site delivers:
+
+ 1. Reduced latency for customers and end users in Seoul, South Korea.
+ 2. Improved application performance through localized traffic processing closer to end users.
+ 3. Full feature parity with all existing RE sites.
+
+Go-Live Schedule:
+8 September 2026 at 08:00 UTC
+
+To ensure uninterrupted connectivity between the F5 Distributed Cloud PoP in Seoul, South Korea and your origin infrastructure, please update your firewall allow</description></item><item><title>F5 Distributed Cloud - Service Degradation - Network - Dallas (DAL3) - INC-20260831-501 [resolved]</title><link>https://stspg.io/wvwd51j0nj05</link><guid isPermaLink="false">f5:2026-08-31T16:54:31.429Z</guid><pubDate>Mon, 31 Aug 2026 16:54:31 +0000</pubDate><description>The F5 Distributed Cloud team has concluded the monitoring period for the traffic and services impacted by this incident. Services remained stable and operating normally throughout this period, and the incident is now considered resolved.
+
+We appreciate your patience and understanding throughout this event and remain committed to continuously improving the reliability of our services. Thank you for your continued trust in F5.</description></item><item><title>F5 Distributed Cloud - Service Degradation - AI powered Web Application Firewall - INC-20260825-498 [resolved]</title><link>https://stspg.io/b2jl9fmzdymc</link><guid isPermaLink="false">f5:2026-08-25T16:39:52.241Z</guid><pubDate>Tue, 25 Aug 2026 16:39:52 +0000</pubDate><description>The F5 Distributed Cloud team had successfully resolved the issue affecting AI powered Web Application Firewall, we can confirm that no further impact was observed and all services are operating normally. Our teams have validated system stability.
+
+If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260824-497 [resolved]</title><link>https://stspg.io/qp6pg63tkdbm</link><guid isPermaLink="false">f5:2026-08-24T13:50:15.600Z</guid><pubDate>Mon, 24 Aug 2026 13:50:15 +0000</pubDate><description>We are pleased to confirm that the service degradation previously affecting the Global Log Receiver and the delay in Access Log streaming have been fully resolved. All services are now fully recovered and functioning as expected.
+
+Following service restoration, our engineering teams have maintained close monitoring of the platform to ensure ongoing stability, and no further issues have been detected. As noted in our previous updates, there was no traffic interruption, and all core F5 Distributed Cloud Console services remained fully operational throughout the duration of this incident.
+
+This incident is now considered closed.
+
+Thank you for your patience and support.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>F5 Distributed Cloud - Service Degradation- Regional Edge- NewYork (NY8)- INC-20260821-495 [resolved]</title><link>https://stspg.io/jp768tymrqr9</link><guid isPermaLink="false">f5:2026-08-21T05:57:04.986Z</guid><pubDate>Fri, 21 Aug 2026 05:57:04 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue of the New York Regional Edge. After thorough monitoring, we can confirm that no additional impact has been observed.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>Incident Advisory: INC-20260814-494 [resolved]</title><link>https://stspg.io/knk6sb6nz9gg</link><guid isPermaLink="false">f5:2026-08-14T16:31:11.000Z</guid><pubDate>Fri, 14 Aug 2026 16:31:11 +0000</pubDate><description>The F5 Distributed Cloud team can confirm that the issue affecting the Paris (PA4) Regional Edge and the Global Log Receiver (GLR) service has been fully resolved.
+
+We sincerely appreciate your patience and understanding throughout this event. All services are now operating as expected.</description></item><item><title>Informational: New Regional Edge Site — Mexico [resolved]</title><link>https://stspg.io/rkltc16pqkh7</link><guid isPermaLink="false">f5:2026-08-08T04:47:40.000Z</guid><pubDate>Sat, 08 Aug 2026 04:47:40 +0000</pubDate><description>Mexico Regional Edge site is now live</description></item><item><title>F5 Distributed Cloud - Service Degradation - DNS propagation - INC-20260804-492 [resolved]</title><link>https://stspg.io/5rw6qww30sqt</link><guid isPermaLink="false">f5:2026-08-04T16:24:50.000Z</guid><pubDate>Tue, 04 Aug 2026 16:24:50 +0000</pubDate><description>We&#x27;re pleased to confirm the issue affecting the DNS service has been resolved, and the service is now operating normally.
+
+Our engineering teams have addressed the underlying issue and have verified system stability. We&#x27;ll continue to keep a close watch on DNS performance to ensure everything remains stable and consistent.
+
+If you have any questions or need assistance, please contact our Support team:
+
+- Email support: support@cloud.f5.com
+- Phone support: For region-specific contact details, please visit:
+https://my.f5.com/manage/s/article/K000135931
+
+Thank you for your patience and understanding.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>F5 Distributed Cloud - Service Degradation - Global Log Receiver (GLR) - INC-20260803-491 [resolved]</title><link>https://stspg.io/7bzs5v2tq691</link><guid isPermaLink="false">f5:2026-08-03T16:45:30.759Z</guid><pubDate>Mon, 03 Aug 2026 16:45:30 +0000</pubDate><description>We are glad to confirm that the previously observed service degradation affecting Global Log Receiver (GLR) has been resolved, and GLR is operating normally.
+
+Following service restoration, our engineering teams have continued to monitor the platform to ensure sustained stability, and no further issues have been detected. There was no traffic interruption, and all core F5 Distributed Cloud Console services remained fully operational throughout the event.
+
+This incident is now considered closed.
+
+Thank you for your patience and understanding.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs - INC-20260730-490 [resolved]</title><link>https://stspg.io/lvcyjwfcsdpb</link><guid isPermaLink="false">f5:2026-07-30T12:44:02.153Z</guid><pubDate>Thu, 30 Jul 2026 12:44:02 +0000</pubDate><description>The F5 Distributed Cloud Team has resolved the issue causing delays in access logs appearing in the Distributed Cloud Console UI. The system is fully operational, and access logs have remained stable without further lag.
+
+Thank you for your patience and understanding during this time.</description></item><item><title>F5 Distributed Cloud - Service Degradation- Regional Edge- Propagation Issue in Mumbai (MB2)- INC-20260729-489 [resolved]</title><link>https://stspg.io/q43c81c3klwn</link><guid isPermaLink="false">f5:2026-07-29T08:48:22.854Z</guid><pubDate>Wed, 29 Jul 2026 08:48:22 +0000</pubDate><description>The F5 Distributed Cloud team had successfully resolved the issue affecting the connectivity in Mumbai Regional Edge (MB2), and after an extensive period of monitoring, we can confirm that no further impact was observed.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Degradation - CDN Edge Connectivity Issue in Dallas (DAL3) - INC-20260727-488 [resolved]</title><link>https://stspg.io/lp1429c439qv</link><guid isPermaLink="false">f5:2026-07-27T09:02:56.898Z</guid><pubDate>Mon, 27 Jul 2026 09:02:56 +0000</pubDate><description>The F5 Distributed Cloud team had successfully resolved the issue affecting CDN edge connectivity in Dallas (DAL3), and after an extensive period of monitoring, we can confirm that no further impact was observed.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Bot Defense - Service Degradation - F5 Bot Defense Cloud Provider Issue Affecting Origins - INC-20260724-487 [resolved]</title><link>https://stspg.io/38l2xskbvpsg</link><guid isPermaLink="false">f5:2026-07-24T12:05:48.616Z</guid><pubDate>Fri, 24 Jul 2026 12:05:48 +0000</pubDate><description>Between 2026-07-24 10:55 UTC and 11:15 UTC, a service degradation was observed due to an External Cloud Provider issue. This possibly affected communication between F5 services and customer origins, resulting in increased 5xx errors and higher origin latency.
+
+The issue was confirmed to be related to the Cloud Provider and not F5 Distributed Cloud infrastructure. The issue has been fully resolved, and services are operating normally.
+
+If you continue to experience any issues, please reach out to our support team through your established channels.
+
+We apologize for any inconvenience caused and appreciate your understanding.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Cosmetic error in Routed DDoS service - INC-20260716-485 [resolved]</title><link>https://stspg.io/ty4x8f2jnw1m</link><guid isPermaLink="false">f5:2026-07-16T06:22:30.000Z</guid><pubDate>Thu, 16 Jul 2026 06:22:30 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting the Routed DDoS functions in the XC Console and no further impact is expected.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Error while creating support ticket via Distributed Cloud Console - INC-20260715-484 [resolved]</title><link>https://stspg.io/n1ct9md361kc</link><guid isPermaLink="false">f5:2026-07-15T11:43:33.464Z</guid><pubDate>Wed, 15 Jul 2026 11:43:33 +0000</pubDate><description>The issue affecting support ticket creation in Distributed Cloud Console has been fully resolved, and all services are operating normally.
+
+Our teams have validated system stability and will continue to monitor to ensure consistent performance.
+
+Thank you for your patience while we worked to resolve this issue.  If you have any questions or concerns, please feel free to reach out to our support team.
+
+Contact information
+- Email support: support@cloud.f5.com
+- Phone support: For region-specific contact details, please visit:
+  https://my.f5.com/manage/s/article/K000135931
+
+We appreciate your understanding and cooperation as we continue to improve our services.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>F5 Distributed Cloud - Service Degradation - Metrics visualization issue - INC-20260708-482 [resolved]</title><link>https://stspg.io/wcpg0jzthy3m</link><guid isPermaLink="false">f5:2026-07-08T21:48:44.485Z</guid><pubDate>Wed, 08 Jul 2026 21:48:44 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting display of metrics within the customer dashboard and CE´s, and no further impact is expected.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Degradation - DNS - INC-20260706-481 [resolved]</title><link>https://stspg.io/d6h4vcvv6814</link><guid isPermaLink="false">f5:2026-07-06T15:09:54.791Z</guid><pubDate>Mon, 06 Jul 2026 15:09:54 +0000</pubDate><description>The issue affecting DNS visualization status has been fully resolved, and all services are operating normally.
+
+Our teams have validated system stability and will continue to monitor to ensure consistent performance.
+
+Thank you for your patience while we worked to resolve this issue.  If you have any questions or concerns, please feel free to reach out to our support team.
+
+Contact information
+- Email support: support@cloud.f5.com
+- Phone support: For region-specific contact details, please visit:
+  https://my.f5.com/manage/s/article/K000135931
+
+We appreciate your understanding and cooperation as we continue to improve our services.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>F5 Distributed Cloud - Service Degradation - Global Log Receiver (GLR) - INC-20260701-480 [resolved]</title><link>https://stspg.io/lnzvxvn8t6sj</link><guid isPermaLink="false">f5:2026-07-01T21:03:14.409Z</guid><pubDate>Wed, 01 Jul 2026 21:03:14 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting GLR log streaming in the Distributed Cloud console. Live log visibility has now been restored. The system is currently operating normally, and no further impact is expected.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Interruption - Intermittent Latency spikes and timeouts reported in India region- INC-20260626-479 [postmortem]</title><link>https://stspg.io/ww556c0j2lg9</link><guid isPermaLink="false">f5:2026-06-26T11:58:37.469Z</guid><pubDate>Fri, 26 Jun 2026 11:58:37 +0000</pubDate><description>## **Root Cause Statement**
+
+The incident was caused by a **fiber cut on a major regional ISP’s network \(Airtel\) between Indonesia and India.** This disruption led to **widespread congestion throughout the region, and across multiple networks with dependencies on Airtel. F5’s network and infrastructure remained fully operational throughout the event and did not experience any outage or service degradation.**
+
+As a result of the fiber cut, **some Internet traffic to/from India and nearby regions was degraded, leading to increased latency, intermittent timeouts/packet loss, and slowness.**
+
+**Mitigation: Upon detection of the event, F5 implemented traffic engineering measures within the F5 Distributed Cloud backbone to re-route our traffic away from the fault in Airtel’s network,** deliber</description></item><item><title>F5 Distributed Cloud - Service Degradation - Global Log Receiver (GLR) - INC-20260624-478 [resolved]</title><link>https://stspg.io/ym7l7tztpyw0</link><guid isPermaLink="false">f5:2026-06-24T18:10:47.262Z</guid><pubDate>Wed, 24 Jun 2026 18:10:47 +0000</pubDate><description>We are pleased to confirm that the issue has been fully resolved.
+
+All affected services have been restored and are operating normally, with no ongoing customer impact. Platform functionality has returned to expected operating levels, and this incident is now considered closed.
+
+We appreciate your patience and support throughout this incident.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Issue creating and modifying endpoint configurations - INC-20260623-476 [resolved]</title><link>https://stspg.io/89qbzlxk4sr1</link><guid isPermaLink="false">f5:2026-06-23T11:29:36.377Z</guid><pubDate>Tue, 23 Jun 2026 11:29:36 +0000</pubDate><description>Following a period of post-restoration monitoring, we have confirmed the issue impacting the ability to perform changes in Distributed Cloud components and Customer Dashboard loading has been resolved. Customers should now be able to create and modify endpoint configurations normally, and dashboards should load as expected. Services are fully operational. Thank you for your patience and understanding throughout this incident.</description></item><item><title>F5 Distributed Cloud - Service Degradation - CDN Distributions - INC-20260616-474 [resolved]</title><link>https://stspg.io/4n8596lj86dl</link><guid isPermaLink="false">f5:2026-06-16T09:36:55.407Z</guid><pubDate>Tue, 16 Jun 2026 09:36:55 +0000</pubDate><description>Our engineering teams have restored full functionality for CDN Distributions, the CDN Dashboard and Purge Services.
+Traffic is flowing normally and this incident has now been resolved.
+
+If you are still experiencing any issues please do not hesitate to contact F5 Support.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Delay in GLR logs - INC-20260609-470 [resolved]</title><link>https://stspg.io/7nn7166xmpw0</link><guid isPermaLink="false">f5:2026-06-09T11:52:45.962Z</guid><pubDate>Tue, 09 Jun 2026 11:52:45 +0000</pubDate><description>The issue affecting the F5 Distributed Cloud Global Log Receiver has been resolved.
+All XC Console core services remains fully operational, and the incident is now closed.
+Please contact support if you continue to experience any issues.</description></item><item><title>Incident Advisory: INC-20260608-470 [resolved]</title><link>https://stspg.io/1lj4npfpjn49</link><guid isPermaLink="false">f5:2026-06-08T14:58:22.020Z</guid><pubDate>Mon, 08 Jun 2026 14:58:22 +0000</pubDate><description>The issue affecting the F5 Distributed Cloud GLR (Global Logs Receiver) has been resolved. The service remains fully operational, and the incident is now closed.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item><item><title>F5 Bot Defense - Service Degradation - Shared Rate Limiter - INC-20260606-469 [resolved]</title><link>https://stspg.io/qdz04q5xn5k4</link><guid isPermaLink="false">f5:2026-06-06T21:20:09.209Z</guid><pubDate>Sat, 06 Jun 2026 21:20:09 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue that was causing the false positives in rate-limiting policies. Services are now functioning as expected, and we will continue to monitor to ensure ongoing stability.
+
+If you have any questions or continue to experience issues, please reach out to our support team through your established channels. This incident is now considered resolved.
+
+We appreciate your patience and understanding while we worked to restore service.</description></item><item><title>Incident Advisory: INC-20260526-466 [resolved]</title><link>https://stspg.io/kzck16flkyf4</link><guid isPermaLink="false">f5:2026-05-26T13:56:08.873Z</guid><pubDate>Tue, 26 May 2026 13:56:08 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting GLR log streaming. The system is currently operating normally, and no further impact is expected.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don’t hesitate to reach out to our support team.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Synthetic Monitoring - INC-20260524-465 [resolved]</title><link>https://stspg.io/7x4jf5ssgby8</link><guid isPermaLink="false">f5:2026-05-24T20:09:50.000Z</guid><pubDate>Sun, 24 May 2026 20:09:50 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue that was causing Synthetic Monitoring service degradation. Services are now functioning as expected, and we will continue to monitor to ensure ongoing stability. Please note that all core XC Console services remained fully operational throughout the incident.
+
+If you have any questions or continue to experience issues, please reach out to our support team through your established channels. This incident is now considered resolved.
+
+We appreciate your patience and understanding while we worked to restore service.</description></item><item><title>F5 Distributed Cloud - Service Degradation - CDN nodes in degraded state - INC-20260520-459 [resolved]</title><link>https://stspg.io/fyd3m39jlq49</link><guid isPermaLink="false">f5:2026-05-21T00:39:02.000Z</guid><pubDate>Thu, 21 May 2026 00:39:02 +0000</pubDate><description>The F5 Distributed Cloud team confirmed that all CDN services and nodes are fully operational. Traffic is flowing normally, and this incident has now been resolved.
+
+If you&#x27;re still experiencing any issues, please do not hesitate to contact F5 Support for assistance.</description></item><item><title>F5 Distributed Cloud - Service Degradation - DNS resolution issue - INC-20260520-462 [resolved]</title><link>https://stspg.io/hmqzsq2wyzts</link><guid isPermaLink="false">f5:2026-05-20T17:01:49.030Z</guid><pubDate>Wed, 20 May 2026 17:01:49 +0000</pubDate><description>The issue affecting DNS resolution has been fully resolved, and all services are operating normally.
+Our teams have validated system stability and will continue to monitor to ensure consistent performance.
+Thank you for your patience while we worked to resolve this issue.  If you have any questions or concerns, please feel free to reach out to our support team.
+
+Contact information
+- Email support: support@cloud.f5.com
+- Phone support: For region-specific contact details, please visit:
+  https://my.f5.com/manage/s/article/K000135931
+
+We appreciate your understanding and cooperation as we continue to improve our services.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>Incident Advisory:INC-20260511-458 [resolved]</title><link>https://stspg.io/66lvtgvry9bk</link><guid isPermaLink="false">f5:2026-05-11T13:27:14.038Z</guid><pubDate>Mon, 11 May 2026 13:27:14 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting F5 XC&#x27;s internal DNS zone. After monitoring the system is currently operating normally and no further impact is expected.
+
+We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item></channel></rss>

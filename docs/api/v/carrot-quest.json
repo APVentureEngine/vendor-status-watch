@@ -1,0 +1,25 @@
+{
+"vendor": "Carrot quest",
+"slug": "carrot-quest",
+"platform": "statuspage",
+"status_url": "https://status.carrotquest.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-27T17:54:46.913+05:00",
+"resolved_inferred": false,
+"started_at": "2026-02-27T16:30:38.752+05:00",
+"state": "resolved",
+"title": "\u0427\u0430\u0441\u0442\u0438\u0447\u043d\u043e \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u0440\u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0438 \u0432\u043d\u0435 \u0420\u0424",
+"updated_at": "2026-02-27T17:54:46.931+05:00",
+"url": "https://stspg.io/gw64vzs6n6j5"
+}
+]
+}

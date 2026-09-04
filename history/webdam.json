@@ -1,0 +1,63 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"hj07f0x7r352": {
+"body": "A fix has been implemented, and we are monitoring the results.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-13T11:25:18.607-07:00",
+"resolved_inferred": false,
+"started_at": "2025-08-13T10:40:07.930-07:00",
+"state": "resolved",
+"title": "Unable to load Webdam",
+"updated_at": "2025-08-13T11:25:18.623-07:00",
+"url": "https://stspg.io/zpbkvjpykyqr"
+},
+"jpl8hpdwm48f": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-16T16:12:44.421-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-16T15:07:14.413-08:00",
+"state": "resolved",
+"title": "Degraded performance with downloads",
+"updated_at": "2026-01-16T16:12:44.434-08:00",
+"url": "https://stspg.io/yj4lw50d6xrb"
+},
+"rbq90gbjtfzz": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T10:57:37.728-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T14:33:31.000-07:00",
+"state": "resolved",
+"title": "Degraded performance with uploads and downloads",
+"updated_at": "2025-10-21T10:57:37.743-07:00",
+"url": "https://stspg.io/gldw94nkm0zd"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "webdam",
+"status_url": "https://webdam-status.bynder.com",
+"vendor": "Webdam"
+}

@@ -1,0 +1,76 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"k3k4cfl0jy6m": {
+"body": "This issue has now been resolved and any rejected emails can be sent again now. We apologise for any inconvenience caused .",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-06T11:24:07.500+12:00",
+"resolved_inferred": false,
+"started_at": "2025-08-06T10:59:38.137+12:00",
+"state": "resolved",
+"title": "Increase in False Positives",
+"updated_at": "2025-08-06T11:24:07.515+12:00",
+"url": "https://stspg.io/1sbdggdtty5y"
+},
+"nkdr320lvwy3": {
+"body": "This issue has now been resolved , thank you for your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-29T09:40:22.019+12:00",
+"resolved_inferred": false,
+"started_at": "2026-04-29T08:48:23.589+12:00",
+"state": "resolved",
+"title": "SMX email admin portal logs",
+"updated_at": "2026-04-29T09:40:22.036+12:00",
+"url": "https://stspg.io/k01sxmzqy2nk"
+},
+"rq13lgw0m2qy": {
+"body": "Between 10:37pm Saturday and 1:30am Sunday, Microsoft experienced issues with their Azure network that impacted SMX mail filtering services. \n\nThe root cause was Microsoft ceasing to announce SMX network prefixes via BGP at 22:37 and again at 23:31, which effectively made SMX infrastructure unreachable on the internet. As a result, all inbound and outbound mail filtering services were unavailable during this period.\n\nBGP routing announcements were restored at approximately 00:10am, with services gradually coming back online from that point. Full functionality was confirmed restored by 1:30am Sunday.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-17T00:00:00.000+12:00",
+"resolved_inferred": false,
+"started_at": "2026-05-17T00:00:00.000+12:00",
+"state": "resolved",
+"title": "Outbound email flow degraded service.",
+"updated_at": "2026-05-19T20:33:15.264+12:00",
+"url": "https://stspg.io/nc2pnf0v1r21"
+},
+"yr78rhtdc3f9": {
+"body": "Adjustment to the Quarantine Self-Release notification emails:\n\nYou may notice that the SMX logo has been removed from the top of the quarantine self release emails . We found that the logo was not rendering correctly for users on Microsoft Outlook, causing display issues. To ensure the email remains clean, readable, and consistent across all platforms and devices, we have decided to remove the SMX logo from the top of all QSR emails.\n\nAll links and functionality within the email remain exactly the same.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-30T11:00:00.000+13:00",
+"resolved_inferred": false,
+"started_at": "2026-03-30T11:00:00.000+13:00",
+"state": "resolved",
+"title": "Quarantine Self Release Emails",
+"updated_at": "2026-03-30T16:05:55.486+13:00",
+"url": "https://stspg.io/ctcl17tkjbz5"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "smx-cybersecure-email",
+"status_url": "https://status.smxemail.com",
+"vendor": "SMX Cybersecure Email"
+}

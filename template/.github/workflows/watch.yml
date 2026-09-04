@@ -1,0 +1,38 @@
+# vendor-status-watch — polls the vendors in config.json every 5 minutes from YOUR
+# GitHub Actions and posts incident opened/updated/resolved to YOUR webhook.
+# Nothing leaves your repo except the POST to the webhook you configured.
+#
+# Setup (2 minutes):
+#   1. Use this template -> create your repo (private is fine).
+#   2. Settings -> Secrets and variables -> Actions -> New repository secret:
+#        Name: WEBHOOK_URL   Value: your Slack / Discord / Teams incoming-webhook URL
+#   3. Edit config.json: put the vendor slugs you depend on in "vendors"
+#      (full list: https://apventureengine.github.io/vendor-status-watch/vendors.html).
+#   4. Actions tab -> "vendor status watch" -> Run workflow (first run posts one
+#      WATCHING line per vendor, then only changes).
+name: vendor status watch
+on:
+  schedule:
+    - cron: "*/5 * * * *"      # GitHub may delay scheduled runs by a few minutes under load
+  workflow_dispatch:
+permissions:
+  contents: write              # to commit state.json back (so diffs survive between runs)
+concurrency:
+  group: vendor-status-watch
+  cancel-in-progress: false
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Poll vendors and alert
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: python3 watch.py
+      - name: Save state
+        run: |
+          git config user.name "vendor-status-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "state: $(date -u +%FT%TZ)" && git push

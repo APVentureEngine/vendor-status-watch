@@ -1,0 +1,23 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "major"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "major"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "downtime",
+"last_error": null,
+"last_state": "major",
+"platform": "betterstack",
+"slug": "brave",
+"status_url": "https://status.brave.com",
+"vendor": "Brave"
+}

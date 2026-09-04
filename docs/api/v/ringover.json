@@ -1,0 +1,11 @@
+{
+"vendor": "Ringover",
+"slug": "ringover",
+"platform": "instatus",
+"status_url": "https://status.ringover.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "unknown",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

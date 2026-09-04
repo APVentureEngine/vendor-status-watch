@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Plusserver incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/plusserver/</link><description>Incidents from Plusserver's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Veeam Backup Software – Lizenz-/Subscription-Problem [identified]</title><link>https://stspg.io/q7hp62wcdp7s</link><guid isPermaLink="false">plusserver:2026-08-31T09:45:04.765+02:00</guid><pubDate>Mon, 31 Aug 2026 07:45:04 +0000</pubDate><description>Dear customer,
+We have determined that the subscription for our Veeam backup software has entered a grace period. As a result, you may currently be seeing error messages regarding an expired license. The backup functionality itself is not currently affected by this.
+
+We are working diligently to renew the subscription and will update this message as soon as the issue is resolved.
+
+We apologize for any inconvenience this may cause.
+
+--
+
+Sehr geehrte Kunden, 
+wir haben festgestellt, dass die Subscription unserer Veeam-Backup-Software in eine Nachfrist (Grace Period) übergegangen ist. Dadurch kann es aktuell zu Fehlermeldungen bezüglich einer abgelaufenen Lizenz kommen. Die Backup-Funktionalität selbst ist davon derzeit nicht beeinträchtigt.
+
+Wir arbeiten mit Hochdruck an der Verlängerung der</description></item><item><title>API plusserver Kubernetes Engine Region prod3 [DE-NORTH-2] [resolved]</title><link>https://stspg.io/lbkmjxmwp96s</link><guid isPermaLink="false">plusserver:2026-07-17T19:32:45.805+02:00</guid><pubDate>Fri, 17 Jul 2026 17:32:45 +0000</pubDate><description>The issues affecting the API for pluscloud open and pluscloud open Kubernetes have been fully resolved. The systems are running stably again, and all services are available as usual.
+
+Following a successful monitoring period, no further anomalies were detected. We are hereby closing this incident.
+
+We apologize for the inconvenience and thank you for your patience and understanding.
+
+--
+
+Die Beeinträchtigungen an der API von pluscloud open und pluscloud open Kubernetes sind vollständig behoben. Die Systeme arbeiten wieder stabil und alle Dienste stehen wie gewohnt zur Verfügung.
+
+Nach einer erfolgreichen Überwachungsphase konnten keine weiteren Auffälligkeiten festgestellt werden. Wir schließen diesen Incident hiermit.
+
+Wir entschuldigen uns für die entstandenen Unannehmlichkeiten und beda</description></item><item><title>Ticket Creation in customer portal  -  Ticketerstellung im Kundenportal [resolved]</title><link>https://stspg.io/sv449q70w31z</link><guid isPermaLink="false">plusserver:2026-06-15T12:26:04.099+02:00</guid><pubDate>Mon, 15 Jun 2026 10:26:04 +0000</pubDate><description>The main issue has been identified and successfully resolved.
+However, if you notice any other issues, please contact us through the usual channels.
+Thank you for your understanding.
+
+--
+Das Hauptproblem konnte identifiziert und erfolgreich behoben werden.
+Sollten Sie dennoch weitere Auffälligkeiten feststellen, wenden Sie sich bitte über die bekannten Kanäle an uns.
+Vielen Dank für Ihr Verständnis.</description></item><item><title>Incident High Performance Datastore – Status Update [resolved]</title><link>https://stspg.io/8c18j09t364x</link><guid isPermaLink="false">plusserver:2026-06-11T16:09:20.335+02:00</guid><pubDate>Thu, 11 Jun 2026 14:09:20 +0000</pubDate><description>Dear customers, 
+
+The work related to the issues in the High Performance Datastore has been fully completed.
+
+All systems are now running stably again. This incident is hereby closed.
+
+Thank you for your patience and understanding during the resolution of this issue.
+
+Sincerely,
+
+--
+
+Sehr geehrte Kunden, 
+
+die Arbeiten im Zusammenhang mit den Beeinträchtigungen im High Performance Datastore sind vollständig abgeschlossen.
+
+Alle Systeme laufen wieder stabil. Der Incident wird hiermit geschlossen.
+
+Vielen Dank für Ihre Geduld und Ihr Verständnis während der Störungsbehebung.
+
+Mit freundlichen Grüßen</description></item><item><title>Emergency patch due to CVE-2026-42945 [resolved]</title><link>https://stspg.io/n2vzprvcj1rd</link><guid isPermaLink="false">plusserver:2026-05-15T15:21:00.983+02:00</guid><pubDate>Fri, 15 May 2026 13:21:00 +0000</pubDate><description>Dear Customers,
+
+We are pleased to inform you that we have successfully updated all accessible affected systems.
+The security vulnerability has thus been mitigated, and the incident has been resolved on our end.
+
+Thank you for your understanding.
+If you have any further questions, please feel free to contact Customer Support at +49 2203 1045 3600.
+
+-------------
+
+Sehr geehrte Kunden,
+
+wir freuen uns Ihnen mitteilen zu können, dass wir die alle erreichbaren, betroffenen Systeme erfolgreich aktualisieren konnten.
+Die Sicherheitslücke wurde somit mitigiert und der Incident auf unserer Seite geschlossen.
+
+Vielen Dank für Ihr Verständnis. 
+Sollten Sie noch Fragen haben melden Sie sich gern unter der +49 2203 1045 3600 im Customer-Support.</description></item><item><title>Information zu aktuellen Störungen bei .de-Domains [resolved]</title><link>https://stspg.io/fykrsg35cw6p</link><guid isPermaLink="false">plusserver:2026-05-05T23:31:31.412+02:00</guid><pubDate>Tue, 05 May 2026 21:31:31 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Emergency measures due to a loss of network redundancy - Notfallmaßnahmen aufgrund eines Redundanzverlustes im Netzwerk [resolved]</title><link>https://stspg.io/l47gx4v8grzn</link><guid isPermaLink="false">plusserver:2026-04-02T15:58:10.171+02:00</guid><pubDate>Thu, 02 Apr 2026 13:58:10 +0000</pubDate><description>The measures we implemented have been successfully carried out, and redundancy has been restored. For this reason, we are closing this report.as been resolved.
+
+--
+
+Die von uns eingeleiteten Maßnahmen wurden erfolgreich umgesetzt, und die Redundanz ist wiederhergestellt. Aus diesem Grund schließen wir diese Meldung.</description></item><item><title>Partial network fault - Partielle Netzwerkstörung [resolved]</title><link>https://stspg.io/pv0bxskz7wsc</link><guid isPermaLink="false">plusserver:2026-03-03T13:19:27.624+01:00</guid><pubDate>Tue, 03 Mar 2026 12:19:27 +0000</pubDate><description>As we have not been notified of any further irregularities, we hereby close this report. Thank you for your patience.
+--
+Da uns keine weiteren Auffälligkeiten mitgeteilt wurden, schließen wir die Meldung hiermit ab. Für Ihre Geduld bedanken wir uns.</description></item><item><title>Unknown error - Unbekannter Fehler [resolved]</title><link>https://stspg.io/28t3blb2z7w2</link><guid isPermaLink="false">plusserver:2026-01-26T09:21:08.204+01:00</guid><pubDate>Mon, 26 Jan 2026 08:21:08 +0000</pubDate><description>We could not find any further abnormalities and are closing this incident. 
+--
+Wir konnten keine weiteren Auffälligkeiten feststellen und schließen diesen Incident,</description></item><item><title>Fault report - Störungsmeldung CGN DataCore [DE-WEST-1] [resolved]</title><link>https://stspg.io/3hbctjkjyry4</link><guid isPermaLink="false">plusserver:2026-01-12T07:34:57.874+01:00</guid><pubDate>Mon, 12 Jan 2026 06:34:57 +0000</pubDate><description>We would like to inform you that the work to rectify the fault has been successfully completed.
+
+The data center is now fully reconnected to the regular power grid. Both transformers are in operation and normal service has been restored.
+
+In addition, the emergency power supply systems have been replenished, so that the target status has been fully restored here as well.
+
+The incident is now closed. Thank you for your understanding during the ongoing work.
+
+--
+
+Wir möchten Sie darüber informieren, dass die Arbeiten zur Behebung der Störung erfolgreich abgeschlossen wurden.
+
+Das Rechenzentrum ist wieder vollständig am regulären Stromnetz angebunden. Beide Transformatoren sind in Betrieb, der Normalbetrieb ist wiederhergestellt.
+
+Zusätzlich wurden die Vorräte der Netzersatzanlagen aufgefüllt</description></item><item><title>CloudHub malfunction - CloudHub gestört [resolved]</title><link>https://stspg.io/vrq1075ycmt3</link><guid isPermaLink="false">plusserver:2025-12-08T09:42:38.466+01:00</guid><pubDate>Mon, 08 Dec 2025 08:42:38 +0000</pubDate><description>The problem has been fixed and functionality has been restored. We apologize for any inconvenience this may have caused. 
+--
+Die Störung ist beseitigt und die Funktionalität wieder hergestellt. Wir entschuldigen uns für die Unannehmlichkeiten in diesem Zusammenhang.</description></item><item><title>CloudHub malfunction - Störung CloudHub [resolved]</title><link>https://stspg.io/1wt16qn98g5z</link><guid isPermaLink="false">plusserver:2025-12-05T07:15:04.910+01:00</guid><pubDate>Fri, 05 Dec 2025 06:15:04 +0000</pubDate><description>Functionality has been restored and CloudHub is once again available without restrictions. 
+--
+Die Funktionalität wurde wieder hergestellt und das CloudHub steht uneingeschränkt wieder zur Verfügung.</description></item><item><title>Error message docs.plusserver.com - Störmeldung docs.plusserver.com [resolved]</title><link>https://stspg.io/tb98mfbb2cpj</link><guid isPermaLink="false">plusserver:2025-11-25T13:59:59.176+01:00</guid><pubDate>Tue, 25 Nov 2025 12:59:59 +0000</pubDate><description>Dear customers,
+
+We are pleased to inform you that the Docs are available as usual.
+
+Thank you very much for your patience.
+
+--
+
+Sehr geehrte Kunden,
+
+wir freuen uns Ihnen mitteilen zu können, das die Docs Ihnen wie gewohnt zur Verfügung stehen.
+
+Wir danken Ihnen viemals für Ihre Geduld.</description></item><item><title>Phishing Email Alert - Warnung vor Phishing-E-Mails [resolved]</title><link>https://stspg.io/rk8s1w5ng6px</link><guid isPermaLink="false">plusserver:2025-11-14T10:21:07.365+01:00</guid><pubDate>Fri, 14 Nov 2025 09:21:07 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Impairment - Beeinträchtigung vCenter [resolved]</title><link>https://stspg.io/t1bg4qlh74s4</link><guid isPermaLink="false">plusserver:2025-11-03T12:14:35.549+01:00</guid><pubDate>Mon, 03 Nov 2025 11:14:35 +0000</pubDate><description>The impairment has been removed and full functionality has been restored. We are therefore closing this report. 
+--
+Die Beeinträchtigung ist aufgehoben und die volle Funktionalität wieder gegeben. Wir schließen damit diese Meldung.</description></item><item><title>CloudHub malfunction - Störung CloudHub [resolved]</title><link>https://stspg.io/f50rpn0ld9pv</link><guid isPermaLink="false">plusserver:2025-11-03T11:36:50.813+01:00</guid><pubDate>Mon, 03 Nov 2025 10:36:50 +0000</pubDate><description>Maintenance work has been completed and full functionality has been restored. We are therefore closing this message. 
+--
+Die Wartungsarbeit ist beendet und die volle Funktionalität wieder hergestellt. Wir schließen damit diese Meldung.</description></item><item><title>Security Update Required for NVIDIA vGPU – Action Needed / Sicherheitsupdate für NVIDIA vGPU – Handlungsbedarf [resolved]</title><link>https://stspg.io/m98fckf97mp0</link><guid isPermaLink="false">plusserver:2025-10-21T10:14:32.222+02:00</guid><pubDate>Tue, 21 Oct 2025 08:14:32 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Current issue: DNS management currently restricted - Aktuelle Störung: DNS-Verwaltung derzeit eingeschränkt [resolved]</title><link>https://stspg.io/fgjsspbyzjw9</link><guid isPermaLink="false">plusserver:2025-10-13T09:42:51.247+02:00</guid><pubDate>Mon, 13 Oct 2025 07:42:51 +0000</pubDate><description>The problem has been fixed and functionality restored. 
+--
+Das Problem wurde behoben und die Funktionalität wieder hergestellt.</description></item><item><title>Ticket system error - Störung Ticketsystem [resolved]</title><link>https://stspg.io/xsnv8dq3695j</link><guid isPermaLink="false">plusserver:2025-08-29T08:38:23.778+02:00</guid><pubDate>Fri, 29 Aug 2025 06:38:23 +0000</pubDate><description>Functionality has been restored. We are therefore closing this message.
+--
+Die Funktionalität ist wieder hergestellt. Wir schließen damit diese Meldung.</description></item><item><title>Impairments in service - Beeinträchtigungen im Service [resolved]</title><link>https://stspg.io/hwr8kwzw7l93</link><guid isPermaLink="false">plusserver:2025-08-15T22:10:46.446+02:00</guid><pubDate>Fri, 15 Aug 2025 20:10:46 +0000</pubDate><description>Full functionality has been restored. We are closing this message.
+--
+Die volle Funktionalität ist wieder hergestellt. Wir schließen diese Meldung.</description></item><item><title>UPS support currently unavailable - USV-Unterstützung derzeit nicht verfügbar [resolved]</title><link>https://stspg.io/p29r6b2yn82j</link><guid isPermaLink="false">plusserver:2025-08-15T11:11:56.650+02:00</guid><pubDate>Fri, 15 Aug 2025 09:11:56 +0000</pubDate><description>The incident has been resolved. Redundancy and UPS support have been fully restored. This update concludes the incident notification.
+--
+Die Störung wurde behoben. Die Redundanz sowie die USV-Unterstützung sind vollständig wiederhergestellt. Wir schließen damit diese Meldung.</description></item></channel></rss>

@@ -1,0 +1,64 @@
+{
+"vendor": "LoyaltyLion",
+"slug": "loyaltylion",
+"platform": "statuspage",
+"status_url": "https://status.loyaltylion.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-02T00:00:08.778+01:00",
+"resolved_inferred": false,
+"started_at": "2026-07-01T18:56:04.922+01:00",
+"state": "resolved",
+"title": "Elevated API/SDK response times and error rates",
+"updated_at": "2026-07-02T00:00:08.814+01:00",
+"url": "https://stspg.io/qf2gzrny1tkw"
+},
+{
+"body": "The backlog of webhooks has been cleared. This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-09T20:40:25.205+01:00",
+"resolved_inferred": false,
+"started_at": "2025-10-09T17:25:56.606+01:00",
+"state": "resolved",
+"title": "Delays in data processing",
+"updated_at": "2025-10-09T20:40:25.221+01:00",
+"url": "https://stspg.io/mrkd4jv5fkkj"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-24T10:44:18.641+01:00",
+"resolved_inferred": false,
+"started_at": "2025-09-24T10:00:21.000+01:00",
+"state": "resolved",
+"title": "SDK unavailable",
+"updated_at": "2025-09-24T10:44:18.661+01:00",
+"url": "https://stspg.io/5n8yc6nl1s1x"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-20T16:35:09.236+01:00",
+"resolved_inferred": false,
+"started_at": "2025-08-20T15:08:23.419+01:00",
+"state": "resolved",
+"title": "High response time on API endpoints",
+"updated_at": "2025-08-20T16:35:09.253+01:00",
+"url": "https://stspg.io/103rxzgv1h50"
+}
+]
+}

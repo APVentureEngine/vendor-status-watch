@@ -1,0 +1,154 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"010hxcnsmdfy": {
+"body": "Our team managed to resolve the issue. We will investigate this incident and ensure we take the necessary steps to prevent this from happening again.\n\nThis is not the experience we are committed to delivering to you and we apologize to all whose meetings or events were negatively affected by this disruption. If you have any other questions, please let us know at support@slido.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-26T18:24:00.922Z",
+"resolved_inferred": false,
+"started_at": "2025-11-26T18:05:22.985Z",
+"state": "resolved",
+"title": "Issue with quiz timer",
+"updated_at": "2025-11-26T18:24:00.942Z",
+"url": "https://stspg.io/c4qdtgy88rtp"
+},
+"0zmry3xtxrds": {
+"body": "A fix on a Braintree side has been implemented and incident is now resolved. Our team confirmed payments are working correctly. We apologize for the inconvenience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T12:58:22.792Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T12:18:20.894Z",
+"state": "resolved",
+"title": "Invoice Services",
+"updated_at": "2025-11-18T12:58:22.807Z",
+"url": "https://stspg.io/nsmr5gt6gt85"
+},
+"4lwtyc7fvj6s": {
+"body": "The issue has now been resolved and the service is operating normally again.\nThe problem was caused by an AWS-related outage. We\u2019ve confirmed that DNS lookups are functioning as expected and are continuing to monitor the situation closely.\nThank you for your patience while this was being addressed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T22:13:55.755Z",
+"resolved_inferred": false,
+"started_at": "2026-02-10T21:14:52.261Z",
+"state": "resolved",
+"title": "Degraded performance",
+"updated_at": "2026-02-10T22:13:55.774Z",
+"url": "https://stspg.io/ftksj1b68wnz"
+},
+"9v0g1h4qr80v": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-03T15:09:48.368Z",
+"resolved_inferred": false,
+"started_at": "2026-06-03T13:51:09.724Z",
+"state": "resolved",
+"title": "Login issues",
+"updated_at": "2026-06-03T15:09:48.382Z",
+"url": "https://stspg.io/yg71t1lplltz"
+},
+"bb9lqcv13780": {
+"body": "The issue has now been resolved and the service is operating normally again. Thank you for your patience while this was being addressed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-02T09:30:28.989Z",
+"resolved_inferred": false,
+"started_at": "2026-03-02T09:00:28.414Z",
+"state": "resolved",
+"title": "Major Outage",
+"updated_at": "2026-03-02T09:30:29.014Z",
+"url": "https://stspg.io/b5mk39xy2fbs"
+},
+"g773bf0cnwfl": {
+"body": "Our team managed to resolve the issue. We will investigate this incident and ensure we take the necessary steps to prevent this from happening again.\n\nThis is not the experience we are committed to delivering to you and we apologize to all whose meetings or events were negatively affected by this disruption. If you have any other questions, please contact us at https://www.slido.com/contact.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-10T01:25:32.890Z",
+"resolved_inferred": false,
+"started_at": "2026-06-10T01:00:35.601Z",
+"state": "resolved",
+"title": "Login issues",
+"updated_at": "2026-06-10T01:25:32.924Z",
+"url": "https://stspg.io/6tstyhwvsslm"
+},
+"nvb6j793ck8l": {
+"body": "All Help Center articles are available and operational since 15:33\u00a0UTC. This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-06T17:35:36.396Z",
+"resolved_inferred": false,
+"started_at": "2025-08-06T14:37:35.036Z",
+"state": "resolved",
+"title": "Help center articles are not accessible",
+"updated_at": "2025-08-06T17:35:36.414Z",
+"url": "https://stspg.io/5y3v67lyq52h"
+},
+"rrpfmld4drxn": {
+"body": "We have confirmed that the login issues affecting Webex users outside the EU have been resolved. \n\nThe latest fix has restored normal login access, and our monitoring shows the service is operating normally.\n\nWe apologize for the inconvenience and appreciate your patience.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-10T10:27:37.323Z",
+"resolved_inferred": false,
+"started_at": "2026-06-10T02:01:27.715Z",
+"state": "resolved",
+"title": "Login Issues for Webex Users on all clusters except EU cluster.",
+"updated_at": "2026-06-10T10:27:37.336Z",
+"url": "https://stspg.io/x899h2g110fs"
+},
+"s3l5w5kz3669": {
+"body": "We now consider this issue to be resolved as we have a functional workaround for users based in the UAE. If you were previously on the UAE server and need access to Slido, please contact support@slido.com and we will be able to set this up for you.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-13T14:26:28.976Z",
+"resolved_inferred": false,
+"started_at": "2026-03-02T09:36:09.000Z",
+"state": "resolved",
+"title": "Major Outage of United Arab Emirates region",
+"updated_at": "2026-03-13T14:26:28.991Z",
+"url": "https://stspg.io/wcj91lh3p1b8"
+},
+"zdr5msfszrjr": {
+"body": "Our Google Slides integration should gradually be returning to normal, although it can take a number of days for the new version of the chrome extension to reach you. \n\nThis is something that we don't have any control over so if you find the present mode still isn't loading for you, please continue to use the following workaround: \n\n- Disable the Slido Chrome Extension\n- Open your presentation in Google Slides\n- Click the green Present button directly from the Slido sidebar",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-29T15:22:22.198Z",
+"resolved_inferred": false,
+"started_at": "2026-01-26T23:03:19.000Z",
+"state": "resolved",
+"title": "Issue with Google Slides Chrome Extension",
+"updated_at": "2026-01-29T15:22:22.212Z",
+"url": "https://stspg.io/xbnzklrpbg57"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "slido",
+"status_url": "https://status.slido.com",
+"vendor": "Slido"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Packagecloud incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/packagecloud/</link><description>Incidents from Packagecloud's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Intermittent errors on package uploads [postmortem]</title><link>https://stspg.io/lqxzdsfj3zjb</link><guid isPermaLink="false">packagecloud:2025-11-26T05:00:00.000-08:00</guid><pubDate>Wed, 26 Nov 2025 13:00:00 +0000</pubDate><description># Summary
+
+At 09:52AM UTC, we received the first customer report indicating HTTP 500 errors during Debian package uploads. Additional reports followed throughout the day, confirming that multiple package types and customers were affected. After an internal investigation, the issue was declared an incident at 18:19PM UTC.
+
+The underlying cause was found to be insufficient disk space on a subset of ECS tasks responsible for handling file uploads. These tasks had reached their disk capacity, preventing them from completing upload operations. Because the tasks were running at maximum disk usage, they also could not be automatically cycled out by ECS, allowing the problem to persist.
+
+During the investigation we observed an increase in device maximum capacity errors, and inspection of the ECS c</description></item><item><title>Increased 403 Errors on package access [postmortem]</title><link>https://stspg.io/cyx4v0519z33</link><guid isPermaLink="false">packagecloud:2025-10-23T21:12:13.320-07:00</guid><pubDate>Fri, 24 Oct 2025 04:12:13 +0000</pubDate><description>## Service Impact
+
+On October 24th, 2025 from approximately 01:53AM UTC until 04:24AM UTC our package download service experienced an outage affecting customer access. This was confirmed to have impacted Debian and RubyGems.
+
+## Incident Summary
+
+At 01:13AM UTC we updated the S3 Bucket Policy for an S3 bucket containing customer packages via Terraform as part of a larger re-architecting project.
+
+We received customer reports about Debian package download issues from 01:53AM UTC and started doing isolated, per-customer investigations. At 03:40AM UTC we concluded that the issues were not isolated and declared the incident. More members from our team were called to help investigate the problem, where we found that service for pulling RubyGems had also been impacted. Around 04:00 UTC, the new </description></item></channel></rss>

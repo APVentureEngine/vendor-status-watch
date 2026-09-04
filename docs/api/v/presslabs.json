@@ -1,0 +1,25 @@
+{
+"vendor": "Presslabs",
+"slug": "presslabs",
+"platform": "statuspage",
+"status_url": "https://status.presslabs.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "We would like to inform you that the logs have started to reappear in the dashboard. If you notice any irregularities, please do not hesitate to contact us at support@presslabs.com.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-28T16:44:24.108+03:00",
+"resolved_inferred": false,
+"started_at": "2025-08-26T17:40:44.553+03:00",
+"state": "resolved",
+"title": "Displaying logs in dashboard not working",
+"updated_at": "2025-08-28T16:44:24.123+03:00",
+"url": "https://stspg.io/g0d6n0f2bz0r"
+}
+]
+}

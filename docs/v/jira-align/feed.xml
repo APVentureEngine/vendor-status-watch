@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Jira Align incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/jira-align/</link><description>Incidents from Jira Align's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/tf6vg9mkgdnl</link><guid isPermaLink="false">jira-align:2026-05-14T05:24:54.100Z</guid><pubDate>Thu, 14 May 2026 05:24:54 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Intermittent Jira Align Web Issues [resolved]</title><link>https://stspg.io/w9fwwrtfmm4t</link><guid isPermaLink="false">jira-align:2026-01-14T14:26:37.247Z</guid><pubDate>Wed, 14 Jan 2026 14:26:37 +0000</pubDate><description>On January 14, 2026, some Jira Align Cloud users may have experienced service disruption. The issue has now been resolved and the service is operating normally for all affected customers.</description></item><item><title>Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo [resolved]</title><link>https://stspg.io/cslwk1przbg1</link><guid isPermaLink="false">jira-align:2025-12-15T16:16:25.418Z</guid><pubDate>Mon, 15 Dec 2025 16:16:25 +0000</pubDate><description>On December 15th, 2025, Admin Hub, Atlassian Analytics, Confluence Cloud, Ecosystem, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo users in the prod-us-east region may have experienced performance degradations and errors on the web page and mobile apps. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>Elevated Server Errors [postmortem]</title><link>https://stspg.io/8f1kwprktqnc</link><guid isPermaLink="false">jira-align:2025-11-18T12:23:10.784Z</guid><pubDate>Tue, 18 Nov 2025 12:23:10 +0000</pubDate><description>### Summary
+
+On November 18, 2025 between 11:30 UTC and 17:10 UTC, Atlassian customers using Jira Align and Confluence \(Whiteboards and Databases\) products experienced degraded performance. The event was triggered by an [outage impacting Cloudflare](https://blog.cloudflare.com/18-november-2025-outage/), our cloud CDN and edge network solution provider.
+
+The incident was detected within 4 minutes by our Pollinator network scanning solution. Systems were fully operational once the outage ended.
+
+### **IMPACT**
+
+#### Jira Align
+
+* During the outage, users attempting to access Jira Align through the website or the public API may have received HTTP 5xx error codes.
+
+#### **Confluence Whiteboards and Databases**
+
+* For both Confluence Whiteboards and Databases, users had difficulty loading con</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/fgp85wckn8r9</link><guid isPermaLink="false">jira-align:2025-10-20T07:56:12.537Z</guid><pubDate>Mon, 20 Oct 2025 07:56:12 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item><item><title>Degraded performance to multiple Atlassian experiences [postmortem]</title><link>https://stspg.io/bkg71n54g69f</link><guid isPermaLink="false">jira-align:2025-09-22T05:38:58.174Z</guid><pubDate>Mon, 22 Sep 2025 05:38:58 +0000</pubDate><description>### **SUMMARY**
+
+On September 22, 2025, between 04:38 and 04:48 UTC, Atlassian customers experienced connection errors preventing access to their [atlassian.net](http://atlassian.net/) sites. Some customers observed intermittent errors as services gradually recovered until 06:17 UTC.
+
+The event was triggered by a faulty configuration change to our Content Delivery Network \(CDN\). The change included an invalid hostname which prevented customers from successfully connecting to [atlassian.net](http://atlassian.net/) domains.
+
+The incident was detected within 1 minute by our monitoring systems and mitigated by rolling back the change, which put Atlassian systems into a known good state. The acute impact was resolved in 10 minutes and all lingering errors resolved in 1 hour 38 minutes.
+
+### *</description></item><item><title>Degraded performance in Confluence and Jira for Microsoft Edge users [resolved]</title><link>https://stspg.io/867d47hhz9f4</link><guid isPermaLink="false">jira-align:2025-09-09T10:23:55.773Z</guid><pubDate>Tue, 09 Sep 2025 10:23:55 +0000</pubDate><description>An update has been released by Microsoft to resolve this issue for users of the Edge browser. To verify that you are running the required version of Edge, you can navigate to edge://components/ in the address bar, click the &#x27;Check for update&#x27; button for the &#x27;Trust Protections List&#x27;, ensuring that you are on version 1.0.0.31 or higher to ensure you are running the version that contains the fixed release.
+All Edge browsers should otherwise receive this update within 10 hours without user intervention.</description></item></channel></rss>

@@ -1,0 +1,141 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"14gx3xzn02vc": {
+"body": "L\u2019anomalia relativa alle procedure di rinnovo e acquisto \u00e8 stata risolta nella serata di ieri. Dalle 20:30 circa i servizi risultano nuovamente operativi.\n\nCi scusiamo per il disagio e vi ringraziamo per la comprensione.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-09-04T08:08:54.652+02:00",
+"resolved_inferred": false,
+"started_at": "2026-09-03T18:35:24.648+02:00",
+"state": "resolved",
+"title": "Anomalie intermittenti durante le operazioni di rinnovo e acquisto",
+"updated_at": "2026-09-04T08:08:54.670+02:00",
+"url": "https://stspg.io/qyl9x4hgqsq4"
+},
+"4038hfbd1775": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-23T15:27:08.470+01:00",
+"resolved_inferred": false,
+"started_at": "2026-03-23T14:14:00.081+01:00",
+"state": "resolved",
+"title": "Rallentamenti diffusi su hosting Wepanel",
+"updated_at": "2026-03-23T15:27:08.488+01:00",
+"url": "https://stspg.io/qg7gmj3v4ggm"
+},
+"8kkdv53932lx": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-06T14:25:55.274+01:00",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:44:10.836+01:00",
+"state": "resolved",
+"title": "Rallentamenti dei servizi per traffico anomalo sulla rete",
+"updated_at": "2026-03-06T14:25:55.290+01:00",
+"url": "https://stspg.io/2s8f7p5jl9ml"
+},
+"9q232z0h7435": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-29T13:28:28.689+02:00",
+"resolved_inferred": false,
+"started_at": "2025-09-29T11:23:37.621+02:00",
+"state": "resolved",
+"title": "Rallentamento WebMail",
+"updated_at": "2025-09-29T13:28:28.710+02:00",
+"url": "https://stspg.io/32m3vczys1xv"
+},
+"fz2k66jv4fg6": {
+"body": "Tra le 10:00 e le 11:00 si sono verificati rallentamenti su alcuni componenti della piattaforma.\nL\u2019anomalia \u00e8 stata prontamente individuata e risolta;  al momento tutti i servizi risultano pienamente operativi.\n\nCi scusiamo per il disagio e ringraziamo per la comprensione.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T10:30:00.000+01:00",
+"resolved_inferred": false,
+"started_at": "2026-02-10T10:30:00.000+01:00",
+"state": "resolved",
+"title": "Degradazione temporanea del servizio \u2013 Risolta",
+"updated_at": "2026-02-10T14:30:33.525+01:00",
+"url": "https://stspg.io/q2jbzdg815hc"
+},
+"g0yv2mq8cs27": {
+"body": "Il fornitore ci ha confermato che i problemi sono stati risolti, ci scusiamo nuovamente per i disagi e vi ringraziamo per la comprensione",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-15T13:00:47.273+01:00",
+"resolved_inferred": false,
+"started_at": "2025-12-15T11:24:03.219+01:00",
+"state": "resolved",
+"title": "Disservizi sui pagamenti \u2013 in corso di verifica",
+"updated_at": "2025-12-15T13:00:47.293+01:00",
+"url": "https://stspg.io/s6t7plkwz7x1"
+},
+"g7f4jvsc1jtp": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-30T16:23:21.505+02:00",
+"resolved_inferred": false,
+"started_at": "2025-09-30T12:39:29.973+02:00",
+"state": "resolved",
+"title": "Avviso di connettivit\u00e0 server limitata su rete TIM/Telecom Italia",
+"updated_at": "2025-09-30T16:23:21.534+02:00",
+"url": "https://stspg.io/98yvh1ydrynz"
+},
+"kmwynycq3zqv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-26T15:38:25.425+01:00",
+"resolved_inferred": false,
+"started_at": "2026-02-26T12:22:36.077+01:00",
+"state": "resolved",
+"title": "Attenzione: potenziali disservizi M365",
+"updated_at": "2026-02-26T15:38:25.441+01:00",
+"url": "https://stspg.io/zmlry3kkcbbd"
+},
+"ptpm6nw2rw2j": {
+"body": "Tra le 11:30 e le 12:00 si sono verificati rallentamenti che hanno interessato alcuni componenti della nostra piattaforma. L\u2019anomalia \u00e8 stata individuata e completamente risolta; al momento tutti i servizi stanno operando regolarmente.\n\nCi scusiamo per il disagio arrecato e ringraziamo per la comprensione.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-26T11:30:00.000+01:00",
+"resolved_inferred": false,
+"started_at": "2025-11-26T11:30:00.000+01:00",
+"state": "resolved",
+"title": "Aggiornamento rallentamenti del servizio",
+"updated_at": "2025-11-26T13:24:38.637+01:00",
+"url": "https://stspg.io/kx181qcghj5v"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "register-it",
+"status_url": "https://status.register.it",
+"vendor": "Register.it"
+}

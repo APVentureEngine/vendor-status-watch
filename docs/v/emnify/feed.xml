@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emnify incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/emnify/</link><description>Incidents from Emnify's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Service Degradation - OpenVPN Connections and Portal Access [resolved]</title><link>https://stspg.io/8fq8l5bq2493</link><guid isPermaLink="false">emnify:2026-08-01T09:56:04.773Z</guid><pubDate>Sat, 01 Aug 2026 09:56:04 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service Degradation - Data Usage Statistics [resolved]</title><link>https://stspg.io/dy152f0j32vj</link><guid isPermaLink="false">emnify:2026-07-27T13:15:19.744Z</guid><pubDate>Mon, 27 Jul 2026 13:15:19 +0000</pubDate><description>Dear emnify Customers,
+
+This incident has been resolved. The recovery process has been completed, and the temporary restriction on report filters has also been removed. Both current and historical data are now available in the affected reports in the emnify portal.
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service Degradation - operators in the LATAM region [resolved]</title><link>https://stspg.io/z4k5r8pkw33t</link><guid isPermaLink="false">emnify:2026-07-24T12:32:48.681Z</guid><pubDate>Fri, 24 Jul 2026 12:32:48 +0000</pubDate><description>Dear emnify Customers,
+
+This incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Issues with Portal authentication [resolved]</title><link>https://stspg.io/bz7xrj7s4g53</link><guid isPermaLink="false">emnify:2026-07-10T17:12:28.499Z</guid><pubDate>Fri, 10 Jul 2026 17:12:28 +0000</pubDate><description>The incident has been resolved, and we confirm that portal authentication is fully functional again. 
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service Degradation - Device Quota Management [resolved]</title><link>https://stspg.io/vyc5btrvqvqw</link><guid isPermaLink="false">emnify:2026-06-30T17:43:55.778Z</guid><pubDate>Tue, 30 Jun 2026 17:43:55 +0000</pubDate><description>Dear emnify Customers,
+
+This incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service Degradation - Guinea (Orange, Cellcom, MTN) [resolved]</title><link>https://stspg.io/rnl547rjq3bf</link><guid isPermaLink="false">emnify:2026-06-30T08:11:18.524Z</guid><pubDate>Tue, 30 Jun 2026 08:11:18 +0000</pubDate><description>Dear emnify Customers,
+
+Network tests toward Cellcom are now passing, indicating that connectivity has been restored.
+
+As the issue affecting MTN remains ongoing, we have temporarily removed MTN from the available networks in our Guinea data plans to minimize customer impact. Customers can continue using alternative networks in Guinea, which are operating normally.
+
+We will continue to monitor the situation closely and will re-enable MTN once the network demonstrates stable and reliable service.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Issues with data limit enforcement [resolved]</title><link>https://stspg.io/56yyfwr6xdx8</link><guid isPermaLink="false">emnify:2026-06-26T19:58:17.115Z</guid><pubDate>Fri, 26 Jun 2026 19:58:17 +0000</pubDate><description>This incident has been resolved. 
+
+In case you are still having issues, please submit a ticket to our Customer Support team via the help center.</description></item><item><title>Service Degradation - Vodafone Germany [resolved]</title><link>https://stspg.io/m2r67m9b2k3q</link><guid isPermaLink="false">emnify:2026-06-23T12:49:18.535Z</guid><pubDate>Tue, 23 Jun 2026 12:49:18 +0000</pubDate><description>The issue has since been resolved, and access to Vodafone Germany is fully operational again. 
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Degraded Performance – Embedded Dashboards &amp; Stats API [resolved]</title><link>https://stspg.io/b9bw10szcyhg</link><guid isPermaLink="false">emnify:2026-06-20T22:35:42.415Z</guid><pubDate>Sat, 20 Jun 2026 22:35:42 +0000</pubDate><description>This incident has been resolved. 
+
+Please reach out to our Customer Support team via the help center if you continue to face issues.</description></item><item><title>Service degradation - EE (UK) [resolved]</title><link>https://stspg.io/n6h5s470bbj3</link><guid isPermaLink="false">emnify:2026-06-18T12:55:25.438Z</guid><pubDate>Thu, 18 Jun 2026 12:55:25 +0000</pubDate><description>This incident has been resolved. If you continue to experience any issues, please contact our Customer Support team.</description></item><item><title>Service Degradation - Orange (Guinea) [resolved]</title><link>https://stspg.io/5966h2r111wb</link><guid isPermaLink="false">emnify:2026-06-04T13:48:25.051Z</guid><pubDate>Thu, 04 Jun 2026 13:48:25 +0000</pubDate><description>We have confirmed that Orange Guinea connectivity is now fully operational. Services have recovered and traffic is processing normally.</description></item><item><title>Service Degradation - 4G Connectivity [postmortem]</title><link>https://stspg.io/5x51tyy8zszb</link><guid isPermaLink="false">emnify:2026-06-03T08:23:05.384Z</guid><pubDate>Wed, 03 Jun 2026 08:23:05 +0000</pubDate><description>## Summary
+
+Due to a full outage of emnify’s LTE signalling carrier for the 90143XXX and 29509XXX IMSIs, customers were unable to attach to LTE networks during the impact duration of 29min.
+
+Due to static routing in 3GPP signalling systems, there is no failover to alternate carriers. Most devices were able to connect to alternative RAT types \(2G/3G\) or using alternate IMSIs. Existing data connections were not impacted.
+
+## Timeline \(UTC\)
+
+| Time | Event |
+| --- | --- |
+| 07:47 | **&gt;&gt;&gt;INCIDENT STARTS HERE&lt;&lt;&lt;** Carrier applies configuration change to their Diameter Routing Agents, which triggers a software bug. LTE signalling links between emnify and carrier are all shut down. |
+| 07:52 | Automated alert raised |
+| 08:04 | Internal incident created |
+| 08:16 | LTE signalling links up aga</description></item><item><title>Service Degradation - Claro (Paraguay, Uruguay, Argentina) [resolved]</title><link>https://stspg.io/1n5mp0jkcxl2</link><guid isPermaLink="false">emnify:2026-06-02T04:30:00.000Z</guid><pubDate>Tue, 02 Jun 2026 04:30:00 +0000</pubDate><description>Dear emnify Customers,
+
+At approximately 04:30 UTC today, we observed service degradation affecting connectivity to the Claro network in Paraguay, Uruguay, and Argentina. During this period, devices attempting to connect via Claro may have experienced intermittent connectivity issues or service disruptions.
+
+Beginning around 07:30 UTC, we observed traffic levels returning to normal, with network performance remaining stable since that time. Based on our monitoring, the incident has been resolved and services have recovered.
+
+We are continuing to engage with Claro to better understand the underlying cause of the interruption and will review any findings made available by the operator.
+
+If you continue to experience connectivity issues, please contact our Support Team through the Help Center</description></item><item><title>Service Degradation - Lonestar (Liberia) [resolved]</title><link>https://stspg.io/m7xtbjw1rfbd</link><guid isPermaLink="false">emnify:2026-05-18T07:18:46.089Z</guid><pubDate>Mon, 18 May 2026 07:18:46 +0000</pubDate><description>Dear emnify Customers,
+
+This incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service degradation - Play (Poland) [resolved]</title><link>https://stspg.io/bych6r3mzvzg</link><guid isPermaLink="false">emnify:2026-05-14T18:02:13.098Z</guid><pubDate>Thu, 14 May 2026 18:02:13 +0000</pubDate><description>This incident has been resolved</description></item><item><title>Service degradation - MTN (Guinea-Bissau) [resolved]</title><link>https://stspg.io/4dq2nhjq5f1h</link><guid isPermaLink="false">emnify:2026-05-11T15:24:55.429Z</guid><pubDate>Mon, 11 May 2026 15:24:55 +0000</pubDate><description>As the issue remains ongoing, we have temporarily removed MTN from the list of available networks in our data plans for Guinea-Bissau to minimize customer impact. Customers can continue to use alternative networks in Guinea-Bissau, which are operating normally.
+
+We will continue to monitor the situation closely and will re-enable MTN once the network demonstrates stable and reliable service.</description></item><item><title>Service Degradation - MTN Côte d&#x27;Ivoire [resolved]</title><link>https://stspg.io/fkchkqy8q1bm</link><guid isPermaLink="false">emnify:2026-04-27T14:30:21.761Z</guid><pubDate>Mon, 27 Apr 2026 14:30:21 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved. 
+
+Our monitoring and validation tests confirm that the operator MTN is now fully operational. 
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards,
+emnify Support Team</description></item><item><title>Event display issues [resolved]</title><link>https://stspg.io/yqk558mx0n81</link><guid isPermaLink="false">emnify:2026-04-27T02:42:25.000Z</guid><pubDate>Mon, 27 Apr 2026 02:42:25 +0000</pubDate><description>The issue affecting event display has been resolved.
+
+If you continue to experience any problems or have questions, please do not hesitate to contact our support team.</description></item><item><title>Increased API error rates [resolved]</title><link>https://stspg.io/pzsk938xs0my</link><guid isPermaLink="false">emnify:2026-04-22T07:56:20.033Z</guid><pubDate>Wed, 22 Apr 2026 07:56:20 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved, and all services are now fully operational.
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards,
+emnify Support Team</description></item><item><title>Service degradation - MTN Uganda [resolved]</title><link>https://stspg.io/bjs7qnrxmgl8</link><guid isPermaLink="false">emnify:2026-04-17T17:53:14.599Z</guid><pubDate>Fri, 17 Apr 2026 17:53:14 +0000</pubDate><description>The issue affecting connectivity in MTN Uganda has been fully resolved.
+
+If you experience any further issues, please reach out to our support team.</description></item><item><title>OpenVPN authentication issues [resolved]</title><link>https://stspg.io/0r6p82sv9y1x</link><guid isPermaLink="false">emnify:2026-04-17T08:47:21.186Z</guid><pubDate>Fri, 17 Apr 2026 08:47:21 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved, and the OpenVPN service is fully operational again. 
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Data Usage Statistics and Billing Preview Degradation [resolved]</title><link>https://stspg.io/h61snmdxyfcx</link><guid isPermaLink="false">emnify:2026-04-08T16:17:10.441Z</guid><pubDate>Wed, 08 Apr 2026 16:17:10 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Signalling degradation [resolved]</title><link>https://stspg.io/3kzhrsmv7wzj</link><guid isPermaLink="false">emnify:2026-03-25T09:35:11.023Z</guid><pubDate>Wed, 25 Mar 2026 09:35:11 +0000</pubDate><description>The issue has been fully resolved, and all services are operating normally.
+
+If you continue to experience any issues, please reach out to support.</description></item><item><title>Events and Usage Data Processing Delay [resolved]</title><link>https://stspg.io/35kpy7hmwwvd</link><guid isPermaLink="false">emnify:2026-03-13T11:55:18.411Z</guid><pubDate>Fri, 13 Mar 2026 11:55:18 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Increase in Diameter Signaling Traffic [resolved]</title><link>https://stspg.io/w4k055mg1bx8</link><guid isPermaLink="false">emnify:2026-03-12T05:34:38.000Z</guid><pubDate>Thu, 12 Mar 2026 05:34:38 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved, and Diameter signaling metrics have now returned to normal levels. The temporary increase observed earlier has been identified as a result of the signaling degradation incident that occurred yesterday.
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Signaling Degradation Impacting Device Connectivity [postmortem]</title><link>https://stspg.io/kzb394m6kws6</link><guid isPermaLink="false">emnify:2026-03-11T14:04:00.741Z</guid><pubDate>Wed, 11 Mar 2026 14:04:00 +0000</pubDate><description>On March 11, 2026, between approximately 13:20 UTC and 17:10 UTC, some devices on the emnify network experienced intermittent connectivity issues, including delayed session establishment and increased packet loss. Mitigation actions implemented by our engineering teams resulted in service progressively improving from approximately 14:45 UTC.
+
+**Incident overview**  
+An unexpected and sudden increase in data traffic volume on one of our carrier connectivity links in the EU region exceeded the available link capacity. Despite high spare capacity built into our platform, traffic volume increased approximately sixfold within a few minutes, which the link was not dimensioned to absorb. This led to congestion on the link, resulting in packet loss that affected the ability of some devices to esta</description></item><item><title>Service Degradation - Telstra Australia [resolved]</title><link>https://stspg.io/q2prcjm386jr</link><guid isPermaLink="false">emnify:2026-03-10T22:13:22.105Z</guid><pubDate>Tue, 10 Mar 2026 22:13:22 +0000</pubDate><description>Dear emnify Customers,
+
+The incident has been resolved, and network traffic has returned to normal levels.
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+
+Kind regards, 
+emnify Support Team</description></item><item><title>SMS service interruption [resolved]</title><link>https://stspg.io/5s6xqpdm1k5t</link><guid isPermaLink="false">emnify:2026-03-05T09:30:00.000Z</guid><pubDate>Thu, 05 Mar 2026 09:30:00 +0000</pubDate><description>Dear emnify Customers, 
+
+Earlier today, we observed a temporary degradation in the SMS services. Upon investigation, it was determined that A2P SMS-MT, or SMS messages sent from the portal/API to emnify devices, were affected. After applying a fix, we immediately started to see SMS-MT being processed as normal. 
+
+All SMS services are now fully operational as of writing.</description></item><item><title>Degradation in processing of portal/data streamer events and device usage statistics [resolved]</title><link>https://stspg.io/bpzj50sgf1mn</link><guid isPermaLink="false">emnify:2026-03-04T21:24:41.509Z</guid><pubDate>Wed, 04 Mar 2026 21:24:41 +0000</pubDate><description>This incident has been resolved and all data has been successfully backfilled. 
+
+If you continue to experience any issues, please contact our Customer Support team via the help center.</description></item><item><title>Portal Service Degradation [resolved]</title><link>https://stspg.io/zxqvbqt8p1gb</link><guid isPermaLink="false">emnify:2026-02-17T08:39:51.833Z</guid><pubDate>Tue, 17 Feb 2026 08:39:51 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

@@ -1,0 +1,90 @@
+{
+"vendor": "Enjin",
+"slug": "enjin",
+"platform": "statuspage",
+"status_url": "https://www.enjinstatus.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-20T09:56:17.956Z",
+"resolved_inferred": false,
+"started_at": "2026-08-20T09:30:14.281Z",
+"state": "resolved",
+"title": "Beam Claims Temporarily Unavailable",
+"updated_at": "2026-08-20T09:56:17.973Z",
+"url": "https://stspg.io/ctz703d189dr"
+},
+{
+"body": "The ENJ/EFI token claims functionality has now been re-enabled.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-02T08:12:14.000Z",
+"resolved_inferred": false,
+"started_at": "2025-11-25T07:58:50.372Z",
+"state": "resolved",
+"title": "ENJ/EFI Token Claim Processing Temporarily Unavailable",
+"updated_at": "2025-12-02T08:12:43.633Z",
+"url": "https://stspg.io/2z8py15lb5t0"
+},
+{
+"body": "A distributed denial-of-service (DDoS) attack targeting Enjin Platform Cloud was observed earlier and appears to have caused the intermittent availability issues. Enjin Platform Cloud's behavior appears normal at this time: login and API requests are succeeding. Further investigation into the earlier DDoS-related disruptions is ongoing, and mitigations will be applied as needed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-11T07:17:38.185Z",
+"resolved_inferred": false,
+"started_at": "2025-09-11T02:54:56.635Z",
+"state": "resolved",
+"title": "Enjin Platform Cloud: Intermittent Server Errors",
+"updated_at": "2025-09-11T07:17:38.204Z",
+"url": "https://stspg.io/b5d9dngj1xwl"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-02T06:41:47.275Z",
+"resolved_inferred": false,
+"started_at": "2025-09-02T03:51:35.000Z",
+"state": "resolved",
+"title": "Metadata Service Outage Impacting NFT.io and Enjin Wallet",
+"updated_at": "2025-09-02T06:41:47.667Z",
+"url": "https://stspg.io/43mv2nsf7q1z"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-20T15:45:20.848Z",
+"resolved_inferred": false,
+"started_at": "2025-08-20T03:07:42.295Z",
+"state": "resolved",
+"title": "Degraded access to Staking \u2013 Pool Overview in Enjin Wallet",
+"updated_at": "2025-08-20T15:45:20.865Z",
+"url": "https://stspg.io/0rt11jw02rrk"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-07T06:21:52.093Z",
+"resolved_inferred": false,
+"started_at": "2025-08-07T02:41:15.000Z",
+"state": "resolved",
+"title": "Documentation Site Outage",
+"updated_at": "2025-08-07T06:21:52.110Z",
+"url": "https://stspg.io/s7g3kxzy0vm2"
+}
+]
+}

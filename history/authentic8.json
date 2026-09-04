@@ -1,0 +1,23 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "status.io",
+"slug": "authentic8",
+"status_url": "https://status.authentic8.com",
+"vendor": "Authentic8"
+}

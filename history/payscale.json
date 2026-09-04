@@ -1,0 +1,63 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"b76vjbqx143w": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-23T10:24:47.015-07:00",
+"resolved_inferred": false,
+"started_at": "2026-06-23T10:07:31.307-07:00",
+"state": "resolved",
+"title": "Marketpay (6/23/2026)",
+"updated_at": "2026-06-23T10:24:47.032-07:00",
+"url": "https://stspg.io/m9c8vr6gjpzd"
+},
+"gkpp11wyx6qf": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-09T12:00:08.720-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-08T10:05:53.246-08:00",
+"state": "resolved",
+"title": "Automated Platform Emails Delivery",
+"updated_at": "2026-01-09T12:00:08.738-08:00",
+"url": "https://stspg.io/dcml6dhnfrmc"
+},
+"zv388h7h36xx": {
+"body": "Between 11:49 PM PDT on October 19 and 3:01 PM PDT on October 20, Marketpay experienced an interruption due to an issue with Amazon Web Services (AWS). Service has been fully restored, and systems are operating as expected.\n\nWe will continue to monitor performance to ensure stability.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T05:21:06.000-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T12:34:27.000-07:00",
+"state": "resolved",
+"title": "Amazon Web Services (AWS) Outage",
+"updated_at": "2025-10-21T05:26:34.046-07:00",
+"url": "https://stspg.io/p6qr0nwrv7jl"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "payscale",
+"status_url": "https://status.payscale.com",
+"vendor": "Payscale"
+}

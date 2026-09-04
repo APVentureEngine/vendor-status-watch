@@ -1,0 +1,77 @@
+{
+"vendor": "Divio",
+"slug": "divio",
+"platform": "statuspage",
+"status_url": "https://status.divio.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-18T11:04:11.668Z",
+"resolved_inferred": false,
+"started_at": "2026-03-18T10:30:58.992Z",
+"state": "resolved",
+"title": "Availability problem in Europe",
+"updated_at": "2026-03-18T11:04:11.683Z",
+"url": "https://stspg.io/37f3q9v5jmn6"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-05T10:56:01.775Z",
+"resolved_inferred": false,
+"started_at": "2026-03-05T10:20:11.658Z",
+"state": "resolved",
+"title": "Availability problem in Europe",
+"updated_at": "2026-03-05T10:56:01.790Z",
+"url": "https://stspg.io/8wnrpn1m5061"
+},
+{
+"body": "DNSimple has confirmed that all systems are operational and we can confirm from our side that domain resolution is working normally for all customers.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T21:15:02.240Z",
+"resolved_inferred": false,
+"started_at": "2026-02-10T17:25:07.374Z",
+"state": "resolved",
+"title": "DNS Service Disruption",
+"updated_at": "2026-02-20T09:22:45.068Z",
+"url": "https://stspg.io/5wx445cz8k0q"
+},
+{
+"body": "Service Impact Restored: We have confirmed that the intermittent issues affecting the Divio Control Panel and Media/Asset Delivery are restored.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T19:35:57.158Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T12:43:12.104Z",
+"state": "resolved",
+"title": "Cloudflare Global Network issues",
+"updated_at": "2025-11-18T19:36:00.636Z",
+"url": "https://stspg.io/sdh3s3k9d2x2"
+},
+{
+"body": "The fix has been successfully deployed across all regions and we can now report that all systems are back to normal.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T18:17:21.653Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T16:31:12.099Z",
+"state": "resolved",
+"title": "Elevated error rate",
+"updated_at": "2025-10-20T18:17:21.945Z",
+"url": "https://stspg.io/j4s9crwyz1fc"
+}
+]
+}

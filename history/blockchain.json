@@ -1,0 +1,96 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01K9Q5YKQ9M8V88B527RT1Q85Y": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-11T18:31:48Z",
+"resolved_inferred": false,
+"started_at": "2025-11-10T15:25:31Z",
+"state": "resolved",
+"title": "Polkadot deposits/withdrawals delayed",
+"updated_at": "2026-03-12T18:30:16Z"
+},
+"01KAK13811RY9ET0G3R38FSAYJ": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-23T15:28:35Z",
+"resolved_inferred": false,
+"started_at": "2025-11-21T10:59:24Z",
+"state": "resolved",
+"title": "Cardano deposits/withdrawals delayed",
+"updated_at": "2026-03-12T18:30:16Z"
+},
+"01KES9X5X91YM99YR0XYHVQDV3": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-26T14:28:42Z",
+"resolved_inferred": false,
+"started_at": "2026-01-12T14:31:36Z",
+"state": "resolved",
+"title": "USD Wires temporarily disabled",
+"updated_at": "2026-03-12T18:30:16Z"
+},
+"01KEYJNWWMR2EV11XB14E1Y5RM": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-15T12:15:36Z",
+"resolved_inferred": false,
+"started_at": "2026-01-14T15:41:07Z",
+"state": "resolved",
+"title": "Naira (NGN) deposit issue",
+"updated_at": "2026-03-12T18:30:16Z"
+},
+"01KS1MWE9CYHGBFVW2JTWZ10DR": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-20T16:58:02Z",
+"resolved_inferred": false,
+"started_at": "2026-05-20T02:54:20Z",
+"state": "resolved",
+"title": "Arbitrum Block Processing delayed",
+"updated_at": "2026-05-20T16:58:02Z"
+},
+"01KZG9Z5PWC3G5X8SWBRNY5PC2": {
+"body": "All systems are working. We are actively monitoring the current status.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-09T09:43:24Z",
+"resolved_inferred": false,
+"started_at": "2026-08-08T09:06:23Z",
+"state": "resolved",
+"title": "Withdrawals temporarily unavailable",
+"updated_at": "2026-08-09T09:43:24Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "blockchain",
+"status_url": "https://www.blockchain-status.com",
+"vendor": "Blockchain"
+}

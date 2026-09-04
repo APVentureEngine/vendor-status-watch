@@ -1,0 +1,102 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"8hwwsgsbptpg": {
+"body": "The incident has been resolved, and the maintenance activity that Microsoft was performing has been rescheduled.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-08T09:48:27.181-06:00",
+"resolved_inferred": false,
+"started_at": "2026-07-07T10:37:08.018-06:00",
+"state": "resolved",
+"title": "SPOT Hosted - Service Degradation",
+"updated_at": "2026-07-08T09:48:27.201-06:00",
+"url": "https://stspg.io/0q6340564wsm"
+},
+"hd6mh3wmkqp3": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-06T10:46:52.114-07:00",
+"resolved_inferred": false,
+"started_at": "2025-11-06T04:30:41.521-07:00",
+"state": "resolved",
+"title": "SPOT Hosted - Database Service Degradation",
+"updated_at": "2025-11-06T10:46:52.130-07:00",
+"url": "https://stspg.io/pjlpgw7rpp1y"
+},
+"m5rw4vn6q5mv": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-03T22:14:59.411-06:00",
+"resolved_inferred": false,
+"started_at": "2025-10-03T16:45:36.540-06:00",
+"state": "resolved",
+"title": "SPOT Corporate - Corporate Services Degraded",
+"updated_at": "2025-10-03T22:14:59.427-06:00",
+"url": "https://stspg.io/x2qg9xh0d6pg"
+},
+"v16fgkznn3sw": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-18T18:57:30.606-06:00",
+"resolved_inferred": false,
+"started_at": "2026-05-18T17:26:31.406-06:00",
+"state": "resolved",
+"title": "Temporary Interruption to SPOT Cloud Services",
+"updated_at": "2026-05-18T18:57:30.621-06:00",
+"url": "https://stspg.io/d1vxjhqnwznb"
+},
+"xhln6g3vd6lm": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-06T13:48:44.463-07:00",
+"resolved_inferred": false,
+"started_at": "2026-03-06T09:13:49.338-07:00",
+"state": "resolved",
+"title": "SPOT Hosted - Network Service Degradation",
+"updated_at": "2026-03-06T13:48:44.480-07:00",
+"url": "https://stspg.io/75h2tkc75xrr"
+},
+"xrjhvspj8kks": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-20T07:08:26.959-07:00",
+"resolved_inferred": false,
+"started_at": "2026-02-18T18:11:20.638-07:00",
+"state": "resolved",
+"title": "SPOT Corporate - Phone System Service",
+"updated_at": "2026-02-20T07:08:26.975-07:00",
+"url": "https://stspg.io/h8w8tjrfjwgv"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "xplor",
+"status_url": "https://status.spotpos.com",
+"vendor": "Xplor"
+}

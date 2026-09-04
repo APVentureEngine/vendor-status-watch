@@ -1,0 +1,38 @@
+{
+"vendor": "Iron.io",
+"slug": "iron-io",
+"platform": "statuspage",
+"status_url": "https://status.iron.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-13T12:18:45.232-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-12T14:04:12.898-07:00",
+"state": "resolved",
+"title": "HUD-e outage",
+"updated_at": "2026-08-13T12:18:45.252-07:00",
+"url": "https://stspg.io/cy01w8bk5bbs"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-26T13:36:52.482-08:00",
+"resolved_inferred": false,
+"started_at": "2026-01-18T14:47:07.371-08:00",
+"state": "resolved",
+"title": "IronWorker degraded performance",
+"updated_at": "2026-01-26T13:36:52.497-08:00",
+"url": "https://stspg.io/ptydnl0xmgmt"
+}
+]
+}

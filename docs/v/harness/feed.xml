@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Harness incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/harness/</link><description>Incidents from Harness's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Pipelines are stuck in Prod1 [resolved]</title><link>https://stspg.io/1l82qknlzdl6</link><guid isPermaLink="false">harness:2026-09-03T03:00:57.335-07:00</guid><pubDate>Thu, 03 Sep 2026 10:00:57 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Entities in Harness are not loading on in Prod3 [postmortem]</title><link>https://stspg.io/y4dw5tg21696</link><guid isPermaLink="false">harness:2026-08-28T00:04:09.101-07:00</guid><pubDate>Fri, 28 Aug 2026 07:04:09 +0000</pubDate><description>## Summary
+
+Between August 27 and August 28, 2026, customers experienced an issue where some pipelines, deployments, and related resources appeared as not found in the Harness UI and API, even though the underlying data remained intact.
+
+‌
+
+The issue occurred during a planned internal infrastructure update that affected communication between internal platform services. As a result, requests that depended on account, organization and project scope resolution were unable to complete successfully, which led to incorrect not found responses being returned to customers for existing entities.
+
+‌
+
+Engineering identified the issue, rolled back the change, and restored normal service. No customer data was lost or deleted during the incident.
+
+‌
+
+## Root Cause
+
+The issue was caused by a configuratio</description></item><item><title>Pipelines are failing for harness IACM customers [resolved]</title><link>https://stspg.io/rgzrn5j4w820</link><guid isPermaLink="false">harness:2026-08-26T01:38:48.000-07:00</guid><pubDate>Wed, 26 Aug 2026 08:38:48 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Feature Management &amp; Experimentation (FME) user interface unavailable [postmortem]</title><link>https://stspg.io/jf7z6c8ycf22</link><guid isPermaLink="false">harness:2026-08-23T17:57:07.808-07:00</guid><pubDate>Mon, 24 Aug 2026 00:57:07 +0000</pubDate><description>## Summary
+
+* Starting at **23:42 UTC** on August 23, 2026, several FME customers reported failures loading the FME UI.
+* FME UI Artifacts served from the CDN expired due to a retention policy, causing FME UI to fail to load.
+* Any flag request changes through the API, change delivery, and the data pipeline continued to work with no interruption.
+
+## Root Cause
+
+* The FME UI is served from a CDN. The UI artifacts got evicted due to a retention policy, causing the UI to fail to load for all users.
+
+## Impact
+
+* The FME UI was unable to load for all users across all production environments.
+
+### What was not impacted?
+
+* SDK functionality and runtime flag evaluation
+* Admin API calls
+* Customer flag configuration data
+* No data loss occurred
+
+## Remediation
+
+* FME UI got restored in the CDN </description></item><item><title>All modules are running slow in Prod1/2/3/4 due to cloud provider incident [postmortem]</title><link>https://stspg.io/jn63dxz0f5ty</link><guid isPermaLink="false">harness:2026-08-20T08:37:35.998-07:00</guid><pubDate>Thu, 20 Aug 2026 15:37:35 +0000</pubDate><description># Summary
+
+On 20 August 2026, beginning at approximately 15:00 UTC, the Harness platform experienced widespread performance degradation across all production environments. Pipeline executions that normally complete in around two minutes took seven to ten minutes. Continuous Delivery, Continuous Integration, pipeline orchestration, and Feature Management &amp; Experimentation were all affected.
+
+Google Cloud Platform experienced a multi-product incident in the us-west1 region affecting Bigtable, Compute Engine, Google Kubernetes Engine, and persistent-disk I/O. Harness production infrastructure runs on persistent disks in that region. The degradation raised database operation latency from approximately 2 ms to over 10 ms at the 95th percentile, which in turn caused message-queue processing lag </description></item><item><title>FME API write operations started returning 499 errors [postmortem]</title><link>https://stspg.io/wnr34j93m8rm</link><guid isPermaLink="false">harness:2026-08-20T07:32:40.483-07:00</guid><pubDate>Thu, 20 Aug 2026 14:32:40 +0000</pubDate><description>### Summary
+
+On August 20, 2026, between 10:24 and 14:55 UTC, a subset of FME writes failed. Writes made from the FME UI and writes made with Harness access tokens \(PATs and SATs\) were not affected. Runtime flag evaluation continued to work normally. The issue was mitigated by reverting a recent authentication change in a shared governance service, and affected writes returned to normal by 14:55 UTC. Status: [https://status.harness.io/incidents/rhthgm7d5dkz](https://status.harness.io/incidents/rhthgm7d5dkz)
+
+### Root Cause
+
+A change in how a shared governance service authenticated inbound calls resulted in some FME writes being rejected. Those writes used service-to-service credentials that the governance service could no longer verify after the change. FME surfaces a governance failure </description></item><item><title>Data ingestion is delayed on Traceable US production [postmortem]</title><link>https://stspg.io/l20k0l87d9qy</link><guid isPermaLink="false">harness:2026-08-19T06:22:48.975-07:00</guid><pubDate>Wed, 19 Aug 2026 13:22:48 +0000</pubDate><description>**Summary**
+
+On 19 August 2026 between 12:35 and 17:29 UTC, the Harness Application Security service experienced a significant disruption affecting both the customer-facing console and the data ingestion pipeline in the SaaS Production and US1 regions.
+
+‌
+
+**Root Cause** 
+
+The internal configuration service that supplies runtime settings to nearly every other component became overloaded and entered a repeated restart cycle. Because so many services depend on it, the effects were broad: console pages such as protection policies, posture views, activity logs, API inventory, and custom policy failed to load or timed out, and downstream processing stalled while waiting for configuration it could not obtain.
+
+# **Customer impact**
+
+| **Dimension** | **Detail** |
+| --- | --- |
+| Console \(UI\)  </description></item><item><title>SEI 2.0 dashboards are not loading [postmortem]</title><link>https://stspg.io/twn4gg4bm5mz</link><guid isPermaLink="false">harness:2026-08-06T07:30:56.391-07:00</guid><pubDate>Thu, 06 Aug 2026 14:30:56 +0000</pubDate><description>## Summary
+
+Customers on Prod1, Prod2, and Prod3 \(US\) clusters experienced failures when loading SEI 2.0 dashboards on August 6, 2026, from 7:22 AM PDT to 9:03 AM PDT. Customers calling the SEI 2.0 API also experienced similar failures.
+
+No customer data was lost, and ingestion of all integration data continued to work uninterrupted. SEI customers using 1.0 were not impacted.
+
+## Root Cause
+
+The incident was caused by resource exhaustion on the nodes serving queries. This resource degradation developed in a pattern that did not cross our existing alerting thresholds early enough to provide sufficient warning or allow mitigation before customer impact occurred.
+
+## Impact
+
+Customers on Prod1, Prod2, and Prod3 \(US\) clusters were unable to load SEI 2.0 dashboards during the incident windo</description></item><item><title>Monitoring - Pipelines Stuck - Prod2 [postmortem]</title><link>https://stspg.io/nzw13j14pl74</link><guid isPermaLink="false">harness:2026-08-06T06:50:18.466-07:00</guid><pubDate>Thu, 06 Aug 2026 13:50:18 +0000</pubDate><description>## **Summary**
+
+On August 6, 2026 \(morning PDT\), some customers running pipelines in the Prod2 production environment observed pipeline executions that stopped making progress — stages that did not advance and produced no further output or status updates. The issue was reported by affected customers. Harness engineers identified the cause, mitigated the impact, and pipeline executions returned to normal operation.
+
+The issue was caused by a self-referential pipeline expression. A Git webhook triggered a pipeline that referenced the contents of the webhook payload, and the payload itself contained further copies of that same expression. Each round of expression resolution therefore produced more expressions to resolve, doubling the amount of work each time. This exhausted the resources of</description></item><item><title>Editing &#x27;Variable Sets&#x27; in the IaCM module is experiencing issue [postmortem]</title><link>https://stspg.io/n87ctg0rb2bv</link><guid isPermaLink="false">harness:2026-08-04T05:07:20.745-07:00</guid><pubDate>Tue, 04 Aug 2026 12:07:20 +0000</pubDate><description># Executive Summary
+
+On August 4, 2026, between approximately 3:36 PM and 9:00 PM IST, customers using Infrastructure as Code Management \(IaCM\) on Prod0 and Prod1 were unable to access the Variable Sets settings page. The page rendered blank with no error message, and customers with Variable Sets attached to their workspaces could not view or manage them for the duration of the incident. Prod2, Prod3, and EU1 were not affected.
+
+Separately, during the same window, a scheduled maintenance action caused the IaCM settings tab to temporarily disappear across all environments. This was identified and reversed within the incident bridge call before significant customer impact occurred.
+
+We deployed a hotfix that restored full access to the Variable Sets page on Prod0 and Prod1 the same evening</description></item><item><title>UI dashboards are lagging behind (CI) [postmortem]</title><link>https://stspg.io/9wsfx9tx5dbl</link><guid isPermaLink="false">harness:2026-07-31T13:22:52.702-07:00</guid><pubDate>Fri, 31 Jul 2026 20:22:52 +0000</pubDate><description># **Summary**
+
+Between 25 July and 4 August 2026, pipeline execution dashboards and overview pages in the Harness Prod 2 and Prod 3 clusters displayed data that was between  behind real time. Pipelines themselves continued to build, deploy, and execute normally throughout; the issue was confined to how quickly execution records were copied into the database that serves reporting and dashboard views.
+
+‌
+
+**No customer data was lost.** Every affected record remained durably stored and was replayed into the analytics datastore once the underlying limitation was removed. Harness migrated the affected clusters to a horizontally scalable, queue-backed version of the replication component on 1 August 2026 and completed targeted data backfills for all affected accounts. 
+
+# **Root cause**
+
+Harness</description></item><item><title>Harness Artifact Registry upload is failing from pipeline - EU1 region [postmortem]</title><link>https://stspg.io/gc7mqtsqf2ck</link><guid isPermaLink="false">harness:2026-07-31T06:48:52.846-07:00</guid><pubDate>Fri, 31 Jul 2026 13:48:52 +0000</pubDate><description># **Summary**
+
+On July 31, 2026, artifact uploads performed through pipeline in the EU1 cluster began failing with an authentication error. Uploads initiated manually \(outside of a pipeline\) were not affected, and the ability to retrieve existing artifacts \(downloads\) was also unaffected — this was isolated to the specific pipeline upload path in one cluster.
+
+# **Impact**
+
+* Artifact uploads performed through pipeline in the EU1 cluster failed with an authentication error for approximately 4 hours and 34 minutes.
+* Retrieving existing artifacts \(downloads\) was not affected.
+* Manually uploading artifacts outside of a pipeline was not affected.
+* Other clusters/regions were not affected by this issue.
+
+# **Root Cause** 
+
+The component responsible for handling pipeline-based artifact </description></item><item><title>Intermittent External Network Connectivity Issues Affecting Build VMs [postmortem]</title><link>https://stspg.io/qdjcv8bw5w5x</link><guid isPermaLink="false">harness:2026-07-29T22:59:09.783-07:00</guid><pubDate>Thu, 30 Jul 2026 05:59:09 +0000</pubDate><description>## Summary
+
+Starting on August 4, 2026, CI runners in the us-west1 and us-central1 regions intermittently experienced connection timeouts of approximately 134 seconds when reaching external services such as GitHub and Bitbucket over outbound network gateways.
+
+## Impact 
+
+* CI runners in the affected regions intermittently experienced connection timeouts of approximately 134 seconds when reaching external services \(e.g., GitHub, Bitbucket\) over our outbound network gateways.
+* The issue was intermittent rather than constant — connections succeeded under normal load, and failures clustered during periods of high outbound traffic volume.
+* No data was lost or corrupted. This was a network-connectivity and capacity issue, not a data-integrity issue.
+* us-west1 and us-central1 were the affec</description></item><item><title>The Prod3 &amp; Prod1 environment is experiencing intermittent outages. We are currently investigating the issue. [postmortem]</title><link>https://stspg.io/d5bcx0frs63p</link><guid isPermaLink="false">harness:2026-07-26T23:42:31.644-07:00</guid><pubDate>Mon, 27 Jul 2026 06:42:31 +0000</pubDate><description># Summary
+
+During a recent production deployment, a defect in our internal deployment tooling caused two critical services   to run with incorrect, non-production configuration values in our production environment This led to a related set of four distinct symptoms: incorrect configuration behavior, intermittent login/access failures, a filestore access issue affecting one customer environment, and delayed pipeline status updates in the UI.
+
+‌
+
+We have identified and are implementing a permanent fix for the underlying configuration defect, and have already put in place resource and capacity changes that resolve the UI delay symptom.
+
+‌
+
+At no point during this incident were pipeline executions themselves lost, corrupted, or left in a stuck state. Where execution behavior was affected, it w</description></item><item><title>AIDI Dashboards – Degraded Performance [postmortem]</title><link>https://stspg.io/kzwzjz0p0wcp</link><guid isPermaLink="false">harness:2026-07-22T07:55:15.285-07:00</guid><pubDate>Wed, 22 Jul 2026 14:55:15 +0000</pubDate><description>## Summary
+
+Customers on Prod1, Prod2, and Prod3 clusters experienced intermittent widget load failures and increased load times when accessing AIDI 2.0 dashboards on July 22, 2026. Not all widgets were affected simultaneously  the issue manifested as sporadic failures rather than a full outage.
+
+No customer data was lost. SEI 1.0 customers were not impacted.
+
+## Root Cause
+
+Over time, a routine database maintenance process failed to run on certain tables in our analytics database, causing those tables to accumulate a large volume of internal metadata used to track deleted records. When the database planned queries against these tables, it loaded all of this accumulated metadata into memory, causing memory usage on the affected nodes to spike repeatedly. These repeated spikes triggered an </description></item><item><title>Degraded CI performance [postmortem]</title><link>https://stspg.io/yzlj2tnzgywd</link><guid isPermaLink="false">harness:2026-07-17T10:16:32.070-07:00</guid><pubDate>Fri, 17 Jul 2026 17:16:32 +0000</pubDate><description># Summary
+
+On 17 July 2026, following a routine code deployment, customers on older delegate versions \(858xx and below\)  began experiencing delayed CI builds  on Harness Cloud-hosted builds using our global build-queueing capability. Affected builds experienced an unexpected pause of up to approximately 8 minutes at the &quot;waiting for infrastructure&quot; stage before continuing, rather than proceeding within the expected sub-second time. Overall build slowness was intermittent.
+
+# Impact
+
+* All CI builds were potentially subject to delay; impact was most pronounced for builds on Harness Cloud-hosted infrastructure using the global build-queueing feature.
+* Affected builds experienced an unexplained pause of up to approximately 8 minutes before continuing, followed by a slower &quot;cold start&quot; sinc</description></item><item><title>CI git clone calls are failing for specific arm builds [postmortem]</title><link>https://stspg.io/pljx3l92jxgx</link><guid isPermaLink="false">harness:2026-07-17T03:30:52.000-07:00</guid><pubDate>Fri, 17 Jul 2026 10:30:52 +0000</pubDate><description># Summary
+
+Between June 19 and July 17, 2026, the built-in Git Clone step — and any pipeline step using the drone-git clone plugin — failed on ARM64 Kubernetes build infrastructure with the error exec /usr/local/bin/clone: exec format error. AMD64 \(Intel/AMD\) builds, Windows builds, and the VM containerless binary path were not affected.
+
+The root cause was a defect in our internal image publishing process that caused ARM64-tagged drone-git images to actually contain AMD64 binaries. We identified and mitigated the issue the same day it was reported by reverting the drone-git image to the last known-good version. No customer action or configuration change was required.
+
+# Root Cause
+
+On June 19, 2026, a security remediation restructured how the drone-git image is built. AMD64 builds were </description></item><item><title>Code services are degraded, git clone is failing [postmortem]</title><link>https://stspg.io/qgw0wh6qsxr4</link><guid isPermaLink="false">harness:2026-07-15T23:40:19.000-07:00</guid><pubDate>Thu, 16 Jul 2026 06:40:19 +0000</pubDate><description># Summary
+
+Between June 19 and July 17, 2026, the built-in Git Clone step — and any pipeline step using the drone-git clone plugin — failed on ARM64 Kubernetes build infrastructure with the error exec /usr/local/bin/clone: exec format error. AMD64 \(Intel/AMD\) builds, Windows builds, and the VM containerless binary path were not affected.
+
+The root cause was a defect in our internal image publishing process that caused ARM64-tagged drone-git images to actually contain AMD64 binaries. We identified and mitigated the issue the same day it was reported by reverting the drone-git image to the last known-good version. No customer action or configuration change was required.
+
+# Root Cause
+
+On June 19, 2026, a security remediation restructured how the drone-git image is built. AMD64 builds were </description></item><item><title>Certain users are unable to see feature flags in prod1 and prod2 [postmortem]</title><link>https://stspg.io/68m3d8z9lnsk</link><guid isPermaLink="false">harness:2026-07-14T04:25:41.916-07:00</guid><pubDate>Tue, 14 Jul 2026 11:25:41 +0000</pubDate><description>## Summary
+
+On July 14, 2026, certain Harness Feature Flag \(FF\) Classic customers on the Prod1 and Prod2 production environments were unable to view Feature Flags in the Harness platform. Affected requests returned an authorization error \(HTTP 403\), so Feature Flags were not visible for those users until access was restored.
+
+The behaviour was caused by a planned security update that began requiring an additional Feature Flags permission for related read operations. Users whose roles did not yet include that permission were correctly denied access, which appeared as a product failure. Harness temporarily rolled back the Feature Flags service change to restore access, updated the required permissions for affected users and roles, and confirmed that Feature Flag visibility returned to no</description></item><item><title>Few customers experiencing intermittent errors during pipeline execution. [postmortem]</title><link>https://stspg.io/fv5drkv33y06</link><guid isPermaLink="false">harness:2026-07-09T13:21:53.383-07:00</guid><pubDate>Thu, 09 Jul 2026 20:21:53 +0000</pubDate><description># Summary
+
+On July 9, 2026, some customers in the Harness Prod3 cluster experienced pipeline failures over a ~2.5-hour window, despite making no changes in their pipelines. Shell Script steps failed when fetching scripts from the Harness File Store, and Kubernetes deployment steps failed when retrieving secret encryption details.
+
+# Impact
+
+1. **Affected users**: Some customers using the Harness Prod3 cluster reported pipeline execution failures.
+2. **User impact:** Customers experienced failures in Shell Script and Kubernetes deployment steps. Impacted pipelines required manual retries after the incident was resolved.
+3. **Scope:** This was not a platform-wide outage. The issue was isolated to specific APIs in our internal service within the Prod3 cluster.
+
+# Root Cause
+
+The incident was </description></item><item><title>Prod3: Slowness in Harness Platform [postmortem]</title><link>https://stspg.io/gvfsbhwjk485</link><guid isPermaLink="false">harness:2026-07-08T00:49:30.000-07:00</guid><pubDate>Wed, 08 Jul 2026 07:49:30 +0000</pubDate><description>## Summary
+
+Between July 7 and July 8, 2026, customer accounts hosted in our Prod 3 environment experienced intermittent slowness and failures when loading pipelines and resolving templates. The underlying cause was a sharp, sustained increase in internal feature-flag lookup traffic from our template-processing service to our core platform backend service.
+
+The issue presented across two separate days. On Day 1 \(July 7\), our team restored service through infrastructure level mitigations by restarting affected services and adding capacity. Because that underlying cause was still present, the same failure mode recurred on Day 2 \(July 8\). Deeper investigation on Day 2 identified the specific feature flag and code path responsible, and engineering shipped a fix so that flag check is now se</description></item><item><title>Prod3: Slowness in loading pipeline components [postmortem]</title><link>https://stspg.io/0w316hfsy8n6</link><guid isPermaLink="false">harness:2026-07-07T03:22:06.839-07:00</guid><pubDate>Tue, 07 Jul 2026 10:22:06 +0000</pubDate><description>## Summary
+
+Between July 7 and July 8, 2026, customer accounts hosted in our Prod 3 environment experienced intermittent slowness and failures when loading pipelines and resolving templates. The underlying cause was a sharp, sustained increase in internal feature-flag lookup traffic from our template-processing service to our core platform backend service.
+
+The issue presented across two separate days. On Day 1 \(July 7\), our team restored service through infrastructure level mitigations  by  restarting affected services and adding capacity. Because that underlying cause was still present, the same failure mode recurred on Day 2 \(July 8\). Deeper investigation on Day 2 identified the specific feature flag and code path responsible, and engineering shipped a fix so that flag check is now </description></item><item><title>FME - Some customers are experiencing delays in scheduled exports of impressions [postmortem]</title><link>https://stspg.io/pydwzxnfsc2x</link><guid isPermaLink="false">harness:2026-07-02T08:48:25.564-07:00</guid><pubDate>Thu, 02 Jul 2026 15:48:25 +0000</pubDate><description>**Incident Summary**
+
+Harness FME \(Feature Management &amp; Experimentation\) faced substantial delays in scheduled impressions data exports on Jul 2, 2026. This issue stemmed from performance degradation within Tinybird&#x27;s infrastructure, affecting query execution crucial to our export pipeline.
+
+**Root Cause**
+
+The core issue was a temporary **performance degradation on the provider&#x27;s infrastructure**. This directly impacted the metadata retrieval endpoint, which failed to return job IDs intermittently. Consequently, completed export jobs underwent repeated retries, leading to a backlog in the export queue.
+
+**Impact**
+
+* The export backlog accumulated, peaking at more than 6 hours behind the planned schedule.
+* No data loss was detected during the incident.
+
+‌
+
+**Mitigation**
+
+1. **Adjusted</description></item><item><title>Few pipelines in prod4 are running with degraded performance [postmortem]</title><link>https://stspg.io/0cs7fd3lmd1n</link><guid isPermaLink="false">harness:2026-06-29T07:56:24.965-07:00</guid><pubDate>Mon, 29 Jun 2026 14:56:24 +0000</pubDate><description>### **Summary**
+
+During a planned security improvement to rotate service authentication secrets in the Prod 4 environment, an incorrect secret value was inadvertently applied to a subset of internal services. This resulted in authentication failures between platform components, impacting CI initialization, delegate task creation, and log streaming for certain pipeline executions. The issue was resolved by rolling back the token configuration to the previous known-good version and validating service recovery.
+
+### **Impact**
+
+**Affected environment:** Prod 4
+
+**Customer-visible impact:**
+
+* CI builds failed during initialization with errors such as:
+
+    * _“Could not fetch token from log service”_
+    * _“token in request not authorized for receiving tokens”_ \(HTTP 400\)
+    
+* CD and IaC</description></item><item><title>Login to Traceable Clusters Impacted [postmortem]</title><link>https://stspg.io/dwdctr7c33dt</link><guid isPermaLink="false">harness:2026-06-26T00:20:39.157-07:00</guid><pubDate>Fri, 26 Jun 2026 07:20:39 +0000</pubDate><description>## **Summary**
+
+‌
+
+_Between **06:50 UTC and 07:20 UTC on June 26, 2026**, customers experienced intermittent login failures while accessing Traceable environments across multiple US clusters. The incident was traced to an issue with the external authentication provider \(Auth0\), where elevated socket timeouts caused increased login latency and authentication request failures. Login functionality gradually recovered as the upstream issue stabilized, and the incident was resolved after successful login validation across multiple impacted clusters._
+
+## **Root Cause**
+
+_The root cause was an issue with the external authentication provider \(Auth0\), which experienced elevated socket timeouts while processing authentication requests. These upstream timeouts increased login latency and caused </description></item><item><title>Harness Login Failure in EU1 environment [postmortem]</title><link>https://stspg.io/cf1x39hmlr8w</link><guid isPermaLink="false">harness:2026-06-24T05:03:14.000-07:00</guid><pubDate>Wed, 24 Jun 2026 12:03:14 +0000</pubDate><description>### **Summary**
+
+During a planned security improvement to rotate service authentication secrets in the EU1 environment, an out of sequence  secret value was inadvertently applied to a subset of internal services. This resulted in authentication failures between platform components, causing login failures. The issue was resolved by rolling back the token configuration to the previous known-good version and validating service recovery.
+
+### **Impact**
+
+**Affected environment:** EU1
+
+**Customer-visible impact: Login Failures** 
+
+No customer data was lost or corrupted.
+
+### **Root Cause**
+
+As part of a planned security initiative, authentication secrets used for communication between internal platform services were rotated in the EU1 .
+
+During the rotation process, an  secret value was inadver</description></item><item><title>IDP Workflows and Backend failures [postmortem]</title><link>https://stspg.io/3khs7kvsfycw</link><guid isPermaLink="false">harness:2026-06-17T09:44:50.009-07:00</guid><pubDate>Wed, 17 Jun 2026 16:44:50 +0000</pubDate><description># **Customer RCA: Executive Summary**
+
+On June 17, 2026, between 9:30 PM and 10:15 PM IST, customers in certain production environments experienced failures when accessing IDP \(Internal Developer Portal\) workflows. The issue was caused by a configuration mismatch in service authentication settings.
+
+## **Impact**
+
+* **Affected Service:** IDP workflows
+* **Duration:** Approximately 45 minutes \(9:30 PM - 10:15 PM IST\)
+* **Customer Impact:** Users were unable to load IDP workflows during this period.
+* **Data Loss:** None
+* **Security Impact:** None
+
+## **Root Cause**
+
+During a planned service deployment, a configuration mismatch occurred in the authentication settings used for internal service-to-service communication. Specifically, the authentication credentials configured in the newly </description></item><item><title>Cloud builds are failing with 429 Too Many Requests error while downloading artifacts from central sonatype registry. [postmortem]</title><link>https://stspg.io/m04qndlxz5fm</link><guid isPermaLink="false">harness:2026-06-17T06:42:40.254-07:00</guid><pubDate>Wed, 17 Jun 2026 13:42:40 +0000</pubDate><description>## Summary
+
+On June 17, 2026, a subset of Harness Hosted CI customers experienced intermittent build failures when downloading Java/Gradle dependencies from Maven Central. Affected builds failed with `429 Too Many Requests` errors and could not proceed until the issue was resolved. 
+
+The incident was not caused by a Harness code change or platform defect. It was triggered by a policy change implemented by Sonatype \(the operator of Maven Central\) that tightened IP-based rate limits for unauthenticated access. Because Harness Hosted CI routes builds through shared network egress infrastructure, the aggregate outbound traffic from multiple customers sharing a common IP address exceeded the new, lower thresholds — causing all builds behind that IP to be temporarily blocked.
+
+This was an indu</description></item><item><title>Certain customers may see odd web artifacts on Code UI. Logging out and Logging in resolves this issue. [postmortem]</title><link>https://stspg.io/ldcxndjc9ryy</link><guid isPermaLink="false">harness:2026-06-08T10:32:27.651-07:00</guid><pubDate>Mon, 08 Jun 2026 17:32:27 +0000</pubDate><description>## Summary
+
+On June 8, 2026, a subset of Harness customers experienced UI degradation in the Harness Code Repository module. Affected users saw broken styling — most notably, the Create Repository control was visually impaired and difficult to use. The issue was not a full outage; core functionality remained available
+
+Users who logged out and back in, or opened the application in an incognito/private window, were not affected — pointing to browser-stored state as the failure mechanism. 
+
+## Root Cause
+
+**Primary cause:** A change to the Harness Platform UI framework altered the default theme fallback from a valid, deployable CSS theme to a &quot;system preference&quot; token — a value that instructs the browser to follow the operating system&#x27;s light/dark mode setting. While this token is valid as a</description></item><item><title>Intermittent 503s on IDP services [postmortem]</title><link>https://stspg.io/clncyx4rm5x9</link><guid isPermaLink="false">harness:2026-06-05T15:56:19.954-07:00</guid><pubDate>Fri, 05 Jun 2026 22:56:19 +0000</pubDate><description>## **Summary**
+
+_Between 13:30 UTC on June 5, 2026, and 00:27:00 UTC on June 6, 2026, customers using Harness IDP experienced intermittent 503 errors when accessing IDP web pages and APIs. The incident was mitigated through a configuration update and normal operation was restored by 00:27 UTC._
+
+## **Root Cause**
+
+_The Root Cause was traced back to a performance optimization update deployed around 10:35 UTC on June 5, 2026. This network transport configuration change altered idle TCP connection behavior, causing long-lived connections to be terminated prematurely under certain conditions. Consequently, requests failed to reach backend services, leading to intermittent 503 errors in the Harness IDP service. Stability was restored by recalibrating connection timeouts and lifecycle settings t</description></item></channel></rss>

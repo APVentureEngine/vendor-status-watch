@@ -1,0 +1,89 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"k378tscrkf33": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T17:00:50.000+02:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T13:39:36.000+02:00",
+"state": "resolved",
+"title": "Website, Control Panel, SMP and authentication flow being inaccessible",
+"updated_at": "2025-11-19T14:34:13.393+02:00",
+"url": "https://stspg.io/94f3kwq6pxms"
+},
+"l27phjf06yjt": {
+"body": "No further functionality errors have been observed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-08T07:30:32.000+03:00",
+"resolved_inferred": false,
+"started_at": "2026-05-08T04:19:35.000+03:00",
+"state": "resolved",
+"title": "NordLayer CP and SMP, authentication flow outage",
+"updated_at": "2026-05-08T10:29:57.975+03:00",
+"url": "https://stspg.io/x188h8khmzbg"
+},
+"qxrmjlsfpss1": {
+"body": "This incident has been resolved",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-27T17:31:05.796+02:00",
+"resolved_inferred": false,
+"started_at": "2025-10-27T14:54:14.000+02:00",
+"state": "resolved",
+"title": "Elevated login and private gateway(s) visibility issues",
+"updated_at": "2025-10-27T17:31:05.814+02:00",
+"url": "https://stspg.io/rjb4t7y5x8zz"
+},
+"sd4mffw1d9xl": {
+"body": "No further connectivity issues have been detected - service has been restored.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-07T17:30:19.941+03:00",
+"resolved_inferred": false,
+"started_at": "2025-08-07T16:33:12.000+03:00",
+"state": "resolved",
+"title": "Connectivity issues with VPN servers",
+"updated_at": "2025-08-07T17:30:19.959+03:00",
+"url": "https://stspg.io/wdz9nxgkxcn3"
+},
+"xv5fylvmwyth": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-08T22:56:28.466+03:00",
+"resolved_inferred": false,
+"started_at": "2026-06-08T18:57:42.000+03:00",
+"state": "resolved",
+"title": "Elevated levels of sign-in errors (MFA)",
+"updated_at": "2026-06-08T22:56:28.482+03:00",
+"url": "https://stspg.io/j44ntgwdcrsp"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "nordlayer",
+"status_url": "https://status.nordlayer.com",
+"vendor": "NordLayer"
+}

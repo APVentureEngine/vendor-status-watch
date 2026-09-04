@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Digital Pacific incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/digital-pacific/</link><description>Incidents from Digital Pacific's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Service Disruption – Email Delivery and Website Availability [monitoring]</title><link>https://stspg.io/lgrshhlnzt4x</link><guid isPermaLink="false">digital-pacific:2026-09-01T21:29:49.085+10:00</guid><pubDate>Tue, 01 Sep 2026 11:29:49 +0000</pubDate><description>The issue affecting email delivery and website availability has now been resolved.
+ 
+Our Engineering Team has confirmed that websites and email services are operating normally.
+ 
+We will continue to monitor the services to ensure stability.
+ 
+We appreciate your patience and understanding while we worked to address this issue.</description></item><item><title>Phone Support Service Disruption [resolved]</title><link>https://stspg.io/ldd09b16r5wj</link><guid isPermaLink="false">digital-pacific:2026-08-14T11:12:19.729+10:00</guid><pubDate>Fri, 14 Aug 2026 01:12:19 +0000</pubDate><description>Our phone support lines have now been restored and are fully operational.
+
+Our engineers have completed the necessary work to resolve the issue and are taking steps to help prevent it from happening again.
+
+We apologize for the inconvenience and appreciate your patience and understanding.
+
+Live Chat Support: Our live chat support remains available 24/7 if you need further assistance.</description></item><item><title>Security Advisory: Immediate cPanel Update Recommended for VPS &amp; Dedicated Servers [monitoring]</title><link>https://stspg.io/37k5q5qbng5d</link><guid isPermaLink="false">digital-pacific:2026-08-03T20:29:38.055+10:00</guid><pubDate>Mon, 03 Aug 2026 10:29:38 +0000</pubDate><description>Dear Customers,
+
+cPanel has released a security update to address CVE-2026-58048, a database privilege escalation vulnerability affecting supported cPanel &amp; WHM versions. We strongly recommend that all customers update their servers to the patched versions available.
+
+Please refer to the official advisories below for more details:
+
+https://support.cpanel.net/hc/en-us/articles/42285745783703-Security-CVE-2026-58048-Database-Privilege-Escalation
+
+Action Required 
+
+Please log in to your server via SSH as the root user and run the following command:
+
+/scripts/upcp
+
+This command will download and install the latest available cPanel &amp; WHM updates, including the security fixes released by cPanel.
+
+After the update completes, verify your cPanel version:
+
+/usr/local/cpanel/cpanel -V
+
+Why This Updat</description></item><item><title>Service Advisory: Webmail and Email Service Impact [resolved]</title><link>https://stspg.io/zq3pdjfxh7yh</link><guid isPermaLink="false">digital-pacific:2026-07-31T11:49:29.979+10:00</guid><pubDate>Fri, 31 Jul 2026 01:49:29 +0000</pubDate><description>The issue affecting the email services, along with webmail access, has now been resolved. Our Engineering Team will continue to closely monitor the situation to ensure ongoing stability.
+We appreciate your patience and understanding while we worked to address this matter. Please be assured that we will continue to provide updates should any new developments arise.</description></item><item><title>Email Delivery Issue Affecting Hotmail Domains [resolved]</title><link>https://stspg.io/9kqlcx86r08g</link><guid isPermaLink="false">digital-pacific:2026-07-29T22:12:03.667+10:00</guid><pubDate>Wed, 29 Jul 2026 12:12:03 +0000</pubDate><description>The issue affecting email delivery to Hotmail domains has been resolved, and email delivery has returned to normal.
+
+Our Engineering Team has completed the necessary work, and we are no longer observing the reported delivery issue.
+
+Thank you for your patience and understanding while we worked to resolve this issue.</description></item><item><title>Service Advisory – Shared Linux Hosting [resolved]</title><link>https://stspg.io/fw9gcz31t5j3</link><guid isPermaLink="false">digital-pacific:2026-07-21T14:08:54.713+10:00</guid><pubDate>Tue, 21 Jul 2026 04:08:54 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Announcement: Action Required: Preparing for Upcoming Security Updates by Microsoft [resolved]</title><link>https://stspg.io/qm9913kb6sy7</link><guid isPermaLink="false">digital-pacific:2026-07-03T19:57:49.794+10:00</guid><pubDate>Fri, 03 Jul 2026 09:57:49 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Email Delivery Issues Affecting External Recipients [resolved]</title><link>https://stspg.io/8xs5pnjr666q</link><guid isPermaLink="false">digital-pacific:2026-06-15T08:38:15.415+10:00</guid><pubDate>Sun, 14 Jun 2026 22:38:15 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Duplicate Emails Received from Gmail [resolved]</title><link>https://stspg.io/50v6dqtcqzmm</link><guid isPermaLink="false">digital-pacific:2026-06-05T13:59:06.308+10:00</guid><pubDate>Fri, 05 Jun 2026 03:59:06 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Advisory: Website and Service Impact [resolved]</title><link>https://stspg.io/pnrqvn2wgtmg</link><guid isPermaLink="false">digital-pacific:2026-05-18T14:05:06.655+10:00</guid><pubDate>Mon, 18 May 2026 04:05:06 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Update – Recommended Security Updates for cPanel Servers [resolved]</title><link>https://stspg.io/08lh6cd2fn76</link><guid isPermaLink="false">digital-pacific:2026-05-09T03:44:31.704+10:00</guid><pubDate>Fri, 08 May 2026 17:44:31 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Security Alert – cPanel, WHM and Webmail Access Restricted [resolved]</title><link>https://stspg.io/3lr8jjfbg3vc</link><guid isPermaLink="false">digital-pacific:2026-05-08T16:59:02.883+10:00</guid><pubDate>Fri, 08 May 2026 06:59:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Security Advisory: Immediate cPanel Update Recommended for VPS &amp; Dedicated Servers [resolved]</title><link>https://stspg.io/5qgk98lwlqkf</link><guid isPermaLink="false">digital-pacific:2026-04-29T16:29:09.772+10:00</guid><pubDate>Wed, 29 Apr 2026 06:29:09 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Interruption - Shared/Reseller Hosting Server [resolved]</title><link>https://stspg.io/gbnw650twrhy</link><guid isPermaLink="false">digital-pacific:2025-09-22T11:18:05.000+10:00</guid><pubDate>Mon, 22 Sep 2025 01:18:05 +0000</pubDate><description>Our engineering team has completed the necessary corrective actions, and services have now been restored. All impacted servers are back online and operating normally.
+
+We sincerely apologise for the disruption and thank you for your patience while we worked to resolve this matter.</description></item></channel></rss>

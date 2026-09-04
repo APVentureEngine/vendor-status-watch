@@ -1,0 +1,25 @@
+{
+"vendor": "Protecht",
+"slug": "protecht",
+"platform": "statuspage",
+"status_url": "https://status.protecht.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "We experienced a service disruption today from 12:15 PM to 12:36 PM PST that temporarily affected claims form submissions and dashboard access. The issue has been fully resolved and all services are now operating normally. We apologize for any inconvenience this may have caused.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-02T12:00:00.000-08:00",
+"resolved_inferred": false,
+"started_at": "2025-12-02T12:00:00.000-08:00",
+"state": "resolved",
+"title": "Service Disruption - Claims Processing",
+"updated_at": "2025-12-02T14:18:53.047-08:00",
+"url": "https://stspg.io/4c0jxck2gj4m"
+}
+]
+}

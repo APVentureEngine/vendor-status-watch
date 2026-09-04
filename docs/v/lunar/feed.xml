@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Lunar incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/lunar/</link><description>Incidents from Lunar's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Delayed Transfers [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-08-31T10:06:59Z</guid><pubDate>Mon, 31 Aug 2026 10:06:59 +0000</pubDate><description>Our banking infrastructure partner has now resolved this issue. The underlying problem was resolved at 15:14, and all pending transfers finished processing by 15:45. 
+
+Following a period of extended monitoring, we can confirm that all systems are operating normally. 
+
+We apologize for any inconvenience caused by this delay.</description></item><item><title>Card Details &amp; adding to digital wallet unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-07-07T10:01:53Z</guid><pubDate>Tue, 07 Jul 2026 10:01:53 +0000</pubDate><description>We can now confirm that everything is back to normal.
+
+The issue lasted between 11:07 and 11:58 CEST.
+
+We apologise for any inconvenience this may have caused.</description></item><item><title>Card Payments Declined [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-06-28T11:52:21Z</guid><pubDate>Sun, 28 Jun 2026 11:52:21 +0000</pubDate><description>Card payments are back to normal. We have resolved the issue and all card payments are processing as expected.
+
+We apologise for any inconvenience caused.</description></item><item><title>MobilePay Transfers Delayed [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-06-17T17:08:03Z</guid><pubDate>Wed, 17 Jun 2026 17:08:03 +0000</pubDate><description>We can now confirm that everything is back to normal. MobilePay transfers that were received during the downtime have been processed, and all new ones are also going through. 
+
+We are resolving this incident. </description></item><item><title>Duplicate card transactions [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-05-21T15:42:17Z</guid><pubDate>Thu, 21 May 2026 15:42:17 +0000</pubDate><description>When looking at the affected accounts, we can see that the affected transactions have been reversed and released to the customers&#x27; accounts.
+
+We will continue to look into this issue tomorrow morning, and also reach out to NETS to see what we can do to minimize the chances of this happening again.
+
+If you are still affected by this issue, we would like you to reach out to us. 
+
+We apologize for the inconvenience.</description></item><item><title>Card Payments Unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-05-21T08:14:52Z</guid><pubDate>Thu, 21 May 2026 08:14:52 +0000</pubDate><description>Nets has informed us that this issue has been resolved. 
+
+We can see on our end that card payments are operating normally and we are considering this problem resolved. 
+
+We apologize for the inconvenience this may have caused. </description></item><item><title>Swedish BankID unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-05-11T10:59:29Z</guid><pubDate>Mon, 11 May 2026 10:59:29 +0000</pubDate><description>The issue affecting Swedish BankID has been resolved.
+
+A fix has been successfully implemented, and authentication is now fully operational. We apologize for any inconvenience this may have caused.</description></item><item><title> MitID Unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-03-31T07:11:00Z</guid><pubDate>Tue, 31 Mar 2026 07:11:00 +0000</pubDate><description>We can now confirm that MitID is fully operational and that everything is back to normal operations.
+
+This incident has been resolved. </description></item><item><title>MitID Unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-02-27T09:43:06Z</guid><pubDate>Fri, 27 Feb 2026 09:43:06 +0000</pubDate><description>MitID has now resolved the problem, and users are able to authenticate again.
+
+We can also confirm that operations is back to normal again. </description></item><item><title>Limited Card Service Availability [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-01-27T17:52:19Z</guid><pubDate>Tue, 27 Jan 2026 17:52:19 +0000</pubDate><description>We have now monitored the systems for the past 30 minutes and can confirm that the implemented fix is working.
+
+No issues have been observed during this time, so the incident is now considered resolved.</description></item><item><title>Mobilepay transfers are currently delayed [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-01-20T08:41:43Z</guid><pubDate>Tue, 20 Jan 2026 08:41:43 +0000</pubDate><description>We have been in dialogue with MobilePay, and they have confirmed that the issue has been resolved. 
+
+During the outage, a large number of transactions were affected. MobilePay is now in the process of forwarding those payments to the respective banks. 
+
+While all new transactions are processing as usual, delayed payments are expected to appear in bank accounts by tomorrow at the latest. Some customers may see these reflected later today.</description></item><item><title>Swish Top-Ups May Be Delayed [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-01-18T12:48:53Z</guid><pubDate>Sun, 18 Jan 2026 12:48:53 +0000</pubDate><description>We can confirm that the issue has been resolved and that all transfers have now been handled on our side.
+
+Our system is currently completing the processing of queued transactions. This is happening gradually, and we expect everything to be fully completed within the next 30-60 minutes.
+
+We’ve also identified that part of the issue was caused by one of our external service partners sending incomplete data. This led to some failed &quot;add money&quot; attempts and only affected Swish payments.
+
+We apologize for the downtime. </description></item><item><title>Issues with our chat function [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2026-01-09T21:02:59Z</guid><pubDate>Fri, 09 Jan 2026 21:02:59 +0000</pubDate><description>The issue with our provider has now been resolved, and it is once again possible to contact us via chat. We apologize for the inconvenience!</description></item><item><title>Issues with International Transfers [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-12-09T10:25:05Z</guid><pubDate>Tue, 09 Dec 2025 10:25:05 +0000</pubDate><description>We have now located the issue, and this is no longer an issue.</description></item><item><title>Phone Support Temporarily Unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-12-02T09:24:20Z</guid><pubDate>Tue, 02 Dec 2025 09:24:20 +0000</pubDate><description>Our phone provider has investigated the issue and implemented a fix. 
+
+We have also tested the system in multiple ways and can confirm that all phone services are now fully operational. 
+
+We apologize for the downtime and any inconvenience this may have caused.</description></item><item><title>Problems with &#x27;Help &amp; Support&#x27; for Android users [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-11-11T13:26:37Z</guid><pubDate>Tue, 11 Nov 2025 13:26:37 +0000</pubDate><description>The new version of the app has been approved, and customers can now update to Lunar version 5.21.4, which fixes the issue. </description></item><item><title>Help &amp; Support (contact center) is currently unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-10-22T10:51:17Z</guid><pubDate>Wed, 22 Oct 2025 10:51:17 +0000</pubDate><description>We can confirm that everything is now fully operational. 
+This has been resolved.</description></item><item><title>Help &amp; Support (contact center) is currently unavailable [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-10-20T08:22:45Z</guid><pubDate>Mon, 20 Oct 2025 08:22:45 +0000</pubDate><description>We are now operating to full capacity, and have decided to resolve this incident.
+
+We are doing everything we can to get back to customers messages as quick as possible.
+
+Thank you for your understanding.</description></item><item><title>Swish is currently expericing issues [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-10-17T14:52:38Z</guid><pubDate>Fri, 17 Oct 2025 14:52:38 +0000</pubDate><description>This issue has been resolved.</description></item><item><title>Issues Signing Up for Lunar in Sweden [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-08-20T07:24:52Z</guid><pubDate>Wed, 20 Aug 2025 07:24:52 +0000</pubDate><description>This issue has been resolved </description></item><item><title>Issues with ingoing transfers in Norway [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-08-13T11:22:49Z</guid><pubDate>Wed, 13 Aug 2025 11:22:49 +0000</pubDate><description>This issue has now been resolved </description></item><item><title>Technical Issues Affecting Card Payments [resolved]</title><link>https://status.lunar.app</link><guid isPermaLink="false">lunar:2025-07-31T07:44:04Z</guid><pubDate>Thu, 31 Jul 2025 07:44:04 +0000</pubDate><description>We have now resolved this issue. 
+
+Card payments are fully operational again, and any charges from previously failed transactions have been automatically refunded to customers&#x27; accounts.</description></item></channel></rss>

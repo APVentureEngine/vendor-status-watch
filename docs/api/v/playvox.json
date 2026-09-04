@@ -1,0 +1,38 @@
+{
+"vendor": "Playvox",
+"slug": "playvox",
+"platform": "statuspage",
+"status_url": "https://status.playvox.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "Our cloud provider has confirmed a full recovery of the service. We have continued monitoring and can confirm that Playvox services are operating normally at this time.\n\nThis incident is now considered resolved. If you experience any further issues, please don\u2019t hesitate to reach out.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-10T14:54:57.619-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-10T14:22:42.343-08:00",
+"state": "resolved",
+"title": "Users may experience issues logging into Playvox",
+"updated_at": "2026-02-10T14:54:57.637-08:00",
+"url": "https://stspg.io/ls6h0kfx64x2"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T15:57:00.465-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T06:15:21.588-07:00",
+"state": "resolved",
+"title": "AWS Outage Impacting Services in us-east-1 Region",
+"updated_at": "2025-10-20T15:57:00.483-07:00",
+"url": "https://stspg.io/8m8tlw7by877"
+}
+]
+}

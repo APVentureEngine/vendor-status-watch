@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/sinch/</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Campaigns Application Maintenance [maintenance]</title><link>https://stspg.io/xrrmdkn2bdvt</link><guid isPermaLink="false">sinch:2026-09-04T07:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 07:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>External Maintenance - United States - T-Mobile [maintenance]</title><link>https://stspg.io/hr7hr04p6ssh</link><guid isPermaLink="false">sinch:2026-09-04T03:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 03:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Service Degradation - Conversation API WhatsApp - BR [resolved]</title><link>https://stspg.io/s51b7pk2qcdr</link><guid isPermaLink="false">sinch:2026-09-04T02:07:06.607Z</guid><pubDate>Fri, 04 Sep 2026 02:07:06 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-09-03 20:00 UTC
+Incident End Time: 2026-09-04 04:04 UTC</description></item><item><title>Interruption of Stats database [monitoring]</title><link>https://stspg.io/zg9z093y8mqc</link><guid isPermaLink="false">sinch:2026-09-03T21:43:13.702Z</guid><pubDate>Thu, 03 Sep 2026 21:43:13 +0000</pubDate><description>We have identified the issue and have applied a fix.
+We are currently monitoring the platform</description></item><item><title>Sinch Incident - FaxAPI [resolved]</title><link>https://stspg.io/v0km5x9zjsnp</link><guid isPermaLink="false">sinch:2026-09-02T13:55:45.480Z</guid><pubDate>Wed, 02 Sep 2026 13:55:45 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-09-02 08:12 UTC
+Incident End Time:  2026-09-02 13:55 UTC</description></item><item><title>Sinch Engage - Bulk Messaging -  Degradation [resolved]</title><link>https://stspg.io/flz641sg7s89</link><guid isPermaLink="false">sinch:2026-09-02T10:49:23.526Z</guid><pubDate>Wed, 02 Sep 2026 10:49:23 +0000</pubDate><description>This incident has been resolved. 
+
+Incident Start Time: 2026-09-02 09:45 UTC
+Incident End Time: 2026-09-02 12:09 UTC</description></item><item><title>Delivery Issue Spain [resolved]</title><link>https://stspg.io/vv2yyjzs0jgn</link><guid isPermaLink="false">sinch:2026-09-02T10:21:05.037Z</guid><pubDate>Wed, 02 Sep 2026 10:21:05 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-09-02 08:40 UTC
+Incident End Time: 2026-09-02 10:35 UTC</description></item><item><title>Delivery Issue United Kingdom - Lycamobile [resolved]</title><link>https://stspg.io/g0181k1p848f</link><guid isPermaLink="false">sinch:2026-08-28T20:02:10.693Z</guid><pubDate>Fri, 28 Aug 2026 20:02:10 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-28 19:40 UTC
+Incident End Time: 2026-08-28 20:40 UTC</description></item><item><title>Delivery Issue Kuwait - Ooredoo [resolved]</title><link>https://stspg.io/3mkh5d2gpfgr</link><guid isPermaLink="false">sinch:2026-08-28T19:39:33.767Z</guid><pubDate>Fri, 28 Aug 2026 19:39:33 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-28 19:18 UTC
+Incident End Time: 2026-08-29 14:07 UTC</description></item><item><title>Delivery Issue Djibouti - Evatis [resolved]</title><link>https://stspg.io/pl1bdjdkwyp3</link><guid isPermaLink="false">sinch:2026-08-27T21:41:22.643Z</guid><pubDate>Thu, 27 Aug 2026 21:41:22 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-27 20:50 UTC
+
+Incident End Time: 2026-08-28 02:27 UTC</description></item><item><title>Service Degradation - Verification - Okta integration [resolved]</title><link>https://stspg.io/rbxbf8cjjm37</link><guid isPermaLink="false">sinch:2026-08-27T02:54:52.488Z</guid><pubDate>Thu, 27 Aug 2026 02:54:52 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-27 00:20 UTC
+Incident End Time: 2026-08-27 03:35 UTC</description></item><item><title>Service Degradation - Customer Dashboard [resolved]</title><link>https://stspg.io/bl5lg0b294nl</link><guid isPermaLink="false">sinch:2026-08-26T22:47:07.337Z</guid><pubDate>Wed, 26 Aug 2026 22:47:07 +0000</pubDate><description>This incident has been resolved.
+
+Incident start time: 2026-08-26 20:32 UTC
+Incident end time: 2026-08-27 05:09 UTC</description></item><item><title>Sinch Engage - WhatsApp Campaigns - Degradation [resolved]</title><link>https://stspg.io/y5tmc5gn3xbd</link><guid isPermaLink="false">sinch:2026-08-26T14:50:38.797Z</guid><pubDate>Wed, 26 Aug 2026 14:50:38 +0000</pubDate><description>This incident has been resolved. 
+
+Incident Start Time: 2026-08-26 12:10 UTC
+Incident End Time: 2026-08-26 15:30 UTC</description></item><item><title>Delivery Issue Germany - 1&amp;1 [resolved]</title><link>https://stspg.io/l85dmkdg6q2z</link><guid isPermaLink="false">sinch:2026-08-25T19:30:58.583Z</guid><pubDate>Tue, 25 Aug 2026 19:30:58 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-25 18:49 UTC
+Incident End Time: 2026-08-25 21:27 UTC</description></item><item><title>US1 &amp; US7 - Site Degradation [resolved]</title><link>https://stspg.io/7bb25kb0xdx9</link><guid isPermaLink="false">sinch:2026-08-24T10:25:08.690Z</guid><pubDate>Mon, 24 Aug 2026 10:25:08 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-24 10:00 UTC
+Incident Restoration Time: 2026-08-24 10:55 UTC
+Incident End Time: 2026-08-24 12:25 UTC
+
+Should you experience any issues establishing SMPP connections after the incident, kindly attempt to restart the binds/connections.</description></item><item><title>Delivery Issue Bulgaria - Vivacom [resolved]</title><link>https://stspg.io/prkqv9n1zjdv</link><guid isPermaLink="false">sinch:2026-08-22T15:11:51.583Z</guid><pubDate>Sat, 22 Aug 2026 15:11:51 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-22 14:11 UTC
+
+Incident End Time: 2026-08-22 17:21 UTC</description></item><item><title>Delivery Issue Philippines - Globe Telecom [resolved]</title><link>https://stspg.io/9dy1xh59x2y1</link><guid isPermaLink="false">sinch:2026-08-21T08:06:45.217Z</guid><pubDate>Fri, 21 Aug 2026 08:06:45 +0000</pubDate><description>This incident has been resolved.
+
+ Incident Start Time: 2026-08-21 07:02  UTC
+ Incident End Time: 2026-08-21 11:24  UTC</description></item><item><title>Delivery Issue Canada - ICE Wireles [resolved]</title><link>https://stspg.io/qgjl3tfx1tjj</link><guid isPermaLink="false">sinch:2026-08-20T05:28:32.304Z</guid><pubDate>Thu, 20 Aug 2026 05:28:32 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-20 02:44 UTC
+Incident End Time: 2026-09-01 07:47 UTC</description></item><item><title>Sinch Engage - Web portal degradation [resolved]</title><link>https://stspg.io/dr47x3f6j9wh</link><guid isPermaLink="false">sinch:2026-08-18T14:52:31.346Z</guid><pubDate>Tue, 18 Aug 2026 14:52:31 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-18 13:32 UTC
+Incident End Time: 2026-08-18 15:22 UTC</description></item><item><title>Delivery Issue - United Kingdom - Lycamobile UK [resolved]</title><link>https://stspg.io/257s9z7nxl56</link><guid isPermaLink="false">sinch:2026-08-18T10:40:56.142Z</guid><pubDate>Tue, 18 Aug 2026 10:40:56 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-18 09:23 UTC
+
+Incident End Time: 2026-08-18 12:04 UTC</description></item><item><title>Delivery Issue French Guiana - Free Caraibe [resolved]</title><link>https://stspg.io/fzs6cmcff8r7</link><guid isPermaLink="false">sinch:2026-08-18T00:32:14.176Z</guid><pubDate>Tue, 18 Aug 2026 00:32:14 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-17 21:26 UTC
+
+Incident End Time: 2026-08-17 23:29 UTC</description></item><item><title>Delivery Issue Martinique - Free Caraibe [resolved]</title><link>https://stspg.io/g60xg0v038bz</link><guid isPermaLink="false">sinch:2026-08-18T00:08:17.991Z</guid><pubDate>Tue, 18 Aug 2026 00:08:17 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-17 21:26 UTC
+
+Incident End Time: 2026-08-18 09:16 UTC</description></item><item><title>Delivery Issue Guadeloupe - Free Caraibe [resolved]</title><link>https://stspg.io/lg8wgzn88crk</link><guid isPermaLink="false">sinch:2026-08-18T00:04:17.167Z</guid><pubDate>Tue, 18 Aug 2026 00:04:17 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-17 21:26 UTC
+
+Incident End Time: 2026-08-18 09:16 UTC</description></item><item><title>Service Degradation - REST API - US [resolved]</title><link>https://stspg.io/h13713dnrm0h</link><guid isPermaLink="false">sinch:2026-08-16T20:43:55.583Z</guid><pubDate>Sun, 16 Aug 2026 20:43:55 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-16 17:58 UTC
+Incident End Time: 2026-08-17 02:45 UTC</description></item><item><title>Delivery Issue - United Kingdom - O2 UK [resolved]</title><link>https://stspg.io/gnhvm36r9g23</link><guid isPermaLink="false">sinch:2026-08-14T09:57:04.927Z</guid><pubDate>Fri, 14 Aug 2026 09:57:04 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-14 09:36 UTC
+
+Incident End Time: 2026-08-14 10:12 UTC</description></item><item><title>Delivery Issue Sweden - Telia [resolved]</title><link>https://stspg.io/f0s12mvnjz56</link><guid isPermaLink="false">sinch:2026-08-14T08:13:31.916Z</guid><pubDate>Fri, 14 Aug 2026 08:13:31 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-14 07:44 UTC
+Incident End Time: 2026-08-14 09:27 UTC</description></item><item><title>Delivery Issue Colombia - Telefonica [resolved]</title><link>https://stspg.io/hq5903vdgfj6</link><guid isPermaLink="false">sinch:2026-08-14T00:51:06.515Z</guid><pubDate>Fri, 14 Aug 2026 00:51:06 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-14 00:25 UTC
+Incident End Time: 2026-08-14 02:25 UTC</description></item><item><title>Service Degradation – Number Lookups – All Regions [resolved]</title><link>https://stspg.io/yzmd68ngm386</link><guid isPermaLink="false">sinch:2026-08-13T22:05:59.454Z</guid><pubDate>Thu, 13 Aug 2026 22:05:59 +0000</pubDate><description>Please be advised that we experienced a short service interruption with the Sinch Number Lookup API service. Requests received a 500 response to number lookup API requests. The incident is now resolved and impact times were 21:10 - 21:29. All services are now restored.
+
+We sincerely apologize for any inconvenience this may cause and appreciate your understanding as we close out this incident.
+For further information or assistance, please contact us at support@sinch.com.</description></item><item><title>Service Degradation - AU1 Site - Retroactive [resolved]</title><link>https://stspg.io/xcf2qyrdrl6t</link><guid isPermaLink="false">sinch:2026-08-13T10:14:00.000Z</guid><pubDate>Thu, 13 Aug 2026 10:14:00 +0000</pubDate><description>Dear client,
+
+We are writing to retroactively inform you that we experienced a temporary degradation on our AU1 Site.
+
+Incident Start Time: 2026-08-13 12:14 UTC
+Incident End Time: 2026-08-13 12:50 UTC
+
+ Customers may have experienced short term connectivity issues, Missing/Delayed MTs/MOs during the incident period.
+
+If you have any questions, please contact support@sinch.com.</description></item><item><title>US1 &amp; US7 - Site Degradation [resolved]</title><link>https://stspg.io/y1xpgtmz1pdb</link><guid isPermaLink="false">sinch:2026-08-13T10:04:20.828Z</guid><pubDate>Thu, 13 Aug 2026 10:04:20 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-08-13 09:30 UTC
+
+Incident Restoration Time: 2026-08-13 10:12 UTC
+
+Incident End Time: 2026-08-13 10:30 UTC</description></item></channel></rss>

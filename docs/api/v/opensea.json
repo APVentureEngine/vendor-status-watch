@@ -1,0 +1,51 @@
+{
+"vendor": "OpenSea",
+"slug": "opensea",
+"platform": "statuspage",
+"status_url": "https://status.opensea.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-01T23:41:20.127Z",
+"resolved_inferred": false,
+"started_at": "2026-07-01T18:06:55.000Z",
+"state": "resolved",
+"title": "Token balance processing delayed",
+"updated_at": "2026-07-01T23:41:20.145Z",
+"url": "https://stspg.io/w6d3zvcp44tz"
+},
+{
+"body": "This incident has been resolved",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T01:09:57.984Z",
+"resolved_inferred": false,
+"started_at": "2025-10-21T01:09:57.882Z",
+"state": "resolved",
+"title": "The incident has been resolved",
+"updated_at": "2025-10-21T01:09:57.994Z",
+"url": "https://stspg.io/rp4zs265kdyl"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T07:03:40.078Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T16:20:56.909Z",
+"state": "resolved",
+"title": "Partial Service Degradation Due to Third-Party Provider Issue",
+"updated_at": "2025-10-21T07:03:40.100Z",
+"url": "https://stspg.io/lw73lg0xy8nk"
+}
+]
+}

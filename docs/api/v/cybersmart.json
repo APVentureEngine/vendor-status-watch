@@ -1,0 +1,25 @@
+{
+"vendor": "CyberSmart",
+"slug": "cybersmart",
+"platform": "statuspage",
+"status_url": "https://status.cybersmart.co.uk",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T15:43:06.324+00:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T12:27:20.667+00:00",
+"state": "resolved",
+"title": "Service impacted by Cloudflare Global Network issue",
+"updated_at": "2025-11-18T15:43:06.341+00:00",
+"url": "https://stspg.io/0h0s7vzbw0mp"
+}
+]
+}

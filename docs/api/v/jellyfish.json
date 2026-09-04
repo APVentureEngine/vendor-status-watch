@@ -1,0 +1,38 @@
+{
+"vendor": "Jellyfish",
+"slug": "jellyfish",
+"platform": "statuspage",
+"status_url": "https://status.jellyfish.co",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T11:35:49.395Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T13:56:12.000Z",
+"state": "resolved",
+"title": "Widespread AWS Outage Affecting Jellyfish App",
+"updated_at": "2025-10-21T11:35:49.412Z",
+"url": "https://stspg.io/4c1rm0vq93p0"
+},
+{
+"body": "The Jellyfish web app is now back online after some unavailability.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T07:30:00.000Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T07:30:00.000Z",
+"state": "resolved",
+"title": "Web App Unavailable - Upstream AWS Failure",
+"updated_at": "2025-10-20T14:15:37.765Z",
+"url": "https://stspg.io/wjjv8c37vsf5"
+}
+]
+}

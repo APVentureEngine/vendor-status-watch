@@ -1,0 +1,11 @@
+{
+"vendor": "Clojars",
+"slug": "clojars",
+"platform": "statuspage",
+"status_url": "http://status.clojars.org",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

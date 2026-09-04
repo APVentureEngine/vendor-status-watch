@@ -1,0 +1,204 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01K1VW8EGN63SR311DSYH3HERF": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-05T23:33:34Z",
+"resolved_inferred": false,
+"started_at": "2025-08-05T01:06:45Z",
+"state": "resolved",
+"title": "Some Jobs Not Displaying in Skedulo Plus",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K1XXFVRZRDTRAVDDBPCBGAJA": {
+"body": "The incident has been resolved in the latest Skedulo Plus Android patch (v3.18.1), now available on the Play Store. Please update the app on your device to this version.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-07T06:58:58Z",
+"resolved_inferred": false,
+"started_at": "2025-08-05T20:06:45Z",
+"state": "resolved",
+"title": "Messaging Not Displaying in Skedulo Plus",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K352KKJ4SRV48MDDTKAYFA78": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-21T03:28:44Z",
+"resolved_inferred": false,
+"started_at": "2025-08-21T01:06:34Z",
+"state": "resolved",
+"title": "Errors in the web app when allocating or creating job offers",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K41D0S4JSRFRV7FW69H8YZ2F": {
+"body": "All relevant services have remained stable, and we have not received any further reports of issues related to this outage.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-01T23:27:37Z",
+"resolved_inferred": false,
+"started_at": "2025-09-01T01:07:15Z",
+"state": "resolved",
+"title": "Job Details Not Loading in Mobile App",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K5Z0W73Z9HWQBY96J3RSVSRR": {
+"body": "The incident affecting some of the **_V2 custom forms_** has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-02T04:45:33Z",
+"resolved_inferred": false,
+"started_at": "2025-09-24T23:27:58Z",
+"state": "resolved",
+"title": "Skedulo Plus Android 3.19.0 Navigation Error Causing Crashes on v2 forms",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K8HN0ZRR2RZ021ZYVTNSQ3RR": {
+"body": "The incident has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-28T02:22:38Z",
+"resolved_inferred": false,
+"started_at": "2025-10-27T01:37:49Z",
+"state": "resolved",
+"title": "Error messages on Skedulo Web App (Pulse platform customers)",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K95ZK5DE5V9PGS3M2W8RKEQ2": {
+"body": "The incident affecting web app loading and performance has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-04T22:07:21Z",
+"resolved_inferred": false,
+"started_at": "2025-11-03T23:07:19Z",
+"state": "resolved",
+"title": "Web app loading and performance issues",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01K98ERHEW00K3FHWZ9N34K1MS": {
+"body": "The incident affecting Skedulo products for AU customers has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-06T03:12:58Z",
+"resolved_inferred": false,
+"started_at": "2025-11-04T22:10:53Z",
+"state": "resolved",
+"title": "Unable to log in to the web app",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01KAA6B9SY6XSCDAJJ98RXZA39": {
+"body": "The incident affecting the mobile app has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T07:49:28Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T00:38:01Z",
+"state": "resolved",
+"title": "Mobile app errors and long load times",
+"updated_at": "2026-03-11T17:47:26Z"
+},
+"01KDKN2KT92TXSGF4N653BDAS0": {
+"body": "The incident has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-29T05:11:19Z",
+"resolved_inferred": false,
+"started_at": "2025-12-28T23:35:40Z",
+"state": "resolved",
+"title": "Web & Mobile app slowness/errors",
+"updated_at": "2026-03-11T17:47:27Z"
+},
+"01KE84SPXAM1NEG303TT9ZWAG0": {
+"body": "The incident affecting loading times within the web app has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-15T05:53:24Z",
+"resolved_inferred": false,
+"started_at": "2026-01-05T22:35:14Z",
+"state": "resolved",
+"title": "Web App slow response times",
+"updated_at": "2026-03-11T17:47:27Z"
+},
+"01KEZHZAZABYKT1R5WR21E68VW": {
+"body": "The incident affecting certain functions with the Skedulo WebApp has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-19T23:19:41Z",
+"resolved_inferred": false,
+"started_at": "2026-01-15T00:48:02Z",
+"state": "resolved",
+"title": "Skedulo Web App Errors ",
+"updated_at": "2026-03-11T17:47:27Z"
+},
+"01KG07H63289B4BC0N2QY4NKZR": {
+"body": "The incident affecting **_Skedulo App not being available for download on Apple store_** has been resolved. \n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-28T03:58:17Z",
+"resolved_inferred": false,
+"started_at": "2026-01-27T17:20:29Z",
+"state": "resolved",
+"title": "Skedulo App not available for download",
+"updated_at": "2026-03-11T17:47:27Z"
+},
+"01KN5MEHVXR8K9XHE3F90Y8H4E": {
+"body": "This incident has been resolved. All systems are now operating normally.\n\nThank you for your understanding and patience. If you experience any further issues, please don\u2019t hesitate to reach out by logging a ticket in https://support.skedulo.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-01T23:57:51Z",
+"resolved_inferred": false,
+"started_at": "2026-04-01T23:00:55Z",
+"state": "resolved",
+"title": "Skedulo Web App Outage",
+"updated_at": "2026-04-01T23:57:51Z"
+},
+"01KS6ABQDYV2ZE1HVN9V7PQB32": {
+"body": "The Salesforce outage appears to be resolved. Please reach out to Skedulo support if you require any further assistance.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-24T23:20:30Z",
+"resolved_inferred": false,
+"started_at": "2026-05-21T22:26:39Z",
+"state": "resolved",
+"title": "Issues loading the Skedulo web app",
+"updated_at": "2026-05-24T23:20:30Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "skedulo",
+"status_url": "https://status.skedulo.com",
+"vendor": "Skedulo"
+}

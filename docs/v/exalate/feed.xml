@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Exalate incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/exalate/</link><description>Incidents from Exalate's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Atlassian has an active incident that might be affecting your connections [resolved]</title><link>https://stspg.io/1zv4bdk0zng4</link><guid isPermaLink="false">exalate:2026-08-27T06:36:21.945+02:00</guid><pubDate>Thu, 27 Aug 2026 04:36:21 +0000</pubDate><description>All Atlassian systems are back to normal, and the synchronization is working as expected.  
+In case of any issues with your sync, please create a support ticket and we will be happy to assist.</description></item><item><title>App name change/proxy user on Atlassian Jira Cloud [resolved]</title><link>https://stspg.io/n5ww3rtwm8xc</link><guid isPermaLink="false">exalate:2026-07-24T08:12:42.939+02:00</guid><pubDate>Fri, 24 Jul 2026 06:12:42 +0000</pubDate><description>The proxy user name was reverted back to Exalate. 
+
+We are considering the incident as resolved.</description></item><item><title>JiraCloud nodes experiencing some instablility [resolved]</title><link>https://stspg.io/4yjwxcgp2stm</link><guid isPermaLink="false">exalate:2026-07-16T13:28:02.375+02:00</guid><pubDate>Thu, 16 Jul 2026 11:28:02 +0000</pubDate><description>After close monitoring, the issue is considered as fully resolved. We will be posting a RCA here in due course.</description></item><item><title>Exalate looping synchronizations in Jira Cloud forge app [postmortem]</title><link>https://stspg.io/s3crnhc22dvh</link><guid isPermaLink="false">exalate:2026-07-14T00:15:07.444+02:00</guid><pubDate>Mon, 13 Jul 2026 22:15:07 +0000</pubDate><description>**Impact:** Some Classic Exalate for Jira Cloud connections experienced repeated, duplicated synchronisations following an infrastructure migration to Atlassian&#x27;s Forge platform. On affected connections customers saw:
+
+* **Duplicate activity** — the same update, comment, or field change applied to an issue over and over as the sync looped.
+* **Reopened / resurrected issues** — issues that had been closed being reopened, and other status or field values being overwritten back and forth between the paired issues.
+* **Distorted dashboards and reports** driven by the volume of duplicate changes.
+* **Broken automations and workflow validations** — because the integration user&#x27;s name \(and underlying ID\) changed, customer-side Jira Automation rules and workflow validators that referenced the &quot;E</description></item><item><title>Exalate.app is not loading the connections. [postmortem]</title><link>https://stspg.io/9yfh79nlw3x8</link><guid isPermaLink="false">exalate:2026-06-23T11:10:12.633+02:00</guid><pubDate>Tue, 23 Jun 2026 09:10:12 +0000</pubDate><description>**Duration:** 11:10 CEST - 11:26 CEST \(approximately 16 minutes\). Full stability confirmed at 14:47 CEST.
+
+**Impact:** The Exalate.app connection and dashboard pages were inaccessible during this window. Issue synchronisation was not affected - integrations continued to run normally throughout. No data was lost.
+
+**Summary:** On June 23, 2026, the Exalate.app interface became inaccessible after an internal authentication component failed to connect to its database. The failure was caused by a credential mismatch introduced during a production deployment.
+
+**Timeline:**
+
+* 11:10 CEST - Issue detected, investigation initiated
+* 11:26 CEST - Fix deployed, service restored
+* 14:47 CEST - Full stability confirmed
+
+**Root Cause:** During a production deployment on June 19, a database credentia</description></item><item><title>Some exalate cloud nodes unavailable [resolved]</title><link>https://stspg.io/gx8h235d2wh5</link><guid isPermaLink="false">exalate:2026-05-04T15:24:36.446+02:00</guid><pubDate>Mon, 04 May 2026 13:24:36 +0000</pubDate><description>The system has been under close observation and it has been stable. We will provide a post-mortem to the incident in due course.</description></item><item><title>Exalate.app Not loading workspaces [postmortem]</title><link>https://stspg.io/8v3fcq24ffw3</link><guid isPermaLink="false">exalate:2026-04-15T11:03:44.256+02:00</guid><pubDate>Wed, 15 Apr 2026 09:03:44 +0000</pubDate><description>**Incident:** Exalate.app Not Loading Workspaces - April 15, 2026
+
+**Duration:** 11:03 CEST – 12:16 CEST \(approximately 73 minutes\).
+
+**Impact:** The Exalate.app UI was inaccessible during this window. Issue synchronisation was not affected. No data was lost.
+
+**Summary:** On April 15, 2026, the Exalate.app interface became inaccessible following a planned infrastructure credential update. A secondary configuration dependency was not updated as part of the change, preventing the application from connecting to its database.
+
+**Timeline:**
+
+* 11:03 CEST - Issue detected, investigation initiated
+* 11:04 CEST - Root cause identified
+* 12:16 CEST - Fix deployed, service restored
+
+**Root Cause:** A configuration dependency missed during a credential update left the application unable to authen</description></item><item><title>Exalate.app Not loading workspaces [postmortem]</title><link>https://stspg.io/y2mn8vgygbyf</link><guid isPermaLink="false">exalate:2026-04-06T13:07:19.702+02:00</guid><pubDate>Mon, 06 Apr 2026 11:07:19 +0000</pubDate><description>**Incident:** Exalate.app Not Loading Workspaces - April 6, 2026
+
+**Duration:** 13:07 CEST - 13:28 CEST \(approximately 21 minutes\).
+
+**Impact:** The Exalate.app UI was inaccessible during this window. Issue synchronisation was not affected - integrations continued to run normally throughout. No data was lost.
+
+**Summary:** On April 6, 2026, the Exalate.app interface became inaccessible after an infrastructure credential was rotated as part of a planned security improvement programme. The component responsible for database connectivity caches credentials at startup and does not reload them automatically. The previous credential was removed before the component had been restarted to pick up the new one, causing authentication failures.
+
+**Timeline:**
+
+* 13:07 CEST - Issue detected, investi</description></item><item><title>Some Exalate Nodes are currently unreachable [resolved]</title><link>https://stspg.io/tkcfkcqs6vqf</link><guid isPermaLink="false">exalate:2026-04-02T17:41:49.000+02:00</guid><pubDate>Thu, 02 Apr 2026 15:41:49 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Exalate App unavailable [postmortem]</title><link>https://stspg.io/jj8cdrrkx6pp</link><guid isPermaLink="false">exalate:2026-03-16T16:13:29.699+01:00</guid><pubDate>Mon, 16 Mar 2026 15:13:29 +0000</pubDate><description>**Incident:** Exalate Application Unavailability — March 16, 2026
+
+**Duration:** 16:13 CET – 17:09 CET \(approximately 56 minutes\)
+
+**Impact:** The Exalate UI was inaccessible during this window. Issue synchronisation was not affected — integrations continued to run normally throughout. No data was lost.
+
+**Summary:** On March 16, 2026, the Exalate application became unavailable following a production infrastructure configuration change. A resource allocation adjustment applied to a critical authentication component proved insufficient under production load, causing repeated service interruptions.
+
+**Timeline:**
+
+* 16:13 CET — Issue reported, investigation initiated
+* 16:56 CET — Root cause identified, remediation initiated
+* 17:09 CET — Fix deployed, service restored
+* 18:13 CET — Full s</description></item><item><title>Exalate Website Unavailable [postmortem]</title><link>https://stspg.io/nxd2555g5c0j</link><guid isPermaLink="false">exalate:2026-03-13T12:56:32.372+01:00</guid><pubDate>Fri, 13 Mar 2026 11:56:32 +0000</pubDate><description>**Date:** March 17, 2026  
+**Duration:** 12:10 CET - 15:00 CET \(2 hours, 50 minutes\)  
+**Impact:**   
+The [exalate.com](http://exalate.com) website was completely inaccessible to all users for the duration of the incident.  
+**Summary:**  
+The hosting environment experienced resource exhaustion triggered by a sudden surge in web traffic. This was further exacerbated by a malfunctioning security plugin.  
+**Timeline:**  
+12:10 CET: Incident start \(resource exhaustion begins\)  
+12:28 CET: Issue detected  
+14:40 CET: Root cause identified  
+15:00 CET: Service fully restored  
+**Root Cause:**  
+A spike in unique visitors has led to resource depletion on the hosting server. During the investigation, it was discovered that an installed security plugin was behaving inefficiently under high lo</description></item><item><title>Some exalate cloud nodes unavailable [postmortem]</title><link>https://stspg.io/sx8zjzlywws7</link><guid isPermaLink="false">exalate:2026-03-09T07:59:15.724+01:00</guid><pubDate>Mon, 09 Mar 2026 06:59:15 +0000</pubDate><description>**Incident:** Exalate Cloud Service Disruption - March 9, 2026
+
+**Duration:** 07:30 CET – 08:10 CET \(approximately 40 minutes\)
+
+**Impact:** Some Exalate Cloud nodes experienced temporary service disruption. Database write operations were briefly affected. Issue synchronisation resumed automatically once the issue was resolved. No data was lost.
+
+**Summary:** On March 9, 2026, the primary database instance serving part of the Exalate Cloud infrastructure reached full storage capacity. This prevented the database from processing write operations, temporarily impacting node availability.
+
+**Timeline:**
+
+* 07:30 CET - Issue detected, investigation initiated
+* 08:05 CET - Storage expanded, database operations resumed
+* 08:10 CET - Fix verified, nodes confirmed operational
+* 10:00 CET - Full s</description></item><item><title>Exalate.app page is not loading. [postmortem]</title><link>https://stspg.io/cd4b7kxn96b7</link><guid isPermaLink="false">exalate:2026-01-23T10:59:34.897+01:00</guid><pubDate>Fri, 23 Jan 2026 09:59:34 +0000</pubDate><description>**Incident:** Exalate Application Unavailability — January 23, 2026
+
+**Duration:** 10:59 CET – 11:18 CET \(approximately 19 minutes\)
+
+**Impact:** The Exalate UI was inaccessible during this window. Issue synchronisation was not affected — integrations continued to run normally throughout. No data was lost.
+
+**Summary:** On January 23, 2026, our monitoring detected a service outage affecting the Exalate application. The root cause was a deployment configuration change that unintentionally removed an active compute resource from the production environment.
+
+**Timeline:**
+
+* 10:59 CET — Issue detected, investigation initiated
+* 11:18 CET — Fix deployed, service restored
+* 13:18 CET — Full stability confirmed
+
+**Root Cause:** A deployment configuration change targeted the wrong resource secti</description></item><item><title>Exalate nodes unrachable [postmortem]</title><link>https://stspg.io/rd83ldyn1cpn</link><guid isPermaLink="false">exalate:2025-12-12T17:15:42.392+01:00</guid><pubDate>Fri, 12 Dec 2025 16:15:42 +0000</pubDate><description>**Incident: Service Outage - December 12, 2025**
+
+**Duration:** 16:35 CET - 03:01 CET \(approximately 10 hours\)
+
+**Impact:** A significant number of Exalate Cloud nodes experienced service unavailability, resulting in temporary disruption to data synchronization services. No data was lost during this incident.
+
+**Summary:** On December 12, 2025, our infrastructure monitoring detected a service outage affecting Exalate Cloud customers on our production clusters. The root cause was identified as a storage system failure triggered by network latency on a legacy infrastructure component, which caused storage connectivity issues for customer workloads.
+
+**Timeline:**
+
+* 16:35 CET - Issue detected by monitoring systems
+* 17:31 CET - Root cause identified, restoration initiated
+* 21:20 CET - Maj</description></item><item><title>Some Exalate nodes are unavailable [postmortem]</title><link>https://stspg.io/l9115ny1wt16</link><guid isPermaLink="false">exalate:2025-11-27T12:47:06.787+01:00</guid><pubDate>Thu, 27 Nov 2025 11:47:06 +0000</pubDate><description>**Incident: Service Degradation - November 27, 2025**
+
+**Duration:** 11:26 CET - 21:37 CET \(~10 hours\)
+
+**Impact:** Approximately 700 Exalate Cloud nodes experienced intermittent connectivity issues, resulting in temporary disruption to data synchronization services. No data was lost during this incident.
+
+**Summary:** On November 27, 2025, our infrastructure monitoring detected service degradation affecting a subset of Exalate Cloud customers. The root cause was identified as storage I/O contention on the underlying database infrastructure, which caused the primary database to become unresponsive intermittently.
+
+**Timeline:**
+
+* 11:26 CET - Issue detected by monitoring systems
+* 11:30 CET - Engineering team began investigation
+* 15:30 CET - Initial mitigation applied \(infrastructure s</description></item><item><title>SyncRoom website and Community not loading. [postmortem]</title><link>https://stspg.io/pxd0x42b2xzn</link><guid isPermaLink="false">exalate:2025-11-20T10:43:55.000+01:00</guid><pubDate>Thu, 20 Nov 2025 09:43:55 +0000</pubDate><description>timeout</description></item><item><title>Some Exalate nodes down (specially on Jira Cloud) [postmortem]</title><link>https://stspg.io/l79mwvmds746</link><guid isPermaLink="false">exalate:2025-10-04T08:18:30.901+02:00</guid><pubDate>Sat, 04 Oct 2025 06:18:30 +0000</pubDate><description>## **Summary**
+
+On October 4, 2025, Exalate Cloud experienced an issue that caused some Exalate nodes to become temporarily inaccessible at 04:00 CEST. This resulted in UI access issues and potential synchronization interruptions for part of our customer base. All services were fully restored by 09:00 CEST.
+
+## **Impact**
+
+Customers using Exalate cloud nodes experienced:
+
+* Inability to access nodes
+* Sync failures or delays
+* Temporary disruption of workflow automations
+
+No data loss occurred.
+
+## **Root Cause**
+
+There was an error in the certification renewal process. This prevented affected nodes from completing required secure connections, making them temporarily unreachable.
+
+## **Resolution**
+
+After identifying the cause, the certificate was renewed and deployed. Services began recov</description></item><item><title>Jira Cloud: Script Configuration Update Available [postmortem]</title><link>https://stspg.io/vh1fxn8cw8p1</link><guid isPermaLink="false">exalate:2025-10-03T11:43:15.924+02:00</guid><pubDate>Fri, 03 Oct 2025 09:43:15 +0000</pubDate><description>timeout</description></item><item><title>Some Exalate nodes unavailable [postmortem]</title><link>https://stspg.io/ttk3v3gd1nm6</link><guid isPermaLink="false">exalate:2025-09-24T12:56:38.160+02:00</guid><pubDate>Wed, 24 Sep 2025 10:56:38 +0000</pubDate><description>## Executive Summary
+
+On September 24, 2025, Exalate experienced a service interruption lasting 17 hours and 28 minutes that affected our cloud-hosted integration nodes. During this time, customers were unable to synchronize data between their integrated systems. **No customer data was lost.** We sincerely apologize for the inconvenience and want to share what happened and how we&#x27;re preventing future issues.
+
+## What Happened
+
+**Timeline:**
+
+* **10:02 UTC \(Sept 24\):** Infrastructure issue detected through customer reports
+* **13:00 UTC:** Partial service restoration achieved
+* **13:45 UTC:** Secondary technical issue caused complete service unavailability
+* **17:24 UTC:** Core infrastructure restored
+* **21:00 UTC:** Priority customer services online
+* **03:30 UTC \(Sept 25\):** Full ser</description></item><item><title>Jira Cloud IssueLinks being Removed [postmortem]</title><link>https://stspg.io/fb3lck2qyn1y</link><guid isPermaLink="false">exalate:2025-08-29T18:18:41.274+02:00</guid><pubDate>Fri, 29 Aug 2025 16:18:41 +0000</pubDate><description># Exalate v5.28 Issue Links Synchronization - Technical Incident Report
+
+**Incident Date:** 29/Aug/2025  
+**Duration:** ~4 hours from detection to rollback completion  
+**Impact:** Issue link synchronization behavior change affecting multiple customer instances  
+**Status:** Resolved with data restoration completed
+
+## Timeline
+
+The incident was first detected  on 29/Aug at 17:56  when a customer reported issue links being removed after upgrading to v5.28. Within eight minutes, at 18:04, the support team received multiple similar reports and immediately requested a rollback. The formal incident response was initiated at 18:17, and the rollback process to v5.27.0 began at 18:48. The rollback was completed across all affected instances by 22:12 the same day, approximately four hours after in</description></item></channel></rss>

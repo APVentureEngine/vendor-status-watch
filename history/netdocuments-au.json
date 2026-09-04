@@ -1,0 +1,128 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"2bhh6nh7lvll": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-21T02:43:01.979+11:00",
+"resolved_inferred": false,
+"started_at": "2026-02-18T01:55:10.726+11:00",
+"state": "resolved",
+"title": "Performance Metrics Not Loading",
+"updated_at": "2026-02-21T02:43:01.996+11:00",
+"url": "https://stspg.io/p119sbw700r0"
+},
+"3mp0wnbfj1s7": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-14T01:28:00.568+11:00",
+"resolved_inferred": false,
+"started_at": "2026-02-03T09:18:40.000+11:00",
+"state": "resolved",
+"title": "Performance Metrics Not Loading",
+"updated_at": "2026-02-14T01:28:00.589+11:00",
+"url": "https://stspg.io/j3z3bnjdtt9t"
+},
+"5kth762tbs52": {
+"body": "The incident with the AU Service has been resolved.\n\nIf you need any continued assistance, please contact Support via the portal: https://support.netdocuments.com/",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-01T04:27:29.329+10:00",
+"resolved_inferred": false,
+"started_at": "2025-10-01T03:22:55.180+10:00",
+"state": "resolved",
+"title": "Service Disruption",
+"updated_at": "2025-10-01T04:27:29.348+10:00",
+"url": "https://stspg.io/z1brg1b492lm"
+},
+"brl6wn88676w": {
+"body": "The issue affecting the AU Service has been fully resolved.\n\nIf you need any continued assistance, please contact Support via the portal: https://support.netdocuments.com/",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-03T14:19:00.089+10:00",
+"resolved_inferred": false,
+"started_at": "2026-08-03T12:18:14.328+10:00",
+"state": "resolved",
+"title": "Service Disruption - AU Service",
+"updated_at": "2026-08-03T14:19:00.106+10:00",
+"url": "https://stspg.io/g7qq5dn7bv4f"
+},
+"g0cv6kw5715m": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-28T02:35:34.759+11:00",
+"resolved_inferred": false,
+"started_at": "2026-02-26T01:51:53.280+11:00",
+"state": "resolved",
+"title": "Performance Metrics Not Loading",
+"updated_at": "2026-02-28T02:35:34.781+11:00",
+"url": "https://stspg.io/p0q2jvtkz88g"
+},
+"p38ldsy2rng5": {
+"body": "Through internal testing and multiple customer reports, the remediation put in place has proven reliable.  At this time, this issue is considered resolved.\n\nIf you are continuing to experience difficulty logging in to the AU Service, please reach out to Support via the portal:\nhttps://support.netdocuments.com",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-03T11:27:21.141+11:00",
+"resolved_inferred": false,
+"started_at": "2026-03-03T09:51:49.030+11:00",
+"state": "resolved",
+"title": "Service Incident",
+"updated_at": "2026-03-03T11:27:21.160+11:00",
+"url": "https://stspg.io/g7420xktpvcg"
+},
+"sr1fw5316w81": {
+"body": "The issue affecting M365 Outlook and Co-Author Login is resolved.\n\nIf you are still experiencing issues and would like to submit a Support Case, please contact Support via the portal:\nhttps://support.netdocuments.com/",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-16T22:32:01.368+10:00",
+"resolved_inferred": false,
+"started_at": "2026-07-16T19:59:26.212+10:00",
+"state": "resolved",
+"title": "M365 Outlook and Co-Author Login Error",
+"updated_at": "2026-07-16T22:32:01.384+10:00",
+"url": "https://stspg.io/y5xzg85yhgyy"
+},
+"v9m6jjkk4vtl": {
+"body": "The incident with the AU Service has been resolved.\n\nIf you need any continued assistance, please contact Support via the portal: https://support.netdocuments.com/",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-06T14:14:51.435+11:00",
+"resolved_inferred": false,
+"started_at": "2025-10-06T09:43:12.136+11:00",
+"state": "resolved",
+"title": "NetDocuments E-mail Filing",
+"updated_at": "2025-10-06T14:14:51.457+11:00",
+"url": "https://stspg.io/s9c7q979g7c8"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "netdocuments-au",
+"status_url": "https://trust-au.netdocuments.com",
+"vendor": "NetDocuments AU"
+}

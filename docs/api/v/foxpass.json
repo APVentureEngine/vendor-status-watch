@@ -1,0 +1,25 @@
+{
+"vendor": "Foxpass",
+"slug": "foxpass",
+"platform": "statuspage",
+"status_url": "https://status.foxpass.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "All subsidiary systems affected by the AWS US-East-1 outage appear to be back to normal.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T16:54:55.346-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:15:04.899-07:00",
+"state": "resolved",
+"title": "AWS US-East outage",
+"updated_at": "2025-10-20T16:54:55.368-07:00",
+"url": "https://stspg.io/3sfb0p2d628p"
+}
+]
+}

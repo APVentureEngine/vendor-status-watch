@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Bitso incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/bitso/</link><description>Incidents from Bitso's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Issues affecting PSE operations [resolved]</title><link>https://stspg.io/ksxhz68gh0vv</link><guid isPermaLink="false">bitso:2026-09-03T13:04:10.000Z</guid><pubDate>Thu, 03 Sep 2026 13:04:10 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Important update: ACX (Across Protocol) will be delisted [maintenance]</title><link>https://stspg.io/bp2xbm4nmx03</link><guid isPermaLink="false">bitso:2026-09-02T15:18:00.000Z</guid><pubDate>Wed, 02 Sep 2026 15:18:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>SPEI MXN transactions service degraded [resolved]</title><link>https://stspg.io/192cgbbhfrmc</link><guid isPermaLink="false">bitso:2026-09-01T19:37:09.179Z</guid><pubDate>Tue, 01 Sep 2026 19:37:09 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issues affecting COP operations [resolved]</title><link>https://stspg.io/tddlmltbynds</link><guid isPermaLink="false">bitso:2026-08-31T14:02:02.523Z</guid><pubDate>Mon, 31 Aug 2026 14:02:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issues affecting COP operations [resolved]</title><link>https://stspg.io/tzq036gx5pn2</link><guid isPermaLink="false">bitso:2026-08-28T23:53:26.928Z</guid><pubDate>Fri, 28 Aug 2026 23:53:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issues affecting COP operations [resolved]</title><link>https://stspg.io/rm38npyy3bfy</link><guid isPermaLink="false">bitso:2026-08-28T19:10:19.525Z</guid><pubDate>Fri, 28 Aug 2026 19:10:19 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issue with ARS Withdrawals [resolved]</title><link>https://stspg.io/5f7zld7k9n1b</link><guid isPermaLink="false">bitso:2026-08-21T13:35:25.326Z</guid><pubDate>Fri, 21 Aug 2026 13:35:25 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issues processing withdrawal requests in Brazil [resolved]</title><link>https://stspg.io/g806shhv64xy</link><guid isPermaLink="false">bitso:2026-08-19T22:26:02.965Z</guid><pubDate>Wed, 19 Aug 2026 22:26:02 +0000</pubDate><description>Resolved: Our payment processing provider has resolved the issue and BRL withdrawals via PIX are operating normally again. Any withdrawal requests that previously failed or were delayed should now be processing as expected. If you continue to experience problems, please contact our support team. Thank you for your patience.
+
+---
+
+Resuelto: Nuestro proveedor de procesamiento de pagos resolvió el problema y los retiros de reales brasileños (BRL) mediante PIX ya operan con normalidad. Las solicitudes de retiro que anteriormente fallaron o se demoraron deberían procesarse con normalidad. Si continúas experimentando problemas, comunícate con nuestro equipo de soporte. Gracias por tu paciencia.
+
+---
+
+Resolvido: Nosso provedor de processamento de pagamentos resolveu o problema e os saques em reai</description></item><item><title>Issues affecting withdrawals for Bitcoin (BTC), Litecoin (LTC), Bitcoin Cash (BCH), and Ripple (XRP) [resolved]</title><link>https://stspg.io/cdx5mnj6db07</link><guid isPermaLink="false">bitso:2026-08-19T14:33:14.984Z</guid><pubDate>Wed, 19 Aug 2026 14:33:14 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Issues on WIRE | ACH | SEPA Payments [resolved]</title><link>https://stspg.io/7jnqv2bkccht</link><guid isPermaLink="false">bitso:2026-08-12T21:01:31.253Z</guid><pubDate>Wed, 12 Aug 2026 21:01:31 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>BRFQ Operations Issues [resolved]</title><link>https://stspg.io/h5kpkx8vykjw</link><guid isPermaLink="false">bitso:2026-08-03T16:48:27.567Z</guid><pubDate>Mon, 03 Aug 2026 16:48:27 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>GRAM Deposits &amp; Withdrawals Temporarily Disabled [resolved]</title><link>https://stspg.io/fftxfr2txjr7</link><guid isPermaLink="false">bitso:2026-07-13T11:37:03.395Z</guid><pubDate>Mon, 13 Jul 2026 11:37:03 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>USDT Earnings Calculation Discrepancy [resolved]</title><link>https://stspg.io/mm6d9cptnt8c</link><guid isPermaLink="false">bitso:2026-07-07T12:18:31.806Z</guid><pubDate>Tue, 07 Jul 2026 12:18:31 +0000</pubDate><description>All pending rewards have been successfully processed and disbursed to affected accounts. Balances should now accurately reflect these distributions. We appreciate your patience while we resolved this issue.
+
+If you need further assistance, please contact our Customer Support team at https://support.bitso.com/.
+
+-----------------------
+
+Los rendimientos pendientes han sido procesados y distribuidos con éxito a las cuentas afectadas. Los saldos ya deberían reflejar con precisión estas distribuciones. Agradecemos su paciencia mientras resolvíamos este problema.
+
+Si necesita ayuda, comuníquese con nuestro equipo de Atención al Cliente en https://support.bitso.com/.
+
+-----------------------
+
+Todas as recompensas pendentes foram processadas e distribuídas com sucesso para as contas afetadas. Os </description></item><item><title>SPEI Deposits &amp; Withdrawals — Temporary Disruption | Depósitos y Retiros SPEI — Interrupción Temporal [resolved]</title><link>https://stspg.io/bmzc83nhkwz5</link><guid isPermaLink="false">bitso:2026-07-07T00:25:57.006Z</guid><pubDate>Tue, 07 Jul 2026 00:25:57 +0000</pubDate><description>SPEI deposits and withdrawals have been fully restored following the completion of Banxico&#x27;s daily operative day change. All queued transactions are being processed.
+
+We have identified that this disruption lasted longer than expected due to a secondary database issue on our payment infrastructure. We are taking steps to prevent recurrence.
+
+Thank you for your patience.
+---
+Los depósitos y retiros vía SPEI han sido completamente restaurados tras la finalización del cambio de día operativo de Banxico. Las transacciones en cola están siendo procesadas.
+
+Identificamos que la interrupción duró más de lo esperado debido a un problema secundario en la base de datos de nuestra infraestructura de pagos. Estamos tomando medidas para prevenir que se repita.
+
+Gracias por su paciencia.</description></item><item><title>Crypto Withdrawal Delays [resolved]</title><link>https://stspg.io/m27st0kvn4bg</link><guid isPermaLink="false">bitso:2026-06-30T17:59:51.000Z</guid><pubDate>Tue, 30 Jun 2026 17:59:51 +0000</pubDate><description>This incident has been resolved.
+
+------------------
+
+Este incidente ha sido resuelto.
+
+------------------
+
+Este incidente foi resolvido.</description></item><item><title>Base Network Intermittencies [resolved]</title><link>https://stspg.io/3w52j14nlsy8</link><guid isPermaLink="false">bitso:2026-06-25T16:57:19.640Z</guid><pubDate>Thu, 25 Jun 2026 16:57:19 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>ARS withdrawals outage | June 12th, 2026. [resolved]</title><link>https://stspg.io/z8wn3wr0sklr</link><guid isPermaLink="false">bitso:2026-06-13T00:10:48.000Z</guid><pubDate>Sat, 13 Jun 2026 00:10:48 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>ARS Withdrawal Delays [resolved]</title><link>https://stspg.io/8kjd0k1459p0</link><guid isPermaLink="false">bitso:2026-06-12T19:57:53.766Z</guid><pubDate>Fri, 12 Jun 2026 19:57:53 +0000</pubDate><description>All queued ARS withdrawals have been successfully processed and services are operating normally.
+
+We apologize for the inconvenience caused earlier today and thank you for your patience.
+
+---------------
+
+Todos los retiros en ARS que se encontraban pendientes han sido procesados exitosamente y los servicios están operando con normalidad.
+
+Lamentamos los inconvenientes ocasionados el día de hoy y agradecemos su paciencia.</description></item><item><title>H (Humanity Protocol) [resolved]</title><link>https://stspg.io/1jd28fbfhbft</link><guid isPermaLink="false">bitso:2026-06-09T14:45:35.000Z</guid><pubDate>Tue, 09 Jun 2026 14:45:35 +0000</pubDate><description>Resolved. The sell window and liquidation process for H (Humanity Protocol) have concluded.
+As previously announced, Bitso discontinued H following a confirmed security incident that affected the original H token contract in June 2026. Selling ended on August 6, 2026 at 18:00 UTC, and any remaining H balances have since been automatically converted to Digital Dollars at market price and credited to holders&#x27; accounts.
+Deposits, withdrawals, buying, and selling for H remain permanently disabled. This discontinuation is final: there is no migration, airdrop, or replacement token for H, and Bitso does not list or support the new HUMANITY token.
+If you held H and haven&#x27;t seen your balance reflecting a Digital Dollars credit in your account, please contact Support.
+
+-----------------------------</description></item><item><title>Degradation on crypto deposits and withdrawals | June 7th, 2026. [resolved]</title><link>https://stspg.io/f7c3y2p1wfdv</link><guid isPermaLink="false">bitso:2026-06-07T11:41:33.205Z</guid><pubDate>Sun, 07 Jun 2026 11:41:33 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Portfolio Profit &amp; Loss Display Issue [resolved]</title><link>https://stspg.io/fxmwqzb1qn2s</link><guid isPermaLink="false">bitso:2026-06-02T21:35:45.698Z</guid><pubDate>Tue, 02 Jun 2026 21:35:45 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>ARS Deposits: Delayed [resolved]</title><link>https://stspg.io/8vgp9vcj35mg</link><guid isPermaLink="false">bitso:2026-06-02T13:51:46.613Z</guid><pubDate>Tue, 02 Jun 2026 13:51:46 +0000</pubDate><description>Following a period of close monitoring, we can confirm that deposit performance is completely stable and processing times have returned to normal. Consequently, this incident has been resolved.
+
+Thank you once again for your patience and support throughout this process!
+
+----------------
+
+Tras el período de monitoreo, podemos confirmar que el rendimiento de los depósitos es completamente estable y los tiempos de procesamiento han vuelto a la normalidad. En consecuencia, este incidente ha sido resuelto.
+
+¡Agradecemos una vez más su paciencia y apoyo a lo largo de este proceso!</description></item><item><title>Service degradation affecting deposits and withdrawals for MXN, ARS, and BRL. [resolved]</title><link>https://stspg.io/2g67c7nnxlpr</link><guid isPermaLink="false">bitso:2026-06-02T09:48:09.752Z</guid><pubDate>Tue, 02 Jun 2026 09:48:09 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Intermittences with our API Docs (docs.bitso.com) pages [resolved]</title><link>https://stspg.io/gwxmxc82rxh4</link><guid isPermaLink="false">bitso:2026-05-27T14:59:17.200Z</guid><pubDate>Wed, 27 May 2026 14:59:17 +0000</pubDate><description>This incident has been resolved.
+
+------------------------------------------------
+
+Este incidente ha sido resuelto.
+
+------------------------------------------------
+
+Este incidente foi resolvido.</description></item><item><title>Hedera Mainnet Issues [resolved]</title><link>https://stspg.io/d3m3htf3cv80</link><guid isPermaLink="false">bitso:2026-05-20T18:30:03.260Z</guid><pubDate>Wed, 20 May 2026 18:30:03 +0000</pubDate><description>We are pleased to inform you that the Hedera Mainnet has stabilized. Consequently, HBAR deposits and withdrawals have been fully re-enabled on our platform.
+
+Thank you for your patience and understanding while our team monitored the situation. As a reminder, your funds remained completely safe throughout this brief disruption.
+
+If you have any remaining questions or need assistance with a transaction, please reach out to our Customer Support team at https://support.bitso.com/.
+
+----------------------------------------------
+
+Nos complace informar que la red principal de Hedera (Hedera Mainnet) se ha estabilizado. Por lo tanto, los depósitos y retiros de HBAR han sido completamente rehabilitados en nuestra plataforma.
+
+Agradecemos tu paciencia y comprensión mientras nuestro equipo monitorea</description></item><item><title>Issues with Conversions [resolved]</title><link>https://stspg.io/nn38fhn0w7w8</link><guid isPermaLink="false">bitso:2026-05-08T04:44:32.749Z</guid><pubDate>Fri, 08 May 2026 04:44:32 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Resolved – COP Withdrawals Disruption | April 28th, 2026. [resolved]</title><link>https://stspg.io/f52bn6r90nb5</link><guid isPermaLink="false">bitso:2026-04-28T15:54:06.955Z</guid><pubDate>Tue, 28 Apr 2026 15:54:06 +0000</pubDate><description>We have resolved an incident that affected COP withdrawals between 9:08 and 10:14 AM COT. Withdrawals are now processing normally.
+
+Your balance and assets remain completely safe and unaffected.
+
+We apologize for any inconvenience this may have caused. If you require further assistance, do not hesitate to contact our Customer Support team at https://support.bitso.com.
+
+--------------
+
+Hemos resuelto un incidente que afectó los retiros en COP entre las 9:08 y las 10:14 AM COT. Los retiros ya se están procesando con normalidad.
+
+Tu saldo y activos permanecen completamente seguros y no se han visto afectados.
+
+Lamentamos las molestias que esto pudo haber causado. Si necesitas ayuda adicional, no dudes en contactar a nuestro equipo de Soporte al Cliente en https://support.bitso.com.</description></item><item><title>MXN withdrawals temporarily disabled [resolved]</title><link>https://stspg.io/h32l75hzylm9</link><guid isPermaLink="false">bitso:2026-04-26T18:39:26.830Z</guid><pubDate>Sun, 26 Apr 2026 18:39:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Delays on Litecoin (LTC) deposits [resolved]</title><link>https://stspg.io/rwzhpqx2h0h3</link><guid isPermaLink="false">bitso:2026-04-25T21:11:29.872Z</guid><pubDate>Sat, 25 Apr 2026 21:11:29 +0000</pubDate><description>This incident has been resolved.
+
+---------------------------
+
+Este incidente ha sido resuelto.
+
+---------------------------
+
+Este incidente foi resolvido.</description></item><item><title>Issues with Crypto withdrawals [resolved]</title><link>https://stspg.io/9kyfyjy1h3h3</link><guid isPermaLink="false">bitso:2026-04-20T17:39:27.000Z</guid><pubDate>Mon, 20 Apr 2026 17:39:27 +0000</pubDate><description>This incident has been resolved.
+
+--------------------
+
+Este incidente ha sido resuelto.
+
+--------------------
+
+Este incidente foi resolvido.</description></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Mural incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/mural/</link><description>Incidents from Mural's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Authentication Error for some SAML SSO users [resolved]</title><link>https://stspg.io/p02p0fbkb4k3</link><guid isPermaLink="false">mural:2026-08-04T18:01:33.000-03:00</guid><pubDate>Tue, 04 Aug 2026 21:01:33 +0000</pubDate><description>Update 2 - The fix to the SSO SAML login issue that caused an Authentication Error has been implemented. We now believe the issue is resolved but will continue to monitor throughout the day.
+
+Please check our status page for the most up-to-date info: status.mural.co</description></item><item><title>Some users are unable to sign in to Mural [resolved]</title><link>https://stspg.io/t4rbxcsykm35</link><guid isPermaLink="false">mural:2026-04-17T13:13:58.599-03:00</guid><pubDate>Fri, 17 Apr 2026 16:13:58 +0000</pubDate><description>The fix our 3rd party provider implemented earlier has been successful in resolving the issue and full service has been resolved.
+
+We apologize for the inconvenience this interruption caused.</description></item><item><title>Mural Collaboration Issue - murals not loading [resolved]</title><link>https://stspg.io/zv0fmg0n1g22</link><guid isPermaLink="false">mural:2026-03-26T10:24:30.481-03:00</guid><pubDate>Thu, 26 Mar 2026 13:24:30 +0000</pubDate><description>The fix we implemented earlier has been successful in resolving the issue and full service has been resolved.
+
+We apologize for the inconvenience this interruption caused, and will be conducting a full review to avoid a repeat in the future.</description></item><item><title>Some users are receiving an &quot;Offline&quot; message when working in Mural [resolved]</title><link>https://stspg.io/sl1yzxt8f3gx</link><guid isPermaLink="false">mural:2025-11-25T07:04:21.041-03:00</guid><pubDate>Tue, 25 Nov 2025 10:04:21 +0000</pubDate><description>Users receiving the &quot;Offline&quot; message are now able to access content and create new murals, and no new examples of this issue are reported. This issue is now considered fully resolved.
+
+We apologize for the inconvenience this interruption caused and will be conducting a full review to identify potential improvements for incidents of this nature.</description></item><item><title>Users are unable to sign in to Mural [postmortem]</title><link>https://stspg.io/j2dq4dwt03kw</link><guid isPermaLink="false">mural:2025-10-29T13:13:19.051-03:00</guid><pubDate>Wed, 29 Oct 2025 16:13:19 +0000</pubDate><description>**Date:** October 29, 2025  
+**Impact Duration:** 15:55 – 21:20 UTC  
+**Status:** Resolved  
+**Root Cause:** Outage with our cloud hosting provider
+
+### **Overview**
+
+On **October 29, 2025**, Mural experienced a major service disruption that prevented users from signing in or accessing their murals. The issue was caused by a widespread outage with our primary cloud hosting provider.
+
+While the outage was external to Mural, it significantly impacted our ability to serve requests and maintain normal operations for several hours.
+
+### **Timeline of Events \(UTC\)**
+
+* **15:55** — We detected that some users were unable to sign in to Mural. Mural’s incident response team began investigating immediately
+* **16:13** — The incident notification was posted to Mural’s status page at [status.mural.c</description></item><item><title>Mural website service interruption - login still available under app.mural.co [resolved]</title><link>https://stspg.io/sg1ffx9284tc</link><guid isPermaLink="false">mural:2025-10-20T12:45:09.146-03:00</guid><pubDate>Mon, 20 Oct 2025 15:45:09 +0000</pubDate><description>Full service to our www.mural.co website has been restored. We&#x27;ll continue to monitor the situation throughout the day in case any further remedial actions are needed.
+
+We apologize for any inconvenience this may have caused and thank you for your patience whilst we&#x27;re worked to resolve the issue.
+
+We&#x27;re pleased to note that our Mural app under app.mural.co was not affected by this incident and users were able to log in throughout this period.</description></item><item><title>Search feature is returning blank content [resolved]</title><link>https://stspg.io/qkztnm8pzfm1</link><guid isPermaLink="false">mural:2025-08-04T11:22:43.264-03:00</guid><pubDate>Mon, 04 Aug 2025 14:22:43 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

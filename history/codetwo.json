@@ -1,0 +1,167 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"3yknyq920npf": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-09T17:37:36.503Z",
+"resolved_inferred": false,
+"started_at": "2025-10-09T10:29:20.588Z",
+"state": "resolved",
+"title": "Degraded performance of the Admin Panel and other apps due to Azure disruptions",
+"updated_at": "2025-10-09T17:37:36.522Z",
+"url": "https://stspg.io/px7zf49lly1y"
+},
+"6g5bw0dws20m": {
+"body": "It looks like the incident affected only a handful of tenants in Australia East, and the overall impact was very limited and not related to CodeTwo. We\u2019re not seeing any issues with our services, so we\u2019re closing this incident. Our 24/7/365 Proactive Monitoring Team will continue to actively monitor the service. If you are experiencing any problems, please feel free to reach out to our Support Team - we\u2019re available around the clock.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-16T02:17:37.796Z",
+"resolved_inferred": false,
+"started_at": "2025-09-15T23:08:10.073Z",
+"state": "resolved",
+"title": "[Australia] Email delivery delays",
+"updated_at": "2025-09-16T02:17:37.812Z",
+"url": "https://stspg.io/y88l988zhb1f"
+},
+"g7qlmbrts49q": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-12T13:03:01.523Z",
+"resolved_inferred": false,
+"started_at": "2026-01-12T12:17:56.421Z",
+"state": "resolved",
+"title": "[UK] Sign-in issues due to Azure backend communication problems",
+"updated_at": "2026-01-12T13:03:01.540Z",
+"url": "https://stspg.io/j0fb5d4lznf2"
+},
+"kmclk6ngy49j": {
+"body": "Microsoft has published official information about this incident on the Service Health Dashboard (SHD) under ID: EX1183800. Please refer to the SHD for more details.\n\nSince this officially confirms that the issue was not related to CodeTwo, we are resolving this incident on our end. If you have any questions, please raise a service request with Microsoft. You are also welcome to contact our Support Team at: https://www.codetwo.com/company/contact.\n\nAll CodeTwo services have been operational during the incident. Thank you for your understanding and cooperation.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-07T22:20:34.193Z",
+"resolved_inferred": false,
+"started_at": "2025-11-06T09:26:06.194Z",
+"state": "resolved",
+"title": "[Global] Image loading problems in email signatures inserted by add-ins",
+"updated_at": "2025-11-07T22:20:34.211Z",
+"url": "https://stspg.io/6ns33d3wh0sq"
+},
+"l59plwkhr9n2": {
+"body": "# Summary\n\nOn March 18, 2026, a small subset of CodeTwo customers experienced temporary issues with email delivery. The incident was caused by a Microsoft networking and DNS\u2011related issue within Microsoft 365 infrastructure and was not the result of a failure in the CodeTwo service.\n\n# Impact\n\n* Only a\u00a0limited number of customers\u00a0were affected.\n\n* The issue occurred intermittently.\n* The impact was limited to customers whose mail flow depended on Microsoft 365 services affected by the incident.\n\n# Root cause\n\nMicrosoft confirmed that the incident \\(ID\u00a0MO1255228\\) was caused by a temporary issue with their networking infrastructure, where part of the infrastructure intended to handle production traffic was only partially reinstated. This led to DNS and load\u2011balancing issues, affecting services such as Exchange Online.\n\nThe incident originated entirely within\u00a0Microsoft\u2019s infrastructure\u00a0and was outside of CodeTwo\u2019s control.\n\n# Resolution\n\nMicrosoft manually reinstated the full networking infrastructure and confirmed service health recovery. Following this action, telemetry indicated stable and healthy service operation.\n\n# Why CodeTwo was affected\n\nCodeTwo services integrate directly with Microsoft 365 and Azure and rely on Microsoft\u2011managed DNS and networking components.  DNS failures at the Microsoft platform level affect all services integrated with Microsoft 365, including third\u2011party solutions.\n\nThere is no technically viable way for any Microsoft 365-integrated service to be fully immune to platform\u2011level DNS or networking failures on Microsoft\u2019s side.\n\n# Preventive measures\n\n* CodeTwo services are\u00a0monitored 24/7/365.\n\n* We operate\u00a0redundant and failover\u2011capable infrastructure.\n* In case of Microsoft\u2011side incidents, we take all actions\u00a0within our control\u00a0to minimize customer impact, including traffic rerouting where technically possible.\n\nMicrosoft stated that this type of incident has been\u00a0extremely rare\u00a0and committed to improving safeguards to prevent similar events in the future.\n\n# Current status\n\nMicrosoft has confirmed that the affected services were fully restored and operating normally. No further issues related to this incident have been observed.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-18T18:32:22.579Z",
+"resolved_inferred": false,
+"started_at": "2026-03-18T15:41:44.952Z",
+"state": "postmortem",
+"title": "[Global] Email delivery issues",
+"updated_at": "2026-04-27T13:10:41.997Z",
+"url": "https://stspg.io/qrdqf2qrs3mc"
+},
+"ljf94zfmn4sq": {
+"body": "Microsoft reports in EX1331830 that their configuration changes have reached approximately 50% of the affected infrastructure and message queues are steadily improving. This is also confirmed by our telemetry. More information can be found in the Microsoft 365 Admin Center under EX1331830 (https://admin.cloud.microsoft/#/servicehealth/:/alerts/EX1331830), if accessible.\n\nCodeTwo is and has been operating normally throughout this incident. All emails were delivered with signatures attached.\n\nAs the issue is no longer affecting our mail flow and is not related to CodeTwo infrastructure, we are resolving it. Our teams will continue to monitor the situation 24/7/365.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-02T22:20:01.109Z",
+"resolved_inferred": false,
+"started_at": "2026-06-02T12:39:33.471Z",
+"state": "resolved",
+"title": "[Germany] Delays in email delivery",
+"updated_at": "2026-06-02T22:20:01.124Z",
+"url": "https://stspg.io/293bgbjmm3hp"
+},
+"p9wvdkmvt0d8": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-07T10:44:03.237Z",
+"resolved_inferred": false,
+"started_at": "2026-02-07T08:56:21.991Z",
+"state": "resolved",
+"title": "[West US] Delayed email delivery caused by Azure availability issues",
+"updated_at": "2026-02-07T10:44:03.256Z",
+"url": "https://stspg.io/8x7t2gw6dngk"
+},
+"wk587w767tdb": {
+"body": "The fix implemented by the MS Exchange Online team worked and our service is fully operational again.\nThe most recent update from Microsoft: \"We\u2019re continuing to see steady improvements in service availability for Exchange Online and Microsoft Teams and our broader recovery efforts remain actively underway. Engineers are further refining load balancing measures to accelerate recovery and are methodically addressing the remaining impacted services.\"",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-23T03:50:23.275Z",
+"resolved_inferred": false,
+"started_at": "2026-01-22T19:37:29.383Z",
+"state": "resolved",
+"title": "[US] Email delivery delays due to Exchange Online Protection unavailability",
+"updated_at": "2026-01-23T03:50:23.295Z",
+"url": "https://stspg.io/1jl9c6r2gqt8"
+},
+"wnmp7wr94fnh": {
+"body": "The problem has been resolved by Microsoft. For further information, please check Service health in the Microsoft 365 Admin Center (Incident ID: EX1144276).\n\nCodeTwo is operating and has been operating normally. All emails were delivered with signatures attached.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-29T14:54:38.324Z",
+"resolved_inferred": false,
+"started_at": "2025-08-29T13:01:45.195Z",
+"state": "resolved",
+"title": "[Europe] Delay when sending messages from Exchange Online due to Microsoft problems",
+"updated_at": "2025-08-29T14:54:38.344Z",
+"url": "https://stspg.io/4sbrm6b88m69"
+},
+"z7x21gpzr4b0": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-25T06:01:09.136Z",
+"resolved_inferred": false,
+"started_at": "2025-08-25T05:32:25.391Z",
+"state": "resolved",
+"title": "[Australia] Email delivery delays linked to Azure node issues",
+"updated_at": "2025-08-25T06:01:09.150Z",
+"url": "https://stspg.io/x3zy3s3pjjd3"
+},
+"z8mhbpz0xp10": {
+"body": "The issue appears to be resolved now. A bunch of guys were about to turn blue (when we realized Microsoft has messed up the DNS configuration) - we're breathing again. Thank you for your patience and understanding!\n \nThis was a widespread incident affecting multiple Microsoft resources worldwide. Some of the performance issues we experienced as a result were unavoidable. Nevertheless, we\u2019ll continue to enhance our high availability capabilities to make our are services more resilient to similar problems in the future. Please stay tuned, and thank you for your continued trust and business.\n \nIf you have any questions or need assistance, please reach out to our Customer Success Team - we\u2019re online 24 hours a day. And yes, our SOC Team also works around the clock, continuously monitoring our services both reactively and proactively. These teams, along with our Product Team, will remain on \u201cDEFCON 1\u201d until we\u2019re certain the issue has been fully mitigated.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T00:07:22.236Z",
+"resolved_inferred": false,
+"started_at": "2025-10-29T16:14:43.799Z",
+"state": "resolved",
+"title": "[Global] Azure performance issues affecting some of CodeTwo apps",
+"updated_at": "2025-10-30T00:07:22.257Z",
+"url": "https://stspg.io/61c3w7hg0x2z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "codetwo",
+"status_url": "https://status.codetwo.com",
+"vendor": "CodeTwo"
+}

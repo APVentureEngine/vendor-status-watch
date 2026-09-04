@@ -1,0 +1,32 @@
+{
+"vendor": "ConnectWise",
+"slug": "connectwise",
+"platform": "status.io",
+"status_url": "https://status.connectwise.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "degraded",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "We are aware of an issue that is impacting backups for NAS devices. We understand the importance of reliable backup protection and are actively investigating the cause. We will share updates as soon as additional information is available.",
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-09-03T18:45:28.250Z",
+"state": "investigating",
+"title": "NAS Backups",
+"updated_at": "2026-09-03T18:45:28.263Z",
+"url": "https://status.connectwise.com"
+},
+{
+"body": "The backend performance issue affecting support case submissions in the Axcient portal has been fully resolved. Partners can now submit new product support cases through the portal without interruption. Support response times have returned to normal, and all services are operating as expected.",
+"first_seen": "2026-09-04T07:06:16Z",
+"last_seen": "2026-09-04T07:16:22Z",
+"started_at": "2026-03-03T08:54:00.000Z",
+"state": "investigating",
+"title": "Support Case Submissions Currently Unavailable in Axcient Portal",
+"updated_at": "2026-03-03T08:54:00.000Z",
+"url": "https://status.connectwise.com"
+}
+]
+}

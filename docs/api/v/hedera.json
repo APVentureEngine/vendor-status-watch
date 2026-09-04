@@ -1,0 +1,38 @@
+{
+"vendor": "Hedera",
+"slug": "hedera",
+"platform": "statuspage",
+"status_url": "https://status.hedera.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "degraded",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "The problem that led to the extended outage has been resolved and the upgrade to 0.73.0 has been completed successfully. Release notes: https://docs.hedera.com/hedera/networks/release-notes/services#release-v0-73",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-20T18:38:48.670Z",
+"resolved_inferred": false,
+"started_at": "2026-05-20T17:53:46.651Z",
+"state": "resolved",
+"title": "Hedera mainnet is still upgrading",
+"updated_at": "2026-05-20T18:38:48.687Z",
+"url": "https://stspg.io/dct7w1qf3999"
+},
+{
+"body": "The issue affecting Hedera Testnet Smart Contracts has now been resolved.\n\nThe update resolving the issue has been released to Testnet in v0.64.2.\n\nhttps://status.hedera.com/incidents/fk8hvt7p3vhd\n\nIf you are experiencing any unexpected behaviour, please raise this on the Hedera Discord: https://hedera.com/discord",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-07T17:13:30.000Z",
+"resolved_inferred": false,
+"started_at": "2025-08-05T14:51:46.849Z",
+"state": "resolved",
+"title": "Hedera Testnet smart contracts",
+"updated_at": "2025-08-07T17:14:15.046Z",
+"url": "https://stspg.io/j31vf0p9kxbz"
+}
+]
+}

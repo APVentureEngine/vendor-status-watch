@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Actionstep incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/actionstep/</link><description>Incidents from Actionstep's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Practice Management Outage AP-Southeast 2 [resolved]</title><link>https://stspg.io/ynrrm4zpch64</link><guid isPermaLink="false">actionstep:2026-08-28T12:17:47.187+12:00</guid><pubDate>Fri, 28 Aug 2026 00:17:47 +0000</pubDate><description>This issue has now been fixed, and our Engineering team has confirmed that the Actionstep Practice Management platform is now stable and fully operational again.</description></item><item><title>Practice Management Outage - Ap Southeast 2 [resolved]</title><link>https://stspg.io/jdbxw4p9cr61</link><guid isPermaLink="false">actionstep:2026-08-28T11:30:28.050+12:00</guid><pubDate>Thu, 27 Aug 2026 23:30:28 +0000</pubDate><description>The issues affecting the Actionstep Practice Management platform have now been resolved. Engineering team confirmed that the services are now fully functional.
+
+We apologise for any inconvenience this may have caused.</description></item><item><title>Server Outage - (AP-Southeast-2) - Users Unable to Login - August 27, 2026 [resolved]</title><link>https://stspg.io/yz9npn9wzmqs</link><guid isPermaLink="false">actionstep:2026-08-27T14:50:48.000+12:00</guid><pubDate>Thu, 27 Aug 2026 02:50:48 +0000</pubDate><description>The issues affecting the Actionstep Practice Management platform have now been resolved, and our technical teams have confirmed that all services are now fully functional.
+
+We would like to apologise for any inconvenience this may have caused.
+
+Regards,
+The Actionstep Team</description></item><item><title>Issue Identified – eu-west-1.actionstep.com [postmortem]</title><link>https://stspg.io/byjxqccdb5rt</link><guid isPermaLink="false">actionstep:2026-08-11T00:00:41.000+12:00</guid><pubDate>Mon, 10 Aug 2026 12:00:41 +0000</pubDate><description>**Resolved** - Between 00:15–01:00 NZST, some Actionstep users were unable to log in to the website. The issue affected users on UK servers, particularly eu-west-1.actionstep.com.
+
+Impact: Login access only. No customer data was affected.
+
+Cause: Currently investigating
+
+Working Solution: Clearing cookies and cache or restarting your machine has shown to resolve the issue.
+
+For further help, log a ticket at [https://support.actionstep.com](https://support.actionstep.com/)</description></item><item><title>Login Disruption (eu-west-1) – ISP Related Connectivity Issues Jul 30 2026 [resolved]</title><link>https://stspg.io/xlxx3tp6mwv3</link><guid isPermaLink="false">actionstep:2026-07-31T02:23:52.367+12:00</guid><pubDate>Thu, 30 Jul 2026 14:23:52 +0000</pubDate><description>Between 19:39–22:00 NZST, some Actionstep users were unable to log in to the website. The issue affected users on certain ISPs, particularly Virgin Media.
+
+Impact: Login access only. No customer data was affected or moved.
+
+Cause: Likely network or routing changes on the affected ISPs impacting access to the Actionstep login page. Affected customers should contact their ISP to check for recent changes.
+
+Data location clarification: No customer data is stored in AP Southeast 2. That region only serves the login page. Once you select your system tile, you&#x27;re redirected to the data centre where your system actually resides (UK region for UK customers). Your data has not moved and remains stored in your designated region.
+
+Workaround: If you&#x27;re still affected, use a mobile hotspot to reach the</description></item><item><title>Actionstep Gmail Add-on &amp; Logging in to the Actionstep Mobile App using Gmail. [resolved]</title><link>https://stspg.io/jlv3bgwst75b</link><guid isPermaLink="false">actionstep:2026-06-03T13:38:49.308+12:00</guid><pubDate>Wed, 03 Jun 2026 01:38:49 +0000</pubDate><description>We are communicating to provide further information on the issues that affected the Actionstep Gmail Add-on platform which started the 1st of June, 2026 and confirm that the issue is now resolved.
+
+What happened:
+The Gmail Add-on was running on the deprecated Google Apps Script Rhino runtime. Google ended support for the Rhino runtime, which caused the add-on to fail before any app logic could execute.
+
+What we did:
+Our team migrated the Apps Script project to the V8 runtime, created a new deployment version, and redeployed the Gmail Add-on. The add-on is now fully operational.
+
+What we&#x27;re doing to prevent this:
+We have reviewed our runtime dependencies to ensure we are not relying on deprecated infrastructure going forward.
+
+We apologise for any disruption this caused and thank you for yo</description></item><item><title>Performance degradation and 500 errors [resolved]</title><link>https://stspg.io/zzkj7fx4vjpm</link><guid isPermaLink="false">actionstep:2026-05-22T13:25:41.017+12:00</guid><pubDate>Fri, 22 May 2026 01:25:41 +0000</pubDate><description>The root cause of this issue has now been resolved. 
+
+If you are still experiencing performance degradation and seeing 500 errors, please reach out to support@actionstep.com.</description></item><item><title>Third-Party Service Disruption – Xero [resolved]</title><link>https://stspg.io/2cfxt83h0hw2</link><guid isPermaLink="false">actionstep:2026-05-11T11:53:46.504+12:00</guid><pubDate>Sun, 10 May 2026 23:53:46 +0000</pubDate><description>Xero has resolved the issue impacting customers. Xero is now stable and customers should be able to use the platform normally.</description></item><item><title>502 bad gateway errors and 504 unexpected API errors [resolved]</title><link>https://stspg.io/6xgjfbwlnmk6</link><guid isPermaLink="false">actionstep:2026-03-17T09:42:40.000+13:00</guid><pubDate>Mon, 16 Mar 2026 20:42:40 +0000</pubDate><description>We are communicating to provide further information on the outage that affected the Actionstep platform and confirm that the issue is now resolved.
+
+This outage started from 9:15am NZT, and prevented user access to the system. Some customers who managed to log in experienced error messages and periods of instability and slowness.
+
+It is important to confirm that no data was lost, and the issue related to access to platform only.
+
+Our team investigated the issue as the sole priority and released an urgent fix at 9:51am NZT which restored platform access and brought system performance back to normal levels.
+
+The Actionstep team appreciate the impact that this outage may have had on your business, and we want to reiterate our commitment to improving the experience of all customers who use the</description></item><item><title>Actionstep Staging System Outage - 11/03/2026 [resolved]</title><link>https://stspg.io/pnyp3ynyzf5r</link><guid isPermaLink="false">actionstep:2026-03-11T18:07:52.558+13:00</guid><pubDate>Wed, 11 Mar 2026 05:07:52 +0000</pubDate><description>This incident has been resolved. Staging systems are now accessible and back online.</description></item><item><title>Third-Party Service Outage – Microsoft 365 / Microsoft Authenticator - 22 January 2026 [resolved]</title><link>https://stspg.io/c9slg1p461pb</link><guid isPermaLink="false">actionstep:2026-01-23T09:26:14.000+13:00</guid><pubDate>Thu, 22 Jan 2026 20:26:14 +0000</pubDate><description>We are pleased to report that Microsoft have resolved the issues that were impacting users who rely on Microsoft Authenticator for multi-factor authentication (MFA) when signing in to Actionstep Practice Management and Legal Accounting.
+
+Thank you for your patience during this Microsoft service outage.</description></item><item><title>Login Disruption (eu-west-1) – ISP Related Connectivity Issues [postmortem]</title><link>https://stspg.io/h7y8ccp3b7m5</link><guid isPermaLink="false">actionstep:2025-12-05T03:30:01.000+13:00</guid><pubDate>Thu, 04 Dec 2025 14:30:01 +0000</pubDate><description>**Post-Incident Summary:** United Kingdom – External Connectivity Issue – December 4, 2025
+
+**Incident Overview**    
+On December 4, 2025, some customers in the United Kingdom – primarily those using Sky Broadband – experienced difficulty accessing the Actionstep login page. This login page \(also known as the Launchpad\) is hosted in the ap-southeast-2 region; however, no customer data for UK systems is stored or processed in this region. Once a user selects their system, they are directed to the appropriate UK/region-specific server where their data resides.
+
+Our investigation confirmed that this incident was caused entirely by a Sky ISP routing/connectivity issue preventing requests from reaching a wide variety of services hosted in ap-southeast-2. Actionstep also contacted AWS, who con</description></item><item><title>Partial Outage - (US-West-2) - Bad Gateway Error Encountered in Actionstep Navigation – November 11, 2025 [resolved]</title><link>https://stspg.io/2s7m0svkw25k</link><guid isPermaLink="false">actionstep:2025-11-12T05:20:18.064+13:00</guid><pubDate>Tue, 11 Nov 2025 16:20:18 +0000</pubDate><description>We are communicating to provide further information on the outage that affected the Actionstep system on 11/11/2025 and confirm that the issue is now resolved.
+
+This outage started at 8:30 am EST and prevented user access to the system. Some customers who managed to log in experienced error messages and periods of instability and slowness.
+
+It is important to confirm that no data was lost, and the issue is related to platform performance only.
+
+Our team investigated the issue as the sole priority and released an urgent fix at 11:20 am EST, which restored platform access and brought system performance back to normal levels.
+
+The Actionstep team appreciates the impact that this outage may have had on your business, and we want to reiterate our commitment to improving the experience of all cu</description></item><item><title>Feature Degridation - us-east-1, us-west-1 - Actionstep Payments Unavailable - Nov 06 2025 [postmortem]</title><link>https://stspg.io/zqgvk4fy42y8</link><guid isPermaLink="false">actionstep:2025-11-07T04:58:03.012+13:00</guid><pubDate>Thu, 06 Nov 2025 15:58:03 +0000</pubDate><description>**Post-Incident Summary: US – Actionstep Payments Outage – October 17, 2024**
+
+### Incident Overview
+
+On October 17, 2024, Actionstep experienced a service outage affecting the Actionstep Payments platform in the US. A configuration update inadvertently restricted access to a required system resource, which caused payment processing and related services to become temporarily unavailable.
+
+### Impact
+
+US-based customers were unable to process payments or access related payment features for approximately one hour.
+
+### Resolution
+
+The engineering team identified the configuration issue, restored access to the affected resource, and confirmed that all payment services were operating normally. Service was fully restored once functionality was verified across multiple customer accounts.
+
+### Ne</description></item><item><title>Server Outage - (eu-west-1) - Users Unable to Login - Nov 06 2025 [postmortem]</title><link>https://stspg.io/dkfmzshwb660</link><guid isPermaLink="false">actionstep:2025-11-06T21:45:55.000+13:00</guid><pubDate>Thu, 06 Nov 2025 08:45:55 +0000</pubDate><description>**Post-Incident Summary: EU-West-1 \(UK\) – System Outage – October 17, 2024**
+
+### Incident Overview
+
+On October 17, 2024, Actionstep experienced a service outage affecting customers in the UK region \(EU-West-1\). A configuration update inadvertently restricted access to a required system resource, which caused login failures and prevented users from accessing the platform.
+
+### Impact
+
+All UK-based customers were unable to log in or use Actionstep for about one hour. Internal testing environments in the same region were also affected.
+
+### Resolution
+
+The engineering team identified the configuration issue, restored access to the affected resource, and confirmed that all systems were operating normally. Service was fully restored once access was verified across multiple customer account</description></item><item><title>Microsoft Outage Impacting All Actionstep Servers — Oct 29 2025 [postmortem]</title><link>https://stspg.io/b5jwbdxwsk53</link><guid isPermaLink="false">actionstep:2025-10-30T05:50:29.191+13:00</guid><pubDate>Wed, 29 Oct 2025 16:50:29 +0000</pubDate><description>**Post-Incident Summary:** Microsoft Dependency Disruption – Global – October 29, 2025  
+
+**Incident Overview**    
+On October 29, 2025, a widespread outage affecting Microsoft’s Azure Front Door service caused latency, timeouts, and service errors across Microsoft 365 and Azure platforms. This impacted Actionstep features that rely on Microsoft services.  
+
+**Impact**    
+During the incident, some users experienced difficulty accessing Microsoft-related functionality, including the Outlook Add-in, OneDrive integrations, and Office 365 email services. Service availability improved as Microsoft began recovery efforts, though intermittent issues persisted for some users.  
+
+**Resolution**    
+Microsoft reloaded configurations and rebalanced traffic across its network to restore full operatio</description></item><item><title>Website Maintenance – actionstep.com [postmortem]</title><link>https://stspg.io/yr8v04y6zqdt</link><guid isPermaLink="false">actionstep:2025-10-22T12:05:55.203+13:00</guid><pubDate>Tue, 21 Oct 2025 23:05:55 +0000</pubDate><description>On November 6, 2025, Actionstep’s main website \([actionstep.com](http://actionstep.com)\) became temporarily unavailable during a scheduled maintenance activity. The maintenance affected only the public website and did not impact access to the Actionstep application.</description></item><item><title>AWS Outage Impacting Us-East-1 - 20 October 2025 [postmortem]</title><link>https://stspg.io/nq41qpkd4fgj</link><guid isPermaLink="false">actionstep:2025-10-21T04:39:35.092+13:00</guid><pubDate>Mon, 20 Oct 2025 15:39:35 +0000</pubDate><description>**Post-Incident Summary: North America \(US-East-1\) – AWS Outage Impact – October 20, 2025**
+
+**Incident Overview**    
+On October 20, 2025, Actionstep services in the US-East-1 region were affected by a widespread outage within Amazon Web Services \(AWS\). This incident originated from AWS infrastructure and impacted many cloud-based platforms globally, not just Actionstep. As a result, customers experienced degraded performance and intermittent downtime across the Practice Management and Legal Accounting platforms.
+
+**Impact**    
+The outage occurred between approximately **9:39 a.m. and 2:19 p.m. MDT**. During this period, some customers in North America experienced slow performance, timeouts, and temporary unavailability of certain features. The issue was entirely due to an AWS infras</description></item><item><title>Service Interruption – AWS Outage Impacting Support Systems - 20 October 2025 [postmortem]</title><link>https://stspg.io/j2k1616d650j</link><guid isPermaLink="false">actionstep:2025-10-21T04:38:40.000+13:00</guid><pubDate>Mon, 20 Oct 2025 15:38:40 +0000</pubDate><description>**Post-Incident Summary: Global – Third-Party Communication Outage – October 20, 2025**
+
+**Incident Overview**    
+On October 20, 2025, a widespread AWS outage in the US-East-1 region affected several third-party platforms, including Freshdesk and Intercom. As a result, Actionstep’s Support and Accounting teams were unable to send or receive tickets, live chats, or email communications during the disruption.
+
+**Impact**    
+The issue occurred between approximately **9:38 a.m. and 10:04 a.m. MDT**. During this time, customers were unable to contact Actionstep Support or Accounting through normal channels. The outage originated from AWS infrastructure supporting Freshdesk and Intercom and did not involve any Actionstep systems.
+
+**Resolution**    
+Freshdesk restored services once AWS resolve</description></item><item><title>Staging Environment Outage – October 13, 2025 [postmortem]</title><link>https://stspg.io/1lpn9xh7h3kv</link><guid isPermaLink="false">actionstep:2025-10-14T11:40:07.452+13:00</guid><pubDate>Mon, 13 Oct 2025 22:40:07 +0000</pubDate><description>### **Post-Incident Summary: Staging Environment Outage – October 13, 2025**
+
+**Incident Overview**  
+On October 13, 2025, Actionstep’s Staging environment experienced a temporary service interruption following a system update that affected how application services processed requests.
+
+**Impact**  
+Between 11:29 – 12:20 UTC and again 22:16 – 22:33 UTC, users accessing the Staging environment encountered errors and were unable to complete normal testing or pre-release activities.
+
+**Resolution**  
+The engineering team identified the update as the cause and restored service by rolling back to a stable configuration. Functionality was verified and all systems in Staging returned to normal operation.
+
+**Next Steps**  
+We are refining our deployment and testing procedures to ensure updates to n</description></item><item><title>System Interruption – All Regions – October 13, 2025 [postmortem]</title><link>https://stspg.io/0plf29j0n3y1</link><guid isPermaLink="false">actionstep:2025-10-14T00:33:09.000+13:00</guid><pubDate>Mon, 13 Oct 2025 11:33:09 +0000</pubDate><description>### **Post-Incident Summary: Production Environment Outage – October 13, 2025**
+
+**Incident Overview**  
+On October 13, 2025, Actionstep experienced two brief service interruptions in the Production environment caused by a system update that affected how application services processed requests.
+
+**Impact**  
+Customers across all regions experienced temporary unavailability between 11:29 – 12:20 UTC and 22:16 – 22:33 UTC. During these times, users were unable to access or perform actions within the platform.
+
+**Resolution**  
+The engineering team identified the cause and restored service by rolling back the recent update to a stable version. The corrected configuration was rebuilt, tested, and redeployed to confirm full restoration of normal operations.
+
+**Next Steps**  
+We are enhancing ou</description></item><item><title>Issue Identified &gt; Reports, document generation, and the Gmail/Outlook add-ins, which are currently unable to assign emails or finalize invoices. [resolved]</title><link>https://stspg.io/144fl186hhjm</link><guid isPermaLink="false">actionstep:2025-10-03T21:26:18.672+13:00</guid><pubDate>Fri, 03 Oct 2025 08:26:18 +0000</pubDate><description>We are communicating to provide further information on the issue affecting Reports, document generation, email assignment, and invoice finalization on the eu-west-1 platform on October 3, 2025, and confirm that the issue is now resolved.
+
+This issue impacted the ability to run reports, finalize invoices, and assign emails via Gmail/Outlook add-ins from 09:00 BST to 10:15 BST, and resulted in tasks being stuck in processing without completion.
+
+It is important to confirm that no data was lost, and the issue is related to platform performance only.
+Our team investigated the issue as the sole priority during the day and released an urgent fix at 10:15 BST, which restored all functionality to normal operations.
+
+The Actionstep team appreciates the impact that this issue may have had on your bu</description></item><item><title>Multiple Feature Outages North America - 19 September 2025 [postmortem]</title><link>https://stspg.io/cltmf76nyvfp</link><guid isPermaLink="false">actionstep:2025-09-20T05:45:51.000+12:00</guid><pubDate>Fri, 19 Sep 2025 17:45:51 +0000</pubDate><description>**Post-Incident Summary: North America Feature Outage – September 19, 2025**
+
+**Incident Overview**  
+On September 19, 2025, Actionstep experienced an outage affecting several features in North America, including document, contact, and custom data management, as well as integrations such as Outlook, Word, and Zapier. Customers encountered 403 error messages during this time.
+
+**Impact**  
+The issue occurred between 11:45 a.m. MDT and 1:00 p.m. MDT. During this period, customers in North America were unable to reliably use the affected features.
+
+**Resolution**  
+Our engineering team identified the root cause and worked with our partners to remediate the issue. Full functionality was restored by 1:00 p.m. MDT.
+
+**Next Steps**  
+We are implementing additional safeguards in our change managem</description></item><item><title>Partial Server Outage - US-East-1 - August 15th 2025 [resolved]</title><link>https://stspg.io/5n2vvg5d9pq4</link><guid isPermaLink="false">actionstep:2025-08-16T06:03:01.926+12:00</guid><pubDate>Fri, 15 Aug 2025 18:03:01 +0000</pubDate><description>We are providing additional information about the issue affecting Actionstep Practice Management on August 15, 2025, and confirming that the problem has now been resolved.
+
+The issues began at 11:51AM MDT and were resolved by 12:10PM MDT.
+
+It is important to confirm that no data was lost and that the issue was related solely to platform performance.
+
+Our team prioritized investigating the problem and restored functionality to normal operations.
+
+The Actionstep team understands the impact this issue may have had on your business, and we want to reaffirm our commitment to enhancing the experience for all customers using the platform.
+
+Regards,
+Actionstep Support Team</description></item><item><title>Issue Identified - EU-WEST 05/08/2025 [postmortem]</title><link>https://stspg.io/l94fb8brl1d5</link><guid isPermaLink="false">actionstep:2025-08-06T02:15:26.000+12:00</guid><pubDate>Tue, 05 Aug 2025 14:15:26 +0000</pubDate><description>We recently experienced a service interruption on our eu-west-1 server on the 5th of August 2025 that caused degraded performance for some customers. The issue was related to unusually high levels of API activity on one of our servers, which impacted system stability.
+
+We isolated the source of the high traffic and moved it to a separate environment to restore performance. We are also reviewing our current rate-limiting and monitoring systems to help prevent similar issues in the future.
+
+We apologise for any inconvenience this caused and thank you for your understanding as we continue to improve the reliability of our service.</description></item></channel></rss>

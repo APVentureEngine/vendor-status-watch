@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pinpoint incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/pinpoint/</link><description>Incidents from Pinpoint's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Emails stuck in sending status [postmortem]</title><link>https://stspg.io/dscz9ln4v3ll</link><guid isPermaLink="false">pinpoint:2026-09-01T08:20:01.581Z</guid><pubDate>Tue, 01 Sep 2026 08:20:01 +0000</pubDate><description>## **Email delivery disruption - 29 August to 1 September 2026**
+
+**What happened**
+
+Between Saturday 29 August and the afternoon of Monday 31 August, and again from 23:30 BST on Monday 31 August until 11:09 BST on Tuesday 1 September, emails sent from Pinpoint were not delivered. This affected candidate communications, notifications and other outbound email across the platform.
+
+**Cause**
+
+Both disruptions were caused by our email delivery provider, Postmark. An account restriction was applied on their side and, following its resolution, a required manual review by their team was not completed. This left the restriction in place and caused their systems to accept our emails as sent while not delivering them. No errors were returned to us, which is why the second disruption was not detecte</description></item><item><title>Support Update [resolved]</title><link>https://stspg.io/mnfvkf850d52</link><guid isPermaLink="false">pinpoint:2026-08-03T14:33:16.449Z</guid><pubDate>Mon, 03 Aug 2026 14:33:16 +0000</pubDate><description>Support Update – Resolved
+
+Fin (formerly Intercom) has deployed a fix, and the issue now appears to be resolved. Our team once again has access to the support inbox and is responding to your queries.
+
+We&#x27;ll continue to monitor the situation closely in case anything changes. Thank you for your patience while this issue was being resolved.</description></item><item><title>LinkedIn Integration – Delays in RSC Data Sync [resolved]</title><link>https://stspg.io/p2r4vrl2t1lk</link><guid isPermaLink="false">pinpoint:2026-06-05T12:33:25.942Z</guid><pubDate>Fri, 05 Jun 2026 12:33:25 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Production Service Disruption — Database Storage [postmortem]</title><link>https://stspg.io/rx4v89wk1yjp</link><guid isPermaLink="false">pinpoint:2026-05-13T06:29:14.000Z</guid><pubDate>Wed, 13 May 2026 06:29:14 +0000</pubDate><description>**Duration:** Approximately 4 hours of intermittent disruption \(03:00 – 06:51 UTC\), with two distinct impact windows.
+
+## What Happened
+
+Pinpoint experienced an unexpected service disruption in the early hours of 13 May. The incident had two impact windows: an initial period of unavailability between approximately 03:00 and 04:00 UTC, and a follow-on period between approximately 05:39 and 06:51 UTC during which users attempting to modify certain types of records \(predominantly scorecard submissions\) encountered errors.
+
+No data was lost or corrupted, and no background jobs were delayed.
+
+## Timeline \(UTC\)
+
+* 03:00  
+  Initial impact begins; application unavailable.
+* 04:00  
+  Initial impact resolves; engineering team investigating.
+* 05:39  
+  Second impact window begins; errors on </description></item><item><title>Investigating Service Disruption [postmortem]</title><link>https://stspg.io/d4tp152gn1rl</link><guid isPermaLink="false">pinpoint:2026-03-19T12:01:17.301Z</guid><pubDate>Thu, 19 Mar 2026 12:01:17 +0000</pubDate><description>**Date:** 19 March 2026
+
+**Duration:** Approximately 35 minutes \(11:46 to 12:21 UTC\).
+
+### What Happened
+
+Pinpoint experienced a service outage beginning at approximately 11:46 UTC on 19 March. Users were unable to access the platform and received 503 errors. Full service was restored by approximately 12:21 UTC. No data was lost or corrupted.
+
+### Timeline \(UTC\)
+
+* **11:46** - Automated monitoring alerts triggered for service unavailability.
+* **11:47** - Engineering team began investigating.
+* **12:01** - Status page updated to reflect the incident.
+* **12:10** - Root cause identified as a database firewall misconfiguration introduced during an infrastructure change.
+* **12:20** - Fix applied; service restored.
+* **12:21** - Incident marked as resolved.
+
+### Why It Happened
+
+During an</description></item><item><title>Resume Preview - Viewing Issue [resolved]</title><link>https://stspg.io/dl47vjylqcbn</link><guid isPermaLink="false">pinpoint:2026-03-18T08:22:01.003Z</guid><pubDate>Wed, 18 Mar 2026 08:22:01 +0000</pubDate><description>&gt; What happened
+Users were unable to preview CVs and cover letters within the platform. The preview area appeared blank or showed a &quot;blocked by browser&quot; message. Downloading resumes continued to work normally throughout.
+
+&gt; What caused it
+A security update was deployed overnight to protect admins from potentially harmful files. While the protection worked as intended, it had an unintended side effect - it also prevented the resume preview from loading correctly in all browsers.
+
+&gt; What we did
+Identified the cause within minutes of being alerted
+Deployed a fix to restore normal resume previewing
+
+&gt; What&#x27;s next
+We have applied an alternative security protection using a different approach that doesn&#x27;t affect the preview.</description></item><item><title>Service Degradation - Database Write Operations Unavailable [resolved]</title><link>https://stspg.io/zc5d9yr2gr32</link><guid isPermaLink="false">pinpoint:2026-03-03T05:00:00.000Z</guid><pubDate>Tue, 03 Mar 2026 05:00:00 +0000</pubDate><description>Component: Pinpoint → Partial Outage
+
+Investigating - 05:00 UTC:
+&gt; We are aware that some users may be unable to perform actions that involve saving or updating data. Our engineering team is actively investigating.
+
+Identified - 06:45 UTC:
+&gt; The auto-scaling configured on our primary database infrastructure failed to provision additional storage in response to increased load. As a result, the database entered read-only mode, preventing write operations. We are provisioning additional storage to restore full functionality.
+
+Monitoring - 06:57 UTC:
+&gt; Additional storage has been provisioned and write operations have been restored. Our team is monitoring to confirm full stability across all services.
+
+Resolved - 07:01 UTC:
+&gt; The issue has been fully resolved and all services are operating norm</description></item><item><title>Service Unavailability [postmortem]</title><link>https://stspg.io/kqmcwmmbbfgj</link><guid isPermaLink="false">pinpoint:2026-02-12T14:05:09.069Z</guid><pubDate>Thu, 12 Feb 2026 14:05:09 +0000</pubDate><description>**Date:** 12 February 2026
+
+**Duration:** Approximately 30 minutes \(14:00 - 14:35 UTC\), with a brief secondary disruption during recovery.
+
+### What Happened
+
+Pinpoint experienced a service outage beginning at approximately 14:00 UTC on 12 February. Most users were unable to access the platform and received 504 timeout errors, though partial capacity meant some requests were still being served. Full service was restored by approximately 14:35 UTC.
+
+Some outbound emails were delayed due to background workers also being affected. All queued emails were delivered by approximately 16:15 UTC. No data was lost or corrupted.
+
+### Timeline \(UTC\)
+
+* **14:00** - Automated monitoring alerts triggered for service unavailability.
+* **14:02** - Engineering team began investigating.
+* **14:08** - Roo</description></item><item><title>Investigating Missing Records [resolved]</title><link>https://stspg.io/wx06hn0zfngz</link><guid isPermaLink="false">pinpoint:2025-11-28T12:03:37.000Z</guid><pubDate>Fri, 28 Nov 2025 12:03:37 +0000</pubDate><description>We have identified the missing records within the platform and restored the affected data.
+
+If you have any questions or require assistance please reach out to our support team via the in-app chat function</description></item><item><title>Investigating Service Disruption [resolved]</title><link>https://stspg.io/5d0kg5svnzmc</link><guid isPermaLink="false">pinpoint:2025-11-28T10:33:30.000Z</guid><pubDate>Fri, 28 Nov 2025 10:33:30 +0000</pubDate><description>This incident has been resolved.
+
+&gt; What happened
+Following a planned infrastructure update last night, some customers experienced errors when performing certain actions on the platform, particularly around candidate pages and interview scheduling. We identified the root cause and restored full service by reverting to our previous database infrastructure.
+
+&gt; Current status
+The platform is now fully operational. All features are working normally.
+
+&gt; Data impact
+Due to an issue between both database providers when we restored service, there&#x27;s a short window (between 10:16 and 10:57 UTC this morning) where some changes made on the platform may not yet be reflected. No data has been lost, we have complete records of everything that happened during this window and are working to restore any aff</description></item></channel></rss>

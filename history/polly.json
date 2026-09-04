@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"qdllfw0bfqh8": {
+"body": "AWS services have returned to normal operations, and all Polly services remain fully operational.\n\nOur engineering team continues to monitor system health closely to ensure ongoing stability.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T18:43:03.289-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T02:58:45.352-07:00",
+"state": "resolved",
+"title": "Some Polly Features Are Unavailable Due to AWS Outage",
+"updated_at": "2025-10-20T18:43:03.311-07:00",
+"url": "https://stspg.io/qvsbf2z4zn9r"
+},
+"zcbgq18b9km8": {
+"body": "Polly MS Teams app is back to normal",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-13T15:28:07.747-08:00",
+"resolved_inferred": false,
+"started_at": "2026-02-13T11:36:33.298-08:00",
+"state": "resolved",
+"title": "Polly MS Teams app loading issue",
+"updated_at": "2026-02-13T15:28:07.765-08:00",
+"url": "https://stspg.io/hgcvf3356c4f"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "polly",
+"status_url": "https://status.polly.ai",
+"vendor": "Polly"
+}

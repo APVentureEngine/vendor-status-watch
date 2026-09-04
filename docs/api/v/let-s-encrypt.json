@@ -1,0 +1,11 @@
+{
+"vendor": "Let's Encrypt",
+"slug": "let-s-encrypt",
+"platform": "status.io",
+"status_url": "https://letsencrypt.status.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

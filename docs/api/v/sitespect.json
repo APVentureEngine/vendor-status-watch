@@ -1,0 +1,25 @@
+{
+"vendor": "SiteSpect",
+"slug": "sitespect",
+"platform": "statuspage",
+"status_url": "https://status.sitespect.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-02T16:38:52.525Z",
+"resolved_inferred": false,
+"started_at": "2025-10-02T14:29:33.661Z",
+"state": "resolved",
+"title": "SiteSpect Cloud Alert - EU POPs Service Degradation",
+"updated_at": "2025-10-02T16:38:52.567Z",
+"url": "https://stspg.io/tmvvsrhhwx5q"
+}
+]
+}

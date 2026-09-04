@@ -1,0 +1,50 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"r87dk407ql5z": {
+"body": "Panther services have fully recovered from the regional AWS outage in us-east-1, and all systems are now operating normally.\n\nDuring the incident, some customers experienced intermittent authentication errors and delays in data ingestion, enrichment, detection processing, and alert generation. All impacted components have since stabilized, and ingestion pipelines have caught up. No further action is required from customers.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T10:39:45.629-07:00",
+"resolved_inferred": false,
+"started_at": "2025-10-20T11:55:36.305-07:00",
+"state": "resolved",
+"title": "AWS us-east-1 Service Outage",
+"updated_at": "2025-10-21T10:39:45.647-07:00",
+"url": "https://stspg.io/pcqb3ndm4qll"
+},
+"rh1zhxxw12qy": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-03T23:07:13.402-07:00",
+"resolved_inferred": false,
+"started_at": "2026-08-03T08:20:20.152-07:00",
+"state": "resolved",
+"title": "Snowflake Outage",
+"updated_at": "2026-08-03T23:07:13.419-07:00",
+"url": "https://stspg.io/3kw5s5x2m6fh"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "panther-labs",
+"status_url": "https://status.panther.com",
+"vendor": "Panther Labs"
+}

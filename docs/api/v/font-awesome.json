@@ -1,0 +1,64 @@
+{
+"vendor": "Font Awesome",
+"slug": "font-awesome",
+"platform": "statuspage",
+"status_url": "https://status.fortawesome.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-31T14:35:07.904Z",
+"resolved_inferred": false,
+"started_at": "2026-03-31T12:03:18.359Z",
+"state": "resolved",
+"title": "Pro NPM Unavaliable",
+"updated_at": "2026-03-31T14:35:07.919Z",
+"url": "https://stspg.io/2h97wqv9qbd3"
+},
+{
+"body": "All services are restored.  This appears to have been an issue with our CDN.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-05T09:19:18.481Z",
+"resolved_inferred": false,
+"started_at": "2025-12-05T09:05:46.296Z",
+"state": "resolved",
+"title": "Major Outage",
+"updated_at": "2025-12-05T09:19:18.499Z",
+"url": "https://stspg.io/4rqsdbphcsnh"
+},
+{
+"body": "Cloudflare is in global recovery mode and we haven't seen any errors for the past half hour. We're going to consider this resolved but continue watching it until the outage is completely resolved on the Cloudflare side.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T16:25:09.784Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T14:40:22.153Z",
+"state": "resolved",
+"title": "Partial outage for some services provided through Cloudflare",
+"updated_at": "2025-11-18T16:25:09.802Z",
+"url": "https://stspg.io/s1c79t0j9564"
+},
+{
+"body": "We identified the root cause and the issue has now been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-01T08:40:59.349Z",
+"resolved_inferred": false,
+"started_at": "2025-08-01T07:37:22.784Z",
+"state": "resolved",
+"title": "We're investigating an outage with some of our services",
+"updated_at": "2025-08-01T08:40:59.363Z",
+"url": "https://stspg.io/8r52pn8ynhq4"
+}
+]
+}

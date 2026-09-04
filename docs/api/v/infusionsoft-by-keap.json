@@ -1,0 +1,11 @@
+{
+"vendor": "Infusionsoft by Keap",
+"slug": "infusionsoft-by-keap",
+"platform": "statuspage",
+"status_url": "http://status.infusionsoft.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "unknown",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

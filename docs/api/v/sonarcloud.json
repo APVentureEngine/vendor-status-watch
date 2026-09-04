@@ -1,0 +1,11 @@
+{
+"vendor": "SonarCloud",
+"slug": "sonarcloud",
+"platform": "statuspage",
+"status_url": "https://sonarcloud.statuspage.io",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "unknown",
+"history_backfilled": false,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": []
+}

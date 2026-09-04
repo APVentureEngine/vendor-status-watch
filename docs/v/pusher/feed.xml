@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pusher incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/pusher/</link><description>Incidents from Pusher's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Elevated Errors on us2 [resolved]</title><link>https://stspg.io/zwqg1pjx8hfy</link><guid isPermaLink="false">pusher:2026-08-23T01:27:50.123Z</guid><pubDate>Sun, 23 Aug 2026 01:27:50 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Elevated errors on us2 cluster [resolved]</title><link>https://stspg.io/7bnbcgkbhdkl</link><guid isPermaLink="false">pusher:2026-08-22T03:17:10.408Z</guid><pubDate>Sat, 22 Aug 2026 03:17:10 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Intermittent API errors in US2 cluster [resolved]</title><link>https://stspg.io/80bmtqwc23fb</link><guid isPermaLink="false">pusher:2026-04-06T01:52:05.304Z</guid><pubDate>Mon, 06 Apr 2026 01:52:05 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Cluster SA1: Delayed Channels webhook delivery on SA1 cluster [resolved]</title><link>https://stspg.io/mh5dx011mv9x</link><guid isPermaLink="false">pusher:2026-03-31T12:33:28.286Z</guid><pubDate>Tue, 31 Mar 2026 12:33:28 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Increased error rate on the US2 cluster [resolved]</title><link>https://stspg.io/0rv44htxtw4n</link><guid isPermaLink="false">pusher:2026-02-15T20:33:40.188Z</guid><pubDate>Sun, 15 Feb 2026 20:33:40 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Errors increase for API in cluster us3 [resolved]</title><link>https://stspg.io/89k2khjnhry9</link><guid isPermaLink="false">pusher:2026-01-29T10:38:02.971Z</guid><pubDate>Thu, 29 Jan 2026 10:38:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Increased error rate on the US2 cluster impacting presence events [resolved]</title><link>https://stspg.io/b3420jvz2lk3</link><guid isPermaLink="false">pusher:2026-01-26T22:29:04.676Z</guid><pubDate>Mon, 26 Jan 2026 22:29:04 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Incorrect subscription changes affecting some accounts [resolved]</title><link>https://stspg.io/12sq01t39cdc</link><guid isPermaLink="false">pusher:2026-01-22T16:38:00.329Z</guid><pubDate>Thu, 22 Jan 2026 16:38:00 +0000</pubDate><description>All affected accounts have been restored to their correct subscription levels. We sent an email yesterday to all impacted customers. If you notice any issues with your subscription, please contact us.</description></item><item><title>Intermittent errors with message delivery on cluster us2 [resolved]</title><link>https://stspg.io/9cw9jg93w3wt</link><guid isPermaLink="false">pusher:2026-01-16T08:48:53.259Z</guid><pubDate>Fri, 16 Jan 2026 08:48:53 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Intermittent errors with message delivery [resolved]</title><link>https://stspg.io/hvmt3rcbnyfb</link><guid isPermaLink="false">pusher:2026-01-16T01:07:12.399Z</guid><pubDate>Fri, 16 Jan 2026 01:07:12 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>AP1 cluster - Socket connection failures [resolved]</title><link>https://stspg.io/kcbvc21rrbh3</link><guid isPermaLink="false">pusher:2025-10-27T11:50:02.599Z</guid><pubDate>Mon, 27 Oct 2025 11:50:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Elevated API Errors in AP4 Cluster [postmortem]</title><link>https://stspg.io/zcbl5knddsk2</link><guid isPermaLink="false">pusher:2025-10-21T15:06:39.819Z</guid><pubDate>Tue, 21 Oct 2025 15:06:39 +0000</pubDate><description>## **Root Cause Analysis: Elevated API Errors and Outage in AP4 Cluster**
+
+**Incident Date:** October 20, 2025
+
+**Status:** Resolved
+
+### **Summary**
+
+Between **October 20 and October 21, 2025**, customers using the **AP4 cluster** experienced elevated API errors, latency, and message publishing failures. The issue primarily affected the **Channels API**, preventing customers from publishing new messages and leading to degraded real-time functionality for end-users.
+
+During system recovery and while implementing mitigations from a previous incident on Oct 18th, a **misconfigured Redis container** in the AP4 cluster failed to start correctly, preventing caching operations needed for API requests. This misconfiguration went undetected by proactive monitoring, delaying full recovery until Oct</description></item><item><title>US3 cluster - major outage [postmortem]</title><link>https://stspg.io/dcfktz1mqkps</link><guid isPermaLink="false">pusher:2025-10-20T18:36:06.632Z</guid><pubDate>Mon, 20 Oct 2025 18:36:06 +0000</pubDate><description>## Root Cause Analysis: Redis Cluster Startup Failures – US3 Cluster
+
+**Incident Date:** October 20, 2025    
+**Duration:** 18:36 UTC – 20:41 UTC    
+**Status:** Resolved
+
+## **Summary**
+
+On October 20, 2025, customers experienced a significant outage affecting the US3 cluster.
+
+The disruption began with increased latency and 503 errors before escalating into full service downtime as Redis clusters in the US3 region failed to start successfully during an infrastructure update.
+
+Service was fully restored at 20:41 UTC after engineers identified and resolved the underlying startup issue, confirming stability across all Redis clusters.
+
+## **Impact**
+
+Between **18:36 UTC and 20:41 UTC**, customers experienced:
+
+* Major outage in the **US3** cluster, impacting message delivery and connection r</description></item><item><title>MT1 cluster - increased latency [resolved]</title><link>https://stspg.io/vth06sd5l50v</link><guid isPermaLink="false">pusher:2025-10-20T17:26:18.885Z</guid><pubDate>Mon, 20 Oct 2025 17:26:18 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Pusher Beams degradation [resolved]</title><link>https://stspg.io/732gkz4w3x45</link><guid isPermaLink="false">pusher:2025-10-20T17:21:26.390Z</guid><pubDate>Mon, 20 Oct 2025 17:21:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Beams - webhook delivery issues [resolved]</title><link>https://stspg.io/nt3cyt19x0cy</link><guid isPermaLink="false">pusher:2025-10-20T08:19:49.127Z</guid><pubDate>Mon, 20 Oct 2025 08:19:49 +0000</pubDate><description>Our cloud provider is reporting recovery across most affected services. On our side, we haven’t noticed any issues in the past hour, and all services are operating normally. We continue to monitor the situation closely and will provide updates if anything changes.</description></item><item><title>MT1 cluster - increased latency and webhook delivery failures [resolved]</title><link>https://stspg.io/8ww72kngbflv</link><guid isPermaLink="false">pusher:2025-10-20T08:10:37.068Z</guid><pubDate>Mon, 20 Oct 2025 08:10:37 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Increased latency - US2 cluster [postmortem]</title><link>https://stspg.io/cqw0hdd2dqmy</link><guid isPermaLink="false">pusher:2025-10-19T00:44:46.098Z</guid><pubDate>Sun, 19 Oct 2025 00:44:46 +0000</pubDate><description>## **Root Cause Analysis: Increased Latency and Message Delivery Failures – US2 Cluster**
+
+**Incident Date:** October 19, 2025
+
+**Duration:** 00:44 UTC – 08:17 UTC
+
+**Status:** Resolved
+
+### **Summary**
+
+On October 19, 2025, customers using Pusher experienced increased latency and message delivery failures. These issues primarily affected the US2 cluster, with intermittent impact also observed in the MT1 and US3 clusters.  The incident resulted in delayed or undelivered messages for many applications.
+
+Latency stabilized at 08:17 UTC after mitigation actions were completed.
+
+### **Impact**
+
+Between 00:44 UTC and 08:17 UTC, multiple customers experienced:
+
+* **Delayed or failed message delivery** across affected clusters
+* **Degraded performance** in connection establishment and publishing
+</description></item><item><title>Higher latency on our AP1 cluster for some customers [resolved]</title><link>https://stspg.io/7p71ldc2pzzn</link><guid isPermaLink="false">pusher:2025-09-19T21:15:37.686Z</guid><pubDate>Fri, 19 Sep 2025 21:15:37 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Intermittent failures establishing socket connections on our US2 cluster for some customers [resolved]</title><link>https://stspg.io/bt2kz40ct9jr</link><guid isPermaLink="false">pusher:2025-08-03T01:55:01.741Z</guid><pubDate>Sun, 03 Aug 2025 01:55:01 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Twingate incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/twingate/</link><description>Incidents from Twingate's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Linux Package Downloads Down [resolved]</title><link>https://stspg.io/702mqn92169c</link><guid isPermaLink="false">twingate:2026-07-08T22:04:03.678Z</guid><pubDate>Wed, 08 Jul 2026 22:04:03 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Twingate Service Incident [postmortem]</title><link>https://stspg.io/mlz24xnfv79y</link><guid isPermaLink="false">twingate:2026-05-28T09:24:48.603Z</guid><pubDate>Thu, 28 May 2026 09:24:48 +0000</pubDate><description># Incident Report – Authorization Service Degradation
+
+## Components Impacted
+
+Control Plane – Authorization Service
+
+## Summary
+
+On May 28, 2026, between 10:00 UTC and 12:30 UTC, Twingate experienced a degradation of its Authorization service that affected approximately 15% of active connections at peak impact.
+
+During the incident, authorization requests experienced elevated network latency. As request processing times increased, the Authorization service&#x27;s effective capacity to handle incoming traffic was reduced, resulting in elevated error rates and intermittent authorization failures for a subset of customers.
+
+Twingate operates the Authorization service across multiple cloud regions in an active-active configuration. While the platform remained available throughout the event, the co</description></item><item><title>Relays443 Down [postmortem]</title><link>https://stspg.io/rq3prbfmff2g</link><guid isPermaLink="false">twingate:2026-05-08T08:44:42.777Z</guid><pubDate>Fri, 08 May 2026 08:44:42 +0000</pubDate><description>**Components impacted**
+
+* Data Plane - Relay 443 flows only
+
+**Summary**
+
+On May 9, 2026, a subset of Twingate customers experienced an interruption to network access affecting Relay 443 connectivity. The disruption lasted approximately 2 hours and 10 minutes and was caused by a configuration error introduced during a routine software update. We have resolved the issue and are taking concrete steps to prevent a recurrence.
+
+**Root Cause**
+
+Twingate regularly releases software updates to our relay infrastructure, deploying them in stages across groups to minimize risk. As part of this update cycle, we also migrated our deployment tooling to a newer version of our infrastructure management system.
+
+The newer tooling applies stricter configuration validation rules than its predecessor. While</description></item><item><title>AWS Outage Impacting APT/RPM Package Repository (packages.twingate.com) [resolved]</title><link>https://stspg.io/bhqwy6t6qzjz</link><guid isPermaLink="false">twingate:2025-10-20T15:49:53.000Z</guid><pubDate>Mon, 20 Oct 2025 15:49:53 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>

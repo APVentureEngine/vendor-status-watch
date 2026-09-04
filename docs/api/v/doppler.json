@@ -1,0 +1,77 @@
+{
+"vendor": "Doppler",
+"slug": "doppler",
+"platform": "statuspage",
+"status_url": "https://www.dopplerstatus.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved by our engineering team.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-16T17:08:47.765-07:00",
+"resolved_inferred": false,
+"started_at": "2026-07-16T17:03:47.390-07:00",
+"state": "resolved",
+"title": "CLI Downloads failing",
+"updated_at": "2026-07-16T17:08:47.784-07:00",
+"url": "https://stspg.io/50mq9yk1xmj5"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-20T11:46:29.171-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-20T07:55:35.694-08:00",
+"state": "resolved",
+"title": "Background job delays impacting sync, webhook and email delivery",
+"updated_at": "2025-11-20T11:46:30.668-08:00",
+"url": "https://stspg.io/m9f4qljcp5mf"
+},
+{
+"body": "This incident is now resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T06:59:24.709-08:00",
+"resolved_inferred": false,
+"started_at": "2025-11-18T03:48:10.000-08:00",
+"state": "resolved",
+"title": "System Outage",
+"updated_at": "2025-11-18T06:59:24.721-08:00",
+"url": "https://stspg.io/ym9ydy0mgtw3"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-20T12:58:59.685-07:00",
+"resolved_inferred": false,
+"started_at": "2025-08-20T11:52:22.000-07:00",
+"state": "resolved",
+"title": "Background job delays impacting sync and email delivery",
+"updated_at": "2025-08-20T12:59:00.035-07:00",
+"url": "https://stspg.io/zjcknwfkkngy"
+},
+{
+"body": "The issue is resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-05T22:40:53.876-07:00",
+"resolved_inferred": false,
+"started_at": "2025-08-05T20:36:36.842-07:00",
+"state": "resolved",
+"title": "Elevated error rates for API and Dashboard",
+"updated_at": "2025-08-05T22:40:54.158-07:00",
+"url": "https://stspg.io/5fdwlt6ykjmf"
+}
+]
+}

@@ -1,0 +1,25 @@
+{
+"vendor": "Cloud 66",
+"slug": "cloud-66",
+"platform": "statuspage",
+"status_url": "http://status.cloud66.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-09-02T11:56:01.991Z",
+"resolved_inferred": false,
+"started_at": "2026-08-24T19:08:46.699Z",
+"state": "resolved",
+"title": "DigitalOcean servers unable to pull BuildGrid images",
+"updated_at": "2026-09-02T11:56:02.008Z",
+"url": "https://stspg.io/f8n70phpys9d"
+}
+]
+}

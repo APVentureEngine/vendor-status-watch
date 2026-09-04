@@ -1,0 +1,192 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"01KK1ENKHD0ZMMN94TNC03BH76": {
+"body": "Webhooks are now being delivered normally. Detection events that were delayed during the impacted time period have also all been delivered.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-09T19:29:20Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:34Z",
+"state": "resolved",
+"title": "Webhook processing delays: Detection events",
+"updated_at": "2026-04-27T10:09:02Z"
+},
+"01KK1ENM0AWHFSE4TC2WKSQ9FD": {
+"body": "Cloudflare has implemented a fix for the global outage, and Turnstile is now back online. All affected functionality has returned to normal.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T15:32:11Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:34Z",
+"state": "resolved",
+"title": "Cloudflare Turnstile outage",
+"updated_at": "2026-04-27T10:09:02Z"
+},
+"01KK1ENM6TGGT0GTBF7296D08T": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-08-14T16:54:59Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:34Z",
+"state": "resolved",
+"title": "Webhook event processing delays",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENMMTVZ0F48WQ4S6C9VMQ": {
+"body": "This incident has been resolved. All Slack messages that were not delivered during the outage have been queued for resend.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-02-27T09:39:52Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:35Z",
+"state": "resolved",
+"title": "Slack outage",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENN1MQK71BC8QGDYS9FCF": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2024-11-15T11:36:23Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:35Z",
+"state": "resolved",
+"title": "Webhook event processing delays",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENN8AQ58W8KB7CE4PZ5SW": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2024-11-06T09:50:20Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:35Z",
+"state": "resolved",
+"title": "Elevated API Errors",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENNN3YVBRYNKPWQ4H6A07": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2024-03-12T18:38:31Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:36Z",
+"state": "resolved",
+"title": "ChatOps messages delayed",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENP8H5HXC215366TR9VT9": {
+"body": "Push identified and fixed a bug that prevented the sending of messages for the SaaS discovery ChatOps topic used for security team notifications. This topic sends messages when Push observes newly discovered SaaS apps and third-party integrations.\n\nThe bug was introduced July 4, 2023, and fixed on August 1.\n\nWhile Push continued to observe and record new apps and new integrations in the Push admin console normally, no ChatOps messages for this topic were triggered during the affected time period. No other ChatOps topics were affected.\n\nPush has improved its monitoring for ChatOps to prevent future similar issues.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-08-01T12:00:00Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:36Z",
+"state": "resolved",
+"title": "ChatOps security team messages not sent for new SaaS, new third-party integrations",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENPBV1PJ9TDX8WZ8VPJ0H": {
+"body": "This issue has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-06-01T21:46:07Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:36Z",
+"state": "resolved",
+"title": "Integration issue",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENPJQ141EWWGW744GS91T": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-05-18T09:42:24Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:37Z",
+"state": "resolved",
+"title": "Authentication Errors",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENPSWKENGFF57BK35E1EW": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-04-06T17:32:13Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:37Z",
+"state": "resolved",
+"title": "Elevated Processing Errors",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KK1ENPYSGS7VVGHKD28TEH85": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2023-03-25T07:41:09Z",
+"resolved_inferred": false,
+"started_at": "2026-03-06T11:31:37Z",
+"state": "resolved",
+"title": "Delayed Google Workspace integration completion",
+"updated_at": "2026-04-27T10:09:03Z"
+},
+"01KSJJ0PC3TT8V673AFRN5HEK1": {
+"body": "The Push service experienced a **15-minute disruption**.\n\n\n**Security controls continued to work normally during this time.** However, any new detection events and browser activity events that occurred during this 15-minute time period were lost and cannot be backfilled.\n\n \n\nWe'll post a root cause analysis once all details are available.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-05-26T15:15:00Z",
+"resolved_inferred": false,
+"started_at": "2026-05-26T16:31:19Z",
+"state": "resolved",
+"title": "Brief service disruption",
+"updated_at": "2026-05-28T13:30:59Z"
+},
+"01KVXGYECKW42G3XMMBG8EG2AH": {
+"body": "Version 2\\.36\\.60 of the Push extension became available at 1:18am UTC on the Chrome store, which contains the fix for this issue. A full writeup of the root cause will follow.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-26T01:18:00Z",
+"resolved_inferred": false,
+"started_at": "2026-06-24T19:15:39Z",
+"state": "resolved",
+"title": "Microsoft Edge tab communication issue",
+"updated_at": "2026-06-26T08:36:12Z"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "push-security",
+"status_url": "https://status.pushsecurity.com",
+"vendor": "Push Security"
+}

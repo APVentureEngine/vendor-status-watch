@@ -1,0 +1,25 @@
+{
+"vendor": "Drmtoday",
+"slug": "drmtoday",
+"platform": "statuspage",
+"status_url": "https://status.drmtoday.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "AWS has reported that the issues have been resolved. We have enabled the us-east-1 region again.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-21T07:27:32.733Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T10:06:17.006Z",
+"state": "resolved",
+"title": "DRMtoday Production: AWS outage in us-east-1",
+"updated_at": "2025-10-21T07:27:32.752Z",
+"url": "https://stspg.io/85x28yvd4kyq"
+}
+]
+}

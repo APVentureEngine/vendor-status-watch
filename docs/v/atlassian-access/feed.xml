@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Atlassian Access incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/atlassian-access/</link><description>Incidents from Atlassian Access's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/mcb2xl1x7mx8</link><guid isPermaLink="false">atlassian-access:2026-05-14T05:11:19.141Z</guid><pubDate>Thu, 14 May 2026 05:11:19 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Multiple Atlassian services are experiencing issues [postmortem]</title><link>https://stspg.io/9tkr1hxrj72n</link><guid isPermaLink="false">atlassian-access:2026-05-08T01:31:38.240Z</guid><pubDate>Fri, 08 May 2026 01:31:38 +0000</pubDate><description>All dates and times below are in UTC unless stated otherwise.
+
+### Summary
+
+On May 8, 2026 between 00:22 and 06:08, one of our hosting providers suffered a significant incident in a specific availability zone in prod-east which led to Atlassian customers experiencing degraded performance and delays of background operations and automation execution.
+
+The incident started on May 8, 2026 at 00:22 and was detected within 4 minutes by automated monitoring systems. Our teams worked to restore core access by 06:08. Final cleanup of backlogged processes and minor issues progressed in stages from there was completed iteratively by 19:15.
+
+### **IMPACT**
+
+The primary infrastructure affected in this incident was the event processing pipeline in the prod-east region, which distributes events between A</description></item><item><title>Users experiencing issues with login across Atlassian products [postmortem]</title><link>https://stspg.io/01057kmw7hrt</link><guid isPermaLink="false">atlassian-access:2026-04-13T07:29:46.094Z</guid><pubDate>Mon, 13 Apr 2026 07:29:46 +0000</pubDate><description>### Summary
+
+On April 13, 2026, between 05:49 and 06:29 UTC, customers experienced failures when attempting to log in, sign up, reset passwords, and complete multi-factor authentication flows across Atlassian cloud products. Approximately 90% of authentication requests failed during the peak impact window, affecting users in the US East and EU regions. The incident was mitigated within 40 minutes through manual intervention, and full service was restored by 06:29 UTC.
+
+### **IMPACT**
+
+* **Duration**: ~40 minutes \(05:49–06:29 UTC, April 13, 2026\)
+* **Affected regions**: US East and EU \(authentication infrastructure serves EU traffic from US East, with traffic primarily from EU at this time of day\).
+* **Affected products**: All Atlassian cloud products requiring authentication, including</description></item><item><title>Multiple products impacted by search failures [postmortem]</title><link>https://stspg.io/f81zbhtg8hpg</link><guid isPermaLink="false">atlassian-access:2026-04-08T06:01:35.680Z</guid><pubDate>Wed, 08 Apr 2026 06:01:35 +0000</pubDate><description>### Summary
+
+On April 8, 2026, between 04:46 UTC and 12:09 UTC, search functionality was unavailable or degraded across several Atlassian Cloud products, including Jira, Confluence, Jira Service Management, Rovo, Rovo Dev, Loom, Guard Standard, Customer Service Management and Atlassian Administration. 
+
+A configuration change increased the resources reserved for a core system component that runs on nodes in our compute platform. On a subset of clusters configured for high‑density workloads, the increased reservations exceeded available node capacity interrupting search and related experiences for affected customers.
+
+The root cause was identified and a rollback was merged at 05:42 UTC with some systems seeing recovery by 07:33 UTC**.** Core search functionality was restored approximately b</description></item><item><title>Groups are not clickable from Groups Page in Atlassian Administration [resolved]</title><link>https://stspg.io/87fcs9bfwtvw</link><guid isPermaLink="false">atlassian-access:2026-02-18T11:28:09.872Z</guid><pubDate>Wed, 18 Feb 2026 11:28:09 +0000</pubDate><description>We have implemented the fix and the group page in the Admin Hub is now functioning as expected.</description></item><item><title>Outbound Email, Mobile Push Notifications, and Support Ticket Delivery Impacting All Cloud Products [postmortem]</title><link>https://stspg.io/ntvy1vbp004r</link><guid isPermaLink="false">atlassian-access:2025-12-27T04:42:32.884Z</guid><pubDate>Sat, 27 Dec 2025 04:42:32 +0000</pubDate><description>### Summary
+
+On **December 27, 2025**, between **02:48 UTC and 05:20 UTC**, some Atlassian cloud customers experienced failures in sending and receiving emails and mobile notifications. Core Jira and Confluence functionality remained available.
+
+The issue was triggered when **TLS certificates used by Atlassian’s monitoring infrastructure expired**, causing parts of our metrics pipeline to stop accepting traffic. Services responsible for email and mobile notifications had a critical path dependency on monitoring path leading to service disruptions.
+
+All impacted services were fully restored by **05:20 UTC**, around **2.5 hours** after customer impact began.
+
+### IMPACT
+
+During the impact window, customers experienced:
+
+* **Outbound product email failures** \(notifications and other product </description></item><item><title>Disrupted Guard availability for US Prod East [resolved]</title><link>https://stspg.io/b9sf4626xvjf</link><guid isPermaLink="false">atlassian-access:2025-12-15T20:23:41.417Z</guid><pubDate>Mon, 15 Dec 2025 20:23:41 +0000</pubDate><description>On December 15th, 2025, affected Guard users in US Prod East region may have experienced some service disruption. The issue has now been resolved, and the service is operating normally for all affected customers.
+
+Note: All previously failed Guard provisioning and open workflows have been replayed by Atlassian. No actions are needed from customers for these events.</description></item><item><title>Degraded performance of Admin Hub, Atlassian Analytics, Confluence Cloud, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo [resolved]</title><link>https://stspg.io/21mc8gncnygr</link><guid isPermaLink="false">atlassian-access:2025-12-15T16:16:25.657Z</guid><pubDate>Mon, 15 Dec 2025 16:16:25 +0000</pubDate><description>On December 15th, 2025, Admin Hub, Atlassian Analytics, Confluence Cloud, Ecosystem, Focus, Jira, Jira Product Discovery, Jira Service Management, and Rovo users in the prod-us-east region may have experienced performance degradations and errors on the web page and mobile apps. The issue has now been resolved, and the service is operating normally for all affected customers.</description></item><item><title>2FA, Password reset, OTP, and verification emails being quarantined [resolved]</title><link>https://stspg.io/xg512x20wxw7</link><guid isPermaLink="false">atlassian-access:2025-11-13T18:56:12.844Z</guid><pubDate>Thu, 13 Nov 2025 18:56:12 +0000</pubDate><description>Impacted customers have now confirmed that they are receiving their emails as expected.
+
+If you do continue to see these emails being missing or delayed, please check in with your organizations email admin to review and release them.</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/kt1jwrnjf11l</link><guid isPermaLink="false">atlassian-access:2025-10-20T07:56:12.795Z</guid><pubDate>Mon, 20 Oct 2025 07:56:12 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item><item><title>Degraded performance to multiple Atlassian experiences [postmortem]</title><link>https://stspg.io/jdd6vp4h0rb5</link><guid isPermaLink="false">atlassian-access:2025-09-22T05:59:59.234Z</guid><pubDate>Mon, 22 Sep 2025 05:59:59 +0000</pubDate><description>### **SUMMARY**
+
+On September 22, 2025, between 04:38 and 04:48 UTC, Atlassian customers experienced connection errors preventing access to their [atlassian.net](http://atlassian.net/) sites. Some customers observed intermittent errors as services gradually recovered until 06:17 UTC.
+
+The event was triggered by a faulty configuration change to our Content Delivery Network \(CDN\). The change included an invalid hostname which prevented customers from successfully connecting to [atlassian.net](http://atlassian.net/) domains.
+
+The incident was detected within 1 minute by our monitoring systems and mitigated by rolling back the change, which put Atlassian systems into a known good state. The acute impact was resolved in 10 minutes and all lingering errors resolved in 1 hour 38 minutes.
+
+### *</description></item><item><title>Product invitation emails not being correctly sent to users [resolved]</title><link>https://stspg.io/k9786g6kqzyp</link><guid isPermaLink="false">atlassian-access:2025-08-04T23:44:47.052Z</guid><pubDate>Mon, 04 Aug 2025 23:44:47 +0000</pubDate><description>Between 2025-08-03T21:34 and 2025-08-05T03:43 UTC some users would not have received the emails for product invitations.
+The change that caused these emails to stop being sent has been rolled back.
+New invitation emails should now be sent correctly for all products.
+For users that were impacted by this issue, re-submitting their invitation will also re-send the email to them if required.</description></item></channel></rss>

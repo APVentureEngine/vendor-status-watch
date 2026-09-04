@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cycode incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/cycode/</link><description>Incidents from Cycode's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-09-01T15:10:38Z</guid><pubDate>Tue, 01 Sep 2026 15:10:38 +0000</pubDate><description>GitHub component: Pull Requests
+Original GitHub incident: https://stspg.io/0xbhhq84v4mt</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-26T23:04:59Z</guid><pubDate>Wed, 26 Aug 2026 23:04:59 +0000</pubDate><description>GitHub component: Pull Requests
+Original GitHub incident: https://stspg.io/nrbwjftcz72d</description></item><item><title>Scan Performance Degredation [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-20T14:52:37Z</guid><pubDate>Thu, 20 Aug 2026 14:52:37 +0000</pubDate><description>The system is back to being fully operational.</description></item><item><title>Platform and PR scans slowness [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-19T13:18:38Z</guid><pubDate>Wed, 19 Aug 2026 13:18:38 +0000</pubDate><description>**1. Summary**
+
+On August 19, 2026, some customers experienced slower page loading and data display, as well as delays when starting or completing pull request scans. 
+
+The disruption was caused by a managed memory database entering a repeated restart cycle and not recovering automatically. This created a temporary slowdown in processing. Expected service behavior was restored after corrective actions, including replacement and increased capacity for the affected service. The provider is continuing to investigate why the service was unable to return to normal operation automatically.
+
+**2. Key Timeline (IDT)**
+
+• August 19, 2026, 16:10 IDT: We identified performance degradation affecting parts of the platform and pull request scanning.
+
+• August 19, 2026, 16:30 IDT: An initial corrective c</description></item><item><title> Delayed GitHub PR status checks [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-18T14:34:21Z</guid><pubDate>Tue, 18 Aug 2026 14:34:21 +0000</pubDate><description> 
+
+Some GitHub pull request status checks in the EU region were delayed by up to 30 minutes before completing. 
+
+No checks were lost and no action is needed - delayed checks completed automatically. We identified the cause, and fixed it. We&#x27;re monitoring closely.</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-17T13:44:06Z</guid><pubDate>Mon, 17 Aug 2026 13:44:06 +0000</pubDate><description>GitHub component: Git Operations, Webhooks, API Requests, Pull Requests
+Original GitHub incident: https://stspg.io/y1fl26l6wpzr</description></item><item><title>Degraded performance in Secrets Pull Request scanning [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-14T13:41:27Z</guid><pubDate>Fri, 14 Aug 2026 13:41:27 +0000</pubDate><description>**Summary**
+
+PR secret scans experienced processing lag, causing delays in processing pull requests.
+
+The issue was caused by timeouts when calling the model validation service. The model validation service was experiencing elevated latency and errors because compute nodes were scheduled on a subnet that had exhausted its available IPs.
+
+This slowed PR secret scan processing and caused consumer lag to build up.
+
+To resolve the issue, we temporarily disabled the feature that produces new PR secret scans so the queue could drain. We also resolved the underlying infrastructure issue by moving nodes to subnets with available free IPs.
+
+**Customer Impact**
+
+Customers experienced delayed PR secret scans.
+
+Other scan types remained operational.
+
+**Root Cause**
+
+The secret scanner calls the AI mod</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-13T14:53:48Z</guid><pubDate>Thu, 13 Aug 2026 14:53:48 +0000</pubDate><description>GitHub component: Git Operations, Webhooks, Pull Requests
+Original GitHub incident: https://stspg.io/f0cgtdc0kqxg</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-12T16:25:59Z</guid><pubDate>Wed, 12 Aug 2026 16:25:59 +0000</pubDate><description>GitHub component: Pull Requests
+Original GitHub incident: https://stspg.io/ssd9z8l2g46v</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-11T14:55:27Z</guid><pubDate>Tue, 11 Aug 2026 14:55:27 +0000</pubDate><description>GitHub component: API Requests
+Original GitHub incident: https://stspg.io/3xn46bst0bjh</description></item><item><title>We have noticed degraded performance in scanning [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-10T14:06:34Z</guid><pubDate>Mon, 10 Aug 2026 14:06:34 +0000</pubDate><description>**Root Cause**
+
+The incident was caused by a deployment of one service that ran a database index creation. The team has identified an issue with the way we perform index creations as database migrations. 
+
+During a deployment the pods with newest image of the service attempted to create an index on a big table. The team has identified that the index creation took 7 minutes. However, during index creation pods were not responsive, and as a result, Kubernetes deemed them as unhealthy pods and attempted to retry those pods after 5 minutes.
+
+As a result, because the pod got killed before the index creation was fully completed, the database transaction was rolled back. Then, subsequent pods attempted to create the index again, dying after 5 minutes.
+
+This lead to the database being in unhealthy</description></item><item><title>We’re investigating an issue causing older events to be reprocessed [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-08-02T14:08:56Z</guid><pubDate>Sun, 02 Aug 2026 14:08:56 +0000</pubDate><description>The platform is now fully operational and processing normally</description></item><item><title>Degraded performance in scans [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-27T10:31:15Z</guid><pubDate>Mon, 27 Jul 2026 10:31:15 +0000</pubDate><description>**Root Cause**
+
+The incident was caused by a deployment of one service that ran a database migration. The team has identified that this migration contained faulty code and as a result lead to database overload when attempting to deploy the service. As a result, the service was partially down until the deployment was reverted. During this time, all scans were processed with lower than expected performance.</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-27T03:56:45Z</guid><pubDate>Mon, 27 Jul 2026 03:56:45 +0000</pubDate><description>GitHub component: API Requests
+Original GitHub incident: https://stspg.io/vr201n49yl53</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-24T19:40:50Z</guid><pubDate>Fri, 24 Jul 2026 19:40:50 +0000</pubDate><description>GitHub component: Pull Requests
+Original GitHub incident: https://stspg.io/sm1tp7kfm4vj</description></item><item><title>Degraded performance in IaC Pull Request scans [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-24T17:45:35Z</guid><pubDate>Fri, 24 Jul 2026 17:45:35 +0000</pubDate><description>The issue has been resolved, and we are continuing to monitor the situation.</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-24T16:21:08Z</guid><pubDate>Fri, 24 Jul 2026 16:21:08 +0000</pubDate><description>GitHub component: API Requests, Pull Requests
+Original GitHub incident: https://stspg.io/j5c80shxqm53</description></item><item><title>GitHub incident can affect Cycode [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-23T07:58:43Z</guid><pubDate>Thu, 23 Jul 2026 07:58:43 +0000</pubDate><description>GitHub component: Webhooks, Pull Requests
+Original GitHub incident: https://stspg.io/syhr80rth84z</description></item><item><title>Platform Slowness [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-16T18:56:47Z</guid><pubDate>Thu, 16 Jul 2026 18:56:47 +0000</pubDate><description>The incident has been resolved, and the platform is operating normally.</description></item><item><title>Cycode CLI 3.17.1/2 Secrets scans failures [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-15T17:22:05Z</guid><pubDate>Wed, 15 Jul 2026 17:22:05 +0000</pubDate><description>A fix has been applied and functionality is fully restored; we are continuing to monitor to ensure everything remains stable.</description></item><item><title>Delays in violations status updates in EU [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-14T16:12:50Z</guid><pubDate>Tue, 14 Jul 2026 16:12:50 +0000</pubDate><description>We’re continuing to monitor detection processing and the associated delays in violation status updates (including auto-resolution)</description></item><item><title>Degraded performance [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-13T08:47:48Z</guid><pubDate>Mon, 13 Jul 2026 08:47:48 +0000</pubDate><description>The system is now fully operational. There should be no more degraded performance.
+
+ 
+
+**Summary**
+We observed a period of slowness and intermittent timeouts affecting various system functions in the EU region, including the application interface and pull request (PR) scans. The issue was primarily caused by a processing system reaching its network and memory capacity limits, exacerbated by a high volume of automated activity from a single source. We have since upgraded the underlying infrastructure and implemented safeguards to prevent similar high-volume activity from impacting the system. The issue is now fully resolved, and all services have returned to expected performance levels.
+
+**Key Timeline (IDT)**
+
+• **July 13, 2026, 11:44 IDT**: Incident detected following reports of UI slowne</description></item><item><title>Inaccurate violation counts in some dashboards and panels. [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-09T10:54:26Z</guid><pubDate>Thu, 09 Jul 2026 10:54:26 +0000</pubDate><description>Functionality is fully restored; we are continuing to monitor to ensure everything remains stable.</description></item><item><title>Maestro AI service disruption [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-09T09:07:18Z</guid><pubDate>Thu, 09 Jul 2026 09:07:18 +0000</pubDate><description>The issue affecting Maestro AI services has been resolved. Maestro Risk Explorability, Risk AI Remediation, Maestro Remediation, and Graph AI are now available and operating normally.
+
+ 
+
+**Summary**
+
+On July 9, 2026, customers using the Maestro service in the European production environment experienced a period of service unavailability. The issue began following a configuration update that inadvertently changed the service&#x27;s regional routing. This caused the system to attempt connections through a network path that lacked the necessary permissions and to a region where specific processing models were unavailable. The issue has been fully resolved, and service has been restored to all affected customers.
+
+**Key Timeline (IDT)**
+
+• **July 9, 2026, 12:02 IDT:** The incident was identified a</description></item><item><title>Infrastructure Provisioning Delays [resolved]</title><link>https://status.cycode.com</link><guid isPermaLink="false">cycode:2026-07-06T12:52:03Z</guid><pubDate>Mon, 06 Jul 2026 12:52:03 +0000</pubDate><description>AWS has confirmed that the issue has been fully mitigated and we are currently not observing any related issues.</description></item></channel></rss>

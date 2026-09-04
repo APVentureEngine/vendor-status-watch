@@ -1,0 +1,90 @@
+{
+"vendor": "Rubrik",
+"slug": "rubrik",
+"platform": "statuspage",
+"status_url": "https://status.rubrik.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-08T10:57:38.265Z",
+"resolved_inferred": false,
+"started_at": "2026-08-06T13:51:40.007Z",
+"state": "resolved",
+"title": "Error Accessing RSC UI",
+"updated_at": "2026-08-08T10:57:38.284Z",
+"url": "https://stspg.io/5m0s5z4t2qr1"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-02-28T00:33:50.057Z",
+"resolved_inferred": false,
+"started_at": "2026-02-27T23:09:34.549Z",
+"state": "resolved",
+"title": "Error Accessing RSC UI",
+"updated_at": "2026-02-28T00:33:50.073Z",
+"url": "https://stspg.io/g7n3nx660lbw"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-30T23:39:05.202Z",
+"resolved_inferred": false,
+"started_at": "2025-11-30T22:23:38.520Z",
+"state": "resolved",
+"title": "RSC Degraded Availability",
+"updated_at": "2025-11-30T23:39:05.220Z",
+"url": "https://stspg.io/k5n96bbt7v0j"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-19T10:50:20.830Z",
+"resolved_inferred": false,
+"started_at": "2025-11-19T09:49:47.454Z",
+"state": "resolved",
+"title": "Error Accessing RSC UI",
+"updated_at": "2025-11-19T10:50:20.850Z",
+"url": "https://stspg.io/pldkmtf7g2vb"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-20T11:00:32.616Z",
+"resolved_inferred": false,
+"started_at": "2025-10-20T09:48:31.326Z",
+"state": "resolved",
+"title": "Cloud Native Protection for AWS Experiencing Degraded Availability",
+"updated_at": "2025-10-20T11:00:32.632Z",
+"url": "https://stspg.io/j89nrmy2cgkr"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-09-30T16:36:26.038Z",
+"resolved_inferred": false,
+"started_at": "2025-09-30T15:28:11.631Z",
+"state": "resolved",
+"title": "Error Accessing RSC UI",
+"updated_at": "2025-09-30T16:36:26.053Z",
+"url": "https://stspg.io/2dm8vh7nxtjs"
+}
+]
+}

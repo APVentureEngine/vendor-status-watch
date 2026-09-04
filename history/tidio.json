@@ -1,0 +1,128 @@
+{
+"checks": [
+{
+"at": "2026-09-04T07:06:16Z",
+"state": "ok"
+},
+{
+"at": "2026-09-04T07:16:22Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-04T07:06:16Z",
+"history_backfilled": true,
+"incidents": {
+"cf73ldl2c7y2": {
+"body": "Everything is back up and running. Thank you for your patience",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-17T21:41:26.023Z",
+"resolved_inferred": false,
+"started_at": "2026-04-17T16:07:38.918Z",
+"state": "resolved",
+"title": "Connectivity issues for some users",
+"updated_at": "2026-04-17T21:41:26.038Z",
+"url": "https://stspg.io/qc7h48434fbz"
+},
+"pnvj4zt687q2": {
+"body": "This incident has been resolved, services are fully operational.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "minor",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-09T16:43:49.000Z",
+"resolved_inferred": false,
+"started_at": "2026-04-09T14:35:47.202Z",
+"state": "resolved",
+"title": "Degraded performance for some users",
+"updated_at": "2026-04-09T16:44:54.115Z",
+"url": "https://stspg.io/9kwqf8h59161"
+},
+"ps2jf277zw45": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-01T13:07:37.992Z",
+"resolved_inferred": false,
+"started_at": "2026-07-01T07:02:03.506Z",
+"state": "resolved",
+"title": "Issues with ticketing (emails)",
+"updated_at": "2026-07-01T13:07:38.008Z",
+"url": "https://stspg.io/xt2nq5tghq4g"
+},
+"rq04mcddstl9": {
+"body": "Meta has resolved the issues affecting their business products, including WhatsApp, Facebook, and Instagram. All services are now fully restored and operating normally.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-12T18:26:55.171Z",
+"resolved_inferred": false,
+"started_at": "2026-06-12T14:45:55.779Z",
+"state": "resolved",
+"title": "Outage of Meta business products",
+"updated_at": "2026-06-12T18:26:55.190Z",
+"url": "https://stspg.io/35hzv9zr06vg"
+},
+"v2ht86slsnj6": {
+"body": "Everything is back up and running. Thank you for your patience",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-01-15T07:47:03.725Z",
+"resolved_inferred": false,
+"started_at": "2026-01-15T07:18:28.842Z",
+"state": "resolved",
+"title": "Connectivity issues for some users",
+"updated_at": "2026-01-15T07:47:03.744Z",
+"url": "https://stspg.io/ymvhv0w75g7d"
+},
+"wsnjvr1jpxpt": {
+"body": "Everything is back up and running.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-12-05T12:46:29.430Z",
+"resolved_inferred": false,
+"started_at": "2025-12-05T09:05:55.535Z",
+"state": "resolved",
+"title": "Connectivity issues for some users",
+"updated_at": "2025-12-05T12:46:29.447Z",
+"url": "https://stspg.io/z3vz3qs9p1lc"
+},
+"zbnr9xwktbz8": {
+"body": "This incident is now resolved. Thank you for your patience and understanding.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-11-18T20:04:20.679Z",
+"resolved_inferred": false,
+"started_at": "2025-11-18T11:38:51.714Z",
+"state": "resolved",
+"title": "Connectivity issues for some users",
+"updated_at": "2025-11-18T20:04:20.695Z",
+"url": "https://stspg.io/lfh4lql6wkgr"
+},
+"zp6thvnsxr55": {
+"body": "This incident has been resolved. Meta restored the API access and all integrations (WhatsApp, Messenger, Instagram) are working on production. Thank you for your patience in this difficult moment.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-06-09T06:17:32.797Z",
+"resolved_inferred": false,
+"started_at": "2026-06-04T15:09:45.471Z",
+"state": "resolved",
+"title": "Connectivity issues with Meta integrations",
+"updated_at": "2026-06-09T06:17:32.809Z",
+"url": "https://stspg.io/j97w0xd8bz8k"
+}
+},
+"last_checked": "2026-09-04T07:16:22Z",
+"last_description": "All Systems Operational",
+"last_error": null,
+"last_state": "ok",
+"platform": "statuspage",
+"slug": "tidio",
+"status_url": "https://status.tidio.com",
+"vendor": "Tidio"
+}

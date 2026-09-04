@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Apwide incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/apwide/</link><description>Incidents from Apwide's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Outage on Golive [resolved]</title><link>https://stspg.io/h54c1nfy5t1s</link><guid isPermaLink="false">apwide:2026-03-10T20:04:58.869+01:00</guid><pubDate>Tue, 10 Mar 2026 19:04:58 +0000</pubDate><description>We have identified and resolved the root cause of the issue.
+One of our nodes was unable to perform DNS resolution due to routing errors.
+The routing issues have now been fixed, and DNS resolution is working correctly.
+
+We apologize for the inconvenience caused.</description></item><item><title>Performance issue on Golive [postmortem]</title><link>https://stspg.io/2fv9rvwxwmfm</link><guid isPermaLink="false">apwide:2026-02-05T08:46:30.902+01:00</guid><pubDate>Thu, 05 Feb 2026 07:46:30 +0000</pubDate><description>**07:23 UTC** – The support team was alerted by monitoring that some database queries were taking longer than expected.
+
+**07:34 UTC** – Our uptime probes began raising alerts indicating that Golive was no longer accessible to end users.
+
+**07:46 UTC** – The support team updated the status page to notify users of a Golive outage.
+
+**08:23 UTC** – The support team identified an abnormal traffic spike originating from Atlassian webhooks. Under normal conditions, traffic peaks reach around 1,000 webhook calls per minute; however, we experienced a sustained spike exceeding 9,000 calls per minute. This caused one of our components to open more database connections than it was designed to handle, forcing it to restart repeatedly. To protect the Golive application, webhook traffic was temporarily</description></item><item><title>Golive and Time Squad outage [postmortem]</title><link>https://stspg.io/t6cw89n17c3f</link><guid isPermaLink="false">apwide:2025-11-05T07:20:24.892+01:00</guid><pubDate>Wed, 05 Nov 2025 06:20:24 +0000</pubDate><description>**Outage Recap**
+
+* **2025-11-05 at 5:56 AM UTC**, our monitoring system began raising alerts indicating that some of our services were unable to communicate with the database.
+* **6:20 AM UTC:** We reported an outage affecting the **Golive** and **Time Squad** services on our status page.
+* **6:26 AM UTC:** We suspected the issue originated from our hosting provider’s managed database service. We contacted their support team and opened a ticket.
+* **6:57 AM UTC:** The hosting provider confirmed the issue on their side and announced a general outage on their platform. [Incident link](https://public-cloud.status-ovhcloud.com/incidents/9qmxv0gbky43)
+* **7:58 AM UTC:** The hosting provider reported that the issue had been resolved. We restarted our **Golive** and **Time Squad** services.
+* **</description></item></channel></rss>

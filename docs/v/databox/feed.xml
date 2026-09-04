@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Databox incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/databox/</link><description>Incidents from Databox's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>GitHub integration temporarily unavailable [resolved]</title><link>https://stspg.io/zj5rnmlk2rms</link><guid isPermaLink="false">databox:2026-08-16T09:27:42.000-04:00</guid><pubDate>Sun, 16 Aug 2026 13:27:42 +0000</pubDate><description>The GitHub integration is fully available again.
+
+As part of restoring the integration, we also introduced security improvements that give customers more control over which repositories Databox can access.
+
+Existing connections can be reconnected, and historical metric data remains available. Data from the period while the integration was unavailable may be incomplete.
+
+Thank you for your patience.
+
+If you have any questions, please reach out to our Support team via chat or help@databox.com.</description></item><item><title>Issue with loading the Databox App [resolved]</title><link>https://stspg.io/jd1hxn72r012</link><guid isPermaLink="false">databox:2026-07-16T04:18:44.000-04:00</guid><pubDate>Thu, 16 Jul 2026 08:18:44 +0000</pubDate><description>The application was unreachable due to a global Amazon Web Services outage. The issue is now resolved.</description></item><item><title>Scorecard delivery delays [resolved]</title><link>https://stspg.io/n77c4rmjtgnj</link><guid isPermaLink="false">databox:2026-06-22T12:39:50.493-04:00</guid><pubDate>Mon, 22 Jun 2026 16:39:50 +0000</pubDate><description>We experienced an issue affecting the delivery of scheduled Scorecards. During this incident, some Scorecards were delayed and were not sent as expected between Friday, 16:00 CEST (09:00 EST) and Monday, 17:00 CEST (10:00 EST).
+
+The issue has been resolved, and all delayed Scorecards have now been successfully delivered. We will continue monitoring to ensure normal operation.</description></item><item><title>Issues with accessing Databox app [resolved]</title><link>https://stspg.io/16pthrmwq7sl</link><guid isPermaLink="false">databox:2026-05-15T06:46:29.485-04:00</guid><pubDate>Fri, 15 May 2026 10:46:29 +0000</pubDate><description>We experienced a service disruption affecting the Databox app. Due to technical issues, our web app was unavailable on Wednesday, May 13, from 02:00 to 06:38 CET (Tuesday, May 12, from 8:00 PM to 12:38 AM EST).
+
+All services have since been restored and are operating normally.</description></item><item><title>Temporary issues with the services [resolved]</title><link>https://stspg.io/gcwvf17szggq</link><guid isPermaLink="false">databox:2026-03-10T09:34:37.057-04:00</guid><pubDate>Tue, 10 Mar 2026 13:34:37 +0000</pubDate><description>We experienced a service disruption affecting the Databox app. During this incident, the application was unavailable, resulting in an outage across all services.
+
+The Databox app was inaccessible during the following period:
+Tuesday, 13:58–14:06 CET (08:58–09:06 EST)
+
+All services have since been restored and are operating normally.</description></item><item><title>Outgoing Email Delays [resolved]</title><link>https://stspg.io/9bb482d0bmsl</link><guid isPermaLink="false">databox:2026-03-06T06:14:00.253-05:00</guid><pubDate>Fri, 06 Mar 2026 11:14:00 +0000</pubDate><description>The issue affecting outgoing emails has been resolved. Scheduled notifications, password reset emails, and user invitation emails are sending normally. We will continue monitoring.</description></item><item><title>Temporary issues with the services [resolved]</title><link>https://stspg.io/fy5c48ztzf54</link><guid isPermaLink="false">databox:2026-02-06T04:48:35.561-05:00</guid><pubDate>Fri, 06 Feb 2026 09:48:35 +0000</pubDate><description>We experienced a service disruption affecting the Databox app. During this incident, the application was unavailable, resulting in an outage across all services.
+
+The Databox app was inaccessible during the following periods:
+Friday, 00:37–01:12 CET (Thursday, 6:37–7:12 PM EST)
+Friday, 04:35–04:50 CET (Thursday, 10:35–10:50 PM EST)
+
+All users attempting to access the Databox app during these periods were impacted. As a result, regular data syncing may have been delayed, the first scheduled sync of the day may have been missed, and some notifications may have been delayed or not delivered.
+
+All services have since been restored and are operating normally.</description></item><item><title>Syncing issues with Google Analytics 4 [resolved]</title><link>https://stspg.io/49ts3d8ybgfx</link><guid isPermaLink="false">databox:2026-02-03T07:13:01.164-05:00</guid><pubDate>Tue, 03 Feb 2026 12:13:01 +0000</pubDate><description>Metric syncing is fully operational. The earlier Google Analytics 4 rate limit errors have been mitigated, and the issue is now resolved.
+
+Thank you for your patience and understanding on the matter. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Issues with performing scheduled syncs [resolved]</title><link>https://stspg.io/xk0pk9jjj81z</link><guid isPermaLink="false">databox:2025-11-06T07:35:52.724-05:00</guid><pubDate>Thu, 06 Nov 2025 12:35:52 +0000</pubDate><description>The issue has been resolved. Scheduled syncs are now being performed as expected again.
+
+Thank you for your patience and understanding. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Issues with syncing metrics for Reddit Ads data sources [resolved]</title><link>https://stspg.io/9sxx5r2cct40</link><guid isPermaLink="false">databox:2025-11-05T08:24:00.309-05:00</guid><pubDate>Wed, 05 Nov 2025 13:24:00 +0000</pubDate><description>The issue has been resolved. The Reddit Ads metrics are now syncing normally again.
+
+If you have any questions for us, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Upstream Provider Service Degradation [resolved]</title><link>https://stspg.io/wfnzh1jdhyvg</link><guid isPermaLink="false">databox:2025-10-20T05:49:07.145-04:00</guid><pubDate>Mon, 20 Oct 2025 09:49:07 +0000</pubDate><description>AWS has resolved the reported outage. Our monitoring confirms that all systems are stable and operating normally.
+
+We’ll continue to keep an eye on performance, but no further impact is expected at this time.</description></item><item><title>Issues with datasets metrics preparation on Oct 18 [resolved]</title><link>https://stspg.io/rvsnfwh0wwc6</link><guid isPermaLink="false">databox:2025-10-19T14:49:11.248-04:00</guid><pubDate>Sun, 19 Oct 2025 18:49:11 +0000</pubDate><description>On Saturday, October 18, an issue occurred that prevented new data from being written to the warehouse. This caused dataset metric preparation processes to stop temporarily.
+
+Issues occurred between 2.30 AM EDT and 11:15 AM EDT (8.30 AM CET and 5.15 PM CET).
+
+Thank you for your patience and understanding. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Issues with accessing Databox app [resolved]</title><link>https://stspg.io/n1hws5sdg3d6</link><guid isPermaLink="false">databox:2025-10-07T09:09:20.784-04:00</guid><pubDate>Tue, 07 Oct 2025 13:09:20 +0000</pubDate><description>Issue has been resolved. The app can now be accessed normally.
+
+Thank you for your patience and understanding on the matter. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Issues with Xero integration [resolved]</title><link>https://stspg.io/9z164h15kt9s</link><guid isPermaLink="false">databox:2025-10-02T09:59:57.528-04:00</guid><pubDate>Thu, 02 Oct 2025 13:59:57 +0000</pubDate><description>After monitoring the Xero integrations for a while, we can confirm that the issue is resolved.
+
+The Xero data sources are now connected, new Xero connections can be added and data is syncing normally for Xero metrics.
+
+Thank you for your patience and understanding on the matter. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Salesforce data source connections are currently disabled in Databox [resolved]</title><link>https://stspg.io/zxx5qp3wtvnf</link><guid isPermaLink="false">databox:2025-09-25T03:35:13.870-04:00</guid><pubDate>Thu, 25 Sep 2025 07:35:13 +0000</pubDate><description>Our Security team, together with an external cybersecurity service provider, has concluded an investigation connected to suspicious activity involving a limited number of Databox customer connections with Salesforce.
+
+We have not identified any evidence that any customer’s Databox account or personal data was compromised.
+
+That makes this incident resolved, the Salesforce integration has been removed as a precaution measurement and will not be available until further notice. This means existing Salesforce connections are disabled in Databox and new connections cannot be established.
+
+We are working on re-enabling the Salesforce integration and will keep you updated once it’s available again.</description></item><item><title>Releasing the new feature Advanced Filtering - potential issues with using the app [resolved]</title><link>https://stspg.io/c5bn72grtrrj</link><guid isPermaLink="false">databox:2025-09-10T07:57:52.977-04:00</guid><pubDate>Wed, 10 Sep 2025 11:57:52 +0000</pubDate><description>The release and migration are now complete. All related issues have been resolved and should no longer occur.
+
+If you have any questions for us, please reach out to our Support services via chat or help@databox.com.</description></item><item><title>Issues with creating datasets [resolved]</title><link>https://stspg.io/tft1gy3zd1lk</link><guid isPermaLink="false">databox:2025-08-29T15:01:54.268-04:00</guid><pubDate>Fri, 29 Aug 2025 19:01:54 +0000</pubDate><description>The issue has been resolved. The datasets feature now works as expected. 
+
+Thank you for your patience and understanding on the matter. If you have any questions, please reach out to our Support services via chat or help@databox.com.</description></item></channel></rss>

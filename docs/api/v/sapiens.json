@@ -1,0 +1,90 @@
+{
+"vendor": "Sapiens",
+"slug": "sapiens",
+"platform": "statuspage",
+"status_url": "http://status.sapiensia.com",
+"last_checked": "2026-09-04T07:16:22Z",
+"last_state": "ok",
+"history_backfilled": true,
+"first_watched": "2026-09-04T07:06:16Z",
+"incidents": [
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-08-24T09:51:01.688-03:00",
+"resolved_inferred": false,
+"started_at": "2026-08-24T08:42:10.036-03:00",
+"state": "resolved",
+"title": "Indisponibilidade do sistema",
+"updated_at": "2026-08-24T09:51:01.706-03:00",
+"url": "https://stspg.io/2ntvjwxc23v8"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "major",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-07-22T10:58:01.917-03:00",
+"resolved_inferred": false,
+"started_at": "2026-07-22T09:29:15.577-03:00",
+"state": "resolved",
+"title": "Problemas na Exporta\u00e7\u00e3o de Relat\u00f3rios e Edi\u00e7\u00e3o de Documentos",
+"updated_at": "2026-07-22T10:58:01.936-03:00",
+"url": "https://stspg.io/mj08bww7rjdt"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-04-02T08:50:23.913-03:00",
+"resolved_inferred": false,
+"started_at": "2026-04-01T16:59:41.040-03:00",
+"state": "resolved",
+"title": "Lentid\u00e3o no DRAKE",
+"updated_at": "2026-04-02T08:50:23.932-03:00",
+"url": "https://stspg.io/snm33z8xfgqb"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-11T21:21:08.380-03:00",
+"resolved_inferred": false,
+"started_at": "2026-03-11T15:20:07.322-03:00",
+"state": "resolved",
+"title": "Instabilidade em algumas telas do DRAKE",
+"updated_at": "2026-03-11T21:21:08.397-03:00",
+"url": "https://stspg.io/t5cs7kzf785z"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "none",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2026-03-08T10:49:39.539-03:00",
+"resolved_inferred": false,
+"started_at": "2026-03-08T09:38:08.984-03:00",
+"state": "resolved",
+"title": "Erros na abertura de necessidades logisticas",
+"updated_at": "2026-03-08T10:49:39.554-03:00",
+"url": "https://stspg.io/fv7jnmw8gywy"
+},
+{
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-04T07:06:16Z",
+"impact": "critical",
+"last_seen": "2026-09-04T07:16:22Z",
+"resolved_at": "2025-10-30T22:55:09.034-03:00",
+"resolved_inferred": false,
+"started_at": "2025-10-29T13:45:08.618-03:00",
+"state": "resolved",
+"title": "Nuvem mundial da Microsoft apresentando problemas",
+"updated_at": "2025-10-30T22:55:09.402-03:00",
+"url": "https://stspg.io/4nvnhwpblpq1"
+}
+]
+}

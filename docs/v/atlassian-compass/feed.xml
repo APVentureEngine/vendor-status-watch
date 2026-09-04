@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Atlassian Compass incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/atlassian-compass/</link><description>Incidents from Atlassian Compass's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>Users experiencing issues accessing multiple Atlassian products [postmortem]</title><link>https://stspg.io/dg5b5thfv2lc</link><guid isPermaLink="false">atlassian-compass:2026-05-14T05:24:54.073Z</guid><pubDate>Thu, 14 May 2026 05:24:54 +0000</pubDate><description>### Summary
+
+On May 14, 2026, between 04:30 and 05:26 UTC, Atlassian customers experienced widespread service disruption across multiple Atlassian Cloud products. The issue was caused by a race condition in our internal deployment orchestration platform during a routine rollback operation of a core identity service in the us-east region. This race condition resulted in insufficient capacity for the identity service in the affected region which started returning errors to dependent products. The incident was detected within a minute by automated monitoring systems and mitigated in 56 minutes.
+
+### **IMPACT**
+
+During the incident, customers attempting to access Atlassian Cloud products in the us-east region experienced authentication and permission failures and were unable to access services</description></item><item><title>Multiple Atlassian services are experiencing issues [postmortem]</title><link>https://stspg.io/k1zplrx1rgk0</link><guid isPermaLink="false">atlassian-compass:2026-05-08T01:31:38.318Z</guid><pubDate>Fri, 08 May 2026 01:31:38 +0000</pubDate><description>All dates and times below are in UTC unless stated otherwise.
+
+### Summary
+
+On May 8, 2026 between 00:22 and 06:08, one of our hosting providers suffered a significant incident in a specific availability zone in prod-east which led to Atlassian customers experiencing degraded performance and delays of background operations and automation execution.
+
+The incident started on May 8, 2026 at 00:22 and was detected within 4 minutes by automated monitoring systems. Our teams worked to restore core access by 06:08. Final cleanup of backlogged processes and minor issues progressed in stages from there was completed iteratively by 19:15.
+
+### **IMPACT**
+
+The primary infrastructure affected in this incident was the event processing pipeline in the prod-east region, which distributes events between A</description></item><item><title>Atlassian Cloud Services impacted [postmortem]</title><link>https://stspg.io/2mc0sf4gckkx</link><guid isPermaLink="false">atlassian-compass:2025-10-20T07:56:12.959Z</guid><pubDate>Mon, 20 Oct 2025 07:56:12 +0000</pubDate><description>### Postmortem publish date: Nov 19th, 2025
+
+### Summary
+
+All dates and times below are in UTC unless stated otherwise.
+
+Customers utilizing Atlassian products experienced elevated error rates and degraded performance between Oct 20, 2025 06:48 and Oct 21, 2025 04:05. The service disruptions were triggered due to an [AWS DynamoDB outage](https://aws.amazon.com/message/101925/#:~:text=1%3A50%20PM.-,DynamoDB,-Between%2011%3A48) and further affected by subsequent failures in [AWS EC2](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) and [AWS Network Load Balancer](https://aws.amazon.com/message/101925/#:~:text=service%20disruption%20event.-,Amazon%20EC2,-Between%2011%3A48) within the us-east-1 region.
+
+The incident started at Oct 2</description></item><item><title>Delays in Opsgenie, JSM Ops and Compass Ops notifications [resolved]</title><link>https://stspg.io/f73kjr2xdnpm</link><guid isPermaLink="false">atlassian-compass:2025-09-30T14:07:08.233Z</guid><pubDate>Tue, 30 Sep 2025 14:07:08 +0000</pubDate><description>Between 13:10 UTC to 14:00 UTC, we experienced notification delay for Jira Service Management, Opsgenie, and Compass in only EU-region. The issue has been resolved and the service is operating normally.</description></item><item><title>Degraded performance to multiple Atlassian experiences [postmortem]</title><link>https://stspg.io/6qcdnnv2kkkx</link><guid isPermaLink="false">atlassian-compass:2025-09-22T05:59:59.177Z</guid><pubDate>Mon, 22 Sep 2025 05:59:59 +0000</pubDate><description>### **SUMMARY**
+
+On September 22, 2025, between 04:38 and 04:48 UTC, Atlassian customers experienced connection errors preventing access to their [atlassian.net](http://atlassian.net/) sites. Some customers observed intermittent errors as services gradually recovered until 06:17 UTC.
+
+The event was triggered by a faulty configuration change to our Content Delivery Network \(CDN\). The change included an invalid hostname which prevented customers from successfully connecting to [atlassian.net](http://atlassian.net/) domains.
+
+The incident was detected within 1 minute by our monitoring systems and mitigated by rolling back the change, which put Atlassian systems into a known good state. The acute impact was resolved in 10 minutes and all lingering errors resolved in 1 hour 38 minutes.
+
+### *</description></item><item><title>Delays observed at JSM, Opsgenie and Compass alert search functionality in US Region [resolved]</title><link>https://stspg.io/3nsxr2l80rp0</link><guid isPermaLink="false">atlassian-compass:2025-09-11T08:53:32.822Z</guid><pubDate>Thu, 11 Sep 2025 08:53:32 +0000</pubDate><description>Between September 10, 2025, 3:19 PM UTC and September 11, 2025, 2:44 PM UTC, there was degraded performance in web experiences and the REST APIs for some Jira Service Management, Opsgenie, and Compass Cloud customers in the US region. We have deployed a fix to mitigate the issue and have verified that the services have recovered. The issue has been resolved and the service is operating normally.</description></item></channel></rss>
