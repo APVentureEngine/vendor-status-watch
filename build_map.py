@@ -90,6 +90,17 @@ if os.path.exists(EXTRA):
         added += 1
     print("seed_extra added:", added)
 
+# c130: bespoke parsers (platforms.BESPOKE) for the vendors buyers search first — Slack,
+# Stripe, AWS, Azure, Google Cloud/Firebase/Workspace/Play. Keyed by host, so the seed row
+# is promoted here whatever the HTML classifier called it.
+n_besp = 0
+for v in out:
+    hit = P.bespoke_for(v["base"])
+    if hit and v["platform"] in ("unknown-html", "dead", "bespoke"):
+        v["platform"], v["supported"], v["note"] = "bespoke", True, hit[1]
+        n_besp += 1
+print("bespoke parsers attached:", n_besp)
+
 # Re-probe every 'unknown-html' base for a JSON endpoint the HTML classifier missed.
 # (2026-09-03: rescued cloudflare, elastic, bandwidth, qualys -> statuspage; railway -> instatus.)
 # This is the daily self-healing step: vendors migrate platforms; the map follows.

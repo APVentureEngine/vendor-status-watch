@@ -121,8 +121,10 @@ df.groupby("vendor").size().sort_values(ascending=False).head(20)   # noisiest v
 ## Freshness, coverage, limits
 
 Rebuilt daily. {n_sup:,} of {n_map:,} mapped vendors are parseable; the rest
-(bespoke pages such as AWS, Azure, GCP, Slack; platforms without a public JSON
-feed) are listed with `supported=false` rather than guessed at. A status page
+(bespoke HTML pages such as Apple, Microsoft 365 and Notion; platforms without a
+public JSON feed) are listed with `supported=false` rather than guessed at. AWS,
+Azure, Google Cloud/Firebase/Workspace/Play, Slack and Stripe are parsed from
+their own public feeds (`platform = bespoke`). A status page
 is what the VENDOR chose to publish — an empty history means the vendor posted
 nothing, not that nothing happened. We never synthesise an OK.
 

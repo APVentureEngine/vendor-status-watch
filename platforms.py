@@ -33,7 +33,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-UA = {"User-Agent": "vendor-status-watch/0.1 (+https://apventureengine.github.io/vendor-status-watch)"}
+UA = {"User-Agent": "vendor-status-watch/0.1 (+https://approjects-vendor-status-watch.static.hf.space)"}
 TIMEOUT = 15
 STATES = ("ok", "maintenance", "degraded", "partial", "major", "unknown")
 
@@ -274,11 +274,259 @@ def statusio(vendor, slug, base, page_id=None):
     return out
 
 
+# --------------------------------------------------------------------------- #
+# Bespoke parsers (c130, 2026-09-04) — the vendors buyers search for FIRST all
+# run their own status pages, but every one below still publishes a public,
+# key-less machine-readable feed. Probed live on 2026-09-04 (see
+# ventures/vendor-status-watch/log.md c130). Keyed by HOST of the seed base URL
+# so build_map.py can promote the seed row without a per-slug special case.
+# Each parser returns the same normalized dict as the platform parsers above.
+# --------------------------------------------------------------------------- #
+import hashlib
+
+
+def _hid(*parts):
+    return hashlib.sha1("|".join(str(p) for p in parts).encode()).hexdigest()[:12]
+
+
+def _xml_items(body):
+    """Tiny RSS item reader (stdlib only). Returns [{title, link, guid, pubDate, description}]."""
+    import xml.etree.ElementTree as ET
+    try:
+        root = ET.fromstring(body)
+    except Exception:
+        return None
+    items = []
+    for it in root.iter("item"):
+        d = {}
+        for k in ("title", "link", "guid", "pubDate", "description"):
+            el = it.find(k)
+            d[k] = (el.text or "").strip() if el is not None and el.text else None
+        items.append(d)
+    return items
+
+
+# Slack — documented JSON API: https://slack-status.com/api/v2.0.0/current
+_SLACK_TYPE = {"outage": "major", "incident": "degraded", "notice": "maintenance"}
+
+
+def slack(vendor, slug, base):
+    code, body = _get("https://slack-status.com/api/v2.0.0/current")
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    try:
+        j = json.loads(body)
+    except Exception:
+        return _blank(vendor, slug, "bespoke", base, error="slack api: not json")
+    out = _blank(vendor, slug, "bespoke", base)
+    active = [i for i in (j.get("active_incidents") or []) if (i.get("status") or "active") == "active"]
+    if (j.get("status") == "ok") and not active:
+        out["state"], out["description"] = "ok", "Slack is up and running"
+    else:
+        ranks = [_SLACK_TYPE.get(i.get("type"), "degraded") for i in active] or ["degraded"]
+        out["state"] = sorted(ranks, key=lambda s: STATES.index(s))[-1] if "major" not in ranks else "major"
+        if out["state"] == "maintenance" and not all(r == "maintenance" for r in ranks):
+            out["state"] = "degraded"
+        out["description"] = f"{len(active)} active {'incident' if len(active) == 1 else 'incidents'} on slack-status.com"
+    for i in active:
+        out["incidents"].append({
+            "id": f"slack-{i.get('id')}", "title": i.get("title"),
+            "state": "maintenance" if i.get("type") == "notice" else (i.get("status") or "active"),
+            "impact": i.get("type"), "url": i.get("url"),
+            "started_at": i.get("date_created"), "updated_at": i.get("date_updated"),
+            "body": ", ".join(i.get("services") or []) or None,
+        })
+    return out
+
+
+# Stripe — https://status.stripe.com/current  {statuses:{api:'up',...}, largestatus, message, time}
+_STRIPE = {"up": "ok", "degraded": "degraded", "down": "major"}
+
+
+def stripe(vendor, slug, base):
+    code, body = _get("https://status.stripe.com/current")
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    try:
+        j = json.loads(body)
+    except Exception:
+        return _blank(vendor, slug, "bespoke", base, error="stripe /current: not json")
+    out = _blank(vendor, slug, "bespoke", base)
+    big = str(j.get("largestatus") or "").lower()
+    comps = j.get("statuses") or {}
+    bad = {k: v for k, v in comps.items() if str(v).lower() != "up"}
+    out["state"] = _STRIPE.get(big, "unknown")
+    if out["state"] == "ok" and bad:
+        out["state"] = "degraded"
+    out["description"] = j.get("message") or "unknown"
+    if out["state"] not in ("ok", "unknown"):
+        # Stripe publishes no incident list; one synthetic incident per distinct message
+        # so a watcher gets exactly one 'opened' and one 'resolved'.
+        out["incidents"].append({
+            "id": "stripe-" + _hid(j.get("message"), sorted(bad.items())),
+            "title": j.get("message") or "Stripe reports a service problem",
+            "state": "active", "impact": big or "degraded", "url": "https://status.stripe.com/",
+            "started_at": None, "updated_at": None,
+            "body": ", ".join(f"{k}: {v}" for k, v in sorted(bad.items())) or None,
+        })
+    return out
+
+
+# Google dashboards (Cloud, Firebase, Workspace, Play) — <dashboard>/incidents.json,
+# a full incident history; open = no `end` and last update not AVAILABLE.
+_GOOGLE_IMPACT = {"SERVICE_OUTAGE": "major", "SERVICE_DISRUPTION": "partial", "SERVICE_INFORMATION": "degraded"}
+_GOOGLE_FEEDS = {
+    "status.cloud.google.com": "https://status.cloud.google.com/incidents.json",
+    "status.firebase.google.com": "https://status.firebase.google.com/incidents.json",
+    "www.google.com": "https://www.google.com/appsstatus/dashboard/incidents.json",  # Workspace
+    "status.play.google.com": "https://status.play.google.com/incidents.json",
+}
+
+
+def google_dashboard(vendor, slug, base):
+    host = re.sub(r"^https?://", "", base).split("/")[0].lower()
+    feed = _GOOGLE_FEEDS.get(host)
+    if not feed:
+        return _blank(vendor, slug, "bespoke", base, error="no google feed for host")
+    code, body = _get(feed, limit=8_000_000)
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    try:
+        j = json.loads(body)
+    except Exception:
+        return _blank(vendor, slug, "bespoke", base, error="google incidents.json: not json")
+    if not isinstance(j, list):
+        return _blank(vendor, slug, "bespoke", base, error="google incidents.json: unexpected shape")
+    page = feed.rsplit("/", 1)[0]
+    out = _blank(vendor, slug, "bespoke", base)
+    open_inc = []
+    for i in j:
+        if i.get("end"):
+            continue
+        mru = (i.get("most_recent_update") or {}).get("status") or i.get("status_impact")
+        if mru == "AVAILABLE":
+            continue
+        open_inc.append(i)
+    if not open_inc:
+        out["state"], out["description"] = "ok", "All services available"
+    else:
+        ranks = [_GOOGLE_IMPACT.get(i.get("status_impact"), "degraded") for i in open_inc]
+        out["state"] = min(ranks, key=lambda s: ("major", "partial", "degraded").index(s))
+        out["description"] = f"{len(open_inc)} open {'incident' if len(open_inc) == 1 else 'incidents'}"
+    for i in open_inc:
+        mru = i.get("most_recent_update") or {}
+        out["incidents"].append({
+            "id": f"google-{i.get('id')}",
+            "title": (i.get("service_name") + ": " if i.get("service_name") else "") + (i.get("external_desc") or "")[:160],
+            "state": (i.get("status_impact") or "active").lower(), "impact": i.get("severity"),
+            "url": f"{page}/{i['uri']}" if i.get("uri") else page,
+            "started_at": i.get("begin"), "updated_at": i.get("modified"),
+            "body": (mru.get("text") or None),
+        })
+    return out
+
+
+# AWS — https://health.aws.amazon.com/public/currentevents (UTF-16 JSON list of events
+# from the last ~7 days; status "0" + "[RESOLVED]" prefix = closed).
+def aws(vendor, slug, base):
+    code, body = _get("https://health.aws.amazon.com/public/currentevents", limit=8_000_000)
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    j = None
+    for enc in ("utf-16", "utf-8-sig", "utf-8"):
+        try:
+            j = json.loads(body.decode(enc))
+            break
+        except Exception:
+            continue
+    if not isinstance(j, list):
+        return _blank(vendor, slug, "bespoke", base, error="aws currentevents: not json")
+    out = _blank(vendor, slug, "bespoke", base)
+    active = [e for e in j if str(e.get("status")) != "0" and not str(e.get("summary") or "").upper().startswith("[RESOLVED]")]
+    if not active:
+        out["state"], out["description"] = "ok", "No open events on the AWS Health Dashboard"
+    else:
+        out["state"] = "partial" if len(active) > 1 else "degraded"
+        regions = sorted({e.get("region_name") or "global" for e in active})
+        out["description"] = f"{len(active)} open {'event' if len(active) == 1 else 'events'} on the AWS Health Dashboard ({', '.join(regions[:4])})"
+    for e in active:
+        log = e.get("event_log") or []          # chronological: [0] oldest, [-1] latest
+        last = log[-1] if log else {}
+        def _ts(t):
+            try:
+                return datetime.fromtimestamp(int(t), timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+            except Exception:
+                return None
+        out["incidents"].append({
+            "id": "aws-" + _hid(e.get("arn") or e.get("summary")),
+            "title": f"{e.get('service_name') or e.get('service')} ({e.get('region_name') or 'global'}): {e.get('summary')}",
+            "state": "active", "impact": "operational issue",
+            "url": "https://health.aws.amazon.com/health/status",
+            "started_at": _ts(e.get("date")),
+            "updated_at": _ts(last.get("timestamp")) if log else _ts(e.get("date")),
+            "body": (last.get("message") or None),
+        })
+    return out
+
+
+# Azure — public RSS of active + recently-closed incidents.
+def azure(vendor, slug, base):
+    code, body = _get("https://rssfeed.azure.status.microsoft/en-us/status/feed/")
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    items = _xml_items(body)
+    if items is None:
+        return _blank(vendor, slug, "bespoke", base, error="azure rss: not xml")
+    out = _blank(vendor, slug, "bespoke", base)
+    active = [i for i in items if "resolved" not in ((i.get("title") or "") + " " + (i.get("description") or ""))[:300].lower()]
+    if not active:
+        out["state"] = "ok"
+        out["description"] = "No active events on the Azure status feed" if not items else f"{len(items)} recently resolved"
+    else:
+        out["state"] = "partial" if len(active) > 1 else "degraded"
+        out["description"] = f"{len(active)} active {'event' if len(active) == 1 else 'events'} on the Azure status feed"
+    for i in active:
+        out["incidents"].append({
+            "id": "azure-" + _hid(i.get("guid") or i.get("link") or i.get("title")),
+            "title": i.get("title"), "state": "active", "impact": None,
+            "url": i.get("link") or "https://azure.status.microsoft/en-us/status/",
+            "started_at": i.get("pubDate"), "updated_at": i.get("pubDate"),
+            "body": re.sub(r"<[^>]+>", " ", i.get("description") or "")[:500].strip() or None,
+        })
+    return out
+
+
+# host of the seed base URL -> (parser, note shown on the coverage page)
+BESPOKE = {
+    "slack-status.com": (slack, "Slack: JSON api/v2.0.0/current"),
+    "status.stripe.com": (stripe, "Stripe: JSON /current (component states)"),
+    "status.cloud.google.com": (google_dashboard, "Google Cloud: incidents.json"),
+    "status.firebase.google.com": (google_dashboard, "Firebase: incidents.json"),
+    "www.google.com": (google_dashboard, "Google Workspace: appsstatus incidents.json"),
+    "status.play.google.com": (google_dashboard, "Google Play: incidents.json"),
+    "status.aws.amazon.com": (aws, "AWS Health Dashboard: public/currentevents"),
+    "azure.microsoft.com": (azure, "Azure: status RSS feed"),
+}
+
+
+def bespoke_for(base: str):
+    host = re.sub(r"^https?://", "", base or "").split("/")[0].lower()
+    return BESPOKE.get(host)
+
+
+def bespoke(vendor, slug, base):
+    hit = bespoke_for(base)
+    if not hit:
+        return _blank(vendor, slug, "bespoke", base, error="no bespoke parser for this host")
+    return hit[0](vendor, slug, base)
+
+
 PARSERS = {
     "statuspage": statuspage,
     "instatus": instatus,
     "betterstack": betterstack,
     "status.io": statusio,
+    "bespoke": bespoke,
 }
 UNSUPPORTED = {"hund": "api 401", "cachet": "api 404", "uptimerobot": "no public json",
                "incident.io": "html only", "unknown-html": "bespoke page"}

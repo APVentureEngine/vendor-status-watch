@@ -6,14 +6,15 @@ Live board and per-vendor incident history: **https://approjects-vendor-status-w
 Free alerting template: **https://github.com/APVentureEngine/vendor-status-watch-template**
 
 This project polls the *public* status pages of **1,148 SaaS, cloud and infrastructure
-vendors**, normalises four different status platforms into one shape, and republishes
+vendors**, normalises four status platforms plus hand-written parsers for the big bespoke pages
+(AWS, Azure, Google Cloud, Slack, Stripe) into one shape, and republishes
 what the vendors themselves say — as a website, an RSS feed, and plain JSON you can
 `curl`. Everything here is MIT licensed and runs on a timer with no human in the loop.
 
 | | |
 |---|---|
 | Vendors mapped | **1,148** |
-| With a machine-readable status feed | **810** (Atlassian Statuspage, Instatus, status.io, Better Stack) |
+| With a machine-readable status feed | **~820** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **15,294** across 670 vendors |
 | Opened in the last 30 days | **2,286** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
@@ -72,9 +73,11 @@ Events: `now watching` (once per vendor, existing incidents listed but not re-al
 
 ## Honest limits
 
-- **338 of the 1,148 mapped vendors publish no machine-readable status** — AWS, Azure,
-  GCP, Apple and Slack among them, plus the Hund, Cachet, UptimeRobot and incident.io
-  platforms. The template tells you on its first run which of your picks are
+- **Roughly 330 of the 1,150 mapped vendors publish no machine-readable status** —
+  Apple, Microsoft 365 and Notion among them, plus the Hund, Cachet, UptimeRobot and
+  incident.io platforms. (AWS, Azure, Google Cloud/Firebase/Workspace/Play, Slack and
+  Stripe *are* covered: `platforms.py` carries a hand-written parser for each vendor's
+  own public feed. Exact counts live on the coverage page.) The template tells you on its first run which of your picks are
   unsupported. **We never synthesise an "OK" for a vendor we cannot read.**
 - Vendor state is *what the vendor publishes*. This is not an uptime measurement, and a
   vendor that is down but has not updated its own page will show green here too.
