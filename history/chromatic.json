@@ -47,15 +47,19 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T15:18:55Z",
-"last_description": "operational",
-"last_error": null,
-"last_state": "ok",
+"last_checked": "2026-09-04T17:10:49Z",
+"last_description": "unknown",
+"last_error": "http 0",
+"last_state": "unknown",
 "platform": "betterstack",
 "slug": "chromatic",
 "status_url": "https://status.chromatic.com",

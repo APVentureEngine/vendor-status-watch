@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-04T15:18:55Z",
+ "generated_at": "2026-09-04T17:10:49Z",
  "source": "metoro-io/statusphere (MIT) + live probe",
  "count": 1141,
- "supported": 813,
+ "supported": 812,
  "vendors": [
   {
    "slug": "1password",
@@ -3546,9 +3546,10 @@
   {
    "slug": "hugging-face",
    "name": "Hugging Face",
-   "platform": "betterstack",
+   "platform": "unknown-html",
    "base": "https://status.huggingface.co",
-   "supported": true
+   "supported": false,
+   "note": "bespoke page"
   },
   {
    "slug": "hummingbot",

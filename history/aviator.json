@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -56,7 +60,7 @@
 "body": "We deployed a fix to improve the queue page load performance that has resolved the performance issues.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-07-15T02:17:49.910Z",
 "resolved_inferred": false,
 "started_at": "2026-07-14T18:26:33.913Z",
@@ -69,7 +73,7 @@
 "body": "User reported queues slow in merging PRs. This was reported at 8.38am PT, we investigated and noticed that each task was talking longer to process. Found the actual slow behavior started after the last deploy at 9.06pm PT on Apr 30. Initiated a rollback, completed the rollback at 9.23am PT.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-05-01T15:30:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-05-01T15:30:00.000Z",
@@ -82,7 +86,7 @@
 "body": "The incident is resolved.\n\nRoot cause: A large bulk team-reorganization in one customer's GitHub organization triggered database lock contention in our team-sync handler, which consumed the shared worker pool that processes all the background tasks.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-08-11T21:49:12.726Z",
 "resolved_inferred": false,
 "started_at": "2026-08-11T20:43:05.494Z",
@@ -92,7 +96,7 @@
 "url": "https://stspg.io/tr302h1jknmz"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

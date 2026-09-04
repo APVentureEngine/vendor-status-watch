@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -56,7 +60,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-08-22T15:31:11.942-07:00",
 "resolved_inferred": false,
 "started_at": "2026-08-22T14:42:45.400-07:00",
@@ -69,7 +73,7 @@
 "body": "This degradation has been resolved. All Privacy Request intake forms are loading at normal speed.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-01-08T14:15:17.000-08:00",
 "resolved_inferred": false,
 "started_at": "2026-01-08T12:20:01.047-08:00",
@@ -82,7 +86,7 @@
 "body": "This issue has been resolved!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2025-08-26T13:39:13.252-07:00",
 "resolved_inferred": false,
 "started_at": "2025-08-26T09:58:16.406-07:00",
@@ -92,7 +96,7 @@
 "url": "https://stspg.io/kcl861qbjbxv"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

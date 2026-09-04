@@ -1,15 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 15:18:55 +0000</lastBuildDate><item><title>Incident Advisory: INC-20260904-504 [investigating]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>This advisory is to inform you that we are currently investigating reports of service degradation affecting GLR.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 17:10:49 +0000</lastBuildDate><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260904-504 [monitoring]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>The issue affecting the Global Log Receiver has been successfully resolved. Access Log streaming is still in progress as part of the recovery process. Our teams are closely monitoring the environment to ensure continued stability and verify full service restoration.
 
-We understand this may be affecting your operations and we are committed to providing transparent and timely updates as more information becomes available. While we gather more information, we recommend monitoring the progress on this site (https://www.f5cloudstatus.com/) for the latest update.
- 
-Investigation Status:
-•	We have identified potential service impact at 15:13 UTC
-•	Our incident response team has been fully mobilized;
-•	Initial investigation and impact assessment efforts are underway. 
-Next Steps:
-•	A detailed incident notification will be provided within 30 minutes;
-•	Our teams are working to determine the root cause of the incident;
-•	We will share mitigation step</description></item><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
+Further updates will be provided as additional information becomes available.
+
+We appreciate your patience and support throughout this incident.</description></item><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
 
 F5 Distributed Cloud Expands Global Footprint into Seoul, South Korea.
 

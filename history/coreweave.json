@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -55,7 +59,7 @@
 "6a85c13dcfac4447738b2ede": {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "started_at": "2026-08-19T14:44:13.100Z",
 "state": "maintenance",
 "title": "Scheduled CoreWeave Maintenance - US-EAST-08A ",
@@ -64,14 +68,14 @@
 "6a91d05296d41a47784d96e1": {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "started_at": "2026-08-28T18:15:46.923Z",
 "state": "maintenance",
 "title": "Scheduled CoreWeave Electrical Maintenance - US-EAST-04A",
 "url": "https://status.coreweave.com"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "Planned Maintenance",
 "last_error": null,
 "last_state": "maintenance",

@@ -3,8 +3,8 @@
 "slug": "coingate",
 "platform": "betterstack",
 "status_url": "https://status.coingate.com",
-"last_checked": "2026-09-04T15:18:55Z",
-"last_state": "ok",
+"last_checked": "2026-09-04T17:10:49Z",
+"last_state": "unknown",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": []

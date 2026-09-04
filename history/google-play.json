@@ -19,6 +19,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "partial"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "partial"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -28,7 +32,7 @@
 "body": "We're investigating reports of an issue with Play Developer Subscriptions and In-App Purchases API. We will provide more information shortly. The affected users are able to access Play Developer Subscriptions and In-App Purchases API, but may experience delays in sending or receiving messages. Most developers are experiencing high latency with real time developer notifications.",
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "medium",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "started_at": "2026-09-03T20:28:00+00:00",
 "state": "service_disruption",
 "title": "Play Developer Subscriptions and In-App Purchases API: We're investigating reports of an issue with Play Developer Subscriptions and In-App Purchases API. We will provide more information shortly. The affected users",
@@ -36,7 +40,7 @@
 "url": "https://status.play.google.com/incidents/yrUiYMxvcr1qsAhJRWHd"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "1 open incident",
 "last_error": null,
 "last_state": "partial",

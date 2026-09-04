@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -56,7 +60,7 @@
 "body": "The application was unavailable for about 15mins. The issue has been resolved but the root cause is yet to be determined.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2025-10-06T15:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-10-06T14:00:00.000Z",
@@ -69,7 +73,7 @@
 "body": "Starting from Saturday, April 4th at 11:52 AM PST, we experienced intermittent performance issues within our infrastructure that led to a higher-than-normal error rate. During this time, some users may have encountered slowness or pages not loading as expected.\n\nOur team actively investigated the issue and identified the root cause within a specific component of our system. We have since taken corrective action by optimizing configurations and stabilizing the affected components.\n\nAs a result, error rates have now returned to normal levels, and system performance has stabilized. Customers should no longer experience any disruptions.\n\nWe will continue to closely monitor the system to ensure consistent performance and prevent recurrence.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-04-04T18:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-04-04T18:00:00.000Z",
@@ -82,7 +86,7 @@
 "body": "Reflektive application is back to healthy state. All the services are functional. AWS team confirmed that their operational issue is resolved. \n\nPlease follow the AWS public status to know more about their operational issue and the resolution here: https://health.aws.amazon.com/health/status",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2025-10-21T03:57:26.415Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T15:44:09.153Z",
@@ -92,7 +96,7 @@
 "url": "https://stspg.io/6gpjy9hsxppr"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

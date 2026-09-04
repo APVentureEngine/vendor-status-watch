@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -56,7 +60,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-01-09T11:24:17.347-06:00",
 "resolved_inferred": false,
 "started_at": "2026-01-08T12:41:35.692-06:00",
@@ -69,7 +73,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-07-07T02:52:41.760-05:00",
 "resolved_inferred": false,
 "started_at": "2026-06-30T07:11:01.257-05:00",
@@ -82,7 +86,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-07-01T10:35:00.081-05:00",
 "resolved_inferred": false,
 "started_at": "2026-06-30T06:00:06.320-05:00",
@@ -95,7 +99,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2025-10-10T11:36:26.662-05:00",
 "resolved_inferred": false,
 "started_at": "2025-10-06T13:26:03.075-05:00",
@@ -108,7 +112,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-07-28T05:31:36.367-05:00",
 "resolved_inferred": false,
 "started_at": "2026-07-08T11:39:31.389-05:00",
@@ -121,7 +125,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-07-31T07:27:17.074-05:00",
 "resolved_inferred": false,
 "started_at": "2026-07-28T06:59:40.640-05:00",
@@ -131,7 +135,7 @@
 "url": "https://stspg.io/0dd9z7p93qmj"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

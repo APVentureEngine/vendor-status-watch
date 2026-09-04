@@ -47,6 +47,10 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -56,7 +60,7 @@
 "body": "WP Rocket doesn't have a patch yet so we patched it directly with our v3.23.2.2. All customers affected with the WP Rocket + WordPress 7.1 compatible issue should be restored. Whenever WP Rocket does release an official fix, customers should automatically upgrade to that.\n\nThere were a few other plugins with similar compatible issues with v7.1. Reviewing and fixing as I discover them.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-08-19T17:54:39.976-04:00",
 "resolved_inferred": false,
 "started_at": "2026-08-19T17:31:57.739-04:00",
@@ -69,7 +73,7 @@
 "body": "All customer website appears to be restored and healthy. Will continue to monitor the Cloudflare situation: https://www.cloudflarestatus.com/incidents/8gmgl950y3h7.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2025-11-18T09:57:00.361-05:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T08:17:48.295-05:00",
@@ -82,7 +86,7 @@
 "body": "The server has been stabilized. All customer websites should be restored.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T15:18:55Z",
+"last_seen": "2026-09-04T17:10:49Z",
 "resolved_at": "2026-04-01T15:16:58.525-04:00",
 "resolved_inferred": false,
 "started_at": "2026-04-01T14:30:24.973-04:00",
@@ -92,7 +96,7 @@
 "url": "https://stspg.io/fkznq07ljhc6"
 }
 },
-"last_checked": "2026-09-04T15:18:55Z",
+"last_checked": "2026-09-04T17:10:49Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -47,15 +47,19 @@
 {
 "at": "2026-09-04T15:18:55Z",
 "state": "major"
+},
+{
+"at": "2026-09-04T17:10:49Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T15:18:55Z",
-"last_description": "downtime",
-"last_error": null,
-"last_state": "major",
+"last_checked": "2026-09-04T17:10:49Z",
+"last_description": "unknown",
+"last_error": "http 0",
+"last_state": "unknown",
 "platform": "betterstack",
 "slug": "brave",
 "status_url": "https://status.brave.com",
