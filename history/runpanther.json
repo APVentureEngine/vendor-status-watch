@@ -23,6 +23,10 @@
 {
 "at": "2026-09-04T09:06:33Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-04T10:17:20Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -32,7 +36,7 @@
 "body": "Panther services have fully recovered from the regional AWS outage in us-east-1, and all systems are now operating normally.\n\nDuring the incident, some customers experienced intermittent authentication errors and delays in data ingestion, enrichment, detection processing, and alert generation. All impacted components have since stabilized, and ingestion pipelines have caught up. No further action is required from customers.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2025-10-21T10:39:45.629-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:55:36.305-07:00",
@@ -45,7 +49,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2026-08-03T23:07:13.402-07:00",
 "resolved_inferred": false,
 "started_at": "2026-08-03T08:20:20.152-07:00",
@@ -55,21 +59,21 @@
 "url": "https://stspg.io/3kw5s5x2m6fh"
 },
 "ycl0hnt2bwx9": {
-"body": "Snowflake is currently experiencing an outage affecting some parts of their infrastructure (https://status.snowflake.com/incidents/fl9tkpj8d7hk). As a result, some Panther customers may experience query timeouts or slower performance on their instances. Real-time detection, alerting and ingestion should be unaffected.\n\nWe're actively monitoring the situation. We'll update this page as soon as we have more information.\n\nThanks for your patience.",
+"body": "Snowflake has implemented a fix and service has been restored.\n(https://status.snowflake.com/incidents/fl9tkpj8d7hk) \nWe\u2019re continuing to monitor the environment to ensure all services are functioning normally.\n\nThanks for your patience.",
 "first_seen": "2026-09-04T08:27:10Z",
 "impact": "major",
-"last_seen": "2026-09-04T09:06:33Z",
-"started_at": "2026-09-04T01:24:06.039-07:00",
-"state": "investigating",
+"last_seen": "2026-09-04T10:17:20Z",
+"started_at": "2026-09-04T01:24:06.000-07:00",
+"state": "monitoring",
 "title": "Snowflake Outage Europe (Frankfurt) // eu-central-1",
-"updated_at": "2026-09-04T01:24:06.123-07:00",
+"updated_at": "2026-09-04T02:59:00.465-07:00",
 "url": "https://stspg.io/6lg7jdhqqbpp"
 }
 },
-"last_checked": "2026-09-04T09:06:33Z",
-"last_description": "Minor Service Outage",
+"last_checked": "2026-09-04T10:17:20Z",
+"last_description": "All Systems Operational",
 "last_error": null,
-"last_state": "degraded",
+"last_state": "ok",
 "platform": "statuspage",
 "slug": "runpanther",
 "status_url": "https://status.runpanther.io",

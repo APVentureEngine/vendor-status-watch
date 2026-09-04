@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>HENNGE One incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/hennge-one.html</link><description>Incidents from HENNGE One's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 09:06:33 +0000</lastBuildDate><item><title>An Issue in HENNGE Endpoint &amp; Managed Security [resolved]</title><link>https://stspg.io/rq08spt76wnc</link><guid isPermaLink="false">hennge-one:2026-09-03T14:20:14.590+09:00</guid><pubDate>Thu, 03 Sep 2026 05:20:14 +0000</pubDate><description>本件につきまして続報です。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>HENNGE One incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/hennge-one.html</link><description>Incidents from HENNGE One's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 10:17:20 +0000</lastBuildDate><item><title>An Issue in HENNGE Email DLP：Email delays to Exchange Online [investigating]</title><link>https://stspg.io/fxsr67t7b7n9</link><guid isPermaLink="false">hennge-one:2026-09-04T18:23:08.321+09:00</guid><pubDate>Fri, 04 Sep 2026 09:23:08 +0000</pubDate><description>現在、HENNGE Email DLP において、Exchange Online 宛のメール配送に一部遅延が発生していることを確認しております。
+
+これに伴い HENNGE Secure Download の認証コードの受信などにも遅延が発生している可能性があります。
+
+詳細につきまして、弊社システムチームにて調査を実施しております。
+−−−−−−−−−−−−−−−−−−−−−−−−−−−
+We are currently experiencing a delivery delay for some emails sent to Exchange Online via HENNGE Email DLP.
+
+As a result, there may also be delays in receiving authentication codes for HENNGE Secure Download.
+
+Our systems team is currently investigating the details.</description></item><item><title>An Issue in HENNGE Endpoint &amp; Managed Security [resolved]</title><link>https://stspg.io/rq08spt76wnc</link><guid isPermaLink="false">hennge-one:2026-09-03T14:20:14.590+09:00</guid><pubDate>Thu, 03 Sep 2026 05:20:14 +0000</pubDate><description>本件につきまして続報です。
 
 発生しておりました事象は解消し、現在は問題なく動作していることを確認いたしました。
 

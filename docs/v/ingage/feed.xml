@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Ingage incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/ingage.html</link><description>Incidents from Ingage's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 09:06:33 +0000</lastBuildDate><item><title>シングルサインオンにてユーザー登録ができない [investigating]</title><link>https://stspg.io/r8r90hq2l7bd</link><guid isPermaLink="false">ingage:2026-09-04T16:46:37.558+09:00</guid><pubDate>Fri, 04 Sep 2026 07:46:37 +0000</pubDate><description>現在Re:lationにて、シングルサインオンを使って新規ユーザーを作成する際に、ユーザー登録上限内にもかかわらず、登録ができない問題が発生していることを検知しております。
-対象としてはシングルサインオンを設定しており、閲覧ユーザーまたはAI社員をご利用のアカウントで発生することを確認しております。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Ingage incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/ingage.html</link><description>Incidents from Ingage's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 10:17:20 +0000</lastBuildDate><item><title>シングルサインオンにてユーザー登録ができない [resolved]</title><link>https://stspg.io/r8r90hq2l7bd</link><guid isPermaLink="false">ingage:2026-09-04T16:46:37.558+09:00</guid><pubDate>Fri, 04 Sep 2026 07:46:37 +0000</pubDate><description>シングルサインオン（SSO）設定環境において、特定の条件の場合に新規ユーザーの登録が行えない問題が発生しておりましたが、現在は対応が完了し復旧したためご連絡いたします。
 
-原因は判明しており、至急対応を進めております。
+【影響のあった環境】
+以下に該当する場合に、シングルサインオン（SSO）経由で新規ユーザーの作成ができませんでした。
+・閲覧ユーザー、AI社員、ユーザーの合計人数がユーザー登録上限に達していた場合
 
-ご利用者の皆様にはご不便をおかけし申し訳ございません。
-進捗については追ってご報告をいたします。</description></item><item><title>メールの添付ファイルが正しく送信できない [resolved]</title><link>https://stspg.io/fwcmkx8wp7c5</link><guid isPermaLink="false">ingage:2026-09-03T22:25:51.032+09:00</guid><pubDate>Thu, 03 Sep 2026 13:25:51 +0000</pubDate><description>発生しておりました障害について、復旧いたしましたのでご報告いたします。
+【現在の状況と対応】
+システムの修正対応を適用し、現在はシングルサインオン経由でも正常に新規登録が行えることを確認しております。
+
+お客様にはご不便とご心配をおかけしましたことを、お詫び申し上げます。</description></item><item><title>メールの添付ファイルが正しく送信できない [resolved]</title><link>https://stspg.io/fwcmkx8wp7c5</link><guid isPermaLink="false">ingage:2026-09-03T22:25:51.032+09:00</guid><pubDate>Thu, 03 Sep 2026 13:25:51 +0000</pubDate><description>発生しておりました障害について、復旧いたしましたのでご報告いたします。
 
 ■ 事象
 メールの添付ファイルが正しく送信できない

@@ -23,6 +23,10 @@
 {
 "at": "2026-09-04T09:06:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T10:17:20Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -32,7 +36,7 @@
 "body": "We recently experienced a partial outage caused by a global Amazon Web Services (AWS) issue. This led to temporary disruption of file processing and degraded performance across some other functionalities.\n\nAWS has since mitigated the issue, and all Frontify services are now fully operational.\n\nIf you continue to experience any issues, please contact our support team at support@frontify.com.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2025-10-20T11:56:24.725Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:56:24.676Z",
@@ -45,7 +49,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2026-01-13T16:52:01.556Z",
 "resolved_inferred": false,
 "started_at": "2026-01-13T16:38:20.119Z",
@@ -58,7 +62,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2026-03-12T15:07:24.689Z",
 "resolved_inferred": false,
 "started_at": "2026-03-12T14:34:02.804Z",
@@ -71,7 +75,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2025-10-20T18:22:35.693Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T14:18:27.862Z",
@@ -84,7 +88,7 @@
 "body": "After AWS reported that all issues had been resolved, we were able to migrate the delivery and processing of assets back to the US for US hosted customers this morning.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2025-10-21T08:13:23.398Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T15:37:48.994Z",
@@ -97,7 +101,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T09:06:33Z",
+"last_seen": "2026-09-04T10:17:20Z",
 "resolved_at": "2026-07-24T14:04:30.918Z",
 "resolved_inferred": false,
 "started_at": "2026-07-24T12:05:42.034Z",
@@ -107,7 +111,7 @@
 "url": "https://stspg.io/k0w1nm1kmtbc"
 }
 },
-"last_checked": "2026-09-04T09:06:33Z",
+"last_checked": "2026-09-04T10:17:20Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
