@@ -19,7 +19,7 @@ import csv, json, os, shutil, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 STAGE = os.environ.get("HF_STAGE_DIR", os.path.join(HERE, "hf_staging"))
 DATASET_NAME = "saas-vendor-status-incidents-daily"
-SITE = "https://apventureengine.github.io/vendor-status-watch"
+SITE = "https://approjects-vendor-status-watch.static.hf.space"
 REPO = "https://github.com/APVentureEngine/vendor-status-watch"
 
 CARD = """---

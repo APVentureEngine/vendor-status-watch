@@ -7,7 +7,7 @@
 #   2. Settings -> Secrets and variables -> Actions -> New repository secret:
 #        Name: WEBHOOK_URL   Value: your Slack / Discord / Teams incoming-webhook URL
 #   3. Edit config.json: put the vendor slugs you depend on in "vendors"
-#      (full list: https://apventureengine.github.io/vendor-status-watch/vendors.html).
+#      (full list: https://approjects-vendor-status-watch.static.hf.space/vendors.html).
 #   4. Actions tab -> "vendor status watch" -> Run workflow (first run posts one
 #      WATCHING line per vendor, then only changes).
 name: vendor status watch

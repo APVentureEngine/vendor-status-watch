@@ -2,7 +2,7 @@
 
 **Every SaaS status page you depend on, in one feed — and in your Slack.**
 
-Live board and per-vendor incident history: **https://apventureengine.github.io/vendor-status-watch/**
+Live board and per-vendor incident history: **https://approjects-vendor-status-watch.static.hf.space/**
 Free alerting template: **https://github.com/APVentureEngine/vendor-status-watch-template**
 
 This project polls the *public* status pages of **1,148 SaaS, cloud and infrastructure
@@ -49,13 +49,13 @@ docs/             the published site (GitHub Pages)
 
 ```bash
 # every vendor's current state, one file
-curl -s https://apventureengine.github.io/vendor-status-watch/api/snapshot.json
+curl -s https://approjects-vendor-status-watch.static.hf.space/api/snapshot.json
 
 # the living map (what the watch template reads at run time)
-curl -s https://apventureengine.github.io/vendor-status-watch/api/vendors.json
+curl -s https://approjects-vendor-status-watch.static.hf.space/api/vendors.json
 
 # one vendor's full incident history
-curl -s https://apventureengine.github.io/vendor-status-watch/api/v/cloudflare.json
+curl -s https://approjects-vendor-status-watch.static.hf.space/api/v/cloudflare.json
 ```
 
 Fair use: served from GitHub Pages, please poll no more than once a minute.

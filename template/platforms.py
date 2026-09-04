@@ -33,7 +33,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-UA = {"User-Agent": "vendor-status-watch/0.1 (+https://apventureengine.github.io/vendor-status-watch)"}
+UA = {"User-Agent": "vendor-status-watch/0.1 (+https://approjects-vendor-status-watch.static.hf.space)"}
 TIMEOUT = 15
 STATES = ("ok", "maintenance", "degraded", "partial", "major", "unknown")
 
