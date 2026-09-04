@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "Thanks for bearing with us! Our team has resolved the issue. If you're still experiencing any issues, please reach out to <a href=\"mailto:support@sharegate.com\">support@sharegate.com</a>.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-03-13T13:08:34.649-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-13T09:18:29.087-04:00",
@@ -26,12 +30,12 @@
 "url": "https://stspg.io/ktg6d6n8sctt"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
 "platform": "statuspage",
 "slug": "sharegate",
 "status_url": "https://app-status.sharegate.com",
-"vendor": "sharegate"
+"vendor": "Sharegate"
 }

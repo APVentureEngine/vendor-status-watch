@@ -7,12 +7,16 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "operational",
 "last_error": null,
 "last_state": "ok",

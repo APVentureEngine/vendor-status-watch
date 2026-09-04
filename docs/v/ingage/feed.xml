@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Ingage incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/ingage/</link><description>Incidents from Ingage's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 07:16:22 +0000</lastBuildDate><item><title>メールの添付ファイルが正しく送信できない [resolved]</title><link>https://stspg.io/fwcmkx8wp7c5</link><guid isPermaLink="false">ingage:2026-09-03T22:25:51.032+09:00</guid><pubDate>Thu, 03 Sep 2026 13:25:51 +0000</pubDate><description>発生しておりました障害について、復旧いたしましたのでご報告いたします。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Ingage incidents — Vendor Status Watch</title><link>https://apventureengine.github.io/vendor-status-watch/v/ingage/</link><description>Incidents from Ingage's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 08:14:10 +0000</lastBuildDate><item><title>シングルサインオンにてユーザー登録ができない [investigating]</title><link>https://stspg.io/r8r90hq2l7bd</link><guid isPermaLink="false">ingage:2026-09-04T16:46:37.558+09:00</guid><pubDate>Fri, 04 Sep 2026 07:46:37 +0000</pubDate><description>現在Re:lationにて、シングルサインオンを使って新規ユーザーを作成する際に、ユーザー登録上限内にもかかわらず、登録ができない問題が発生していることを検知しております。
+対象としてはシングルサインオンを設定しており、閲覧ユーザーまたはAI社員をご利用のアカウントで発生することを確認しております。
+
+原因は判明しており、至急対応を進めております。
+
+ご利用者の皆様にはご不便をおかけし申し訳ございません。
+進捗については追ってご報告をいたします。</description></item><item><title>メールの添付ファイルが正しく送信できない [resolved]</title><link>https://stspg.io/fwcmkx8wp7c5</link><guid isPermaLink="false">ingage:2026-09-03T22:25:51.032+09:00</guid><pubDate>Thu, 03 Sep 2026 13:25:51 +0000</pubDate><description>発生しておりました障害について、復旧いたしましたのでご報告いたします。
 
 ■ 事象
 メールの添付ファイルが正しく送信できない

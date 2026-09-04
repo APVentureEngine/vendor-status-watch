@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-02-10T17:25:33.153-05:00",
 "resolved_inferred": false,
 "started_at": "2026-02-10T15:45:17.003-05:00",
@@ -29,7 +33,7 @@
 "body": "From 11:36 AM to 12:35 PM ET chat messages and invites were delayed.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-07-20T11:30:00.000-04:00",
 "resolved_inferred": false,
 "started_at": "2026-07-20T11:30:00.000-04:00",
@@ -42,7 +46,7 @@
 "body": "We have applied a mitigation. Once Argentina-based users restart their Roam application, this issue should be resolved. We identified that some other Argentina-based users may have been affected by this issue.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-08-12T13:15:23.134-04:00",
 "resolved_inferred": false,
 "started_at": "2025-08-12T10:49:44.240-04:00",
@@ -55,7 +59,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-08-26T08:03:31.113-04:00",
 "resolved_inferred": false,
 "started_at": "2025-08-26T03:00:55.000-04:00",
@@ -68,7 +72,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-10-08T13:20:14.794-04:00",
 "resolved_inferred": false,
 "started_at": "2025-10-08T11:53:44.000-04:00",
@@ -81,7 +85,7 @@
 "body": "All traffic has been moved to other regions.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-03-19T15:03:34.929-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-10T12:31:10.671-04:00",
@@ -94,7 +98,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-07-14T13:41:24.993-04:00",
 "resolved_inferred": false,
 "started_at": "2026-07-14T10:54:26.155-04:00",
@@ -104,12 +108,12 @@
 "url": "https://stspg.io/x19tm5lqff1y"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
 "platform": "statuspage",
 "slug": "roam",
 "status_url": "https://www.roamstatus.com",
-"vendor": "roam"
+"vendor": "Roam"
 }

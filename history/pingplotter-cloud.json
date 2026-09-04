@@ -7,17 +7,21 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "UP",
 "last_error": null,
 "last_state": "ok",
 "platform": "instatus",
 "slug": "pingplotter-cloud",
 "status_url": "https://status.pingplotter.cloud",
-"vendor": "pingplotter-cloud"
+"vendor": "Pingplotter Cloud"
 }

@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-08-19T09:32:16.710-07:00",
 "resolved_inferred": false,
 "started_at": "2025-08-19T06:15:06.817-07:00",
@@ -26,12 +30,12 @@
 "url": "https://stspg.io/jfgyjxd5kb11"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "Partially Degraded Service",
 "last_error": null,
 "last_state": "degraded",
 "platform": "statuspage",
 "slug": "lightstep",
 "status_url": "https://status.lightstep.com",
-"vendor": "lightstep"
+"vendor": "Lightstep"
 }

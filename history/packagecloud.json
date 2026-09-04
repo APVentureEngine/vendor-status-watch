@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "# Summary\n\nAt 09:52AM UTC, we received the first customer report indicating HTTP 500 errors during Debian package uploads. Additional reports followed throughout the day, confirming that multiple package types and customers were affected. After an internal investigation, the issue was declared an incident at 18:19PM UTC.\n\nThe underlying cause was found to be insufficient disk space on a subset of ECS tasks responsible for handling file uploads. These tasks had reached their disk capacity, preventing them from completing upload operations. Because the tasks were running at maximum disk usage, they also could not be automatically cycled out by ECS, allowing the problem to persist.\n\nDuring the investigation we observed an increase in device maximum capacity errors, and inspection of the ECS cluster revealed tasks of varying ages. This correlated with the accumulation of temporary files generated during package extraction and processing. Although temporary file cleanup mechanisms exist, they did not adequately prevent disk saturation.\n\nAs a short-term remediation, a deploy was triggered to refresh all ECS tasks, which replaced the existing tasks with new ones. Following this deployment, upload functionality stabilized and no further customer impacting errors were observed. The issue was considered mitigated at 20:19PM UTC.\n\nSubsequent analysis confirmed that temporary file usage was a significant contributor to disk exhaustion. Additional improvements were implemented to ensure temporary files are consistently closed and cleaned up, regardless of whether errors occur during processing.\n\n## Changes we\u2019re making:\n\n  \nTo reduce the likelihood of similar incidents in the future, we are implementing the following long-term improvements:\n\n* Strengthening disk usage observability: Enhanced monitoring now provides realtime insight into ECS task disk consumption, enabling earlier detection of abnormal usage.\n* Improving temporary file lifecycle management: Further audit and cleanup of temporary file handling across the codebase is underway to minimize unnecessary disk usage.\n* Refining ECS task lifecycle practices: We are reviewing our deployment and recycling strategy to ensure tasks do not remain active long enough to accumulate excessive temporary data.\n* Enhancing health checks: We are evaluating load balancer health check behavior to ensure that resource-degraded tasks \\(including those with insufficient disk\\) are identified and replaced more promptly.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-11-26T05:00:00.000-08:00",
 "resolved_inferred": false,
 "started_at": "2025-11-26T05:00:00.000-08:00",
@@ -29,7 +33,7 @@
 "body": "## Service Impact\n\nOn October 24th, 2025 from approximately 01:53AM UTC until 04:24AM UTC our package download service experienced an outage affecting customer access. This was confirmed to have impacted Debian and RubyGems.\n\n## Incident Summary\n\nAt 01:13AM UTC we updated the S3 Bucket Policy for an S3 bucket containing customer packages via Terraform as part of a larger re-architecting project.\n\nWe received customer reports about Debian package download issues from 01:53AM UTC and started doing isolated, per-customer investigations. At 03:40AM UTC we concluded that the issues were not isolated and declared the incident. More members from our team were called to help investigate the problem, where we found that service for pulling RubyGems had also been impacted. Around 04:00 UTC, the new bucket policy deployed at 01:13AM UTC was identified as a main factor to the access failure and was removed.\n\nAt 04:19AM UTC our team identified that updating the IAM policy via Terraform did not have the expected result of merging with the pre-existing policy, but rather inadvertently overwrote the pre-existing access policies, causing the loss of access permissions necessary for package downloads. Afterwards it became apparent to our team making these changes that this particular behavior is a [known issue](https://github.com/hashicorp/terraform-provider-aws/issues/6334) with the Terraform AWS provider, which contributed to the difficulty of detection and prevention, thereby increasing the likelihood of the incident occurring for those unaware.\n\nAfter redeploying the pre-existing S3 bucket IAM policy, we confirmed service functionality for Debian package downloads was restored at 04:24 AM UTC. The team subsequently verified that pulling RubyGems and other supported package types were also functioning as expected, and the incident was closed at 04:47 AM UTC.\n\n## Changes we're making\n\nWe are revising our monitoring approaches to identify and address service disruptions proactively, while also improving our communication processes to ensure timely and accurate customer updates.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-10-23T21:40:49.301-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-23T21:12:13.320-07:00",
@@ -39,12 +43,12 @@
 "url": "https://stspg.io/cyx4v0519z33"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
 "platform": "statuspage",
 "slug": "packagecloud",
 "status_url": "http://www.packagecloudstatus.io",
-"vendor": "packagecloud"
+"vendor": "Packagecloud"
 }

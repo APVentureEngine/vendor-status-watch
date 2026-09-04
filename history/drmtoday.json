@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "AWS has reported that the issues have been resolved. We have enabled the us-east-1 region again.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-10-21T07:27:32.733Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T10:06:17.006Z",
@@ -26,12 +30,12 @@
 "url": "https://stspg.io/85x28yvd4kyq"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
 "platform": "statuspage",
 "slug": "drmtoday",
 "status_url": "https://status.drmtoday.com",
-"vendor": "drmtoday"
+"vendor": "Drmtoday"
 }

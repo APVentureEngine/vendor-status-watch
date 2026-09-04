@@ -7,6 +7,10 @@
 {
 "at": "2026-09-04T07:16:22Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:14:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -16,7 +20,7 @@
 "body": "Our engineers have resolved the issue affecting connectivity and access to SugarSync. All systems are functioning.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-04-13T07:50:28.394-07:00",
 "resolved_inferred": false,
 "started_at": "2026-04-11T17:57:02.674-07:00",
@@ -29,7 +33,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2025-11-18T13:32:06.714-08:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T06:46:42.312-08:00",
@@ -42,7 +46,7 @@
 "body": "Google has indicated that the issue has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-04-08T17:04:40.015-07:00",
 "resolved_inferred": false,
 "started_at": "2026-04-08T12:29:43.182-07:00",
@@ -55,7 +59,7 @@
 "body": "Our engineers have fully resolved the issue affecting connectivity and access to SugarSync.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-04-16T07:18:14.060-07:00",
 "resolved_inferred": false,
 "started_at": "2026-04-15T10:11:18.764-07:00",
@@ -68,7 +72,7 @@
 "body": "This incident has been resolved. Support is fully operational.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T07:16:22Z",
+"last_seen": "2026-09-04T08:14:10Z",
 "resolved_at": "2026-08-26T10:32:53.714-07:00",
 "resolved_inferred": false,
 "started_at": "2026-08-26T09:30:38.234-07:00",
@@ -78,7 +82,7 @@
 "url": "https://stspg.io/p5v0h6h832d1"
 }
 },
-"last_checked": "2026-09-04T07:16:22Z",
+"last_checked": "2026-09-04T08:14:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
