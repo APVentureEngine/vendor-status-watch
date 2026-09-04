@@ -18,6 +18,7 @@ OUT = os.path.join(HERE, "docs")
 CFG = json.load(open(os.path.join(HERE, "site_config.json")))
 SITE = CFG["site_url"].rstrip("/")
 REPO = CFG["repo_url"].rstrip("/")
+TPL = (CFG.get("template_url") or REPO).rstrip("/")   # fork-and-go template repo
 HOSTED = CFG.get("hosted_url") or ""          # Gumroad listing; empty = tier not on sale yet
 HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
 NOW = datetime.now(timezone.utc)
@@ -231,7 +232,7 @@ def render_index():
 </section>
 
 <section id="template"><h2>Free: the GitHub Actions template</h2>
-<p>Fork the template into your own GitHub account, edit one JSON file, add one secret (your webhook URL). GitHub runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
+<p>Click <b>Use this template</b>, list your vendors in one JSON file, add one repository secret (your webhook URL), and copy the workflow file the README points you to — four minutes, and the README walks through every click. GitHub then runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
 <pre>{{
   "vendors": ["twilio", "github", "cloudflare", "openai", "vercel"],
   "format": "auto",
@@ -241,7 +242,7 @@ def render_index():
 }}</pre>
 <p class="small muted">The webhook URL never goes in the file: it lives in a repository secret named <code>WEBHOOK_URL</code>.</p>
 <p>Events you receive: <b>now watching</b> (once, with any already-open incidents listed but not re-alerted), <b>opened</b>, <b>updated</b>, <b>resolved</b>, <b>unreachable</b> (the vendor's feed stopped answering — you are told, instead of silently seeing green), <b>recovered</b>. Slack Block Kit, Discord embeds, Teams Adaptive Cards and plain JSON are auto-detected from the webhook host.</p>
-<div class="cta"><a class="btn" href="{REPO}">Use the template on GitHub</a><a class="btn ghost" href="{SITE}/vendors.html">Find your vendors' slugs</a></div>
+<div class="cta"><a class="btn" href="{TPL}">Use the template on GitHub</a><a class="btn ghost" href="{SITE}/vendors.html">Find your vendors' slugs</a></div>
 <div class="note small">Honest limits: {N_MAP - N_SUP:,} of the {N_MAP:,} mapped vendors publish no machine-readable status (AWS, Azure, GCP and Apple among them — bespoke HTML pages). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="{SITE}/platforms.html">coverage page</a>.</div>
 </section>
 
@@ -249,7 +250,7 @@ def render_index():
 <div class="cards">
 <div class="card"><h3>Self-hosted template</h3><div class="price">Free</div>
 <p>Runs in your GitHub account on GitHub's free Actions minutes (~2,000 min/month on free plans; a 5-minute schedule uses roughly a third of that). You own the repo, the secret and the history file. MIT licence, no telemetry.</p>
-<a class="btn ghost" href="{REPO}">Open the template</a></div>
+<a class="btn ghost" href="{TPL}">Open the template</a></div>
 {hosted}
 </div>
 <p class="small muted" style="margin-top:18px">Comparison, honestly: IsDown starts at $22/mo (annual) with no free plan; StatusGator's free plan is 3 monitors and 10 notifications a month, paid from $72/mo. Both have polished apps, email/SMS channels and support staff — we have none of those. What we have is a vendor map that is rebuilt every day from live probes, a template you can read in one sitting, and a price that is a rounding error.</p>
@@ -316,7 +317,7 @@ def render_vendor(v):
 <h1>{E(name)} status history</h1>
 <p class="lead">Current state: {pill(h["last_state"])} — “{E(h.get("last_description") or "unknown")}” per <a href="{E(h["status_url"])}">{E(h["status_url"])}</a> ({E(PLAT_LABEL.get(v["platform"], v["platform"]))}), checked {E(fmt_dt(h["last_checked"]))}.</p>
 {err}{kp}{spark}{since}
-<div class="cta"><a class="btn" href="{REPO}">Get {E(name)} alerts in your Slack — free template</a><a class="btn ghost" href="{SITE}/v/{slug}/feed.xml">RSS for {E(name)}</a></div>
+<div class="cta"><a class="btn" href="{TPL}">Get {E(name)} alerts in your Slack — free template</a><a class="btn ghost" href="{SITE}/v/{slug}/feed.xml">RSS for {E(name)}</a></div>
 </section>
 <section><h2>Incidents on record ({len(recs):,})</h2>
 <div class="tw"><table><thead><tr><th>Started</th><th>Incident</th><th>Status</th><th>Impact</th><th>Duration</th></tr></thead><tbody>{rows or '<tr><td colspan=5 class=muted>No incidents recorded yet.</td></tr>'}</tbody></table></div>

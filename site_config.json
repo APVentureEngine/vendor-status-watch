@@ -2,5 +2,6 @@
   "site_url": "https://apventureengine.github.io/vendor-status-watch",
   "repo_url": "https://github.com/APVentureEngine/vendor-status-watch",
   "hosted_url": "",
-  "hosted_price": "$39/year"
+  "hosted_price": "$39/year",
+  "template_url": "https://github.com/APVentureEngine/vendor-status-watch-template"
 }

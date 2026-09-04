@@ -61,7 +61,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 </section>
 
 <section id="template"><h2>Free: the GitHub Actions template</h2>
-<p>Fork the template into your own GitHub account, edit one JSON file, add one secret (your webhook URL). GitHub runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
+<p>Click <b>Use this template</b>, list your vendors in one JSON file, add one repository secret (your webhook URL), and copy the workflow file the README points you to — four minutes, and the README walks through every click. GitHub then runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
 <pre>{
   "vendors": ["twilio", "github", "cloudflare", "openai", "vercel"],
   "format": "auto",
@@ -71,7 +71,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 }</pre>
 <p class="small muted">The webhook URL never goes in the file: it lives in a repository secret named <code>WEBHOOK_URL</code>.</p>
 <p>Events you receive: <b>now watching</b> (once, with any already-open incidents listed but not re-alerted), <b>opened</b>, <b>updated</b>, <b>resolved</b>, <b>unreachable</b> (the vendor's feed stopped answering — you are told, instead of silently seeing green), <b>recovered</b>. Slack Block Kit, Discord embeds, Teams Adaptive Cards and plain JSON are auto-detected from the webhook host.</p>
-<div class="cta"><a class="btn" href="https://github.com/APVentureEngine/vendor-status-watch">Use the template on GitHub</a><a class="btn ghost" href="https://apventureengine.github.io/vendor-status-watch/vendors.html">Find your vendors' slugs</a></div>
+<div class="cta"><a class="btn" href="https://github.com/APVentureEngine/vendor-status-watch-template">Use the template on GitHub</a><a class="btn ghost" href="https://apventureengine.github.io/vendor-status-watch/vendors.html">Find your vendors' slugs</a></div>
 <div class="note small">Honest limits: 338 of the 1,148 mapped vendors publish no machine-readable status (AWS, Azure, GCP and Apple among them — bespoke HTML pages). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="https://apventureengine.github.io/vendor-status-watch/platforms.html">coverage page</a>.</div>
 </section>
 
@@ -79,7 +79,7 @@ figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 <div class="cards">
 <div class="card"><h3>Self-hosted template</h3><div class="price">Free</div>
 <p>Runs in your GitHub account on GitHub's free Actions minutes (~2,000 min/month on free plans; a 5-minute schedule uses roughly a third of that). You own the repo, the secret and the history file. MIT licence, no telemetry.</p>
-<a class="btn ghost" href="https://github.com/APVentureEngine/vendor-status-watch">Open the template</a></div>
+<a class="btn ghost" href="https://github.com/APVentureEngine/vendor-status-watch-template">Open the template</a></div>
 
 <div class="card"><h3>Hosted watch</h3><div class="price">$39/year</div>
 <p>No repo to own: you pick your vendors, we run the poller and post to your webhook. <b>It is not on sale yet</b> — we will not take money for a watch until the scheduled runner behind it is live, and we would rather say so than sell you a promise. The free template gives you the same alerts today.</p>
