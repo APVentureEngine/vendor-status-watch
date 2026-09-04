@@ -39,6 +39,10 @@
 {
 "at": "2026-09-04T12:24:18Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T14:19:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -48,7 +52,7 @@
 "body": "Panther services have fully recovered from the regional AWS outage in us-east-1, and all systems are now operating normally.\n\nDuring the incident, some customers experienced intermittent authentication errors and delays in data ingestion, enrichment, detection processing, and alert generation. All impacted components have since stabilized, and ingestion pipelines have caught up. No further action is required from customers.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-10-21T10:39:45.629-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:55:36.305-07:00",
@@ -61,7 +65,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-08-03T23:07:13.402-07:00",
 "resolved_inferred": false,
 "started_at": "2026-08-03T08:20:20.152-07:00",
@@ -71,18 +75,20 @@
 "url": "https://stspg.io/3kw5s5x2m6fh"
 },
 "ycl0hnt2bwx9": {
-"body": "Snowflake has implemented a fix and service has been restored.\n(https://status.snowflake.com/incidents/fl9tkpj8d7hk) \nWe\u2019re continuing to monitor the environment to ensure all services are functioning normally.\n\nThanks for your patience.",
+"body": "Snowflake has confirmed that the issue has been resolved and service has been restored. We\u2019ve confirmed that Panther services are operating normally and will continue to monitor the environment.",
 "first_seen": "2026-09-04T08:27:10Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
+"resolved_at": "2026-09-04T05:46:42.675-07:00",
+"resolved_inferred": false,
 "started_at": "2026-09-04T01:24:06.000-07:00",
-"state": "monitoring",
+"state": "resolved",
 "title": "Snowflake Outage Europe (Frankfurt) // eu-central-1",
-"updated_at": "2026-09-04T02:59:00.465-07:00",
+"updated_at": "2026-09-04T05:46:42.689-07:00",
 "url": "https://stspg.io/6lg7jdhqqbpp"
 }
 },
-"last_checked": "2026-09-04T12:24:18Z",
+"last_checked": "2026-09-04T14:19:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

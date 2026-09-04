@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Voyado incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/voyado.html</link><description>Incidents from Voyado's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 12:24:18 +0000</lastBuildDate><item><title>[Engage] Issues with Abandoned Cart, Revenue Overview Dashboard and Automation Performance Dashboard [postmortem]</title><link>https://stspg.io/ld805zvm337f</link><guid isPermaLink="false">voyado:2026-09-02T08:58:27.135+02:00</guid><pubDate>Wed, 02 Sep 2026 06:58:27 +0000</pubDate><description># **Incident report**
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Voyado incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/voyado.html</link><description>Incidents from Voyado's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 14:19:03 +0000</lastBuildDate><item><title>Voyado - Microsoft 365 (business) delay in delivery [investigating]</title><link>https://stspg.io/4k06y6vmt3fk</link><guid isPermaLink="false">voyado:2026-09-04T14:39:53.320+02:00</guid><pubDate>Fri, 04 Sep 2026 12:39:53 +0000</pubDate><description>At the moment, there are intermittent issues with email deliveries at Microsofts Exchange Online services. This means that you may see more emails in status &quot;Unknown&quot; for your sendouts than you normally do in Engage.
+
+This is a know issue at Microsoft and they are looking into this. Please see here more more information: https://portal.office.com/adminportal/home#/servicehealth
+
+(Note that you have to be a 365-admin to be able to access this link)
+
+We are also seeing this affecting responses from our support ticketing system not being delivered. If you have sent in tickets and not received any response, you can log in to our help center to check for responses. https://explore.voyado.com</description></item><item><title>[Engage] Issues with Abandoned Cart, Revenue Overview Dashboard and Automation Performance Dashboard [postmortem]</title><link>https://stspg.io/ld805zvm337f</link><guid isPermaLink="false">voyado:2026-09-02T08:58:27.135+02:00</guid><pubDate>Wed, 02 Sep 2026 06:58:27 +0000</pubDate><description># **Incident report**
 
 ## **Summary**
 
@@ -277,14 +283,4 @@ A few customers were affected during the incident. Customers using the Order V3 
 # **Root Cause**
 
   
-The issue derived from a serialization error introduced during a fix deployment aimed at resending failed order messages. This error caused all incoming commands to fail, rendering the Or</description></item><item><title>[Engage] Email Sendout Disruption [postmortem]</title><link>https://stspg.io/y94nhxwsw1ft</link><guid isPermaLink="false">voyado:2025-09-30T09:21:22.877+02:00</guid><pubDate>Tue, 30 Sep 2025 07:21:22 +0000</pubDate><description>## Summary
-
-On September 30th, Engage experienced a temporary disruption in email send-outs due to an error in newly deployed code. The issue was quickly identified, and a hotfix was deployed. While no messages were lost, some email messages were delayed as the system worked through a backlog.
-
-## Customer Impact
-
-Majority of customers were potentially affected. Most experienced delays in automation emails. In a few cases, delays were up to 8 hours, but the majority of impacted messages were delivered within 3–4 hours. No SMS or priority messages were affected.
-
-## Root Cause
-
-The disruption was caused by an internal misconfiguration in how the platform determined where to store and retrieve data for email messages. When a new code deployment corrected this configuration, it unintentionall</description></item></channel></rss>
+The issue derived from a serialization error introduced during a fix deployment aimed at resending failed order messages. This error caused all incoming commands to fail, rendering the Or</description></item></channel></rss>

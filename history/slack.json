@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T12:24:18Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-04T14:19:03Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -20,7 +24,7 @@
 "body": "Messaging, Workspace/Org Administration",
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "incident",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "started_at": "2026-08-13T14:21:41-07:00",
 "state": "active",
 "title": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
@@ -28,7 +32,7 @@
 "url": "https://slack-status.com/2026-08/e07b9271f0346c3b"
 }
 },
-"last_checked": "2026-09-04T12:24:18Z",
+"last_checked": "2026-09-04T14:19:03Z",
 "last_description": "1 active incident on slack-status.com",
 "last_error": null,
 "last_state": "degraded",

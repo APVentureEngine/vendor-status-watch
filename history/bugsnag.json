@@ -39,6 +39,10 @@
 {
 "at": "2026-09-04T12:24:18Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T14:19:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -48,7 +52,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-11-07T09:33:09.972Z",
 "resolved_inferred": false,
 "started_at": "2025-11-07T02:59:11.650Z",
@@ -61,7 +65,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-11-10T11:39:56.064Z",
 "resolved_inferred": false,
 "started_at": "2025-11-10T11:33:56.830Z",
@@ -74,7 +78,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-11-18T17:43:39.568Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T14:40:48.000Z",
@@ -87,7 +91,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-08-20T19:57:07.320Z",
 "resolved_inferred": false,
 "started_at": "2026-08-20T17:36:30.110Z",
@@ -100,7 +104,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-01-22T18:10:21.872Z",
 "resolved_inferred": false,
 "started_at": "2026-01-22T16:54:36.724Z",
@@ -113,7 +117,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-11-11T09:26:36.524Z",
 "resolved_inferred": false,
 "started_at": "2025-11-11T08:49:56.754Z",
@@ -126,7 +130,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-10-20T10:59:40.928Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T10:11:12.994Z",
@@ -136,7 +140,7 @@
 "url": "https://stspg.io/7kwq1s65rzg9"
 }
 },
-"last_checked": "2026-09-04T12:24:18Z",
+"last_checked": "2026-09-04T14:19:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

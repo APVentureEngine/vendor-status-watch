@@ -39,6 +39,10 @@
 {
 "at": "2026-09-04T12:24:18Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T14:19:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -48,7 +52,7 @@
 "body": "The incident with the MailFlow monitors has been resolved and the system is functioning properly now. Thank you for your patience and understanding during our investigation and resolution implementation.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-08-04T13:57:44.257-05:00",
 "resolved_inferred": false,
 "started_at": "2025-08-04T10:33:01.128-05:00",
@@ -61,7 +65,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-12-10T13:32:42.025-06:00",
 "resolved_inferred": false,
 "started_at": "2025-12-10T12:26:02.497-06:00",
@@ -74,7 +78,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-10-01T15:34:53.448-05:00",
 "resolved_inferred": false,
 "started_at": "2025-10-01T09:35:31.890-05:00",
@@ -87,7 +91,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-10-23T10:31:56.786-05:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T10:18:16.928-05:00",
@@ -100,7 +104,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-02-13T15:36:42.335-06:00",
 "resolved_inferred": false,
 "started_at": "2026-02-13T10:46:43.855-06:00",
@@ -113,7 +117,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-02-24T09:42:18.614-06:00",
 "resolved_inferred": false,
 "started_at": "2026-02-23T14:15:04.955-06:00",
@@ -126,7 +130,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2025-09-11T16:00:00.765-05:00",
 "resolved_inferred": false,
 "started_at": "2025-09-11T11:17:17.927-05:00",
@@ -136,7 +140,7 @@
 "url": "https://stspg.io/3qd1vh04n4c4"
 }
 },
-"last_checked": "2026-09-04T12:24:18Z",
+"last_checked": "2026-09-04T14:19:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

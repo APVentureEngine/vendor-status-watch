@@ -39,6 +39,10 @@
 {
 "at": "2026-09-04T12:24:18Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T14:19:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -48,7 +52,7 @@
 "body": "Resolved - no evidence of exploitation\n\nWe have completed our investigation into the potential impact of CVE-2026-66066.\n\nWe took a deliberately thorough approach and went beyond our standard review process to ensure we had examined every relevant source of information. This included:\n\n- Patching the affected systems immediately\n- Reviewing application, infrastructure, and access logs covering the relevant period\n- Searching for known indicators and patterns associated with exploitation\n- Investigating unusual requests and activity in greater detail\n- Rotating all potentially affected secret keys as a precaution\n- Continuing enhanced monitoring after the initial review was completed\n- Verifying that the affected component could not provide access to customer data\n\nAfter completing this work, we have found zero evidence that the vulnerability was exploited or that Inline Manual was affected.\n\nWe are therefore marking this incident as resolved. We will continue to follow our normal security monitoring processes and will take further action if any new information becomes available.\n\nThank you,\nMarek and the team",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T12:24:18Z",
+"last_seen": "2026-09-04T14:19:03Z",
 "resolved_at": "2026-08-05T23:13:18.500+02:00",
 "resolved_inferred": false,
 "started_at": "2026-07-31T13:27:27.911+02:00",
@@ -58,7 +62,7 @@
 "url": "https://stspg.io/qx9qw5486w8r"
 }
 },
-"last_checked": "2026-09-04T12:24:18Z",
+"last_checked": "2026-09-04T14:19:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
