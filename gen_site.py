@@ -21,6 +21,9 @@ REPO = CFG["repo_url"].rstrip("/")
 TPL = (CFG.get("template_url") or REPO).rstrip("/")   # fork-and-go template repo
 HOSTED = CFG.get("hosted_url") or ""          # Gumroad listing; empty = tier not on sale yet
 HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
+SUBSCRIBE = "https://approj.gumroad.com/subscribe"   # c132: Gumroad follower form = email capture, no unlock needed
+HOST_NAME = "Hugging Face Spaces" if "hf.space" in SITE else "GitHub Pages"
+HOST_PRIVACY = ("https://huggingface.co/privacy" if "hf.space" in SITE else "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement")
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.strftime("%Y-%m-%d")
 
@@ -205,7 +208,7 @@ LOGO = ('<svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><cir
 def page(title, body, desc, path="", extra_head=""):
     canon = f"{SITE}/{path}" if path else f"{SITE}/"
     nav = [("Live board", "/#board"), ("Vendors", "/vendors.html"), ("Free template", "/#template"),
-           ("Hosted", "/#hosted"), ("Coverage", "/platforms.html"), ("API", "/api.html")]
+           ("Pricing", "/#hosted"), ("Coverage", "/platforms.html"), ("API", "/api.html")]
     navh = "".join(f'<a href="{SITE}{h}">{E(t)}</a>' for t, h in nav)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -294,12 +297,12 @@ def render_index():
 <li>Same alert rules as the free template — including <b>“cannot see this vendor”</b> instead of a false green</li>
 <li>One-time payment, no auto-renewal, no card on file</li>
 <li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="{SITE}/legal.html">terms</a>)</li></ul>
-<p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Ask to be told when it opens — we reply on your issue, and GitHub emails you. That is the whole list: no signup, no marketing, nothing to unsubscribe from.</p>
-<a class="btn" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Tell us to ping you when it opens</a></div>"""
+<p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Two ways to be told when it opens, pick either: leave your email with Gumroad (they hold the address, we write only when this opens or the map changes materially, unsubscribe from any message), or open a GitHub issue — we reply on it and GitHub emails you.</p>
+<a class="btn" href="{SUBSCRIBE}">Email me when it opens</a> <a class="btn ghost" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue</a></div>"""
     body = f"""
 <section>
 <h1>Every SaaS status page you depend on, in one feed — and in your Slack.</h1>
-<p class="lead">We poll the public status pages of {N_MAP:,} vendors ({N_SUP:,} of them with a real JSON feed) on a timer, keep the map of who-hosts-where current as vendors migrate, and give you a free GitHub Actions template that posts open/updated/resolved incidents to your own webhook. No account. No email. MIT.</p>
+<p class="lead">We poll the public status pages of {N_MAP:,} vendors ({N_SUP:,} of them with a real JSON feed) on a timer, keep the map of who-hosts-where current as vendors migrate, and give you a free GitHub Actions template that posts open/updated/resolved incidents to your own webhook. No account and no email address needed to use it. MIT.</p>
 <div class="cta"><a class="btn" href="#template">Get alerts in your Slack — free</a><a class="btn ghost" href="#board">See who is down right now</a></div>
 {kpis}
 <p class="small muted">Numbers are recomputed by the daily pipeline from the vendors' own status APIs; last poll {E(GEN_AT)}. Vendor state is what the vendor publishes, not our measurement.</p>
@@ -487,13 +490,13 @@ def render_api():
 <tr><td><code>/api/v/&lt;slug&gt;.json</code></td><td>Per-vendor incident history (up to 400 days). Example: <a href="{SITE}/api/v/twilio.json">/api/v/twilio.json</a>.</td></tr>
 <tr><td><a href="{SITE}/feed.xml"><code>/feed.xml</code></a>, <code>/v/&lt;slug&gt;/feed.xml</code></td><td>RSS: all incidents, or one vendor.</td></tr>
 </tbody></table></div>
-<p class="small muted">Fair use: files are served from GitHub Pages; please poll no more than once a minute. States are the vendors' own published states, re-read daily for this site (the template and hosted tier poll every 5 minutes).</p></section>"""
+<p class="small muted">Fair use: files are served as static files from {E(HOST_NAME)}; please poll no more than once a minute. States are the vendors' own published states, re-read daily for this site (the template and hosted tier poll every 5 minutes).</p></section>"""
     write("api.html", page("JSON API — Vendor Status Watch", body, "Static JSON files: the vendor map, the latest snapshot and per-vendor incident history.", "api.html"))
 
 
 def render_legal():
     body = f"""<section><h1>Privacy, terms &amp; refunds</h1>
-<h2>Privacy</h2><p>This site sets no cookies and runs no analytics scripts. It is hosted on GitHub Pages, which logs requests under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. The free template runs entirely inside your own GitHub account; it sends nothing to us. If you buy the hosted watch, Gumroad processes payment under its own policy; we store the webhook URL and vendor list you provide, use them only to send you alerts, and delete them on request or when your term ends.</p>
+<h2>Privacy</h2><p>This site sets no cookies and runs no analytics scripts. It is hosted on {E(HOST_NAME)}, which logs requests under <a href="{HOST_PRIVACY}">its own privacy policy</a>. If you subscribe for email updates, Gumroad holds your address under its policy and every message carries an unsubscribe link; we never see a list we can export. The free template runs entirely inside your own GitHub account; it sends nothing to us. If you buy the hosted watch, Gumroad processes payment under its own policy; we store the webhook URL and vendor list you provide, use them only to send you alerts, and delete them on request or when your term ends.</p>
 <h2>Terms</h2><p>Vendor states and incident text are republished from each vendor's public status page and may lag or be wrong; this project is informational and is not an uptime measurement or a substitute for the vendor's own notifications. Software is provided under the MIT licence, as is, without warranty. The hosted watch is a best-effort service; we will tell you when it cannot reach a vendor rather than show a false OK.</p>
 <h2>Refunds</h2><p>Hosted watch: full refund within 14 days of purchase for any reason — reply to your Gumroad receipt. After 14 days, a pro-rata refund if the service failed to deliver alerts for 7 consecutive days through our fault.</p>
 <h2>Contact</h2><p>Open an issue at <a href="{REPO}/issues">{E(REPO)}/issues</a>, or reply to your Gumroad receipt for purchase matters.</p></section>"""

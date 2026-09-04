@@ -12,7 +12,7 @@ Rules
 - status.io vendors get their 24-hex page_id resolved ONCE here so the poller's
   steady state is a single request per vendor.
 """
-import json, os, re, sys
+import collections, json, os, re, sys
 from concurrent.futures import ThreadPoolExecutor
 import platforms as P
 
@@ -137,6 +137,101 @@ for v, pid in zip(sio, ids):
     else:
         v["supported"] = False
         v["note"] = "status.io page id not found"
+
+# --- c131: collapse same-vendor duplicates -----------------------------------
+# The seed dedupes on BASE URL only, so a vendor listed under two status URLs
+# (1password.statuspage.io + status.1password.com) shipped as two board rows.
+# Site review 2026-09-04 called this out by name ("a duplicated 'MongoDB' row")
+# and it is a straight credibility hit on a data product's headline table.
+#
+# Rules, in order, deliberately conservative — we never silently delete a row
+# that might be a DIFFERENT company that merely cleans to the same name:
+#   winner = supported > unsupported, then vendor-owned host over *.statuspage.io,
+#            then shorter host, then alphabetical (fully deterministic).
+#   a loser is MERGED AWAY (its URL kept as an alias) only if it shares the
+#   winner's registrable domain or lives on *.statuspage.io — i.e. provably the
+#   same brand. Any other same-name row is a real, different company: it is KEPT
+#   and disambiguated by domain ("Innovo (inriver.com)") rather than dropped.
+def _host(u):
+    # NB: removeprefix, not lstrip("www.") — lstrip strips a CHARACTER SET, which
+    # would turn "wix.com" into "ix.com".
+    return re.sub(r"^https?://", "", u or "").split("/")[0].lower().removeprefix("www.")
+
+
+def _regdom(u):
+    return ".".join(_host(u).split(".")[-2:])
+
+
+_adopt = []  # (old_slug, canonical_slug) pairs whose history file must follow
+
+
+def _collapse(rows):
+    groups, merged, renamed = {}, 0, 0
+    for v in rows:
+        groups.setdefault(v["name"].strip().lower(), []).append(v)
+    keep = []
+    for _, g in groups.items():
+        if len(g) == 1:
+            keep.append(g[0])
+            continue
+        g.sort(key=lambda v: (not v["supported"],
+                              _host(v["base"]).endswith("statuspage.io"),
+                              len(_host(v["base"])), _host(v["base"])))
+        win, rest = g[0], g[1:]
+        # brand token = the name reduced to letters/digits ("ionos", "postman").
+        # If it appears in BOTH hosts the two URLs are the same company on two
+        # domains (cohere.ai/cohere.com, ionos-status.de/.com, getpostman.com/
+        # postman.com) — merge. If it appears in only one, they are different
+        # companies that merely clean to the same name (Innovo vs inRiver) — keep.
+        tok = re.sub(r"[^a-z0-9]", "", win["name"].lower())
+        for lo in rest:
+            same_brand = (_regdom(lo["base"]) == _regdom(win["base"])
+                          or _host(lo["base"]).endswith("statuspage.io")
+                          or (len(tok) >= 4 and tok in _host(lo["base"]).replace("-", "")
+                              and tok in _host(win["base"]).replace("-", "")))
+            if same_brand:
+                win.setdefault("aliases", []).append(lo["base"])
+                # Adopt the loser's slug if it is the canonical (unsuffixed) one.
+                # Without this, merging away "cohere" in favour of "cohere-2"
+                # would silently move a live, sitemapped page from /v/cohere.html
+                # to /v/cohere-2.html and orphan history/cohere.json.
+                if re.sub(r"-\d+$", "", lo["slug"]) == lo["slug"] and win["slug"] != lo["slug"]:
+                    _adopt.append((win["slug"], lo["slug"]))
+                    win["slug"] = lo["slug"]
+                merged += 1
+            else:
+                lo["name"] = f'{lo["name"]} ({_regdom(lo["base"])})'
+                renamed += 1
+                keep.append(lo)
+        keep.append(win)
+    print(f"dedupe: merged {merged} duplicate rows, disambiguated {renamed} same-name vendors")
+    return keep
+
+
+out = _collapse(out)
+# Carry each merged vendor's incident history onto the slug it now lives at,
+# keeping whichever file has more recorded incidents. Orphaned files are left in
+# place (harmless, and they make the merge auditable) but never re-published.
+for _old, _new in _adopt:
+    _o, _n = os.path.join("history", _old + ".json"), os.path.join("history", _new + ".json")
+    try:
+        _no = len(json.load(open(_o)).get("incidents", [])) if os.path.exists(_o) else -1
+        _nn = len(json.load(open(_n)).get("incidents", [])) if os.path.exists(_n) else -1
+        if _no > _nn:
+            os.replace(_o, _n)
+            print(f"history: {_old}.json ({_no} incidents) adopted as {_new}.json")
+    except Exception as _e:
+        print(f"WARN: history merge {_old}->{_new} failed: {_e}")
+
+# Hard assertion: junk fixtures and duplicate display names must never reach the
+# board again. Fail the build loudly rather than publish a table nobody trusts.
+_bad = [v for v in out
+        if re.search(r"^(sg test|own company|test|demo|example|acme)\b", v["name"], re.I)]
+if _bad:
+    raise SystemExit(f"REFUSING TO PUBLISH: test fixtures in the map: {[v['slug'] for v in _bad]}")
+_dupes = [n for n, c in collections.Counter(v["name"].strip().lower() for v in out).items() if c > 1]
+if _dupes:
+    raise SystemExit(f"REFUSING TO PUBLISH: duplicate vendor names survived dedupe: {_dupes}")
 
 out.sort(key=lambda v: v["slug"])
 json.dump({"generated_at": P._now(), "source": "metoro-io/statusphere (MIT) + live probe",

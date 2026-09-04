@@ -5,8 +5,15 @@
 # stale-but-green board. Exit non-zero on any failure so state/pipelines.json shows it.
 set -euo pipefail
 cd "$(dirname "$0")"
+HERE="$(pwd -P)"   # absolute; "$(dirname "$0")" is RELATIVE to the caller's cwd and is wrong after this cd
 log() { echo "[$(date -u +%FT%TZ)] $*"; }
 
+# PUBLISH_ONLY=1 bash pipeline.sh  -> skip the map rebuild + 7-minute poll and just
+# re-render + publish (copy fixes between daily runs). Data stays whatever the last
+# poll wrote, so the "Data as of" stamp on the page is still the poll's, not now's.
+if [ "${PUBLISH_ONLY:-0}" = "1" ]; then
+  log "PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)"
+else
 log "build_map"
 python3 build_map.py "${PROBE_JSON:-probe.json}" vendors.json
 python3 - <<'PY'
@@ -17,6 +24,7 @@ PY
 
 log "poll_all"
 python3 poll_all.py            # exits 2 if <60% of supported vendors parsed
+fi
 
 log "gen_site"
 python3 gen_site.py
@@ -38,8 +46,14 @@ PY
 # every "rebuilt daily" claim on the page is false. hf_site.py verifies the LIVE
 # bytes after upload (a push is not a deploy), so a green line here means a
 # stranger really can read today's data.
-HFPY="${HF_PYTHON:-$(dirname "$0")/../../warn-feed/product/.venv-hf/bin/python3}"
-[ -x "$HFPY" ] || HFPY=python3
+# c136: was "$(dirname "$0")/../../warn-feed/…", which only resolved when the caller's cwd
+# was already product/ — `bash product/pipeline.sh` from the venture root silently fell back
+# to system python3 (no huggingface_hub) and the Space upload FAILED while the run stayed green.
+HFPY="${HF_PYTHON:-$HERE/../../warn-feed/product/.venv-hf/bin/python3}"
+if [ ! -x "$HFPY" ] || ! "$HFPY" -c 'import huggingface_hub' 2>/dev/null; then
+  log "hf_site: no python with huggingface_hub at $HFPY — FATAL (the live Space would go stale)"
+  exit 3
+fi
 log "hf_site (live site)"
 "$HFPY" hf_site.py
 

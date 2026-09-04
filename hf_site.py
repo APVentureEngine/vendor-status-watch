@@ -42,6 +42,19 @@ sdk: static
 pinned: false
 license: mit
 short_description: Living map of 1,130+ SaaS/cloud status feeds, rebuilt daily
+tags:
+  - status-page
+  - statuspage
+  - incidents
+  - outages
+  - uptime
+  - saas
+  - cloud
+  - sre
+  - devops
+  - vendor-management
+  - dataset
+  - daily-updated
 ---
 
 # Vendor Status Watch
