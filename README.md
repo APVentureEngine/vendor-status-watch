@@ -2,8 +2,8 @@
 
 **Every SaaS status page you depend on, in one feed — and in your Slack.**
 
-Live board and per-vendor incident history: **https://approjects-vendor-status-watch.static.hf.space/**
-Free alerting template: **https://github.com/APVentureEngine/vendor-status-watch-template**
+Live board and per-vendor incident history: **[approjects-vendor-status-watch.static.hf.space](https://approjects-vendor-status-watch.static.hf.space/)**
+Free alerting template: **[github.com/APVentureEngine/vendor-status-watch-template](https://github.com/APVentureEngine/vendor-status-watch-template)**
 
 This project polls the *public* status pages of **1,148 SaaS, cloud and infrastructure
 vendors**, normalises four status platforms plus hand-written parsers for the big bespoke pages
