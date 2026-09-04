@@ -154,8 +154,15 @@ BACKFILLED = sum(1 for h in hist.values() if h.get("history_backfilled"))
 
 # incidents per day, last 30 days (for the trend)
 per_day = collections.Counter(ts(t[2]["started_at"]).strftime("%Y-%m-%d") for t in inc30)
+# c137: the final bucket must be a COMPLETE day. Ending the series on TODAY put a
+# few hours of polling next to 29 full days, so the line always dived at the right
+# edge and `trend()` bold-labelled that partial count as the headline number —
+# reading as "incidents stopped" rather than "the day isn't over". Chart through
+# yesterday; the running day is reported separately as a live count, not plotted.
 days = [(D30 + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(1, 31)]
+days = [d for d in days if d < TODAY]
 TREND = [(d[5:], per_day.get(d, 0)) for d in days]
+TODAY_INC = per_day.get(TODAY, 0)
 
 
 # ------------------------------------------------------------------ html shell
@@ -257,8 +264,11 @@ def render_index():
     bars = DV.figure(DV.bar_chart([(by_slug[s]["name"], n) for s, n in top], unit="incidents"),
                      "Vendors with the most incidents opened in the last 30 days",
                      source="each vendor's own status page, read by this project", asof=TODAY) if top else ""
-    trend = DV.figure(DV.trend(TREND, unit="incidents"),
-                      "Incidents opened per day across all polled vendors, last 30 days",
+    trend = DV.figure(DV.trend(TREND, unit=" incidents"),
+                      f"Incidents opened per day across all polled vendors — the {len(TREND)} "
+                      f"complete days ending {TREND[-1][0] if TREND else ''}. Today is still in "
+                      f"progress ({TODAY_INC} so far) and is excluded, so every bar-day is a "
+                      f"full 24 hours.",
                       source="vendor status pages", asof=TODAY)
     # A rendered example of the actual alert, built from the newest REAL incidents in
     # the feed (never invented): the buy decision here is "what lands in my Slack".

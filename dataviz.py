@@ -191,7 +191,13 @@ def trend(points, width: int = 680, height: int = 190, unit: str = "",
     if len(vals) < 2:
         raise ValueError("trend: needs at least two points to show a trend")
     lo, hi = min(vals), max(vals)
-    span = (hi - lo) or 1.0
+    # c137: this is a FILLED AREA chart, and a filled area implies magnitude
+    # measured from zero. Baselining at min(vals) makes the fill lie — a moderate
+    # decline plunges from the top of the frame to the floor and reads as a
+    # collapse. (Found on warn-feed by the partner, report M007; same library, same
+    # bug here.) Area and bar charts start at zero; only line-only charts may crop.
+    base = 0.0 if lo >= 0 else lo
+    span = (hi - base) or 1.0
     # Right pad sized from the end label, for the same reason bar_chart sizes
     # its value gutter: a fixed 78 clipped "760 notices" to "760 notice".
     end_label = _num(vals[-1]) + unit
@@ -202,7 +208,7 @@ def trend(points, width: int = 680, height: int = 190, unit: str = "",
 
     def xy(i, v):
         x = pad_l + pw * (i / (len(vals) - 1))
-        y = pad_t + ph * (1 - (v - lo) / span)
+        y = pad_t + ph * (1 - (v - base) / span)
         return x, y
 
     pts = [xy(i, v) for i, v in enumerate(vals)]
