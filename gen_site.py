@@ -73,8 +73,54 @@ for v in vendors["vendors"]:
     p = os.path.join(HERE, "history", v["slug"] + ".json")
     if os.path.exists(p):
         hist[v["slug"]] = json.load(open(p))
+# --- alias collapse -------------------------------------------------------
+# The seed list contains two rows for the SAME status page (status.grafana.com and
+# grafanalabs.statuspage.io; status.imperva.com and status.incapsula.com). Atlassian
+# returns a page id that identifies the page itself, so duplicates are provable rather
+# than guessed. Keep one canonical row, remember the alias, and never print both.
+_base_of = {v["slug"]: v.get("base", "") for v in vendors["vendors"]}
+_by_page = {}
+for _r in snap["vendors"]:
+    # only trust a page id that came back with a real parse: an error page or an
+    # unknown state can hand two unrelated vendors the same id (seen on freshstatus).
+    if _r.get("page_id") and not _r.get("error") and _r.get("state") != "unknown":
+        _by_page.setdefault((_r["platform"], _r["page_id"]), []).append(_r["slug"])
+ALIAS, ALIAS_OF = {}, {}
+for _pid, _slugs in _by_page.items():
+    if len(_slugs) < 2:
+        continue
+    _slugs = sorted(_slugs, key=lambda s: (1 if re.search(r"-\d+$", s) else 0,
+                                           1 if ".statuspage.io" in _base_of.get(s, "") else 0,
+                                           len(_base_of.get(s, "")), s))
+    _canon = _slugs[0]
+    for _s in _slugs[1:]:
+        ALIAS[_s] = _canon
+        ALIAS_OF.setdefault(_canon, []).append(_s)
+if ALIAS:
+    vendors["vendors"] = [v for v in vendors["vendors"] if v["slug"] not in ALIAS]
+    vendors["count"] = len(vendors["vendors"])
+    vendors["supported"] = sum(1 for v in vendors["vendors"] if v["supported"])
+    vendors["aliases"] = ALIAS
+    snap["vendors"] = [r for r in snap["vendors"] if r["slug"] not in ALIAS]
+    snap["count"] = len(snap["vendors"])
+    hist = {k: v for k, v in hist.items() if k not in ALIAS}
+
 by_slug = {v["slug"]: v for v in vendors["vendors"]}
 snap_by = {r["slug"]: r for r in snap["vendors"]}
+
+# Two vendors can legitimately run two DIFFERENT status pages (MongoDB Atlas vs
+# MongoDB). Same name, different page: disambiguate by host so the board never
+# shows what looks like a duplicated row.
+_names = collections.Counter(v["name"].lower() for v in vendors["vendors"])
+for _v in vendors["vendors"]:
+    if _names[_v["name"].lower()] > 1:
+        _host = re.sub(r"^https?://", "", _v.get("base", "")).split("/")[0]
+        if _host:
+            _v["name"] = f'{_v["name"]} ({_host})'
+_name_of = {v["slug"]: v["name"] for v in vendors["vendors"]}
+for _r in snap["vendors"]:
+    if _r["slug"] in _name_of:
+        _r["vendor"] = _name_of[_r["slug"]]
 
 N_MAP = vendors["count"]
 N_SUP = sum(1 for v in vendors["vendors"] if v["supported"])
@@ -169,6 +215,7 @@ def page(title, body, desc, path="", extra_head=""):
 <header class="top"><div class="in"><a class="brand" href="{SITE}/">{LOGO} Vendor Status Watch</a><nav>{navh}</nav></div></header>
 <main>{body}</main>
 <footer><div class="in"><p>Vendor Status Watch is an automated, open-source project run by APVentureEngine. It reads the public status pages of {N_MAP:,} SaaS vendors on a timer and republishes what they say — it is not affiliated with any vendor named here, and it does not measure uptime itself. Vendor names and status pages belong to their owners.</p>
+<p><b>Who runs this:</b> APVentureEngine, an autonomous software project. There is no sales team and no phone number: every question, bug report and purchase issue goes through <a href="{REPO}/issues">GitHub issues</a>, which are public and usually answered within a day.</p>
 <p><a href="{REPO}">Source code &amp; template (MIT)</a> · <a href="{REPO}/issues">Report a wrong entry</a> · <a href="{SITE}/feed.xml">RSS</a> · <a href="{SITE}/api.html">JSON API</a> · <a href="{SITE}/legal.html">Privacy, terms &amp; refunds</a> · Data as of {E(GEN_AT)}</p></div></footer>
 </body></html>"""
 
@@ -207,14 +254,44 @@ def render_index():
     trend = DV.figure(DV.trend(TREND, unit="incidents"),
                       "Incidents opened per day across all polled vendors, last 30 days",
                       source="vendor status pages", asof=TODAY)
+    # A rendered example of the actual alert, built from the newest REAL incidents in
+    # the feed (never invented): the buy decision here is "what lands in my Slack".
+    ICON = {"ok": "\U0001f7e2", "maintenance": "\U0001f527", "degraded": "\U0001f7e1",
+            "partial": "\U0001f7e0", "major": "\U0001f534", "unknown": "\u26aa"}
+    _demo = []
+    for _slug, _iid, _rec in all_inc[:40]:
+        if _slug not in by_slug or not _rec.get("title"):
+            continue
+        _st = (snap_by.get(_slug) or {}).get("state", "unknown")
+        _resolved = bool(_rec.get("resolved_at"))
+        _demo.append((by_slug[_slug]["name"], _rec, _resolved,
+                      ICON["ok" if _resolved else ("major" if _rec.get("impact") in ("critical", "major") else "degraded")]))
+        if len(_demo) == 3:
+            break
+    _lines = "".join(
+        f'<div style="border-left:3px solid var(--{"ok" if _res else "warn"});padding:8px 0 8px 12px;margin:0 0 14px">'
+        f'<div style="font-weight:700">{_ic} {E(_nm)} — {"RESOLVED" if _res else "INCIDENT"}</div>'
+        f'<div class="small">{E(_rc.get("title") or "")}</div>'
+        f'<div class="small muted">{E((_rc.get("body") or "")[:150])}</div>'
+        f'<div class="small muted">started {E((_rc.get("started_at") or "")[:16].replace("T", " "))} UTC · status page</div></div>'
+        for _nm, _rc, _res, _ic in _demo)
+    alert_demo = (f'<figure style="margin:22px 0"><div class="card" style="max-width:560px;background:#fff">'
+                  f'<div class="small muted" style="margin-bottom:10px">#alerts · vendor-status-watch APP</div>{_lines}</div>'
+                  f'<figcaption>What lands in your Slack — rendered here from the three newest real incidents in the feed '
+                  f'(Discord and Teams get native embeds/cards; anything else gets plain JSON).</figcaption></figure>') if _demo else ""
+
     hosted = f"""
 <div class="card"><h3>Hosted watch</h3><div class="price">{E(HOSTED_PRICE)}</div>
 <p>No repo to own. Pick your vendors, paste one Slack, Discord, Teams or generic webhook URL at checkout, and our poller watches them every 5 minutes for 12 months. Same alerts, same living map, plus a private 12-month incident history page for your list.</p>
 <p class="small muted">One-time payment, no auto-renewal. 14-day refund, no questions. Sold through Gumroad; alerts start within 24 hours of purchase.</p>
 <a class="btn" href="{E(HOSTED)}">Get the hosted watch — {E(HOSTED_PRICE)}</a></div>""" if HOSTED else f"""
-<div class="card"><h3>Hosted watch</h3><div class="price">{E(HOSTED_PRICE)}</div>
-<p>No repo to own: you pick your vendors, we run the poller and post to your webhook. <b>It is not on sale yet</b> — we will not take money for a watch until the scheduled runner behind it is live, and we would rather say so than sell you a promise. The free template gives you the same alerts today.</p>
-<p class="small muted">Want it hosted? Open a one-line issue below and we will reply on that issue the day it opens — no email address, no list, nothing to unsubscribe from. Or subscribe to the <a href="{SITE}/feed.xml">RSS feed</a>.</p>
+<div class="card"><h3>Hosted watch <span class="small muted">— opening soon</span></h3><div class="price">{E(HOSTED_PRICE)}</div>
+<p>No repo, no Actions, no YAML. You send us your vendor slugs and one webhook URL; we run the poller every 5 minutes for 12 months and keep a private incident history for your list.</p>
+<ul class="small"><li>Up to 25 vendors, one webhook (Slack, Discord, Teams or plain JSON)</li>
+<li>Same alert rules as the free template — including <b>“cannot see this vendor”</b> instead of a false green</li>
+<li>One-time payment, no auto-renewal, no card on file</li>
+<li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="{SITE}/legal.html">terms</a>)</li></ul>
+<p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Ask to be told when it opens — we reply on your issue, and GitHub emails you. That is the whole list: no signup, no marketing, nothing to unsubscribe from.</p>
 <a class="btn" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Tell us to ping you when it opens</a></div>"""
     body = f"""
 <section>
@@ -242,6 +319,7 @@ def render_index():
 }}</pre>
 <p class="small muted">The webhook URL never goes in the file: it lives in a repository secret named <code>WEBHOOK_URL</code>.</p>
 <p>Events you receive: <b>now watching</b> (once, with any already-open incidents listed but not re-alerted), <b>opened</b>, <b>updated</b>, <b>resolved</b>, <b>unreachable</b> (the vendor's feed stopped answering — you are told, instead of silently seeing green), <b>recovered</b>. Slack Block Kit, Discord embeds, Teams Adaptive Cards and plain JSON are auto-detected from the webhook host.</p>
+{alert_demo}
 <div class="cta"><a class="btn" href="{TPL}">Use the template on GitHub</a><a class="btn ghost" href="{SITE}/vendors.html">Find your vendors' slugs</a></div>
 <div class="note small">Honest limits: {N_MAP - N_SUP:,} of the {N_MAP:,} mapped vendors publish no machine-readable status (AWS, Azure, GCP and Apple among them — bespoke HTML pages). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="{SITE}/platforms.html">coverage page</a>.</div>
 </section>
@@ -265,7 +343,7 @@ def render_index():
           "url": f"{SITE}/", "license": "https://opensource.org/licenses/MIT", "dateModified": GEN_AT,
           "creator": {"@type": "Organization", "name": "APVentureEngine", "url": REPO},
           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE}/api/snapshot.json"}]}
-    write("index.html", page("Vendor Status Watch — every SaaS status page in one feed, alerts in your Slack for free",
+    write("index.html", page("Vendor Status Watch — SaaS outage alerts in your Slack",
                              body, f"Free open-source watch over {N_MAP:,} SaaS status pages: live board, {N_INC:,} incidents of history, GitHub Actions template that posts to your Slack/Discord/Teams webhook.",
                              extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
 
@@ -278,6 +356,7 @@ def render_vendor(v):
     name = v["name"]
     if not h or not s:
         body = f"""<section><h1>{E(name)} status</h1><p class="lead">This vendor's status page ({E(v["base"])}) is {E(PLAT_LABEL.get(v["platform"], v["platform"]))} — {E(v.get("note") or "not machine-readable")}. We list it so you know we checked; we do not poll it and never show a state for it.</p>
+{('<p class="small muted">The same status page is also published as: ' + ", ".join(E(a) for a in ALIAS_OF.get(slug, [])) + ". Any of those slugs work in the template.</p>") if ALIAS_OF.get(slug) else ""}
 <p><a href="{E(v["base"])}">Open the vendor's own status page</a> · <a href="{REPO}/issues">Tell us if it has moved</a></p></section>"""
         write(f"v/{slug}/index.html", page(f"{name} status — not machine-readable", body,
                                           f"{name}'s status page has no public JSON feed; listed for completeness.", f"v/{slug}/"))
@@ -348,8 +427,13 @@ def render_vendors():
         s = snap_by.get(v["slug"])
         st = pill(s["state"]) if s else '<span class="pill s-unknown">not polled</span>'
         n30 = vend30.get(v["slug"], 0) if s else ""
-        rows += (f'<tr data-q="{E(v["name"].lower())} {E(v["slug"])} {E(v["platform"])}"><td><a href="{vurl(v["slug"])}">{E(v["name"])}</a></td><td>{st}</td>'
-                 f'<td class="small">{E(str(n30))}</td><td class="small muted">{E(PLAT_LABEL.get(v["platform"], v["platform"]))}</td><td class="small"><code>{E(v["slug"])}</code></td></tr>')
+        # aliases (same status page under another name: sendgrid -> twilio) stay
+        # SEARCHABLE here, or a visitor types their vendor and concludes we lack it.
+        al = ALIAS_OF.get(v["slug"], [])
+        alq = " ".join(al)
+        alnote = (' <span class="small muted">also: ' + ", ".join(E(a) for a in al) + "</span>") if al else ""
+        rows += (f'<tr data-q="{E(v["name"].lower())} {E(v["slug"])} {E(v["platform"])} {E(alq)}"><td><a href="{vurl(v["slug"])}">{E(v["name"])}</a></td><td>{st}</td>'
+                 f'<td class="small">{E(str(n30))}</td><td class="small muted">{E(PLAT_LABEL.get(v["platform"], v["platform"]))}</td><td class="small"><code>{E(v["slug"])}</code>{alnote}</td></tr>')
     body = f"""<section><h1>All {N_MAP:,} vendors</h1><p class="lead">{N_SUP:,} are polled (they publish JSON); the rest are listed so you know which of your dependencies you still have to check by hand. The slug column is what goes in the template's config.</p>
 <p><label for="q" class="small muted">Filter by vendor, slug or platform</label><br><input id="q" class="filter" type="search" placeholder="e.g. stripe, instatus, cloud" autocomplete="off"></p>
 <p class="small muted" id="cnt"></p>

@@ -82,6 +82,9 @@ def statuspage(vendor, slug, base):
     out = _blank(vendor, slug, "statuspage", base)
     out["state"] = _SP_INDICATOR.get(st.get("indicator"), "unknown")
     out["description"] = st.get("description") or "unknown"
+    # page id identifies the STATUS PAGE itself: two seed rows (e.g. status.grafana.com
+    # and grafanalabs.statuspage.io) can be the same page. Used to collapse aliases.
+    out["page_id"] = (j.get("page") or {}).get("id")
     for i in j.get("incidents") or []:
         out["incidents"].append({
             "id": i.get("id"),
@@ -95,7 +98,13 @@ def statuspage(vendor, slug, base):
         })
     for m in j.get("scheduled_maintenances") or []:
         if m.get("status") in ("in_progress", "verifying"):
-            out["state"] = "maintenance" if out["state"] == "ok" else out["state"]
+            if out["state"] == "ok":
+                out["state"] = "maintenance"
+                # the vendor's own headline often still reads "All Systems Operational"
+                # while a window is running; say which is which instead of showing
+                # a state and a description that look like they contradict each other.
+                if "maintenance" not in (out["description"] or "").lower():
+                    out["description"] = f'{out["description"]} (scheduled maintenance in progress)'
             out["incidents"].append({
                 "id": m.get("id"), "title": m.get("name"), "state": "maintenance",
                 "impact": m.get("impact"), "url": m.get("shortlink"),

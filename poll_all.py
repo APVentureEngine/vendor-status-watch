@@ -127,7 +127,8 @@ def main():
         snap.append({"slug": v["slug"], "vendor": v["name"], "platform": v["platform"],
                      "status_url": cur["status_url"], "state": cur["state"],
                      "description": cur["description"], "open": len(cur["incidents"]),
-                     "error": cur["error"], "checked_at": cur["checked_at"]})
+                     "error": cur["error"], "checked_at": cur["checked_at"],
+                     "page_id": cur.get("page_id")})
         if cur["error"]:
             errors[cur["error"]] = errors.get(cur["error"], 0) + 1
     snap.sort(key=lambda r: r["slug"])
