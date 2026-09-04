@@ -43,6 +43,10 @@
 {
 "at": "2026-09-04T14:19:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T15:18:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -52,7 +56,7 @@
 "body": "Earlier yesterday, a widespread outage affecting our public cloud provider caused service disruptions across multiple regions and impacted our platform\u2019s availability.\n\nAround 7:00 PM UTC,  our public cloud provider had fully resolved the underlying issue, and our systems have been restored to normal operation. We have verified the stability of all services and are continuing to monitor closely to ensure sustained performance.\n\nWe sincerely thank you for your patience and understanding during this global incident.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T14:19:03Z",
+"last_seen": "2026-09-04T15:18:55Z",
 "resolved_at": "2025-10-21T09:17:23.042Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T09:50:42.472Z",
@@ -62,7 +66,7 @@
 "url": "https://stspg.io/6bs3bw1ymh9h"
 }
 },
-"last_checked": "2026-09-04T14:19:03Z",
+"last_checked": "2026-09-04T15:18:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

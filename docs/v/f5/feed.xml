@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 14:19:03 +0000</lastBuildDate><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 15:18:55 +0000</lastBuildDate><item><title>Incident Advisory: INC-20260904-504 [investigating]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>This advisory is to inform you that we are currently investigating reports of service degradation affecting GLR.
+
+We understand this may be affecting your operations and we are committed to providing transparent and timely updates as more information becomes available. While we gather more information, we recommend monitoring the progress on this site (https://www.f5cloudstatus.com/) for the latest update.
+ 
+Investigation Status:
+•	We have identified potential service impact at 15:13 UTC
+•	Our incident response team has been fully mobilized;
+•	Initial investigation and impact assessment efforts are underway. 
+Next Steps:
+•	A detailed incident notification will be provided within 30 minutes;
+•	Our teams are working to determine the root cause of the incident;
+•	We will share mitigation step</description></item><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
 
 F5 Distributed Cloud Expands Global Footprint into Seoul, South Korea.
 
@@ -139,6 +150,4 @@ Contact information
 We appreciate your understanding and cooperation as we continue to improve our services.
 
 Sincerely,
-F5 Distributed Cloud</description></item><item><title>Incident Advisory:INC-20260511-458 [resolved]</title><link>https://stspg.io/66lvtgvry9bk</link><guid isPermaLink="false">f5:2026-05-11T13:27:14.038Z</guid><pubDate>Mon, 11 May 2026 13:27:14 +0000</pubDate><description>The F5 Distributed Cloud team has successfully resolved the issue affecting F5 XC&#x27;s internal DNS zone. After monitoring the system is currently operating normally and no further impact is expected.
-
-We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.</description></item></channel></rss>
+F5 Distributed Cloud</description></item></channel></rss>

@@ -43,6 +43,10 @@
 {
 "at": "2026-09-04T14:19:03Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T15:18:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -52,7 +56,7 @@
 "body": "We experienced a service disruption today from 12:15 PM to 12:36 PM PST that temporarily affected claims form submissions and dashboard access. The issue has been fully resolved and all services are now operating normally. We apologize for any inconvenience this may have caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T14:19:03Z",
+"last_seen": "2026-09-04T15:18:55Z",
 "resolved_at": "2025-12-02T12:00:00.000-08:00",
 "resolved_inferred": false,
 "started_at": "2025-12-02T12:00:00.000-08:00",
@@ -62,7 +66,7 @@
 "url": "https://stspg.io/4c0jxck2gj4m"
 }
 },
-"last_checked": "2026-09-04T14:19:03Z",
+"last_checked": "2026-09-04T15:18:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

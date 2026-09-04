@@ -43,6 +43,10 @@
 {
 "at": "2026-09-04T14:19:03Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-04T15:18:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -52,16 +56,18 @@
 "first_seen": "2026-09-04T14:19:03Z",
 "impact": "maintenance",
 "last_seen": "2026-09-04T14:19:03Z",
+"resolved_at": "2026-09-04T15:18:55Z",
+"resolved_inferred": true,
 "started_at": "2026-09-03T03:44:51.691Z",
 "state": "maintenance",
 "title": "Security Update on CP-WH-102.myownserver.net",
 "url": "https://fluccs.status.io"
 }
 },
-"last_checked": "2026-09-04T14:19:03Z",
-"last_description": "Planned Maintenance",
+"last_checked": "2026-09-04T15:18:55Z",
+"last_description": "Operational",
 "last_error": null,
-"last_state": "maintenance",
+"last_state": "ok",
 "platform": "status.io",
 "slug": "fluccs",
 "status_url": "https://fluccs.status.io",
