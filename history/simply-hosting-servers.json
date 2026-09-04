@@ -51,6 +51,10 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -60,7 +64,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-10-24T16:54:22.712+01:00",
 "resolved_inferred": false,
 "started_at": "2025-10-24T14:10:05.898+01:00",
@@ -73,7 +77,7 @@
 "body": "Both suppliers of different international circuits have repaired their services overnight in the EU. The Network is now operating with normally expected levels of resilience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-10-03T08:37:12.056+01:00",
 "resolved_inferred": false,
 "started_at": "2025-10-02T14:36:13.650+01:00",
@@ -86,7 +90,7 @@
 "body": "Our supplier resolved the issue with the circuit from London to Dublin on Monday evening and our network is operating normally with full diversity. This maintenance can now be closed.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-11-25T09:43:31.664+00:00",
 "resolved_inferred": false,
 "started_at": "2025-11-24T13:08:09.688+00:00",
@@ -99,7 +103,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-05-15T14:28:12.716+01:00",
 "resolved_inferred": false,
 "started_at": "2026-05-15T13:23:15.007+01:00",
@@ -112,7 +116,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-03-27T17:10:03.408+00:00",
 "resolved_inferred": false,
 "started_at": "2026-03-27T12:41:37.180+00:00",
@@ -125,7 +129,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-02-03T16:59:12.650+00:00",
 "resolved_inferred": false,
 "started_at": "2026-02-03T09:27:33.771+00:00",
@@ -138,7 +142,7 @@
 "body": "The carrier has repaired the service and the normal levels of resilience of the network have resumed. We consider the event cleared and are no longer in an at risk state.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-07-13T09:08:37.839+01:00",
 "resolved_inferred": false,
 "started_at": "2026-07-10T10:21:21.075+01:00",
@@ -148,7 +152,7 @@
 "url": "https://stspg.io/l0t09h4cswmt"
 }
 },
-"last_checked": "2026-09-04T17:10:49Z",
+"last_checked": "2026-09-04T18:17:53Z",
 "last_description": "Service Under Maintenance",
 "last_error": null,
 "last_state": "maintenance",

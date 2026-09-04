@@ -3,7 +3,7 @@
 "slug": "cumulocity",
 "platform": "instatus",
 "status_url": "http://status.cumulocity.com",
-"last_checked": "2026-09-04T17:10:49Z",
+"last_checked": "2026-09-04T18:17:53Z",
 "last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
@@ -11,7 +11,7 @@
 {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "MAJOROUTAGE",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "started_at": "2026-08-31T08:11:00.000Z",
 "state": "monitoring",
 "title": "Platform Issue | CUMULOCITY.COM",

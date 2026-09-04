@@ -51,6 +51,10 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -60,7 +64,7 @@
 "body": "We are aware of an issue affecting offers search API and are investigating. Updates will be posted here as we progress",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-06-19T12:00:00.000+02:00",
 "resolved_inferred": false,
 "started_at": "2026-06-19T12:00:00.000+02:00",
@@ -73,7 +77,7 @@
 "body": "All services have returned to normal operation and are stable.\n\nWe have identified and paused the processes that contributed to the incident, and the platform has fully recovered. We will continue to monitor the environment closely to ensure stability.\n\nA detailed postmortem, including root cause analysis, impact assessment, and follow-up actions, will be shared as soon as it is available.\n\nThank you for your patience while we worked to resolve the issue.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-05-30T16:26:53.342+02:00",
 "resolved_inferred": false,
 "started_at": "2026-05-30T15:20:45.303+02:00",
@@ -86,7 +90,7 @@
 "body": "We haven't observed any errors after our fix. The incident is resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-08-31T14:58:14.443+02:00",
 "resolved_inferred": false,
 "started_at": "2026-08-31T14:55:14.540+02:00",
@@ -99,7 +103,7 @@
 "body": "<strong>Summary</strong>\nOn 13 May 2025, between 10:30 and 11:05 CEST, we experienced an incident affecting our API services. The majority of users were unable to access the Valuation API during this window, and elevated response latency was observed across all API endpoints. Full service was restored at 11:05 CEST.\n\n<strong>Root Cause</strong>\nWe identified a bottleneck in a component on the critical path of our infrastructure. Under load, this component became a limiting factor and degraded service availability and performance.\n\n<strong>Remediation</strong>\nWe are actively implementing improvements to the affected component to increase its scalability and prevent recurrence. We will continue to monitor the situation closely following these changes.\n\n<strong>Monitoring &amp; Transparency</strong>\nWe are aware that this incident was not surfaced by the monitoring that feeds this status page, which means our customers did not receive a timely notification. We take this seriously. We are expanding our monitoring coverage and adding more granular detail to this status page to more accurately reflect the real-time health of our services. Our goal is to ensure that any future disruption is communicated proactively.\n\nWe apologise for the disruption this caused and thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-05-13T10:30:00.000+02:00",
 "resolved_inferred": false,
 "started_at": "2026-05-13T10:30:00.000+02:00",
@@ -109,7 +113,7 @@
 "url": "https://stspg.io/6klqxn4v4bpv"
 }
 },
-"last_checked": "2026-09-04T17:10:49Z",
+"last_checked": "2026-09-04T18:17:53Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -51,12 +51,16 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "major"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "major"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T17:10:49Z",
+"last_checked": "2026-09-04T18:17:53Z",
 "last_description": "downtime",
 "last_error": null,
 "last_state": "major",

@@ -51,15 +51,19 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
 "incidents": {},
-"last_checked": "2026-09-04T17:10:49Z",
-"last_description": "Partially Degraded Service",
-"last_error": null,
-"last_state": "degraded",
+"last_checked": "2026-09-04T18:17:53Z",
+"last_description": "unknown",
+"last_error": "http 0",
+"last_state": "unknown",
 "platform": "statuspage",
 "slug": "halp",
 "status_url": "https://status.halp.com",

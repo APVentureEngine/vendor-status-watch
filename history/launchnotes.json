@@ -51,6 +51,10 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -60,7 +64,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-08-04T21:20:06Z",
 "resolved_inferred": false,
 "started_at": "2025-08-04T16:30:12Z",
@@ -72,7 +76,7 @@
 "body": "Our database experienced an increased write load which brought several services off line.  We identified the problem and implemented a fix to resolve the immediate outage and prevent this class of incident from happening again in the future.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-09-04T21:52:32Z",
 "resolved_inferred": false,
 "started_at": "2025-09-04T16:51:01Z",
@@ -84,7 +88,7 @@
 "body": "We recently made changes to our GitOps process to further improve how we deliver software. As part of that change, we introduced a small bug that broke name resolution between our core service and our content service. This resulted in content changes not showing on our public pages.  We implemented and deployed a fix and have confirmed all content persistence and caching is functioning correctly.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2025-11-04T19:22:43Z",
 "resolved_inferred": false,
 "started_at": "2025-11-04T16:21:00Z",
@@ -96,7 +100,7 @@
 "body": "Sending has been restored.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T17:10:49Z",
+"last_seen": "2026-09-04T18:17:53Z",
 "resolved_at": "2026-05-04T23:20:09Z",
 "resolved_inferred": false,
 "started_at": "2026-05-04T19:23:13Z",
@@ -105,7 +109,7 @@
 "updated_at": "2026-05-04T23:20:09Z"
 }
 },
-"last_checked": "2026-09-04T17:10:49Z",
+"last_checked": "2026-09-04T18:17:53Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

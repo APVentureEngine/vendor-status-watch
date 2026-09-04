@@ -51,6 +51,10 @@
 {
 "at": "2026-09-04T17:10:49Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T18:17:53Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -187,10 +191,10 @@
 "url": "https://stspg.io/6rddp63kdkv2"
 }
 },
-"last_checked": "2026-09-04T17:10:49Z",
-"last_description": "All Systems Operational",
-"last_error": null,
-"last_state": "ok",
+"last_checked": "2026-09-04T18:17:53Z",
+"last_description": "unknown",
+"last_error": "http 0",
+"last_state": "unknown",
 "platform": "statuspage",
 "slug": "spiceworks",
 "status_url": "https://status.spiceworks.com",

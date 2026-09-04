@@ -3,8 +3,8 @@
 "slug": "halp",
 "platform": "statuspage",
 "status_url": "https://status.halp.com",
-"last_checked": "2026-09-04T17:10:49Z",
-"last_state": "degraded",
+"last_checked": "2026-09-04T18:17:53Z",
+"last_state": "unknown",
 "history_backfilled": true,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": []

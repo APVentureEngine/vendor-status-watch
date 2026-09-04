@@ -3,8 +3,8 @@
 "slug": "brave",
 "platform": "betterstack",
 "status_url": "https://status.brave.com",
-"last_checked": "2026-09-04T17:10:49Z",
-"last_state": "unknown",
+"last_checked": "2026-09-04T18:17:53Z",
+"last_state": "major",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": []
