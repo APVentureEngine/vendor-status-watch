@@ -501,6 +501,37 @@ def render_feeds_and_meta():
     write(".nojekyll", "")
 
 
+def prune_and_redirect():
+    """A slug that leaves the map must not leave a stale page behind.
+
+    Alias slugs (two seed rows, one real status page) get a canonical redirect so any
+    inbound link still lands somewhere true; anything else that is no longer in the map
+    is deleted, because a vendor page frozen at an old poll is a lie with a timestamp.
+    """
+    import shutil
+    live = {v["slug"] for v in vendors["vendors"]}
+    vdir = os.path.join(OUT, "v")
+    for slug in sorted(os.listdir(vdir)) if os.path.isdir(vdir) else []:
+        if slug in live:
+            continue
+        shutil.rmtree(os.path.join(vdir, slug), ignore_errors=True)
+    for alias, canon in sorted(ALIAS.items()):
+        if canon not in live:
+            continue
+        nm = by_slug[canon]["name"]
+        write(f"v/{alias}/index.html",
+              f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
+              f'<title>{E(alias)} — same status page as {E(nm)}</title>'
+              f'<link rel="canonical" href="{vurl(canon)}">'
+              f'<meta http-equiv="refresh" content="0; url={vurl(canon)}">'
+              f'<meta name="robots" content="noindex,follow"></head><body>'
+              f'<p><b>{E(alias)}</b> publishes the same status page as <a href="{vurl(canon)}">{E(nm)}</a> '
+              f'(identical page id), so its history lives there.</p></body></html>')
+    for apij in sorted(os.listdir(os.path.join(OUT, "api", "v"))) if os.path.isdir(os.path.join(OUT, "api", "v")) else []:
+        if apij[:-5] not in live:
+            os.remove(os.path.join(OUT, "api", "v", apij))
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     render_index()
@@ -511,6 +542,7 @@ def main():
     render_api()
     render_legal()
     render_feeds_and_meta()
+    prune_and_redirect()
     n = sum(len(f) for _, _, f in os.walk(OUT))
     print(f"gen_site: {n} files → docs/  | map {N_MAP} sup {N_SUP} polled {N_POLLED} parsed {N_PARSED} not_ok {len(NOT_OK)} incidents {N_INC} (30d {N_INC30})")
 
