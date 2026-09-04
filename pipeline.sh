@@ -53,6 +53,29 @@ if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
 else
   log "no git repo / token here — skipped push (pre-creation dry run)"
 fi
+# c130: the GitHub repo DESCRIPTION is a claim surface too (warn-feed learning c98) — keep its
+# counts equal to the alias-collapsed numbers the page shows. PATCHed only on change; non-fatal.
+if [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
+python3 - <<'PY' || log "repo description sync: FAILED (non-fatal)"
+import json, os, urllib.request
+vj = json.load(open("docs/api/vendors.json"))
+n, sup = vj["count"], sum(1 for v in vj["vendors"] if v.get("supported"))
+want = (f"Vendor Status Watch — live map of {n:,} SaaS status pages ({sup:,} machine-readable, incl. AWS, Azure, "
+        f"Google Cloud, Slack, Stripe) + 14k incident histories, rebuilt daily. Free GitHub Actions alerting template.")
+hdr = {"Authorization": "Bearer " + os.environ["GITHUB_ORG_TOKEN"], "Accept": "application/vnd.github+json",
+       "User-Agent": "vendor-status-watch"}
+url = "https://api.github.com/repos/APVentureEngine/vendor-status-watch"
+cur = json.load(urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=30)).get("description")
+if cur != want:
+    req = urllib.request.Request(url, data=json.dumps({"description": want}).encode(), headers=hdr, method="PATCH")
+    got = json.load(urllib.request.urlopen(req, timeout=30)).get("description")
+    assert got == want, "description PATCH did not land"
+    print("repo description updated:", want)
+else:
+    print("repo description already current")
+PY
+fi
+
 # IndexNow: only when the URL set changed; needs the key file live, so it naturally waits for the first deploy.
 log "indexnow"; python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
 
