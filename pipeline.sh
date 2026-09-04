@@ -34,4 +34,13 @@ if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
 else
   log "no git repo / token here — skipped push (pre-creation dry run)"
 fi
+# Hugging Face mirror (second discovery surface). Non-fatal: the site is already live; report honestly.
+HFPY="${HF_PYTHON:-$(dirname "$0")/../../warn-feed/product/.venv-hf/bin/python3}"
+[ -x "$HFPY" ] || HFPY=python3
+if [ -n "${HF_TOKEN:-}" ]; then
+  log "hf_mirror"
+  if "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
+else
+  log "hf_mirror: HF_TOKEN absent, skipped"
+fi
 log "done"
