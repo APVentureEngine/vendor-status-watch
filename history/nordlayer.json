@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T08:14:10Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:27:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -20,7 +24,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-11-18T17:00:50.000+02:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T13:39:36.000+02:00",
@@ -33,7 +37,7 @@
 "body": "No further functionality errors have been observed.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2026-05-08T07:30:32.000+03:00",
 "resolved_inferred": false,
 "started_at": "2026-05-08T04:19:35.000+03:00",
@@ -46,7 +50,7 @@
 "body": "This incident has been resolved",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-10-27T17:31:05.796+02:00",
 "resolved_inferred": false,
 "started_at": "2025-10-27T14:54:14.000+02:00",
@@ -59,7 +63,7 @@
 "body": "No further connectivity issues have been detected - service has been restored.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-08-07T17:30:19.941+03:00",
 "resolved_inferred": false,
 "started_at": "2025-08-07T16:33:12.000+03:00",
@@ -72,7 +76,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2026-06-08T22:56:28.466+03:00",
 "resolved_inferred": false,
 "started_at": "2026-06-08T18:57:42.000+03:00",
@@ -82,7 +86,7 @@
 "url": "https://stspg.io/j44ntgwdcrsp"
 }
 },
-"last_checked": "2026-09-04T08:14:10Z",
+"last_checked": "2026-09-04T08:27:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

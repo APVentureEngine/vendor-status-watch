@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T08:14:10Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:27:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -20,7 +24,7 @@
 "body": "Response times are back to normal. We are continuing to monitor performance.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2026-01-07T22:06:21.619Z",
 "resolved_inferred": false,
 "started_at": "2026-01-07T21:51:04.678Z",
@@ -30,7 +34,7 @@
 "url": "https://stspg.io/ghmz2750dmbs"
 }
 },
-"last_checked": "2026-09-04T08:14:10Z",
+"last_checked": "2026-09-04T08:27:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

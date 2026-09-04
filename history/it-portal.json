@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T08:14:10Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:27:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -20,7 +24,7 @@
 "body": "Issue resolved. See https://www.cloudflarestatus.com/",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-11-18T10:35:16.916-05:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T09:16:54.837-05:00",
@@ -33,7 +37,7 @@
 "body": "**Incident Summary:** SQL Services affecting central login experienced downtime following routine updates. Issues were encountered when reconnecting encrypted volumes after system reboot.\n\n**Root Cause:** A recent Windows update modified the default behavior of PowerShell's `Invoke-WebRequest` cmdlet. Our automated scripts that handle volume reconnection were executing without the `-UseBasicParsing` parameter, causing them to pause and wait for user confirmation instead of executing non-interactively.\n\n**Resolution:** Encrypted volumes were manually reconnected to restore service availability. Our automation startup scripts have been updated to include the `-UseBasicParsing` parameter in all `Invoke-WebRequest` calls, ensuring scripts execute without requiring user interaction.\n\n**Preventive Measures:**\n\n* All PowerShell automation scripts have been audited and updated with the `-UseBasicParsing` parameter\n* Testing procedures will be enhanced to validate script execution in non-interactive environments following system updates\n* Additional monitoring has been implemented to detect script execution failures more rapidly\n\n**Timeline:**\n\n* 4:53 PM EST - Issue detected, services down\n* Manual intervention initiated\n* 5:46 PM EST - Services restored, incident resolved",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-12-17T05:46:51.460-05:00",
 "resolved_inferred": false,
 "started_at": "2025-12-17T04:53:55.908-05:00",
@@ -43,7 +47,7 @@
 "url": "https://stspg.io/488c4dnx9jpg"
 }
 },
-"last_checked": "2026-09-04T08:14:10Z",
+"last_checked": "2026-09-04T08:27:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

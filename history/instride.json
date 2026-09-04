@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T08:14:10Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:27:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -20,7 +24,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2026-01-16T11:27:09.462-08:00",
 "resolved_inferred": false,
 "started_at": "2026-01-15T10:23:24.653-08:00",
@@ -33,7 +37,7 @@
 "body": "We have confirmed that the issue caused by our third-party providers has been fully resolved. All systems and services are now fully operational and functioning as expected.\nWe will continue to monitor for stability, but no further impact is expected at this time. Thank you for your patience and understanding.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-10-21T06:06:34.172-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T10:36:15.000-07:00",
@@ -46,7 +50,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-08-21T12:55:32.664-07:00",
 "resolved_inferred": false,
 "started_at": "2025-08-21T11:28:48.000-07:00",
@@ -56,7 +60,7 @@
 "url": "https://stspg.io/mxt80f9qgyrr"
 }
 },
-"last_checked": "2026-09-04T08:14:10Z",
+"last_checked": "2026-09-04T08:27:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

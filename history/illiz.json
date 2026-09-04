@@ -11,6 +11,10 @@
 {
 "at": "2026-09-04T08:14:10Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T08:27:10Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -20,7 +24,7 @@
 "body": "This incident was fully resolved at 10:07 UTC on July 22, 2026. Control plane API requests have been operating normally since. Running clusters, data access, and query traffic were not affected at any point.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2026-07-22T10:07:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-07-22T09:00:00.000Z",
@@ -33,7 +37,7 @@
 "body": "Our systems have fully recovered.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:14:10Z",
+"last_seen": "2026-09-04T08:27:10Z",
 "resolved_at": "2025-10-20T10:47:38.625Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T08:54:42.375Z",
@@ -43,7 +47,7 @@
 "url": "https://stspg.io/nql48dx1r0n4"
 }
 },
-"last_checked": "2026-09-04T08:14:10Z",
+"last_checked": "2026-09-04T08:27:10Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
