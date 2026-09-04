@@ -21,6 +21,8 @@ REPO = CFG["repo_url"].rstrip("/")
 TPL = (CFG.get("template_url") or REPO).rstrip("/")   # fork-and-go template repo
 HOSTED = CFG.get("hosted_url") or ""          # Gumroad listing; empty = tier not on sale yet
 HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
+DIGEST = CFG.get("digest_url") or ""          # c140: daily-digest tier (deliverable on the daily timer)
+DIGEST_PRICE = CFG.get("digest_price", "$19/year")
 SUBSCRIBE = "https://approj.gumroad.com/subscribe"   # c132: Gumroad follower form = email capture, no unlock needed
 HOST_NAME = "Hugging Face Spaces" if "hf.space" in SITE else "GitHub Pages"
 HOST_PRIVACY = ("https://huggingface.co/privacy" if "hf.space" in SITE else "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement")
@@ -309,6 +311,11 @@ def render_index():
 <li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="{SITE}/legal.html">terms</a>)</li></ul>
 <p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Two ways to be told when it opens, pick either: leave your email with Gumroad (they hold the address, we write only when this opens or the map changes materially, unsubscribe from any message), or open a GitHub issue — we reply on it and GitHub emails you.</p>
 <a class="btn" href="{SUBSCRIBE}">Email me when it opens</a> <a class="btn ghost" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue</a></div>"""
+    digest = f"""
+<div class="card"><h3>Daily digest</h3><div class="price">{E(DIGEST_PRICE)}</div>
+<p>No repo, no Actions, no account. Paste one Slack, Discord, Teams or JSON webhook and up to 25 vendor names at checkout; every 24 hours, after the poll that rebuilds this board, one message lists which of your vendors had incidents opened, updated or resolved, which are still degraded, and which we <b>cannot see</b>. Quiet days get a one-line “all quiet” so silence never means broken.</p>
+<p class="small muted">One-time payment for 12 months, no auto-renewal. 14-day refund, no questions. First digest within 24 hours of purchase. This is a daily digest, not 5-minute paging — for that, use the free template.</p>
+<a class="btn" href="{E(DIGEST)}">Get the daily digest — {E(DIGEST_PRICE)}</a></div>""" if DIGEST else ""
     body = f"""
 <section>
 <h1>Every SaaS status page you depend on, in one feed — and in your Slack.</h1>
@@ -349,11 +356,12 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 <div class="note small">Honest limits: {N_MAP - N_SUP:,} of the {N_MAP:,} mapped vendors publish no machine-readable status (Apple, Microsoft 365 and Notion among them — bespoke HTML pages; AWS, Azure, Google Cloud, Slack and Stripe ARE covered, by hand-written parsers over their own public feeds). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="{SITE}/platforms.html">coverage page</a>.</div>
 </section>
 
-<section id="hosted"><h2>Two ways to run it</h2>
+<section id="hosted"><h2>{"Three" if DIGEST else "Two"} ways to run it</h2>
 <div class="cards">
 <div class="card"><h3>Self-hosted template</h3><div class="price">Free</div>
 <p>Runs in your GitHub account on GitHub's free Actions minutes (~2,000 min/month on free plans; a 5-minute schedule uses roughly a third of that). You own the repo, the secret and the history file. MIT licence, no telemetry.</p>
 <a class="btn ghost" href="{TPL}">Open the template</a></div>
+{digest}
 {hosted}
 </div>
 <p class="small muted" style="margin-top:18px">Comparison, honestly: IsDown starts at $22/mo (annual) with no free plan; StatusGator's free plan is 3 monitors and 10 notifications a month, paid from $72/mo. Both have polished apps, email/SMS channels and support staff — we have none of those. What we have is a vendor map that is rebuilt every day from live probes, a template you can read in one sitting, and a price that is a rounding error.</p>
@@ -506,11 +514,11 @@ def render_api():
 
 def render_legal():
     body = f"""<section><h1>Privacy, terms &amp; refunds</h1>
-<h2>Privacy</h2><p>This site sets no cookies and runs no analytics scripts. It is hosted on {E(HOST_NAME)}, which logs requests under <a href="{HOST_PRIVACY}">its own privacy policy</a>. If you subscribe for email updates, Gumroad holds your address under its policy and every message carries an unsubscribe link; we never see a list we can export. The free template runs entirely inside your own GitHub account; it sends nothing to us. If you buy the hosted watch, Gumroad processes payment under its own policy; we store the webhook URL and vendor list you provide, use them only to send you alerts, and delete them on request or when your term ends.</p>
-<h2>Terms</h2><p>Vendor states and incident text are republished from each vendor's public status page and may lag or be wrong; this project is informational and is not an uptime measurement or a substitute for the vendor's own notifications. Software is provided under the MIT licence, as is, without warranty. The hosted watch is a best-effort service; we will tell you when it cannot reach a vendor rather than show a false OK.</p>
-<h2>Refunds</h2><p>Hosted watch: full refund within 14 days of purchase for any reason — reply to your Gumroad receipt. After 14 days, a pro-rata refund if the service failed to deliver alerts for 7 consecutive days through our fault.</p>
+<h2>Privacy</h2><p>This site sets no cookies and runs no analytics scripts. It is hosted on {E(HOST_NAME)}, which logs requests under <a href="{HOST_PRIVACY}">its own privacy policy</a>. If you subscribe for email updates, Gumroad holds your address under its policy and every message carries an unsubscribe link; we never see a list we can export. The free template runs entirely inside your own GitHub account; it sends nothing to us. If you buy the daily digest or the hosted watch, Gumroad processes payment under its own policy; your webhook URL and vendor list stay in your Gumroad order, are read only when a digest or alert is sent, are never stored or published by us, and are ignored once your term ends or you are refunded.</p>
+<h2>Terms</h2><p>Vendor states and incident text are republished from each vendor's public status page and may lag or be wrong; this project is informational and is not an uptime measurement or a substitute for the vendor's own notifications. Software is provided under the MIT licence, as is, without warranty. The daily digest and the hosted watch are best-effort services; both tell you when a vendor cannot be read rather than show a false OK.</p>
+<h2>Refunds</h2><p>Daily digest and hosted watch: full refund within 14 days of purchase for any reason — reply to your Gumroad receipt. After 14 days, a pro-rata refund if the service failed to deliver digests or alerts for 7 consecutive days through our fault.</p>
 <h2>Contact</h2><p>Open an issue at <a href="{REPO}/issues">{E(REPO)}/issues</a>, or reply to your Gumroad receipt for purchase matters.</p></section>"""
-    write("legal.html", page("Privacy, terms & refunds — Vendor Status Watch", body, "Privacy, terms and the 14-day refund policy for the hosted watch.", "legal.html"))
+    write("legal.html", page("Privacy, terms & refunds — Vendor Status Watch", body, "Privacy, terms and the 14-day refund policy for the daily digest and the hosted watch.", "legal.html"))
 
 
 def render_feeds_and_meta():

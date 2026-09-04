@@ -71,6 +71,15 @@ GitHub Actions runs it every 5 minutes on the free tier. Nothing is sent to us.
 Events: `now watching` (once per vendor, existing incidents listed but not re-alerted),
 `opened`, `updated`, `resolved`, `unreachable`, `recovered`.
 
+## Get a daily digest instead ($19 / 12 months, no repo)
+
+If you would rather not run Actions: **[Vendor Status Digest](https://approj.gumroad.com/l/vendor-digest)** —
+paste one Slack / Discord / Teams / JSON webhook and up to 25 vendor names at checkout, and every 24 hours
+(after the poll that rebuilds this repo) one message lists which of your vendors had incidents opened, updated
+or resolved, which are still degraded, and which we *cannot see*. Quiet days get a one-line "all quiet".
+It is a daily digest, not 5-minute paging — the fulfilment code is `digest.py` in this repo, so you can read
+exactly what is sent. One payment, no auto-renewal, 14-day refund.
+
 ## Honest limits
 
 - **Roughly 330 of the 1,150 mapped vendors publish no machine-readable status** —

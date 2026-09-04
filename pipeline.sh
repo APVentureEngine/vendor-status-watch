@@ -26,6 +26,18 @@ log "poll_all"
 python3 poll_all.py            # exits 2 if <60% of supported vendors parsed
 fi
 
+# ---- DAILY DIGEST tier fulfilment (c140) --------------------------------------
+# The paid offer that needs no 5-minute runner: reads Gumroad sales of the digest listing,
+# posts one message per buyer to THEIR webhook, keeps per-sale state in ../digest_state.json
+# (outside this public repo). Runs after the poll so it reports today's data; runs even in
+# PUBLISH_ONLY mode because a missed digest is a broken promise. Non-fatal for the site
+# build, but its line in the log is the delivery evidence — read it.
+if [ -n "${GUMROAD_ACCESS_TOKEN:-}" ]; then
+  log "digest"; python3 digest.py || log "digest: FAILED (non-fatal for the site; buyers may have missed today's message)"
+else
+  log "digest: GUMROAD_ACCESS_TOKEN absent, skipped"
+fi
+
 log "gen_site"
 python3 gen_site.py
 test -s docs/index.html && test -s docs/api/snapshot.json && test -s docs/sitemap.xml
