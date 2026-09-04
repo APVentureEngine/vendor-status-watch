@@ -27,6 +27,10 @@ pretty_name: SaaS vendor status pages — living map + incident history, rebuilt
 license: cc-by-4.0
 language:
   - en
+task_categories:
+  - time-series-forecasting
+  - tabular-classification
+  - text-classification
 tags:
   - status-page
   - incidents
@@ -42,6 +46,12 @@ tags:
   - daily-updated
   - statuspage
   - uptime
+  - monitoring
+  - observability
+  - incident-management
+  - downtime
+  - api-monitoring
+  - tabular
 size_categories:
   - 10K<n<100K
 configs:
