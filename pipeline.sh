@@ -31,6 +31,18 @@ print("surface check ok:", n, "vendors on both api/vendors.json and index.html")
 PY
 # NOTE: gen_site writes docs/api/vendors.json itself (alias-collapsed). Do not cp the raw map over it.
 
+# ---- publish the LIVE site (Hugging Face static Space) -------------------------
+# This is the canonical public surface since 2026-09-04: GitHub Pages stopped
+# building for the whole APVentureEngine org and we have no lever over it. This
+# step is FATAL on failure — if it fails, the thing strangers read is stale and
+# every "rebuilt daily" claim on the page is false. hf_site.py verifies the LIVE
+# bytes after upload (a push is not a deploy), so a green line here means a
+# stranger really can read today's data.
+HFPY="${HF_PYTHON:-$(dirname "$0")/../../warn-feed/product/.venv-hf/bin/python3}"
+[ -x "$HFPY" ] || HFPY=python3
+log "hf_site (live site)"
+"$HFPY" hf_site.py
+
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
   git add -A vendors.json history docs seed_extra.json .indexnow_last 2>/dev/null || git add -A vendors.json history docs seed_extra.json
@@ -45,8 +57,6 @@ fi
 log "indexnow"; python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
 
 # Hugging Face mirror (second discovery surface). Non-fatal: the site is already live; report honestly.
-HFPY="${HF_PYTHON:-$(dirname "$0")/../../warn-feed/product/.venv-hf/bin/python3}"
-[ -x "$HFPY" ] || HFPY=python3
 if [ -n "${HF_TOKEN:-}" ]; then
   log "hf_mirror"
   if "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi

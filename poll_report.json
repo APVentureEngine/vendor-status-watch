@@ -1,9 +1,9 @@
 {
- "at": "2026-09-04T08:33:09Z",
+ "at": "2026-09-04T09:06:33Z",
  "polled": 810,
  "parsed": 767,
  "unknown": 43,
- "seconds": 343.8,
+ "seconds": 325.8,
  "errors": {
   "http 401": 19,
   "moved: not a statuspage any more": 19,
@@ -13,10 +13,10 @@
   "http 404": 2
  },
  "states": {
-  "ok": 677,
-  "maintenance": 25,
-  "degraded": 46,
-  "partial": 10,
+  "ok": 675,
+  "maintenance": 23,
+  "degraded": 49,
+  "partial": 11,
   "major": 4,
   "unknown": 48
  }

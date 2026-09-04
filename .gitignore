@@ -1,4 +1,5 @@
-__pycache__/
 *.pyc
 .DS_Store
+__pycache__/
+hf_site_staging/
 hf_staging/

@@ -225,7 +225,9 @@ def pill(state):
 
 
 def vurl(slug):
-    return f"{SITE}/v/{slug}/"
+    # Flat .html, not a directory: static hosts differ on whether /v/<slug>/ resolves
+    # to index.html (GitHub Pages yes, Hugging Face Spaces no -> 302 off-site). Flat works on both.
+    return f"{SITE}/v/{slug}.html"
 
 
 def write(path, content):
@@ -307,7 +309,7 @@ def render_index():
 <script>(function(){{var q=document.getElementById('vq'),o=document.getElementById('vres'),d=null,ld=false,al={json.dumps(ALIAS)};var lab={json.dumps(STATE_LABEL)};function esc(s){{return String(s).replace(/[&<>"]/g,function(c){{return{{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]}})}}
 function show(){{var s=q.value.toLowerCase().trim();if(!s){{o.innerHTML='';return}}if(!d){{o.textContent='Loading the map…';return}}var m=d.filter(function(v){{return v.q.indexOf(s)>-1}}).slice(0,8);if(!m.length){{o.innerHTML='<p>Not in the map yet. <a href="{REPO}/issues/new?title=Add%20vendor%3A%20'+encodeURIComponent(q.value)+'">Ask for it</a> — most requests ship in the next daily build.</p>';return}}
 o.innerHTML='<ul class="hits">'+m.map(function(v){{var st=v.sup?'<span class="pill s-'+esc(v.st)+'">'+esc(lab[v.st]||v.st)+'</span>':'<span class="pill s-unknown">no public feed</span>';return '<li><a href="'+esc(v.u)+'">'+esc(v.n)+'</a> '+st+' <span class="muted">'+(v.sup?'watchable · slug <code>'+esc(v.s)+'</code>':'listed, not watchable ('+esc(v.p)+')')+'</span></li>'}}).join('')+'</ul>'}}
-function load(){{if(ld)return;ld=true;fetch('{SITE}/api/snapshot.json').then(function(r){{return r.json()}}).then(function(sn){{var st={{}};sn.vendors.forEach(function(r){{st[r.slug]=r.state}});return fetch('{SITE}/api/vendors.json').then(function(r){{return r.json()}}).then(function(vj){{var rev={{}};Object.keys(al).forEach(function(a){{(rev[al[a]]=rev[al[a]]||[]).push(a)}});d=vj.vendors.map(function(v){{var a=(rev[v.slug]||[]).join(' ');return{{n:v.name,s:v.slug,p:v.platform,sup:!!v.supported,st:st[v.slug]||'unknown',u:'{SITE}/v/'+v.slug+'/',q:(v.name+' '+v.slug+' '+a).toLowerCase()}}}});show()}})}}).catch(function(){{ld=false;o.innerHTML='Could not load the map — try the <a href="{SITE}/vendors.html">full list</a>.'}})}}
+function load(){{if(ld)return;ld=true;fetch('{SITE}/api/snapshot.json').then(function(r){{return r.json()}}).then(function(sn){{var st={{}};sn.vendors.forEach(function(r){{st[r.slug]=r.state}});return fetch('{SITE}/api/vendors.json').then(function(r){{return r.json()}}).then(function(vj){{var rev={{}};Object.keys(al).forEach(function(a){{(rev[al[a]]=rev[al[a]]||[]).push(a)}});d=vj.vendors.map(function(v){{var a=(rev[v.slug]||[]).join(' ');return{{n:v.name,s:v.slug,p:v.platform,sup:!!v.supported,st:st[v.slug]||'unknown',u:'{SITE}/v/'+v.slug+'.html',q:(v.name+' '+v.slug+' '+a).toLowerCase()}}}});show()}})}}).catch(function(){{ld=false;o.innerHTML='Could not load the map — try the <a href="{SITE}/vendors.html">full list</a>.'}})}}
 q.addEventListener('focus',load);q.addEventListener('input',function(){{load();show()}})}})();</script>
 </section>
 
@@ -367,8 +369,8 @@ def render_vendor(v):
         body = f"""<section><h1>{E(name)} status</h1><p class="lead">This vendor's status page ({E(v["base"])}) is {E(PLAT_LABEL.get(v["platform"], v["platform"]))} — {E(v.get("note") or "not machine-readable")}. We list it so you know we checked; we do not poll it and never show a state for it.</p>
 {('<p class="small muted">The same status page is also published as: ' + ", ".join(E(a) for a in ALIAS_OF.get(slug, [])) + ". Any of those slugs work in the template.</p>") if ALIAS_OF.get(slug) else ""}
 <p><a href="{E(v["base"])}">Open the vendor's own status page</a> · <a href="{REPO}/issues">Tell us if it has moved</a></p></section>"""
-        write(f"v/{slug}/index.html", page(f"{name} status — not machine-readable", body,
-                                          f"{name}'s status page has no public JSON feed; listed for completeness.", f"v/{slug}/"))
+        write(f"v/{slug}.html", page(f"{name} status — not machine-readable", body,
+                                          f"{name}'s status page has no public JSON feed; listed for completeness.", f"v/{slug}.html"))
         return
     recs = sorted(h["incidents"].values(), key=lambda r: r.get("started_at") or "", reverse=True)
     recs = [r for r in recs if ts(r.get("started_at")) and ts(r["started_at"]) <= NOW]
@@ -417,9 +419,9 @@ def render_vendor(v):
     ld = {"@context": "https://schema.org", "@type": "WebPage", "name": f"{name} status history", "url": vurl(slug),
           "dateModified": h["last_checked"], "isPartOf": {"@type": "WebSite", "name": "Vendor Status Watch", "url": f"{SITE}/"},
           "about": {"@type": "Organization", "name": name, "url": h["status_url"]}}
-    write(f"v/{slug}/index.html", page(f"{name} status history — {n30} incidents in the last 30 days", body,
+    write(f"v/{slug}.html", page(f"{name} status history — {n30} incidents in the last 30 days", body,
                                       f"{name} status page history: {len(recs)} incidents on record, {n30} in the last 30 days, current state {STATE_LABEL.get(h['last_state'])}. Free Slack/Discord/Teams alerts via GitHub Actions.",
-                                      f"v/{slug}/", extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
+                                      f"v/{slug}.html", extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
     items = "".join(f"<item><title>{E(r.get('title') or 'incident')} [{E(r.get('state') or '')}]</title><link>{E(r.get('url') or h['status_url'])}</link>"
                     f"<guid isPermaLink=\"false\">{E(slug)}:{E(str(r.get('id') or r['started_at']))}</guid><pubDate>{rfc822(r['started_at'])}</pubDate>"
                     f"<description>{E((r.get('body') or '')[:800])}</description></item>" for r in recs[:30])
@@ -522,15 +524,21 @@ def prune_and_redirect():
     import shutil
     live = {v["slug"] for v in vendors["vendors"]}
     vdir = os.path.join(OUT, "v")
-    for slug in sorted(os.listdir(vdir)) if os.path.isdir(vdir) else []:
-        if slug in live:
+    keep = live | set(ALIAS)
+    for ent in sorted(os.listdir(vdir)) if os.path.isdir(vdir) else []:
+        path = os.path.join(vdir, ent)
+        slug = ent[:-5] if ent.endswith(".html") else ent
+        if slug in keep:
             continue
-        shutil.rmtree(os.path.join(vdir, slug), ignore_errors=True)
+        if os.path.isdir(path):
+            shutil.rmtree(path, ignore_errors=True)
+        else:
+            os.remove(path)
     for alias, canon in sorted(ALIAS.items()):
         if canon not in live:
             continue
         nm = by_slug[canon]["name"]
-        write(f"v/{alias}/index.html",
+        write(f"v/{alias}.html",
               f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
               f'<title>{E(alias)} — same status page as {E(nm)}</title>'
               f'<link rel="canonical" href="{vurl(canon)}">'
