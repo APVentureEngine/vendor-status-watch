@@ -27,12 +27,26 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
-"incidents": {},
-"last_checked": "2026-09-04T10:17:20Z",
+"incidents": {
+"1050547": {
+"first_seen": "2026-09-04T11:14:03Z",
+"impact": "maintenance",
+"last_seen": "2026-09-04T11:14:03Z",
+"started_at": "2026-09-04T11:12:09.000Z",
+"state": "maintenance",
+"title": "Analytics/Usage",
+"url": "https://status.appwrite.io"
+}
+},
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "operational",
 "last_error": null,
 "last_state": "ok",

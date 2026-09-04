@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-04T10:17:20Z",
+ "generated_at": "2026-09-04T11:14:03Z",
  "source": "metoro-io/statusphere (MIT) + live probe",
  "count": 1148,
- "supported": 810,
+ "supported": 818,
  "vendors": [
   {
    "slug": "1password",
@@ -236,10 +236,10 @@
   {
    "slug": "amazon-web-services",
    "name": "Amazon Web Services",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.aws.amazon.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "AWS Health Dashboard: public/currentevents"
   },
   {
    "slug": "amplified-it",
@@ -687,10 +687,10 @@
   {
    "slug": "azure",
    "name": "Azure",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://azure.microsoft.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Azure: status RSS feed"
   },
   {
    "slug": "b2c2",
@@ -2665,10 +2665,10 @@
   {
    "slug": "firebase",
    "name": "Firebase",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.firebase.google.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Firebase: incidents.json"
   },
   {
    "slug": "fireblocks",
@@ -3135,26 +3135,26 @@
   {
    "slug": "google-cloud",
    "name": "Google Cloud",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.cloud.google.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Google Cloud: incidents.json"
   },
   {
    "slug": "google-play",
    "name": "Google Play",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.play.google.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Google Play: incidents.json"
   },
   {
    "slug": "google-workspace",
    "name": "Google Workspace",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://www.google.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Google Workspace: appsstatus incidents.json"
   },
   {
    "slug": "gotomypc",
@@ -6889,10 +6889,10 @@
   {
    "slug": "slack",
    "name": "Slack",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://slack-status.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Slack: JSON api/v2.0.0/current"
   },
   {
    "slug": "sleuth",
@@ -7167,10 +7167,10 @@
   {
    "slug": "stripe",
    "name": "Stripe",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.stripe.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Stripe: JSON /current (component states)"
   },
   {
    "slug": "subsplash",

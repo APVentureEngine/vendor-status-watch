@@ -1,0 +1,23 @@
+{
+"vendor": "Firebase",
+"slug": "firebase",
+"platform": "bespoke",
+"status_url": "https://status.firebase.google.com",
+"last_checked": "2026-09-04T11:14:03Z",
+"last_state": "partial",
+"history_backfilled": false,
+"first_watched": "2026-09-04T11:14:03Z",
+"incidents": [
+{
+"body": "We are investigating a system issue. To protect platform stability, we have limited the volume of collected data. Expect a visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
+"first_seen": "2026-09-04T11:14:03Z",
+"impact": "medium",
+"last_seen": "2026-09-04T11:14:03Z",
+"started_at": "2026-07-01T07:00:00+00:00",
+"state": "service_disruption",
+"title": "Performance Monitoring: Visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
+"updated_at": "2026-08-04T19:50:19+00:00",
+"url": "https://status.firebase.google.com/incidents/hBVSwDQrs8JPC53quJ8T"
+}
+]
+}

@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -36,7 +40,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-04-22T21:57:59.605Z",
 "resolved_inferred": false,
 "started_at": "2026-04-22T18:36:26.035Z",
@@ -49,7 +53,7 @@
 "body": "The issue preventing users from accessing the Support Center and Bare Metal pages within the MacStadium customer portal has been resolved. All customers should be able to create tickets and view bare metal within the customer portal, without issue.\n\nThank you for your patience while we worked through this issue.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-09-16T13:37:26.769Z",
 "resolved_inferred": false,
 "started_at": "2025-09-15T14:23:05.951Z",
@@ -62,7 +66,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-04-21T21:43:20.993Z",
 "resolved_inferred": false,
 "started_at": "2026-04-21T21:32:24.026Z",
@@ -75,7 +79,7 @@
 "body": "The issue with our hosting provider has been resolved and our communication capabilities have been restored. There is still a backlog of messages that will be sent out, but everything is operating as expected.\n\nThank you for your patience as our provider worked to resolve issues impacting our ticket communication.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-10-20T21:36:02.898Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T15:32:03.956Z",
@@ -85,7 +89,7 @@
 "url": "https://stspg.io/txklxfv0g2pl"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

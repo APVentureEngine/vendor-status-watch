@@ -3,9 +3,20 @@
 "slug": "mimecast",
 "platform": "status.io",
 "status_url": "https://status.mimecast.com",
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
-"incidents": []
+"incidents": [
+{
+"body": "We are aware that some customers may be experiencing email delays, with some seeing an increased volume of emails on their delivery queue. Our investigation shows that this issue is impacting emails to Office 365, coinciding with an incident reported by Office 365 on their end. We will continue monitoring and will post updates here as they become available.",
+"first_seen": "2026-09-04T11:14:03Z",
+"last_seen": "2026-09-04T11:14:03Z",
+"started_at": "2026-09-04T10:55:50.663Z",
+"state": "investigating",
+"title": "Email Delivery Delays  to O365",
+"updated_at": "2026-09-04T10:55:50.675Z",
+"url": "https://status.mimecast.com"
+}
+]
 }

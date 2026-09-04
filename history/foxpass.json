@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -36,7 +40,7 @@
 "body": "All subsidiary systems affected by the AWS US-East-1 outage appear to be back to normal.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-10-20T16:54:55.346-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T10:15:04.899-07:00",
@@ -46,7 +50,7 @@
 "url": "https://stspg.io/3sfb0p2d628p"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

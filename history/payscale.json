@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -36,7 +40,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-06-23T10:24:47.015-07:00",
 "resolved_inferred": false,
 "started_at": "2026-06-23T10:07:31.307-07:00",
@@ -49,7 +53,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-01-09T12:00:08.720-08:00",
 "resolved_inferred": false,
 "started_at": "2026-01-08T10:05:53.246-08:00",
@@ -62,7 +66,7 @@
 "body": "Between 11:49 PM PDT on October 19 and 3:01 PM PDT on October 20, Marketpay experienced an interruption due to an issue with Amazon Web Services (AWS). Service has been fully restored, and systems are operating as expected.\n\nWe will continue to monitor performance to ensure stability.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-10-21T05:21:06.000-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T12:34:27.000-07:00",
@@ -72,7 +76,7 @@
 "url": "https://stspg.io/p6qr0nwrv7jl"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

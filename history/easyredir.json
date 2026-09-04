@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -36,7 +40,7 @@
 "body": "The brief increases in latency affecting some redirects have been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-08-15T10:06:17.633-06:00",
 "resolved_inferred": false,
 "started_at": "2025-08-11T12:48:01.097-06:00",
@@ -49,7 +53,7 @@
 "body": "A network-related issue with urllo\u2019s redirector may have caused some customers to experience increased latency for a short period of time. Services are back to normal and the issue is resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-08-10T14:00:00.000-06:00",
 "resolved_inferred": false,
 "started_at": "2025-08-10T14:00:00.000-06:00",
@@ -62,7 +66,7 @@
 "body": "Tail latencies on redirects have returned to normal levels.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-08-27T11:05:56.904-06:00",
 "resolved_inferred": false,
 "started_at": "2025-08-25T16:24:48.994-06:00",
@@ -75,7 +79,7 @@
 "body": "All prior analytics data is now available in the urllo dashboard. This issue is now resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-12-18T13:11:39.752-07:00",
 "resolved_inferred": false,
 "started_at": "2025-12-17T18:48:18.157-07:00",
@@ -88,7 +92,7 @@
 "body": "Increased latency on redirects has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2025-08-29T10:10:35.661-06:00",
 "resolved_inferred": false,
 "started_at": "2025-08-28T12:04:39.729-06:00",
@@ -98,7 +102,7 @@
 "url": "https://stspg.io/nc089cygxc5r"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

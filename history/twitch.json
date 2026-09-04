@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -36,7 +40,7 @@
 "body": "\ud83d\udee0 We have resolved all known negative service impacts.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-08-28T02:31:34.334Z",
 "resolved_inferred": false,
 "started_at": "2026-08-27T20:09:34.655Z",
@@ -49,7 +53,7 @@
 "body": "We've fixed an issue where watching streams/VODs during did not extend watch streaks or award Channel Points",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-09-03T15:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-09-03T15:00:00.000Z",
@@ -62,7 +66,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "resolved_at": "2026-03-31T19:02:03.095Z",
 "resolved_inferred": false,
 "started_at": "2026-03-31T18:09:09.928Z",
@@ -72,7 +76,7 @@
 "url": "https://stspg.io/3xm0p4lz6z0m"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

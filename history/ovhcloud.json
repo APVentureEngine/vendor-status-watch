@@ -27,6 +27,10 @@
 {
 "at": "2026-09-04T10:17:20Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-04T11:14:03Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -35,7 +39,7 @@
 "69c2eb64982ae70a0481cb6f": {
 "body": "The down VPS host has been brought back up, and all instances are running normally.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "started_at": "2026-03-24T19:52:00.000Z",
 "state": "investigating",
 "title": "One VPS host down in VIN",
@@ -45,7 +49,7 @@
 "69cfc8927f5ccb10b51d3e37": {
 "body": "OVHcloud support staff is currently monitoring a rack fault in 120A02B. Power to the rack was  temporarily disrupted and has been restored . All servers on the rack are currently backup. If you are experiencing any issues please reach out to OVHcloud support staff.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "started_at": "2026-04-03T14:02:00.000Z",
 "state": "investigating",
 "title": "[VIN1] Server Power Loss VIN0120A02B",
@@ -55,7 +59,7 @@
 "6a867cf0472c9804ee6c932a": {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "started_at": "2026-08-20T04:05:04.640Z",
 "state": "maintenance",
 "title": "Maintenance to perform vCSA Minor Upgrade to 8.0U3k",
@@ -64,7 +68,7 @@
 "6a8da9c672fa2504dbad2886": {
 "body": "Cancellation reversal is currently not working as intended. If the VPS is set to cancel and a request is made to cancel the service cancellation, it remains flagged for removal. \r\n\r\nIf you are attempting to remove services for VPS, please reach out to our support team by opening a ticket. \r\n\r\n",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "started_at": "2026-08-25T14:42:14.789Z",
 "state": "investigating",
 "title": "Service Cancelation issue for VPS Product",
@@ -74,7 +78,7 @@
 "6a99be186314b0477dc5bbfd": {
 "body": "We're currently investigating an issue where  Delivery operations are stuck in \"Doing\". As a result, orders placed may be significantly delayed while we work on this resolution.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-04T10:17:20Z",
+"last_seen": "2026-09-04T11:14:03Z",
 "started_at": "2026-09-03T18:36:08.957Z",
 "state": "investigating",
 "title": "Delays in Server Delivery due to Backend Processing Issue",
@@ -82,7 +86,7 @@
 "url": "https://status.us.ovhcloud.com"
 }
 },
-"last_checked": "2026-09-04T10:17:20Z",
+"last_checked": "2026-09-04T11:14:03Z",
 "last_description": "Planned Maintenance",
 "last_error": null,
 "last_state": "maintenance",
