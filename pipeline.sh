@@ -38,6 +38,19 @@ else
   log "digest: GUMROAD_ACCESS_TOKEN absent, skipped"
 fi
 
+# The file forkers actually run is template/watch.py; test_watch.py imports the
+# product/ copy. They drifted (c143: product/ still pointed SITE at the dead
+# github.io host and printed a /vendors/ URL HF 302s off-site), so the test now
+# asserts they are byte-identical. Fatal: shipping a template with a dead link in
+# it is the one thing a free-distribution venture cannot afford.
+log "test_watch (shipped-copy guard + diff engine + end-to-end)"
+python3 test_watch.py > /dev/null
+
+# ...and the PUBLIC template repo is a fourth copy nobody was reconciling. Pushes
+# watch.py/platforms.py/config.json and regenerates the README's pre-filled
+# one-click workflow link. Non-fatal: a failed sync must not stop today's data.
+log "sync_template"; python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
+
 log "gen_site"
 python3 gen_site.py
 test -s docs/index.html && test -s docs/api/snapshot.json && test -s docs/sitemap.xml

@@ -45,7 +45,7 @@ STATE_PATH = os.path.join(HERE, "state.json")
 CONFIG_PATH = os.path.join(HERE, "config.json")
 MAP_PATH = os.path.join(HERE, "vendors.json")
 DEFAULT_MAP_URL = "https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/vendors.json"
-SITE = "https://apventureengine.github.io/vendor-status-watch"
+SITE = "https://approjects-vendor-status-watch.static.hf.space"
 
 ICON = {"ok": "🟢", "maintenance": "🔧", "degraded": "🟡", "partial": "🟠", "major": "🔴", "unknown": "⚪"}
 EVENT_WORD = {"opened": "INCIDENT", "updated": "UPDATE", "resolved": "RESOLVED",
@@ -283,7 +283,7 @@ def run(argv=None) -> int:
     vmap = load_map(cfg)
     missing = [s for s in cfg["vendors"] if s not in vmap["vendors"]]
     if missing:
-        print(f"WARNING unknown vendor slug(s) not in map: {missing}  (see {SITE}/vendors/)", file=sys.stderr)
+        print(f"WARNING unknown vendor slug(s) not in map: {missing}  (see {SITE}/vendors.html)", file=sys.stderr)
     targets = [vmap["vendors"][s] for s in cfg["vendors"] if s in vmap["vendors"]]
     for v in targets:
         if not v.get("supported", True):

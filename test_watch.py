@@ -3,8 +3,24 @@
 Then an END-TO-END run against a local HTTP webhook receiver with a fake map,
 so the whole path (config -> map -> poll -> diff -> POST -> state.json) is
 exercised without touching the network or a real chat channel."""
-import json, os, sys, threading, tempfile, subprocess, http.server
+import json, os, sys, threading, tempfile, subprocess, http.server, re
 import watch as W
+
+# 0. SHIPPED-COPY GUARD (c143). The file a forker runs is template/watch.py, but this
+# test imports product/watch.py — two copies, edited independently, and they HAD
+# drifted: product/ still pointed SITE at apventureengine.github.io (404 — org Pages
+# builds are frozen) and printed a "/vendors/" URL that HF 302s off-site to a
+# huggingface.co 404. Tests that exercise a file nobody ships are worthless, so keep
+# them byte-identical and fail loudly the moment they diverge again.
+for _f in ("watch.py", "platforms.py"):
+    _a, _b = open(_f).read(), open(os.path.join("template", _f)).read()
+    assert _a == _b, f"{_f} has drifted from template/{_f} — the shipped copy is template/; sync them"
+# HF static Spaces do NOT resolve /dir/ to /dir/index.html; they 302 to huggingface.co/dir
+# (a 404). Any directory-style URL in shipped code is therefore a dead link for a user.
+for _f in ("watch.py", "platforms.py", os.path.join("template", "watch.py")):
+    _bad = re.findall(r"https?://[^\s\"'`]*static\.hf\.space/[A-Za-z0-9_\-/]*/(?=[\s\"'`)|])", open(_f).read())
+    assert not _bad, f"{_f}: directory-style URL(s) {_bad} — HF 302s these off-site; use an explicit .html"
+print("shipped-copy guard: PASS (watch.py/platforms.py match template/, no directory-style HF URLs)")
 
 def snap(slug, state="ok", incidents=(), error=None):
     return {"vendor": slug.title(), "slug": slug, "platform": "statuspage",
