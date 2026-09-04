@@ -1,22 +1,23 @@
 {
- "at": "2026-09-04T10:17:20Z",
- "polled": 810,
+ "at": "2026-09-04T18:17:53Z",
+ "polled": 813,
  "parsed": 767,
- "unknown": 43,
- "seconds": 322.9,
+ "unknown": 46,
+ "seconds": 304.7,
  "errors": {
   "http 401": 19,
   "moved: not a statuspage any more": 20,
   "http 526": 1,
+  "http 0": 3,
   "moved: not an instatus page any more": 1,
   "http 404": 2
  },
  "states": {
   "ok": 677,
-  "maintenance": 24,
-  "degraded": 45,
-  "partial": 12,
+  "maintenance": 19,
+  "degraded": 49,
+  "partial": 13,
   "major": 4,
-  "unknown": 48
+  "unknown": 51
  }
 }

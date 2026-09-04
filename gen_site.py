@@ -154,6 +154,34 @@ vend30 = collections.Counter(t[0] for t in inc30)
 N_VEND30 = len(vend30)
 BACKFILLED = sum(1 for h in hist.values() if h.get("history_backfilled"))
 
+# c141 CENSORING — do not remove without reading this.
+# Statuspage's /api/v2/incidents.json returns at most the last 50 incidents, so a
+# back-filled vendor's archive is TRUNCATED, not complete: 96 vendors sit at
+# exactly 50 records and 28 at 51. If such a vendor's oldest record falls INSIDE
+# the window we are ranking on, its count in that window is a lower bound and its
+# true count is unknown — ranking it against uncensored vendors understates it and
+# produces a "busiest vendors" table that is quietly wrong. So: any at-cap vendor
+# whose earliest record starts after the window opens is excluded from rankings
+# and the exclusion is stated on the page. Measured 2026-09-04: 4 such vendors in
+# the 30-day window, 26 in the 90-day window.
+_oldest = {}
+for _slug, _h in hist.items():
+    _ds = [r["started_at"] for r in _h["incidents"].values() if r.get("started_at")]
+    if _ds:
+        _oldest[_slug] = min(_ds)
+
+
+def censored(slug, window_start):
+    """True if this vendor's count inside `window_start`..now is a lower bound."""
+    if len(hist.get(slug, {}).get("incidents", {})) < 50:
+        return False                       # not at the API cap: archive is complete
+    o = _oldest.get(slug)
+    return bool(o) and ts(o) > window_start
+
+
+CENSORED_30 = sorted(s for s in hist if censored(s, D30))
+CENSORED_90 = sorted(s for s in hist if censored(s, D90))
+
 # incidents per day, last 30 days (for the trend)
 per_day = collections.Counter(ts(t[2]["started_at"]).strftime("%Y-%m-%d") for t in inc30)
 # c137: the final bucket must be a COMPLETE day. Ending the series on TODAY put a
@@ -262,9 +290,17 @@ def render_index():
         f'<tr><td><a href="{vurl(r["slug"])}">{E(r["vendor"])}</a></td><td>{pill(r["state"])}</td>'
         f'<td>{E(r["description"])}</td><td class="small muted">{E(PLAT_LABEL.get(r["platform"], r["platform"]))}</td></tr>'
         for r in NOT_OK)
-    top = sorted(vend30.items(), key=lambda kv: -kv[1])[:15]
-    bars = DV.figure(DV.bar_chart([(by_slug[s]["name"], n) for s, n in top], unit="incidents"),
-                     "Vendors with the most incidents opened in the last 30 days",
+    top = sorted(((s, n) for s, n in vend30.items() if s in by_slug),
+                 key=lambda kv: -kv[1])[:15]
+    _shown = [s for s, _ in top if s in CENSORED_30]
+    _cap = (f" A “≥” marks {len(_shown)} vendor(s) whose source archive is truncated at 50 "
+            f"incidents and begins inside this window: the real figure is at least this, and we "
+            f"do not know how much more. They are shown rather than dropped, because dropping the "
+            f"busiest vendors from a busiest-vendors chart would mislead more than a bound does."
+            if _shown else "")
+    bars = DV.figure(DV.bar_chart([(by_slug[s]["name"] + (" ≥" if s in CENSORED_30 else ""), n)
+                                   for s, n in top], unit="incidents"),
+                     "Vendors with the most incidents opened in the last 30 days." + _cap,
                      source="each vendor's own status page, read by this project", asof=TODAY) if top else ""
     trend = DV.figure(DV.trend(TREND, unit=" incidents"),
                       f"Incidents opened per day across all polled vendors — the {len(TREND)} "
@@ -574,6 +610,127 @@ def prune_and_redirect():
             os.remove(os.path.join(OUT, "api", "v", apij))
 
 
+def render_space_readme():
+    """Write product/space_readme.md — the Hugging Face SPACE HUB page.
+
+    Why this is distribution and not decoration (c141, 2026-09-04): the static
+    host `*.static.hf.space` is in NO sitemap Google reads and has no inbound
+    links (learning 2026-09-04, #seo). But `huggingface.co/spaces/<id>` IS in
+    huggingface.co's sitemap and does rank. So the hub page is (a) our only
+    Google-facing surface for this venture and (b) the only place we can create
+    inbound links INTO the static host. Hence: real numbers, and ~40 deep links
+    to per-vendor history pages, regenerated every pipeline run so they never
+    disagree with the data.
+    """
+    top90 = [(s, n) for s, n in collections.Counter(t[0] for t in inc90).most_common()
+             if s in by_slug][:40]
+    rows = "\n".join(
+        f'| [{by_slug[s]["name"]} status history]({vurl(s)}) '
+        f'| {"≥ " if s in CENSORED_90 else ""}{n} '
+        f'| {len(hist.get(s, {}).get("incidents", {}))} |'
+        for s, n in top90)
+    _shown90 = [s for s, _ in top90 if s in CENSORED_90]
+    cap_note = (f"\n\n**“≥” on {len(_shown90)} row(s):** the source status-page API returns at most 50 "
+                f"incidents, and these vendors' archives begin inside the 90-day window — so the figure "
+                f"is a floor, not a total. We show the bound rather than dropping the vendor, and rather "
+                f"than printing a number we cannot stand behind." if _shown90 else "")
+    unsup = N_MAP - N_SUP
+    digest = (f"\n## Paid tier — Vendor Status Digest, {DIGEST_PRICE}\n\n"
+              f"One webhook message every 24 h naming which of *your* (up to 25) vendors had incidents "
+              f"opened, updated or resolved, which are still degraded, and which we cannot see. Quiet days "
+              f"get an \"all quiet\" line, so silence never means broken. Slack / Discord / Teams / plain "
+              f"JSON, auto-detected. No account, no dashboard — it arrives where you already work.\n\n"
+              f"[Buy the digest — {DIGEST_PRICE}]({DIGEST})\n") if DIGEST else ""
+    md = f"""---
+title: Vendor Status Watch
+emoji: \U0001f6f0️
+colorFrom: red
+colorTo: gray
+sdk: static
+pinned: false
+license: mit
+short_description: Living map of {N_MAP:,} SaaS/cloud status feeds, rebuilt daily
+tags:
+  - status-page
+  - statuspage
+  - incidents
+  - outages
+  - uptime
+  - saas
+  - cloud
+  - sre
+  - devops
+  - vendor-management
+  - dataset
+  - daily-updated
+---
+
+# Vendor Status Watch — {N_MAP:,} SaaS status pages mapped, {N_INC:,} incidents on record
+
+**[Open the live board →]({SITE}/)** · rebuilt {GEN_AT[:10]} at {GEN_AT[11:16]} UTC
+
+| | |
+|---|---|
+| **{N_MAP:,}** | vendor status pages mapped |
+| **{N_SUP:,}** | of them with a machine-readable feed we poll |
+| **{N_INC:,}** | real incidents on record ({BACKFILLED:,} vendors back-filled from source) |
+| **{N_INC30:,}** | incidents opened in the last 30 days, across {N_VEND30:,} vendors |
+
+Most "is X down?" pages are a guess from crowd reports. This is not: every row
+comes from the vendor's own public status feed, re-probed on a daily timer, and
+the map of *who hosts where* is self-healed as vendors migrate between Statuspage,
+Instatus, status.io and Better Stack.
+
+## Free, no account, no email address
+
+- **Live board** — [{SITE}/]({SITE}/) — current state of every polled vendor.
+- **Per-vendor incident history** — dates, durations, impact, sparkline, RSS.
+- **JSON API** — [`/api/snapshot.json`]({SITE}/api/snapshot.json) (current state),
+  [`/api/vendors.json`]({SITE}/api/vendors.json) (the living map).
+- **RSS** — [all vendors]({SITE}/feed.xml), or one feed per vendor.
+- **Dataset mirror** — [APProjects/saas-vendor-status-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily).
+
+```bash
+curl -s {SITE}/api/snapshot.json | python3 -c \\
+  "import json,sys; [print(r['vendor'], r['state']) for r in json.load(sys.stdin)['vendors'] if r['state']!='ok']"
+```
+
+## Free alerts you run yourself (MIT)
+
+[**{TPL.split('/')[-1]}**]({TPL}) — fork it, list your vendors, paste a Slack,
+Discord or Teams webhook URL. GitHub Actions polls every 5 minutes in your own
+free minutes and posts opened / updated / resolved / unreachable / recovered.
+Nothing runs on our side; nothing to cancel.
+{digest}
+## Busiest vendors, last 90 days
+
+| Vendor | Incidents (90d) | On record |
+|---|---|---|
+{rows}
+
+Ranked on incidents each vendor opened on its own status page in the last 90
+days — a busy status page means a *communicative* vendor as often as an unreliable
+one, so read it as disclosure volume, not as a reliability league table.{cap_note}
+
+[Full list of all {N_MAP:,} vendors →]({SITE}/vendors.html) ·
+[Coverage by platform →]({SITE}/platforms.html)
+
+## Honest limits
+
+{unsup:,} of the {N_MAP:,} mapped vendors publish no machine-readable status
+(Apple, Microsoft 365 and Notion among them). We list them so you know we
+checked, and we never invent an "OK" for them — AWS, Azure, Google Cloud, Slack
+and Stripe *are* covered, by hand-written parsers over their own public feeds.
+Only Statuspage exposes a back-fillable incident archive, so vendors on the other
+platforms accumulate history from the day we first watched them.
+
+Source and issues: [{REPO}]({REPO}) · Data CC BY 4.0 · code MIT
+"""
+    with open(os.path.join(HERE, "space_readme.md"), "w") as f:
+        f.write(md)
+    print(f"gen_site: space_readme.md ({len(md)} bytes, {len(top90)} deep links)")
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     render_index()
@@ -584,6 +741,7 @@ def main():
     render_api()
     render_legal()
     render_feeds_and_meta()
+    render_space_readme()
     prune_and_redirect()
     n = sum(len(f) for _, _, f in os.walk(OUT))
     print(f"gen_site: {n} files → docs/  | map {N_MAP} sup {N_SUP} polled {N_POLLED} parsed {N_PARSED} not_ok {len(NOT_OK)} incidents {N_INC} (30d {N_INC30})")

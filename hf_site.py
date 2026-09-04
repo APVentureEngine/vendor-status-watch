@@ -82,8 +82,16 @@ def stage():
     if os.path.isdir(STAGE):
         shutil.rmtree(STAGE)
     shutil.copytree(DOCS, STAGE)
+    # c141: gen_site.py writes space_readme.md from the SAME data it renders the
+    # site from, so the hub page's numbers and its ~40 deep links can never
+    # disagree with the board. The static string below is only a fallback for a
+    # run where gen_site has not executed yet.
+    gen = os.path.join(HERE, "space_readme.md")
+    card = open(gen).read() if os.path.isfile(gen) else README
+    if not card.startswith("---"):
+        raise SystemExit("hf_site: space_readme.md lost its YAML front matter — HF would reject it")
     with open(os.path.join(STAGE, "README.md"), "w") as f:
-        f.write(README)
+        f.write(card)
     n = sum(len(fs) for _, _, fs in os.walk(STAGE))
     print(f"hf_site: staged {n} files")
     return n

@@ -103,7 +103,7 @@ df.groupby("vendor").size().sort_values(ascending=False).head(20)   # noisiest v
 
 | column | meaning |
 |---|---|
-| `vendor_slug` | stable id; page at `{site}/v/<vendor_slug>/` |
+| `vendor_slug` | stable id; page at `{site}/v/<vendor_slug>.html` (flat `.html`, not a directory — the host does not resolve `/dir/` to an index) |
 | `vendor` | vendor display name |
 | `platform` | status-page platform (statuspage, statusio, instatus, betterstack, …) |
 | `incident_id` | the vendor's own incident id |
@@ -138,6 +138,22 @@ their own public feeds (`platform = bespoke`). A status page
 is what the VENDOR chose to publish — an empty history means the vendor posted
 nothing, not that nothing happened. We never synthesise an OK.
 
+## Browse the busiest vendors
+
+Each row links to that vendor's incident history page — dates, durations, impact,
+sparkline, per-vendor RSS and JSON — regenerated from this dataset every day.
+
+| Vendor | Incidents (90d) | On record |
+|---|---|---|
+{top_table}
+
+Ranked on incidents each vendor opened on its own status page in the last 90
+days. Read it as disclosure volume, not a reliability league table: a busy status
+page means a communicative vendor as often as an unreliable one.{cap_note}
+
+
+[All {n_map:,} vendors]({site}/vendors.html) · [coverage by platform]({site}/platforms.html)
+{digest_block}
 Related: the same pipeline ships an MIT-licensed GitHub Actions template that
 alerts your Slack/Discord/Teams when the vendors you list change state —
 [{tpl}]({tpl}).
@@ -204,7 +220,54 @@ def build_stage():
     shutil.copy(os.path.join(HERE, "docs", "api", "snapshot.json"), os.path.join(STAGE, "snapshot.json"))
     n_map = vendors["count"]
     n_sup = sum(1 for v in vendors["vendors"] if v.get("supported"))
-    card = CARD.format(n_map=n_map, n_sup=n_sup, n_inc=n_inc, n_vendors_with_inc=vendors_with,
+    # c141 — the "busiest vendors" table. Two things it must get right:
+    #   (1) it is the only place on an INDEXED huggingface.co page that links into
+    #       the static host, which otherwise has zero inbound links (the Space hub
+    #       page does NOT server-render its README, so it cannot do this job);
+    #   (2) Statuspage caps its incident API at 50 records, so a vendor sitting at
+    #       the cap whose archive STARTS inside the window has an unknown, not a
+    #       low, count. Ranking it would be a guess — exclude it and say so.
+    #       Same rule as gen_site.CENSORED_90; keep the two in step.
+    # Window anchored on the snapshot's generated_at, never now() — this module
+    # promises deterministic cards (same inputs => same bytes), and a wall-clock
+    # window would make a re-run of the same data produce a different table.
+    from datetime import datetime, timedelta
+    _anchor = (snap.get("generated_at") or vendors.get("generated_at") or "")[:19]
+    _d90 = (datetime.strptime(_anchor, "%Y-%m-%dT%H:%M:%S") - timedelta(days=90)
+            ).strftime("%Y-%m-%dT%H:%M:%S")
+    _tot, _oldest, _n90 = {}, {}, {}
+    _name = {}
+    for r in rows:
+        s = r["vendor_slug"]
+        _tot[s] = _tot.get(s, 0) + 1
+        _name[s] = r["vendor"]
+        st = r["started_at"] or ""
+        if st:
+            _oldest[s] = min(_oldest.get(s, st), st)
+            if st >= _d90:
+                _n90[s] = _n90.get(s, 0) + 1
+    _cens = [s for s in _tot if _tot[s] >= 50 and _oldest.get(s, "") > _d90]
+    _top = sorted(_n90.items(), key=lambda kv: -kv[1])[:40]
+    top_table = "\n".join(
+        f"| [{_name[s]} status history]({SITE}/v/{s}.html) "
+        f"| {'≥ ' if s in _cens else ''}{n} | {_tot[s]} |" for s, n in _top)
+    _shown = [s for s, _ in _top if s in _cens]
+    cap_note = (f"\n\n**“≥” on {len(_shown)} row(s):** the source status-page API returns at most 50 "
+                f"incidents, and these vendors' archives begin inside the 90-day window, so the figure is "
+                f"a floor rather than a total. We show the bound instead of dropping the vendor, and "
+                f"instead of printing a number we cannot stand behind." if _shown else "")
+    _cfg = json.load(open(os.path.join(HERE, "site_config.json")))
+    _digest = (_cfg.get("digest_url") or "")
+    digest_block = (
+        f"\n## Paid tier — Vendor Status Digest, {_cfg.get('digest_price', '$19/year')}\n\n"
+        f"One webhook message every 24 h naming which of *your* (up to 25) vendors had incidents "
+        f"opened, updated or resolved, which are still degraded, and which we cannot see. Quiet days "
+        f"get an \"all quiet\" line, so silence never means broken. Slack / Discord / Teams / plain "
+        f"JSON, auto-detected from the webhook host. The free data above stays free and complete; "
+        f"the digest is only the delivery.\n\n[Buy the digest]({_digest})\n"
+    ) if _digest else ""
+    card = CARD.format(top_table=top_table, cap_note=cap_note, digest_block=digest_block,
+                       n_map=n_map, n_sup=n_sup, n_inc=n_inc, n_vendors_with_inc=vendors_with,
                        as_of=(snap.get("generated_at") or vendors.get("generated_at") or "")[:16].replace("T", " ") + " UTC",
                        site=SITE, site_host=SITE.split("//")[1], repo=REPO, ds=DATASET_NAME,
                        tpl="https://github.com/APVentureEngine/vendor-status-watch-template")
