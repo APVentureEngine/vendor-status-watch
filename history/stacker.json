@@ -19,6 +19,10 @@
 {
 "at": "2026-09-04T08:33:09Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T09:06:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -28,7 +32,7 @@
 "body": "This has now been resolved, thank you!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-02-20T23:18:43.067Z",
 "resolved_inferred": false,
 "started_at": "2026-02-20T19:58:21.269Z",
@@ -41,7 +45,7 @@
 "body": "This update is now complete. Apologies again for the disruption. If you are still seeing any issues please reach out to support.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-03-20T12:43:51.650Z",
 "resolved_inferred": false,
 "started_at": "2026-03-20T12:15:03.311Z",
@@ -54,7 +58,7 @@
 "body": "The offending change has been rolled back and things are now working again as before. If you still see a white screen try refreshing the page. If you still see any other issues please reach out to support in the first instance. Apologies for the disruption!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-07-10T16:32:03.116Z",
 "resolved_inferred": false,
 "started_at": "2026-07-10T16:23:01.874Z",
@@ -67,7 +71,7 @@
 "body": "This maintenance is complete. There were three short periods of outage, under 1 minute each. Thanks again for your patience.\n\nIf anyone is still experiencing any problems, please reach out to support in the first instance and we'll be able to investigate.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-06-26T15:16:19.623Z",
 "resolved_inferred": false,
 "started_at": "2026-06-26T14:42:10.306Z",
@@ -80,7 +84,7 @@
 "body": "This incident has been resolved!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-02-03T14:34:50.538Z",
 "resolved_inferred": false,
 "started_at": "2026-02-03T14:29:39.891Z",
@@ -90,7 +94,7 @@
 "url": "https://stspg.io/tqt5txgff5x1"
 }
 },
-"last_checked": "2026-09-04T08:33:09Z",
+"last_checked": "2026-09-04T09:06:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

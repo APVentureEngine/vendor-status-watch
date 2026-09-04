@@ -19,6 +19,10 @@
 {
 "at": "2026-09-04T08:33:09Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T09:06:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -28,7 +32,7 @@
 "body": "We identified the root cause and the issue has now been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-08-01T08:40:59.349Z",
 "resolved_inferred": false,
 "started_at": "2025-08-01T07:37:22.784Z",
@@ -41,7 +45,7 @@
 "body": "All services are restored.  This appears to have been an issue with our CDN.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-12-05T09:19:18.481Z",
 "resolved_inferred": false,
 "started_at": "2025-12-05T09:05:46.296Z",
@@ -54,7 +58,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-03-31T14:35:07.904Z",
 "resolved_inferred": false,
 "started_at": "2026-03-31T12:03:18.359Z",
@@ -67,7 +71,7 @@
 "body": "Cloudflare is in global recovery mode and we haven't seen any errors for the past half hour. We're going to consider this resolved but continue watching it until the outage is completely resolved on the Cloudflare side.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-11-18T16:25:09.784Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T14:40:22.153Z",
@@ -77,7 +81,7 @@
 "url": "https://stspg.io/s1c79t0j9564"
 }
 },
-"last_checked": "2026-09-04T08:33:09Z",
+"last_checked": "2026-09-04T09:06:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

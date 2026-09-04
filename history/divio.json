@@ -19,6 +19,10 @@
 {
 "at": "2026-09-04T08:33:09Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T09:06:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -28,7 +32,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-03-18T11:04:11.668Z",
 "resolved_inferred": false,
 "started_at": "2026-03-18T10:30:58.992Z",
@@ -41,7 +45,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-03-05T10:56:01.775Z",
 "resolved_inferred": false,
 "started_at": "2026-03-05T10:20:11.658Z",
@@ -54,7 +58,7 @@
 "body": "Service Impact Restored: We have confirmed that the intermittent issues affecting the Divio Control Panel and Media/Asset Delivery are restored.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-11-18T19:35:57.158Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T12:43:12.104Z",
@@ -67,7 +71,7 @@
 "body": "DNSimple has confirmed that all systems are operational and we can confirm from our side that domain resolution is working normally for all customers.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-02-10T21:15:02.240Z",
 "resolved_inferred": false,
 "started_at": "2026-02-10T17:25:07.374Z",
@@ -80,7 +84,7 @@
 "body": "The fix has been successfully deployed across all regions and we can now report that all systems are back to normal.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-10-20T18:17:21.653Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T16:31:12.099Z",
@@ -90,7 +94,7 @@
 "url": "https://stspg.io/j4s9crwyz1fc"
 }
 },
-"last_checked": "2026-09-04T08:33:09Z",
+"last_checked": "2026-09-04T09:06:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

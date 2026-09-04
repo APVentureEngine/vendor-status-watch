@@ -3,7 +3,7 @@
 "slug": "dashlane",
 "platform": "status.io",
 "status_url": "https://status.dashlane.com",
-"last_checked": "2026-09-04T08:33:09Z",
+"last_checked": "2026-09-04T09:06:33Z",
 "last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
@@ -11,7 +11,7 @@
 {
 "body": "We have received reports from several users having received an email that their account has been suspended. We have also received reports that some users are experiencing difficulties in logging in to Dashlane after resetting their master password.\r\n\r\nWe are investigating this situation, and we will provide further updates as soon as we have more information. Thank you for your understanding.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "started_at": "2026-05-31T15:19:56.948Z",
 "state": "investigating",
 "title": "Investigating Unexpected Account Notifications and Login Issues",

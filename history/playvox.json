@@ -19,6 +19,10 @@
 {
 "at": "2026-09-04T08:33:09Z",
 "state": "ok"
+},
+{
+"at": "2026-09-04T09:06:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -28,7 +32,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2025-10-20T15:57:00.465-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T06:15:21.588-07:00",
@@ -41,7 +45,7 @@
 "body": "Our cloud provider has confirmed a full recovery of the service. We have continued monitoring and can confirm that Playvox services are operating normally at this time.\n\nThis incident is now considered resolved. If you experience any further issues, please don\u2019t hesitate to reach out.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-04T08:33:09Z",
+"last_seen": "2026-09-04T09:06:33Z",
 "resolved_at": "2026-02-10T14:54:57.619-08:00",
 "resolved_inferred": false,
 "started_at": "2026-02-10T14:22:42.343-08:00",
@@ -51,7 +55,7 @@
 "url": "https://stspg.io/ls6h0kfx64x2"
 }
 },
-"last_checked": "2026-09-04T08:33:09Z",
+"last_checked": "2026-09-04T09:06:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
