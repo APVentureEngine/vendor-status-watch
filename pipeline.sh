@@ -22,6 +22,13 @@ log "gen_site"
 python3 gen_site.py
 test -s docs/index.html && test -s docs/api/snapshot.json && test -s docs/sitemap.xml
 grep -q '@media' docs/index.html
+python3 - <<'PY'
+import json
+n = json.load(open("docs/api/vendors.json"))["count"]
+html = open("docs/index.html").read()
+assert f"{n:,} SaaS vendors" in html, f"api/vendors.json says {n} vendors but index.html does not — two public surfaces disagree"
+print("surface check ok:", n, "vendors on both api/vendors.json and index.html")
+PY
 # NOTE: gen_site writes docs/api/vendors.json itself (alias-collapsed). Do not cp the raw map over it.
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
