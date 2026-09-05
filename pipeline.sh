@@ -99,7 +99,11 @@ if [ ! -x "$HFPY" ] || ! "$HFPY" -c 'import huggingface_hub' 2>/dev/null; then
   exit 3
 fi
 log "hf_site (live site)"
-T 120 "$HFPY" hf_site.py
+# c156: 120s was killed (exit 124) at 12:16Z when warn-feed's publish.sh was uploading 3,993
+# files to HF at the same minute (both timers fire 12:15Z); a normal run takes ~16s. 240s
+# absorbs a contended upload; everything after this step (push, release, indexnow, hf_mirror)
+# is lost when it dies, so a generous bound is cheaper than a half-published run.
+T 240 "$HFPY" hf_site.py
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"

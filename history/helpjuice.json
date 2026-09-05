@@ -63,6 +63,10 @@
 {
 "at": "2026-09-05T08:54:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T12:15:31Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -72,7 +76,7 @@
 "body": "The application experienced intermittent slowness and 500 errors due to an unusually high request queue time.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-01-28T17:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-01-28T17:00:00.000Z",
@@ -85,7 +89,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-10-08T14:40:48.878Z",
 "resolved_inferred": false,
 "started_at": "2025-10-08T13:42:06.718Z",
@@ -98,7 +102,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-01-06T17:45:09.803Z",
 "resolved_inferred": false,
 "started_at": "2026-01-06T16:27:54.955Z",
@@ -111,7 +115,7 @@
 "body": "The security incident identified earlier today has been fully resolved. The unauthorized modification has been removed from all affected accounts, content delivery caches have been purged, the compromised access has been revoked, and all platform functionality \u2014 including administrative access \u2014 was restored as of 15:45 UTC.\n\nAffected customers have been notified directly by email with account-specific details, including a full incident report. Our forensic review of the incident's full scope is continuing as an additional verification step; if it identifies anything relevant to a specific account, we will contact that customer directly.\n\nQuestions: support@helpjuice.com.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-08-12T16:00:36.591Z",
 "resolved_inferred": false,
 "started_at": "2026-08-12T11:46:51.000Z",
@@ -124,7 +128,7 @@
 "body": "The DB maintenance is over and the app is back to normal",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-05-09T18:43:59.648Z",
 "resolved_inferred": false,
 "started_at": "2026-05-09T17:09:56.156Z",
@@ -134,7 +138,7 @@
 "url": "https://stspg.io/l7q6qb4jfb6q"
 }
 },
-"last_checked": "2026-09-05T08:54:55Z",
+"last_checked": "2026-09-05T12:15:31Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

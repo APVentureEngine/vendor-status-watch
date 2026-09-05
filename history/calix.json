@@ -63,6 +63,10 @@
 {
 "at": "2026-09-05T08:54:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T12:15:31Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -72,7 +76,7 @@
 "body": "Customer Advisory \u2013 Cloud Service Outage\nIncident Start Time: 9:30 AM ET, July 24, 2026\nCurrent Status: Resolved\n \nLatest Update\n \nOperations Cloud services have been successfully restored, and all core functionalities are now operating normally. The Health pipeline is fully operational, including customer-configured threshold processing.\nRecovery activities are complete at this stage. Any remaining data gaps or residual issues will be evaluated and addressed on a case-by-case basis to ensure minimal customer impact.\n \nCommunity post link; https://community.calix.com/s/feed/0D5Pm00002aJM42KAG\n \nWhat We\u2019re Doing: The identified issue has been addressed through corrective actions, and systems have now recovered. This will be the final post for this incident.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-07-25T09:45:58.762-07:00",
 "resolved_inferred": false,
 "started_at": "2026-07-24T07:30:06.577-07:00",
@@ -82,7 +86,7 @@
 "url": "https://stspg.io/15b2gmpnzdkb"
 }
 },
-"last_checked": "2026-09-05T08:54:55Z",
+"last_checked": "2026-09-05T12:15:31Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

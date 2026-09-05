@@ -63,6 +63,10 @@
 {
 "at": "2026-09-05T08:54:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T12:15:31Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -72,7 +76,7 @@
 "body": "Mezmo is no longer seeing impacts from the AWS events of today. We will continue to monitor our services and respond if we notice any abnormalities.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-10-21T02:08:17.227Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T17:00:47.340Z",
@@ -85,7 +89,7 @@
 "body": "The issues with Search in Live Tail have been resolved, and Search performance is back to normal.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-09-15T21:16:59.258Z",
 "resolved_inferred": false,
 "started_at": "2025-09-15T20:18:45.669Z",
@@ -98,7 +102,7 @@
 "body": "Mezmo has made a backend change that we believe should mitigate this issue in the future. Mezmo will continue to proactively monitor the platform for any signs of recurrence. Please reach out through our normal support channels if you are still experiencing issues at this time or need further information about this incident. We apologize for the impacts this incident may have had to your services.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-09-08T21:53:34.621Z",
 "resolved_inferred": false,
 "started_at": "2025-09-08T19:55:52.677Z",
@@ -111,7 +115,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-09-09T23:52:23.661Z",
 "resolved_inferred": false,
 "started_at": "2025-09-09T20:49:10.604Z",
@@ -121,7 +125,7 @@
 "url": "https://stspg.io/3vxbm7352t0s"
 }
 },
-"last_checked": "2026-09-05T08:54:55Z",
+"last_checked": "2026-09-05T12:15:31Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -63,6 +63,10 @@
 {
 "at": "2026-09-05T08:54:55Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T12:15:31Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -72,7 +76,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-02-28T00:33:50.057Z",
 "resolved_inferred": false,
 "started_at": "2026-02-27T23:09:34.549Z",
@@ -85,7 +89,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-09-30T16:36:26.038Z",
 "resolved_inferred": false,
 "started_at": "2025-09-30T15:28:11.631Z",
@@ -98,7 +102,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2026-08-08T10:57:38.265Z",
 "resolved_inferred": false,
 "started_at": "2026-08-06T13:51:40.007Z",
@@ -111,7 +115,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-11-30T23:39:05.202Z",
 "resolved_inferred": false,
 "started_at": "2025-11-30T22:23:38.520Z",
@@ -124,7 +128,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-11-19T10:50:20.830Z",
 "resolved_inferred": false,
 "started_at": "2025-11-19T09:49:47.454Z",
@@ -137,7 +141,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T08:54:55Z",
+"last_seen": "2026-09-05T12:15:31Z",
 "resolved_at": "2025-10-20T11:00:32.616Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T09:48:31.326Z",
@@ -147,7 +151,7 @@
 "url": "https://stspg.io/j89nrmy2cgkr"
 }
 },
-"last_checked": "2026-09-05T08:54:55Z",
+"last_checked": "2026-09-05T12:15:31Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
