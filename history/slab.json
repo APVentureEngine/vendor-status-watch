@@ -59,12 +59,16 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "HASISSUES",
 "last_error": null,
 "last_state": "degraded",

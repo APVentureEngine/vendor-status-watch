@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "We have identified and resolved the root cause of the issue.\nOne of our nodes was unable to perform DNS resolution due to routing errors.\nThe routing issues have now been fixed, and DNS resolution is working correctly.\n\nWe apologize for the inconvenience caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-03-10T21:27:10.497+01:00",
 "resolved_inferred": false,
 "started_at": "2026-03-10T20:04:58.869+01:00",
@@ -81,7 +85,7 @@
 "body": "**Outage Recap**\n\n* **2025-11-05 at 5:56 AM UTC**, our monitoring system began raising alerts indicating that some of our services were unable to communicate with the database.\n* **6:20 AM UTC:** We reported an outage affecting the **Golive** and **Time Squad** services on our status page.\n* **6:26 AM UTC:** We suspected the issue originated from our hosting provider\u2019s managed database service. We contacted their support team and opened a ticket.\n* **6:57 AM UTC:** The hosting provider confirmed the issue on their side and announced a general outage on their platform. [Incident link](https://public-cloud.status-ovhcloud.com/incidents/9qmxv0gbky43)\n* **7:58 AM UTC:** The hosting provider reported that the issue had been resolved. We restarted our **Golive** and **Time Squad** services.\n* **8:19 AM UTC:** All of our services were fully restored, and we updated our status page accordingly.\n* **8:31 AM UTC:** The hosting provider informed us that the root cause was a **DNS issue** on their end.\n\nWe apologize for the inconvenience caused and appreciate your patience and understanding.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-11-05T11:07:55.539+01:00",
 "resolved_inferred": false,
 "started_at": "2025-11-05T07:20:24.892+01:00",
@@ -94,7 +98,7 @@
 "body": "**07:23 UTC** \u2013 The support team was alerted by monitoring that some database queries were taking longer than expected.\n\n**07:34 UTC** \u2013 Our uptime probes began raising alerts indicating that Golive was no longer accessible to end users.\n\n**07:46 UTC** \u2013 The support team updated the status page to notify users of a Golive outage.\n\n**08:23 UTC** \u2013 The support team identified an abnormal traffic spike originating from Atlassian webhooks. Under normal conditions, traffic peaks reach around 1,000 webhook calls per minute; however, we experienced a sustained spike exceeding 9,000 calls per minute. This caused one of our components to open more database connections than it was designed to handle, forcing it to restart repeatedly. To protect the Golive application, webhook traffic was temporarily disabled. The component stopped restarting and access to Golive was restored.\n\n**11:20 UTC** \u2013 The engineering team implemented an initial performance improvement on the affected component. The fix was deployed to production, and webhook traffic was re-enabled to evaluate performance.\n\n**11:44 UTC** \u2013 Webhook traffic was suspended again as the initial fix proved insufficient. Although database connections were no longer an issue, the component was still receiving excessive request traffic.\n\n**14:01 UTC** \u2013 A second improvement was implemented, this time at the gateway level. The fix was deployed to production and webhook traffic was re-enabled. No further restarts were observed, and Golive appeared to be fully operational.\n\n**14:45 UTC** \u2013 After several traffic peaks reaching up to 5,000 webhook calls per minute, all components continued to operate normally, with sufficient margins in terms of database connections and execution threads. The incident was closed.  \n  \nWith the additional performance improvements, the infrastructure now appears capable of handling a significantly higher load than originally designed.\n\nFurthermore, traffic should be better segregated to isolate asynchronous workloads \\(webhooks, conflict checking, automation, etc.\\) from transactional traffic \\(UI application usage\\). This separation should help mitigate the risk of asynchronous traffic impacting normal user navigation.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-02-05T15:56:54.317+01:00",
 "resolved_inferred": false,
 "started_at": "2026-02-05T08:46:30.902+01:00",
@@ -104,7 +108,7 @@
 "url": "https://stspg.io/2fv9rvwxwmfm"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

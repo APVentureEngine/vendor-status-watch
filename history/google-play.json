@@ -31,6 +31,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "partial"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -41,6 +45,8 @@
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "medium",
 "last_seen": "2026-09-05T05:19:27Z",
+"resolved_at": "2026-09-05T08:54:55Z",
+"resolved_inferred": true,
 "started_at": "2026-09-03T20:28:00+00:00",
 "state": "service_disruption",
 "title": "Play Developer Subscriptions and In-App Purchases API: We're investigating reports of an issue with Play Developer Subscriptions and In-App Purchases API. We will provide more information shortly. The affected users",
@@ -48,10 +54,10 @@
 "url": "https://status.play.google.com/incidents/yrUiYMxvcr1qsAhJRWHd"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
-"last_description": "1 open incident",
+"last_checked": "2026-09-05T08:54:55Z",
+"last_description": "All services available",
 "last_error": null,
-"last_state": "partial",
+"last_state": "ok",
 "platform": "bespoke",
 "slug": "google-play",
 "status_url": "https://status.play.google.com",

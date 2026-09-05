@@ -14,7 +14,19 @@ Rules
 """
 import collections, json, os, re, sys
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta, timezone
 import platforms as P
+
+TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+import time as _time
+_T0 = _time.time()
+def _lap(label):
+    print(f"[{_time.time() - _T0:5.1f}s] {label}", flush=True)
+_CACHE_P = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reprobe_cache.json")
+try:
+    _HTML_CACHE = json.load(open(_CACHE_P))
+except Exception:
+    _HTML_CACHE = {}
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "../../research/vendor-status-probe-2026-09-04.json"
 OUT = sys.argv[2] if len(sys.argv) > 2 else "vendors.json"
@@ -62,7 +74,7 @@ for r in rows:
     else:
         seen_slug[slug] = 1
     v = {"slug": slug, "name": r["name"], "platform": plat, "base": base,
-         "supported": plat in P.PARSERS}
+         "supported": plat in P.PARSERS and plat != "incident.io"}  # incident.io needs a feed (reprobe below)
     if plat == "dead":
         v["note"] = f"unreachable at probe time ({r.get('error') or r.get('http')})"
     elif not v["supported"]:
@@ -105,32 +117,88 @@ print("bespoke parsers attached:", n_besp)
 # (2026-09-03: rescued cloudflare, elastic, bandwidth, qualys -> statuspage; railway -> instatus.)
 # This is the daily self-healing step: vendors migrate platforms; the map follows.
 def _reprobe(v):
+    """Return (platform, extra_fields) for an unknown-html/incident.io row, or (None, {})."""
     b = v["base"]
+    # 6 s per probe: a host that has not answered a JSON path in 6 s is not going to,
+    # and 200 rows x 4 paths x 15 s was blowing the pipeline's 120 s cap (c152).
     for plat, path, key in (("statuspage", "/api/v2/summary.json", "status"),
                             ("instatus", "/summary.json", "page"),
-                            ("betterstack", "/index.json", "data")):
-        code, body = P._get(b + path)
+                            ("betterstack", "/index.json", "data"),
+                            ("sorry", "/api/v1/status", "page")):
+        code, body = P._get(b + path, timeout=6)
         if code == 200 and body[:1] in (b"{", b"["):
             try:
                 j = json.loads(body)
             except Exception:
                 continue
             if isinstance(j, dict) and key in j:
-                return plat
-    return None
+                return plat, {}
+    # c152: the HTML itself can name a machine-readable source the JSON probes miss.
+    # Fetching ~180 HTML pages costs 2-3 min, so each base is re-read at most weekly
+    # (reprobe_cache.json); a hit is re-validated live every day by the poller anyway.
+    cached = _HTML_CACHE.get(b)
+    if cached and cached.get("until", "") >= TODAY:
+        return (cached.get("plat"), cached.get("extra") or {}) if cached.get("plat") else (None, {})
+    plat, extra = _reprobe_html(b)
+    _HTML_CACHE[b] = {"until": (datetime.now(timezone.utc) + timedelta(days=7)).strftime("%Y-%m-%d"),
+                      "plat": plat, "extra": extra}
+    return plat, extra
 
-unk = [v for v in out if v["platform"] == "unknown-html"]
-with ThreadPoolExecutor(max_workers=16) as ex:
-    found = list(ex.map(_reprobe, unk))
-for v, plat in zip(unk, found):
+
+def _reprobe_html(b):
+    code, body = P._get(b, limit=800_000, timeout=10)
+    if code != 200:
+        return None, {}
+    html = body.decode("utf-8", "replace")
+    # (a) incident.io pages: a Next.js SPA on the custom host, real RSS on the canonical host
+    if "incident.io" in html or "incident-io-status-page" in html:
+        feed = P._incidentio_feed(b)
+        if feed:
+            fcode, fbody = P._get(feed)
+            if fcode == 200 and P._xml_items(fbody) is not None:
+                return "incident.io", {"feed": feed}
+    # (b) a vendor-owned host that is only a shell around an Atlassian Statuspage
+    #     (status.loom.com -> loom.status.atlassian.com): adopt the real page as base.
+    for host in dict.fromkeys(re.findall(r"https?://([a-z0-9.-]+\.(?:statuspage\.io|status\.atlassian\.com))", html)):
+        if host.startswith("subscriptions.") or host.startswith("manage."):
+            continue
+        scode, sbody = P._get(f"https://{host}/api/v2/summary.json")
+        if scode == 200 and sbody[:1] == b"{":
+            try:
+                if "status" in json.loads(sbody):
+                    return "statuspage", {"base": f"https://{host}", "aliases": [b]}
+            except Exception:
+                pass
+    return None, {}
+
+_lap("seed + bespoke done")
+unk = [v for v in out if v["platform"] in ("unknown-html", "incident.io")]
+def _timed_reprobe(v):
+    t = _time.time()
+    r = _reprobe(v)
+    return r, _time.time() - t
+with ThreadPoolExecutor(max_workers=32) as ex:
+    timed = list(ex.map(_timed_reprobe, unk))
+found = [r for r, _ in timed]
+print("reprobe slowest:", ", ".join(f"{v['slug']}={t:.0f}s" for v, (_, t) in sorted(zip(unk, timed), key=lambda z: -z[1][1])[:5]))
+for v, (plat, extra) in zip(unk, found):
     if plat:
         v["platform"], v["supported"] = plat, True
         v.pop("note", None)
-print("reprobe rescued:", sum(1 for f in found if f), "of", len(unk), "unknown-html")
+        if "base" in extra:
+            v.setdefault("aliases", [])
+            v["aliases"] = sorted(set(v["aliases"] + extra.pop("aliases", [])))
+        v.update(extra)
+    elif v["platform"] == "incident.io":
+        v["supported"], v["note"] = False, "incident.io page with no working feed"
+print("reprobe rescued:", sum(1 for f, _ in found if f), "of", len(unk), "unknown-html/incident.io")
+json.dump(_HTML_CACHE, open(_CACHE_P, "w"), indent=0, sort_keys=True)
+_lap("reprobe done")
 
 sio = [v for v in out if v["platform"] == "status.io"]
 with ThreadPoolExecutor(max_workers=8) as ex:
     ids = list(ex.map(lambda v: P.statusio_page_id(v["base"]), sio))
+_lap("status.io ids done")
 for v, pid in zip(sio, ids):
     if pid:
         v["page_id"] = pid

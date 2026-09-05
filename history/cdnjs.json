@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "We have confirmed that searching libraries on cdnjs continues to be available. Our upstream search provider has also confirmed resolution on their end.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-07-30T16:57:18.702Z",
 "resolved_inferred": false,
 "started_at": "2026-07-30T11:50:20.268Z",
@@ -78,7 +82,7 @@
 "url": "https://stspg.io/2zt39bdqk46d"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -67,7 +71,7 @@
 "cmtgzv9jp00k41mmv9sg3gp8l": {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "MAJOROUTAGE",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "started_at": "2026-08-31T08:11:00.000Z",
 "state": "monitoring",
 "title": "Platform Issue | CUMULOCITY.COM",
@@ -75,7 +79,7 @@
 "url": "https://status.cumulocity.com/cmtgzv9jp00k41mmv9sg3gp8l"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "UP",
 "last_error": null,
 "last_state": "ok",

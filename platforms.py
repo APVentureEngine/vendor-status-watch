@@ -14,7 +14,8 @@ state/research/vendor-status-probe-2026-09-04.md and probe_endpoints.py):
   hund          13 vendors  API returns 401 -> RSS/HTML fallback only
   cachet         4 vendors  /api/v1/* returns 404 on all four   -> unsupported
   uptimerobot   15 vendors  PSP page is HTML with no public JSON -> unsupported
-  incident.io    5 vendors  HTML only (some ld+json)            -> unsupported
+  incident.io    5 vendors  canonical host /feed.rss (c152)      (vendor["feed"])
+  sorry          1 vendor   GET <base>/api/v1/status + /api/v1/notices (c152)
   unknown-html 263 vendors  bespoke (AWS, Azure, GCP, Apple...) -> hand-written
 
 909 / 1425 = 64% of the seed list are covered by the four JSON parsers here.
@@ -42,10 +43,19 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-def _get(url: str, limit: int = 2_000_000):
+# One shared TLS context + opener (c152): a bare urllib.request.urlopen builds a fresh
+# SSLContext and re-parses the whole CA bundle on EVERY call — ~0.25 s of CPU per request,
+# which is GIL-serialised across threads, so 800 polls cost 200 s of CPU before any byte
+# arrives. Building it once makes the poller and the map re-probe network-bound again.
+import ssl as _ssl
+_CTX = _ssl.create_default_context()
+_OPENER = urllib.request.build_opener(urllib.request.HTTPSHandler(context=_CTX))
+
+
+def _get(url: str, limit: int = 2_000_000, timeout: float | None = None):
     """Return (http_status, bytes). Network failure -> (0, b'')."""
     try:
-        r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=TIMEOUT)
+        r = _OPENER.open(urllib.request.Request(url, headers=UA), timeout=timeout or TIMEOUT)
         return r.status, r.read(limit)
     except urllib.error.HTTPError as e:
         return e.code, b""
@@ -496,6 +506,160 @@ def azure(vendor, slug, base):
     return out
 
 
+# --------------------------------------------------------------------------- #
+# incident.io status pages  (c152, 2026-09-05)
+# --------------------------------------------------------------------------- #
+# The vendor's custom host (status.notion.so) is a Next.js SPA that answers 200 HTML
+# to every path, but it links a CANONICAL host (www.notion-status.com) whose
+# /feed.rss is real RSS with "<b>Status: Investigating|Identified|Monitoring|
+# Resolved</b>" as the first line of every description. The map stores that feed
+# URL as vendor["feed"] (discovered by build_map from <link type=application/rss+xml>);
+# without one we fall back to <base>/feed.rss.
+_IIO_STATUS = {"investigating": "degraded", "identified": "degraded", "monitoring": "degraded",
+               "in progress": "maintenance", "maintenance": "maintenance"}
+_IIO_CLOSED = ("resolved", "complete", "cancelled", "canceled", "closed", "scheduled", "upcoming")  # scheduled = future window, not active
+
+
+def _incidentio_feed(base):
+    """Find the RSS feed a vendor's incident.io page advertises (None if not incident.io)."""
+    code, body = _get(base.rstrip("/"), limit=800_000)
+    if code != 200:
+        return None
+    html = body.decode("utf-8", "replace")
+    if "incident.io" not in html and "incident-io-status-page" not in html:
+        return None
+    m = re.search(r'<link[^>]+type="application/rss\+xml"[^>]*href="([^"]+)"', html) \
+        or re.search(r'href="([^"]+)"[^>]*type="application/rss\+xml"', html)
+    if m:
+        href = m.group(1)
+        if href.startswith("/"):
+            href = base.rstrip("/") + href
+        return href
+    m = re.search(r'https?://[a-z0-9.-]+/feed\.rss', html)
+    return m.group(0) if m else base.rstrip("/") + "/feed.rss"
+
+
+def incidentio(vendor, slug, base, feed=None):
+    feed = feed or base.rstrip("/") + "/feed.rss"
+    code, body = _get(feed)
+    if code != 200:
+        return _blank(vendor, slug, "incident.io", base, error=f"http {code} on feed")
+    items = _xml_items(body)
+    if items is None:
+        return _blank(vendor, slug, "incident.io", base, error="incident.io feed: not xml")
+    out = _blank(vendor, slug, "incident.io", base)
+    active = []
+    for i in items:
+        desc = i.get("description") or ""
+        m = re.search(r"Status:\s*([A-Za-z ]+?)\s*<", desc) or re.search(r"Status:\s*([A-Za-z ]+)", desc)
+        st = (m.group(1).strip().lower() if m else "")
+        if not st or any(c in st for c in _IIO_CLOSED):
+            continue
+        active.append((i, st))
+    if not active:
+        out["state"] = "ok"
+        out["description"] = "No open incidents on the vendor's incident.io feed" if items else "Feed is empty"
+    else:
+        ranks = [_IIO_STATUS.get(st, "degraded") for _, st in active]
+        out["state"] = "maintenance" if all(r == "maintenance" for r in ranks) else ("partial" if len(active) > 1 else "degraded")
+        out["description"] = f"{len(active)} open {'incident' if len(active) == 1 else 'incidents'} on the vendor's status feed"
+    for i, st in active:
+        out["incidents"].append({
+            "id": "iio-" + _hid(i.get("guid") or i.get("link") or i.get("title")),
+            "title": i.get("title"), "state": st.replace(" ", "_"), "impact": None,
+            "url": (i.get("link") or "").replace("//incidents", "/incidents") or base,
+            "started_at": i.get("pubDate"), "updated_at": i.get("pubDate"),
+            "body": re.sub(r"<[^>]+>", " ", i.get("description") or "")[:500].strip() or None,
+        })
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# Sorry(tm) status pages  (c152) — GET <base>/api/v1/status {page:{state}} + /api/v1/notices
+# --------------------------------------------------------------------------- #
+_SORRY_PAGE = {"operational": "ok", "degraded": "degraded", "partial": "partial", "down": "major",
+               "maintenance": "maintenance", "planned": "maintenance"}
+
+
+def sorry(vendor, slug, base):
+    b = base.rstrip("/")
+    code, body = _get(b + "/api/v1/status")
+    if code != 200:
+        return _blank(vendor, slug, "sorry", base, error=f"http {code}")
+    try:
+        page = json.loads(body)["page"]
+    except Exception:
+        return _blank(vendor, slug, "sorry", base, error="sorry api: not json")
+    out = _blank(vendor, slug, "sorry", base)
+    st = (page.get("state") or "").lower()
+    out["state"] = _SORRY_PAGE.get(st, "degraded" if st else "unknown")
+    out["description"] = page.get("state_text") or st or "unknown"
+    code, body = _get(b + "/api/v1/notices")
+    notices = []
+    if code == 200:
+        try:
+            notices = json.loads(body).get("notices") or []
+        except Exception:
+            notices = []
+    for n in notices:
+        if (n.get("state") or "").lower() in ("resolved", "completed", "cancelled", "canceled"):
+            continue
+        if (n.get("timeline_state") or "").startswith("past"):
+            continue
+        is_maint = (n.get("type") or "") == "planned"
+        out["incidents"].append({
+            "id": f"sorry-{n.get('id')}", "title": n.get("subject"),
+            "state": "maintenance" if is_maint else (n.get("state") or "active"),
+            "impact": n.get("type"), "url": n.get("url"),
+            "started_at": n.get("began_at") or n.get("created_at"), "updated_at": n.get("updated_at"),
+            "body": ((n.get("latest_update") or {}).get("content") or "")[:500].strip() or None,
+        })
+    if out["incidents"] and out["state"] == "ok":
+        out["state"] = "maintenance" if all(i["state"] == "maintenance" for i in out["incidents"]) else "degraded"
+    return out
+
+
+# Heroku — https://status.heroku.com/api/v4/current-status  {status:[{system,status:green|yellow|red}], incidents, scheduled}
+_HEROKU = {"green": "ok", "yellow": "degraded", "red": "major", "blue": "maintenance"}
+
+
+def heroku(vendor, slug, base):
+    code, body = _get("https://status.heroku.com/api/v4/current-status")
+    if code != 200:
+        return _blank(vendor, slug, "bespoke", base, error=f"http {code}")
+    try:
+        j = json.loads(body)
+    except Exception:
+        return _blank(vendor, slug, "bespoke", base, error="heroku api: not json")
+    out = _blank(vendor, slug, "bespoke", base)
+    ranks = [_HEROKU.get((s.get("status") or "").lower(), "unknown") for s in j.get("status") or []]
+    worst = max(ranks, key=lambda r: STATES.index(r) if r in STATES else 0) if ranks else "unknown"
+    out["state"] = worst
+    bad = [s["system"] for s in j.get("status") or [] if (s.get("status") or "").lower() != "green"]
+    out["description"] = "All systems green" if worst == "ok" else f"Affected: {', '.join(bad)}"
+    for i in j.get("incidents") or []:
+        if i.get("resolved"):
+            continue
+        out["incidents"].append({
+            "id": f"heroku-{i.get('id')}", "title": i.get("title"), "state": i.get("state") or "active",
+            "impact": None, "url": i.get("full_url"), "started_at": i.get("created_at"),
+            "updated_at": i.get("updated_at"),
+            "body": (((i.get("updates") or [{}])[0]).get("contents") or "")[:500].strip() or None,
+        })
+    for m in j.get("scheduled") or []:
+        if (m.get("state") or "") != "in_progress" or m.get("resolved"):
+            continue
+        if out["state"] == "ok":
+            out["state"], out["description"] = "maintenance", "Scheduled maintenance in progress"
+        out["incidents"].append({
+            "id": f"heroku-{m.get('id')}", "title": m.get("title"), "state": "maintenance",
+            "impact": None, "url": m.get("full_url"), "started_at": m.get("created_at"),
+            "updated_at": m.get("updated_at"),
+            "body": (((m.get("updates") or [{}])[0]).get("contents") or "")[:500].strip() or None,
+        })
+    return out
+
+
 # host of the seed base URL -> (parser, note shown on the coverage page)
 BESPOKE = {
     "slack-status.com": (slack, "Slack: JSON api/v2.0.0/current"),
@@ -506,6 +670,7 @@ BESPOKE = {
     "status.play.google.com": (google_dashboard, "Google Play: incidents.json"),
     "status.aws.amazon.com": (aws, "AWS Health Dashboard: public/currentevents"),
     "azure.microsoft.com": (azure, "Azure: status RSS feed"),
+    "status.heroku.com": (heroku, "Heroku: JSON api/v4/current-status"),
 }
 
 
@@ -527,9 +692,11 @@ PARSERS = {
     "betterstack": betterstack,
     "status.io": statusio,
     "bespoke": bespoke,
+    "incident.io": incidentio,
+    "sorry": sorry,
 }
 UNSUPPORTED = {"hund": "api 401", "cachet": "api 404", "uptimerobot": "no public json",
-               "incident.io": "html only", "unknown-html": "bespoke page"}
+               "unknown-html": "bespoke page"}
 
 
 def check(vendor: dict) -> dict:
@@ -542,4 +709,7 @@ def check(vendor: dict) -> dict:
     if plat == "status.io":
         return statusio(vendor.get("name"), vendor.get("slug"), vendor.get("base"),
                         page_id=vendor.get("page_id"))
+    if plat == "incident.io":
+        return incidentio(vendor.get("name"), vendor.get("slug"), vendor.get("base"),
+                          feed=vendor.get("feed"))
     return fn(vendor.get("name"), vendor.get("slug"), vendor.get("base"))

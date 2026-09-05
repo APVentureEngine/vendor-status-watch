@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "Services are back to normal now.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-10-20T11:44:10Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T07:59:59Z",
@@ -80,7 +84,7 @@
 "body": "We no longer see internal checks failing and the health improving. Cloudflare declared that the incident is resolved and they are monitoring the platform.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-11-18T14:48:37Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T11:57:56Z",
@@ -92,7 +96,7 @@
 "body": "The issue is confirmed to be fully resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-06-26T08:19:13Z",
 "resolved_inferred": false,
 "started_at": "2026-06-26T07:25:10Z",
@@ -104,7 +108,7 @@
 "body": "Sign-ups are functional again. Thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-08-07T12:14:15Z",
 "resolved_inferred": false,
 "started_at": "2026-08-07T11:38:42Z",
@@ -113,7 +117,7 @@
 "updated_at": "2026-08-07T12:14:15Z"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

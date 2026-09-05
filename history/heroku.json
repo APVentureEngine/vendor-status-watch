@@ -1,0 +1,19 @@
+{
+"checks": [
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-05T08:54:55Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-05T08:54:55Z",
+"last_description": "All systems green",
+"last_error": null,
+"last_state": "ok",
+"platform": "bespoke",
+"slug": "heroku",
+"status_url": "https://status.heroku.com",
+"vendor": "Heroku"
+}

@@ -14,9 +14,9 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | | |
 |---|---|
 | Vendors mapped | **1,127** |
-| With a machine-readable status feed | **799** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
-| Incidents on record | **14,707** across 650 vendors |
-| Opened in the last 30 days | **2,189** |
+| With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
+| Incidents on record | **14,715** across 651 vendors |
+| Opened in the last 30 days | **2,184** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -97,7 +97,7 @@ exactly what is sent. One payment, no auto-renewal, 14-day refund.
 ## Honest limits
 
 - **Roughly 330 of the 1,150 mapped vendors publish no machine-readable status** —
-  Apple, Microsoft 365 and Notion among them, plus the Hund, Cachet, UptimeRobot and
+  Apple, Microsoft 365 and Okta among them, plus the Hund, Cachet, UptimeRobot and
   incident.io platforms. (AWS, Azure, Google Cloud/Firebase/Workspace/Play, Slack and
   Stripe *are* covered: `platforms.py` carries a hand-written parser for each vendor's
   own public feed. Exact counts live on the coverage page.) The template tells you on its first run which of your picks are

@@ -22,16 +22,16 @@ tags:
   - daily-updated
 ---
 
-# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,707 incidents on record
+# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,715 incidents on record
 
-**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-05 at 05:19 UTC
+**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-05 at 08:54 UTC
 
 | | |
 |---|---|
 | **1,127** | vendor status pages mapped |
-| **799** | of them with a machine-readable feed we poll |
-| **14,707** | real incidents on record (650 vendors back-filled from source) |
-| **2,189** | incidents opened in the last 30 days, across 403 vendors |
+| **805** | of them with a machine-readable feed we poll |
+| **14,715** | real incidents on record (651 vendors back-filled from source) |
+| **2,184** | incidents opened in the last 30 days, across 403 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -122,8 +122,8 @@ one, so read it as disclosure volume, not as a reliability league table.
 
 ## Honest limits
 
-328 of the 1,127 mapped vendors publish no machine-readable status
-(Apple, Microsoft 365 and Notion among them). We list them so you know we
+322 of the 1,127 mapped vendors publish no machine-readable status
+(Apple, Microsoft 365 and Okta among them). We list them so you know we
 checked, and we never invent an "OK" for them — AWS, Azure, Google Cloud, Slack
 and Stripe *are* covered, by hand-written parsers over their own public feeds.
 Only Statuspage exposes a back-fillable incident archive, so vendors on the other

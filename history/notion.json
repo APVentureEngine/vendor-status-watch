@@ -1,0 +1,19 @@
+{
+"checks": [
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
+}
+],
+"first_watched": "2026-09-05T08:54:55Z",
+"history_backfilled": false,
+"incidents": {},
+"last_checked": "2026-09-05T08:54:55Z",
+"last_description": "No open incidents on the vendor's incident.io feed",
+"last_error": null,
+"last_state": "ok",
+"platform": "incident.io",
+"slug": "notion",
+"status_url": "https://status.notion.so",
+"vendor": "Notion"
+}

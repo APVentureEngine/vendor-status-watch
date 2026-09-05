@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "This incident is resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-05-27T20:39:17.156-05:00",
 "resolved_inferred": false,
 "started_at": "2026-05-27T20:05:14.339-05:00",
@@ -81,7 +85,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-07-24T13:55:50.498-05:00",
 "resolved_inferred": false,
 "started_at": "2026-07-24T13:41:19.627-05:00",
@@ -94,7 +98,7 @@
 "body": "The incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-01-08T09:01:58.279-06:00",
 "resolved_inferred": false,
 "started_at": "2026-01-08T08:16:24.147-06:00",
@@ -104,7 +108,7 @@
 "url": "https://stspg.io/6hs6f830n02z"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

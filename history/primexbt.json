@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-11-28T14:31:51.134Z",
 "resolved_inferred": false,
 "started_at": "2025-11-28T12:47:23.000Z",
@@ -81,7 +85,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-11-20T00:28:08.724Z",
 "resolved_inferred": false,
 "started_at": "2025-11-19T22:51:17.905Z",
@@ -94,7 +98,7 @@
 "body": "On the 05.02.2026 we observed accessibility issues from 00:35-06:10 UTC with PXtrader 2.0 Demo and contests accounts due to an outage. Our team has fixed the issue and restored access.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-02-05T07:47:40.390Z",
 "resolved_inferred": false,
 "started_at": "2026-02-05T07:47:40.339Z",
@@ -107,7 +111,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-12-11T16:06:17.000Z",
 "resolved_inferred": false,
 "started_at": "2025-12-11T15:41:06.000Z",
@@ -120,7 +124,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-12-05T14:02:23.198Z",
 "resolved_inferred": false,
 "started_at": "2025-12-05T11:46:53.000Z",
@@ -130,7 +134,7 @@
 "url": "https://stspg.io/jzswlzdrcz1d"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -59,6 +59,10 @@
 {
 "at": "2026-09-05T05:19:27Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T08:54:55Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -68,7 +72,7 @@
 "body": "The issue affecting SMS-based two-factor authentication (2FA) has now been resolved.\n\nUsers who were previously unable to log in using SMS as their 2FA method should now be able to access EcoStruxure IT Expert normally.\n\nThank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-05-18T16:34:17.077Z",
 "resolved_inferred": false,
 "started_at": "2026-05-18T13:36:25.872Z",
@@ -81,7 +85,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-06-29T19:09:20.862Z",
 "resolved_inferred": false,
 "started_at": "2026-06-29T18:14:55.397Z",
@@ -94,7 +98,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-06-17T12:54:33.883Z",
 "resolved_inferred": false,
 "started_at": "2026-06-17T10:12:23.920Z",
@@ -107,7 +111,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-11-18T15:47:35.979Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T14:24:24.605Z",
@@ -120,7 +124,7 @@
 "body": "This incident has been resolved.\n\nDue to a data migration effort, 1 hour and 51 minutes of data are missing from EcoStruxure IT Expert and EcoStruxure Asset Advisor.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-04-08T10:15:23.000Z",
 "resolved_inferred": false,
 "started_at": "2026-04-08T07:55:56.606Z",
@@ -133,7 +137,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2026-06-16T17:36:42.130Z",
 "resolved_inferred": false,
 "started_at": "2026-06-16T11:21:53.781Z",
@@ -146,7 +150,7 @@
 "body": "We have identified an issue with our mobile app push notifications.\nThe issue caused push notifications on mobile devices to be unavailable. That includes 2FA & alarm push notification",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T05:19:27Z",
+"last_seen": "2026-09-05T08:54:55Z",
 "resolved_at": "2025-10-20T08:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T08:00:00.000Z",
@@ -156,7 +160,7 @@
 "url": "https://stspg.io/d5d7x6v7xnlw"
 }
 },
-"last_checked": "2026-09-05T05:19:27Z",
+"last_checked": "2026-09-05T08:54:55Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

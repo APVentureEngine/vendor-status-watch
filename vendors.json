@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-05T05:27:43Z",
+ "generated_at": "2026-09-05T08:54:55Z",
  "source": "metoro-io/statusphere (MIT) + live probe",
  "count": 1141,
- "supported": 813,
+ "supported": 819,
  "vendors": [
   {
    "slug": "1password",
@@ -1578,10 +1578,10 @@
   {
    "slug": "coinapi-io",
    "name": "CoinAPI.io",
-   "platform": "unknown-html",
+   "platform": "incident.io",
    "base": "https://status.coinapi.io",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "feed": "https://status.apibricks.io/feed.rss"
   },
   {
    "slug": "coinbase",
@@ -3313,8 +3313,8 @@
    "name": "Hasura",
    "platform": "incident.io",
    "base": "https://status.hasura.io",
-   "supported": false,
-   "note": "html only"
+   "supported": true,
+   "feed": "https://hasura-status.com/feed.rss"
   },
   {
    "slug": "hawk-host",
@@ -3419,10 +3419,10 @@
   {
    "slug": "heroku",
    "name": "Heroku",
-   "platform": "unknown-html",
+   "platform": "bespoke",
    "base": "https://status.heroku.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "note": "Heroku: JSON api/v4/current-status"
   },
   {
    "slug": "hetzner",
@@ -4400,10 +4400,10 @@
   {
    "slug": "loom",
    "name": "Loom",
-   "platform": "unknown-html",
-   "base": "https://status.loom.com",
-   "supported": false,
-   "note": "bespoke page"
+   "platform": "statuspage",
+   "base": "https://loom.status.atlassian.com",
+   "supported": true,
+   "aliases": []
   },
   {
    "slug": "loopup",
@@ -5010,10 +5010,10 @@
   {
    "slug": "notion",
    "name": "Notion",
-   "platform": "unknown-html",
+   "platform": "incident.io",
    "base": "https://status.notion.so",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true,
+   "feed": "https://www.notion-status.com/feed.rss"
   },
   {
    "slug": "nowsta",
@@ -5667,10 +5667,9 @@
   {
    "slug": "postmark",
    "name": "Postmark",
-   "platform": "unknown-html",
+   "platform": "sorry",
    "base": "https://status.postmarkapp.com",
-   "supported": false,
-   "note": "bespoke page"
+   "supported": true
   },
   {
    "slug": "practice-fusion",
@@ -7630,7 +7629,7 @@
    "platform": "incident.io",
    "base": "https://status.tugboatlogic.com",
    "supported": false,
-   "note": "html only"
+   "note": "incident.io page with no working feed"
   },
   {
    "slug": "tuple",
@@ -8050,7 +8049,7 @@
    "platform": "incident.io",
    "base": "https://rootly.com",
    "supported": false,
-   "note": "html only"
+   "note": "incident.io page with no working feed"
   },
   {
    "slug": "webcentral",

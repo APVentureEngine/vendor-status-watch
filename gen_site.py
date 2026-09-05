@@ -46,7 +46,7 @@ STATE_LABEL = {"ok": "operational", "maintenance": "maintenance", "degraded": "d
 STATE_RANK = {"major": 0, "partial": 1, "degraded": 2, "maintenance": 3, "unknown": 4, "ok": 5}
 PLAT_LABEL = {"statuspage": "Atlassian Statuspage", "instatus": "Instatus", "betterstack": "Better Stack",
               "status.io": "Status.io", "hund": "Hund", "cachet": "Cachet", "uptimerobot": "UptimeRobot",
-              "incident.io": "incident.io", "bespoke": "vendor's own feed (hand-written parser)",
+              "incident.io": "incident.io", "sorry": "Sorry™", "bespoke": "vendor's own feed (hand-written parser)",
               "unknown-html": "bespoke HTML page", "dead": "unreachable"}
 
 
@@ -419,7 +419,7 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 <p>Events you receive: <b>now watching</b> (once, with any already-open incidents listed but not re-alerted), <b>opened</b>, <b>updated</b>, <b>resolved</b>, <b>unreachable</b> (the vendor's feed stopped answering — you are told, instead of silently seeing green), <b>recovered</b>. Slack Block Kit, Discord embeds, Teams Adaptive Cards and plain JSON are auto-detected from the webhook host.</p>
 {alert_demo}
 <div class="cta"><a class="btn" href="{TPL}">Use the template on GitHub</a><a class="btn ghost" href="{SITE}/vendors.html">Find your vendors' slugs</a></div>
-<div class="note small">Honest limits: {N_MAP - N_SUP:,} of the {N_MAP:,} mapped vendors publish no machine-readable status (Apple, Microsoft 365 and Notion among them — bespoke HTML pages; AWS, Azure, Google Cloud, Slack and Stripe ARE covered, by hand-written parsers over their own public feeds). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="{SITE}/platforms.html">coverage page</a>.</div>
+<div class="note small">Honest limits: {N_MAP - N_SUP:,} of the {N_MAP:,} mapped vendors publish no machine-readable status (Apple, Microsoft 365 and Okta among them — bespoke HTML pages; AWS, Azure, Google Cloud, Slack and Stripe ARE covered, by hand-written parsers over their own public feeds). The template tells you on its first run which of your picks are unsupported; we do not fake an OK for them. Coverage by platform is on the <a href="{SITE}/platforms.html">coverage page</a>.</div>
 </section>
 
 <section id="hosted"><h2>{"Three" if DIGEST else "Two"} ways to run it</h2>
@@ -549,9 +549,10 @@ def render_platforms():
            "instatus": "GET /summary.json — open incidents only", "betterstack": "GET /index.json — open incidents only",
            "status.io": "page id resolved once, then api.status.io/1.0/status/&lt;id&gt; — open incidents only",
            "hund": "API answers 401 without a key; no public feed", "cachet": "/api/v1/* returns 404 on every instance seen",
-           "uptimerobot": "public status pages are HTML only", "incident.io": "HTML only (some ld+json)",
-           "bespoke": "the vendor's own public feed, one hand-written parser each: Slack JSON API, Stripe /current, Google incidents.json (Cloud, Firebase, Workspace, Play), AWS Health currentevents, Azure status RSS",
-           "unknown-html": "bespoke page (Apple, Microsoft 365, Notion…) — needs a hand-written parser each; the ones buyers ask for most are done (row above)",
+           "uptimerobot": "public status pages are HTML only", "incident.io": "custom host is a JS app; the canonical host's /feed.rss carries a Status: line per incident (Notion, Hasura…)",
+           "sorry": "GET /api/v1/status + /api/v1/notices (Postmark)",
+           "bespoke": "the vendor's own public feed, one hand-written parser each: Slack JSON API, Stripe /current, Google incidents.json (Cloud, Firebase, Workspace, Play), AWS Health currentevents, Azure status RSS, Heroku api/v4",
+           "unknown-html": "bespoke page (Apple, Microsoft 365, Okta, Auth0…) — needs a hand-written parser each; the ones buyers ask for most are done (row above)",
            "dead": "unreachable at probe time (DNS gone, TLS broken, or 4xx/5xx)"}
     rows = "".join(f'<tr><td>{E(PLAT_LABEL.get(p, p))}</td><td>{n:,}</td><td>{"yes" if sup.get(p) else "no"}</td><td class="small">{why.get(p, "")}</td></tr>'
                    for p, n in sorted(c.items(), key=lambda kv: -kv[1]))
@@ -750,7 +751,7 @@ one, so read it as disclosure volume, not as a reliability league table.{cap_not
 ## Honest limits
 
 {unsup:,} of the {N_MAP:,} mapped vendors publish no machine-readable status
-(Apple, Microsoft 365 and Notion among them). We list them so you know we
+(Apple, Microsoft 365 and Okta among them). We list them so you know we
 checked, and we never invent an "OK" for them — AWS, Azure, Google Cloud, Slack
 and Stripe *are* covered, by hand-written parsers over their own public feeds.
 Only Statuspage exposes a back-fillable incident archive, so vendors on the other
