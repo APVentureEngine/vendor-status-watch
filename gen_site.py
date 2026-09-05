@@ -25,6 +25,7 @@ HOSTED = CFG.get("hosted_url") or ""          # Gumroad listing; empty = tier no
 HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
 DIGEST = CFG.get("digest_url") or ""          # c140: daily-digest tier (deliverable on the daily timer)
 DIGEST_PRICE = CFG.get("digest_price", "$19/year")
+DIGEST_FREE = CFG.get("digest_free_url") or ""   # c154: $0 30-day trial, up to 5 vendors, no card
 SUBSCRIBE = "https://approj.gumroad.com/subscribe"   # c132: Gumroad follower form = email capture, no unlock needed
 # c145: the site review's blocking item was "no email capture or contact route
 # anywhere" — a LINK to Gumroad's hosted follow page did not count, and it was
@@ -374,7 +375,8 @@ def render_index():
 <div class="card"><h3>Daily digest</h3><div class="price">{E(DIGEST_PRICE)}</div>
 <p>No repo, no Actions, no account. Paste one Slack, Discord, Teams or JSON webhook and up to 25 vendor names at checkout; every 24 hours, after the poll that rebuilds this board, one message lists which of your vendors had incidents opened, updated or resolved, which are still degraded, and which we <b>cannot see</b>. Quiet days get a one-line “all quiet” so silence never means broken.</p>
 <p class="small muted">One-time payment for 12 months, no auto-renewal. 14-day refund, no questions. First digest within 24 hours of purchase. This is a daily digest, not 5-minute paging — for that, use the free template.</p>
-<a class="btn" href="{E(DIGEST)}">Get the daily digest — {E(DIGEST_PRICE)}</a></div>""" if DIGEST else ""
+<a class="btn" href="{E(DIGEST)}">Get the daily digest — {E(DIGEST_PRICE)}</a>
+{f'<a class="btn ghost" href="{E(DIGEST_FREE)}">Try it free for 30 days — up to 5 vendors, no card</a>' if DIGEST_FREE else ''}</div>""" if DIGEST else ""
     body = f"""
 <section>
 <h1>SaaS outage alerts in your Slack — self-hosted, open data, $0.</h1>
@@ -672,7 +674,9 @@ def render_space_readme():
               f"opened, updated or resolved, which are still degraded, and which we cannot see. Quiet days "
               f"get an \"all quiet\" line, so silence never means broken. Slack / Discord / Teams / plain "
               f"JSON, auto-detected. No account, no dashboard — it arrives where you already work.\n\n"
-              f"[Buy the digest — {DIGEST_PRICE}]({DIGEST})\n") if DIGEST else ""
+              f"[Buy the digest — {DIGEST_PRICE}]({DIGEST})"
+              + (f" · [Try it free for 30 days — up to 5 vendors, no card]({DIGEST_FREE})" if DIGEST_FREE else "")
+              + "\n") if DIGEST else ""
     md = f"""---
 title: Vendor Status Watch
 emoji: \U0001f6f0️

@@ -264,7 +264,9 @@ def build_stage():
         f"opened, updated or resolved, which are still degraded, and which we cannot see. Quiet days "
         f"get an \"all quiet\" line, so silence never means broken. Slack / Discord / Teams / plain "
         f"JSON, auto-detected from the webhook host. The free data above stays free and complete; "
-        f"the digest is only the delivery.\n\n[Buy the digest]({_digest})\n"
+        f"the digest is only the delivery.\n\n[Buy the digest]({_digest})"
+        + (f" · [Try it free for 30 days — up to 5 vendors, no card]({_cfg.get('digest_free_url')})"
+           if _cfg.get("digest_free_url") else "") + "\n"
     ) if _digest else ""
     card = CARD.format(top_table=top_table, cap_note=cap_note, digest_block=digest_block,
                        n_map=n_map, n_sup=n_sup, n_inc=n_inc, n_vendors_with_inc=vendors_with,

@@ -31,7 +31,7 @@ tags:
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
 | **14,715** | real incidents on record (651 vendors back-filled from source) |
-| **2,184** | incidents opened in the last 30 days, across 403 vendors |
+| **2,179** | incidents opened in the last 30 days, across 402 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -74,7 +74,7 @@ already written. Nothing runs on our side; nothing to cancel.
 
 One webhook message every 24 h naming which of *your* (up to 25) vendors had incidents opened, updated or resolved, which are still degraded, and which we cannot see. Quiet days get an "all quiet" line, so silence never means broken. Slack / Discord / Teams / plain JSON, auto-detected. No account, no dashboard — it arrives where you already work.
 
-[Buy the digest — $19/year](https://approj.gumroad.com/l/vendor-digest)
+[Buy the digest — $19/year](https://approj.gumroad.com/l/vendor-digest) · [Try it free for 30 days — up to 5 vendors, no card](https://approj.gumroad.com/l/vendor-digest-free)
 
 ## Busiest vendors, last 90 days
 

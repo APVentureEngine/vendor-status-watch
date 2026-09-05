@@ -16,7 +16,7 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **14,715** across 651 vendors |
-| Opened in the last 30 days | **2,184** |
+| Opened in the last 30 days | **2,179** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -93,6 +93,8 @@ paste one Slack / Discord / Teams / JSON webhook and up to 25 vendor names at ch
 or resolved, which are still degraded, and which we *cannot see*. Quiet days get a one-line "all quiet".
 It is a daily digest, not 5-minute paging — the fulfilment code is `digest.py` in this repo, so you can read
 exactly what is sent. One payment, no auto-renewal, 14-day refund.
+**[Try it free for 30 days](https://approj.gumroad.com/l/vendor-digest-free)** — up to 5 vendors, $0, no card;
+one final message when the trial ends and nothing else.
 
 ## Honest limits
 

@@ -43,6 +43,11 @@ HIST_DIR = os.path.join(HERE, "history")
 CFG = json.load(open(os.path.join(HERE, "site_config.json")))
 SITE = CFG.get("site_url", "https://approjects-vendor-status-watch.static.hf.space")
 PRODUCT_ID = os.environ.get("VSW_DIGEST_PRODUCT_ID") or CFG.get("digest_product_id", "")
+# c154: FREE 30-day trial listing ($0, no card) — the venture's only no-commitment conversion
+# offer and its only email capture that ends in a product experience. plan -> (name, days, cap).
+FREE_PRODUCT_ID = os.environ.get("VSW_DIGEST_FREE_PRODUCT_ID") or CFG.get("digest_free_product_id", "")
+PLANS = {PRODUCT_ID: ("paid", 365, 25), FREE_PRODUCT_ID: ("free30", 30, 5)}
+PAID_URL = CFG.get("digest_url") or "https://approj.gumroad.com/l/vendor-digest"
 SALES_AFTER = "2026-09-01"
 MAX_VENDORS = 25
 DAYS = 365
@@ -267,24 +272,54 @@ def render(d: dict, fmt: str, welcome: dict | None = None) -> dict:
 
 # ---------------------------------------------------------------- fulfilment
 
-def active(sale: dict, now: datetime) -> bool:
+def active(sale: dict, now: datetime, days: int = DAYS) -> bool:
     if sale.get("refunded") or sale.get("chargebacked") or sale.get("disputed"):
         return False
     bought = _parse(sale.get("created_at"))
-    return bool(bought) and now - bought < timedelta(days=DAYS)
+    return bool(bought) and now - bought < timedelta(days=days)
 
 
-def process_sale(sale: dict, st: dict, by_slug: dict, look: dict, snap: dict, now: datetime, dry: bool) -> str:
+def trial_ended_payload(fmt: str, days: int) -> dict:
+    """One message, sent once, when a free trial lapses. Plain, true, and the only upgrade nudge."""
+    text = (f"Your free {days}-day Vendor Status Digest trial has ended, so this is the last message on this webhook. "
+            f"The full digest (up to 25 vendors, 12 months, $19 one-time, 14-day refund) is at {PAID_URL} — "
+            f"paste the same webhook at checkout and it resumes the next morning. The free board and data stay free: {SITE}")
+    if fmt == "slack":
+        return {"text": text, "blocks": [{"type": "section", "text": {"type": "mrkdwn", "text": text}}]}
+    if fmt == "discord":
+        return {"content": text[:1900]}
+    if fmt == "teams":
+        return {"type": "message", "text": text}
+    return {"source": "vendor-status-watch", "kind": "trial-ended", "sent_at": P._now(), "text": text}
+
+
+def process_sale(sale: dict, st: dict, by_slug: dict, look: dict, snap: dict, now: datetime, dry: bool,
+                 plan: tuple = ("paid", DAYS, MAX_VENDORS)) -> str:
     sid = sale.get("id") or sale.get("order_id") or ""
+    plan_name, days, cap = plan
     rec = st["sales"].setdefault(sid, {"welcome_sent": False, "last_sent": None, "failures": 0, "sent": 0})
-    if not active(sale, now):
+    rec["plan"] = plan_name
+    webhook = custom_field(sale, FIELD_WEBHOOK).strip()
+    if not active(sale, now, days):
+        if (plan_name != "paid" and rec.get("welcome_sent") and not rec.get("ended_sent")
+                and not (sale.get("refunded") or sale.get("chargebacked") or sale.get("disputed"))
+                and webhook.lower().startswith("https://")):
+            fmt = detect_format(webhook, "auto")
+            if dry:
+                return f"{sid[:8]} DRY: trial ended — would send the one-time ended message ({fmt})"
+            code, _ = post(webhook, trial_ended_payload(fmt, days))
+            if 200 <= code < 300:
+                rec["ended_sent"] = True
+                rec["status"] = "ended"
+                return f"{sid[:8]} trial ended — ended message sent ({fmt}, http {code})"
+            rec["failures"] = rec.get("failures", 0) + 1
+            return f"{sid[:8]} trial ended — ended message POST FAILED http {code}"
         rec["status"] = "inactive"
         return f"{sid[:8]} inactive (refunded/expired)"
-    webhook = custom_field(sale, FIELD_WEBHOOK).strip()
     if not webhook.lower().startswith("https://"):
         rec["status"] = "bad-webhook"
         return f"{sid[:8]} webhook is not an https URL — cannot deliver"
-    slugs, unmatched = match_vendors(custom_field(sale, FIELD_VENDORS), look)
+    slugs, unmatched = match_vendors(custom_field(sale, FIELD_VENDORS), look, cap)
     if not slugs:
         rec["status"] = "no-vendors"
         return f"{sid[:8]} no vendor matched: {unmatched}"
@@ -320,13 +355,26 @@ def fulfil(dry: bool = False) -> int:
     st = load_state()
     by_slug, look = load_map()
     snap = _snapshot()
-    sales = gumroad_sales(token, PRODUCT_ID)
-    print(f"digest: {len(sales)} sale(s) for product {PRODUCT_ID[:8]}…")
-    for s in sales:
-        try:
-            print("digest:", process_sale(s, st, by_slug, look, snap, now, dry))
-        except Exception as e:  # one broken sale must not stop the others
-            print(f"digest: sale {str(s.get('id'))[:8]} ERROR {e!r}")
+    # paid first: an email that holds an active paid digest keeps the bigger caps and its free
+    # trial (if any) is skipped rather than double-posting to the same webhook.
+    paid_emails: set = set()
+    for pid in (PRODUCT_ID, FREE_PRODUCT_ID):
+        if not pid:
+            continue
+        plan = PLANS.get(pid, ("paid", DAYS, MAX_VENDORS))
+        sales = gumroad_sales(token, pid)
+        print(f"digest: {len(sales)} sale(s) for {plan[0]} product {pid[:8]}…")
+        for s in sales:
+            try:
+                email = str(s.get("email") or "").strip().lower()
+                if plan[0] == "paid" and active(s, now, plan[1]) and email:
+                    paid_emails.add(email)
+                elif plan[0] != "paid" and email and email in paid_emails:
+                    print(f"digest: {str(s.get('id'))[:8]} free trial skipped — same email holds an active paid digest")
+                    continue
+                print("digest:", process_sale(s, st, by_slug, look, snap, now, dry, plan))
+            except Exception as e:  # one broken sale must not stop the others
+                print(f"digest: sale {str(s.get('id'))[:8]} ERROR {e!r}")
     if not dry:
         save_state(st)
     return 0
@@ -361,6 +409,17 @@ def selftest() -> int:
     # refunded sale must go inactive
     msg3 = process_sale({**fake, "refunded": True}, st, by_slug, look, snap, now, dry=False)
     assert "inactive" in msg3, msg3
+    # free30 plan: cap of 5 vendors, then the one-time ended message once 30 days have passed
+    free = {"id": "selftest-free", "created_at": _iso(now - timedelta(days=2)), "custom_fields": {
+        "Vendors to watch": "github, stripe, openai, cloudflare, slack, aws, twilio", "Webhook URL": "https://httpbin.org/post"}}
+    msg4 = process_sale(free, st, by_slug, look, snap, now, dry=False, plan=PLANS.get(FREE_PRODUCT_ID, ("free30", 30, 5)))
+    assert "sent json" in msg4 and st["sales"]["selftest-free"]["vendors"] == 5, msg4
+    assert st["sales"]["selftest-free"]["plan"] == "free30"
+    msg5 = process_sale(free, st, by_slug, look, snap, now + timedelta(days=31), dry=False, plan=("free30", 30, 5))
+    assert "ended message sent" in msg5 and st["sales"]["selftest-free"]["ended_sent"], msg5
+    msg6 = process_sale(free, st, by_slug, look, snap, now + timedelta(days=32), dry=False, plan=("free30", 30, 5))
+    assert "inactive" in msg6, msg6   # never a second ended message
+    print("selftest: free30", msg4, "|", msg5, "|", msg6)
     assert not os.path.exists(STATE_PATH) or "selftest-sale" not in json.load(open(STATE_PATH)).get("sales", {}), \
         "selftest must never write real state"
     print(f"selftest PASS: {d['n_vendors']} vendors, {d['n_events']} events in 72h; webhook POST ok; state untouched")
