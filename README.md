@@ -1,11 +1,11 @@
 # Vendor Status Watch
 
-**Every SaaS status page you depend on, in one feed — and in your Slack.**
+**SaaS outage alerts in your Slack — self-hosted, open data, $0.** A free, MIT alternative to IsDown / StatusGator ($264+/yr): a GitHub Actions template you run in your own account, plus the open map and incident history behind it.
 
 Live board and per-vendor incident history: **[approjects-vendor-status-watch.static.hf.space](https://approjects-vendor-status-watch.static.hf.space/)**
 Free alerting template: **[github.com/APVentureEngine/vendor-status-watch-template](https://github.com/APVentureEngine/vendor-status-watch-template)**
 
-This project polls the *public* status pages of **1,148 SaaS, cloud and infrastructure
+This project polls the *public* status pages of **1,127 SaaS, cloud and infrastructure
 vendors**, normalises four status platforms plus hand-written parsers for the big bespoke pages
 (AWS, Azure, Google Cloud, Slack, Stripe) into one shape, and republishes
 what the vendors themselves say — as a website, an RSS feed, and plain JSON you can
@@ -13,10 +13,10 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 
 | | |
 |---|---|
-| Vendors mapped | **1,148** |
-| With a machine-readable status feed | **~820** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
-| Incidents on record | **15,294** across 670 vendors |
-| Opened in the last 30 days | **2,286** |
+| Vendors mapped | **1,127** |
+| With a machine-readable status feed | **799** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
+| Incidents on record | **14,687** across 650 vendors |
+| Opened in the last 30 days | **2,176** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -43,7 +43,7 @@ gen_site.py       renders docs/ (board, per-vendor pages, RSS, JSON, sitemap)
 watch.py          the alerting engine (also shipped in the template repo)
 pipeline.sh       the daily job: build_map -> poll_all -> gen_site -> commit -> push
 history/          per-vendor incident history, JSON, one file per vendor
-docs/             the published site (GitHub Pages)
+docs/             the published site (mirrored to the Hugging Face Space above)
 ```
 
 ## Free JSON API (no key, no account)
@@ -59,7 +59,7 @@ curl -s https://approjects-vendor-status-watch.static.hf.space/api/vendors.json
 curl -s https://approjects-vendor-status-watch.static.hf.space/api/v/cloudflare.json
 ```
 
-Fair use: served from GitHub Pages, please poll no more than once a minute.
+Fair use: a static site, no rate limit enforced — please poll no more than once a minute.
 
 ## Get alerts (free)
 

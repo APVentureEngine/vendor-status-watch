@@ -354,8 +354,8 @@ def render_index():
 <a class="btn" href="{E(DIGEST)}">Get the daily digest — {E(DIGEST_PRICE)}</a></div>""" if DIGEST else ""
     body = f"""
 <section>
-<h1>Every SaaS status page you depend on, in one feed — and in your Slack.</h1>
-<p class="lead">We poll the public status pages of {N_MAP:,} vendors ({N_SUP:,} of them with a real JSON feed) on a timer, keep the map of who-hosts-where current as vendors migrate, and give you a free GitHub Actions template that posts open/updated/resolved incidents to your own webhook. No account and no email address needed to use it. MIT.</p>
+<h1>SaaS outage alerts in your Slack — self-hosted, open data, $0.</h1>
+<p class="lead">IsDown and StatusGator sell vendor-outage alerting as a subscription, from $264 a year. This is the free, MIT-licensed version: a GitHub Actions template that runs in <em>your</em> account, polls the public status pages of the vendors you name, and posts open/updated/resolved incidents to your own Slack, Discord or Teams webhook. Behind it sits a map of {N_MAP:,} SaaS status pages ({N_SUP:,} with a machine-readable feed) that we re-probe daily and publish as an open dataset. No account, no email address, no telemetry, and nothing about your stack leaves your org.</p>
 <div class="cta"><a class="btn" href="#template">Get alerts in your Slack — free</a><a class="btn ghost" href="#board">See who is down right now</a></div>
 {kpis}
 <p class="small muted">Numbers are recomputed by the daily pipeline from the vendors' own status APIs; last poll {E(GEN_AT)}. Vendor state is what the vendor publishes, not our measurement.</p>
@@ -400,7 +400,7 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 {digest}
 {hosted}
 </div>
-<p class="small muted" style="margin-top:18px">Comparison, honestly: IsDown starts at $22/mo (annual) with no free plan; StatusGator's free plan is 3 monitors and 10 notifications a month, paid from $72/mo. Both have polished apps, email/SMS channels and support staff — we have none of those. What we have is a vendor map that is rebuilt every day from live probes, a template you can read in one sitting, and a price that is a rounding error.</p>
+<p class="small muted" style="margin-top:18px">Comparison, honestly: <a href="https://isdown.app/pricing" rel="nofollow">IsDown</a> starts at $22/mo billed annually ($264/yr, no free plan), tracks roughly 5,900 vendors and polls continuously; <a href="https://statusgator.com/pricing" rel="nofollow">StatusGator</a>'s free plan is 3 monitors and 10 notifications a month, paid from $72/mo. Both have polished apps, email/SMS paging and support staff. We have none of those, our map is about a fifth their size ({N_MAP:,} pages), and this board is rebuilt once a day, not every minute. If you need thousands of vendors, real-time paging or a vendor you can invoice, buy one of them. If you want to watch the 5–20 vendors you actually depend on from your own GitHub account — code you can read in one sitting, an open dataset behind it, no money or data leaving your org — that is what this is, and it costs nothing.</p>
 </section>
 
 <section><h2>Stay in the loop without buying anything</h2>
@@ -412,8 +412,8 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
           "url": f"{SITE}/", "license": "https://opensource.org/licenses/MIT", "dateModified": GEN_AT,
           "creator": {"@type": "Organization", "name": "APVentureEngine", "url": REPO},
           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE}/api/snapshot.json"}]}
-    write("index.html", page("Vendor Status Watch — SaaS outage alerts in your Slack",
-                             body, f"Free open-source watch over {N_MAP:,} SaaS status pages: live board, {N_INC:,} incidents of history, GitHub Actions template that posts to your Slack/Discord/Teams webhook.",
+    write("index.html", page("Vendor Status Watch — self-hosted SaaS outage alerts for Slack, free and open source",
+                             body, f"Free, MIT, self-hosted alternative to IsDown/StatusGator: a GitHub Actions template that posts SaaS outages to your Slack/Discord/Teams webhook, plus an open map of {N_MAP:,} status pages and {N_INC:,} incidents of history, rebuilt daily.",
                              extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
 
 
@@ -730,6 +730,35 @@ Source and issues: [{REPO}]({REPO}) · Data CC BY 4.0 · code MIT
         f.write(md)
     print(f"gen_site: space_readme.md ({len(md)} bytes, {len(top90)} deep links)")
 
+def sync_readme():
+    """The repo README is a claim surface too (c144). Its headline numbers used to be typed by
+    hand and drifted from the site within a day (README 1,148 mapped / 15,294 incidents while the
+    page said 1,127 / 14,687 — same data, alias-collapsed vs raw). Rewrite the numeric claims in
+    place from the SAME variables the page uses, so the two can never disagree. Label-anchored
+    regexes: if a label is edited away the number simply stops being synced, which is visible in
+    the diff, rather than a silent mismatch on the public repo."""
+    rp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "README.md")
+    if not os.path.exists(rp):
+        return
+    r = open(rp, encoding="utf-8").read()
+    subs = [
+        (r"(status pages of \*\*)[\d,]+( SaaS, cloud and infrastructure)", rf"\g<1>{N_MAP:,}\g<2>"),
+        (r"(\| Vendors mapped \| \*\*)[\d,]+(\*\*)", rf"\g<1>{N_MAP:,}\g<2>"),
+        (r"(\| With a machine-readable status feed \| \*\*)~?[\d,]+(\*\*)", rf"\g<1>{N_SUP:,}\g<2>"),
+        (r"(\| Incidents on record \| \*\*)[\d,]+(\*\* across )[\d,]+( vendors)", rf"\g<1>{N_INC:,}\g<2>{BACKFILLED:,}\g<3>"),
+        (r"(\| Opened in the last 30 days \| \*\*)[\d,]+(\*\*)", rf"\g<1>{N_INC30:,}\g<2>"),
+    ]
+    new = r
+    for pat, rep in subs:
+        new, n = re.subn(pat, rep, new, count=1)
+        if n == 0:
+            print(f"sync_readme: label not found for {pat[:40]!r} — number NOT synced")
+    if new != r:
+        open(rp, "w", encoding="utf-8").write(new)
+        print("sync_readme: README.md numbers updated")
+    else:
+        print("sync_readme: README.md already current")
+
 
 def main():
     os.makedirs(OUT, exist_ok=True)
@@ -742,6 +771,7 @@ def main():
     render_legal()
     render_feeds_and_meta()
     render_space_readme()
+    sync_readme()
     prune_and_redirect()
     n = sum(len(f) for _, _, f in os.walk(OUT))
     print(f"gen_site: {n} files → docs/  | map {N_MAP} sup {N_SUP} polled {N_POLLED} parsed {N_PARSED} not_ok {len(NOT_OK)} incidents {N_INC} (30d {N_INC30})")
