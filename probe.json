@@ -2414,16 +2414,6 @@
    "indicator": "none"
   },
   {
-   "name": "SG Test",
-   "url": "https://sgtest1.statuspage.io",
-   "base": "https://sgtest1.statuspage.io",
-   "platform": "statuspage",
-   "http": 200,
-   "page_name": "sgtest",
-   "components": 10,
-   "indicator": "major"
-  },
-  {
    "name": "Sherweb",
    "url": "https://status.sherweb.com",
    "base": "https://status.sherweb.com",
@@ -13301,15 +13291,6 @@
    "final": "https://status.cognism.com/",
    "error": null,
    "platform": "dead"
-  },
-  {
-   "name": "Own Company",
-   "url": "https://status.owndata.com",
-   "base": "https://status.owndata.com",
-   "http": 200,
-   "final": "https://status.owndata.com/",
-   "error": null,
-   "platform": "instatus-html"
   },
   {
    "name": "Constant Contact",
