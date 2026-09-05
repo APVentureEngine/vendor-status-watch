@@ -564,7 +564,7 @@ def render_api():
 <tr><td><a href="{SITE}/api/snapshot.json"><code>/api/snapshot.json</code></a></td><td>Latest state of all {N_POLLED:,} polled vendors (state, vendor's description, open incident count, error if any).</td></tr>
 <tr><td><code>/api/v/&lt;slug&gt;.json</code></td><td>Per-vendor incident history (up to 400 days). Example: <a href="{SITE}/api/v/twilio.json">/api/v/twilio.json</a>.</td></tr>
 <tr><td><a href="{SITE}/feed.xml"><code>/feed.xml</code></a>, <code>/v/&lt;slug&gt;/feed.xml</code></td><td>RSS: all incidents, or one vendor.</td></tr>
-<tr><td><a href="{REPO}/releases/latest"><code>releases/latest</code></a></td><td>Daily GitHub Release: <code>vendors.json</code>, <code>snapshot.json</code>, <code>stats.json</code> and <code>incident_history.tar.gz</code> (all {len(hist):,} vendor histories in one archive). Stable alias: <code>{REPO}/releases/latest/download/&lt;file&gt;</code>.</td></tr>
+<tr><td><a href="{REPO}/releases/latest"><code>releases/latest</code></a></td><td>Daily GitHub Release: <code>vendors.json</code>, <code>snapshot.json</code>, <code>stats.json</code> and <code>incident_history.tar.gz</code> (every vendor history file in one archive). Stable alias: <code>{REPO}/releases/latest/download/&lt;file&gt;</code>.</td></tr>
 </tbody></table></div>
 <p class="small muted">Fair use: files are served as static files from {E(HOST_NAME)}; please poll no more than once a minute. States are the vendors' own published states, re-read daily for this site (the template and hosted tier poll every 5 minutes).</p></section>"""
     write("api.html", page("JSON API — Vendor Status Watch", body, "Static JSON files: the vendor map, the latest snapshot and per-vendor incident history.", "api.html"))
