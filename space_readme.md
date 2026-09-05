@@ -31,7 +31,7 @@ tags:
 | **1,127** | vendor status pages mapped |
 | **799** | of them with a machine-readable feed we poll |
 | **14,707** | real incidents on record (650 vendors back-filled from source) |
-| **2,197** | incidents opened in the last 30 days, across 403 vendors |
+| **2,195** | incidents opened in the last 30 days, across 403 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -46,6 +46,7 @@ Instatus, status.io and Better Stack.
   [`/api/vendors.json`](https://approjects-vendor-status-watch.static.hf.space/api/vendors.json) (the living map).
 - **RSS** — [all vendors](https://approjects-vendor-status-watch.static.hf.space/feed.xml), or one feed per vendor.
 - **Dataset mirror** — [APProjects/saas-vendor-status-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily).
+- **Daily release** — [`releases/latest`](https://github.com/APVentureEngine/vendor-status-watch/releases/latest): `vendors.json`, `snapshot.json`, `stats.json` and `incident_history.tar.gz` (every vendor's history in one archive), refreshed each run.
 
 ```bash
 curl -s https://approjects-vendor-status-watch.static.hf.space/api/snapshot.json | python3 -c \
