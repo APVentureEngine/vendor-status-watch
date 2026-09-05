@@ -107,6 +107,14 @@ if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
 else
   log "no git repo / token here — skipped push (pre-creation dry run)"
 fi
+# c150: daily GitHub Release of vendors.json + snapshot.json + stats.json + the incident-history
+# tarball. Pages-independent publish surface with a per-asset DOWNLOAD COUNT — the only usage
+# meter this venture has (repo traffic reads 0, the Space exposes no analytics). Idempotent per
+# day; prunes releases older than 60 d after logging their counts. Non-fatal.
+if [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
+  log "gh_release"; T 180 python3 gh_release.py || log "gh_release: FAILED (non-fatal)"
+fi
+
 # c130: the GitHub repo DESCRIPTION is a claim surface too (warn-feed learning c98) — keep its
 # counts equal to the alias-collapsed numbers the page shows. PATCHed only on change; non-fatal.
 if [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
