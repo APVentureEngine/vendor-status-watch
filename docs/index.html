@@ -26,6 +26,12 @@ font-weight:600;text-decoration:none;background:var(--accent);color:var(--accent
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.capture{margin:14px 0 6px}
+.capture label{display:block;font-weight:600;margin-bottom:6px}
+.capture-row{display:flex;flex-wrap:wrap;gap:8px}
+.capture input[type=email]{flex:1 1 240px;min-height:48px;padding:0 12px;font:inherit;border:1px solid var(--line);border-radius:8px;box-sizing:border-box;background:#fff;color:var(--ink)}
+.capture button.btn{border:0;cursor:pointer;font-family:inherit}
+.capture-note{margin:8px 0 0;font-size:13px;color:var(--muted)}
 .card h3{margin-top:0}.price{font-size:32px;font-weight:700;margin:6px 0}
 table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
@@ -42,7 +48,7 @@ footer{padding:36px 20px;color:var(--muted);font-size:14px;border-top:1px solid 
 .dv-kpi b{font-size:34px;display:block;line-height:1.1}.dv-kpi span{display:block;color:var(--muted);margin-top:4px}.dv-kpi i{display:block;font-style:normal;font-size:13px;margin-top:4px}
 figure{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}figure svg{max-width:100%;height:auto}
 figcaption{font-size:13px;color:var(--muted);margin-top:8px}
-@media (max-width:640px){h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
+@media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
 </style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Vendor Status Watch \u2014 SaaS status-page incident history", "description": "Incident history for 799 SaaS vendors' public status pages, polled daily; 14687 incidents on record.", "url": "https://approjects-vendor-status-watch.static.hf.space/", "license": "https://opensource.org/licenses/MIT", "dateModified": "2026-09-04T18:17:53Z", "creator": {"@type": "Organization", "name": "APVentureEngine", "url": "https://github.com/APVentureEngine/vendor-status-watch"}, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://approjects-vendor-status-watch.static.hf.space/api/snapshot.json"}]}</script></head><body>
 <header class="top"><div class="in"><a class="brand" href="https://approjects-vendor-status-watch.static.hf.space/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="#d9480f"/><path d="M5 14 l4 0 l2 -6 l3 12 l3 -9 l2 3 l3 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg> Vendor Status Watch</a><nav><a href="https://approjects-vendor-status-watch.static.hf.space/#board">Live board</a><a href="https://approjects-vendor-status-watch.static.hf.space/vendors.html">Vendors</a><a href="https://approjects-vendor-status-watch.static.hf.space/#template">Free template</a><a href="https://approjects-vendor-status-watch.static.hf.space/#hosted">Pricing</a><a href="https://approjects-vendor-status-watch.static.hf.space/platforms.html">Coverage</a><a href="https://approjects-vendor-status-watch.static.hf.space/api.html">API</a></nav></div></header>
 <main>
@@ -110,7 +116,13 @@ Our teams are</div><div class="small muted">started 2026-09-04 17:50 UTC · stat
 <li>One-time payment, no auto-renewal, no card on file</li>
 <li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="https://approjects-vendor-status-watch.static.hf.space/legal.html">terms</a>)</li></ul>
 <p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take $39/year for a watch we cannot yet run. Two ways to be told when it opens, pick either: leave your email with Gumroad (they hold the address, we write only when this opens or the map changes materially, unsubscribe from any message), or open a GitHub issue — we reply on it and GitHub emails you.</p>
-<a class="btn" href="https://approj.gumroad.com/subscribe">Email me when it opens</a> <a class="btn ghost" href="https://github.com/APVentureEngine/vendor-status-watch/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue</a></div>
+<form class="capture" action="https://app.gumroad.com/follow_from_embed_form" method="post">
+<input type="hidden" name="seller_id" value="7949076775116">
+<label for="hosted-email">Email me when the hosted watch opens</label>
+<div class="capture-row"><input id="hosted-email" type="email" name="email" required placeholder="you@company.com" autocomplete="email">
+<button class="btn" type="submit">Email me when it opens</button></div>
+<p class="capture-note">Gumroad holds the address, not this site. Unsubscribe from any message.</p></form>
+<a class="btn ghost" href="https://github.com/APVentureEngine/vendor-status-watch/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue instead</a></div>
 </div>
 <p class="small muted" style="margin-top:18px">Comparison, honestly: <a href="https://isdown.app/pricing" rel="nofollow">IsDown</a> starts at $22/mo billed annually ($264/yr, no free plan), tracks roughly 5,900 vendors and polls continuously; <a href="https://statusgator.com/pricing" rel="nofollow">StatusGator</a>'s free plan is 3 monitors and 10 notifications a month, paid from $72/mo. Both have polished apps, email/SMS paging and support staff. We have none of those, our map is about a fifth their size (1,127 pages), and this board is rebuilt once a day, not every minute. If you need thousands of vendors, real-time paging or a vendor you can invoice, buy one of them. If you want to watch the 5–20 vendors you actually depend on from your own GitHub account — code you can read in one sitting, an open dataset behind it, no money or data leaving your org — that is what this is, and it costs nothing.</p>
 </section>

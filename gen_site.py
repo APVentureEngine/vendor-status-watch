@@ -24,6 +24,15 @@ HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
 DIGEST = CFG.get("digest_url") or ""          # c140: daily-digest tier (deliverable on the daily timer)
 DIGEST_PRICE = CFG.get("digest_price", "$19/year")
 SUBSCRIBE = "https://approj.gumroad.com/subscribe"   # c132: Gumroad follower form = email capture, no unlock needed
+# c145: the site review's blocking item was "no email capture or contact route
+# anywhere" — a LINK to Gumroad's hosted follow page did not count, and it was
+# right: a visitor who is not ready today should not have to leave the page.
+# Plain HTML form, no JS, POSTs to Gumroad's follower embed endpoint. Verified
+# live c145: valid seller_id -> 10,588-byte confirmation, bogus id -> 899-byte
+# error, so the endpoint validates and this id is ours. If a CSP is ever added
+# to this site, form-action must include https://app.gumroad.com.
+FOLLOW_ENDPOINT = "https://app.gumroad.com/follow_from_embed_form"
+GUM_SELLER_ID = "7949076775116"  # approj — GET /v2/user .user.id (external id, not the base64 user_id)
 HOST_NAME = "Hugging Face Spaces" if "hf.space" in SITE else "GitHub Pages"
 HOST_PRIVACY = ("https://huggingface.co/privacy" if "hf.space" in SITE else "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement")
 NOW = datetime.now(timezone.utc)
@@ -219,6 +228,12 @@ font-weight:600;text-decoration:none;background:var(--accent);color:var(--accent
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.capture{margin:14px 0 6px}
+.capture label{display:block;font-weight:600;margin-bottom:6px}
+.capture-row{display:flex;flex-wrap:wrap;gap:8px}
+.capture input[type=email]{flex:1 1 240px;min-height:48px;padding:0 12px;font:inherit;border:1px solid var(--line);border-radius:8px;box-sizing:border-box;background:#fff;color:var(--ink)}
+.capture button.btn{border:0;cursor:pointer;font-family:inherit}
+.capture-note{margin:8px 0 0;font-size:13px;color:var(--muted)}
 .card h3{margin-top:0}.price{font-size:32px;font-weight:700;margin:6px 0}
 table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
@@ -235,7 +250,7 @@ footer{padding:36px 20px;color:var(--muted);font-size:14px;border-top:1px solid 
 .dv-kpi b{font-size:34px;display:block;line-height:1.1}.dv-kpi span{display:block;color:var(--muted);margin-top:4px}.dv-kpi i{display:block;font-style:normal;font-size:13px;margin-top:4px}
 figure{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}figure svg{max-width:100%;height:auto}
 figcaption{font-size:13px;color:var(--muted);margin-top:8px}
-@media (max-width:640px){h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
+@media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
 """
 
 LOGO = ('<svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="#d9480f"/>'
@@ -346,7 +361,13 @@ def render_index():
 <li>One-time payment, no auto-renewal, no card on file</li>
 <li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="{SITE}/legal.html">terms</a>)</li></ul>
 <p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Two ways to be told when it opens, pick either: leave your email with Gumroad (they hold the address, we write only when this opens or the map changes materially, unsubscribe from any message), or open a GitHub issue — we reply on it and GitHub emails you.</p>
-<a class="btn" href="{SUBSCRIBE}">Email me when it opens</a> <a class="btn ghost" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue</a></div>"""
+<form class="capture" action="{FOLLOW_ENDPOINT}" method="post">
+<input type="hidden" name="seller_id" value="{GUM_SELLER_ID}">
+<label for="hosted-email">Email me when the hosted watch opens</label>
+<div class="capture-row"><input id="hosted-email" type="email" name="email" required placeholder="you@company.com" autocomplete="email">
+<button class="btn" type="submit">Email me when it opens</button></div>
+<p class="capture-note">Gumroad holds the address, not this site. Unsubscribe from any message.</p></form>
+<a class="btn ghost" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue instead</a></div>"""
     digest = f"""
 <div class="card"><h3>Daily digest</h3><div class="price">{E(DIGEST_PRICE)}</div>
 <p>No repo, no Actions, no account. Paste one Slack, Discord, Teams or JSON webhook and up to 25 vendor names at checkout; every 24 hours, after the poll that rebuilds this board, one message lists which of your vendors had incidents opened, updated or resolved, which are still degraded, and which we <b>cannot see</b>. Quiet days get a one-line “all quiet” so silence never means broken.</p>
