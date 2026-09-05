@@ -99,6 +99,20 @@ s = W.render(sample, "slack")
 assert "UNKNOWN, not OK" in s["text"] and "<https://www.githubstatus.com|status page>" in s["blocks"][0]["text"]["text"]
 print("renderers: PASS (slack/discord/teams/json)")
 
+# ---- resolver: TYPE IT LIKE A CUSTOMER (c166). Real short names, wrong case, extra
+# spaces, a deliberate typo. The assertion that matters is that the miss is REPORTED,
+# not that the count happens to be right — a silently dropped vendor is the worst
+# failure a monitor has (learning 2026-09-05, "aws" -> amazon-web-services).
+_vm = {"amazon-web-services": {"slug": "amazon-web-services", "name": "Amazon Web Services"},
+       "google-cloud": {"slug": "google-cloud", "name": "Google Cloud"},
+       "github": {"slug": "github", "name": "GitHub"},
+       "mongodb": {"slug": "mongodb", "name": "MongoDB"}}
+_t, _m = W.resolve(_vm, ["aws", "GCP", " Google Cloud ", "github", "gh", "Mongo DB", "GitHub", "slcak", "", "MongoDB Atlas"])
+assert [v["slug"] for v in _t] == ["amazon-web-services", "google-cloud", "github", "mongodb"], _t
+assert _m == ["slcak", "MongoDB Atlas"], _m          # every miss named, in input order, as typed
+assert W.resolve(_vm, ["nope"]) == ([], ["nope"])
+print("resolver: PASS (aliases, case/punctuation folding, dedupe, every miss reported)")
+
 # ---- end-to-end with a local webhook receiver and a stubbed platform check
 received = []
 class H(http.server.BaseHTTPRequestHandler):
@@ -116,7 +130,7 @@ json.dump({"generated_at": "2026-09-04T00:00:00Z", "vendors": [
     {"slug": "github", "name": "GitHub", "platform": "statuspage", "base": "https://www.githubstatus.com", "supported": True},
     {"slug": "stripe", "name": "Stripe", "platform": "unknown-html", "base": "https://status.stripe.com", "supported": False, "note": "bespoke page"}]},
     open(os.path.join(tmp, "vendors.json"), "w"))
-json.dump({"vendors": ["github", "stripe", "nope"], "webhook": f"http://127.0.0.1:{port}/hook",
+json.dump({"vendors": ["GitHub", "gh", "stripe", "nope"], "webhook": f"http://127.0.0.1:{port}/hook",
            "format": "slack", "map_url": "", "unreachable_after": 1}, open(os.path.join(tmp, "config.json"), "w"))
 # stub the network: platforms.check is monkeypatched through a sitecustomize-free trick — a stub module
 open(os.path.join(tmp, "platforms.py"), "a").write('''
@@ -137,7 +151,7 @@ def run(n, *args):
     r = subprocess.run([sys.executable, "watch.py", *args], cwd=tmp, env=env, capture_output=True, text=True)
     return r.returncode, r.stdout + r.stderr
 rc, out = run(0)
-assert rc == 0 and "unknown vendor slug(s) not in map: ['nope']" in out and "stripe: bespoke page" in out, out
+assert rc == 0 and "NOT being watched: ['nope']" in out and "stripe: bespoke page" in out and "polled 2 vendors" in out, out
 assert len(received) == 1 and "CANNOT SEE" in received[0]["text"] and "WATCHING" in received[0]["text"], received
 st = json.load(open(os.path.join(tmp, "state.json")))
 assert st["vendors"]["github"]["state"] == "ok" and st["vendors"]["stripe"]["unreachable"] is True

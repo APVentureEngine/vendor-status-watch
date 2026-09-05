@@ -7,7 +7,7 @@
 
 Config (config.json, every key overridable by env):
     {
-      "vendors":  ["github", "openai", "twilio"],     # slugs from vendors.json   (env VENDORS=github,openai)
+      "vendors":  ["github", "aws", "twilio"],        # slugs, short names or display names; misses are printed   (env VENDORS=github,aws)
       "webhook":  "https://hooks.slack.com/services/…",  # Slack / Discord / Teams / any URL (env WEBHOOK_URL)
       "format":   "auto",                              # auto | slack | discord | teams | json
       "map_url":  "<raw URL of the living vendors.json>",   # optional; local vendors.json is the fallback
@@ -115,6 +115,53 @@ def save_state(state: dict) -> None:
     tmp = STATE_PATH + ".tmp"
     json.dump(state, open(tmp, "w"), indent=1, sort_keys=True)
     os.replace(tmp, STATE_PATH)
+
+
+# ------------------------------------------------------------ vendor resolution
+# People type the short name, not the map's slug. The Actor's first real run
+# (c165) resolved 9 of 10 inputs and silently missed "aws" — the map calls it
+# amazon-web-services. A silently unwatched vendor is the worst failure a monitor
+# can have, so short names resolve explicitly and every miss is named in the log.
+ALIASES = {
+    "aws": "amazon-web-services", "amazon": "amazon-web-services",
+    "gcp": "google-cloud", "gcloud": "google-cloud",
+    "google-cloud-platform": "google-cloud", "googlecloud": "google-cloud",
+    "ms-azure": "azure", "microsoft-azure": "azure",
+    "gh": "github", "gitlab-com": "gitlab", "cf": "cloudflare",
+    "o365": "microsoft-365", "m365": "microsoft-365", "office365": "microsoft-365",
+    "gsuite": "google-workspace", "gws": "google-workspace",
+    "openai-api": "openai", "chatgpt": "openai", "msteams": "microsoft-teams",
+}
+
+
+def _norm(s: str) -> str:
+    return "".join(ch for ch in str(s).lower() if ch.isalnum())
+
+
+def resolve(vendors: dict, wanted: list) -> tuple:
+    """Match each configured name on slug, then alias, then case/punctuation-folded
+    slug-or-name ("Google Cloud" == google-cloud == GOOGLECLOUD). Dedupes so
+    github + gh polls once. Returns (targets, misses) — misses are NEVER dropped
+    silently; run() prints every one."""
+    by_norm = {}
+    for r in vendors.values():
+        for key in (r.get("slug"), r.get("name")):
+            if key:
+                by_norm.setdefault(_norm(key), r)
+    picked, misses, seen = [], [], set()
+    for w in wanted:
+        w = str(w).strip()
+        if not w:
+            continue
+        lw = w.lower()
+        r = (vendors.get(lw) or vendors.get(ALIASES.get(lw, "")) or by_norm.get(_norm(w))
+             or by_norm.get(_norm(ALIASES.get(lw, ""))))
+        if r is None:
+            misses.append(w)
+        elif r.get("slug") not in seen:
+            seen.add(r.get("slug"))
+            picked.append(r)
+    return picked, misses
 
 
 # ---------------------------------------------------------------- diff engine
@@ -297,10 +344,12 @@ def run(argv=None) -> int:
     if not cfg["vendors"]:
         sys.exit("no vendors configured (config.json 'vendors' or env VENDORS)")
     vmap = load_map(cfg)
-    missing = [s for s in cfg["vendors"] if s not in vmap["vendors"]]
+    targets, missing = resolve(vmap["vendors"], cfg["vendors"])
     if missing:
-        print(f"WARNING unknown vendor slug(s) not in map: {missing}  (see {SITE}/vendors.html)", file=sys.stderr)
-    targets = [vmap["vendors"][s] for s in cfg["vendors"] if s in vmap["vendors"]]
+        print(f"WARNING {len(missing)} configured vendor(s) NOT in the map and NOT being watched: {missing}"
+              f"  (find the right name at {SITE}/vendors.html)", file=sys.stderr)
+    if not targets:
+        sys.exit(f"none of the configured vendors resolved: {cfg['vendors']}  (see {SITE}/vendors.html)")
     for v in targets:
         if not v.get("supported", True):
             print(f"NOTE {v['slug']}: {v.get('note', 'unsupported')} — will report UNKNOWN", file=sys.stderr)
