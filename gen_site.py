@@ -779,6 +779,13 @@ def sync_readme():
         print("sync_readme: README.md numbers updated")
     else:
         print("sync_readme: README.md already current")
+    # c148: the same numbers as a machine-readable file, so sync_template.py (which runs after
+    # this, in pipeline.sh) can keep the TEMPLATE repo's README sentence in step too. Three
+    # public surfaces (site, repo README, template README) now draw from one set of variables.
+    write("api/stats.json", json.dumps({"generated_at": GEN_AT, "vendors_mapped": N_MAP,
+                                        "vendors_supported": N_SUP, "incidents": N_INC,
+                                        "incidents_30d": N_INC30, "vendors_with_history": BACKFILLED},
+                                       indent=1))
 
 
 def main():

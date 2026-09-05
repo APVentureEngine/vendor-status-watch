@@ -129,6 +129,39 @@ else:
     put("README.md", new.encode(), meta["sha"],
         "regenerate the pre-filled workflow link so forkers get the current watch.yml")
 
+# ---- (4) c148: the README's headline numbers must match today's site ----
+# "a daily-rebuilt map of **1,130 vendor status pages** (792 with a machine-readable feed) and
+# **14,672 incidents**" was typed once and drifted from the site within a day. gen_site.py
+# writes docs/api/stats.json from the variables the site uses; rewrite the sentence from it.
+stats_p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "api", "stats.json")
+if os.path.exists(stats_p):
+    st = json.load(open(stats_p))
+    try:
+        meta = api("contents/README.md")          # re-read: step (3) may have changed it
+        readme = base64.b64decode(meta["content"]).decode()
+    except urllib.error.HTTPError as e:
+        print(f"sync_template: GET README.md HTTP {e.code} — numbers not synced")
+        readme = None
+    if readme is not None:
+        subs = [
+            (r"(map of \*\*)[\d,]+( vendor status pages\*\*)", rf"\g<1>{st['vendors_mapped']:,}\g<2>"),
+            (r"(\()[\d,]+( with a machine-readable\s+feed\))", rf"\g<1>{st['vendors_supported']:,}\g<2>"),
+            (r"(\*\*)[\d,]+( incidents\*\* of history)", rf"\g<1>{st['incidents']:,}\g<2>"),
+        ]
+        new = readme
+        for pat, rep in subs:
+            new, n = re.subn(pat, rep, new, count=1)
+            if n == 0:
+                print(f"sync_template: label not found for {pat[:30]!r} — number NOT synced")
+        if new != readme:
+            changed.append("README.md (headline numbers)")
+            put("README.md", new.encode(), meta["sha"],
+                f"README: headline numbers from today's map ({st['vendors_mapped']:,} vendors, {st['incidents']:,} incidents)")
+        else:
+            print("sync_template: README headline numbers already current")
+else:
+    print("sync_template: docs/api/stats.json missing — run gen_site.py first; numbers not synced")
+
 if not changed:
     print(f"sync_template: {checked} file(s) already identical upstream")
 else:

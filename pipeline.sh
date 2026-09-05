@@ -29,7 +29,7 @@ if [ "${PUBLISH_ONLY:-0}" = "1" ]; then
   log "PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)"
 else
 log "build_map"
-T 150 python3 build_map.py "${PROBE_JSON:-probe.json}" vendors.json
+T 120 python3 build_map.py "${PROBE_JSON:-probe.json}" vendors.json
 python3 - <<'PY'
 import json; d=json.load(open("vendors.json"))
 assert d["count"] > 1000 and d["supported"] > 700, f"map health: {d['count']} / {d['supported']}"
@@ -37,7 +37,7 @@ print("map ok:", d["count"], "vendors,", d["supported"], "supported")
 PY
 
 log "poll_all"
-T 420 python3 poll_all.py      # exits 2 if <60% of supported vendors parsed; 124 if it stalls past 7 min
+T 400 python3 poll_all.py      # exits 2 if <60% of supported vendors parsed; T kills it at 400s (its own stall cap is 7 min)
 fi
 
 # ---- DAILY DIGEST tier fulfilment (c140) --------------------------------------
@@ -47,7 +47,7 @@ fi
 # PUBLISH_ONLY mode because a missed digest is a broken promise. Non-fatal for the site
 # build, but its line in the log is the delivery evidence — read it.
 if [ -n "${GUMROAD_ACCESS_TOKEN:-}" ]; then
-  log "digest"; T 90 python3 digest.py || log "digest: FAILED (non-fatal for the site; buyers may have missed today's message)"
+  log "digest"; T 45 python3 digest.py || log "digest: FAILED (non-fatal for the site; buyers may have missed today's message)"
 else
   log "digest: GUMROAD_ACCESS_TOKEN absent, skipped"
 fi
@@ -59,11 +59,6 @@ fi
 # it is the one thing a free-distribution venture cannot afford.
 log "test_watch (shipped-copy guard + diff engine + end-to-end)"
 python3 test_watch.py > /dev/null
-
-# ...and the PUBLIC template repo is a fourth copy nobody was reconciling. Pushes
-# watch.py/platforms.py/config.json and regenerates the README's pre-filled
-# one-click workflow link. Non-fatal: a failed sync must not stop today's data.
-log "sync_template"; T 60 python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
 
 log "gen_site"
 python3 gen_site.py
@@ -77,6 +72,12 @@ assert f"{n:,} SaaS vendors" in html, f"api/vendors.json says {n} vendors but in
 print("surface check ok:", n, "vendors on both api/vendors.json and index.html")
 PY
 # NOTE: gen_site writes docs/api/vendors.json itself (alias-collapsed). Do not cp the raw map over it.
+
+# ...and the PUBLIC template repo is a fourth copy nobody was reconciling. Pushes
+# watch.py/platforms.py/config.json, regenerates the README's pre-filled one-click
+# workflow link, and (c148) rewrites the README's headline numbers from
+# docs/api/stats.json — which is why this runs AFTER gen_site. Non-fatal.
+log "sync_template"; T 30 python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
 
 # ---- publish the LIVE site (Hugging Face static Space) -------------------------
 # This is the canonical public surface since 2026-09-04: GitHub Pages stopped
@@ -94,7 +95,7 @@ if [ ! -x "$HFPY" ] || ! "$HFPY" -c 'import huggingface_hub' 2>/dev/null; then
   exit 3
 fi
 log "hf_site (live site)"
-T 180 "$HFPY" hf_site.py
+T 120 "$HFPY" hf_site.py
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
@@ -130,12 +131,12 @@ PY
 fi
 
 # IndexNow: only when the URL set changed; needs the key file live, so it naturally waits for the first deploy.
-log "indexnow"; T 60 python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
+log "indexnow"; T 30 python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
 
 # Hugging Face mirror (second discovery surface). Non-fatal: the site is already live; report honestly.
 if [ -n "${HF_TOKEN:-}" ]; then
   log "hf_mirror"
-  if T 90 "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
+  if T 60 "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
 else
   log "hf_mirror: HF_TOKEN absent, skipped"
 fi
