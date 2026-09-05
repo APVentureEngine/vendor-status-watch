@@ -16,7 +16,7 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **799** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **14,707** across 650 vendors |
-| Opened in the last 30 days | **2,197** |
+| Opened in the last 30 days | **2,195** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -57,6 +57,10 @@ curl -s https://approjects-vendor-status-watch.static.hf.space/api/vendors.json
 
 # one vendor's full incident history
 curl -s https://approjects-vendor-status-watch.static.hf.space/api/v/cloudflare.json
+
+# everything as a dated GitHub Release (stable alias, always the newest refresh):
+# vendors.json · snapshot.json · stats.json · incident_history.tar.gz (all 800+ vendor histories)
+curl -sL https://github.com/APVentureEngine/vendor-status-watch/releases/latest/download/incident_history.tar.gz | tar xz
 ```
 
 Fair use: a static site, no rate limit enforced — please poll no more than once a minute.
