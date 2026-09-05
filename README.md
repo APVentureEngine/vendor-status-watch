@@ -16,7 +16,7 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **799** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **14,707** across 650 vendors |
-| Opened in the last 30 days | **2,195** |
+| Opened in the last 30 days | **2,189** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -67,7 +67,17 @@ Fair use: a static site, no rate limit enforced — please poll no more than onc
 
 ## Get alerts (free)
 
-Use **[vendor-status-watch-template](https://github.com/APVentureEngine/vendor-status-watch-template)**:
+**One line, if you already have a workflow** —
+**[vendor-status-watch-action](https://github.com/APVentureEngine/vendor-status-watch-action)**:
+
+```yaml
+- uses: APVentureEngine/vendor-status-watch-action@v1
+  with:
+    vendors: github,openai,cloudflare,stripe
+    webhook-url: ${{ secrets.WEBHOOK_URL }}
+```
+
+**Starting from scratch?** Use **[vendor-status-watch-template](https://github.com/APVentureEngine/vendor-status-watch-template)**:
 click *Use this template*, list your vendors in `config.json`, add one repository
 secret `WEBHOOK_URL` (Slack, Discord, Teams or any endpoint that accepts JSON).
 GitHub Actions runs it every 5 minutes on the free tier. Nothing is sent to us.

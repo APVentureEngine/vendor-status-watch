@@ -5,3 +5,4 @@ hf_site_staging/
 hf_staging/
 pipeline.log
 .pipeline.lock
+action/

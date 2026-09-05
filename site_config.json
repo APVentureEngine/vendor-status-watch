@@ -4,6 +4,8 @@
   "hosted_url": "",
   "hosted_price": "$39/year",
   "template_url": "https://github.com/APVentureEngine/vendor-status-watch-template",
+  "action_url": "https://github.com/APVentureEngine/vendor-status-watch-action",
+  "action_ref": "APVentureEngine/vendor-status-watch-action@v1",
   "indexnow_key": "4d211866a2ba78187d4dbaed2731cd18",
   "mirror_url": "https://apventureengine.github.io/vendor-status-watch",
   "digest_product_id": "ZnQHtrtfLVA7Jo_nin3BOg==",

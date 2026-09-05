@@ -78,6 +78,10 @@ PY
 # workflow link, and (c148) rewrites the README's headline numbers from
 # docs/api/stats.json — which is why this runs AFTER gen_site. Non-fatal.
 log "sync_template"; T 30 python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
+# c151: the reusable Action (APVentureEngine/vendor-status-watch-action) ships the same
+# watch.py/platforms.py. Force-pushing main keeps a forked-action user on current code;
+# release TAGS (v1, v1.0.0) are cut by hand so a breaking change never lands on @v1.
+log "sync_action"; T 45 python3 sync_action.py || log "sync_action: FAILED (non-fatal)"
 
 # ---- publish the LIVE site (Hugging Face static Space) -------------------------
 # This is the canonical public surface since 2026-09-04: GitHub Pages stopped
@@ -99,7 +103,14 @@ T 120 "$HFPY" hf_site.py
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
-  git add -A vendors.json history docs seed_extra.json .indexnow_last 2>/dev/null || git add -A vendors.json history docs seed_extra.json
+  # c151: this used to stage a hand-typed list of DATA paths only, so README.md — a claim
+  # surface whose "opened in the last 30 days" number sync_readme rewrites every run — was
+  # regenerated locally and never pushed (public copy sat 6 incidents stale, and the new
+  # action link would never have shipped). Stage the sources too; .gitignore holds the
+  # excludes. action/ is deliberately ignored here: it has its own repo (sync_action.py).
+  git add -A vendors.json history docs seed_extra.json .indexnow_last \
+             README.md space_readme.md site_config.json pipeline.sh template ./*.py 2>/dev/null \
+    || git add -A vendors.json history docs seed_extra.json
   if git diff --cached --quiet; then log "nothing to commit"; else
     git -c user.name=vendor-status-watch -c user.email=bot@apventureengine.invalid commit -q -m "daily: $(date -u +%F) $(python3 -c 'import json;r=json.load(open("poll_report.json"));print(r["parsed"],"/",r["polled"],"parsed,",r["states"])')"
     git push -q "https://x-access-token:${GITHUB_ORG_TOKEN}@github.com/APVentureEngine/vendor-status-watch.git" HEAD:main

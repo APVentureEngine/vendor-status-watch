@@ -11,9 +11,12 @@ Config (config.json, every key overridable by env):
       "webhook":  "https://hooks.slack.com/services/…",  # Slack / Discord / Teams / any URL (env WEBHOOK_URL)
       "format":   "auto",                              # auto | slack | discord | teams | json
       "map_url":  "<raw URL of the living vendors.json>",   # optional; local vendors.json is the fallback
-      "unreachable_after": 3,                          # consecutive failed polls before a 'cannot see' alert
-      "mute_maintenance": false                        # true = ignore scheduled/in-progress maintenance windows
+      "unreachable_after": 3,                          # consecutive failed polls before a 'cannot see' alert (env UNREACHABLE_AFTER)
+      "mute_maintenance": false                        # true = ignore scheduled/in-progress maintenance windows (env MUTE_MAINTENANCE)
     }
+
+Env STATE_PATH moves state.json anywhere (the GitHub Action sets it into the
+caller's workspace so it can be cached/committed between runs).
 
 Standard library only. No accounts, no API keys: every status page polled here
 is public JSON. State lives in state.json next to this file; commit it back
@@ -41,7 +44,10 @@ from datetime import datetime, timezone
 import platforms as P
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-STATE_PATH = os.path.join(HERE, "state.json")
+# STATE_PATH is env-overridable so the same file can run as a GitHub Action
+# (c151): a composite action lives in an ephemeral $GITHUB_ACTION_PATH, so its
+# state must be written into the CALLER's workspace, not next to this script.
+STATE_PATH = os.environ.get("STATE_PATH", "").strip() or os.path.join(HERE, "state.json")
 CONFIG_PATH = os.path.join(HERE, "config.json")
 MAP_PATH = os.path.join(HERE, "vendors.json")
 DEFAULT_MAP_URL = "https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/vendors.json"
@@ -67,6 +73,13 @@ def load_config(path=CONFIG_PATH) -> dict:
         cfg["format"] = os.environ["WEBHOOK_FORMAT"].strip()
     if os.environ.get("MAP_URL"):
         cfg["map_url"] = os.environ["MAP_URL"].strip()
+    if os.environ.get("UNREACHABLE_AFTER", "").strip():
+        try:
+            cfg["unreachable_after"] = int(os.environ["UNREACHABLE_AFTER"].strip())
+        except ValueError:
+            pass
+    if os.environ.get("MUTE_MAINTENANCE", "").strip():
+        cfg["mute_maintenance"] = os.environ["MUTE_MAINTENANCE"].strip().lower() in ("1", "true", "yes", "on")
     return cfg
 
 
@@ -96,6 +109,9 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     state["saved_at"] = P._now()
+    parent = os.path.dirname(STATE_PATH)
+    if parent and not os.path.isdir(parent):
+        os.makedirs(parent, exist_ok=True)
     tmp = STATE_PATH + ".tmp"
     json.dump(state, open(tmp, "w"), indent=1, sort_keys=True)
     os.replace(tmp, STATE_PATH)

@@ -19,6 +19,8 @@ CFG = json.load(open(os.path.join(HERE, "site_config.json")))
 SITE = CFG["site_url"].rstrip("/")
 REPO = CFG["repo_url"].rstrip("/")
 TPL = (CFG.get("template_url") or REPO).rstrip("/")   # fork-and-go template repo
+ACT = (CFG.get("action_url") or "").rstrip("/")       # reusable GitHub Action (c151)
+ACT_REF = CFG.get("action_ref") or ""
 HOSTED = CFG.get("hosted_url") or ""          # Gumroad listing; empty = tier not on sale yet
 HOSTED_PRICE = CFG.get("hosted_price", "$39/year")
 DIGEST = CFG.get("digest_url") or ""          # c140: daily-digest tier (deliverable on the daily timer)
@@ -397,8 +399,15 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 {trend}{bars}
 </section>
 
-<section id="template"><h2>Free: the GitHub Actions template</h2>
-<p>Click <b>Use this template</b>, list your vendors in one JSON file, add one repository secret (your webhook URL), and copy the workflow file the README points you to — four minutes, and the README walks through every click. GitHub then runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
+<section id="template"><h2>Free: one line in your own GitHub Actions</h2>
+<p>If you already have a workflow, add the action and you are done. Your vendors, your webhook secret, your runner — nothing leaves your repository except the POST to your own channel.</p>
+<pre>- uses: {ACT_REF}
+  with:
+    vendors: github,openai,cloudflare,stripe
+    webhook-url: ${{{{ secrets.WEBHOOK_URL }}}}</pre>
+<div class="cta"><a class="btn" href="{ACT}">Get the action</a><a class="btn ghost" href="{SITE}/vendors.html">Find your vendors' slugs</a></div>
+<h3 style="margin-top:40px">Or start from the template repo</h3>
+<p>No workflow yet? Click <b>Use this template</b>, list your vendors in one JSON file, add one repository secret (your webhook URL), and copy the workflow file the README points you to — four minutes, and the README walks through every click. GitHub then runs it every 5 minutes on their free tier; the poller reads our daily-refreshed vendor map at run time, so when a vendor moves from Statuspage to Instatus next quarter your alerts keep working without you touching anything.</p>
 <pre>{{
   "vendors": ["twilio", "github", "cloudflare", "openai", "vercel"],
   "format": "auto",
@@ -415,9 +424,9 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 
 <section id="hosted"><h2>{"Three" if DIGEST else "Two"} ways to run it</h2>
 <div class="cards">
-<div class="card"><h3>Self-hosted template</h3><div class="price">Free</div>
+<div class="card"><h3>Self-hosted action or template</h3><div class="price">Free</div>
 <p>Runs in your GitHub account on GitHub's free Actions minutes (~2,000 min/month on free plans; a 5-minute schedule uses roughly a third of that). You own the repo, the secret and the history file. MIT licence, no telemetry.</p>
-<a class="btn ghost" href="{TPL}">Open the template</a></div>
+<a class="btn ghost" href="{ACT}">Get the action</a> <a class="btn ghost" href="{TPL}">Open the template</a></div>
 {digest}
 {hosted}
 </div>
