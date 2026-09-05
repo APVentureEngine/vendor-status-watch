@@ -55,29 +55,20 @@
 {
 "at": "2026-09-04T18:17:53Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T05:19:27Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
 "incidents": {
-"7yfgvwwzwbrq": {
-"body": "This issue has been identified and resolved.",
-"first_seen": "2026-09-04T07:06:16Z",
-"impact": "critical",
-"last_seen": "2026-09-04T18:17:53Z",
-"resolved_at": "2025-07-31T19:19:29.866-06:00",
-"resolved_inferred": false,
-"started_at": "2025-07-31T18:42:25.770-06:00",
-"state": "resolved",
-"title": "Protect Ctrlx Down",
-"updated_at": "2025-07-31T19:19:29.890-06:00",
-"url": "https://stspg.io/rgnbqntxj89t"
-},
 "r3j9b6lcn1x0": {
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-04T18:17:53Z",
+"last_seen": "2026-09-05T05:19:27Z",
 "resolved_at": "2025-08-14T11:42:25.627-06:00",
 "resolved_inferred": false,
 "started_at": "2025-08-14T10:23:32.238-06:00",
@@ -87,7 +78,7 @@
 "url": "https://stspg.io/dlhwcxkkrmqy"
 }
 },
-"last_checked": "2026-09-04T18:17:53Z",
+"last_checked": "2026-09-05T05:19:27Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

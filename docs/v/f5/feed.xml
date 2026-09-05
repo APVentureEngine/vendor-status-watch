@@ -1,8 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 18:17:53 +0000</lastBuildDate><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260904-504 [monitoring]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>The issue affecting the Global Log Receiver has been successfully resolved. Access Log streaming is still in progress as part of the recovery process. Our teams are closely monitoring the environment to ensure continued stability and verify full service restoration.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Sat, 05 Sep 2026 05:19:27 +0000</lastBuildDate><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260904-504 [resolved]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>We are pleased to confirm that the issue has been fully resolved.
 
-Further updates will be provided as additional information becomes available.
+All affected services have been restored and are operating normally, with no further impact anticipated. We sincerely appreciate your patience and understanding throughout the resolution process. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.
 
-We appreciate your patience and support throughout this incident.</description></item><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
+If you have any questions or need assistance, please contact our Support team:
+
+- Email support: support@cloud.f5.com
+- Phone support: For region-specific contact details, please visit:
+https://my.f5.com/manage/s/article/K000135931
+
+Thank you for your patience and understanding.
+
+Sincerely,
+F5 Distributed Cloud</description></item><item><title>Informational: New Regional Edge Site — Seoul, South Korea (sel1-kr) [monitoring]</title><link>https://stspg.io/ql2f5qgmzbtp</link><guid isPermaLink="false">f5:2026-09-02T20:50:08.000Z</guid><pubDate>Wed, 02 Sep 2026 20:50:08 +0000</pubDate><description>Dear Valued Customers,
 
 F5 Distributed Cloud Expands Global Footprint into Seoul, South Korea.
 

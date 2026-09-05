@@ -55,6 +55,10 @@
 {
 "at": "2026-09-04T18:17:53Z",
 "state": "ok"
+},
+{
+"at": "2026-09-05T05:19:27Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -64,7 +68,7 @@
 "body": "We would like to inform you that the logs have started to reappear in the dashboard. If you notice any irregularities, please do not hesitate to contact us at support@presslabs.com.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-04T18:17:53Z",
+"last_seen": "2026-09-05T05:19:27Z",
 "resolved_at": "2025-08-28T16:44:24.108+03:00",
 "resolved_inferred": false,
 "started_at": "2025-08-26T17:40:44.553+03:00",
@@ -74,7 +78,7 @@
 "url": "https://stspg.io/g0d6n0f2bz0r"
 }
 },
-"last_checked": "2026-09-04T18:17:53Z",
+"last_checked": "2026-09-05T05:19:27Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

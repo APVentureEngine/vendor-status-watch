@@ -55,15 +55,19 @@
 {
 "at": "2026-09-04T18:17:53Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-05T05:19:27Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-04T18:17:53Z",
-"last_description": "HASISSUES",
+"last_checked": "2026-09-05T05:19:27Z",
+"last_description": "UP",
 "last_error": null,
-"last_state": "degraded",
+"last_state": "ok",
 "platform": "instatus",
 "slug": "magnus-box",
 "status_url": "https://status.magnusbox.com",

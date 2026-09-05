@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Flexera incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/flexera.html</link><description>Incidents from Flexera's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 18:17:53 +0000</lastBuildDate><item><title>Spot - Service Degradation [postmortem]</title><link>https://stspg.io/yjfyh10vnd8v</link><guid isPermaLink="false">flexera:2026-08-25T20:44:32.018-07:00</guid><pubDate>Wed, 26 Aug 2026 03:44:32 +0000</pubDate><description>**Description:** Spot Ocean - Resource State Discrepancies and Under-Capacity Alerts
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Flexera incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/flexera.html</link><description>Incidents from Flexera's public status page, polled daily.</description><lastBuildDate>Sat, 05 Sep 2026 05:19:27 +0000</lastBuildDate><item><title>Scheduled Maintenance: Flexera One - IT Visibility - EU [maintenance]</title><link>https://stspg.io/kgdbvgy7wfxk</link><guid isPermaLink="false">flexera:2026-09-04T21:00:00.000-07:00</guid><pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Scheduled Maintenance: Flexera One - IT Visibility - APAC [maintenance]</title><link>https://stspg.io/kwnv96fjhf56</link><guid isPermaLink="false">flexera:2026-09-04T19:00:00.000-07:00</guid><pubDate>Sat, 05 Sep 2026 02:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Spot - Service Degradation [postmortem]</title><link>https://stspg.io/yjfyh10vnd8v</link><guid isPermaLink="false">flexera:2026-08-25T20:44:32.018-07:00</guid><pubDate>Wed, 26 Aug 2026 03:44:32 +0000</pubDate><description>**Description:** Spot Ocean - Resource State Discrepancies and Under-Capacity Alerts
 
 **Timeframe:** August 25, 2026, 6:15 PM PDT – August 25, 2026, 10:22 PM PDT  
 
@@ -8,13 +8,15 @@ On Tuesday, August 25, 2026, at 6:15 PM PDT, Ocean customers began experiencing 
   
 During the incident, customers may have observed instances remaining in a Resuming state longer than expected, under-capacity alerts, and discrepancies between resource status information displayed in Spot and AWS. In some cases, resource state information displayed within Spot did not accurately reflect the actual state of resources in AWS.  
   
-Technical teams investigated the issue and identified degradation within a central Ocean service</description></item><item><title>Flexera One - IT Asset Management - North America - Inventory Processing Delays [resolved]</title><link>https://stspg.io/y5c0j39bh3xm</link><guid isPermaLink="false">flexera:2026-08-24T06:04:05.058-07:00</guid><pubDate>Mon, 24 Aug 2026 13:04:05 +0000</pubDate><description>Technical teams have confirmed that inventory processing has returned to normal operation following the capacity, workload, and concurrency tuning changes implemented during the incident.
+Technical teams investigated the issue and identified degradation within a central Ocean service</description></item><item><title>Flexera One - IT Asset Management - North America - Inventory Processing Delays [postmortem]</title><link>https://stspg.io/y5c0j39bh3xm</link><guid isPermaLink="false">flexera:2026-08-24T06:04:05.058-07:00</guid><pubDate>Mon, 24 Aug 2026 13:04:05 +0000</pubDate><description>**Description:** Flexera One - IT Asset Management - North America - Inventory Processing Delays
 
-Backlog recovery has been completed across the previously impacted production environment, and processing throughput has remained stable following the implemented changes. Technical teams have validated recovery and confirmed that inventory processing is operating as expected.
+**Timeframe:** August 24, 2026, at 5:33 AM PDT to August 27, 2026, at 9:30 AM PDT
 
-Technical teams will continue to review the incident as part of the post-incident process and identify any additional improvements to further strengthen service resiliency and inventory processing performance.
+**Incident Summary**
 
-A detailed post-incident review report will be shared in the coming days, including investigation findings, corrective ac</description></item><item><title>Flexera One - APAC -  Access discruption [postmortem]</title><link>https://stspg.io/9zxc8zlfb5c6</link><guid isPermaLink="false">flexera:2026-08-18T02:32:31.000-07:00</guid><pubDate>Tue, 18 Aug 2026 09:32:31 +0000</pubDate><description>**Description:** Flexera One - IT Asset management - APAC - Access disruption
+On Monday, August 24, 2026, at 5:33 AM PDT, reports surfaced of delayed inventory processing affecting some Flexera One IT Asset Management customers in the North America region. Customer inventory files continued to be uploaded, but some files were not progressing through downstream processing as expected. This resulted in growing processing backlogs and delayed availability of updated inventory data for affected customers. The issue affected inventory processing rather than access to the IT Asset Management platform
+
+Investigation identified that the issue followed a platform upgrade in t</description></item><item><title>Flexera One - APAC -  Access discruption [postmortem]</title><link>https://stspg.io/9zxc8zlfb5c6</link><guid isPermaLink="false">flexera:2026-08-18T02:32:31.000-07:00</guid><pubDate>Tue, 18 Aug 2026 09:32:31 +0000</pubDate><description>**Description:** Flexera One - IT Asset management - APAC - Access disruption
 
 **Timeframe:**  August 18, 2026, 2:10 AM PDT to August 18, 2026, 4:26:03 AM PDT
 
@@ -308,24 +310,4 @@ Technical teams immediately began investigating the issue and observed that proc
 
 On Wednesday,  June 3, 2026 at 06:33 AM PDT, customers in the West EU production environment experienced a service disruption that prevented access to Snow Atlas through snowsoftware.io. Affected users were unable to log in to the platform and, in some cases, encountered service availability errors during authentication attempts.
 
-Upon investigation, our teams determined that a critical identity and authentication service within the West EU environment became unavailable during infrastructure maintenance activities being performed in a separate region. As a result, authentication requests could not be processed successfully, preven</description></item><item><title>Snow Atlas - Australia - Data Ingestion and Export Disruption [postmortem]</title><link>https://stspg.io/q4jb9f5rg6p2</link><guid isPermaLink="false">flexera:2026-06-02T07:46:38.000-07:00</guid><pubDate>Tue, 02 Jun 2026 14:46:38 +0000</pubDate><description>**Description:** Snow Atlas - Australia - Service Unavailable
-
-**Timeframe:** June 02, 2026, 5:30 AM PDT to June 02, 2026, 9:18 AM PDT
-
-‌
-
-**Incident Summary**
-
-‌
-
-On Tuesday, June 02, 2026, 5:30 AM PDT, A service disruption affected Snow Atlas customers in the Australia region following a scheduled maintenance activity. As part of a planned infrastructure maintenance activity, our teams performed a migration between Australia South East and Australia East. The maintenance was expected to be completed within the scheduled window; however, the activity extended beyond the planned duration due to unexpected delays encountered during execution.
-
-Throughout the issue, customers retained access to the Snow Atlas application and were able to view and browse existing data. The impact was limited </description></item><item><title>Flexera One - IT Visibility - NA &amp; EU - Inventory Processing Delays and Timeout Status [postmortem]</title><link>https://stspg.io/5dt5dl6jg11s</link><guid isPermaLink="false">flexera:2026-06-02T07:29:05.000-07:00</guid><pubDate>Tue, 02 Jun 2026 14:29:05 +0000</pubDate><description>**Description:** Flexera One - IT Visibility - NA - Inventory Processing Delays and Timeout Status
-
-**Timeframe:** June 2, 2026, 7:29 AM PDT - June 15, 2026, 7:58 AM PDT
-
-**Incident Summary**
-
-On June 2, 2026, at approximately 7:29 AM PDT, we received customer reports of IT Visibility inventory imports displaying timeout status in the North America production environment.
-
-The ITV platform remained accessible during the incident. The primary customer impact was delayed inventory processing and delayed availability of updated inventory data for some customers. In some cases, imports displayed timeout status while processing was still pending or delayed. This status did not always indicate that processing had failed, as some processing activity could continue in the background and complete l</description></item></channel></rss>
+Upon investigation, our teams determined that a critical identity and authentication service within the West EU environment became unavailable during infrastructure maintenance activities being performed in a separate region. As a result, authentication requests could not be processed successfully, preven</description></item></channel></rss>

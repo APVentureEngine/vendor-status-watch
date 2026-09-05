@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pubnub incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/pubnub.html</link><description>Incidents from Pubnub's public status page, polled daily.</description><lastBuildDate>Fri, 04 Sep 2026 18:17:53 +0000</lastBuildDate><item><title>Potential for some missed messages for subscribers in US East PoP [postmortem]</title><link>https://stspg.io/qctzhs1v265m</link><guid isPermaLink="false">pubnub:2026-08-25T13:22:48.467Z</guid><pubDate>Tue, 25 Aug 2026 13:22:48 +0000</pubDate><description>### **Problem Description, Impact, and Resolution** 
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Pubnub incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/pubnub.html</link><description>Incidents from Pubnub's public status page, polled daily.</description><lastBuildDate>Sat, 05 Sep 2026 05:19:27 +0000</lastBuildDate><item><title>Potential for some missed messages for subscribers in US East PoP [postmortem]</title><link>https://stspg.io/qctzhs1v265m</link><guid isPermaLink="false">pubnub:2026-08-25T13:22:48.467Z</guid><pubDate>Tue, 25 Aug 2026 13:22:48 +0000</pubDate><description>### **Problem Description, Impact, and Resolution** 
 
 On Tuesday, August 25th, 2026, at 12:10 UTC, our internal monitoring alerted us to an issue where a very small subset of messages within one availability zone of one region \(our US East point of presence\) may not have been immediately delivered to subscribers in that same region. All messages were persisted normally within PubNub Persistence service, **thus no message data was lost.** Traffic to or from any other region or AZ was not affected, and no other PubNub services were affected. No customers reported impact.
 
@@ -66,10 +66,4 @@ At 18:09 UTC on September 2, 2025 we observed increased error rates and latency 
 
 ### **Mitigation Steps and Recommended Future Preventative Measures** 
 
-To prevent a similar issue from occurring in the future we have enforced the intended limit on the API in question. We have also added additional testing and monitoring in </description></item><item><title>Presence service errors in multiple regions [postmortem]</title><link>https://stspg.io/5k84rxxq4ffn</link><guid isPermaLink="false">pubnub:2025-07-31T22:14:55.529Z</guid><pubDate>Thu, 31 Jul 2025 22:14:55 +0000</pubDate><description>### **Problem Description, Impact, and Resolution** 
-
-On August 1, 2025 at 22:15 UTC, we observed elevated 5xx errors across the Presence service in multiple regions. Customers may have experienced intermittent failures when attempting to receive or update presence messages.
-
-We identified a subset of channels exhibiting highly concentrated activity patterns and applied a targeted configuration change to rebalance traffic across the cluster. The issue was resolved by 23:15 UTC on August 1, 2025.
-
-This issue occurred because our infrastructure lacked proactive safeguards to evenly distribute presence traffic across nodes in scenarios where a small number of channels receive a disproportionately high number of presence updates. This resulted in resource saturation on some nodes without trigg</description></item></channel></rss>
+To prevent a similar issue from occurring in the future we have enforced the intended limit on the API in question. We have also added additional testing and monitoring in </description></item></channel></rss>
