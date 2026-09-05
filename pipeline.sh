@@ -8,6 +8,20 @@ cd "$(dirname "$0")"
 HERE="$(pwd -P)"   # absolute; "$(dirname "$0")" is RELATIVE to the caller's cwd and is wrong after this cd
 log() { echo "[$(date -u +%FT%TZ)] $*"; }
 
+# c144: the engine's timer run on 2026-09-04 05:30 PT died at its hard 900s limit and left NO
+# evidence of which stage stalled (capture_output only survives a normal exit). Two fixes:
+# (1) single-flight — a founder cycle's by-hand run overlapping the timer's run meant two
+#     poll_all processes and two concurrent Space commits with delete_patterns=["*"];
+# (2) every stage line also goes to pipeline.log, and each network-heavy stage runs under
+#     `timeout` so a stalled upload fails loudly inside the budget instead of eating it.
+#     Budget sums to < 900s: build_map 150 + poll 420 + hf_site 180 + hf_mirror 90 + misc.
+exec 9>.pipeline.lock
+if ! flock -n 9; then log "another run holds .pipeline.lock — skipped"; exit 0; fi
+exec > >(tee -a pipeline.log) 2>&1
+log "==== pipeline start (pid $$)"
+trap 'log "==== pipeline end (exit $?)"' EXIT
+T() { timeout --foreground "$@"; }   # T <seconds> <cmd...>
+
 # PUBLISH_ONLY=1 bash pipeline.sh  -> skip the map rebuild + 7-minute poll and just
 # re-render + publish (copy fixes between daily runs). Data stays whatever the last
 # poll wrote, so the "Data as of" stamp on the page is still the poll's, not now's.
@@ -15,7 +29,7 @@ if [ "${PUBLISH_ONLY:-0}" = "1" ]; then
   log "PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)"
 else
 log "build_map"
-python3 build_map.py "${PROBE_JSON:-probe.json}" vendors.json
+T 150 python3 build_map.py "${PROBE_JSON:-probe.json}" vendors.json
 python3 - <<'PY'
 import json; d=json.load(open("vendors.json"))
 assert d["count"] > 1000 and d["supported"] > 700, f"map health: {d['count']} / {d['supported']}"
@@ -23,7 +37,7 @@ print("map ok:", d["count"], "vendors,", d["supported"], "supported")
 PY
 
 log "poll_all"
-python3 poll_all.py            # exits 2 if <60% of supported vendors parsed
+T 420 python3 poll_all.py      # exits 2 if <60% of supported vendors parsed; 124 if it stalls past 7 min
 fi
 
 # ---- DAILY DIGEST tier fulfilment (c140) --------------------------------------
@@ -33,7 +47,7 @@ fi
 # PUBLISH_ONLY mode because a missed digest is a broken promise. Non-fatal for the site
 # build, but its line in the log is the delivery evidence — read it.
 if [ -n "${GUMROAD_ACCESS_TOKEN:-}" ]; then
-  log "digest"; python3 digest.py || log "digest: FAILED (non-fatal for the site; buyers may have missed today's message)"
+  log "digest"; T 90 python3 digest.py || log "digest: FAILED (non-fatal for the site; buyers may have missed today's message)"
 else
   log "digest: GUMROAD_ACCESS_TOKEN absent, skipped"
 fi
@@ -49,7 +63,7 @@ python3 test_watch.py > /dev/null
 # ...and the PUBLIC template repo is a fourth copy nobody was reconciling. Pushes
 # watch.py/platforms.py/config.json and regenerates the README's pre-filled
 # one-click workflow link. Non-fatal: a failed sync must not stop today's data.
-log "sync_template"; python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
+log "sync_template"; T 60 python3 sync_template.py || log "sync_template: FAILED (non-fatal)"
 
 log "gen_site"
 python3 gen_site.py
@@ -80,7 +94,7 @@ if [ ! -x "$HFPY" ] || ! "$HFPY" -c 'import huggingface_hub' 2>/dev/null; then
   exit 3
 fi
 log "hf_site (live site)"
-"$HFPY" hf_site.py
+T 180 "$HFPY" hf_site.py
 
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
@@ -116,12 +130,12 @@ PY
 fi
 
 # IndexNow: only when the URL set changed; needs the key file live, so it naturally waits for the first deploy.
-log "indexnow"; python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
+log "indexnow"; T 60 python3 indexnow_submit.py || log "indexnow: FAILED (non-fatal)"
 
 # Hugging Face mirror (second discovery surface). Non-fatal: the site is already live; report honestly.
 if [ -n "${HF_TOKEN:-}" ]; then
   log "hf_mirror"
-  if "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
+  if T 90 "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
 else
   log "hf_mirror: HF_TOKEN absent, skipped"
 fi
