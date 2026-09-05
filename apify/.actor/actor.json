@@ -1,0 +1,36 @@
+{
+  "actorSpecification": 1,
+  "name": "saas-vendor-status-watch",
+  "title": "SaaS Vendor Status & Outage Watch",
+  "description": "Check 1,140+ SaaS and cloud status pages in one run and get a Slack, Discord or Teams alert when a vendor you depend on breaks.",
+  "version": "0.0",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "views": {
+        "overview": {
+          "title": "Vendor status",
+          "transformation": {
+            "fields": ["vendor", "slug", "state", "description", "platform", "status_url", "checked_at", "incidents"]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "vendor": { "label": "Vendor", "format": "text" },
+              "slug": { "label": "Slug", "format": "text" },
+              "state": { "label": "State", "format": "text" },
+              "description": { "label": "What the vendor says", "format": "text" },
+              "platform": { "label": "Status platform", "format": "text" },
+              "status_url": { "label": "Status page", "format": "link" },
+              "checked_at": { "label": "Checked (UTC)", "format": "text" },
+              "incidents": { "label": "Open incidents", "format": "array" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

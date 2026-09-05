@@ -1,0 +1,59 @@
+{
+  "title": "SaaS Vendor Status & Outage Watch",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "vendors": {
+      "title": "Vendors to watch",
+      "type": "array",
+      "description": "Vendor slugs or names, one per line — e.g. github, slack, cloudflare, openai, stripe, datadog. Leave EMPTY to check every machine-readable vendor in the map (~800, takes about a minute). Browse the full list at https://approjects-vendor-status-watch.static.hf.space/vendors.html",
+      "editor": "stringList",
+      "prefill": ["github", "slack", "cloudflare", "openai", "stripe"],
+      "default": []
+    },
+    "onlyIncidents": {
+      "title": "Only output vendors that are NOT OK",
+      "type": "boolean",
+      "description": "On (default): the dataset contains only vendors with an incident, maintenance window or unreachable status page — the rows you actually want to alert on. Off: one row per vendor checked, including healthy ones.",
+      "default": true
+    },
+    "webhookUrl": {
+      "title": "Webhook URL (optional)",
+      "type": "string",
+      "description": "Slack, Discord or Microsoft Teams incoming webhook — or any endpoint that accepts a JSON POST. Leave empty to just collect the dataset. Always store this as a secret.",
+      "editor": "textfield",
+      "isSecret": true
+    },
+    "webhookFormat": {
+      "title": "Webhook payload format",
+      "type": "string",
+      "description": "Auto detects Slack / Discord / Teams from the webhook host. Pick one explicitly if you proxy the webhook through your own endpoint.",
+      "editor": "select",
+      "enum": ["auto", "slack", "discord", "teams", "json"],
+      "enumTitles": ["Auto-detect", "Slack", "Discord", "Microsoft Teams", "Plain JSON"],
+      "default": "auto"
+    },
+    "quietWhenAllOk": {
+      "title": "Stay quiet when everything is OK",
+      "type": "boolean",
+      "description": "On (default): the webhook fires only when at least one vendor is not OK — the behaviour you want on a schedule. Off: post an all-clear every run.",
+      "default": true
+    },
+    "concurrency": {
+      "title": "Parallel requests",
+      "type": "integer",
+      "description": "How many status pages to fetch at once. 16 is a good default; lower it if you are on a constrained proxy.",
+      "default": 16,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "mapUrl": {
+      "title": "Vendor map override (advanced)",
+      "type": "string",
+      "description": "Defaults to the daily-rebuilt open map in APVentureEngine/vendor-status-watch. Point this at your own fork to watch vendors that are not in the public map yet.",
+      "editor": "textfield",
+      "default": ""
+    }
+  },
+  "required": []
+}
