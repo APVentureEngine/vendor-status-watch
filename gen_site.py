@@ -728,12 +728,22 @@ curl -s {SITE}/api/snapshot.json | python3 -c \\
   "import json,sys; [print(r['vendor'], r['state']) for r in json.load(sys.stdin)['vendors'] if r['state']!='ok']"
 ```
 
-## Free alerts you run yourself (MIT)
+## Free alerts you run yourself (MIT) — one line in a GitHub workflow
 
-[**{TPL.split('/')[-1]}**]({TPL}) — fork it, list your vendors, paste a Slack,
-Discord or Teams webhook URL. GitHub Actions polls every 5 minutes in your own
-free minutes and posts opened / updated / resolved / unreachable / recovered.
-Nothing runs on our side; nothing to cancel.
+```yaml
+- uses: {ACT_REF or 'APVentureEngine/vendor-status-watch-action@v1'}
+  with:
+    vendors: github,openai,cloudflare,stripe
+    webhook-url: ${{{{ secrets.WEBHOOK_URL }}}}
+```
+
+[**vendor-status-watch-action**]({ACT or TPL}) polls each vendor's own status page on
+your schedule, diffs it against the last run, and posts opened / updated / resolved /
+unreachable / recovered to Slack (Block Kit), Discord (embeds), Teams (Adaptive Card)
+or any JSON webhook. No account, no API key; the only thing that leaves your repo is
+the POST to the webhook you configured. No workflow yet? Fork
+[**{TPL.split('/')[-1]}**]({TPL}) instead — it is the same engine with the schedule
+already written. Nothing runs on our side; nothing to cancel.
 {digest}
 ## Busiest vendors, last 90 days
 
