@@ -954,6 +954,11 @@ def sync_readme():
         (r"(\| Incidents on record \| \*\*)[\d,]+(\*\* across )[\d,]+( vendors)", rf"\g<1>{N_INC:,}\g<2>{BACKFILLED:,}\g<3>"),
         (r"(\| Opened in the last 30 days \| \*\*)[\d,]+(\*\*)", rf"\g<1>{N_INC30:,}\g<2>"),
     ]
+    if DUR_STATS:
+        import hf_outage_duration as _OD
+        subs += [(r"(\| Median incident length \| \*\*)[^*]+(\*\*, 90th percentile \*\*)[^*]+(\*\*, from )[\d,]+",
+                  rf"\g<1>{_OD.fmt_h(DUR_STATS['median_min'])}\g<2>{_OD.fmt_h(DUR_STATS['p90_min'])}"
+                  rf"\g<3>{DUR_STATS['measured']:,}")]
     new = r
     for pat, rep in subs:
         new, n = re.subn(pat, rep, new, count=1)

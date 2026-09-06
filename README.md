@@ -17,6 +17,7 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **14,737** across 651 vendors |
 | Opened in the last 30 days | **2,138** |
+| Median incident length | **2.3 h**, 90th percentile **27.7 h**, from 14,093 incidents with a vendor-posted start *and* resolve time — per-vendor table on [how long outages last](https://approjects-vendor-status-watch.static.hf.space/outage-duration.html) |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
