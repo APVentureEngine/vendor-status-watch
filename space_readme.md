@@ -31,7 +31,7 @@ tags:
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
 | **14,734** | real incidents on record (651 vendors back-filled from source) |
-| **2,151** | incidents opened in the last 30 days, across 402 vendors |
+| **2,147** | incidents opened in the last 30 days, across 402 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -46,6 +46,7 @@ Instatus, status.io and Better Stack.
   [`/api/vendors.json`](https://approjects-vendor-status-watch.static.hf.space/api/vendors.json) (the living map).
 - **RSS** — [all vendors](https://approjects-vendor-status-watch.static.hf.space/feed.xml), or one feed per vendor.
 - **Dataset mirror** — [APProjects/saas-vendor-status-pages-outages-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily).
+- **Outage durations / MTTR per vendor** — [APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr](https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr) (derived daily from the mirror).
 - **Daily release** — [`releases/latest`](https://github.com/APVentureEngine/vendor-status-watch/releases/latest): `vendors.json`, `snapshot.json`, `stats.json` and `incident_history.tar.gz` (every vendor's history in one archive), refreshed each run.
 
 ```bash
@@ -112,7 +113,7 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 | [Cisco Systems status history](https://approjects-vendor-status-watch.static.hf.space/v/cisco-systems.html) | 45 | 51 |
 | [Coinbase Prime status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase-prime.html) | 43 | 50 |
 | [IPVanish status history](https://approjects-vendor-status-watch.static.hf.space/v/ipvanish.html) | 40 | 51 |
-| [Ionos Cloud status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos-cloud.html) | 39 | 51 |
+| [Ionos Cloud status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos-cloud.html) | 38 | 51 |
 | [HeroCoders status history](https://approjects-vendor-status-watch.static.hf.space/v/herocoders.html) | 37 | 50 |
 | [Expo status history](https://approjects-vendor-status-watch.static.hf.space/v/expo.html) | 35 | 53 |
 | [Whatnot status history](https://approjects-vendor-status-watch.static.hf.space/v/whatnot.html) | 35 | 51 |

@@ -1,3 +1,5 @@
 netlify_staging/
 netlify_site.zip
 hf_site_staging/
+hf_od_staging/
+hf_outage_duration.json

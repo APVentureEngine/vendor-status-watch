@@ -81,6 +81,9 @@ Two tables:
   platform's public incident API where one exists (Atlassian Statuspage exposes
   `/api/v2/incidents.json`; other platforms accumulate from the day we first saw
   them). Times are as the vendor published them (ISO-8601, vendor's offset).
+- **Derived, same job:** [how long each incident lasted, per vendor (MTTR / resolution
+  time)](https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr)
+  — `resolved_at - started_at` for every incident with both times, plus per-vendor medians.
 - **`vendors`** — the living map: {n_map:,} vendors → which status-page platform
   they use, the machine-readable base URL, whether we can parse it
   ({n_sup:,} supported today), and the state observed at the last poll.

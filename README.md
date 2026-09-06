@@ -16,7 +16,7 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
 | Incidents on record | **14,734** across 651 vendors |
-| Opened in the last 30 days | **2,151** |
+| Opened in the last 30 days | **2,147** |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 ## Why this exists
@@ -64,6 +64,10 @@ curl -sL https://github.com/APVentureEngine/vendor-status-watch/releases/latest/
 ```
 
 Fair use: a static site, no rate limit enforced — please poll no more than once a minute.
+
+Prefer CSVs? Both are on Hugging Face (CC BY 4.0, rebuilt by the same daily job):
+[all incidents + the vendor map](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily)
+and [how long each incident lasted, per vendor (MTTR / resolution time)](https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr).
 
 ## Get alerts (free)
 

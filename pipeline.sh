@@ -173,7 +173,18 @@ log "indexnow"; T 30 python3 indexnow_submit.py || log "indexnow: FAILED (non-fa
 if [ -n "${HF_TOKEN:-}" ]; then
   log "hf_mirror"
   if T 60 "$HFPY" hf_mirror.py 2>&1 | grep -v -i warning; then log "hf_mirror: OK"; else log "hf_mirror: FAILED (non-fatal)"; fi
+  # c182: DERIVED outage-duration / MTTR dataset — a second HF search surface for the SRE
+  # vocabulary ("outage duration", "mttr", "incident resolution time") the main mirror's id
+  # cannot match. Reads hf_staging/data/incidents.csv that hf_mirror.py just built, so the
+  # two cannot disagree. Selftest is FATAL (it guards the exclusion buckets and the
+  # communication-not-reliability caveat); the upload is non-fatal.
+  log "hf_outage_duration"
+  T 30 python3 hf_outage_duration.py --selftest
+  if T 60 "$HFPY" hf_outage_duration.py 2>&1 | grep -v -i warning; then log "hf_outage_duration: OK"; else log "hf_outage_duration: FAILED (non-fatal)"; fi
 else
   log "hf_mirror: HF_TOKEN absent, skipped"
 fi
+# c182: HF download/like counts per dataset -> out/hf_downloads.jsonl (public endpoint, stdlib,
+# non-fatal). The only stranger channel this venture has, recorded as a series.
+log "hf_stats"; T 30 python3 hf_stats.py || log "hf_stats: FAILED (non-fatal)"
 log "done"
