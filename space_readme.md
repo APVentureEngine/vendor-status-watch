@@ -22,16 +22,16 @@ tags:
   - daily-updated
 ---
 
-# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,734 incidents on record
+# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,737 incidents on record
 
-**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-06 at 12:28 UTC
+**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-06 at 15:32 UTC
 
 | | |
 |---|---|
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
-| **14,734** | real incidents on record (651 vendors back-filled from source) |
-| **2,147** | incidents opened in the last 30 days, across 402 vendors |
+| **14,737** | real incidents on record (651 vendors back-filled from source) |
+| **2,141** | incidents opened in the last 30 days, across 402 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -89,6 +89,7 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 | [Exact status history](https://approjects-vendor-status-watch.static.hf.space/v/exact.html) | ≥ 55 | 55 |
 | [QuickNode status history](https://approjects-vendor-status-watch.static.hf.space/v/quicknode.html) | ≥ 55 | 55 |
 | [Kraken status history](https://approjects-vendor-status-watch.static.hf.space/v/kraken.html) | 54 | 55 |
+| [Webroot status history](https://approjects-vendor-status-watch.static.hf.space/v/webroot.html) | 53 | 54 |
 | [Scaleway status history](https://approjects-vendor-status-watch.static.hf.space/v/scaleway.html) | ≥ 53 | 53 |
 | [Grafana Labs status history](https://approjects-vendor-status-watch.static.hf.space/v/grafana-labs.html) | ≥ 53 | 53 |
 | [Vonage API status history](https://approjects-vendor-status-watch.static.hf.space/v/vonage-api.html) | ≥ 53 | 53 |
@@ -96,7 +97,6 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 | [GitHub status history](https://approjects-vendor-status-watch.static.hf.space/v/github.html) | ≥ 52 | 52 |
 | [Alchemy status history](https://approjects-vendor-status-watch.static.hf.space/v/alchemy.html) | ≥ 52 | 52 |
 | [Sinch status history](https://approjects-vendor-status-watch.static.hf.space/v/sinch.html) | ≥ 52 | 52 |
-| [Webroot status history](https://approjects-vendor-status-watch.static.hf.space/v/webroot.html) | 51 | 52 |
 | [Coinbase status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase.html) | ≥ 51 | 51 |
 | [Bandwidth status history](https://approjects-vendor-status-watch.static.hf.space/v/bandwidth.html) | ≥ 51 | 51 |
 | [Hostinger status history](https://approjects-vendor-status-watch.static.hf.space/v/hostinger.html) | ≥ 51 | 51 |

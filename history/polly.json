@@ -71,6 +71,10 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -80,7 +84,7 @@
 "body": "AWS services have returned to normal operations, and all Polly services remain fully operational.\n\nOur engineering team continues to monitor system health closely to ensure ongoing stability.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2025-10-20T18:43:03.289-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T02:58:45.352-07:00",
@@ -93,7 +97,7 @@
 "body": "Polly MS Teams app is back to normal",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-02-13T15:28:07.747-08:00",
 "resolved_inferred": false,
 "started_at": "2026-02-13T11:36:33.298-08:00",
@@ -103,7 +107,7 @@
 "url": "https://stspg.io/hgcvf3356c4f"
 }
 },
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

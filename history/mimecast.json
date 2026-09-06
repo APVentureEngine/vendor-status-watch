@@ -71,6 +71,10 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -89,7 +93,7 @@
 "url": "https://status.mimecast.com"
 }
 },
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "Operational",
 "last_error": null,
 "last_state": "ok",

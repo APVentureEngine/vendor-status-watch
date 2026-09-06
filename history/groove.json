@@ -71,6 +71,10 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -80,7 +84,7 @@
 "body": "Some operations including logins, ticket creation, contact updates, and email ingestion experienced intermittent failures.\n\nWe identified and resolved an issue with an internal database table that had reached a storage capacity limit, which caused these operations to fail. The issue has been mitigated and services are returning to normal. Incoming emails are continuing to catch back up as we monitor the recovery.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-04-11T01:30:00.000-05:00",
 "resolved_inferred": false,
 "started_at": "2026-04-11T01:30:00.000-05:00",
@@ -93,7 +97,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-05-12T11:23:35.536-05:00",
 "resolved_inferred": false,
 "started_at": "2026-05-12T07:55:20.539-05:00",
@@ -106,7 +110,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-05-11T17:20:03.708-05:00",
 "resolved_inferred": false,
 "started_at": "2026-05-11T17:05:12.242-05:00",
@@ -119,7 +123,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-05-28T15:00:48.000-05:00",
 "resolved_inferred": false,
 "started_at": "2026-05-28T10:47:24.959-05:00",
@@ -129,7 +133,7 @@
 "url": "https://stspg.io/wwnqfj3fj452"
 }
 },
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

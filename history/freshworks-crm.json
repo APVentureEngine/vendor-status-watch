@@ -71,12 +71,16 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "unknown"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "unknown",
 "last_error": null,
 "last_state": "unknown",

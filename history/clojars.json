@@ -71,15 +71,19 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
 "incidents": {},
-"last_checked": "2026-09-06T12:28:17Z",
-"last_description": "All Systems Operational",
+"last_checked": "2026-09-06T15:32:04Z",
+"last_description": "Partially Degraded Service",
 "last_error": null,
-"last_state": "ok",
+"last_state": "degraded",
 "platform": "statuspage",
 "slug": "clojars",
 "status_url": "http://status.clojars.org",

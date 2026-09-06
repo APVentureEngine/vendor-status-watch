@@ -7,7 +7,7 @@ Output : docs/  (GitHub Pages source: /docs on main)
 Every number on every page is computed from those files in this run. No prose number is
 typed by hand; if a figure has no rows it is left out (dataviz refuses empty input).
 """
-import html, json, os, re, sys, collections
+import html, json, os, re, sys, collections, statistics
 from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -450,6 +450,39 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 
 
 # ------------------------------------------------------------------ vendor pages
+def duration_section(name, slug, recs):
+    """Per-vendor 'how long do incidents last' block (c184, BACKLOG 0ai follow-up).
+    Uses EXACTLY hf_outage_duration.classify so the page can never disagree with the
+    MTTR dataset: maintenance windows, still-open incidents, inferred resolutions and
+    resolved-before-started rows are excluded, never estimated. Returns "" when fewer
+    than 3 incidents are measurable — a median of one number is not a fact."""
+    import hf_outage_duration as OD
+    src = [dict(r, vendor_slug=slug, vendor=name, platform="", incident_id=str(r.get("id") or r["started_at"]),
+                title=r.get("title") or "", resolved_inferred=str(bool(r.get("resolved_inferred"))))
+           for r in recs]
+    measured, c = OD.classify(src)
+    if len(measured) < 3:
+        return ""
+    durs = [m["duration_minutes"] for m in measured]
+    med = int(statistics.median(durs)); p90 = int(OD.pct(durs, 0.9)); longest = max(measured, key=lambda m: m["duration_minutes"])
+    mc = [m["duration_minutes"] for m in measured if m["impact"] in ("major", "critical")]
+    kp = DV.kpi_row([(OD.fmt_h(med), "median incident duration", f"{len(measured):,} measured"),
+                     (OD.fmt_h(p90), "90th percentile", "1 in 10 ran longer"),
+                     (OD.fmt_h(int(statistics.median(mc))) if mc else "—", "median, major/critical only",
+                      f"{len(mc)} incident{'s' if len(mc) != 1 else ''}" if mc else "none posted")])
+    excl = [(c["maint"], "scheduled maintenance"), (c["open"], "still open / no resolve time"),
+            (c["inferred"], "resolution inferred by us"), (c["negative"], "resolved before started (vendor data error)")]
+    excl_txt = ", ".join(f"{n} {lbl}" for n, lbl in excl if n)
+    lt = E(longest.get("title") or "(untitled)")
+    if longest.get("url"):
+        lt = '<a href="' + E(longest["url"]) + '">' + lt + "</a>"
+    return f"""<section><h2>How long do {E(name)} incidents last?</h2>
+{kp}
+<p class="small muted">From {len(measured):,} incident{'s' if len(measured) != 1 else ''} with a vendor-posted start and resolve time. Longest on record: {lt} — {E(OD.fmt_h(longest["duration_minutes"]))} ({E(fmt_dt(longest["started_at"]))}). Excluded, never estimated: {E(excl_txt) if excl_txt else "nothing"}. Duration is the gap between the vendor's own posted timestamps — it is not measured downtime, uptime or an SLA figure, and a vendor that posts every blip will look worse here than one that posts nothing. Same rule as the <a href="https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr">outage-duration dataset</a>.</p>
+</section>
+"""
+
+
 def render_vendor(v):
     slug = v["slug"]
     h = hist.get(slug)
@@ -499,7 +532,7 @@ def render_vendor(v):
 {err}{kp}{spark}{since}
 <div class="cta"><a class="btn" href="{TPL}">Get {E(name)} alerts in your Slack — free template</a><a class="btn ghost" href="{SITE}/v/{slug}/feed.xml">RSS for {E(name)}</a></div>
 </section>
-<section><h2>Incidents on record ({len(recs):,})</h2>
+{duration_section(name, slug, recs)}<section><h2>Incidents on record ({len(recs):,})</h2>
 <div class="tw"><table><thead><tr><th>Started</th><th>Incident</th><th>Status</th><th>Impact</th><th>Duration</th></tr></thead><tbody>{rows or '<tr><td colspan=5 class=muted>No incidents recorded yet.</td></tr>'}</tbody></table></div>
 <p class="small muted">Titles, statuses and impact levels are the vendor's own words. Durations marked approx. are inferred from the poll that first found the incident gone. Shows the latest 60; the <a href="{SITE}/api/v/{slug}.json">JSON</a> has everything we hold (up to 400 days).</p>
 </section>

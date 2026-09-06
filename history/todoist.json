@@ -71,6 +71,10 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -78,7 +82,7 @@
 "incidents": {
 "cmtngf8lo00fr13n382khi7rt": {
 "first_seen": "2026-09-05T05:19:27Z",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "started_at": "2026-09-06T21:45:00.000Z",
 "state": "maintenance",
 "title": "[2026/09/06] Scheduled Maintenance",
@@ -86,7 +90,7 @@
 "url": "https://status.todoist.net/cmtngf8lo00fr13n382khi7rt"
 }
 },
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "UP",
 "last_error": null,
 "last_state": "maintenance",

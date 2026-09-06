@@ -71,6 +71,10 @@
 {
 "at": "2026-09-06T12:28:17Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T15:32:04Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -80,7 +84,7 @@
 "body": "Currently the problems appears to be isolated in the us-east datacentre.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2025-10-21T03:15:33.763+11:00",
 "resolved_inferred": false,
 "started_at": "2025-10-21T03:07:45.962+11:00",
@@ -93,7 +97,7 @@
 "body": "Jostle's platform is available again.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2026-07-22T07:17:42.697+10:00",
 "resolved_inferred": false,
 "started_at": "2026-07-22T07:11:28.483+10:00",
@@ -106,7 +110,7 @@
 "body": "Jostle's platform is available again.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2025-11-06T04:54:57.317+11:00",
 "resolved_inferred": false,
 "started_at": "2025-11-06T04:53:53.334+11:00",
@@ -119,7 +123,7 @@
 "body": "Closing Maintenance",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T15:32:04Z",
 "resolved_at": "2025-12-12T06:19:38.396+11:00",
 "resolved_inferred": false,
 "started_at": "2025-11-20T07:15:44.000+11:00",
@@ -129,7 +133,7 @@
 "url": "https://stspg.io/cx6v39y4x5rv"
 }
 },
-"last_checked": "2026-09-06T12:28:17Z",
+"last_checked": "2026-09-06T15:32:04Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",
