@@ -1,0 +1,61 @@
+# Coinbase outage history — every incident their status page has posted
+
+**51 Coinbase incidents on record** spanning **2026-07-17** to **2026-09-05**. Status page:
+[https://coinbase.statuspage.io](https://coinbase.statuspage.io) · platform:
+`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+state **`degraded`**.
+
+Median incident length: **91 min** across 49 incidents where Coinbase posted both a start and a resolve time.
+
+This page republishes what Coinbase posted on its own status page. It is rebuilt
+daily by an automated poller — no login, no account, MIT-licensed data.
+
+## Recent Coinbase incidents
+
+| Started | Incident | Impact | Length |
+| --- | --- | --- | ---: |
+| 2026-09-05 | [Delayed Sends/Receives - BSC Network](https://stspg.io/p08lz642g5vk) | none | 50 min |
+| 2026-09-03 | [Degraded Performance - Derivatives Positions](https://stspg.io/h3x4sldc943y) | minor | — |
+| 2026-09-03 | [Delayed Sends/Receives - Mina](https://stspg.io/kw2rxq3kfgp1) | none | 11.3 h |
+| 2026-09-03 | [Delayed Sends and Receives - Ethereum Network](https://stspg.io/2whd22bdmmn3) | none | 78 min |
+| 2026-09-03 | [Degraded Performance - Derivatives Positions](https://stspg.io/146jtb1z5ncd) | minor | 39 min |
+| 2026-09-02 | [Degraded Performance - Derivatives Positions](https://stspg.io/jkv9tcrmbqtc) | minor | 2.5 h |
+| 2026-09-02 | [Delayed Sends/Receives - Monad](https://stspg.io/czhrh0s4j5j7) | none | 22 min |
+| 2026-09-02 | [Delayed Sends and Receives - Ethereum Network](https://stspg.io/z3p0xwnkj5tk) | none | 2.2 h |
+| 2026-09-02 | [Delayed Sends/Receives - Solana Network](https://stspg.io/rg9g3lhyvf1l) | none | 3.4 h |
+| 2026-09-01 | [Degraded performance - Coinbase Onramp](https://stspg.io/g2sktrxp49x9) | minor | 81 min |
+| 2026-09-01 | [Site Performance - Prediction Markets](https://stspg.io/q5k7g2grny94) | none | 4 min |
+| 2026-08-31 | [Delayed Sends/Receives - Injective Network](https://stspg.io/pp39cz1wtmsl) | none | 14.9 h |
+| 2026-08-30 | [Paused Sends/Receives - Core DAO Network](https://stspg.io/43s6cqkzm7vh) | none | — |
+| 2026-08-28 | [Hedera - Delayed Sends/Receives](https://stspg.io/mc0srdnk4lqr) | none | 16.8 h |
+| 2026-08-28 | [Degraded Performance - Lending and Borrowing](https://stspg.io/mtgkrrpjrrvj) | minor | 66 min |
+
+Newest 15 of 51. Full machine-readable history:
+[`history/coinbase.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coinbase.json).
+
+## What is counted, and what is not
+
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+count of the status page, and they are why a median from this dataset can be
+compared across vendors at all.
+
+"Incidents on record" means incidents this poller has seen or backfilled since
+**2026-09-04** — it is not a claim about Coinbase's
+entire operating history.
+
+## Get this data, or get told when it happens
+
+| | |
+| --- | --- |
+| This vendor's raw history (JSON) | [`history/coinbase.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coinbase.json) |
+| All vendors, all incidents (dataset) | [Hugging Face](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily) |
+| The vendor map (1,100+ status feeds) | [`vendors.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/vendors.json) |
+| Alert your Slack/Discord when Coinbase breaks | [free MIT GitHub Actions template](https://github.com/APVentureEngine/vendor-status-watch-template) |
+| Weekly digest of your vendors | [Vendor Status Digest](https://approj.gumroad.com/l/vendor-digest) · [free tier](https://approj.gumroad.com/l/vendor-digest-free) |
+| Browsable board with charts | [Coinbase on the live site](https://approjects-vendor-status-watch.static.hf.space/v/coinbase.html) |
+
+---
+
+[← all vendors](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/README.md) · [repository home](https://github.com/APVentureEngine/vendor-status-watch) ·
+MIT licence · rebuilt daily by an automated pipeline.

@@ -62,6 +62,16 @@ python3 test_watch.py > /dev/null
 
 log "gen_site"
 python3 gen_site.py
+# c189: per-vendor MARKDOWN outage-history pages inside the repo. docs/ is
+# invisible to search engines twice over — the bound Pages URL is a 404 (flagged
+# account, A024) and the working mirror is on *.static.hf.space, which serves its
+# own robots.txt and discards ours. github.com is crawlable and we push here every
+# run; GitHub renders .md as a page and .html as source, so Markdown is the only
+# format that works. Selftest is fatal: it gates the median sample floor and the
+# requirement that the dataset's own classifier partitions every incident.
+log "gen_vendor_md"
+python3 gen_vendor_md.py --selftest && python3 gen_vendor_md.py \
+  || log "gen_vendor_md: FAILED (non-fatal)"
 test -s docs/index.html && test -s docs/api/snapshot.json && test -s docs/sitemap.xml
 grep -q '@media' docs/index.html
 python3 - <<'PY'
@@ -125,7 +135,7 @@ if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   # c165: apify/ is the Apify Actor's source (MIT, same parsers) — it ships in this
   # repo so the Store listing has readable source behind it. action/ stays ignored
   # because it has its own repo (sync_action.py); apify/ does not.
-  git add -A vendors.json history docs seed_extra.json .indexnow_last \
+  git add -A vendors.json vendors history docs seed_extra.json .indexnow_last \
              README.md space_readme.md site_config.json pipeline.sh template apify ./*.py 2>/dev/null \
     || git add -A vendors.json history docs seed_extra.json
   if git diff --cached --quiet; then log "nothing to commit"; else

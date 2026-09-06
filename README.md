@@ -20,6 +20,10 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 | Median incident length | **2.3 h**, 90th percentile **27.7 h**, from 14,093 incidents with a vendor-posted start *and* resolve time — per-vendor table on [how long outages last](https://approjects-vendor-status-watch.static.hf.space/outage-duration.html) |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
+<!-- VENDOR_MD_INDEX:START -->
+**Per-vendor outage history, readable right here on GitHub:** [all 565 vendors](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/README.md) · [cloudflare](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/cloudflare.md) · [github](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/github.md) · [openai](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/openai.md) · [zoom](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/zoom.md)
+<!-- VENDOR_MD_INDEX:END -->
+
 ## Why this exists
 
 If your team depends on 5–20 vendors, your options today are: subscribe to each
