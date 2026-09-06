@@ -39,12 +39,16 @@
 {
 "at": "2026-09-05T12:15:31Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T12:28:17Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-05T12:15:31Z",
+"last_checked": "2026-09-06T12:28:17Z",
 "last_description": "All services available",
 "last_error": null,
 "last_state": "ok",

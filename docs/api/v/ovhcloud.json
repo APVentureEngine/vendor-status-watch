@@ -3,11 +3,21 @@
 "slug": "ovhcloud",
 "platform": "status.io",
 "status_url": "https://status.us.ovhcloud.com",
-"last_checked": "2026-09-05T12:15:31Z",
+"last_checked": "2026-09-06T12:28:17Z",
 "last_state": "maintenance",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": [
+{
+"body": "OVHcloud support staff is currently investigating a network fault at the Vint Hill Data Center in Rack V119G26 affecting connectivity.",
+"first_seen": "2026-09-06T12:28:17Z",
+"last_seen": "2026-09-06T12:28:17Z",
+"started_at": "2026-09-06T10:11:13.353Z",
+"state": "investigating",
+"title": "VIN - Network Issue - V119G26",
+"updated_at": "2026-09-06T10:11:13.367Z",
+"url": "https://status.us.ovhcloud.com"
+},
 {
 "body": "We are aware of an issue affecting a PCI host in this region. Some PCI instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.",
 "first_seen": "2026-09-04T18:17:53Z",
@@ -35,7 +45,7 @@
 {
 "body": "Cancellation reversal is currently not working as intended. If the VPS is set to cancel and a request is made to cancel the service cancellation, it remains flagged for removal. \r\n\r\nIf you are attempting to remove services for VPS, please reach out to our support team by opening a ticket. \r\n\r\n",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "started_at": "2026-08-25T14:42:14.789Z",
 "state": "investigating",
 "title": "Service Cancelation issue for VPS Product",
@@ -45,7 +55,7 @@
 {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "started_at": "2026-08-20T04:05:04.640Z",
 "state": "maintenance",
 "title": "Maintenance to perform vCSA Minor Upgrade to 8.0U3k",
@@ -54,7 +64,7 @@
 {
 "body": "OVHcloud support staff is currently monitoring a rack fault in 120A02B. Power to the rack was  temporarily disrupted and has been restored . All servers on the rack are currently backup. If you are experiencing any issues please reach out to OVHcloud support staff.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "started_at": "2026-04-03T14:02:00.000Z",
 "state": "investigating",
 "title": "[VIN1] Server Power Loss VIN0120A02B",
@@ -64,7 +74,7 @@
 {
 "body": "The down VPS host has been brought back up, and all instances are running normally.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "started_at": "2026-03-24T19:52:00.000Z",
 "state": "investigating",
 "title": "One VPS host down in VIN",

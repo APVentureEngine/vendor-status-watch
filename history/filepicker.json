@@ -67,6 +67,10 @@
 {
 "at": "2026-09-05T12:15:31Z",
 "state": "ok"
+},
+{
+"at": "2026-09-06T12:28:17Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -76,7 +80,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "resolved_at": "2025-09-14T20:22:36.273Z",
 "resolved_inferred": false,
 "started_at": "2025-09-13T19:17:14.259Z",
@@ -89,7 +93,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "resolved_at": "2025-08-20T12:33:18.226Z",
 "resolved_inferred": false,
 "started_at": "2025-08-19T22:35:53.126Z",
@@ -102,7 +106,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "resolved_at": "2025-10-01T15:36:27.802Z",
 "resolved_inferred": false,
 "started_at": "2025-10-01T14:31:56.811Z",
@@ -115,7 +119,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "resolved_at": "2026-05-06T16:40:54.973Z",
 "resolved_inferred": false,
 "started_at": "2026-05-06T15:28:56.784Z",
@@ -128,7 +132,7 @@
 "body": "The issue with the degradation of the Virus scan has been resolved. All queued items have been processed, and the service performance is now back to normal.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-05T12:15:31Z",
+"last_seen": "2026-09-06T12:28:17Z",
 "resolved_at": "2025-10-23T20:35:57.496Z",
 "resolved_inferred": false,
 "started_at": "2025-10-23T19:23:14.037Z",
@@ -138,7 +142,7 @@
 "url": "https://stspg.io/xbqhs6c3ksyh"
 }
 },
-"last_checked": "2026-09-05T12:15:31Z",
+"last_checked": "2026-09-06T12:28:17Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

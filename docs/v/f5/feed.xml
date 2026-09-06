@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Sat, 05 Sep 2026 12:15:31 +0000</lastBuildDate><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260904-504 [resolved]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>We are pleased to confirm that the issue has been fully resolved.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>F5 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/f5.html</link><description>Incidents from F5's public status page, polled daily.</description><lastBuildDate>Sun, 06 Sep 2026 12:28:17 +0000</lastBuildDate><item><title>Incident Advisory: INC-20260905-505 [resolved]</title><link>https://stspg.io/x0sylpsfcrw4</link><guid isPermaLink="false">f5:2026-09-05T19:04:35.641Z</guid><pubDate>Sat, 05 Sep 2026 19:04:35 +0000</pubDate><description>The issue affecting Cloud LMA Global Log Receiver (GLR) has been resolved. Impact was limited to a single customer, who was engaged directly throughout the investigation and resolution process. There was no impact to customer traffic, and all Distributed Cloud Console services remained fully operational. We will continue to monitor the platform to ensure service stability.
+
+Thank you for your continued support and trust in F5.</description></item><item><title>F5 Distributed Cloud - Service Degradation - Delay in Access Logs and Global Log Receiver - INC-20260904-504 [resolved]</title><link>https://stspg.io/pf9y3g4lp78t</link><guid isPermaLink="false">f5:2026-09-04T15:16:06.981Z</guid><pubDate>Fri, 04 Sep 2026 15:16:06 +0000</pubDate><description>We are pleased to confirm that the issue has been fully resolved.
 
 All affected services have been restored and are operating normally, with no further impact anticipated. We sincerely appreciate your patience and understanding throughout the resolution process. If you continue to experience any issues or have further questions, please don&#x27;t hesitate to reach out to our support team.
 
@@ -140,16 +142,4 @@ If you have any questions or continue to experience issues, please reach out to 
 
 We appreciate your patience and understanding while we worked to restore service.</description></item><item><title>F5 Distributed Cloud - Service Degradation - CDN nodes in degraded state - INC-20260520-459 [resolved]</title><link>https://stspg.io/fyd3m39jlq49</link><guid isPermaLink="false">f5:2026-05-21T00:39:02.000Z</guid><pubDate>Thu, 21 May 2026 00:39:02 +0000</pubDate><description>The F5 Distributed Cloud team confirmed that all CDN services and nodes are fully operational. Traffic is flowing normally, and this incident has now been resolved.
 
-If you&#x27;re still experiencing any issues, please do not hesitate to contact F5 Support for assistance.</description></item><item><title>F5 Distributed Cloud - Service Degradation - DNS resolution issue - INC-20260520-462 [resolved]</title><link>https://stspg.io/hmqzsq2wyzts</link><guid isPermaLink="false">f5:2026-05-20T17:01:49.030Z</guid><pubDate>Wed, 20 May 2026 17:01:49 +0000</pubDate><description>The issue affecting DNS resolution has been fully resolved, and all services are operating normally.
-Our teams have validated system stability and will continue to monitor to ensure consistent performance.
-Thank you for your patience while we worked to resolve this issue.  If you have any questions or concerns, please feel free to reach out to our support team.
-
-Contact information
-- Email support: support@cloud.f5.com
-- Phone support: For region-specific contact details, please visit:
-  https://my.f5.com/manage/s/article/K000135931
-
-We appreciate your understanding and cooperation as we continue to improve our services.
-
-Sincerely,
-F5 Distributed Cloud</description></item></channel></rss>
+If you&#x27;re still experiencing any issues, please do not hesitate to contact F5 Support for assistance.</description></item></channel></rss>
