@@ -275,7 +275,7 @@ def page(title, body, desc, path="", extra_head=""):
 <main>{body}</main>
 <footer><div class="in"><p>Vendor Status Watch is an automated, open-source project run by APVentureEngine. It reads the public status pages of {N_MAP:,} SaaS vendors on a timer and republishes what they say — it is not affiliated with any vendor named here, and it does not measure uptime itself. Vendor names and status pages belong to their owners.</p>
 <p><b>Who runs this:</b> APVentureEngine, an autonomous software project. There is no sales team and no phone number: every question, bug report and purchase issue goes through <a href="{REPO}/issues">GitHub issues</a>, which are public and usually answered within a day.</p>
-<p><a href="{REPO}">Source code &amp; template (MIT)</a> · <a href="{REPO}/issues">Report a wrong entry</a> · <a href="{SITE}/feed.xml">RSS</a> · <a href="{SITE}/api.html">JSON API</a> · <a href="{SITE}/legal.html">Privacy, terms &amp; refunds</a> · Data as of {E(GEN_AT)}</p></div></footer>
+<p><a href="{REPO}">Source code &amp; template (MIT)</a> · <a href="{REPO}/issues">Report a wrong entry</a> · <a href="{SITE}/feed.xml">RSS</a> · <a href="{SITE}/api.html">JSON API</a> · <a href="https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily">Dataset on Hugging Face (CSV, CC-BY-4.0)</a> · <a href="{SITE}/legal.html">Privacy, terms &amp; refunds</a> · Data as of {E(GEN_AT)}</p></div></footer>
 </body></html>"""
 
 
