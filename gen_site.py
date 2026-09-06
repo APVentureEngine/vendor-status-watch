@@ -263,7 +263,8 @@ LOGO = ('<svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><cir
 def page(title, body, desc, path="", extra_head=""):
     canon = f"{SITE}/{path}" if path else f"{SITE}/"
     nav = [("Live board", "/#board"), ("Vendors", "/vendors.html"), ("Free template", "/#template"),
-           ("Pricing", "/#hosted"), ("Coverage", "/platforms.html"), ("API", "/api.html")]
+           ("Pricing", "/#hosted"), ("Outage length", "/outage-duration.html"),
+           ("Coverage", "/platforms.html"), ("API", "/api.html")]
     navh = "".join(f'<a href="{SITE}{h}">{E(t)}</a>' for t, h in nav)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -377,6 +378,21 @@ def render_index():
 <p class="small muted">One-time payment for 12 months, no auto-renewal. 14-day refund, no questions. First digest within 24 hours of purchase. This is a daily digest, not 5-minute paging — for that, use the free template.</p>
 <a class="btn" href="{E(DIGEST)}">Get the daily digest — {E(DIGEST_PRICE)}</a>
 {f'<a class="btn ghost" href="{E(DIGEST_FREE)}">Try it free for 30 days — up to 5 vendors, no card</a>' if DIGEST_FREE else ''}</div>""" if DIGEST else ""
+    # c185: the one number on this site that no free source publishes — how long
+    # incidents actually run once opened. Teaser only; the page carries the method.
+    dur_teaser = ""
+    if DUR_STATS:
+        import hf_outage_duration as _OD
+        _s = ", ".join(f"{E(n)} ({E(_OD.fmt_h(m))})" for n, m, _ in DUR_STATS["slowest"][:3])
+        dur_teaser = f"""
+<section id="duration"><h2>How long do these outages actually last?</h2>
+<p class="lead">Every vendor posts a start time and a resolve time. Nobody adds them up. We do:
+across {DUR_STATS["measured"]:,} incidents that carry both, the median runs
+<b>{E(_OD.fmt_h(DUR_STATS["median_min"]))}</b> and one in ten runs past
+<b>{E(_OD.fmt_h(DUR_STATS["p90_min"]))}</b>. Slowest to resolve in the last 90 days: {_s}.</p>
+<div class="cta"><a class="btn" href="{SITE}/outage-duration.html">See the {DUR_STATS["ranked"]:,}-vendor resolution-time table</a></div>
+<p class="small muted">Vendor-posted timestamps only; maintenance windows, still-open incidents and
+inferred resolutions are excluded rather than estimated. Method and exclusion counts are on that page.</p></section>"""
     body = f"""
 <section>
 <h1>SaaS outage alerts in your Slack — self-hosted, open data, $0.</h1>
@@ -400,6 +416,7 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 <div class="tw"><table><thead><tr><th>Vendor</th><th>State</th><th>What the vendor says</th><th>Platform</th></tr></thead><tbody>{board_rows}</tbody></table></div>
 {trend}{bars}
 </section>
+{dur_teaser}
 
 <section id="template"><h2>Free: one line in your own GitHub Actions</h2>
 <p>If you already have a workflow, add the action and you are done. Your vendors, your webhook secret, your runner — nothing leaves your repository except the POST to your own channel.</p>
@@ -481,6 +498,113 @@ def duration_section(name, slug, recs):
 <p class="small muted">From {len(measured):,} incident{'s' if len(measured) != 1 else ''} with a vendor-posted start and resolve time. Longest on record: {lt} — {E(OD.fmt_h(longest["duration_minutes"]))} ({E(fmt_dt(longest["started_at"]))}). Excluded, never estimated: {E(excl_txt) if excl_txt else "nothing"}. Duration is the gap between the vendor's own posted timestamps — it is not measured downtime, uptime or an SLA figure, and a vendor that posts every blip will look worse here than one that posts nothing. Same rule as the <a href="https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr">outage-duration dataset</a>.</p>
 </section>
 """
+
+
+MIN_MEASURED_90 = 20   # a "median" over fewer resolved incidents is not a fact
+DUR_STATS = None       # set by render_duration(), read by the index teaser
+
+
+def duration_index():
+    """Every measured incident duration across the whole map, plus the per-vendor
+    90-day sets that clear MIN_MEASURED_90.
+
+    Computed through hf_outage_duration.classify() — the SAME function the MTTR
+    dataset uses — so this page can never disagree with the published dataset.
+    Aliases are already collapsed out of `hist`, so a status page shared by two
+    brands (Twilio/SendGrid) is counted and shown once.
+    """
+    import hf_outage_duration as OD
+    allm, per90, counts = [], {}, collections.Counter()
+    for slug, h in hist.items():
+        v = by_slug.get(slug)
+        if not v:
+            continue
+        src = [dict(r, vendor_slug=slug, vendor=v["name"], platform=v.get("platform", ""),
+                    incident_id=str(r.get("id") or r.get("started_at")), title=r.get("title") or "",
+                    resolved_inferred=str(bool(r.get("resolved_inferred"))))
+               for r in h.get("incidents", {}).values() if r.get("started_at")]
+        if not src:
+            continue
+        m, c = OD.classify(src)
+        for k in ("maint", "open", "inferred", "negative"):
+            counts[k] += c.get(k, 0)
+        allm.extend(x["duration_minutes"] for x in m)
+        d90 = [x["duration_minutes"] for x in m
+               if ts(x["started_at"]) and ts(x["started_at"]) >= D90]
+        if len(d90) >= MIN_MEASURED_90:
+            per90[slug] = d90
+    return allm, per90, counts
+
+
+def render_duration():
+    """/outage-duration.html — "how long do SaaS outages actually last?".
+
+    Nobody publishes this for free: vendors post start and resolve times but never
+    aggregate them, and the paid monitors sell uptime, not resolution time.
+    """
+    import hf_outage_duration as OD
+    allm, per90, counts = duration_index()
+    if len(allm) < 100 or not per90:
+        return                        # never render a headline we cannot stand behind
+    med, p90 = int(statistics.median(allm)), int(OD.pct(allm, 0.9))
+    ranked = sorted(((s, statistics.median(d), OD.pct(d, 0.9), len(d)) for s, d in per90.items()),
+                    key=lambda r: -r[1])
+    kp = DV.kpi_row([
+        (f"{len(allm):,}", "incidents with a start AND a resolve time", "the measurable set"),
+        (OD.fmt_h(med), "median incident length", "half are fixed sooner"),
+        (OD.fmt_h(p90), "90th percentile", "1 in 10 runs longer than this"),
+        (f"{len(per90):,}", f"vendors with {MIN_MEASURED_90}+ resolved in 90 days", "ranked below"),
+    ])
+    bars = DV.figure(
+        DV.bar_chart([(by_slug[s]["name"], round(m / 60.0, 1)) for s, m, _, _ in ranked[:15]],
+                     unit=" h median"),
+        f"Slowest vendors to resolve, last 90 days — median length of every incident they "
+        f"opened and closed in the window (minimum {MIN_MEASURED_90} measured).",
+        source="each vendor's own status page, read daily by this project", asof=TODAY)
+    rows = "".join(
+        f'<tr data-q="{E(by_slug[s]["name"].lower())} {E(s)}"><td><a href="{vurl(s)}">{E(by_slug[s]["name"])}</a></td>'
+        f'<td>{E(OD.fmt_h(int(m)))}</td><td class="small">{E(OD.fmt_h(int(p)))}</td>'
+        f'<td class="small muted">{n}</td></tr>'
+        for s, m, p, n in ranked)
+    excl = [(counts["maint"], "scheduled maintenance windows (a planned window is not an outage)"),
+            (counts["open"], "incidents still open, or with no resolve time posted"),
+            (counts["inferred"], "resolutions we inferred because the incident simply vanished"),
+            (counts["negative"], "incidents the vendor posted as resolved BEFORE they started")]
+    excl_rows = "".join(f"<tr><td>{n:,}</td><td>{E(t)}</td></tr>" for n, t in excl if n)
+    body = f"""<section><h1>How long do SaaS outages actually last?</h1>
+<p class="lead">Every vendor posts when an incident opened and when it closed. Nobody adds them up.
+We do, every day, across {N_SUP:,} status pages — {len(allm):,} incidents that carry both timestamps.</p>
+{kp}
+{bars}
+</section>
+<section><h2>Median time to resolve, last 90 days</h2>
+<p><label for="q" class="small muted">Filter by vendor</label><br><input id="q" class="filter" type="search" placeholder="e.g. twilio, akamai" autocomplete="off"></p>
+<p class="small muted" id="cnt"></p>
+<div class="tw"><table id="t"><thead><tr><th>Vendor</th><th>Median</th><th>90th pct</th><th>Measured</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="small muted">Only vendors with at least {MIN_MEASURED_90} incidents opened AND resolved in the
+last 90 days appear — a median over three incidents reads like a fact and is not one.
+The full per-incident table is the free
+<a href="https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr">outage-duration dataset</a> (CC BY 4.0).</p></section>
+<section><h2>What is excluded, and why</h2>
+<p>Of every incident on record, these are dropped rather than estimated:</p>
+<div class="tw"><table><thead><tr><th>Rows</th><th>Excluded because</th></tr></thead><tbody>{excl_rows}</tbody></table></div>
+<p class="small muted"><b>Read this before quoting a number.</b> Duration is the gap between the
+vendor's OWN posted timestamps. It is not measured downtime, not uptime, and not an SLA figure.
+A vendor that posts every small blip and closes it honestly will look "slower" here than one that
+posts nothing at all — this measures how vendors communicate as much as how fast they fix.
+Statuspage-hosted vendors back-fill their history, so they dominate the measurable set; platforms
+that expose only currently-open incidents contribute almost nothing, which is why we do not
+publish a per-platform comparison.</p>
+<p><a class="btn" href="{SITE}/#template">Watch your own vendors — free MIT template</a></p></section>
+<script>(function(){{var q=document.getElementById('q'),rs=document.querySelectorAll('#t tbody tr'),c=document.getElementById('cnt');function f(){{var s=q.value.toLowerCase().trim(),n=0;rs.forEach(function(r){{var v=!s||r.getAttribute('data-q').indexOf(s)>-1;r.style.display=v?'':'none';if(v)n++}});c.textContent=n+' of '+rs.length+' vendors'}}q.addEventListener('input',f);f()}})();</script>"""
+    write("outage-duration.html", page(
+        "How long do SaaS outages last? Median incident resolution time by vendor",
+        body,
+        f"Median and 90th-percentile incident length for {len(per90):,} SaaS vendors, from "
+        f"{len(allm):,} incidents with vendor-posted start and resolve times. Updated daily, free.",
+        "outage-duration.html"))
+    return {"measured": len(allm), "median_min": med, "p90_min": p90, "ranked": len(per90),
+            "slowest": [(by_slug[s]["name"], int(m), n) for s, m, _, n in ranked[:5]]}
 
 
 def render_vendor(v):
@@ -629,7 +753,8 @@ def render_feeds_and_meta():
                     f"<guid isPermaLink=\"false\">{E(s)}:{E(str(iid))}</guid><pubDate>{rfc822(r['started_at'])}</pubDate><description>{E((r.get('body') or '')[:800])}</description></item>"
                     for s, iid, r in all_inc[:60])
     write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Vendor Status Watch — all incidents</title><link>{SITE}/</link><description>Incidents from {N_SUP} SaaS status pages, polled daily.</description><lastBuildDate>{rfc822(GEN_AT)}</lastBuildDate>{items}</channel></rss>')
-    urls = [f"{SITE}/", f"{SITE}/vendors.html", f"{SITE}/platforms.html", f"{SITE}/api.html", f"{SITE}/legal.html"] + [vurl(v["slug"]) for v in vendors["vendors"]]
+    urls = [f"{SITE}/", f"{SITE}/vendors.html", f"{SITE}/platforms.html", f"{SITE}/outage-duration.html",
+            f"{SITE}/api.html", f"{SITE}/legal.html"] + [vurl(v["slug"]) for v in vendors["vendors"]]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
           "".join(f"<url><loc>{E(u)}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls) + "</urlset>")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
@@ -849,7 +974,9 @@ def sync_readme():
 
 
 def main():
+    global DUR_STATS
     os.makedirs(OUT, exist_ok=True)
+    DUR_STATS = render_duration()      # before render_index: the index teaser reads it
     render_index()
     for v in vendors["vendors"]:
         render_vendor(v)
