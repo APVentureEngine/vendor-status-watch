@@ -26,7 +26,7 @@ You are never watching a hard-coded list that rotted six months ago.
 - Map + browsable board: <https://approjects-vendor-status-watch.static.hf.space/>
 - Full vendor list (slugs): <https://approjects-vendor-status-watch.static.hf.space/vendors.html>
 - Source, MIT: <https://github.com/APVentureEngine/vendor-status-watch>
-- Incident history dataset: <https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily>
+- Incident history dataset: <https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily>
 
 ## Input
 

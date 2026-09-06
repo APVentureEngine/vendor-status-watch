@@ -31,7 +31,7 @@ tags:
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
 | **14,720** | real incidents on record (651 vendors back-filled from source) |
-| **2,192** | incidents opened in the last 30 days, across 405 vendors |
+| **2,141** | incidents opened in the last 30 days, across 403 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -45,7 +45,7 @@ Instatus, status.io and Better Stack.
 - **JSON API** — [`/api/snapshot.json`](https://approjects-vendor-status-watch.static.hf.space/api/snapshot.json) (current state),
   [`/api/vendors.json`](https://approjects-vendor-status-watch.static.hf.space/api/vendors.json) (the living map).
 - **RSS** — [all vendors](https://approjects-vendor-status-watch.static.hf.space/feed.xml), or one feed per vendor.
-- **Dataset mirror** — [APProjects/saas-vendor-status-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily).
+- **Dataset mirror** — [APProjects/saas-vendor-status-pages-outages-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily).
 - **Daily release** — [`releases/latest`](https://github.com/APVentureEngine/vendor-status-watch/releases/latest): `vendors.json`, `snapshot.json`, `stats.json` and `incident_history.tar.gz` (every vendor's history in one archive), refreshed each run.
 
 ```bash
@@ -105,8 +105,8 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 | [Liveramp status history](https://approjects-vendor-status-watch.static.hf.space/v/liveramp.html) | ≥ 50 | 50 |
 | [Visma status history](https://approjects-vendor-status-watch.static.hf.space/v/visma.html) | ≥ 50 | 50 |
 | [Flyio status history](https://approjects-vendor-status-watch.static.hf.space/v/flyio.html) | ≥ 50 | 50 |
-| [Circle status history](https://approjects-vendor-status-watch.static.hf.space/v/circle.html) | ≥ 50 | 50 |
 | [Webroot status history](https://approjects-vendor-status-watch.static.hf.space/v/webroot.html) | 50 | 51 |
+| [Circle status history](https://approjects-vendor-status-watch.static.hf.space/v/circle.html) | 49 | 50 |
 | [Ledger status history](https://approjects-vendor-status-watch.static.hf.space/v/ledger.html) | 49 | 50 |
 | [IONOS status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos.html) | 47 | 51 |
 | [Cisco Systems status history](https://approjects-vendor-status-watch.static.hf.space/v/cisco-systems.html) | 45 | 51 |
@@ -125,7 +125,7 @@ Ranked on incidents each vendor opened on its own status page in the last 90
 days — a busy status page means a *communicative* vendor as often as an unreliable
 one, so read it as disclosure volume, not as a reliability league table.
 
-**“≥” on 24 row(s):** the source status-page API returns at most 50 incidents, and these vendors' archives begin inside the 90-day window — so the figure is a floor, not a total. We show the bound rather than dropping the vendor, and rather than printing a number we cannot stand behind.
+**“≥” on 23 row(s):** the source status-page API returns at most 50 incidents, and these vendors' archives begin inside the 90-day window — so the figure is a floor, not a total. We show the bound rather than dropping the vendor, and rather than printing a number we cannot stand behind.
 
 [Full list of all 1,127 vendors →](https://approjects-vendor-status-watch.static.hf.space/vendors.html) ·
 [Coverage by platform →](https://approjects-vendor-status-watch.static.hf.space/platforms.html)

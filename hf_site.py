@@ -21,6 +21,7 @@ Usage (cwd = product/):
 
 Exit codes: 0 ok, 2 upload failed, 3 live verification failed.
 """
+import hashlib
 import json
 import os
 import shutil
@@ -30,6 +31,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(HERE, "docs")
 STAGE = os.path.join(HERE, "hf_site_staging")
+MANIFEST = os.path.join(HERE, "hf_site_manifest.json")
 REPO_ID = "APProjects/vendor-status-watch"
 BASE = "https://approjects-vendor-status-watch.static.hf.space"
 
@@ -97,24 +99,85 @@ def stage():
     return n
 
 
+def _stage_hashes():
+    """sha256 of every staged file, keyed by its path inside the Space."""
+    out = {}
+    for root, dirs, files in os.walk(STAGE):
+        dirs[:] = [d for d in dirs if d not in {".git", ".github"}]
+        for f in files:
+            fp = os.path.join(root, f)
+            rel = os.path.relpath(fp, STAGE).replace(os.sep, "/")
+            h = hashlib.sha256()
+            with open(fp, "rb") as fh:
+                for chunk in iter(lambda: fh.read(1 << 20), b""):
+                    h.update(chunk)
+            out[rel] = h.hexdigest()
+    return out
+
+
 def upload():
+    """Publish the staged copy — incrementally (c173, ported from warn-feed).
+
+    This used to upload_folder all ~2,800 files every run; on 2026-09-05 that
+    took 15 minutes and the engine's pipeline timer killed the run at 180s, so
+    a healthy refresh was recorded as "pipeline FAILED (exit 124)". Failed
+    upkeep pauses the venture's market clock, so a slow publish is not a
+    cosmetic problem. Now: hash the staged tree, keep the hashes of the last
+    SUCCESSFUL upload in hf_site_manifest.json, commit only what changed, and
+    take the list of what to DELETE from the Space itself (a manifest entry for
+    a file the Space does not hold 404s the whole commit). No manifest => full
+    upload_folder exactly as before.
+    """
     token = os.environ.get("HF_TOKEN")
     if not token:
         print("hf_site: HF_TOKEN absent — cannot publish the live site")
         return 2
+    cur = _stage_hashes()
+    try:
+        with open(MANIFEST) as f:
+            prev = json.load(f)
+        if not isinstance(prev, dict) or not prev:
+            prev = None
+    except Exception:  # noqa: BLE001
+        prev = None
     try:
         from huggingface_hub import HfApi
         api = HfApi(token=token)
         api.create_repo(REPO_ID, repo_type="space", space_sdk="static", exist_ok=True)
-        api.upload_folder(
-            folder_path=STAGE, repo_id=REPO_ID, repo_type="space",
-            commit_message="site refresh",
-            delete_patterns=["*"],  # a slug that left the map must leave the Space too
-        )
+        if prev is None:
+            api.upload_folder(
+                folder_path=STAGE, repo_id=REPO_ID, repo_type="space",
+                commit_message="site refresh",
+                delete_patterns=["*"],  # a slug that left the map must leave the Space too
+            )
+            mode = f"full, {len(cur)} files"
+        else:
+            remote = set(api.list_repo_files(REPO_ID, repo_type="space"))
+            changed = sorted(r for r, h in cur.items()
+                             if prev.get(r) != h or r not in remote)
+            gone = sorted(remote - set(cur) - {".gitattributes"})
+            if not changed and not gone:
+                print(f"hf_site: nothing changed since last upload ({len(cur)} files) — no commit")
+                return 0
+            from huggingface_hub import CommitOperationAdd, CommitOperationDelete
+            ops = [CommitOperationAdd(path_in_repo=r,
+                                      path_or_fileobj=os.path.join(STAGE, *r.split("/")))
+                   for r in changed]
+            ops += [CommitOperationDelete(path_in_repo=r) for r in gone]
+            api.create_commit(
+                repo_id=REPO_ID, repo_type="space", operations=ops,
+                commit_message=f"site refresh ({len(changed)} changed, {len(gone)} removed)",
+            )
+            mode = f"incremental, {len(changed)} changed + {len(gone)} removed of {len(cur)}"
     except Exception as e:  # noqa: BLE001
         print(f"hf_site: upload FAILED: {e}")
         return 2
-    print(f"hf_site: uploaded -> {BASE}/")
+    try:
+        with open(MANIFEST, "w") as f:
+            json.dump(cur, f)
+    except Exception as e:  # noqa: BLE001
+        print(f"hf_site: WARN could not write {MANIFEST} ({e}) — next run re-uploads everything")
+    print(f"hf_site: uploaded ({mode}) -> {BASE}/")
     return 0
 
 

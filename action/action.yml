@@ -1,0 +1,73 @@
+name: 'Vendor Status Watch'
+description: 'Alert Slack, Discord or Teams when a SaaS vendor you depend on has an incident. 1,100+ status pages, no API key.'
+author: 'APVentureEngine'
+branding:
+  icon: 'bell'
+  color: 'red'
+
+inputs:
+  vendors:
+    description: 'Comma-separated vendors to watch, e.g. "github,aws,openai,cloudflare". Slugs, common short names (aws, gcp, m365) and display names ("Google Cloud") all resolve; anything that does not match is named in the log, never silently skipped. Full list: https://approjects-vendor-status-watch.static.hf.space/vendors.html'
+    required: true
+  webhook-url:
+    description: 'Incoming webhook URL — Slack, Discord, Microsoft Teams, or any endpoint that accepts a JSON POST. Always pass this from a secret.'
+    required: true
+  format:
+    description: 'Payload style: auto (detect from the webhook host), slack, discord, teams or json.'
+    required: false
+    default: 'auto'
+  state-path:
+    description: 'Where to keep the state file between runs, relative to the workspace. Cache or commit this path or every run re-baselines and stays quiet.'
+    required: false
+    default: '.vendor-status-watch/state.json'
+  unreachable-after:
+    description: 'Consecutive failed polls before one "cannot see this vendor" alert is sent.'
+    required: false
+    default: '3'
+  mute-maintenance:
+    description: 'Set to true to ignore scheduled and in-progress maintenance windows.'
+    required: false
+    default: 'false'
+  map-url:
+    description: 'Override the living vendor map URL. Defaults to the daily-rebuilt map in APVentureEngine/vendor-status-watch.'
+    required: false
+    default: ''
+  dry-run:
+    description: 'Set to true to poll and print the payloads without posting anything.'
+    required: false
+    default: 'false'
+
+outputs:
+  state-path:
+    description: 'Absolute path of the state file this run wrote.'
+    value: ${{ steps.watch.outputs.state-path }}
+
+runs:
+  using: 'composite'
+  steps:
+    - id: watch
+      shell: bash
+      # Every input is passed through env, never interpolated into the script body:
+      # a vendor list is caller-controlled text and must not become shell.
+      env:
+        VENDORS: ${{ inputs.vendors }}
+        WEBHOOK_URL: ${{ inputs.webhook-url }}
+        WEBHOOK_FORMAT: ${{ inputs.format }}
+        UNREACHABLE_AFTER: ${{ inputs.unreachable-after }}
+        MUTE_MAINTENANCE: ${{ inputs.mute-maintenance }}
+        MAP_URL: ${{ inputs.map-url }}
+        IN_STATE_PATH: ${{ inputs.state-path }}
+        IN_DRY_RUN: ${{ inputs.dry-run }}
+      run: |
+        set -euo pipefail
+        case "$IN_STATE_PATH" in
+          /*) STATE_PATH="$IN_STATE_PATH" ;;
+          *)  STATE_PATH="${GITHUB_WORKSPACE:-$PWD}/$IN_STATE_PATH" ;;
+        esac
+        export STATE_PATH
+        mkdir -p "$(dirname "$STATE_PATH")"
+        case "$(printf '%s' "$IN_DRY_RUN" | tr '[:upper:]' '[:lower:]')" in
+          1|true|yes|on) python3 "$GITHUB_ACTION_PATH/watch.py" --dry-run ;;
+          *)             python3 "$GITHUB_ACTION_PATH/watch.py" ;;
+        esac
+        echo "state-path=$STATE_PATH" >> "$GITHUB_OUTPUT"

@@ -60,7 +60,7 @@ except Exception:
 SITE = (CFG.get("site_url") or "https://approjects-vendor-status-watch.static.hf.space").rstrip("/") + "/"
 DIGEST_URL = CFG.get("digest_url") or "https://approj.gumroad.com/l/vendor-digest"
 DIGEST_PRICE = CFG.get("digest_price", "$19/year")
-HF_DATASET = "https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily"
+HF_DATASET = "https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily"
 
 
 def _token():

@@ -1,0 +1,930 @@
+{
+"http://hoverstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.empist.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.lookback.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.memcachier.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.searchly.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.stealth.net.au": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"http://status.ticketinghub.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://automatticstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://businesssupport.vonage.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://client.cdn77.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://cloud-status.extremecloudiq.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://cloud.ibm.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://connectedfleet.michelin.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://cspreporter.nl": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://dakboard.statuspal.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://developer.apple.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://developer.mastercard.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://dhostingstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://docs.servicenow.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://exoscalestatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://hawkhoststatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://iridiumwhere.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://issitedownrightnow.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://kb.acronis.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://main.whoisxmlapi.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://mojohelpdesk.montastic.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://ns1status.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://ocistatus.oraclecloud.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://osdatahub.os.uk": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://portal.office.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://rootly.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://saasstatus.oracle.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://scalingostatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://stackstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.abuseipdb.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.adobe.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.algolia.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.alibabacloud.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.amp.cisco.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.apeople.automationanywhere.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.apps.rackspace.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.appveyor.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.armor.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.aspera.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.assembla.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.auth0.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.autospf.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.blockchair.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.bossdesk.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.canonical.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cashfree.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.ces.cisco.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.check24.de": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cimpress.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloud.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloud.coop": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloud.unity3d.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloud.yandex.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloudcare.avg.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloudnovi.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cloudradial.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.coinapi.io": {
+"extra": {
+"feed": "https://status.apibricks.io/feed.rss"
+},
+"plat": "incident.io",
+"until": "2026-09-12"
+},
+"https://status.coingecko.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.combell.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.comptia.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.connect.aveva.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.connect.cloudblue.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.convertapi.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cryptopro.app": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.cubecloud.dev": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.datadome.co": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.docusign.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.elastic.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.enterprisemessaging-starhub.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.fivetran.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.flood.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.flow.swiss": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.forcepoint.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.freistilbox.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.getflywheel.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.glideapps.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.globant.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.golinks.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hackerrank.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.happyfox.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hasura.io": {
+"extra": {
+"feed": "https://hasura-status.com/feed.rss"
+},
+"plat": "incident.io",
+"until": "2026-09-12"
+},
+"https://status.helpdocs.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hetzner.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hostifi.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hostpress.de": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.hostry.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.iboss.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.inriver.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.jenkins.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.jetbrains.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.jsdelivr.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.keycdn.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.leanix.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.loom.com": {
+"extra": {
+"base": "https://loom.status.atlassian.com"
+},
+"plat": "statuspage",
+"until": "2026-09-12"
+},
+"https://status.manageengine.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.manomano.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.minnstate.edu": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.mulesoft.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.nestify.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.notion.so": {
+"extra": {
+"feed": "https://www.notion-status.com/feed.rss"
+},
+"plat": "incident.io",
+"until": "2026-09-12"
+},
+"https://status.office365.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.okta.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.omadahealth.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.one.comodo.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.pagerduty.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.parsec.app": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.patchmypc.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.pgmustard.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.platform.sh": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.playstation.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.prerender.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.publit.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.pushy.me": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.qlikcloud.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.racknerd.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rackspeed.de": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rapidapi.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.raygun.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.redis.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.redisgreen.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rhombus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rocket.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rookout.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.rosehosting.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.salesforce.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.scoutdns.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.scrapingbee.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.skyhighsecurity.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.skysilk.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.smoothwall.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.sonicwall.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.threema.ch": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.trade.tt": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.trellix.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.trendmicro.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.trengo.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.tugboatlogic.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.uniflowonline.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.urlscan.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.velocityhost.com.au": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.verisk.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.vgrid.nz": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.viapeople.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.vipre.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.webcentral.au": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.webex.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.zendesk.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.zenvia.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.zeplin.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.zerossl.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://status.zingle.me": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://statusgator.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://statuspage.jitbit.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://summithosting.statuskeeper.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://support.xbox.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://tcpsoftware.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://thg.statuspal.io": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://timezonedb.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://trust.emarsys.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://trust.netskope.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://trust.talend.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://trust.zscaler.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://updownradar.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://uptime.n-able.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://uptime.proctorio.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://wpenginestatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://wpvipstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.appian.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.apple.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.capitalone.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.clevercloudstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.collibra.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.colt.net": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.icewarp.de": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.intercomstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.isitdownrightnow.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.leasewebstatus.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.similarweb.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+},
+"https://www.trustesker.com": {
+"extra": {},
+"plat": null,
+"until": "2026-09-12"
+}
+}

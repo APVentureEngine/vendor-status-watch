@@ -1,0 +1,337 @@
+[2026-09-05T05:18:45Z] ==== pipeline start (pid 225265)
+[2026-09-05T05:18:45Z] build_map
+seed_extra added: 24
+bespoke parsers attached: 8
+reprobe rescued: 21 of 204 unknown-html
+dedupe: merged 7 duplicate rows, disambiguated 1 same-name vendors
+1141 vendors, 813 supported
+[('statuspage', 706), ('unknown-html', 183), ('dead', 121), ('status.io', 37), ('instatus', 34), ('betterstack', 28), ('uptimerobot', 11), ('bespoke', 8), ('hund', 7), ('incident.io', 3), ('cachet', 3)]
+status.io ids resolved: 37 / 37
+map ok: 1141 vendors, 813 supported
+[2026-09-05T05:19:27Z] poll_all
+{"at": "2026-09-05T05:19:27Z", "polled": 813, "parsed": 770, "unknown": 43, "seconds": 298.5, "errors": {"http 401": 19, "moved: not a statuspage any more": 20, "http 526": 1, "moved: not an instatus page any more": 1, "http 404": 2}, "states": {"ok": 686, "maintenance": 24, "degraded": 39, "partial": 12, "major": 4, "unknown": 48}}
+[2026-09-05T05:24:26Z] digest
+digest: 0 sale(s) for product ZnQHtrtf…
+[2026-09-05T05:24:27Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T05:24:29Z] gen_site
+gen_site: space_readme.md (8955 bytes, 40 deep links)
+sync_readme: README.md numbers updated
+gen_site: 2755 files → docs/  | map 1127 sup 799 polled 799 parsed 756 not_ok 75 incidents 14707 (30d 2197)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T05:24:39Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: updated 1: README.md (headline numbers)
+[2026-09-05T05:24:42Z] hf_site (live site)
+hf_site: staged 2756 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (47,921 bytes)
+hf_site: ok   /vendors.html (371,011 bytes)
+hf_site: ok   /api/vendors.json (162,783 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (212,749 bytes)
+hf_site: ok   /v/twilio.html (28,222 bytes)
+hf_site: ok   /feed.xml (27,738 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T05:26:17Z] commit + push
+repo description already current
+[2026-09-05T05:26:35Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T05:26:35Z] hf_mirror
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=799 incidents=14708 (617 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T05:26:38Z] hf_mirror: OK
+[2026-09-05T05:26:38Z] done
+[2026-09-05T05:26:38Z] ==== pipeline end (exit 0)
+[2026-09-05T06:16:36Z] ==== pipeline start (pid 227028)
+[2026-09-05T06:16:36Z] PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)
+[2026-09-05T06:16:36Z] digest
+digest: 0 sale(s) for product ZnQHtrtf…
+[2026-09-05T06:16:36Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T06:16:37Z] gen_site
+gen_site: space_readme.md (9207 bytes, 40 deep links)
+sync_readme: README.md already current
+gen_site: 2755 files → docs/  | map 1127 sup 799 polled 799 parsed 756 not_ok 75 incidents 14707 (30d 2195)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T06:16:39Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: README headline numbers already current
+sync_template: 4 file(s) already identical upstream
+[2026-09-05T06:16:41Z] hf_site (live site)
+hf_site: staged 2756 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (47,921 bytes)
+hf_site: ok   /vendors.html (371,011 bytes)
+hf_site: ok   /api/vendors.json (162,783 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (212,749 bytes)
+hf_site: ok   /v/twilio.html (28,222 bytes)
+hf_site: ok   /feed.xml (27,738 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T06:16:57Z] commit + push
+[2026-09-05T06:16:57Z] nothing to commit
+[2026-09-05T06:16:57Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description already current
+[2026-09-05T06:17:04Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T06:17:04Z] hf_mirror
+No files have been modified since last commit. Skipping to prevent empty commit.
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=799 incidents=14708 (617 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T06:17:06Z] hf_mirror: OK
+[2026-09-05T06:17:06Z] done
+[2026-09-05T06:17:06Z] ==== pipeline end (exit 0)
+[2026-09-05T07:23:14Z] ==== pipeline start (pid 229004)
+[2026-09-05T07:23:14Z] PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)
+[2026-09-05T07:23:14Z] digest
+digest: 0 sale(s) for product ZnQHtrtf…
+[2026-09-05T07:23:14Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T07:23:15Z] gen_site
+gen_site: space_readme.md (9207 bytes, 40 deep links)
+sync_readme: README.md already current
+gen_site: 2755 files → docs/  | map 1127 sup 799 polled 799 parsed 756 not_ok 75 incidents 14707 (30d 2189)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T07:23:17Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: README headline numbers already current
+sync_template: updated 1: watch.py
+[2026-09-05T07:23:19Z] hf_site (live site)
+hf_site: staged 2756 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (48,731 bytes)
+hf_site: ok   /vendors.html (371,011 bytes)
+hf_site: ok   /api/vendors.json (162,783 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (212,749 bytes)
+hf_site: ok   /v/twilio.html (28,222 bytes)
+hf_site: ok   /feed.xml (27,738 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T07:24:32Z] commit + push
+[2026-09-05T07:24:34Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description already current
+[2026-09-05T07:24:41Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T07:24:41Z] hf_mirror
+No files have been modified since last commit. Skipping to prevent empty commit.
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=799 incidents=14708 (617 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T07:24:43Z] hf_mirror: OK
+[2026-09-05T07:24:43Z] done
+[2026-09-05T07:24:43Z] ==== pipeline end (exit 0)
+[2026-09-05T08:54:28Z] ==== pipeline start (pid 233047)
+[2026-09-05T08:54:28Z] build_map
+seed_extra added: 24
+bespoke parsers attached: 9
+[  0.0s] seed + bespoke done
+reprobe slowest: cloudnovi=24s, yandex-cloud=11s, freistilbox=7s, rout-it=6s, trend-micro=5s
+reprobe rescued: 26 of 206 unknown-html/incident.io
+[ 25.6s] reprobe done
+[ 26.5s] status.io ids done
+dedupe: merged 7 duplicate rows, disambiguated 1 same-name vendors
+1141 vendors, 819 supported
+[('statuspage', 707), ('unknown-html', 178), ('dead', 121), ('status.io', 37), ('instatus', 34), ('betterstack', 28), ('uptimerobot', 11), ('bespoke', 9), ('hund', 7), ('incident.io', 5), ('cachet', 3), ('sorry', 1)]
+status.io ids resolved: 37 / 37
+map ok: 1141 vendors, 819 supported
+[2026-09-05T08:54:55Z] poll_all
+{"at": "2026-09-05T08:54:55Z", "polled": 819, "parsed": 776, "unknown": 43, "seconds": 25.5, "errors": {"http 401": 19, "moved: not a statuspage any more": 19, "http 526": 1, "http 0": 1, "moved: not an instatus page any more": 1, "http 404": 2}, "states": {"ok": 692, "maintenance": 27, "degraded": 36, "partial": 12, "major": 4, "unknown": 48}}
+[2026-09-05T08:55:21Z] digest
+digest: 0 sale(s) for product ZnQHtrtf…
+[2026-09-05T08:55:21Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T08:55:22Z] gen_site
+gen_site: space_readme.md (9205 bytes, 40 deep links)
+sync_readme: README.md numbers updated
+gen_site: 2767 files → docs/  | map 1127 sup 805 polled 805 parsed 762 not_ok 75 incidents 14715 (30d 2184)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T08:55:24Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: updated 2: platforms.py, README.md (headline numbers)
+[2026-09-05T08:55:28Z] sync_action
+sync_action: force-pushed main to APVentureEngine/vendor-status-watch-action
+[2026-09-05T08:55:29Z] hf_site (live site)
+hf_site: staged 2768 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (48,544 bytes)
+hf_site: ok   /vendors.html (370,997 bytes)
+hf_site: ok   /api/vendors.json (162,891 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (214,321 bytes)
+hf_site: ok   /v/twilio.html (28,209 bytes)
+hf_site: ok   /feed.xml (27,904 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T08:56:27Z] commit + push
+[2026-09-05T08:56:36Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description updated: Vendor Status Watch — live map of 1,127 SaaS status pages (805 machine-readable, incl. AWS, Azure, Google Cloud, Slack, Stripe) + 14k incident histories, rebuilt daily. Free GitHub Actions alerting template.
+[2026-09-05T08:56:44Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T08:56:44Z] hf_mirror
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=805 incidents=14716 (618 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T08:56:48Z] hf_mirror: OK
+[2026-09-05T08:56:48Z] done
+[2026-09-05T08:56:48Z] ==== pipeline end (exit 0)
+[2026-09-05T08:57:59Z] ==== pipeline start (pid 233359)
+[2026-09-05T08:57:59Z] PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)
+[2026-09-05T08:57:59Z] digest
+digest: 0 sale(s) for product ZnQHtrtf…
+[2026-09-05T08:57:59Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T08:58:00Z] gen_site
+gen_site: space_readme.md (9720 bytes, 40 deep links)
+sync_readme: README.md already current
+gen_site: 2767 files → docs/  | map 1127 sup 805 polled 805 parsed 762 not_ok 75 incidents 14715 (30d 2184)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T08:58:02Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: README headline numbers already current
+sync_template: 4 file(s) already identical upstream
+[2026-09-05T08:58:04Z] sync_action
+sync_action: force-pushed main to APVentureEngine/vendor-status-watch-action
+[2026-09-05T08:58:06Z] hf_site (live site)
+hf_site: staged 2768 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (48,544 bytes)
+hf_site: ok   /vendors.html (370,997 bytes)
+hf_site: ok   /api/vendors.json (162,891 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (214,321 bytes)
+hf_site: ok   /v/twilio.html (28,209 bytes)
+hf_site: ok   /feed.xml (27,904 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T08:58:15Z] commit + push
+[2026-09-05T08:58:16Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description already current
+[2026-09-05T08:58:23Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T08:58:23Z] hf_mirror
+No files have been modified since last commit. Skipping to prevent empty commit.
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=805 incidents=14716 (618 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T08:58:25Z] hf_mirror: OK
+[2026-09-05T08:58:25Z] done
+[2026-09-05T08:58:25Z] ==== pipeline end (exit 0)
+[2026-09-05T10:19:49Z] ==== pipeline start (pid 235588)
+[2026-09-05T10:19:49Z] PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)
+[2026-09-05T10:19:49Z] digest
+digest: 0 sale(s) for paid product ZnQHtrtf…
+digest: 0 sale(s) for free30 product IXT4-lra…
+[2026-09-05T10:19:50Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T10:19:51Z] gen_site
+gen_site: space_readme.md (9824 bytes, 40 deep links)
+sync_readme: README.md already current
+gen_site: 2767 files → docs/  | map 1127 sup 805 polled 805 parsed 762 not_ok 75 incidents 14715 (30d 2179)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T10:19:53Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: README headline numbers already current
+sync_template: 4 file(s) already identical upstream
+[2026-09-05T10:19:55Z] sync_action
+sync_action: force-pushed main to APVentureEngine/vendor-status-watch-action
+[2026-09-05T10:19:56Z] hf_site (live site)
+hf_site: staged 2768 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (48,675 bytes)
+hf_site: ok   /vendors.html (370,997 bytes)
+hf_site: ok   /api/vendors.json (162,891 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (214,321 bytes)
+hf_site: ok   /v/twilio.html (28,209 bytes)
+hf_site: ok   /feed.xml (27,904 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T10:20:12Z] commit + push
+[2026-09-05T10:20:14Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description already current
+[2026-09-05T10:20:22Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T10:20:22Z] hf_mirror
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=805 incidents=14716 (618 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T10:20:24Z] hf_mirror: OK
+[2026-09-05T10:20:24Z] done
+[2026-09-05T10:20:24Z] ==== pipeline end (exit 0)
+[2026-09-05T12:15:02Z] ==== pipeline start (pid 238271)
+[2026-09-05T12:15:02Z] build_map
+seed_extra added: 24
+bespoke parsers attached: 9
+[  0.1s] seed + bespoke done
+reprobe slowest: cloudnovi=24s, yandex-cloud=11s, freistilbox=7s, alibaba-cloud=6s, rout-it=6s
+reprobe rescued: 26 of 206 unknown-html/incident.io
+[ 25.8s] reprobe done
+[ 27.7s] status.io ids done
+dedupe: merged 7 duplicate rows, disambiguated 1 same-name vendors
+1141 vendors, 819 supported
+[('statuspage', 707), ('unknown-html', 178), ('dead', 121), ('status.io', 37), ('instatus', 34), ('betterstack', 28), ('uptimerobot', 11), ('bespoke', 9), ('hund', 7), ('incident.io', 5), ('cachet', 3), ('sorry', 1)]
+status.io ids resolved: 37 / 37
+map ok: 1141 vendors, 819 supported
+[2026-09-05T12:15:31Z] poll_all
+{"at": "2026-09-05T12:15:31Z", "polled": 819, "parsed": 776, "unknown": 43, "seconds": 20.5, "errors": {"http 401": 19, "moved: not a statuspage any more": 20, "http 526": 1, "moved: not an instatus page any more": 1, "http 404": 2}, "states": {"ok": 692, "maintenance": 28, "degraded": 35, "partial": 12, "major": 4, "unknown": 48}}
+[2026-09-05T12:15:51Z] digest
+digest: 0 sale(s) for paid product ZnQHtrtf…
+digest: 0 sale(s) for free30 product IXT4-lra…
+[2026-09-05T12:15:52Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T12:15:53Z] gen_site
+gen_site: space_readme.md (9824 bytes, 40 deep links)
+sync_readme: README.md numbers updated
+gen_site: 2767 files → docs/  | map 1127 sup 805 polled 805 parsed 762 not_ok 75 incidents 14720 (30d 2192)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T12:15:56Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: updated 1: README.md (headline numbers)
+[2026-09-05T12:15:59Z] sync_action
+sync_action: force-pushed main to APVentureEngine/vendor-status-watch-action
+[2026-09-05T12:16:02Z] hf_site (live site)
+[2026-09-05T12:18:02Z] ==== pipeline end (exit 124)
+[2026-09-05T12:30:33Z] ==== pipeline start (pid 239186)
+[2026-09-05T12:30:33Z] PUBLISH_ONLY=1: skipping build_map + poll_all (re-render + publish only)
+[2026-09-05T12:30:33Z] digest
+digest: 0 sale(s) for paid product ZnQHtrtf…
+digest: 0 sale(s) for free30 product IXT4-lra…
+[2026-09-05T12:30:34Z] test_watch (shipped-copy guard + diff engine + end-to-end)
+[2026-09-05T12:30:35Z] gen_site
+gen_site: space_readme.md (9824 bytes, 40 deep links)
+sync_readme: README.md already current
+gen_site: 2767 files → docs/  | map 1127 sup 805 polled 805 parsed 762 not_ok 75 incidents 14720 (30d 2192)
+surface check ok: 1127 vendors on both api/vendors.json and index.html
+[2026-09-05T12:30:39Z] sync_template
+sync_template: README one-click link matches the current workflow
+sync_template: README headline numbers already current
+sync_template: 4 file(s) already identical upstream
+[2026-09-05T12:30:41Z] sync_action
+sync_action: force-pushed main to APVentureEngine/vendor-status-watch-action
+[2026-09-05T12:30:42Z] hf_site (live site)
+hf_site: staged 2768 files
+hf_site: uploaded -> https://approjects-vendor-status-watch.static.hf.space/
+hf_site: ok   /index.html (48,748 bytes)
+hf_site: ok   /vendors.html (371,003 bytes)
+hf_site: ok   /api/vendors.json (162,891 bytes)
+hf_site: ok   live vendor count == local (1127)
+hf_site: ok   /api/snapshot.json (214,343 bytes)
+hf_site: ok   /v/twilio.html (28,268 bytes)
+hf_site: ok   /feed.xml (26,792 bytes)
+hf_site: ok   /legal.html (9,615 bytes)
+[2026-09-05T12:30:56Z] commit + push
+[2026-09-05T12:31:06Z] gh_release
+gh_release: updated data-2026-09-05 (4/4 assets) -> https://github.com/APVentureEngine/vendor-status-watch/releases/tag/data-2026-09-05
+data-2026-09-05: incident_history.tar.gz=0, snapshot.json=0, stats.json=0, vendors.json=0
+release assets: 1 releases, 0 downloads total
+repo description already current
+[2026-09-05T12:31:14Z] indexnow
+indexnow: url set unchanged (1132 urls) — nothing to submit
+[2026-09-05T12:31:14Z] hf_mirror
+staged -> /home/atompage/venture-engine/ventures/vendor-status-watch/product/hf_staging: vendors=1127 supported=805 incidents=14721 (618 vendors)
+uploaded -> https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily (files: 5)
+[2026-09-05T12:31:16Z] hf_mirror: OK
+[2026-09-05T12:31:16Z] done
+[2026-09-05T12:31:16Z] ==== pipeline end (exit 0)

@@ -105,6 +105,16 @@ log "hf_site (live site)"
 # is lost when it dies, so a generous bound is cheaper than a half-published run.
 T 240 "$HFPY" hf_site.py
 
+# c172: Netlify copy — the first host without HF's injected canonical header
+# (which voids the 1,146 per-vendor pages for search). Only runs once
+# NETLIFY_AUTH_TOKEN is unlocked (A029); non-fatal so the Space still ships.
+if [ -n "${NETLIFY_AUTH_TOKEN:-}" ]; then
+  log "netlify_site (controlled host)"
+  T 300 python3 netlify_site.py || log "WARN: netlify deploy failed (non-fatal)"
+else
+  log "netlify_site: skipped (NETLIFY_AUTH_TOKEN not set)"
+fi
+
 if [ -d .git ] && [ -n "${GITHUB_ORG_TOKEN:-}" ]; then
   log "commit + push"
   # c151: this used to stage a hand-typed list of DATA paths only, so README.md — a claim

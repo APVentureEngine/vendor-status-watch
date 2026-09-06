@@ -724,7 +724,7 @@ Instatus, status.io and Better Stack.
 - **JSON API** — [`/api/snapshot.json`]({SITE}/api/snapshot.json) (current state),
   [`/api/vendors.json`]({SITE}/api/vendors.json) (the living map).
 - **RSS** — [all vendors]({SITE}/feed.xml), or one feed per vendor.
-- **Dataset mirror** — [APProjects/saas-vendor-status-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-incidents-daily).
+- **Dataset mirror** — [APProjects/saas-vendor-status-pages-outages-incidents-daily](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily).
 - **Daily release** — [`releases/latest`](https://github.com/APVentureEngine/vendor-status-watch/releases/latest): `vendors.json`, `snapshot.json`, `stats.json` and `incident_history.tar.gz` (every vendor's history in one archive), refreshed each run.
 
 ```bash
