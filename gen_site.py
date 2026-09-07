@@ -953,6 +953,10 @@ def sync_readme():
         (r"(\| With a machine-readable status feed \| \*\*)~?[\d,]+(\*\*)", rf"\g<1>{N_SUP:,}\g<2>"),
         (r"(\| Incidents on record \| \*\*)[\d,]+(\*\* across )[\d,]+( vendors)", rf"\g<1>{N_INC:,}\g<2>{BACKFILLED:,}\g<3>"),
         (r"(\| Opened in the last 30 days \| \*\*)[\d,]+(\*\*)", rf"\g<1>{N_INC30:,}\g<2>"),
+        # c200: the "Honest limits" bullet was hand-typed ("Roughly 330 of the 1,150") and had
+        # drifted from stats.json (1,127) — the one README number no regex covered.
+        (r"(\*\*)(?:Roughly )?[\d,]+( of the )[\d,]+( mapped vendors publish no machine-readable status\*\*)",
+         rf"\g<1>{N_MAP - N_SUP:,}\g<2>{N_MAP:,}\g<3>"),
     ]
     if DUR_STATS:
         import hf_outage_duration as _OD

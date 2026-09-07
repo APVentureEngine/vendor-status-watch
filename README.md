@@ -15,8 +15,8 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 |---|---|
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
-| Incidents on record | **14,737** across 651 vendors |
-| Opened in the last 30 days | **2,138** |
+| Incidents on record | **14,738** across 651 vendors |
+| Opened in the last 30 days | **2,110** |
 | Median incident length | **2.3 h**, 90th percentile **27.7 h**, from 14,093 incidents with a vendor-posted start *and* resolve time — per-vendor table on [how long outages last](https://approjects-vendor-status-watch.static.hf.space/outage-duration.html) |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
@@ -107,7 +107,7 @@ one final message when the trial ends and nothing else.
 
 ## Honest limits
 
-- **Roughly 330 of the 1,150 mapped vendors publish no machine-readable status** —
+- **322 of the 1,127 mapped vendors publish no machine-readable status** —
   Apple, Microsoft 365 and Okta among them, plus the Hund, Cachet, UptimeRobot and
   incident.io platforms. (AWS, Azure, Google Cloud/Firebase/Workspace/Play, Slack and
   Stripe *are* covered: `platforms.py` carries a hand-written parser for each vendor's
