@@ -1,9 +1,9 @@
 # InfluxData outage history — every incident their status page has posted
 
-**38 InfluxData incidents on record** spanning **2025-09-04** to **2026-08-25**. Status page:
+**39 InfluxData incidents on record** spanning **2025-09-04** to **2026-09-07**. Status page:
 [https://status.influxdata.com](https://status.influxdata.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **3.4 h** across 38 incidents where InfluxData posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Query performance degradation in Azure West Europe](https://stspg.io/ctrr38xqs81c) | minor | — |
 | 2026-08-25 | [Query performance degradation in Azure Westeurope](https://stspg.io/rrn627w0gk7s) | minor | 112 min |
 | 2026-05-27 | [Increased Error rates in Azure eastus](https://stspg.io/yzpp1z4brvmg) | minor | 66 min |
 | 2026-03-17 | [Degraded query performance in AWS eu-central-1 Serverless](https://stspg.io/3f1bp28mtcww) | minor | 3.4 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-21 | [Cloud2 UI in the AWS EU-CENTRAL Region Experiencing Intermittent Authentication Issues (read/write tokens are not affected)](https://stspg.io/mbhwjk0xtx91) | minor | 39 min |
 | 2026-01-20 | [Increased query failures in AWS eu-central-1](https://stspg.io/xl226v3p2zmg) | minor | 4.2 h |
 | 2026-01-15 | [Intermittent Authentication Issues for AWS EU-CENTRAL (read/write token authentication is not affected)](https://stspg.io/j9pr53c9h4bl) | minor | 23.0 h |
-| 2026-01-15 | [Disrupted query performance in AWS eu-central-1](https://stspg.io/vz9v69fsxswk) | minor | 2.2 h |
 
-Newest 15 of 38. Full machine-readable history:
+Newest 15 of 39. Full machine-readable history:
 [`history/influxdata.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/influxdata.json).
 
 ## What is counted, and what is not
 
-Of 38 recorded incidents, **38** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 39 recorded incidents, **38** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

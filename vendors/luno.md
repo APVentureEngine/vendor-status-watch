@@ -1,8 +1,8 @@
 # Luno outage history — every incident their status page has posted
 
-**52 Luno incidents on record** spanning **2026-02-23** to **2026-09-03**. Status page:
+**53 Luno incidents on record** spanning **2026-02-23** to **2026-09-07**. Status page:
 [https://status.luno.com](https://status.luno.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **19.4 h** across 48 incidents where Luno posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Planned maintenance on FPX instant deposit system in Malaysia](https://stspg.io/t82r4nxd5vms) | maintenance | — |
 | 2026-09-03 | [Delayed FPX deposits in Malaysia](https://stspg.io/rck72tsqnrxq) | none | — |
 | 2026-09-02 | [Scheduled Maintenance: NOBU BI-FAST VA - Indonesia](https://stspg.io/6s7v99gjrllr) | maintenance | — |
 | 2026-08-31 | [Instant Buy not available in South Africa](https://stspg.io/5gzt2vlwrl32) | none | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-07 | [Public Holiday Reminder - Withdrawal Requests will take longer than usual in South Africa](https://stspg.io/9636n7f9jvtd) | none | 3.6 days |
 | 2026-08-06 | [Degraded performance](https://stspg.io/5c3qgpqt5s69) | none | 2.4 h |
 | 2026-08-02 | [Delayed XRP sends](https://stspg.io/c57t82zbrl1s) | none | 11.3 h |
-| 2026-07-22 | [Delayed Account Verification In Indonesia](https://stspg.io/6mstjnb06gbs) | none | 19.2 h |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/luno.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/luno.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **48** have a usable length. Excluded:
-1 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **48** have a usable length. Excluded:
+2 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

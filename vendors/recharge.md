@@ -2,7 +2,7 @@
 
 **24 ReCharge incidents on record** spanning **2025-08-18** to **2026-09-01**. Status page:
 [https://status.rechargepayments.com](https://status.rechargepayments.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.9 h** across 24 incidents where ReCharge posted both a start and a resolve time.

@@ -1,7 +1,7 @@
 # SaaS vendor outage history, vendor by vendor
 
-Public status-page incidents for **565 vendors** with at least
-3 recorded incidents — **15,173 incidents** in all, out of
+Public status-page incidents for **566 vendors** with at least
+3 recorded incidents — **15,223 incidents** in all, out of
 1,141 vendor status feeds this project polls. Every page republishes what
 the vendor itself posted, links back to the original, and is rebuilt daily.
 
@@ -15,53 +15,61 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 
 | Vendor | Incidents on record | With a measurable length | Median length | Latest |
 | --- | ---: | ---: | ---: | --- |
-| [SendGrid](sendgrid.md) | 65 | 56 | 10.3 h | 2026-09-05 |
-| [Twilio](twilio.md) | 65 | 56 | 10.3 h | 2026-09-05 |
+| [SendGrid](sendgrid.md) | 69 | 58 | 10.3 h | 2026-09-07 |
+| [Twilio](twilio.md) | 69 | 58 | 10.3 h | 2026-09-07 |
+| [Qualys](qualys.md) | 61 | 50 | 25.6 h | 2026-09-07 |
+| [Cloudflare](cloudflare.md) | 60 | 55 | 70 min | 2026-09-07 |
 | [Cherwell](cherwell.md) | 58 | 50 | 19.9 h | 2026-09-05 |
 | [Ivanti Cloud](ivanti-cloud.md) | 58 | 50 | 19.9 h | 2026-09-05 |
-| [Cloudflare](cloudflare.md) | 57 | 52 | 67 min | 2026-09-04 |
 | [Datto](datto.md) | 56 | 48 | 11.7 h | 2026-09-05 |
+| [Exact](exact.md) | 56 | 47 | 47.2 h | 2026-09-07 |
+| [Kraken](kraken.md) | 56 | 47 | 5.8 h | 2026-09-07 |
+| [QuickNode](quicknode.md) | 56 | 51 | 3.4 h | 2026-09-07 |
 | [Zoom](zoom.md) | 56 | 52 | 48 min | 2026-09-05 |
-| [Exact](exact.md) | 55 | 44 | 37.7 h | 2026-09-04 |
 | [Kinsta](kinsta.md) | 55 | 49 | 5.5 h | 2026-09-04 |
-| [Kraken](kraken.md) | 55 | 46 | 6.0 h | 2026-09-05 |
-| [QuickNode](quicknode.md) | 55 | 51 | 3.4 h | 2026-09-04 |
+| [Scaleway](scaleway.md) | 55 | 50 | 2.1 h | 2026-09-07 |
 | [Shippo](shippo.md) | 55 | 54 | 2.2 h | 2026-09-06 |
+| [Webroot](webroot.md) | 55 | 50 | 3.9 h | 2026-09-07 |
+| [Bandwidth](bandwidth.md) | 54 | 53 | 2.8 h | 2026-09-07 |
 | [Radware Cloud Waf](radware-cloud-waf.md) | 54 | 49 | 101 min | 2026-09-06 |
-| [Webroot](webroot.md) | 54 | 50 | 3.9 h | 2026-09-06 |
 | [Expo](expo.md) | 53 | 53 | 62 min | 2026-09-05 |
+| [F5](f5.md) | 53 | 50 | 12.2 h | 2026-09-07 |
 | [Flexera](flexera.md) | 53 | 50 | 3.0 h | 2026-09-05 |
 | [Grafana](grafana.md) | 53 | 53 | 113 min | 2026-09-04 |
 | [Grafana Labs](grafana-labs.md) | 53 | 53 | 113 min | 2026-09-04 |
-| [Scaleway](scaleway.md) | 53 | 47 | 2.0 h | 2026-09-05 |
+| [IONOS](ionos.md) | 53 | 51 | 2.1 h | 2026-09-07 |
+| [Luno](luno.md) | 53 | 48 | 19.4 h | 2026-09-07 |
 | [Vonage API](vonage-api.md) | 53 | 49 | 3.0 h | 2026-09-04 |
 | [Alchemy](alchemy.md) | 52 | 52 | 72 min | 2026-09-04 |
 | [Array](array.md) | 52 | 52 | 84 min | 2026-09-05 |
-| [F5](f5.md) | 52 | 49 | 12.3 h | 2026-09-05 |
+| [Coinbase](coinbase.md) | 52 | 51 | 91 min | 2026-09-06 |
 | [GitHub](github.md) | 52 | 52 | 79 min | 2026-09-04 |
 | [Harness](harness.md) | 52 | 51 | 2.2 h | 2026-09-05 |
-| [Luno](luno.md) | 52 | 48 | 19.4 h | 2026-09-03 |
+| [Ledger](ledger.md) | 52 | 51 | 28 min | 2026-09-07 |
+| [Linode](linode.md) | 52 | 49 | 4.6 h | 2026-09-07 |
 | [MeridianLink](meridianlink.md) | 52 | 52 | 5.5 h | 2026-09-04 |
+| [Seravo](seravo.md) | 52 | 52 | 52 min | 2026-09-07 |
 | [Sinch](sinch.md) | 52 | 50 | 2.5 h | 2026-09-04 |
 | [ThousandEyes](thousandeyes.md) | 52 | 46 | 4.5 h | 2026-09-05 |
 | [Vonage](vonage.md) | 52 | 52 | 4.7 h | 2026-09-04 |
+| [Acquia](acquia.md) | 51 | 50 | 3.4 h | 2026-09-07 |
 | [Akamai Edge DNS](akamai-edge-dns.md) | 51 | 51 | 14.2 h | 2026-09-04 |
-| [Bandwidth](bandwidth.md) | 51 | 51 | 2.8 h | 2026-09-04 |
 | [Barracuda](barracuda.md) | 51 | 51 | 10.2 h | 2026-09-04 |
 | [Bitso](bitso.md) | 51 | 50 | 2.2 h | 2026-09-03 |
 | [Check Point](check-point.md) | 51 | 42 | 76 min | 2026-09-06 |
 | [Circle CI](circle-ci.md) | 51 | 51 | 78 min | 2026-09-04 |
 | [Cisco Systems](cisco-systems.md) | 51 | 50 | 84 min | 2026-09-01 |
 | [Cloudsigma](cloudsigma.md) | 51 | 50 | 2.3 h | 2026-09-04 |
-| [Coinbase](coinbase.md) | 51 | 49 | 91 min | 2026-09-05 |
+| [Coinbase Prime](coinbase-prime.md) | 51 | 49 | 3.0 h | 2026-09-06 |
+| [Crypto.com](crypto-com.md) | 51 | 45 | 6.7 h | 2026-09-07 |
+| [Gemini](gemini.md) | 51 | 49 | 6.3 h | 2026-09-07 |
 | [Granicus](granicus.md) | 51 | 51 | 4.3 h | 2026-09-04 |
 | [Hostinger](hostinger.md) | 51 | 51 | 57 min | 2026-09-04 |
 | [HubSpot](hubspot.md) | 51 | 51 | 46 min | 2026-09-04 |
-| [IONOS](ionos.md) | 51 | 49 | 2.2 h | 2026-09-03 |
 | [Ionos Cloud](ionos-cloud.md) | 51 | 48 | 21.7 h | 2026-09-04 |
 | [IPVanish](ipvanish.md) | 51 | 47 | 5.2 h | 2026-09-04 |
-| [KnowBe4](knowbe4.md) | 51 | 49 | 4.7 h | 2026-09-04 |
-| [Linode](linode.md) | 51 | 49 | 4.6 h | 2026-08-28 |
+| [KnowBe4](knowbe4.md) | 51 | 50 | 4.8 h | 2026-09-04 |
+| [Kore.ai](kore-ai.md) | 51 | 50 | 48 min | 2026-09-07 |
 | [Liquid Web](liquid-web.md) | 51 | 50 | 20.7 h | 2026-09-05 |
 | [Mendix](mendix.md) | 51 | 47 | 15.3 h | 2026-09-06 |
 | [Monday](monday.md) | 51 | 51 | 57 min | 2026-09-05 |
@@ -70,17 +78,15 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Nexcess](nexcess.md) | 51 | 50 | 10.8 h | 2026-09-05 |
 | [Paribu](paribu.md) | 51 | 14 | — | 2026-09-05 |
 | [Project44](project44.md) | 51 | 49 | 5.6 h | 2026-09-05 |
-| [Qualys](qualys.md) | 51 | 50 | 25.6 h | 2026-09-04 |
 | [Sailpoint](sailpoint.md) | 51 | 51 | 91 min | 2026-09-04 |
 | [Semgrep](semgrep.md) | 51 | 51 | 97 min | 2026-09-04 |
-| [Seravo](seravo.md) | 51 | 51 | 49 min | 2026-09-04 |
 | [Snowflake](snowflake.md) | 51 | 50 | 2.0 h | 2026-09-04 |
 | [Todyl](todyl.md) | 51 | 49 | 3.1 h | 2026-09-05 |
 | [Transbank](transbank.md) | 51 | 51 | 31 min | 2026-09-05 |
 | [Vercel](vercel.md) | 51 | 50 | 60 min | 2026-09-04 |
+| [Voximplant](voximplant.md) | 51 | 41 | 94 min | 2026-09-06 |
 | [WatchGuard](watchguard.md) | 51 | 51 | 2.8 h | 2026-09-04 |
 | [Whatnot](whatnot.md) | 51 | 51 | 63 min | 2026-09-04 |
-| [Acquia](acquia.md) | 50 | 50 | 3.4 h | 2026-09-03 |
 | [Ada](ada.md) | 50 | 50 | 82 min | 2026-09-01 |
 | [Adaptavist Cloud Apps](adaptavist-cloud-apps.md) | 50 | 50 | 4.7 h | 2026-08-27 |
 | [Amplitude](amplitude.md) | 50 | 50 | 108 min | 2026-08-26 |
@@ -98,10 +104,8 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Cisco Umbrella](cisco-umbrella.md) | 50 | 50 | 110 min | 2026-09-01 |
 | [Cloudways](cloudways.md) | 50 | 50 | 11.7 h | 2026-09-01 |
 | [Code 42](code-42.md) | 50 | 50 | 7.0 h | 2026-08-25 |
-| [Coinbase Prime](coinbase-prime.md) | 50 | 47 | 3.0 h | 2026-09-03 |
 | [Confluent](confluent.md) | 50 | 49 | 4.5 h | 2026-09-01 |
 | [Contentful](contentful.md) | 50 | 50 | 69 min | 2026-09-03 |
-| [Crypto.com](crypto-com.md) | 50 | 45 | 6.7 h | 2026-08-27 |
 | [Datadog](datadog.md) | 50 | 50 | 84 min | 2026-09-03 |
 | [DigiCert](digicert.md) | 50 | 49 | 107 min | 2026-09-04 |
 | [Digitalocean](digitalocean.md) | 50 | 50 | 2.6 h | 2026-08-24 |
@@ -112,7 +116,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Fireblocks](fireblocks.md) | 50 | 50 | 35 min | 2026-08-27 |
 | [Flyio](flyio.md) | 50 | 50 | 96 min | 2026-09-02 |
 | [Gandi](gandi.md) | 50 | 50 | 2.4 h | 2026-09-03 |
-| [Gemini](gemini.md) | 50 | 49 | 6.3 h | 2026-09-04 |
 | [HeroCoders](herocoders.md) | 50 | 49 | 10 min | 2026-08-29 |
 | [IBM Security](ibm-security.md) | 50 | 49 | 18.6 h | 2026-08-25 |
 | [Imperva](imperva.md) | 50 | 50 | 3.4 h | 2026-09-02 |
@@ -120,9 +123,7 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Infura](infura.md) | 50 | 50 | 4.6 h | 2026-08-30 |
 | [Jira Service Management](jira-service-management.md) | 50 | 50 | 2.8 h | 2026-09-03 |
 | [Kinghost](kinghost.md) | 50 | 49 | 76 min | 2026-09-01 |
-| [Kore.ai](kore-ai.md) | 50 | 50 | 48 min | 2026-09-03 |
 | [LaunchDarkly](launchdarkly.md) | 50 | 50 | 66 min | 2026-08-26 |
-| [Ledger](ledger.md) | 50 | 49 | 29 min | 2026-09-02 |
 | [Liveramp](liveramp.md) | 50 | 50 | 8 min | 2026-09-03 |
 | [Make](make.md) | 50 | 50 | 2.0 h | 2026-09-02 |
 | [Matillion](matillion.md) | 50 | 50 | 102 min | 2026-09-01 |
@@ -151,7 +152,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Toast](toast.md) | 50 | 50 | 62 min | 2026-08-15 |
 | [Verkada](verkada.md) | 50 | 50 | 2.1 h | 2026-09-03 |
 | [Visma](visma.md) | 50 | 50 | 11 min | 2026-09-03 |
-| [Voximplant](voximplant.md) | 50 | 40 | 87 min | 2026-09-03 |
 | [Wallarm](wallarm.md) | 50 | 50 | 46 min | 2026-08-28 |
 | [Wiz](wiz.md) | 50 | 49 | 3.1 h | 2026-09-03 |
 | [Workato](workato.md) | 50 | 50 | 96 min | 2026-09-01 |
@@ -192,8 +192,8 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Vetspire](vetspire.md) | 42 | 42 | 7.5 h | 2026-08-19 |
 | [Bitpanda](bitpanda.md) | 41 | 41 | 119 min | 2026-08-19 |
 | [Shakepay](shakepay.md) | 41 | 41 | 53 min | 2026-09-04 |
-| [Voyado](voyado.md) | 41 | 40 | 2.6 h | 2026-09-04 |
-| [DNSimple](dnsimple.md) | 40 | 38 | 76 min | 2026-09-06 |
+| [Voyado](voyado.md) | 41 | 41 | 2.6 h | 2026-09-04 |
+| [DNSimple](dnsimple.md) | 40 | 39 | 77 min | 2026-09-06 |
 | [GoToMyPC](gotomypc.md) | 40 | 40 | 68 min | 2026-09-04 |
 | [Latitude.sh](latitude-sh.md) | 40 | 39 | 3.0 h | 2026-08-08 |
 | [LogMeIn Pro](logmein-pro.md) | 40 | 40 | 68 min | 2026-09-04 |
@@ -204,16 +204,16 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [CloudAMQP](cloudamqp.md) | 39 | 39 | 3.0 h | 2026-08-26 |
 | [Confluence](confluence.md) | 39 | 39 | 2.8 h | 2026-08-27 |
 | [Easypost](easypost.md) | 39 | 39 | 2.9 h | 2026-08-27 |
+| [InfluxData](influxdata.md) | 39 | 38 | 3.4 h | 2026-09-07 |
 | [Jamf](jamf.md) | 39 | 37 | 3.5 h | 2026-09-03 |
 | [Sauce Labs](sauce-labs.md) | 39 | 39 | 7 min | 2026-09-02 |
 | [UpCloud](upcloud.md) | 39 | 39 | 3.1 h | 2026-08-25 |
 | [Alloy](alloy.md) | 38 | 38 | 40 min | 2026-09-04 |
 | [Brightly Software](brightly-software.md) | 38 | 35 | 6.6 h | 2026-08-28 |
-| [InfluxData](influxdata.md) | 38 | 38 | 3.4 h | 2026-08-25 |
 | [Mailgun](mailgun.md) | 37 | 37 | 86 min | 2026-09-04 |
 | [Dronedeploy](dronedeploy.md) | 36 | 36 | 3.5 h | 2026-08-25 |
+| [ESET](eset.md) | 36 | 33 | 10.2 h | 2026-09-07 |
 | [Payoneer](payoneer.md) | 36 | 36 | 81 min | 2026-08-03 |
-| [ESET](eset.md) | 35 | 33 | 10.2 h | 2026-09-04 |
 | [Smartsheet](smartsheet.md) | 35 | 35 | 3.6 h | 2026-08-27 |
 | [Guidewire](guidewire.md) | 34 | 33 | 6.5 h | 2026-09-04 |
 | [OPSWAT](opswat.md) | 34 | 33 | 44 min | 2026-09-05 |
@@ -245,13 +245,13 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Udemy](udemy.md) | 30 | 30 | 3.7 h | 2026-09-03 |
 | [Dell Boomi](dell-boomi.md) | 29 | 29 | 2.2 h | 2026-08-06 |
 | [GoDaddy](godaddy.md) | 29 | 29 | 41 min | 2026-09-04 |
-| [Grammarly](grammarly.md) | 29 | 28 | 115 min | 2026-08-14 |
+| [HENNGE One](hennge-one.md) | 29 | 28 | 4.1 h | 2026-09-07 |
 | [Readme](readme.md) | 29 | 29 | 2.7 h | 2026-08-21 |
 | [Rivery](rivery.md) | 29 | 29 | 2.2 h | 2026-08-06 |
 | [Thru](thru.md) | 29 | 29 | 2.2 h | 2026-08-06 |
 | [Blend](blend.md) | 28 | 28 | 5.6 h | 2026-09-04 |
 | [ClearlyIP](clearlyip.md) | 28 | 28 | 116 min | 2026-09-01 |
-| [HENNGE One](hennge-one.md) | 28 | 27 | 4.1 h | 2026-09-04 |
+| [Grammarly](grammarly.md) | 28 | 27 | 98 min | 2026-08-14 |
 | [ImageKit](imagekit.md) | 28 | 28 | 76 min | 2026-09-03 |
 | [Ubidots](ubidots.md) | 28 | 28 | 8.0 h | 2026-07-10 |
 | [Upstash](upstash.md) | 28 | 28 | 19 min | 2026-09-03 |
@@ -325,7 +325,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Exalate](exalate.md) | 20 | 20 | 5.8 h | 2026-08-27 |
 | [Jira Work Management](jira-work-management.md) | 20 | 20 | 2.5 h | 2026-09-01 |
 | [Neo4j Aura](neo4j-aura.md) | 20 | 20 | 5.0 h | 2026-09-03 |
-| [Pusher](pusher.md) | 20 | 20 | 2.3 h | 2026-08-23 |
 | [Reddit](reddit.md) | 20 | 20 | 60 min | 2026-09-01 |
 | [SashiDo](sashido.md) | 20 | 20 | 99 min | 2026-05-22 |
 | [Shortcut](shortcut.md) | 20 | 20 | 71 min | 2026-08-04 |
@@ -338,6 +337,7 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Particle](particle.md) | 19 | 19 | — | 2026-09-01 |
 | [Percy](percy.md) | 19 | 19 | — | 2026-07-12 |
 | [Pipedream](pipedream.md) | 19 | 19 | — | 2026-07-29 |
+| [Pusher](pusher.md) | 19 | 19 | — | 2026-08-23 |
 | [Quantcast](quantcast.md) | 19 | 19 | — | 2026-07-24 |
 | [Red Canary](red-canary.md) | 19 | 18 | — | 2026-06-29 |
 | [Tyk](tyk.md) | 19 | 19 | — | 2026-08-14 |
@@ -401,6 +401,7 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Rollbar](rollbar.md) | 14 | 12 | — | 2026-09-01 |
 | [Subsplash](subsplash.md) | 14 | 14 | — | 2026-07-09 |
 | [WeTransfer](wetransfer.md) | 14 | 14 | — | 2026-07-08 |
+| [Ably](ably.md) | 13 | 13 | — | 2026-09-07 |
 | [Appen](appen.md) | 13 | 13 | — | 2025-09-11 |
 | [Cisco Meraki](cisco-meraki.md) | 13 | 13 | — | 2026-08-05 |
 | [Cockroach Labs](cockroach-labs.md) | 13 | 13 | — | 2026-09-01 |
@@ -414,7 +415,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Pubnub](pubnub.md) | 13 | 13 | — | 2026-08-25 |
 | [Servebolt](servebolt.md) | 13 | 13 | — | 2026-08-10 |
 | [Spacelift](spacelift.md) | 13 | 13 | — | 2026-07-29 |
-| [Ably](ably.md) | 12 | 12 | — | 2026-08-28 |
 | [Addigy](addigy.md) | 12 | 12 | — | 2026-08-20 |
 | [Atlassian Access](atlassian-access.md) | 12 | 12 | — | 2026-05-14 |
 | [BigLeaf](bigleaf.md) | 12 | 12 | — | 2026-07-08 |
@@ -459,7 +459,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [BlazeMeter](blazemeter.md) | 9 | 8 | — | 2026-05-26 |
 | [Courier](courier.md) | 9 | 9 | — | 2026-06-18 |
 | [Hypixel](hypixel.md) | 9 | 9 | — | 2026-07-15 |
-| [Keeping](keeping.md) | 9 | 9 | — | 2026-09-01 |
 | [Loom](loom.md) | 9 | 9 | — | 2026-05-08 |
 | [OfficeRnD](officernd.md) | 9 | 9 | — | 2026-06-23 |
 | [RealVNC](realvnc.md) | 9 | 9 | — | 2026-08-20 |
@@ -473,9 +472,11 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [Files](files.md) | 8 | 8 | — | 2026-06-05 |
 | [hCaptcha](hcaptcha.md) | 8 | 6 | — | 2026-08-27 |
 | [INKY](inky.md) | 8 | 8 | — | 2026-08-12 |
+| [Keeping](keeping.md) | 8 | 8 | — | 2026-09-01 |
 | [Lokalise](lokalise.md) | 8 | 8 | — | 2026-08-17 |
 | [NetDocuments AU](netdocuments-au.md) | 8 | 8 | — | 2026-08-03 |
 | [Ortto](ortto.md) | 8 | 8 | — | 2026-04-09 |
+| [Ovhcloud](ovhcloud.md) | 8 | 0 | — | 2026-09-06 |
 | [Tidio](tidio.md) | 8 | 8 | — | 2026-07-01 |
 | [Vistage Worldwide, Inc.](vistage-worldwide-inc.md) | 8 | 8 | — | 2026-08-11 |
 | [Alphavps](alphavps.md) | 7 | 7 | — | 2026-07-30 |
@@ -490,7 +491,6 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [MxToolbox](mxtoolbox.md) | 7 | 7 | — | 2026-02-23 |
 | [Nutshell](nutshell.md) | 7 | 7 | — | 2026-07-07 |
 | [OneSchema](oneschema.md) | 7 | 7 | — | 2026-07-28 |
-| [Ovhcloud](ovhcloud.md) | 7 | 0 | — | 2026-09-06 |
 | [Paycor](paycor.md) | 7 | 7 | — | 2026-06-30 |
 | [Roam](roam.md) | 7 | 7 | — | 2026-07-20 |
 | [RubyGems](rubygems.md) | 7 | 7 | — | 2026-08-19 |
@@ -563,6 +563,7 @@ Cloud. That is not a duplicate row; it is what the vendors publish.
 | [F-Secure](f-secure.md) | 3 | 3 | — | 2026-09-02 |
 | [Flagsmith](flagsmith.md) | 3 | 3 | — | 2026-03-03 |
 | [Font Awesome](font-awesome.md) | 3 | 3 | — | 2026-03-31 |
+| [Heart Internet](heart-internet.md) | 3 | 0 | — | 2026-09-09 |
 | [InStride](instride.md) | 3 | 3 | — | 2026-01-15 |
 | [Ionic Framework](ionic-framework.md) | 3 | 3 | — | 2026-07-14 |
 | [IRONSCALES](ironscales.md) | 3 | 3 | — | 2026-05-13 |

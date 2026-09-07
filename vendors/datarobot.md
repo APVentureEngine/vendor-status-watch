@@ -2,7 +2,7 @@
 
 **31 Datarobot incidents on record** spanning **2025-09-02** to **2026-08-18**. Status page:
 [https://status.datarobot.com](https://status.datarobot.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **84 min** across 31 incidents where Datarobot posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **43 Forcepoint ONE incidents on record** spanning **2025-08-05** to **2026-09-05**. Status page:
 [https://csg.status.forcepoint.com](https://csg.status.forcepoint.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **2.8 h** across 39 incidents where Forcepoint ONE posted both a start and a resolve time.

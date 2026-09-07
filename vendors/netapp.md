@@ -2,7 +2,7 @@
 
 **31 Netapp incidents on record** spanning **2025-08-19** to **2026-08-24**. Status page:
 [https://status.services.cloud.netapp.com](https://status.services.cloud.netapp.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **68 min** across 31 incidents where Netapp posted both a start and a resolve time.

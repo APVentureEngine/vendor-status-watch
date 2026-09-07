@@ -2,7 +2,7 @@
 
 **32 Apify incidents on record** spanning **2025-08-07** to **2026-08-20**. Status page:
 [https://status.apify.com](https://status.apify.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 32 incidents where Apify posted both a start and a resolve time.

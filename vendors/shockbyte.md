@@ -2,7 +2,7 @@
 
 **7 Shockbyte incidents on record** spanning **2026-04-21** to **2026-08-19**. Status page:
 [https://status.shockbyte.com](https://status.shockbyte.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **7** Shockbyte incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

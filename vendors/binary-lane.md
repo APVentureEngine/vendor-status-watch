@@ -2,7 +2,7 @@
 
 **4 Binary Lane incidents on record** spanning **2026-03-09** to **2026-05-15**. Status page:
 [http://status.binarylane.com.au](http://status.binarylane.com.au) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **4** Binary Lane incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

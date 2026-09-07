@@ -1,11 +1,11 @@
 # Pusher outage history — every incident their status page has posted
 
-**20 Pusher incidents on record** spanning **2025-08-03** to **2026-08-23**. Status page:
+**19 Pusher incidents on record** spanning **2025-09-19** to **2026-08-23**. Status page:
 [https://status.pusher.com](https://status.pusher.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.3 h** across 20 incidents where Pusher posted both a start and a resolve time.
+Only **19** Pusher incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Pusher posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-20 | [MT1 cluster - increased latency](https://stspg.io/vth06sd5l50v) | major | 13.8 h |
 | 2025-10-20 | [Pusher Beams degradation](https://stspg.io/732gkz4w3x45) | minor | 13.8 h |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/pusher.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/pusher.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
+Of 19 recorded incidents, **19** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **44 Otava incidents on record** spanning **2025-08-08** to **2026-08-12**. Status page:
 [https://status.otava.com](https://status.otava.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.9 days** across 44 incidents where Otava posted both a start and a resolve time.

@@ -15,13 +15,13 @@ what the vendors themselves say — as a website, an RSS feed, and plain JSON yo
 |---|---|
 | Vendors mapped | **1,127** |
 | With a machine-readable status feed | **805** (Atlassian Statuspage, Instatus, status.io, Better Stack + bespoke: AWS, Azure, Google, Slack, Stripe) — exact daily count on the [coverage page](https://approjects-vendor-status-watch.static.hf.space/platforms.html) |
-| Incidents on record | **14,738** across 651 vendors |
-| Opened in the last 30 days | **2,109** |
-| Median incident length | **2.3 h**, 90th percentile **27.7 h**, from 14,093 incidents with a vendor-posted start *and* resolve time — per-vendor table on [how long outages last](https://approjects-vendor-status-watch.static.hf.space/outage-duration.html) |
+| Incidents on record | **14,782** across 651 vendors |
+| Opened in the last 30 days | **2,153** |
+| Median incident length | **2.3 h**, 90th percentile **28.0 h**, from 14,120 incidents with a vendor-posted start *and* resolve time — per-vendor table on [how long outages last](https://approjects-vendor-status-watch.static.hf.space/outage-duration.html) |
 | Refresh | daily (site + map + history); the watch template polls every 5 minutes |
 
 <!-- VENDOR_MD_INDEX:START -->
-**Per-vendor outage history, readable right here on GitHub:** [all 565 vendors](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/README.md) · [cloudflare](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/cloudflare.md) · [github](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/github.md) · [openai](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/openai.md) · [zoom](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/zoom.md)
+**Per-vendor outage history, readable right here on GitHub:** [all 566 vendors](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/README.md) · [cloudflare](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/cloudflare.md) · [github](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/github.md) · [openai](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/openai.md) · [zoom](https://github.com/APVentureEngine/vendor-status-watch/blob/main/vendors/zoom.md)
 <!-- VENDOR_MD_INDEX:END -->
 
 ## Why this exists

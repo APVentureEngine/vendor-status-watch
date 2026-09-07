@@ -1,11 +1,11 @@
 # Ably outage history — every incident their status page has posted
 
-**12 Ably incidents on record** spanning **2025-08-13** to **2026-08-28**. Status page:
+**13 Ably incidents on record** spanning **2025-08-13** to **2026-09-07**. Status page:
 [https://status.ably.com](https://status.ably.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
-Only **12** Ably incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **13** Ably incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Ably posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Ably documentation pages - ably.com/docs](https://stspg.io/1sy4h3lcnqzw) | major | 7 min |
 | 2026-08-28 | [Elevated API Errors - LiveObjects](https://stspg.io/2qd0y383msxx) | minor | 84 min |
 | 2026-08-20 | [Elevated Errors in ap-southeast-1](https://stspg.io/br26358y47tp) | minor | 55 min |
 | 2026-08-20 | [Elevated Error Rate in ap-southeast-1](https://stspg.io/2n6lxzklnxnr) | major | 2 min |
@@ -27,12 +28,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-09 | [Ably website, customer dashboard & Control API issues](https://stspg.io/mlcmvkx2fgvb) | major | 0 min |
 | 2025-08-13 | [Elevated Realtime errors in EU regions](https://stspg.io/wp302vjbyfn7) | major | 37 min |
 
-Newest 12 of 12. Full machine-readable history:
+Newest 13 of 13. Full machine-readable history:
 [`history/ably.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ably.json).
 
 ## What is counted, and what is not
 
-Of 12 recorded incidents, **12** have a usable length. Excluded:
+Of 13 recorded incidents, **13** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **51 Liquid Web incidents on record** spanning **2026-01-04** to **2026-09-05**. Status page:
 [https://status.liquidweb.com](https://status.liquidweb.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **20.7 h** across 50 incidents where Liquid Web posted both a start and a resolve time.

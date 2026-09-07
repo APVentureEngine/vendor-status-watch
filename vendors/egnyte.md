@@ -2,7 +2,7 @@
 
 **32 Egnyte incidents on record** spanning **2025-08-04** to **2026-09-03**. Status page:
 [https://status.egnyte.com](https://status.egnyte.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **58 min** across 32 incidents where Egnyte posted both a start and a resolve time.

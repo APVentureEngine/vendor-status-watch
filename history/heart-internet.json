@@ -75,6 +75,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -90,9 +94,27 @@
 "state": "maintenance",
 "title": "Scheduled System Upgrade: KVMHOST224",
 "url": "https://www.heartstatus.uk"
+},
+"1055398": {
+"first_seen": "2026-09-07T12:26:33Z",
+"impact": "maintenance",
+"last_seen": "2026-09-07T12:26:33Z",
+"started_at": "2026-09-07T23:00:42.000Z",
+"state": "maintenance",
+"title": "Scheduled System Upgrade: MVPS351 & MVPS387",
+"url": "https://www.heartstatus.uk"
+},
+"1055411": {
+"first_seen": "2026-09-07T12:26:33Z",
+"impact": "maintenance",
+"last_seen": "2026-09-07T12:26:33Z",
+"started_at": "2026-09-09T01:30:53.000Z",
+"state": "maintenance",
+"title": "Essential Database Upgrade: Shared Clusters 33 & 35",
+"url": "https://www.heartstatus.uk"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
+"last_checked": "2026-09-07T12:26:33Z",
 "last_description": "operational",
 "last_error": null,
 "last_state": "ok",

@@ -2,10 +2,10 @@
 
 **51 KnowBe4 incidents on record** spanning **2025-12-11** to **2026-09-04**. Status page:
 [https://status.knowbe4.com](https://status.knowbe4.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.7 h** across 49 incidents where KnowBe4 posted both a start and a resolve time.
+Median incident length: **4.8 h** across 50 incidents where KnowBe4 posted both a start and a resolve time.
 
 This page republishes what KnowBe4 posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-04 | [Workspace \| Email MFA Verification Issues](https://stspg.io/qk3mw5plt3kg) | minor | — |
+| 2026-09-04 | [Workspace \| Email MFA Verification Issues](https://stspg.io/qk3mw5plt3kg) | minor | 2.9 days |
 | 2026-08-26 | [PhishER - Message Processing Delays](https://stspg.io/lv4v7whd9w20) | minor | 3.5 h |
 | 2026-08-21 | [PAB \| Error Reporting Phish using Gmail Phish Alert Button](https://stspg.io/97cd088qr41p) | minor | 6.1 h |
 | 2026-08-18 | [PAB sending a Non-Delivery Report after an Email is Reported (US Only)](https://stspg.io/p1k0h84nj514) | minor | 5.7 h |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

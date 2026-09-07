@@ -1,8 +1,8 @@
 # Ovhcloud outage history — every incident their status page has posted
 
-**7 Ovhcloud incidents on record** spanning **2026-03-24** to **2026-09-06**. Status page:
+**8 Ovhcloud incidents on record** spanning **2026-03-24** to **2026-09-06**. Status page:
 [https://status.us.ovhcloud.com](https://status.us.ovhcloud.com) · platform:
-`status.io` · last polled **2026-09-06 15:32 UTC**, last observed
+`status.io` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 No Ovhcloud incident carries both a vendor-posted start and resolve time, so no duration statistic is available.
@@ -19,16 +19,17 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | [Delays in Server Delivery due to Backend Processing Issue](https://status.us.ovhcloud.com) | — | — |
 | 2026-08-25 | [Service Cancelation issue for VPS Product](https://status.us.ovhcloud.com) | — | — |
 | 2026-08-20 | [Maintenance to perform vCSA Minor Upgrade to 8.0U3k](https://status.us.ovhcloud.com) | maintenance | — |
+| 2026-08-07 | [[GRA3][Infrastructure] - Rack GRA0404A01D maintenance notification](https://status.us.ovhcloud.com) | maintenance | — |
 | 2026-04-03 | [[VIN1] Server Power Loss VIN0120A02B](https://status.us.ovhcloud.com) | — | — |
 | 2026-03-24 | [One VPS host down in VIN](https://status.us.ovhcloud.com) | — | — |
 
-Newest 7 of 7. Full machine-readable history:
+Newest 8 of 8. Full machine-readable history:
 [`history/ovhcloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ovhcloud.json).
 
 ## What is counted, and what is not
 
-Of 7 recorded incidents, **0** have a usable length. Excluded:
-1 maintenance, 4 still open or missing a timestamp, 2 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 8 recorded incidents, **0** have a usable length. Excluded:
+2 maintenance, 4 still open or missing a timestamp, 2 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

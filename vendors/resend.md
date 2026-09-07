@@ -2,7 +2,7 @@
 
 **26 Resend incidents on record** spanning **2026-06-15** to **2026-09-04**. Status page:
 [https://resend-status.com](https://resend-status.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **17** Resend incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

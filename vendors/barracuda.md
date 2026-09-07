@@ -2,7 +2,7 @@
 
 **51 Barracuda incidents on record** spanning **2026-01-22** to **2026-09-04**. Status page:
 [https://status.barracuda.com](https://status.barracuda.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **10.2 h** across 51 incidents where Barracuda posted both a start and a resolve time.

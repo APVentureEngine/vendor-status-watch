@@ -75,6 +75,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -84,7 +88,7 @@
 "body": "We have identified and corrected the problem.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-10-08T11:56:18.279-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-08T11:08:14.660-07:00",
@@ -97,7 +101,7 @@
 "body": "OctaneLive continues to operate normally, this outage will be closed out shortly.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-10-03T11:34:26.072-07:00",
 "resolved_inferred": false,
 "started_at": "2025-10-03T08:42:39.165-07:00",
@@ -107,7 +111,7 @@
 "url": "https://stspg.io/4yy4cvsvkcv7"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
+"last_checked": "2026-09-07T12:26:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

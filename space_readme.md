@@ -22,16 +22,16 @@ tags:
   - daily-updated
 ---
 
-# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,738 incidents on record
+# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,782 incidents on record
 
-**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-06 at 15:32 UTC
+**[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-07 at 12:26 UTC
 
 | | |
 |---|---|
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
-| **14,738** | real incidents on record (651 vendors back-filled from source) |
-| **2,109** | incidents opened in the last 30 days, across 399 vendors |
+| **14,782** | real incidents on record (651 vendors back-filled from source) |
+| **2,153** | incidents opened in the last 30 days, across 399 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -81,41 +81,41 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 
 | Vendor | Incidents (90d) | On record |
 |---|---|---|
-| [Twilio status history](https://approjects-vendor-status-watch.static.hf.space/v/twilio.html) | ≥ 65 | 65 |
-| [Cloudflare status history](https://approjects-vendor-status-watch.static.hf.space/v/cloudflare.html) | ≥ 57 | 57 |
+| [Twilio status history](https://approjects-vendor-status-watch.static.hf.space/v/twilio.html) | ≥ 69 | 69 |
+| [Qualys status history](https://approjects-vendor-status-watch.static.hf.space/v/qualys.html) | ≥ 61 | 61 |
+| [Cloudflare status history](https://approjects-vendor-status-watch.static.hf.space/v/cloudflare.html) | ≥ 60 | 60 |
+| [Exact status history](https://approjects-vendor-status-watch.static.hf.space/v/exact.html) | ≥ 56 | 56 |
+| [QuickNode status history](https://approjects-vendor-status-watch.static.hf.space/v/quicknode.html) | ≥ 56 | 56 |
 | [Zoom status history](https://approjects-vendor-status-watch.static.hf.space/v/zoom.html) | ≥ 56 | 56 |
 | [Datto status history](https://approjects-vendor-status-watch.static.hf.space/v/datto.html) | ≥ 56 | 56 |
+| [Scaleway status history](https://approjects-vendor-status-watch.static.hf.space/v/scaleway.html) | ≥ 55 | 55 |
+| [Kraken status history](https://approjects-vendor-status-watch.static.hf.space/v/kraken.html) | 55 | 56 |
 | [Shippo status history](https://approjects-vendor-status-watch.static.hf.space/v/shippo.html) | ≥ 55 | 55 |
-| [Exact status history](https://approjects-vendor-status-watch.static.hf.space/v/exact.html) | ≥ 55 | 55 |
-| [QuickNode status history](https://approjects-vendor-status-watch.static.hf.space/v/quicknode.html) | ≥ 55 | 55 |
-| [Kraken status history](https://approjects-vendor-status-watch.static.hf.space/v/kraken.html) | 54 | 55 |
-| [Webroot status history](https://approjects-vendor-status-watch.static.hf.space/v/webroot.html) | 53 | 54 |
-| [Scaleway status history](https://approjects-vendor-status-watch.static.hf.space/v/scaleway.html) | ≥ 53 | 53 |
+| [Bandwidth status history](https://approjects-vendor-status-watch.static.hf.space/v/bandwidth.html) | ≥ 54 | 54 |
+| [Webroot status history](https://approjects-vendor-status-watch.static.hf.space/v/webroot.html) | 54 | 55 |
 | [Grafana Labs status history](https://approjects-vendor-status-watch.static.hf.space/v/grafana-labs.html) | ≥ 53 | 53 |
 | [Vonage API status history](https://approjects-vendor-status-watch.static.hf.space/v/vonage-api.html) | ≥ 53 | 53 |
+| [Coinbase status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase.html) | ≥ 52 | 52 |
 | [Ivanti Cloud status history](https://approjects-vendor-status-watch.static.hf.space/v/ivanti-cloud.html) | 52 | 58 |
 | [GitHub status history](https://approjects-vendor-status-watch.static.hf.space/v/github.html) | ≥ 52 | 52 |
 | [Alchemy status history](https://approjects-vendor-status-watch.static.hf.space/v/alchemy.html) | ≥ 52 | 52 |
 | [Sinch status history](https://approjects-vendor-status-watch.static.hf.space/v/sinch.html) | ≥ 52 | 52 |
-| [Coinbase status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase.html) | ≥ 51 | 51 |
-| [Bandwidth status history](https://approjects-vendor-status-watch.static.hf.space/v/bandwidth.html) | ≥ 51 | 51 |
+| [Ledger status history](https://approjects-vendor-status-watch.static.hf.space/v/ledger.html) | 51 | 52 |
 | [Hostinger status history](https://approjects-vendor-status-watch.static.hf.space/v/hostinger.html) | ≥ 51 | 51 |
-| [Qualys status history](https://approjects-vendor-status-watch.static.hf.space/v/qualys.html) | ≥ 51 | 51 |
 | [Granicus status history](https://approjects-vendor-status-watch.static.hf.space/v/granicus.html) | ≥ 51 | 51 |
 | [Supabase status history](https://approjects-vendor-status-watch.static.hf.space/v/supabase.html) | ≥ 50 | 50 |
 | [Anthropic status history](https://approjects-vendor-status-watch.static.hf.space/v/anthropic.html) | ≥ 50 | 50 |
 | [Visma status history](https://approjects-vendor-status-watch.static.hf.space/v/visma.html) | ≥ 50 | 50 |
 | [Flyio status history](https://approjects-vendor-status-watch.static.hf.space/v/flyio.html) | ≥ 50 | 50 |
 | [Liveramp status history](https://approjects-vendor-status-watch.static.hf.space/v/liveramp.html) | 49 | 50 |
-| [Ledger status history](https://approjects-vendor-status-watch.static.hf.space/v/ledger.html) | 49 | 50 |
-| [IONOS status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos.html) | 47 | 51 |
+| [IONOS status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos.html) | 48 | 53 |
 | [Circle status history](https://approjects-vendor-status-watch.static.hf.space/v/circle.html) | 47 | 50 |
 | [Cisco Systems status history](https://approjects-vendor-status-watch.static.hf.space/v/cisco-systems.html) | 45 | 51 |
-| [Coinbase Prime status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase-prime.html) | 43 | 50 |
+| [Coinbase Prime status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase-prime.html) | 44 | 51 |
 | [IPVanish status history](https://approjects-vendor-status-watch.static.hf.space/v/ipvanish.html) | 40 | 51 |
 | [Ionos Cloud status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos-cloud.html) | 38 | 51 |
+| [Voximplant status history](https://approjects-vendor-status-watch.static.hf.space/v/voximplant.html) | 36 | 51 |
 | [Whatnot status history](https://approjects-vendor-status-watch.static.hf.space/v/whatnot.html) | 35 | 51 |
-| [Voximplant status history](https://approjects-vendor-status-watch.static.hf.space/v/voximplant.html) | 35 | 50 |
 | [Expo status history](https://approjects-vendor-status-watch.static.hf.space/v/expo.html) | 34 | 53 |
 | [MeridianLink status history](https://approjects-vendor-status-watch.static.hf.space/v/meridianlink.html) | 33 | 52 |
 | [Temporal status history](https://approjects-vendor-status-watch.static.hf.space/v/temporal.html) | 33 | 50 |

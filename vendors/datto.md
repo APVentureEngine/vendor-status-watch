@@ -2,7 +2,7 @@
 
 **56 Datto incidents on record** spanning **2026-07-08** to **2026-09-05**. Status page:
 [https://status.datto.com](https://status.datto.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **11.7 h** across 48 incidents where Datto posted both a start and a resolve time.

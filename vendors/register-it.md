@@ -2,7 +2,7 @@
 
 **10 Register.it incidents on record** spanning **2025-09-29** to **2026-09-04**. Status page:
 [https://status.register.it](https://status.register.it) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **10** Register.it incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

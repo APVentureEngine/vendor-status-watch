@@ -2,7 +2,7 @@
 
 **50 Tide incidents on record** spanning **2026-02-02** to **2026-09-01**. Status page:
 [https://status.tide.co](https://status.tide.co) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.3 h** across 50 incidents where Tide posted both a start and a resolve time.

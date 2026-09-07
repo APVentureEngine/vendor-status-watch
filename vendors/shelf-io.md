@@ -2,7 +2,7 @@
 
 **9 Shelf.io incidents on record** spanning **2025-08-22** to **2026-06-23**. Status page:
 [https://status.shelf.io](https://status.shelf.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **9** Shelf.io incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

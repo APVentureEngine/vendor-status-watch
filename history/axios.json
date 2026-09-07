@@ -75,6 +75,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -84,7 +88,7 @@
 "body": "The issue has been resolved. We apologize for any inconvenience the disruption may have caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-08-29T19:57:20Z",
 "resolved_inferred": false,
 "started_at": "2025-08-29T19:13:41Z",
@@ -96,7 +100,7 @@
 "body": "The issue has been resolved. We apologize for any inconvenience the disruption may have caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-09-19T13:13:59Z",
 "resolved_inferred": false,
 "started_at": "2025-09-19T12:38:49Z",
@@ -108,7 +112,7 @@
 "body": "The issue has been resolved. We apologize for any inconvenience the disruption may have caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-10-21T00:53:36Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T14:20:28Z",
@@ -120,7 +124,7 @@
 "body": "Cloudflare has resolved the issue. Everything has been functional for the past few hours but we were extra cautious in case additional errors would appear. Thank you for your patience. ",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-11-18T19:42:59Z",
 "resolved_inferred": false,
 "started_at": "2025-11-18T12:05:24Z",
@@ -132,7 +136,7 @@
 "body": "The issue has been resolved. We apologize for any inconvenience the disruption may have caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2026-03-16T22:11:49Z",
 "resolved_inferred": false,
 "started_at": "2026-03-16T21:51:27Z",
@@ -141,7 +145,7 @@
 "updated_at": "2026-03-16T22:11:49Z"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
+"last_checked": "2026-09-07T12:26:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

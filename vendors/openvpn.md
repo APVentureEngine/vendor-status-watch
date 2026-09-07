@@ -2,7 +2,7 @@
 
 **24 Openvpn incidents on record** spanning **2025-08-20** to **2026-09-05**. Status page:
 [https://status.openvpn.com](https://status.openvpn.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **11.7 h** across 23 incidents where Openvpn posted both a start and a resolve time.

@@ -75,15 +75,19 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-06T15:32:04Z",
-"last_description": "UP",
+"last_checked": "2026-09-07T12:26:33Z",
+"last_description": "HASISSUES",
 "last_error": null,
-"last_state": "ok",
+"last_state": "degraded",
 "platform": "instatus",
 "slug": "qovery",
 "status_url": "https://status.qovery.com",

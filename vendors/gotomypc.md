@@ -2,7 +2,7 @@
 
 **40 GoToMyPC incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
 [http://status.logmeinaccess.com](http://status.logmeinaccess.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **68 min** across 40 incidents where GoToMyPC posted both a start and a resolve time.

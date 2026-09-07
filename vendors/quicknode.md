@@ -1,9 +1,9 @@
 # QuickNode outage history — every incident their status page has posted
 
-**55 QuickNode incidents on record** spanning **2026-06-28** to **2026-09-04**. Status page:
+**56 QuickNode incidents on record** spanning **2026-06-28** to **2026-09-07**. Status page:
 [https://status.quicknode.com](https://status.quicknode.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **3.4 h** across 51 incidents where QuickNode posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Gravity Mainnet Stalled at Block 41,384,106](https://stspg.io/49nwv3zgy5s6) | minor | — |
 | 2026-09-04 | [RobinHood Mainnet - Increased Latency](https://stspg.io/qybl1wxrnb85) | minor | 12.0 h |
 | 2026-09-04 | [Urgent: Stacks Mainnet & Testnet – stacks-node 4.0.3](https://stspg.io/kfgqz053185d) | maintenance | — |
 | 2026-09-04 | [Flow Mainnet and Testnet - Access Node upgrade to v0.51.1](https://stspg.io/b6b8vzh16jl3) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-24 | [Moca Testnet Degraded Performance](https://stspg.io/lcvtvrqlvwms) | none | 57 min |
 | 2026-08-24 | [Stacks Mainnet Degraded Performance](https://stspg.io/0tr0m5nhsw8b) | none | 76 min |
 | 2026-08-23 | [XRPL EVM Mainnet — Block Height Stalled](https://stspg.io/dp40tccpqs30) | none | 19.0 h |
-| 2026-08-22 | [Flow Mainnet Degradation](https://stspg.io/22w83f57v2w5) | none | 29 min |
 
-Newest 15 of 55. Full machine-readable history:
+Newest 15 of 56. Full machine-readable history:
 [`history/quicknode.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/quicknode.json).
 
 ## What is counted, and what is not
 
-Of 55 recorded incidents, **51** have a usable length. Excluded:
-4 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 56 recorded incidents, **51** have a usable length. Excluded:
+4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -2,7 +2,7 @@
 
 **21 Gladly incidents on record** spanning **2025-08-07** to **2026-08-31**. Status page:
 [https://gladly.statuspage.io](https://gladly.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **76 min** across 21 incidents where Gladly posted both a start and a resolve time.

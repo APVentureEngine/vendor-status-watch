@@ -2,7 +2,7 @@
 
 **51 Ionos Cloud incidents on record** spanning **2026-05-08** to **2026-09-04**. Status page:
 [https://status.ionos.cloud](https://status.ionos.cloud) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **21.7 h** across 48 incidents where Ionos Cloud posted both a start and a resolve time.

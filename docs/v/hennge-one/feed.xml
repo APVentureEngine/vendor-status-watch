@@ -1,23 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>HENNGE One incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/hennge-one.html</link><description>Incidents from HENNGE One's public status page, polled daily.</description><lastBuildDate>Sun, 06 Sep 2026 15:32:04 +0000</lastBuildDate><item><title>An Issue in HENNGE Email DLP：Email delays to Exchange Online [monitoring]</title><link>https://stspg.io/fxsr67t7b7n9</link><guid isPermaLink="false">hennge-one:2026-09-04T18:23:08.321+09:00</guid><pubDate>Fri, 04 Sep 2026 09:23:08 +0000</pubDate><description>本件についての続報です。
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>HENNGE One incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/hennge-one.html</link><description>Incidents from HENNGE One's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>Temporary maintenance：HENNGE Endpoint &amp; Managed Security [maintenance]</title><link>https://stspg.io/q60tvpc8kqzv</link><guid isPermaLink="false">hennge-one:2026-09-07T18:00:00.000+09:00</guid><pubDate>Mon, 07 Sep 2026 09:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>An Issue in HENNGE Email DLP：Email delays to Exchange Online [resolved]</title><link>https://stspg.io/fxsr67t7b7n9</link><guid isPermaLink="false">hennge-one:2026-09-04T18:23:08.321+09:00</guid><pubDate>Fri, 04 Sep 2026 09:23:08 +0000</pubDate><description>Microsoft 365（Exchange Online）宛のメール配送におきまして一部遅延が発生しておりまし事象は
+Microsoft 側で対応が行われ 2026年9月5日01時05分（JST）に解消したことを確認しております。
 
-Microsoft 365（Exchange Online）宛のメール遅延につきまして、Microsoft 社にて対策が講じられたことを確認いたしました。
-詳細につきましては、以下もご確認くださいますようお願いいたします。
+本件によって遅延したメールにつきましては自動的に再送されておりますので、手動での再送処理などは必要ありません。
 
-・Microsoft 365 管理センター：サービス正常性
-https://admin.cloud.microsoft/?source=applauncher#/servicehealth/:/alerts/EX1467029
-
-引き続き状況を監視してまいります。
+この度はご迷惑をおかけしましたことをお詫び申し上げます。
 
 −−−−−−−−−−−−−−−−−−−−−−−−−−−
 
-Regarding the email delivery delay to Microsoft 365 (Exchange Online), we have confirmed that Microsoft has taken measures to address the issue.
+We have confirmed that the issue causing partial delays in email delivery to Microsoft 365 (Exchange Online) has been addressed by Microsoft and was resolved on September 5, 2026, at 01:05 AM (JST).
 
-For more details, please also refer to the following information:
+Emails delayed due to this incident have been automatically resent, so no manual action is required on your end to resend them.
 
-* Microsoft 365 admin center: Service health
- https://admin.cloud.microsoft/?source=applauncher#/servicehealth/:/alerts/EX1467029
-
-We will continue to monitor the situation.</description></item><item><title>An Issue in HENNGE Endpoint &amp; Managed Security [resolved]</title><link>https://stspg.io/rq08spt76wnc</link><guid isPermaLink="false">hennge-one:2026-09-03T14:20:14.590+09:00</guid><pubDate>Thu, 03 Sep 2026 05:20:14 +0000</pubDate><description>本件につきまして続報です。
+We sincerely apologize for any inconvenience this may have caused.</description></item><item><title>An Issue in HENNGE Endpoint &amp; Managed Security [resolved]</title><link>https://stspg.io/rq08spt76wnc</link><guid isPermaLink="false">hennge-one:2026-09-03T14:20:14.590+09:00</guid><pubDate>Thu, 03 Sep 2026 05:20:14 +0000</pubDate><description>本件につきまして続報です。
 
 発生しておりました事象は解消し、現在は問題なく動作していることを確認いたしました。
 

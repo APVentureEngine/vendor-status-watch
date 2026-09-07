@@ -75,15 +75,30 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
-"incidents": {},
-"last_checked": "2026-09-06T15:32:04Z",
-"last_description": "UP",
+"incidents": {
+"cmtr7c46h000u13p8zfrx3qth": {
+"first_seen": "2026-09-07T12:26:33Z",
+"impact": "MAJOROUTAGE",
+"last_seen": "2026-09-07T12:26:33Z",
+"started_at": "2026-09-07T12:13:26.899Z",
+"state": "monitoring",
+"title": "Deno Deploy request failures in ord",
+"updated_at": "2026-09-07T12:24:36.513Z",
+"url": "https://denostatus.com/cmtr7c46h000u13p8zfrx3qth"
+}
+},
+"last_checked": "2026-09-07T12:26:33Z",
+"last_description": "HASISSUES",
 "last_error": null,
-"last_state": "ok",
+"last_state": "degraded",
 "platform": "instatus",
 "slug": "deno-deploy",
 "status_url": "https://denostatus.com",

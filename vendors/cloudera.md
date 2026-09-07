@@ -2,7 +2,7 @@
 
 **6 Cloudera incidents on record** spanning **2025-08-13** to **2026-09-03**. Status page:
 [https://status.cloudera.com](https://status.cloudera.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **6** Cloudera incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

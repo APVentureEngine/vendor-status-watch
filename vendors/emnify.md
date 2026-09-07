@@ -2,7 +2,7 @@
 
 **50 Emnify incidents on record** spanning **2025-09-18** to **2026-08-01**. Status page:
 [https://status.emnify.com](https://status.emnify.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 50 incidents where Emnify posted both a start and a resolve time.

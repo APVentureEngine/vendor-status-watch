@@ -2,7 +2,7 @@
 
 **38 Alloy incidents on record** spanning **2025-08-05** to **2026-09-04**. Status page:
 [https://status.alloy.com](https://status.alloy.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **40 min** across 38 incidents where Alloy posted both a start and a resolve time.

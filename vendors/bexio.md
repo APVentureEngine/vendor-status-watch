@@ -2,7 +2,7 @@
 
 **26 Bexio incidents on record** spanning **2025-09-10** to **2026-09-04**. Status page:
 [https://www.bexio-status.com](https://www.bexio-status.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 26 incidents where Bexio posted both a start and a resolve time.

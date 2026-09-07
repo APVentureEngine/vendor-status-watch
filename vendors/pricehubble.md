@@ -2,7 +2,7 @@
 
 **4 PriceHubble incidents on record** spanning **2026-05-13** to **2026-08-31**. Status page:
 [https://status.pricehubble.com](https://status.pricehubble.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **4** PriceHubble incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

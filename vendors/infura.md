@@ -2,7 +2,7 @@
 
 **50 Infura incidents on record** spanning **2025-12-16** to **2026-08-30**. Status page:
 [https://status.infura.io](https://status.infura.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.6 h** across 50 incidents where Infura posted both a start and a resolve time.

@@ -2,10 +2,10 @@
 
 **40 DNSimple incidents on record** spanning **2025-08-11** to **2026-09-06**. Status page:
 [https://dnsimple.statuspage.io](https://dnsimple.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **76 min** across 38 incidents where DNSimple posted both a start and a resolve time.
+Median incident length: **77 min** across 39 incidents where DNSimple posted both a start and a resolve time.
 
 This page republishes what DNSimple posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-06 | [Edge network disruption in Warsaw EU region](https://stspg.io/kpmkppsjtrr6) | minor | — |
+| 2026-09-06 | [Edge network disruption in Warsaw EU region](https://stspg.io/kpmkppsjtrr6) | minor | 2.8 h |
 | 2026-08-08 | [Degraded service in London region](https://stspg.io/d464m7fl72lt) | minor | 5.4 h |
 | 2026-07-23 | [500 errors on production website](https://stspg.io/n9s25xm7mlrr) | major | 43 min |
 | 2026-07-22 | [Sandbox Web and API maintenance extended](https://stspg.io/ss6jt99pm0rt) | maintenance | — |
@@ -35,8 +35,8 @@ Newest 15 of 40. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 40 recorded incidents, **38** have a usable length. Excluded:
-1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 40 recorded incidents, **39** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

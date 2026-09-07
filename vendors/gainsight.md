@@ -2,7 +2,7 @@
 
 **13 Gainsight incidents on record** spanning **2025-08-11** to **2026-06-26**. Status page:
 [https://status.gainsight.com](https://status.gainsight.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **13** Gainsight incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

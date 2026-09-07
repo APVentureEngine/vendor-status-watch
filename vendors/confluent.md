@@ -2,7 +2,7 @@
 
 **50 Confluent incidents on record** spanning **2025-09-27** to **2026-09-01**. Status page:
 [https://status.confluent.cloud](https://status.confluent.cloud) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.5 h** across 49 incidents where Confluent posted both a start and a resolve time.

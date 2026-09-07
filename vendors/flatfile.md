@@ -2,7 +2,7 @@
 
 **22 Flatfile incidents on record** spanning **2025-08-04** to **2026-09-02**. Status page:
 [https://status.flatfile.io](https://status.flatfile.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **46 min** across 21 incidents where Flatfile posted both a start and a resolve time.

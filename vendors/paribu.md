@@ -2,7 +2,7 @@
 
 **51 Paribu incidents on record** spanning **2025-12-08** to **2026-09-05**. Status page:
 [https://status.paribu.com](https://status.paribu.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`partial`**.
 
 Only **14** Paribu incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

@@ -2,7 +2,7 @@
 
 **50 DigiCert incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
 [https://status.digicert.com](https://status.digicert.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **107 min** across 49 incidents where DigiCert posted both a start and a resolve time.

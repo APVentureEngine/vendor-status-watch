@@ -1,11 +1,11 @@
 # HENNGE One outage history — every incident their status page has posted
 
-**28 HENNGE One incidents on record** spanning **2025-09-01** to **2026-09-04**. Status page:
+**29 HENNGE One incidents on record** spanning **2025-09-01** to **2026-09-07**. Status page:
 [https://status.hdeone.com](https://status.hdeone.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+state **`maintenance`**.
 
-Median incident length: **4.1 h** across 27 incidents where HENNGE One posted both a start and a resolve time.
+Median incident length: **4.1 h** across 28 incidents where HENNGE One posted both a start and a resolve time.
 
 This page republishes what HENNGE One posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-04 | [An Issue in HENNGE Email DLP：Email delays to Exchange Online](https://stspg.io/fxsr67t7b7n9) | minor | — |
+| 2026-09-07 | [Temporary maintenance：HENNGE Endpoint & Managed Security](https://stspg.io/q60tvpc8kqzv) | maintenance | — |
+| 2026-09-04 | [An Issue in HENNGE Email DLP：Email delays to Exchange Online](https://stspg.io/fxsr67t7b7n9) | minor | 2.6 days |
 | 2026-09-03 | [An Issue in HENNGE Endpoint & Managed Security](https://stspg.io/rq08spt76wnc) | minor | 19.7 h |
 | 2026-07-16 | [An Issue in HENNGE Email DLP：Unable to access the file download page.](https://stspg.io/7395f633r84w) | minor | 3.6 h |
 | 2026-07-16 | [An Issue in HENNGE Tadrill：Unable to access the service.](https://stspg.io/yphrfhk08hc2) | major | 4.0 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-04 | [An Issue in HENNGE Device Certificate](https://stspg.io/v5cf98tp212c) | minor | 79 min |
 | 2026-02-20 | [[Resolved]An Issue in HENNGE Access Control (Microsoft 365 User Sync)](https://stspg.io/tm24fn3s3c4c) | none | 0 min |
 | 2026-02-09 | [An Issue in HENNGE Email Archive: Message Search&Download](https://stspg.io/y674d7mdkn6g) | minor | 2.9 days |
-| 2026-02-02 | [An Issue in HENNGE Email DLP: Email Delivery](https://stspg.io/8k2ts9b89x9y) | minor | 17.2 h |
 
-Newest 15 of 28. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/hennge-one.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/hennge-one.json).
 
 ## What is counted, and what is not
 
-Of 28 recorded incidents, **27** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 29 recorded incidents, **28** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

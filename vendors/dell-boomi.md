@@ -2,7 +2,7 @@
 
 **29 Dell Boomi incidents on record** spanning **2025-08-04** to **2026-08-06**. Status page:
 [https://status.boomi.com](https://status.boomi.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 29 incidents where Dell Boomi posted both a start and a resolve time.

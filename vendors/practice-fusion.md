@@ -2,7 +2,7 @@
 
 **45 Practice Fusion incidents on record** spanning **2025-08-04** to **2026-08-19**. Status page:
 [https://status.practicefusion.com](https://status.practicefusion.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **82 min** across 45 incidents where Practice Fusion posted both a start and a resolve time.

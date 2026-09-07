@@ -2,7 +2,7 @@
 
 **30 TPx Communications incidents on record** spanning **2025-08-08** to **2026-09-02**. Status page:
 [https://tpxcommunications.statuspage.io](https://tpxcommunications.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **17.7 h** across 28 incidents where TPx Communications posted both a start and a resolve time.

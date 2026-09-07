@@ -2,7 +2,7 @@
 
 **32 SEEK incidents on record** spanning **2025-08-14** to **2026-09-02**. Status page:
 [https://status.seek.com](https://status.seek.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **14 min** across 32 incidents where SEEK posted both a start and a resolve time.

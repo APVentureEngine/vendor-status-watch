@@ -2,7 +2,7 @@
 
 **25 BitMEX incidents on record** spanning **2026-02-26** to **2026-07-13**. Status page:
 [https://status.bitmex.com](https://status.bitmex.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **5** BitMEX incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

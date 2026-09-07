@@ -2,7 +2,7 @@
 
 **25 Replicate incidents on record** spanning **2025-12-18** to **2026-08-26**. Status page:
 [https://replicatestatus.com](https://replicatestatus.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 25 incidents where Replicate posted both a start and a resolve time.

@@ -47,6 +47,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "partial"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "partial"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -56,7 +60,7 @@
 "body": "We are investigating a system issue. To protect platform stability, we have limited the volume of collected data. Expect a visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "medium",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "started_at": "2026-07-01T07:00:00+00:00",
 "state": "service_disruption",
 "title": "Performance Monitoring: Visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
@@ -64,7 +68,7 @@
 "url": "https://status.firebase.google.com/incidents/hBVSwDQrs8JPC53quJ8T"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
+"last_checked": "2026-09-07T12:26:33Z",
 "last_description": "1 open incident",
 "last_error": null,
 "last_state": "partial",

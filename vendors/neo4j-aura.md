@@ -2,7 +2,7 @@
 
 **20 Neo4j Aura incidents on record** spanning **2025-08-19** to **2026-09-03**. Status page:
 [https://status.neo4j.io](https://status.neo4j.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.0 h** across 20 incidents where Neo4j Aura posted both a start and a resolve time.

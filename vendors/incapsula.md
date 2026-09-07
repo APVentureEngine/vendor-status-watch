@@ -2,7 +2,7 @@
 
 **50 Incapsula incidents on record** spanning **2026-03-27** to **2026-09-02**. Status page:
 [https://status.incapsula.com](https://status.incapsula.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **3.4 h** across 50 incidents where Incapsula posted both a start and a resolve time.

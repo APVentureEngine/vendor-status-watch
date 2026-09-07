@@ -2,7 +2,7 @@
 
 **51 Hostinger incidents on record** spanning **2026-08-06** to **2026-09-04**. Status page:
 [https://statuspage.hostinger.com](https://statuspage.hostinger.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **57 min** across 51 incidents where Hostinger posted both a start and a resolve time.

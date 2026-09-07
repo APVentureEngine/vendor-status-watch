@@ -2,7 +2,7 @@
 
 **25 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-04**. Status page:
 [https://status.openai.com](https://status.openai.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.7 h** across 25 incidents where OpenAI posted both a start and a resolve time.

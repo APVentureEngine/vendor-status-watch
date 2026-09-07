@@ -3,14 +3,16 @@
 "slug": "todoist",
 "platform": "instatus",
 "status_url": "https://status.todoist.net",
-"last_checked": "2026-09-06T15:32:04Z",
-"last_state": "maintenance",
+"last_checked": "2026-09-07T12:26:33Z",
+"last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": [
 {
 "first_seen": "2026-09-05T05:19:27Z",
 "last_seen": "2026-09-06T15:32:04Z",
+"resolved_at": "2026-09-07T12:26:33Z",
+"resolved_inferred": true,
 "started_at": "2026-09-06T21:45:00.000Z",
 "state": "maintenance",
 "title": "[2026/09/06] Scheduled Maintenance",

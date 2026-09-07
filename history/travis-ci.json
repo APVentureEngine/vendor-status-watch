@@ -75,6 +75,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -84,7 +88,7 @@
 "body": "The fix has been successful, and all systems are now operating normally. We will continue to monitor performance closely. Thank you for your patience and understanding as we addressed this issue.\n\nIf you continue to experience any residual issues or have further questions, please reach out to our team at support@travis-ci.com",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2026-05-25T19:26:11.944Z",
 "resolved_inferred": false,
 "started_at": "2026-05-25T14:12:19.945Z",
@@ -94,10 +98,10 @@
 "url": "https://stspg.io/gcywd52yk03l"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
-"last_description": "Partially Degraded Service",
+"last_checked": "2026-09-07T12:26:33Z",
+"last_description": "All Systems Operational",
 "last_error": null,
-"last_state": "degraded",
+"last_state": "ok",
 "platform": "statuspage",
 "slug": "travis-ci",
 "status_url": "https://www.traviscistatus.com",

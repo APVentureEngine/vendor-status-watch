@@ -2,7 +2,7 @@
 
 **23 Auvik incidents on record** spanning **2025-08-19** to **2026-09-03**. Status page:
 [https://status.auvik.com](https://status.auvik.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **102 min** across 23 incidents where Auvik posted both a start and a resolve time.

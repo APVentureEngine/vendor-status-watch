@@ -2,7 +2,7 @@
 
 **4 MacStadium incidents on record** spanning **2025-09-15** to **2026-04-22**. Status page:
 [https://status.macstadium.com](https://status.macstadium.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **4** MacStadium incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

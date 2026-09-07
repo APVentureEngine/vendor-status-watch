@@ -2,7 +2,7 @@
 
 **22 Mavenlink incidents on record** spanning **2025-08-06** to **2026-08-31**. Status page:
 [https://status.mavenlink.com](https://status.mavenlink.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **105 min** across 21 incidents where Mavenlink posted both a start and a resolve time.

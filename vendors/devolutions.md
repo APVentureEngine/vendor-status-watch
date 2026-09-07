@@ -2,7 +2,7 @@
 
 **20 Devolutions incidents on record** spanning **2025-10-04** to **2026-08-19**. Status page:
 [http://status.devolutions.net](http://status.devolutions.net) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **73 min** across 20 incidents where Devolutions posted both a start and a resolve time.

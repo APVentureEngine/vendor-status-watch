@@ -2,7 +2,7 @@
 
 **5 SugarSync incidents on record** spanning **2025-11-18** to **2026-08-26**. Status page:
 [https://status.sugarsync.com](https://status.sugarsync.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **5** SugarSync incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

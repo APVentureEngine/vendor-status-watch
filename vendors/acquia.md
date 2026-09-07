@@ -1,8 +1,8 @@
 # Acquia outage history — every incident their status page has posted
 
-**50 Acquia incidents on record** spanning **2025-10-28** to **2026-09-03**. Status page:
+**51 Acquia incidents on record** spanning **2025-10-28** to **2026-09-07**. Status page:
 [https://status.acquia.com](https://status.acquia.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.4 h** across 50 incidents where Acquia posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Intermittent Pipeline Job Start Failures](https://stspg.io/vrq02v36y56v) | minor | — |
 | 2026-09-03 | [Error rates for Acquia Task System](https://stspg.io/v80txq618pg9) | major | 3.0 h |
 | 2026-09-03 | [Multiple customers are currently affected by what appears to be an outage impacting the Site Studio endpoint](https://stspg.io/w32x9vnv014z) | critical | 10.6 h |
 | 2026-09-03 | [Degraded Performance - SearchStax Pulse Performance Graphs](https://stspg.io/jwrbw3j27l6w) | minor | 9.6 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-04 | [Acquia Cloud Pipelines – Jobs Failing to Start (Queued State)](https://stspg.io/l7y5r5pqtxt1) | critical | 96 min |
 | 2026-07-23 | [Issue Affecting Related & Popular Search Results](https://stspg.io/v2mq7kb3snh6) | major | 2.8 h |
 | 2026-07-23 | [SearchStax: Issue Affecting Related & Popular Search Results](https://stspg.io/n8hypxddzgjs) | none | 3.4 h |
-| 2026-07-21 | [AcquiaDAM sites not available](https://stspg.io/jpqcwkympd7g) | major | 2.2 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/acquia.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/acquia.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

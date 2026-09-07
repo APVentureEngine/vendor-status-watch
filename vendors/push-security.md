@@ -2,7 +2,7 @@
 
 **14 Push Security incidents on record** spanning **2026-03-06** to **2026-06-24**. Status page:
 [https://status.pushsecurity.com](https://status.pushsecurity.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **1** Push Security incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

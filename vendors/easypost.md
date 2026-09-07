@@ -2,7 +2,7 @@
 
 **39 Easypost incidents on record** spanning **2025-08-25** to **2026-08-27**. Status page:
 [https://www.easypoststatus.com](https://www.easypoststatus.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.9 h** across 39 incidents where Easypost posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **53 Vonage API incidents on record** spanning **2026-07-22** to **2026-09-04**. Status page:
 [https://vonageapi.statuspage.io](https://vonageapi.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 49 incidents where Vonage API posted both a start and a resolve time.

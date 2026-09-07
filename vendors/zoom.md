@@ -2,7 +2,7 @@
 
 **56 Zoom incidents on record** spanning **2026-06-27** to **2026-09-05**. Status page:
 [https://status.zoom.us](https://status.zoom.us) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **48 min** across 52 incidents where Zoom posted both a start and a resolve time.

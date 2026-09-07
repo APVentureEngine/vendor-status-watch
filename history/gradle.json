@@ -75,6 +75,10 @@
 {
 "at": "2026-09-06T15:32:04Z",
 "state": "ok"
+},
+{
+"at": "2026-09-07T12:26:33Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -84,7 +88,7 @@
 "body": "The plugin portal suffered connection issues possibly related to incidents with the different providers used:\n* Heroku: https://status.heroku.com/incidents/2867\n* AWS: https://health.aws.amazon.com/health/status?eventID=arn:aws:health:us-east-1::event/INTERNETCONNECTIVITY/AWS_INTERNETCONNECTIVITY_OPERATIONAL_ISSUE/AWS_INTERNETCONNECTIVITY_OPERATIONAL_ISSUE_49824_16DD211EFC1\n\nWhen restarted, the application started behaving properly.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-08-21T18:30:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-08-21T17:30:00.000Z",
@@ -97,7 +101,7 @@
 "body": "services.gradle.org is fully operational again.\n\nThe outage was caused by a configuration change on services.gradle.org that was not intended to affect this service.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-08-12T21:25:59.065Z",
 "resolved_inferred": false,
 "started_at": "2025-08-12T21:11:34.232Z",
@@ -110,7 +114,7 @@
 "body": "Services are back to normal",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2025-12-05T10:01:21.162Z",
 "resolved_inferred": false,
 "started_at": "2025-12-05T09:09:29.361Z",
@@ -123,7 +127,7 @@
 "body": "While trying to deploy an upgrade, the application was down for 20 minutes from 11:19 GMT+2.\n\nWe will investigate the root cause and attempt the upgrade at a later date.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-06T15:32:04Z",
+"last_seen": "2026-09-07T12:26:33Z",
 "resolved_at": "2026-05-06T09:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-05-06T09:00:00.000Z",
@@ -133,7 +137,7 @@
 "url": "https://stspg.io/9ytjrzsyr52q"
 }
 },
-"last_checked": "2026-09-06T15:32:04Z",
+"last_checked": "2026-09-07T12:26:33Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

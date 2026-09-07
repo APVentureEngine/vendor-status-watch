@@ -2,7 +2,7 @@
 
 **51 Moveworks incidents on record** spanning **2025-08-04** to **2026-09-04**. Status page:
 [https://status.moveworks.com](https://status.moveworks.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **102 min** across 48 incidents where Moveworks posted both a start and a resolve time.

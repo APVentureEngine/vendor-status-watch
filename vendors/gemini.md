@@ -1,8 +1,8 @@
 # Gemini outage history — every incident their status page has posted
 
-**50 Gemini incidents on record** spanning **2026-04-08** to **2026-09-04**. Status page:
+**51 Gemini incidents on record** spanning **2026-04-08** to **2026-09-07**. Status page:
 [https://status.gemini.com](https://status.gemini.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **6.3 h** across 49 incidents where Gemini posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Delayed Polkadot Deposits and Withdrawals](https://stspg.io/y68qxm0j019z) | minor | — |
 | 2026-09-04 | [Delayed order completion email notifications](https://stspg.io/k9183r5b5k9d) | none | 3.7 h |
 | 2026-08-26 | [BSC Network Delays](https://stspg.io/w4fzx71w1g4f) | minor | 99 min |
 | 2026-08-19 | [Websockets (wss://ws.gemini.com) connectivity issues](https://stspg.io/r3h8gc52mq1d) | minor | 18 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-09 | [TON Deposits and Withdrawals Delayed](https://stspg.io/nt2jrs9yz7xm) | minor | 3.4 h |
 | 2026-07-02 | [Delays for Filecoin Deposits and Withdrawals](https://stspg.io/cgn09qwnygc0) | major | 16.5 h |
 | 2026-07-01 | [Delayed Solana Withdrawals](https://stspg.io/ltz4v6c00387) | minor | 2.4 h |
-| 2026-06-29 | [Delays to Solana deposits and withdrawals](https://stspg.io/0ksbv12r96r5) | minor | 86 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/gemini.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gemini.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

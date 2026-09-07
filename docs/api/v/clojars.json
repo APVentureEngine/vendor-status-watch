@@ -3,8 +3,8 @@
 "slug": "clojars",
 "platform": "statuspage",
 "status_url": "http://status.clojars.org",
-"last_checked": "2026-09-06T15:32:04Z",
-"last_state": "degraded",
+"last_checked": "2026-09-07T12:26:33Z",
+"last_state": "ok",
 "history_backfilled": true,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": []

@@ -2,7 +2,7 @@
 
 **31 Hevo incidents on record** spanning **2025-08-05** to **2026-08-02**. Status page:
 [https://status.hevodata.com](https://status.hevodata.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.1 h** across 31 incidents where Hevo posted both a start and a resolve time.

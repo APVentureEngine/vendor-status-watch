@@ -2,7 +2,7 @@
 
 **21 Catalyst Cloud incidents on record** spanning **2025-09-17** to **2026-08-19**. Status page:
 [https://status.catalystcloud.nz](https://status.catalystcloud.nz) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **54 min** across 20 incidents where Catalyst Cloud posted both a start and a resolve time.

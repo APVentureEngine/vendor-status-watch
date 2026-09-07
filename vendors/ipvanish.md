@@ -2,7 +2,7 @@
 
 **51 IPVanish incidents on record** spanning **2026-05-05** to **2026-09-04**. Status page:
 [https://ipvanish.statuspage.io](https://ipvanish.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.2 h** across 47 incidents where IPVanish posted both a start and a resolve time.

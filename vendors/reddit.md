@@ -2,7 +2,7 @@
 
 **20 Reddit incidents on record** spanning **2025-08-25** to **2026-09-01**. Status page:
 [https://www.redditstatus.com](https://www.redditstatus.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **60 min** across 20 incidents where Reddit posted both a start and a resolve time.

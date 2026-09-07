@@ -2,7 +2,7 @@
 
 **44 UC Santa Barbara incidents on record** spanning **2025-08-07** to **2026-09-04**. Status page:
 [https://status.ucsb.edu](https://status.ucsb.edu) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **8.1 h** across 43 incidents where UC Santa Barbara posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **21 Doit incidents on record** spanning **2025-08-03** to **2026-09-01**. Status page:
 [https://status.doit.com](https://status.doit.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **46.8 h** across 21 incidents where Doit posted both a start and a resolve time.

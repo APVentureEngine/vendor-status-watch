@@ -2,7 +2,7 @@
 
 **6 Sapiens incidents on record** spanning **2025-10-29** to **2026-08-24**. Status page:
 [http://status.sapiensia.com](http://status.sapiensia.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **6** Sapiens incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

@@ -2,10 +2,10 @@
 
 **41 Voyado incidents on record** spanning **2025-08-10** to **2026-09-04**. Status page:
 [https://status.voyado.com](https://status.voyado.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **2.6 h** across 40 incidents where Voyado posted both a start and a resolve time.
+Median incident length: **2.6 h** across 41 incidents where Voyado posted both a start and a resolve time.
 
 This page republishes what Voyado posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-04 | [Voyado - Microsoft 365 (business) delay in delivery](https://stspg.io/4k06y6vmt3fk) | minor | — |
+| 2026-09-04 | [Voyado - Microsoft 365 (business) delay in delivery](https://stspg.io/4k06y6vmt3fk) | minor | 2.8 days |
 | 2026-09-02 | [[Engage] Issues with Abandoned Cart, Revenue Overview Dashboard and Automation Performance Dashboard](https://stspg.io/ld805zvm337f) | minor | 77 min |
 | 2026-08-21 | [Engage - email sending issues](https://stspg.io/qhc90ryrt8q1) | minor | 47.0 h |
 | 2026-07-13 | [[Engage] - Shopify App Service Disruption](https://stspg.io/gg50r6vk67cw) | critical | 22.0 days |
@@ -35,8 +35,8 @@ Newest 15 of 41. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 41 recorded incidents, **40** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 41 recorded incidents, **41** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -2,7 +2,7 @@
 
 **50 Imperva incidents on record** spanning **2026-03-27** to **2026-09-02**. Status page:
 [https://status.imperva.com](https://status.imperva.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **3.4 h** across 50 incidents where Imperva posted both a start and a resolve time.

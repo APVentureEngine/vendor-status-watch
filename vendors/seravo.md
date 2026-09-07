@@ -1,11 +1,11 @@
 # Seravo outage history — every incident their status page has posted
 
-**51 Seravo incidents on record** spanning **2025-09-29** to **2026-09-04**. Status page:
+**52 Seravo incidents on record** spanning **2025-09-29** to **2026-09-07**. Status page:
 [https://status.seravo.com](https://status.seravo.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **49 min** across 51 incidents where Seravo posted both a start and a resolve time.
+Median incident length: **52 min** across 52 incidents where Seravo posted both a start and a resolve time.
 
 This page republishes what Seravo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Database issues in cluster FI-Metheny](https://stspg.io/2x4w9nxmcny0) | minor | 66 min |
 | 2026-09-04 | [Delays in WordPress site emails sent to Outlook / Office 365](https://stspg.io/9z4htxvfs8qx) | minor | 18.8 h |
 | 2026-08-11 | [Availability issues in cluster fi-fredriksson](https://stspg.io/x27r559d70dt) | minor | 14 min |
 | 2026-07-21 | [Availability issues in cluster fi-fredriksson](https://stspg.io/683v95qjgdwv) | major | 2.2 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-22 | [Networking issue in cluster fi-sestak](https://stspg.io/vwfvvg8vcvyv) | major | 44 min |
 | 2026-03-31 | [Networking issue in cluster fi-sestak](https://stspg.io/k0c981m89tt2) | major | 29 min |
 | 2026-03-25 | [Networking issue in cluster us-davis](https://stspg.io/v3jbrpvt2c7p) | major | 18 min |
-| 2026-03-24 | [Networking issue in cluster fi-sestak](https://stspg.io/k5kcjp2dcyrk) | minor | 68 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/seravo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/seravo.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

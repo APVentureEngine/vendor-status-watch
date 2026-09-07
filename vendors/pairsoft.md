@@ -2,7 +2,7 @@
 
 **3 PairSoft incidents on record** spanning **2025-09-29** to **2025-11-17**. Status page:
 [https://status.pairsoft.com](https://status.pairsoft.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Only **3** PairSoft incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

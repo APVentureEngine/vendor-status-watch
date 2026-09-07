@@ -2,7 +2,7 @@
 
 **50 RevenueCat incidents on record** spanning **2025-09-10** to **2026-09-01**. Status page:
 [https://status.revenuecat.com](https://status.revenuecat.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.9 h** across 49 incidents where RevenueCat posted both a start and a resolve time.

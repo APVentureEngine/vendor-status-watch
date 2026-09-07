@@ -1,11 +1,11 @@
 # Ledger outage history — every incident their status page has posted
 
-**50 Ledger incidents on record** spanning **2026-06-03** to **2026-09-02**. Status page:
+**52 Ledger incidents on record** spanning **2026-06-03** to **2026-09-07**. Status page:
 [https://status.ledger.com](https://status.ledger.com) · platform:
-`statuspage` · last polled **2026-09-06 15:32 UTC**, last observed
+`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **29 min** across 49 incidents where Ledger posted both a start and a resolve time.
+Median incident length: **28 min** across 51 incidents where Ledger posted both a start and a resolve time.
 
 This page republishes what Ledger posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Cosmos (ATOM) Mainnet Degraded Service](https://stspg.io/rrjvk822bfm0) | major | 7 min |
+| 2026-09-07 | [Cosmos (ATOM) Mainnet Degraded Service](https://stspg.io/mr28hkmz97zj) | major | 15 min |
 | 2026-09-02 | [Solana (SOL) Mainnet Service Disruption](https://stspg.io/mn2xy63pnwjj) | critical | 5 min |
 | 2026-08-31 | [Hedera (HBAR) Mainnet Degraded Service](https://stspg.io/kj4cfzxggk4f) | major | 7 min |
 | 2026-08-31 | [Hedera (HBAR) Mainnet Degraded Service](https://stspg.io/byhgrfs18f66) | major | 22 min |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-17 | [Cronos (CRO) Mainnet Service Disruption](https://stspg.io/gn3npt0bkdjr) | none | 115 min |
 | 2026-08-13 | [Polygon (MATIC) Mainnet Degraded Service](https://stspg.io/s479rgr3n6m3) | major | 10 min |
 | 2026-08-09 | [Binance (BNB) Mainnet Degraded Service](https://stspg.io/jfcwrr8r1w0x) | major | 43 min |
-| 2026-08-09 | [Binance (BNB) Mainnet Degraded Service](https://stspg.io/p1sfvd7z57d5) | major | 13 min |
-| 2026-08-09 | [Binance (BNB) Mainnet Service Disruption](https://stspg.io/tfrg4pjwnqyw) | critical | 3.4 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/ledger.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ledger.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 52 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
