@@ -3,53 +3,9 @@
 <title>Rhombus status — not machine-readable</title><meta name="description" content="Rhombus&#x27;s status page has no public JSON feed; listed for completeness.">
 <link rel="canonical" href="https://approjects-vendor-status-watch.static.hf.space/v/rhombus.html"><link rel="alternate" type="application/rss+xml" title="All vendor incidents" href="https://approjects-vendor-status-watch.static.hf.space/feed.xml">
 <meta property="og:title" content="Rhombus status — not machine-readable"><meta property="og:description" content="Rhombus&#x27;s status page has no public JSON feed; listed for completeness."><meta property="og:type" content="website">
-<style>.hits{list-style:none;padding:0;margin:10px 0 0}.hits li{padding:8px 0;border-top:1px solid #e5e7eb}.hits li:first-child{border-top:0}#check{margin-top:20px}
-:root{--bg:#fbfbf8;--ink:#14213d;--muted:#5b6478;--line:#e3e5ea;--card:#fff;--accent:#d9480f;--accent-ink:#fff;
+<style>:root{--bg:#fbfbf8;--ink:#14213d;--muted:#5b6478;--line:#e3e5ea;--card:#fff;--accent:#d9480f;--accent-ink:#fff;
 --ok:#1f8a4c;--warn:#c98a00;--bad:#c8102e;--unk:#8a8f9c;--maxw:1040px}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-a{color:var(--ink)}a:hover{color:var(--accent)}
-header.top{background:var(--ink);color:#fff;padding:14px 20px}
-header.top .in{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-header.top a{color:#fff;text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 6px}
-header.top .brand{font-weight:700;font-size:18px;gap:8px}
-header.top nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap;font-size:15px}
-main{max-width:var(--maxw);margin:0 auto;padding:0 20px}
-section{padding:56px 0;border-bottom:1px solid var(--line)}section:last-of-type{border:0}
-h1{font-size:40px;line-height:1.1;margin:0 0 14px;letter-spacing:-.02em}
-h2{font-size:26px;margin:0 0 18px;letter-spacing:-.01em}h3{font-size:18px;margin:0 0 8px}
-p,li{max-width:70ch}.lead{font-size:19px;color:var(--muted);max-width:60ch}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:8px;
-font-weight:600;text-decoration:none;background:var(--accent);color:var(--accent-ink);border:0;font-size:16px;cursor:pointer}
-.btn:hover{background:#b83c0a;color:#fff}.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
-.btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
-.cta{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
-.capture{margin:14px 0 6px}
-.capture label{display:block;font-weight:600;margin-bottom:6px}
-.capture-row{display:flex;flex-wrap:wrap;gap:8px}
-.capture input[type=email]{flex:1 1 240px;min-height:48px;padding:0 12px;font:inherit;border:1px solid var(--line);border-radius:8px;box-sizing:border-box;background:#fff;color:var(--ink)}
-.capture button.btn{border:0;cursor:pointer;font-family:inherit}
-.capture-note{margin:8px 0 0;font-size:13px;color:var(--muted)}
-.card h3{margin-top:0}.price{font-size:32px;font-weight:700;margin:6px 0}
-table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
-.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.pill{display:inline-block;padding:2px 9px;border-radius:999px;font-size:13px;font-weight:600;color:#fff;white-space:nowrap}
-.s-ok{background:var(--ok)}.s-maintenance{background:#4a6fa5}.s-degraded{background:var(--warn)}.s-partial{background:#e0621f}.s-major{background:var(--bad)}.s-unknown{background:var(--unk)}
-.s-resolved,.s-completed{background:var(--ok)}.s-investigating,.s-identified,.s-monitoring{background:var(--warn)}
-pre{background:#14213d;color:#e6edf3;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:13.5px;line-height:1.5}
-code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.93em}
-input.filter{width:100%;max-width:420px;min-height:44px;padding:8px 12px;font-size:16px;border:1px solid var(--line);border-radius:8px}
-.muted{color:var(--muted)}.small{font-size:14px}.note{background:#fff7ed;border-left:4px solid var(--accent);padding:10px 14px;border-radius:6px}
-footer{padding:36px 20px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}footer .in{max-width:var(--maxw);margin:0 auto}
-.dv-kpis{margin:26px 0}.dv-kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
-.dv-kpi b{font-size:34px;display:block;line-height:1.1}.dv-kpi span{display:block;color:var(--muted);margin-top:4px}.dv-kpi i{display:block;font-style:normal;font-size:13px;margin-top:4px}
-figure{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}figure svg{max-width:100%;height:auto}
-figcaption{font-size:13px;color:var(--muted);margin-top:8px}
-@media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
-</style></head><body>
+@media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}</style><link rel="stylesheet" href="https://approjects-vendor-status-watch.static.hf.space/site.css"></head><body>
 <header class="top"><div class="in"><a class="brand" href="https://approjects-vendor-status-watch.static.hf.space/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="#d9480f"/><path d="M5 14 l4 0 l2 -6 l3 12 l3 -9 l2 3 l3 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg> Vendor Status Watch</a><nav><a href="https://approjects-vendor-status-watch.static.hf.space/#board">Live board</a><a href="https://approjects-vendor-status-watch.static.hf.space/vendors.html">Vendors</a><a href="https://approjects-vendor-status-watch.static.hf.space/#template">Free template</a><a href="https://approjects-vendor-status-watch.static.hf.space/#hosted">Pricing</a><a href="https://approjects-vendor-status-watch.static.hf.space/outage-duration.html">Outage length</a><a href="https://approjects-vendor-status-watch.static.hf.space/platforms.html">Coverage</a><a href="https://approjects-vendor-status-watch.static.hf.space/api.html">API</a></nav></div></header>
 <main><section><h1>Rhombus status</h1><p class="lead">This vendor's status page (https://status.rhombus.com) is bespoke HTML page — bespoke page. We list it so you know we checked; we do not poll it and never show a state for it.</p>
 

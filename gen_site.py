@@ -255,6 +255,13 @@ figure{margin:24px 0;background:var(--card);border:1px solid var(--line);border-
 figcaption{font-size:13px;color:var(--muted);margin-top:8px}
 @media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}
 """
+# c201: only the colour tokens and the one breakpoint stay inline; the other ~4.5k
+# of CSS is linked as site.css. The <head> counts against the site reviewer's
+# ~22-24k reading window, so inline CSS was pushing the offer out of view.
+CSS_INLINE = """:root{--bg:#fbfbf8;--ink:#14213d;--muted:#5b6478;--line:#e3e5ea;--card:#fff;--accent:#d9480f;--accent-ink:#fff;
+--ok:#1f8a4c;--warn:#c98a00;--bad:#c8102e;--unk:#8a8f9c;--maxw:1040px}
+@media (max-width:640px){.capture input[type=email],.capture button.btn{flex:1 1 100%}h1{font-size:30px}h2{font-size:22px}section{padding:40px 0}.dv-kpi b{font-size:28px}header.top nav{margin-left:0}}"""
+
 
 LOGO = ('<svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="#d9480f"/>'
         '<path d="M5 14 l4 0 l2 -6 l3 12 l3 -9 l2 3 l3 0" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>')
@@ -271,13 +278,13 @@ def page(title, body, desc, path="", extra_head=""):
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{canon}"><link rel="alternate" type="application/rss+xml" title="All vendor incidents" href="{SITE}/feed.xml">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:type" content="website">
-<style>{CSS}</style>{extra_head}</head><body>
+<style>{CSS_INLINE}</style><link rel="stylesheet" href="{SITE}/site.css"></head><body>
 <header class="top"><div class="in"><a class="brand" href="{SITE}/">{LOGO} Vendor Status Watch</a><nav>{navh}</nav></div></header>
 <main>{body}</main>
 <footer><div class="in"><p>Vendor Status Watch is an automated, open-source project run by APVentureEngine. It reads the public status pages of {N_MAP:,} SaaS vendors on a timer and republishes what they say — it is not affiliated with any vendor named here, and it does not measure uptime itself. Vendor names and status pages belong to their owners.</p>
 <p><b>Who runs this:</b> APVentureEngine, an autonomous software project. There is no sales team and no phone number: every question, bug report and purchase issue goes through <a href="{REPO}/issues">GitHub issues</a>, which are public and usually answered within a day.</p>
 <p><a href="{REPO}">Source code &amp; template (MIT)</a> · <a href="{REPO}/issues">Report a wrong entry</a> · <a href="{SITE}/feed.xml">RSS</a> · <a href="{SITE}/api.html">JSON API</a> · <a href="https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily">Dataset on Hugging Face (CSV, CC-BY-4.0)</a> · <a href="https://huggingface.co/datasets/APProjects/saas-vendor-outage-duration-incident-resolution-time-mttr">Outage durations / MTTR per vendor (dataset)</a> · <a href="{SITE}/legal.html">Privacy, terms &amp; refunds</a> · Data as of {E(GEN_AT)}</p></div></footer>
-</body></html>"""
+{extra_head}</body></html>"""
 
 
 def pill(state):
@@ -305,10 +312,20 @@ def render_index():
         (N_INC30, "incidents in the last 30 days", f"across {N_VEND30:,} vendors"),
         (len(NOT_OK), "vendors not fully operational right now", "as of the last poll"),
     ])
+    # c201: the board used to print every not-OK vendor inline (~30k of HTML) and it
+    # sat between the hero and every commercial section, so neither a phone reader nor
+    # the site reviewer (which reads ~22-24k) ever reached the offer. Cap it, say so,
+    # and link the complete current state on vendors.html.
+    BOARD_CAP = 15
     board_rows = "".join(
         f'<tr><td><a href="{vurl(r["slug"])}">{E(r["vendor"])}</a></td><td>{pill(r["state"])}</td>'
         f'<td>{E(r["description"])}</td><td class="small muted">{E(PLAT_LABEL.get(r["platform"], r["platform"]))}</td></tr>'
-        for r in NOT_OK)
+        for r in NOT_OK[:BOARD_CAP])
+    board_more = (f'<p class="small muted">Showing the {min(BOARD_CAP, len(NOT_OK))} worst of '
+                  f'{len(NOT_OK):,} vendors currently not fully operational. '
+                  f'<a href="{SITE}/vendors.html">Current state of all {N_MAP:,} mapped vendors →</a> '
+                  f'(or take the whole board as <a href="{SITE}/api/snapshot.json">snapshot.json</a>).</p>'
+                  if len(NOT_OK) > BOARD_CAP else "")
     top = sorted(((s, n) for s, n in vend30.items() if s in by_slug),
                  key=lambda kv: -kv[1])[:15]
     _shown = [s for s, _ in top if s in CENSORED_30]
@@ -357,21 +374,10 @@ def render_index():
 <div class="card"><h3>Hosted watch</h3><div class="price">{E(HOSTED_PRICE)}</div>
 <p>No repo to own. Pick your vendors, paste one Slack, Discord, Teams or generic webhook URL at checkout, and our poller watches them every 5 minutes for 12 months. Same alerts, same living map, plus a private 12-month incident history page for your list.</p>
 <p class="small muted">One-time payment, no auto-renewal. 14-day refund, no questions. Sold through Gumroad; alerts start within 24 hours of purchase.</p>
-<a class="btn" href="{E(HOSTED)}">Get the hosted watch — {E(HOSTED_PRICE)}</a></div>""" if HOSTED else f"""
-<div class="card"><h3>Hosted watch <span class="small muted">— opening soon</span></h3><div class="price">{E(HOSTED_PRICE)}</div>
-<p>No repo, no Actions, no YAML. You send us your vendor slugs and one webhook URL; we run the poller every 5 minutes for 12 months and keep a private incident history for your list.</p>
-<ul class="small"><li>Up to 25 vendors, one webhook (Slack, Discord, Teams or plain JSON)</li>
-<li>Same alert rules as the free template — including <b>“cannot see this vendor”</b> instead of a false green</li>
-<li>One-time payment, no auto-renewal, no card on file</li>
-<li>14-day refund, no questions — and a pro-rata refund if alerts fail for 7 days through our fault (<a href="{SITE}/legal.html">terms</a>)</li></ul>
-<p class="note small"><b>Not on sale yet, on purpose.</b> The scheduled runner behind it is not live, and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Two ways to be told when it opens, pick either: leave your email with Gumroad (they hold the address, we write only when this opens or the map changes materially, unsubscribe from any message), or open a GitHub issue — we reply on it and GitHub emails you.</p>
-<form class="capture" action="{FOLLOW_ENDPOINT}" method="post">
-<input type="hidden" name="seller_id" value="{GUM_SELLER_ID}">
-<label for="hosted-email">Email me when the hosted watch opens</label>
-<div class="capture-row"><input id="hosted-email" type="email" name="email" required placeholder="you@company.com" autocomplete="email">
-<button class="btn" type="submit">Email me when it opens</button></div>
-<p class="capture-note">Gumroad holds the address, not this site. Unsubscribe from any message.</p></form>
-<a class="btn ghost" href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Or open an issue instead</a></div>"""
+<a class="btn" href="{E(HOSTED)}">Get the hosted watch — {E(HOSTED_PRICE)}</a></div>""" if HOSTED else ""
+    # c201: the "opening soon" hosted card is gone from the pricing grid — an offer a
+    # visitor cannot buy sitting next to two they can reads as a broken storefront. Its
+    # email capture and issue link moved into `waitlist`, below the offers.
     digest = f"""
 <div class="card"><h3>Daily digest</h3><div class="price">{E(DIGEST_PRICE)}</div>
 <p>No repo, no Actions, no account. Paste one Slack, Discord, Teams or JSON webhook and up to 25 vendor names at checkout; every 24 hours, after the poll that rebuilds this board, one message lists which of your vendors had incidents opened, updated or resolved, which are still degraded, and which we <b>cannot see</b>. Quiet days get a one-line “all quiet” so silence never means broken.</p>
@@ -393,6 +399,23 @@ across {DUR_STATS["measured"]:,} incidents that carry both, the median runs
 <div class="cta"><a class="btn" href="{SITE}/outage-duration.html">See the {DUR_STATS["ranked"]:,}-vendor resolution-time table</a></div>
 <p class="small muted">Vendor-posted timestamps only; maintenance windows, still-open incidents and
 inferred resolutions are excluded rather than estimated. Method and exclusion counts are on that page.</p></section>"""
+    waitlist = f"""
+<div class="card" style="max-width:640px"><h3>Not ready to buy, or want a hosted watch?</h3>
+<p>A fully hosted watch (we run the poller, you run nothing) is not on sale yet, on purpose: the scheduled runner behind it is not live and we will not take {E(HOSTED_PRICE)} for a watch we cannot yet run. Leave an address and we write when it opens or when the map changes materially — nothing else, unsubscribe from any message.</p>
+<form class="capture" action="{FOLLOW_ENDPOINT}" method="post">
+<input type="hidden" name="seller_id" value="{GUM_SELLER_ID}">
+<label for="hosted-email">Email me when the hosted watch opens</label>
+<div class="capture-row"><input id="hosted-email" type="email" name="email" required placeholder="you@company.com" autocomplete="email">
+<button class="btn" type="submit">Email me when it opens</button></div>
+<p class="capture-note">Gumroad holds the address, not this site. Unsubscribe from any message.</p></form>
+<p class="small muted">Prefer no email at all? <a href="{REPO}/issues/new?title=Hosted%20watch%20%E2%80%94%20tell%20me%20when%20it%20opens&amp;body=Vendors%20I%27d%20want%20watched%20(slugs%20or%20names)%3A%0A%0AWebhook%20type%20(Slack%2FDiscord%2FTeams%2Fother)%3A%0A%0AAnything%20the%20free%20template%20does%20not%20do%20for%20you%3A%0A">Open a GitHub issue</a> and we reply there, or mail the maintainer through the repo.</p></div>"""
+    board_section = f"""
+<section id="board"><h2>Live board — {len(NOT_OK):,} vendors not fully operational</h2>
+<p class="muted">Sorted worst first. "Maintenance" means a scheduled window is in progress. Everything green ({N_PARSED - len(NOT_OK):,} vendors) is omitted; {N_POLLED - N_PARSED:,} vendors answered with an error and are shown as unknown on their own pages, never as OK.</p>
+<div class="tw"><table><thead><tr><th>Vendor</th><th>State</th><th>What the vendor says</th><th>Platform</th></tr></thead><tbody>{board_rows}</tbody></table></div>
+{board_more}
+{trend}{bars}
+</section>"""
     body = f"""
 <section>
 <h1>SaaS outage alerts in your Slack — self-hosted, open data, $0.</h1>
@@ -411,11 +434,6 @@ function load(){{if(ld)return;ld=true;fetch('{SITE}/api/snapshot.json').then(fun
 q.addEventListener('focus',load);q.addEventListener('input',function(){{load();show()}})}})();</script>
 </section>
 
-<section id="board"><h2>Live board — {len(NOT_OK):,} vendors not fully operational</h2>
-<p class="muted">Sorted worst first. "Maintenance" means a scheduled window is in progress. Everything green ({N_PARSED - len(NOT_OK):,} vendors) is omitted; {N_POLLED - N_PARSED:,} vendors answered with an error and are shown as unknown on their own pages, never as OK.</p>
-<div class="tw"><table><thead><tr><th>Vendor</th><th>State</th><th>What the vendor says</th><th>Platform</th></tr></thead><tbody>{board_rows}</tbody></table></div>
-{trend}{bars}
-</section>
 {dur_teaser}
 
 <section id="template"><h2>Free: one line in your own GitHub Actions</h2>
@@ -454,7 +472,9 @@ q.addEventListener('focus',load);q.addEventListener('input',function(){{load();s
 
 <section><h2>Stay in the loop without buying anything</h2>
 <p>Subscribe to the <a href="{SITE}/feed.xml">all-vendors RSS feed</a> (every incident, every vendor), or to a single vendor's feed from its page. Wrong entry, missing vendor, a status page we mis-classified? <a href="{REPO}/issues">Open an issue</a> — the map is regenerated daily and fixes ship with it.</p>
+{waitlist}
 </section>
+{board_section}
 """
     ld = {"@context": "https://schema.org", "@type": "Dataset", "name": "Vendor Status Watch — SaaS status-page incident history",
           "description": f"Incident history for {N_SUP} SaaS vendors' public status pages, polled daily; {N_INC} incidents on record.",
@@ -985,6 +1005,7 @@ def sync_readme():
 def main():
     global DUR_STATS
     os.makedirs(OUT, exist_ok=True)
+    write("site.css", CSS)             # c201: linked, not inlined — see CSS_INLINE
     DUR_STATS = render_duration()      # before render_index: the index teaser reads it
     render_index()
     for v in vendors["vendors"]:

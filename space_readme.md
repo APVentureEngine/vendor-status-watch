@@ -22,7 +22,7 @@ tags:
   - daily-updated
 ---
 
-# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,737 incidents on record
+# Vendor Status Watch — 1,127 SaaS status pages mapped, 14,738 incidents on record
 
 **[Open the live board →](https://approjects-vendor-status-watch.static.hf.space/)** · rebuilt 2026-09-06 at 15:32 UTC
 
@@ -30,8 +30,8 @@ tags:
 |---|---|
 | **1,127** | vendor status pages mapped |
 | **805** | of them with a machine-readable feed we poll |
-| **14,737** | real incidents on record (651 vendors back-filled from source) |
-| **2,138** | incidents opened in the last 30 days, across 401 vendors |
+| **14,738** | real incidents on record (651 vendors back-filled from source) |
+| **2,109** | incidents opened in the last 30 days, across 399 vendors |
 
 Most "is X down?" pages are a guess from crowd reports. This is not: every row
 comes from the vendor's own public status feed, re-probed on a daily timer, and
@@ -107,20 +107,20 @@ One webhook message every 24 h naming which of *your* (up to 25) vendors had inc
 | [Visma status history](https://approjects-vendor-status-watch.static.hf.space/v/visma.html) | ≥ 50 | 50 |
 | [Flyio status history](https://approjects-vendor-status-watch.static.hf.space/v/flyio.html) | ≥ 50 | 50 |
 | [Liveramp status history](https://approjects-vendor-status-watch.static.hf.space/v/liveramp.html) | 49 | 50 |
-| [Circle status history](https://approjects-vendor-status-watch.static.hf.space/v/circle.html) | 49 | 50 |
 | [Ledger status history](https://approjects-vendor-status-watch.static.hf.space/v/ledger.html) | 49 | 50 |
 | [IONOS status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos.html) | 47 | 51 |
+| [Circle status history](https://approjects-vendor-status-watch.static.hf.space/v/circle.html) | 47 | 50 |
 | [Cisco Systems status history](https://approjects-vendor-status-watch.static.hf.space/v/cisco-systems.html) | 45 | 51 |
 | [Coinbase Prime status history](https://approjects-vendor-status-watch.static.hf.space/v/coinbase-prime.html) | 43 | 50 |
 | [IPVanish status history](https://approjects-vendor-status-watch.static.hf.space/v/ipvanish.html) | 40 | 51 |
 | [Ionos Cloud status history](https://approjects-vendor-status-watch.static.hf.space/v/ionos-cloud.html) | 38 | 51 |
-| [HeroCoders status history](https://approjects-vendor-status-watch.static.hf.space/v/herocoders.html) | 37 | 50 |
-| [Expo status history](https://approjects-vendor-status-watch.static.hf.space/v/expo.html) | 35 | 53 |
 | [Whatnot status history](https://approjects-vendor-status-watch.static.hf.space/v/whatnot.html) | 35 | 51 |
 | [Voximplant status history](https://approjects-vendor-status-watch.static.hf.space/v/voximplant.html) | 35 | 50 |
-| [Temporal status history](https://approjects-vendor-status-watch.static.hf.space/v/temporal.html) | 34 | 50 |
-| [Vercel status history](https://approjects-vendor-status-watch.static.hf.space/v/vercel.html) | 33 | 51 |
+| [Expo status history](https://approjects-vendor-status-watch.static.hf.space/v/expo.html) | 34 | 53 |
 | [MeridianLink status history](https://approjects-vendor-status-watch.static.hf.space/v/meridianlink.html) | 33 | 52 |
+| [Temporal status history](https://approjects-vendor-status-watch.static.hf.space/v/temporal.html) | 33 | 50 |
+| [HeroCoders status history](https://approjects-vendor-status-watch.static.hf.space/v/herocoders.html) | 33 | 50 |
+| [Radware Cloud Waf status history](https://approjects-vendor-status-watch.static.hf.space/v/radware-cloud-waf.html) | 32 | 54 |
 
 Ranked on incidents each vendor opened on its own status page in the last 90
 days — a busy status page means a *communicative* vendor as often as an unreliable
