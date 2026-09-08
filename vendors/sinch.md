@@ -1,11 +1,11 @@
 # Sinch outage history — every incident their status page has posted
 
-**52 Sinch incidents on record** spanning **2026-07-19** to **2026-09-04**. Status page:
+**54 Sinch incidents on record** spanning **2026-07-19** to **2026-09-08**. Status page:
 [https://status.sinch.com](https://status.sinch.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 50 incidents where Sinch posted both a start and a resolve time.
+Median incident length: **2.5 h** across 52 incidents where Sinch posted both a start and a resolve time.
 
 This page republishes what Sinch posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Delivery Issue Mexico - AT&T](https://stspg.io/r9tk1b8h85wd) | minor | 74 min |
+| 2026-09-07 | [Delivery Issue - Romania](https://stspg.io/rw9qnn5nxlnb) | minor | 17.9 h |
 | 2026-09-04 | [Campaigns Application Maintenance](https://stspg.io/xrrmdkn2bdvt) | maintenance | — |
 | 2026-09-04 | [External Maintenance - United States - T-Mobile](https://stspg.io/hr7hr04p6ssh) | maintenance | — |
 | 2026-09-04 | [Service Degradation - Conversation API WhatsApp - BR](https://stspg.io/s51b7pk2qcdr) | minor | 3.0 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-27 | [Service Degradation - Verification - Okta integration](https://stspg.io/rbxbf8cjjm37) | minor | 113 min |
 | 2026-08-26 | [Service Degradation - Customer Dashboard](https://stspg.io/bl5lg0b294nl) | minor | 12.3 h |
 | 2026-08-26 | [Sinch Engage - WhatsApp Campaigns - Degradation](https://stspg.io/y5tmc5gn3xbd) | minor | 96 min |
-| 2026-08-25 | [Delivery Issue Germany - 1&1](https://stspg.io/l85dmkdg6q2z) | minor | 3.5 h |
-| 2026-08-24 | [US1 & US7 - Site Degradation](https://stspg.io/7bb25kb0xdx9) | minor | 2.7 h |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/sinch.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sinch.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **50** have a usable length. Excluded:
+Of 54 recorded incidents, **52** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

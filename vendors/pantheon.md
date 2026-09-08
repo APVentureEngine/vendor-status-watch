@@ -2,7 +2,7 @@
 
 **50 Pantheon incidents on record** spanning **2025-09-05** to **2026-09-03**. Status page:
 [https://status.pantheon.io](https://status.pantheon.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.8 h** across 49 incidents where Pantheon posted both a start and a resolve time.

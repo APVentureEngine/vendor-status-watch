@@ -2,7 +2,7 @@
 
 **41 Voyado incidents on record** spanning **2025-08-10** to **2026-09-04**. Status page:
 [https://status.voyado.com](https://status.voyado.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.6 h** across 41 incidents where Voyado posted both a start and a resolve time.

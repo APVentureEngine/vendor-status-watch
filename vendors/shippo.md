@@ -2,7 +2,7 @@
 
 **55 Shippo incidents on record** spanning **2026-06-26** to **2026-09-06**. Status page:
 [https://status.goshippo.com](https://status.goshippo.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 54 incidents where Shippo posted both a start and a resolve time.

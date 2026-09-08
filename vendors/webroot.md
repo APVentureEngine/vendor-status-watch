@@ -2,7 +2,7 @@
 
 **55 Webroot incidents on record** spanning **2026-05-21** to **2026-09-07**. Status page:
 [https://status.webroot.com](https://status.webroot.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **3.9 h** across 50 incidents where Webroot posted both a start and a resolve time.

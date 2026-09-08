@@ -1,11 +1,11 @@
 # Finalsite outage history — every incident their status page has posted
 
-**49 Finalsite incidents on record** spanning **2025-08-04** to **2026-09-01**. Status page:
+**48 Finalsite incidents on record** spanning **2025-08-04** to **2026-09-01**. Status page:
 [https://status.finalsite.com](https://status.finalsite.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **21.1 h** across 48 incidents where Finalsite posted both a start and a resolve time.
+Median incident length: **21.2 h** across 47 incidents where Finalsite posted both a start and a resolve time.
 
 This page republishes what Finalsite posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-27 | [Issue with Composer sites](https://stspg.io/mp1pk83k0w97) | minor | 6.1 h |
 | 2026-02-22 | [Mass Notification/Messages XRE: Message Creation Not Working for a Subset of Clients](https://stspg.io/vv2ccq04180m) | major | 116 min |
 
-Newest 15 of 49. Full machine-readable history:
+Newest 15 of 48. Full machine-readable history:
 [`history/finalsite.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/finalsite.json).
 
 ## What is counted, and what is not
 
-Of 49 recorded incidents, **48** have a usable length. Excluded:
+Of 48 recorded incidents, **47** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

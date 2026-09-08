@@ -2,7 +2,7 @@
 
 **44 ZoomInfo incidents on record** spanning **2025-08-06** to **2026-09-04**. Status page:
 [https://status.zoominfo.com](https://status.zoominfo.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **90 min** across 44 incidents where ZoomInfo posted both a start and a resolve time.

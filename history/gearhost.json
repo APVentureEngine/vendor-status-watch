@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -88,7 +92,7 @@
 "body": "We know many customers have been dealing with an unacceptable increase in spam, including repeated scam messages from changing senders and subject lines. We want you to know this issue has our full attention, and we have been actively deploying new protections designed specifically to respond to the more aggressive and fast-changing spam campaigns we are seeing today.\n\nWe have now introduced a new adaptive spam learning system, custom built by GearHost to improve how unwanted email is identified and filtered over time. This system is designed to become more accurate as it learns from real-world mailbox activity, helping us better separate legitimate messages from junk, even when spam patterns shift quickly.\n\nHow you can help train the system:\n\n1. If you receive spam in your inbox, please use the \"Move to Junk\" option in SmarterMail.\n2. If you find a legitimate email in your Junk folder, please mark it as \"Not Junk.\"\n\nThese actions directly help train the filtering system. As more messages are correctly classified, the system improves its ability to automatically make the right decision in the future. In short, the more it learns, the better it gets.\n\nAt this time, the new spam learning system is currently enabled on the encke.gearhost.com mail server. Customers who would like to take advantage of these enhanced protections now can be moved to this server free of charge. We do not expect any issues with this move, and our team can assist with the process as needed.\n\nThis is part of our broader commitment to delivering secure, reliable, business-ready hosting and email services. We continue to invest in smarter protection, better filtering intelligence, and a stronger overall customer experience across the GearHost platform.\n\nIf you continue to experience unusual spam activity, false positives, or any other email filtering issues, please let our support team know. Customer reports remain incredibly valuable and help us continue refining the system.\n\nWe appreciate your patience while we improve this experience, and we will continue sharing updates as we expand these protections further.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "started_at": "2026-04-27T12:23:24.225-06:00",
 "state": "monitoring",
 "title": "Enhanced Adaptive Spam Protection for GearHost Email",
@@ -96,7 +100,7 @@
 "url": "https://stspg.io/cm0gr4n1vbwg"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "Partially Degraded Service",
 "last_error": null,
 "last_state": "degraded",

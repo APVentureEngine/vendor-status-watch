@@ -2,7 +2,7 @@
 
 **3 Platform9 incidents on record** spanning **2025-09-28** to **2026-07-24**. Status page:
 [https://status.platform9.com](https://status.platform9.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **3** Platform9 incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

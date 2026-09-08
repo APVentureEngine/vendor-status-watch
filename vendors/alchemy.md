@@ -2,7 +2,7 @@
 
 **52 Alchemy incidents on record** spanning **2026-07-10** to **2026-09-04**. Status page:
 [https://status.alchemy.com](https://status.alchemy.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **72 min** across 52 incidents where Alchemy posted both a start and a resolve time.

@@ -1,11 +1,11 @@
 # Practice Fusion outage history — every incident their status page has posted
 
-**45 Practice Fusion incidents on record** spanning **2025-08-04** to **2026-08-19**. Status page:
+**44 Practice Fusion incidents on record** spanning **2025-08-05** to **2026-08-19**. Status page:
 [https://status.practicefusion.com](https://status.practicefusion.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **82 min** across 45 incidents where Practice Fusion posted both a start and a resolve time.
+Median incident length: **85 min** across 44 incidents where Practice Fusion posted both a start and a resolve time.
 
 This page republishes what Practice Fusion posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-17 | [The EHR is temporarily offline for emergency maintenance](https://stspg.io/92fztz6kh90q) | major | 24 min |
 | 2026-03-09 | [Some users may experience degraded performance or slowness while using Practice Fusion Billing Software](https://stspg.io/0m238zsfbtvg) | minor | 2.8 h |
 
-Newest 15 of 45. Full machine-readable history:
+Newest 15 of 44. Full machine-readable history:
 [`history/practice-fusion.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/practice-fusion.json).
 
 ## What is counted, and what is not
 
-Of 45 recorded incidents, **45** have a usable length. Excluded:
+Of 44 recorded incidents, **44** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

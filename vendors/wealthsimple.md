@@ -2,7 +2,7 @@
 
 **45 Wealthsimple incidents on record** spanning **2025-08-05** to **2026-09-03**. Status page:
 [https://status.wealthsimple.com](https://status.wealthsimple.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.0 h** across 45 incidents where Wealthsimple posted both a start and a resolve time.

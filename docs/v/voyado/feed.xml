@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Voyado incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/voyado.html</link><description>Incidents from Voyado's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>Voyado - Microsoft 365 (business) delay in delivery [resolved]</title><link>https://stspg.io/4k06y6vmt3fk</link><guid isPermaLink="false">voyado:2026-09-04T14:39:53.000+02:00</guid><pubDate>Fri, 04 Sep 2026 12:39:53 +0000</pubDate><description>The email delivery issues affecting Microsoft Exchange Online on Friday have been resolved later that evening. Microsoft identified the cause as an incorrectly triggered anti-spam throttling rule, and they have confirmed that delivery has returned to normal levels.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Voyado incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/voyado.html</link><description>Incidents from Voyado's public status page, polled daily.</description><lastBuildDate>Tue, 08 Sep 2026 12:29:58 +0000</lastBuildDate><item><title>Voyado - Microsoft 365 (business) delay in delivery [resolved]</title><link>https://stspg.io/4k06y6vmt3fk</link><guid isPermaLink="false">voyado:2026-09-04T14:39:53.000+02:00</guid><pubDate>Fri, 04 Sep 2026 12:39:53 +0000</pubDate><description>The email delivery issues affecting Microsoft Exchange Online on Friday have been resolved later that evening. Microsoft identified the cause as an incorrectly triggered anti-spam throttling rule, and they have confirmed that delivery has returned to normal levels.
 
 Emails affected during the incident may have remained in “Unknown” status in Engage until Microsoft processed the queued messages.
 More information is available in the Microsoft 365 Service Health portal under incident EX1467029.
@@ -25,15 +25,19 @@ The following features were affected:
 
 No customer data was lost, modified, or exposed as a result of the incident.
 
-## **</description></item><item><title>Engage - email sending issues [resolved]</title><link>https://stspg.io/qhc90ryrt8q1</link><guid isPermaLink="false">voyado:2026-08-21T12:41:40.102+02:00</guid><pubDate>Fri, 21 Aug 2026 10:41:40 +0000</pubDate><description>The issue affecting email sending has been resolved. During the monitoring period, we have seen no indications of the issue recurring.
+## **</description></item><item><title>Engage - email sending issues [postmortem]</title><link>https://stspg.io/qhc90ryrt8q1</link><guid isPermaLink="false">voyado:2026-08-21T12:41:40.102+02:00</guid><pubDate>Fri, 21 Aug 2026 10:41:40 +0000</pubDate><description>## Summary
 
-The disruption affected some email sendouts for a subset of customers between approximately 19:30 on Thursday and 17:30 on Friday. For affected sendouts, some emails were sent successfully, while a percentage were not sent due to the issue.
+Between the late evening of Thursday 20 August and approximately 17:15 CEST on Friday 21 August 2026, a subset of emails sent from Voyado Engage were not delivered to recipients.
 
-The delivery information shown in Engage is correct. Emails with an unknown delivery status were not delivered and will not be resent automatically.
+This was not a complete sending outage. Within affected sendouts, some emails were delivered as expected while others were not sent.
 
-We will conduct a post-mortem to further investigate the incident and determine the underlying root cause.
+The issue occurred when batches of emails were passed from Voyado Engage to our email delivery provider. As no error was recorded, the issue was not detected by our automated monitoring and took longer than expected to identify.
 
-We apologize for the inconvenience caused.</description></item><item><title>[Engage] - Shopify App Service Disruption [resolved]</title><link>https://stspg.io/gg50r6vk67cw</link><guid isPermaLink="false">voyado:2026-07-13T13:00:04.454+02:00</guid><pubDate>Mon, 13 Jul 2026 11:00:04 +0000</pubDate><description>The Shopify App has been operating normally, and the service has remained stable.
+The issue was mitigated on Friday afternoon and has not recurred since.
+
+## Customer impact
+
+Affected customers may have seen some recipients in sendouts or automations reported with an **unknown delivery status**. Emails with this status durin</description></item><item><title>[Engage] - Shopify App Service Disruption [resolved]</title><link>https://stspg.io/gg50r6vk67cw</link><guid isPermaLink="false">voyado:2026-07-13T13:00:04.454+02:00</guid><pubDate>Mon, 13 Jul 2026 11:00:04 +0000</pubDate><description>The Shopify App has been operating normally, and the service has remained stable.
 
 Additional information has been shared directly with the customers affected by the incident.</description></item><item><title>[Elevate] Partial outage of the Elevate Application [resolved]</title><link>https://stspg.io/zxc0v0wgqphv</link><guid isPermaLink="false">voyado:2026-07-10T13:00:03.000+02:00</guid><pubDate>Fri, 10 Jul 2026 11:00:03 +0000</pubDate><description>The 3rd party provider has resolved the issue.</description></item><item><title>[Engage] Degraded API performance [postmortem]</title><link>https://stspg.io/2wjc2t0cngm2</link><guid isPermaLink="false">voyado:2026-07-07T15:29:42.722+02:00</guid><pubDate>Tue, 07 Jul 2026 13:29:42 +0000</pubDate><description>## Summary
 

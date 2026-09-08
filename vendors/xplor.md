@@ -2,8 +2,8 @@
 
 **6 Xplor incidents on record** spanning **2025-10-03** to **2026-07-07**. Status page:
 [https://status.spotpos.com](https://status.spotpos.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`degraded`**.
 
 Only **6** Xplor incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 

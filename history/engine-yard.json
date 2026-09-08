@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -88,7 +92,7 @@
 "body": "The incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2025-08-29T02:48:33.164Z",
 "resolved_inferred": false,
 "started_at": "2025-08-28T03:15:09.502Z",
@@ -97,24 +101,11 @@
 "updated_at": "2025-08-29T02:48:33.461Z",
 "url": "https://stspg.io/w3b7n3t9whqx"
 },
-"c2yx8mf2w4dk": {
-"body": "Corrective actions were applied and the login to EngineYard Cloud should once again properly work.",
-"first_seen": "2026-09-04T07:06:16Z",
-"impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
-"resolved_at": "2025-08-04T11:12:50.844Z",
-"resolved_inferred": false,
-"started_at": "2025-08-04T09:23:46.257Z",
-"state": "resolved",
-"title": "EngineYard Cloud login not working",
-"updated_at": "2025-08-04T11:12:51.216Z",
-"url": "https://stspg.io/k225g9nsdj68"
-},
 "lfljmz76g8vx": {
 "body": "AWS has confirmed that the outage in the US-EAST-1 region has now been resolved, and all services are operational.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2025-10-20T23:11:17.977Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:38:23.825Z",
@@ -124,7 +115,7 @@
 "url": "https://stspg.io/5lkcbjkzktb0"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

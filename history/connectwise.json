@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -87,7 +91,7 @@
 "69a6a1aef71ca90595aa313f": {
 "body": "The backend performance issue affecting support case submissions in the Axcient portal has been fully resolved. Partners can now submit new product support cases through the portal without interruption. Support response times have returned to normal, and all services are operating as expected.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "started_at": "2026-03-03T08:54:00.000Z",
 "state": "investigating",
 "title": "Support Case Submissions Currently Unavailable in Axcient Portal",
@@ -107,7 +111,7 @@
 "url": "https://status.connectwise.com"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "Operational",
 "last_error": null,
 "last_state": "ok",

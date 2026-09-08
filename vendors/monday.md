@@ -2,7 +2,7 @@
 
 **51 Monday incidents on record** spanning **2025-08-04** to **2026-09-05**. Status page:
 [https://status.monday.com](https://status.monday.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **57 min** across 51 incidents where Monday posted both a start and a resolve time.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-05 | [Planned mainatance](https://stspg.io/cq5s0g4fk3br) | critical | 2.1 h |
+| 2026-09-05 | [Planned Mainatance - August 5](https://stspg.io/cq5s0g4fk3br) | critical | 2.1 h |
 | 2026-08-12 | [Issues with creating sub-items and linked items](https://stspg.io/lyfj4mkxr6qs) | minor | 4 min |
 | 2026-07-24 | [Delay in Automations](https://stspg.io/gdnxbcyly66w) | none | 0 min |
 | 2026-07-23 | [Issues with  automations and workflows degraded performance](https://stspg.io/1cqzlcm1742h) | minor | 66 min |

@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -88,7 +92,7 @@
 "body": "The issue affecting the Investigation tab in US-hosted IRONSCALES environments has been fully resolved. \nA partial data gap of approximately 2.5 hours occurred during the disruption period. \nCore email protection services, including inspection and mitigation, remained fully operational and unaffected throughout the incident. \nSystem functionality is now stable, and no further impact is expected.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2025-08-31T08:30:54.211-04:00",
 "resolved_inferred": false,
 "started_at": "2025-08-28T10:43:32.175-04:00",
@@ -101,7 +105,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-03-01T14:44:24.229-05:00",
 "resolved_inferred": false,
 "started_at": "2026-03-01T08:29:41.893-05:00",
@@ -114,7 +118,7 @@
 "body": "This incident has been fully resolved. \nNo impact on processing, analysis, or remediation of the emails was encountered during this incident.\nIRONSCALES is updating its internal procedures to prevent similar issues in the future.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-05-13T08:24:03.248-04:00",
 "resolved_inferred": false,
 "started_at": "2026-05-13T06:15:43.551-04:00",
@@ -124,7 +128,7 @@
 "url": "https://stspg.io/k4ndjmgvj754"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

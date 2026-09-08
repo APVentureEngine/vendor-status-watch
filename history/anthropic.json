@@ -75,6 +75,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:16:22Z",
@@ -731,10 +735,10 @@
 "url": "https://stspg.io/dw9p8s0wg6hh"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
-"last_description": "All Systems Operational",
-"last_error": null,
-"last_state": "ok",
+"last_checked": "2026-09-08T12:29:58Z",
+"last_description": "unknown",
+"last_error": "http 0",
+"last_state": "unknown",
 "platform": "statuspage",
 "slug": "anthropic",
 "status_url": "https://status.anthropic.com",

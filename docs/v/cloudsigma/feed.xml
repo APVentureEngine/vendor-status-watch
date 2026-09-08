@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cloudsigma incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/cloudsigma.html</link><description>Incidents from Cloudsigma's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>[GVA] Inaccessible PaaS Panel [investigating]</title><link>https://stspg.io/np91yrb5tv28</link><guid isPermaLink="false">cloudsigma:2026-09-04T04:39:52.219Z</guid><pubDate>Fri, 04 Sep 2026 04:39:52 +0000</pubDate><description>CloudSigma would like to inform you that we are currently experiencing an issue affecting the PaaS platform in our Geneva cloud location.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Cloudsigma incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/cloudsigma.html</link><description>Incidents from Cloudsigma's public status page, polled daily.</description><lastBuildDate>Tue, 08 Sep 2026 12:29:58 +0000</lastBuildDate><item><title>[MNL2] Hardware Maintenance [maintenance]</title><link>https://stspg.io/qlzytfchdlfn</link><guid isPermaLink="false">cloudsigma:2026-09-08T12:00:00.000Z</guid><pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>[ZRH][GVA] Network Issue [monitoring]</title><link>https://stspg.io/wr3ynq42lwq2</link><guid isPermaLink="false">cloudsigma:2026-09-08T06:45:49.613Z</guid><pubDate>Tue, 08 Sep 2026 06:45:49 +0000</pubDate><description>CloudSigma would like to inform you that the network issue affecting the clouds has been addressed. Operations is monitoring the situation to ensure there are no further occurrences.
+
+We apologise for the inconvenience caused.</description></item><item><title>[ZRH][GVA] Network outage [resolved]</title><link>https://stspg.io/8f2jh6m2s3ll</link><guid isPermaLink="false">cloudsigma:2026-09-07T14:11:06.211Z</guid><pubDate>Mon, 07 Sep 2026 14:11:06 +0000</pubDate><description>Dear Valued Customers, 
+
+We would like to inform you that the issues encountered in the Zurich cloud have been resolved. 
+
+All services in the cloud infrastructure have been restored to normal operations. 
+
+If you encounter any issues with your service, please let us know right away.
+
+A detailed RCA of the incident will be distributed to all affected clients in the next 24 hours.
+
+Please accept our sincere apologies for the inconvenience caused.</description></item><item><title>[GVA] Inaccessible PaaS Panel [investigating]</title><link>https://stspg.io/np91yrb5tv28</link><guid isPermaLink="false">cloudsigma:2026-09-04T04:39:52.219Z</guid><pubDate>Fri, 04 Sep 2026 04:39:52 +0000</pubDate><description>CloudSigma would like to inform you that we are currently experiencing an issue affecting the PaaS platform in our Geneva cloud location.
 
 The PaaS panel in the WebApp is currently inaccessible. Our Operations team is actively working to restore PaaS availability, and we will provide further updates as soon as more information becomes available.
 
@@ -52,8 +64,4 @@ We apologize for any inconvenience and appreciate your patience.</description></
 
 We apologize for any inconvenience and appreciate your patience.</description></item><item><title>[RUH] Degraded API Performance [resolved]</title><link>https://stspg.io/8knm8y67c086</link><guid isPermaLink="false">cloudsigma:2026-03-20T13:02:17.667Z</guid><pubDate>Fri, 20 Mar 2026 13:02:17 +0000</pubDate><description>CloudSigma would like to inform you that the issue with the reachability of our compute hosts in the Riyadh DC location has been fixed. 
 
-Please accept our apologies for the inconvenience caused!</description></item><item><title>[MTY] Network Issues [resolved]</title><link>https://stspg.io/rxhskfbxdhpb</link><guid isPermaLink="false">cloudsigma:2026-03-16T23:34:39.771Z</guid><pubDate>Mon, 16 Mar 2026 23:34:39 +0000</pubDate><description>CloudSigma would like to inform you that the issue affecting our Monterey location has been fully resolved. Network redundancy has been restored. 
-
-We apologize for any inconvenience and appreciate your patience.</description></item><item><title>[MTY] Inaccessible PaaS Panels [resolved]</title><link>https://stspg.io/gwmj9bk9nf4v</link><guid isPermaLink="false">cloudsigma:2026-03-16T11:51:53.768Z</guid><pubDate>Mon, 16 Mar 2026 11:51:53 +0000</pubDate><description>CloudSigma would like to inform you that the issue affecting the PaaS User Panel in our Monterrey cloud has been resolved. The PaaS infrastructure is now operating normally and the panel should be accessible as expected.
-
-Our team monitored the situation after applying the fix and no further issues were observed. If you continue to experience any problems, please let us know.</description></item><item><title>[MNL] API Degraded Performance [resolved]</title><link>https://stspg.io/z326bw0lpl7l</link><guid isPermaLink="false">cloudsigma:2026-03-07T12:41:07.171Z</guid><pubDate>Sat, 07 Mar 2026 12:41:07 +0000</pubDate><description>CloudSigma would like to inform you that all issues related to the API have been addressed, and the WebApp should now be functioning as expected. We have been monitoring the situation and the issue has not reappeared.</description></item></channel></rss>
+Please accept our apologies for the inconvenience caused!</description></item></channel></rss>

@@ -1,11 +1,11 @@
 # Voximplant outage history — every incident their status page has posted
 
-**51 Voximplant incidents on record** spanning **2026-04-20** to **2026-09-06**. Status page:
+**52 Voximplant incidents on record** spanning **2026-04-20** to **2026-09-07**. Status page:
 [https://status.voximplant.com](https://status.voximplant.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **94 min** across 41 incidents where Voximplant posted both a start and a resolve time.
+Median incident length: **87 min** across 42 incidents where Voximplant posted both a start and a resolve time.
 
 This page republishes what Voximplant posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Outage: SMS](https://stspg.io/0fv8d7fw3663) | major | 22 min |
 | 2026-09-06 | [Сбой: PSTN connectivity - inbound, PSTN connectivity - outbound](https://stspg.io/g6pnxk0n0fmc) | major | 94 min |
 | 2026-09-03 | [В настоящий момент наблюдаются проблемы с исходящими звонками в регионе РФ.](https://stspg.io/cqnxh9dhlk4c) | major | 45 min |
 | 2026-09-01 | [Maintenance: Update of messaging, integration, and campaign services in Region BR.](https://stspg.io/sb0b8889qfw2) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-26 | [Техническое обслуживание: Панель управления (Платформа)](https://stspg.io/2snvznygsr21) | maintenance | — |
 | 2026-08-25 | [Техническое обслуживание: Запланированы работы на узле связи в Новосибирске.](https://stspg.io/hx8g26pwcfck) | maintenance | — |
 | 2026-08-25 | [Техническое обслуживание: Панель управления (Платформа)](https://stspg.io/00fq8f5ltkvd) | maintenance | — |
-| 2026-08-20 | [Degradation: Control panel (Kit)](https://stspg.io/fmpv2bnft499) | minor | 111 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/voximplant.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/voximplant.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **41** have a usable length. Excluded:
+Of 52 recorded incidents, **42** have a usable length. Excluded:
 10 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

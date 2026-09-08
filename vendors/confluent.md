@@ -1,9 +1,9 @@
 # Confluent outage history — every incident their status page has posted
 
-**50 Confluent incidents on record** spanning **2025-09-27** to **2026-09-01**. Status page:
+**51 Confluent incidents on record** spanning **2025-09-27** to **2026-09-08**. Status page:
 [https://status.confluent.cloud](https://status.confluent.cloud) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`partial`**.
 
 Median incident length: **4.5 h** across 49 incidents where Confluent posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Experiencing Outage in AWS us-east-1](https://stspg.io/kqjcc6c3r8qf) | minor | — |
 | 2026-09-01 | [Investigating Elevated Errors in GCP us-central1](https://stspg.io/t0syqzdkvc44) | minor | 47 min |
 | 2026-08-25 | [Elevated error rates and latencies in Azure Southeast Asia region](https://stspg.io/5wt8kn9m95tj) | major | 3.2 h |
 | 2026-08-23 | [Confluent Cloud logging degradation - Connect and Flink](https://stspg.io/1vjp6vl24zps) | none | 0 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-21 | [Kafka cluster performance degradation for Basic and Standard clusters in AWS US-East-2](https://stspg.io/bnqhx8chtf8g) | minor | 2.1 h |
 | 2026-06-16 | [Intermittent Produce/Consume Unavailability in Azure Dedicated clusters](https://stspg.io/3tp074wtdz16) | minor | 116 min |
 | 2026-06-12 | [Confluent Cloud — Degraded inter-region connectivity — AWS us-west-2](https://stspg.io/h0jlmdjmj2pj) | minor | 4.2 h |
-| 2026-05-29 | [Elevated error rates and latencies in Azure westus2 region](https://stspg.io/78q7jr24kqbp) | major | 15.8 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/confluent.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/confluent.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

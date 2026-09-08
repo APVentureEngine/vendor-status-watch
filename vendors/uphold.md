@@ -2,7 +2,7 @@
 
 **25 Uphold incidents on record** spanning **2025-08-21** to **2026-07-23**. Status page:
 [https://status.uphold.com](https://status.uphold.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 25 incidents where Uphold posted both a start and a resolve time.

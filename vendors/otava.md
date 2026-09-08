@@ -1,8 +1,8 @@
 # Otava outage history — every incident their status page has posted
 
-**44 Otava incidents on record** spanning **2025-08-08** to **2026-08-12**. Status page:
+**45 Otava incidents on record** spanning **2025-08-08** to **2026-09-07**. Status page:
 [https://status.otava.com](https://status.otava.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.9 days** across 44 incidents where Otava posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Mid-Michigan (MM1) - Internet Connectivity Degradation - 9/7/2026](https://stspg.io/6qqs4vm3vy0k) | minor | — |
 | 2026-08-12 | [Mid-Michigan (MM1) OTAVA® Data Center Networking Infrastructure Major Service Disruption – 08/12/2026](https://stspg.io/byw360jrlh07) | none | 24.4 h |
 | 2026-08-03 | [Ashburn (AB1) Router loss of redundancy  - 07/30/2026](https://stspg.io/twqgq1g2k6tx) | none | 9.3 days |
 | 2026-07-26 | [Indianapolis (IN1) Management Connectivity Issues on GEN3 DRaaS powered by Veeam - 7/26/2026](https://stspg.io/h2tc380pz05k) | major | 2.1 days |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-29 | [Denver (DEN2) - Otava® Cloud Infrastructure - Compute IOM - 06/29/2025](https://stspg.io/s8nsjmr1gscm) | minor | 6.9 days |
 | 2026-06-24 | [Ashburn (VA4) to Austin (AU1) - Loss of Redundancy - 06/24/2026](https://stspg.io/dsxsclc4g8ty) | none | 2.1 days |
 | 2026-06-24 | [Ann Arbor (AA2) Internet connection loss of redundancy - 06/24/2026](https://stspg.io/62jfjyps9kht) | none | 2.3 days |
-| 2026-06-10 | [Austin (AU1) to Las Vegas (NV1) Transport Circuit lost of redundancy  - 06/10/2026](https://stspg.io/dyyw88vxmt50) | none | 5.1 days |
 
-Newest 15 of 44. Full machine-readable history:
+Newest 15 of 45. Full machine-readable history:
 [`history/otava.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/otava.json).
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **44** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 45 recorded incidents, **44** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

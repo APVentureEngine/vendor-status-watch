@@ -2,7 +2,7 @@
 
 **50 Circle incidents on record** spanning **2026-06-08** to **2026-09-02**. Status page:
 [https://status.circle.com](https://status.circle.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **2.2 h** across 50 incidents where Circle posted both a start and a resolve time.

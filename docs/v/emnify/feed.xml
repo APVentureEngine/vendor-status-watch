@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emnify incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/emnify.html</link><description>Incidents from Emnify's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>Service Degradation - OpenVPN Connections and Portal Access [resolved]</title><link>https://stspg.io/8fq8l5bq2493</link><guid isPermaLink="false">emnify:2026-08-01T09:56:04.773Z</guid><pubDate>Sat, 01 Aug 2026 09:56:04 +0000</pubDate><description>Dear emnify Customers,
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emnify incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/emnify.html</link><description>Incidents from Emnify's public status page, polled daily.</description><lastBuildDate>Tue, 08 Sep 2026 12:29:58 +0000</lastBuildDate><item><title>Service degradation with data connectivity [resolved]</title><link>https://stspg.io/r2vwbsnq5s74</link><guid isPermaLink="false">emnify:2026-09-07T12:52:13.038Z</guid><pubDate>Mon, 07 Sep 2026 12:52:13 +0000</pubDate><description>Dear emnify Customers,
+
+This incident has been resolved, and we can confirm a steady recovery after close monitoring. 
+
+In case you are still having issues, please reach out to our Support Team via our Help Center.
+
+Kind regards, 
+emnify Support Team</description></item><item><title>Service Degradation - OpenVPN Connections and Portal Access [resolved]</title><link>https://stspg.io/8fq8l5bq2493</link><guid isPermaLink="false">emnify:2026-08-01T09:56:04.773Z</guid><pubDate>Sat, 01 Aug 2026 09:56:04 +0000</pubDate><description>Dear emnify Customers,
 
 The incident has been resolved. In case you are still having issues, please reach out to our Support Team via our Help Center.
 
@@ -143,4 +150,4 @@ Earlier today, we observed a temporary degradation in the SMS services. Upon inv
 
 All SMS services are now fully operational as of writing.</description></item><item><title>Degradation in processing of portal/data streamer events and device usage statistics [resolved]</title><link>https://stspg.io/bpzj50sgf1mn</link><guid isPermaLink="false">emnify:2026-03-04T21:24:41.509Z</guid><pubDate>Wed, 04 Mar 2026 21:24:41 +0000</pubDate><description>This incident has been resolved and all data has been successfully backfilled. 
 
-If you continue to experience any issues, please contact our Customer Support team via the help center.</description></item><item><title>Portal Service Degradation [resolved]</title><link>https://stspg.io/zxqvbqt8p1gb</link><guid isPermaLink="false">emnify:2026-02-17T08:39:51.833Z</guid><pubDate>Tue, 17 Feb 2026 08:39:51 +0000</pubDate><description>This incident has been resolved.</description></item></channel></rss>
+If you continue to experience any issues, please contact our Customer Support team via the help center.</description></item></channel></rss>

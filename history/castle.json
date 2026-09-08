@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -88,7 +92,7 @@
 "body": "We experienced an elevated number of errors returned by our API. Our team resolved the issue, and the API is operating normally. We apologize for any inconvenience caused.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-07-31T17:04:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-07-31T16:55:00.000Z",
@@ -101,7 +105,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-05-08T16:41:00.831Z",
 "resolved_inferred": false,
 "started_at": "2026-05-08T04:31:52.717Z",
@@ -110,11 +114,24 @@
 "updated_at": "2026-05-08T16:41:00.849Z",
 "url": "https://stspg.io/ml5svqjjxmb3"
 },
+"b0dc9vmvgn0v": {
+"body": "This incident has been resolved.",
+"first_seen": "2026-09-08T12:29:58Z",
+"impact": "critical",
+"last_seen": "2026-09-08T12:29:58Z",
+"resolved_at": "2026-09-07T13:23:30.000Z",
+"resolved_inferred": false,
+"started_at": "2026-09-07T13:11:05.000Z",
+"state": "resolved",
+"title": "Risk & Filter API Outage",
+"updated_at": "2026-09-07T13:52:20.779Z",
+"url": "https://stspg.io/11hrdxqnl377"
+},
 "hh03vdwg6z2j": {
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-01-22T23:01:59.706Z",
 "resolved_inferred": false,
 "started_at": "2026-01-22T23:01:59.652Z",
@@ -127,7 +144,7 @@
 "body": "We experienced an issue with downsizing one of our underlying nodes that affected the 25% of our traffic.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-03-17T09:56:21.150Z",
 "resolved_inferred": false,
 "started_at": "2026-03-17T09:56:21.098Z",
@@ -137,7 +154,7 @@
 "url": "https://stspg.io/hz9zsp7h31yg"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

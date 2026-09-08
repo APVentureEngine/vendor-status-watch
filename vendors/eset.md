@@ -1,8 +1,8 @@
 # ESET outage history — every incident their status page has posted
 
-**36 ESET incidents on record** spanning **2025-08-13** to **2026-09-07**. Status page:
+**37 ESET incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
 [https://status.eset.com](https://status.eset.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **10.2 h** across 33 incidents where ESET posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [[ESET Secure Authentication] planned maintenance](https://stspg.io/vm8m6vrsyfmn) | maintenance | — |
 | 2026-09-07 | [[ESET Secure Authentication] planned maintenance](https://stspg.io/82mdjkwpv0q8) | maintenance | — |
 | 2026-09-04 | [[ESET PROTECT] planned maintenance](https://stspg.io/0d1v61kyrk6w) | maintenance | — |
 | 2026-09-03 | [ESET PROTECT login failures and redirects](https://stspg.io/pym5sd67c04j) | major | 21.3 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-20 | [Live Installer may fail to run](https://stspg.io/8y8y1h31n8fk) | minor | 4.8 h |
 | 2026-03-13 | [Enrollment of Android devices in Device Owner mode fails](https://stspg.io/1q8g311mycbf) | minor | 6.7 h |
 | 2026-03-10 | [ESET PROTECT: degraded performance of the consoles hosted in EU](https://stspg.io/jqsc4670fltq) | major | 10.2 h |
-| 2026-03-06 | [ESET LiveGrid intermittent connectivity issues](https://stspg.io/pb4mnyp5ltrr) | minor | 2.8 days |
 
-Newest 15 of 36. Full machine-readable history:
+Newest 15 of 37. Full machine-readable history:
 [`history/eset.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/eset.json).
 
 ## What is counted, and what is not
 
-Of 36 recorded incidents, **33** have a usable length. Excluded:
-2 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 37 recorded incidents, **33** have a usable length. Excluded:
+3 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -2,7 +2,7 @@
 
 **29 Rivery incidents on record** spanning **2025-08-04** to **2026-08-06**. Status page:
 [https://status.rivery.io](https://status.rivery.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 29 incidents where Rivery posted both a start and a resolve time.

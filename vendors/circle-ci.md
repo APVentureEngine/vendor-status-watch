@@ -2,7 +2,7 @@
 
 **51 Circle CI incidents on record** spanning **2026-02-26** to **2026-09-04**. Status page:
 [https://status.circleci.com](https://status.circleci.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **78 min** across 51 incidents where Circle CI posted both a start and a resolve time.

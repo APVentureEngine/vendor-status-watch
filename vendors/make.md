@@ -2,7 +2,7 @@
 
 **50 Make incidents on record** spanning **2025-10-22** to **2026-09-02**. Status page:
 [https://status.make.com](https://status.make.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.0 h** across 50 incidents where Make posted both a start and a resolve time.

@@ -1,8 +1,8 @@
 # Plusserver outage history — every incident their status page has posted
 
-**22 Plusserver incidents on record** spanning **2025-08-15** to **2026-09-04**. Status page:
+**23 Plusserver incidents on record** spanning **2025-08-15** to **2026-09-07**. Status page:
 [https://status.plusserver.com](https://status.plusserver.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`maintenance`**.
 
 Only **18** Plusserver incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Backbone Infrastructure Maintenance Notice - Wartungsankündigung Backbone-Infrastruktur Hamburg](https://stspg.io/bvh2sdn464lm) | maintenance | — |
 | 2026-09-04 | [Upgrade new product version - Upgrade neue Produkt Version](https://stspg.io/v94yccjfs1w6) | maintenance | — |
 | 2026-08-31 | [Veeam Backup Software – Lizenz-/Subscription-Problem](https://stspg.io/q7hp62wcdp7s) | none | — |
 | 2026-07-17 | [API plusserver Kubernetes Engine Region prod3 [DE-NORTH-2]](https://stspg.io/lbkmjxmwp96s) | none | 78 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-08 | [CloudHub malfunction - CloudHub gestört](https://stspg.io/vrq1075ycmt3) | critical | 6.8 h |
 | 2025-12-05 | [CloudHub malfunction - Störung CloudHub](https://stspg.io/1wt16qn98g5z) | none | 80 min |
 | 2025-11-25 | [Error message docs.plusserver.com - Störmeldung docs.plusserver.com](https://stspg.io/tb98mfbb2cpj) | critical | 13.9 days |
-| 2025-11-14 | [Phishing Email Alert - Warnung vor Phishing-E-Mails](https://stspg.io/rk8s1w5ng6px) | none | 2.1 h |
 
-Newest 15 of 22. Full machine-readable history:
+Newest 15 of 23. Full machine-readable history:
 [`history/plusserver.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/plusserver.json).
 
 ## What is counted, and what is not
 
-Of 22 recorded incidents, **18** have a usable length. Excluded:
-3 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 23 recorded incidents, **18** have a usable length. Excluded:
+4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

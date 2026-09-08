@@ -2,7 +2,7 @@
 
 **42 Logz incidents on record** spanning **2025-08-25** to **2026-08-21**. Status page:
 [https://status.logz.io](https://status.logz.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **63 min** across 42 incidents where Logz posted both a start and a resolve time.

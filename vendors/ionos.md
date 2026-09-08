@@ -1,11 +1,11 @@
 # IONOS outage history — every incident their status page has posted
 
-**53 IONOS incidents on record** spanning **2026-05-22** to **2026-09-07**. Status page:
+**56 IONOS incidents on record** spanning **2026-05-22** to **2026-09-08**. Status page:
 [https://www.ionos-status.de](https://www.ionos-status.de) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.1 h** across 51 incidents where IONOS posted both a start and a resolve time.
+Median incident length: **2.1 h** across 54 incidents where IONOS posted both a start and a resolve time.
 
 This page republishes what IONOS posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Websites derzeit nicht erreichbar](https://stspg.io/3v1xv3zyytws) | minor | 24 min |
+| 2026-09-07 | [Technische Probleme in unseren E-Mail-Systemen](https://stspg.io/7l98z4059s5t) | minor | 3.5 h |
+| 2026-09-07 | [Technische Probleme in unseren E-Mail-Systemen](https://stspg.io/6sd67mtqpy3w) | minor | 119 min |
 | 2026-09-07 | [Probleme mit der Erreichbarkeit der Webseite](https://stspg.io/b0vt9cwfyf28) | minor | 18 min |
 | 2026-09-07 | [Eingeschränkte Funktionalität der Support Tools](https://stspg.io/82b9v4hwhd54) | minor | 54 min |
 | 2026-09-03 | [Störungsmeldung für MyWebsite Now](https://stspg.io/dyqdq7d9hw1y) | major | 33 min |
@@ -26,16 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-30 | [Eingeschränkte Funktionalität des Produkts VPS](https://stspg.io/wdsmm6jnk9sc) | minor | 77 min |
 | 2026-08-26 | [Einige Websites derzeit möglicherweise nicht erreichbar](https://stspg.io/ny3tb2jvqgdv) | minor | 62 min |
 | 2026-08-26 | [Eingeschränkte Funktionalität des Produkts Webmail](https://stspg.io/fxvrnk8c376g) | minor | 6.2 days |
-| 2026-08-21 | [Lange Wartezeiten bei unserem telefonischen Kundenservice](https://stspg.io/8hwcwp5vpd7r) | none | — |
-| 2026-08-21 | [Eingeschränkte Funktionalität des Produkts Cloud VPS](https://stspg.io/kfp62znww2gm) | minor | 7.2 h |
-| 2026-08-20 | [Störung bei Anmeldung ins Kundenkonto](https://stspg.io/7xs273f289zm) | major | 3.3 h |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 56. Full machine-readable history:
 [`history/ionos.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ionos.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **51** have a usable length. Excluded:
+Of 56 recorded incidents, **54** have a usable length. Excluded:
 1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

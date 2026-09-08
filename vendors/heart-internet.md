@@ -1,8 +1,8 @@
 # Heart Internet outage history — every incident their status page has posted
 
-**3 Heart Internet incidents on record** spanning **2026-09-03** to **2026-09-09**. Status page:
+**4 Heart Internet incidents on record** spanning **2026-09-03** to **2026-09-09**. Status page:
 [https://www.heartstatus.uk](https://www.heartstatus.uk) · platform:
-`betterstack` · last polled **2026-09-07 12:26 UTC**, last observed
+`betterstack` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 No Heart Internet incident carries both a vendor-posted start and resolve time, so no duration statistic is available.
@@ -15,16 +15,17 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-09 | [Essential Database Upgrade: Shared Clusters 33 & 35](https://www.heartstatus.uk) | maintenance | — |
+| 2026-09-08 | [Scheduled System Upgrade: MVPS348, MVPS363 & MVPS386](https://www.heartstatus.uk) | maintenance | — |
 | 2026-09-07 | [Scheduled System Upgrade: MVPS351 & MVPS387](https://www.heartstatus.uk) | maintenance | — |
 | 2026-09-03 | [Scheduled System Upgrade: KVMHOST224](https://www.heartstatus.uk) | maintenance | — |
 
-Newest 3 of 3. Full machine-readable history:
+Newest 4 of 4. Full machine-readable history:
 [`history/heart-internet.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/heart-internet.json).
 
 ## What is counted, and what is not
 
-Of 3 recorded incidents, **0** have a usable length. Excluded:
-3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 4 recorded incidents, **0** have a usable length. Excluded:
+4 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

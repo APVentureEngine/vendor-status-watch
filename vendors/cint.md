@@ -1,11 +1,11 @@
 # Cint outage history — every incident their status page has posted
 
-**14 Cint incidents on record** spanning **2025-08-28** to **2026-08-25**. Status page:
+**15 Cint incidents on record** spanning **2025-08-28** to **2026-09-08**. Status page:
 [https://status.cint.com](https://status.cint.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **14** Cint incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **15** Cint incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Cint posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Cint Platform Issue: Marketplace/Cint Exchange Degraded Respondent Experience](https://stspg.io/8190v13m4wtg) | none | 0 min |
 | 2026-08-25 | [Cint Platform Issue: Degradation of Email notification service](https://stspg.io/fklv11m2587s) | minor | 11.7 h |
 | 2026-08-18 | [Cint Platform Issue: Marketplace/Cint Exchange Degraded Respondent Experience](https://stspg.io/v5j1bw5yclgy) | none | 0 min |
 | 2026-07-02 | [Cint Platform Issue: Cint Exchange - Unable to load Projects](https://stspg.io/b6k872ckp73q) | minor | 9.6 h |
@@ -29,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-20 | [Cint Platform Issue: Degraded Performance](https://stspg.io/jptb01km5vcz) | critical | 38 min |
 | 2025-08-28 | [Cint Platform Issue: Degraded Performance of Marketplace UI and Marketplace API](https://stspg.io/xcn8kdxnn79j) | minor | 115 min |
 
-Newest 14 of 14. Full machine-readable history:
+Newest 15 of 15. Full machine-readable history:
 [`history/cint.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cint.json).
 
 ## What is counted, and what is not
 
-Of 14 recorded incidents, **14** have a usable length. Excluded:
+Of 15 recorded incidents, **15** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

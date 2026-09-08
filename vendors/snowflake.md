@@ -2,7 +2,7 @@
 
 **51 Snowflake incidents on record** spanning **2025-11-19** to **2026-09-04**. Status page:
 [https://status.snowflake.com](https://status.snowflake.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **2.0 h** across 50 incidents where Snowflake posted both a start and a resolve time.

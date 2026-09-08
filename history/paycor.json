@@ -79,6 +79,10 @@
 {
 "at": "2026-09-07T12:26:33Z",
 "state": "ok"
+},
+{
+"at": "2026-09-08T12:29:58Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -88,7 +92,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-03-02T13:03:18.033-05:00",
 "resolved_inferred": false,
 "started_at": "2026-03-02T10:19:55.831-05:00",
@@ -101,7 +105,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2025-10-10T09:27:47.617-04:00",
 "resolved_inferred": false,
 "started_at": "2025-10-09T15:56:59.817-04:00",
@@ -114,7 +118,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-06-30T12:51:52.850-04:00",
 "resolved_inferred": false,
 "started_at": "2026-06-30T11:25:52.654-04:00",
@@ -127,7 +131,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-01-02T18:44:38.777-05:00",
 "resolved_inferred": false,
 "started_at": "2026-01-02T14:06:37.316-05:00",
@@ -140,7 +144,7 @@
 "body": "This incident is resolved and all transferred hires are appearing in the New Hire bucket in Onboarding.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-06-26T11:42:59.225-04:00",
 "resolved_inferred": false,
 "started_at": "2026-06-25T14:14:55.787-04:00",
@@ -153,7 +157,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2026-05-15T19:18:25.464-04:00",
 "resolved_inferred": false,
 "started_at": "2026-05-15T12:13:12.478-04:00",
@@ -166,7 +170,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-07T12:26:33Z",
+"last_seen": "2026-09-08T12:29:58Z",
 "resolved_at": "2025-12-04T02:03:01.835-05:00",
 "resolved_inferred": false,
 "started_at": "2025-12-03T09:46:37.962-05:00",
@@ -176,7 +180,7 @@
 "url": "https://stspg.io/gy90rsj8djqb"
 }
 },
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

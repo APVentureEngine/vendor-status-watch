@@ -1,11 +1,11 @@
 # Granicus outage history — every incident their status page has posted
 
-**51 Granicus incidents on record** spanning **2026-06-09** to **2026-09-04**. Status page:
+**52 Granicus incidents on record** spanning **2026-06-09** to **2026-09-07**. Status page:
 [https://status.granicusops.com](https://status.granicusops.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.3 h** across 51 incidents where Granicus posted both a start and a resolve time.
+Median incident length: **4.0 h** across 52 incidents where Granicus posted both a start and a resolve time.
 
 This page republishes what Granicus posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Granicus Issue Notification: govMeetings IQM2](https://stspg.io/dljmtlywkcrt) | major | 3.0 h |
 | 2026-09-04 | [Granicus Issue Notification: govService Firmstep](https://stspg.io/mc1t71l4f2yr) | minor | 4.7 h |
 | 2026-09-03 | [Granicus Issue Notification: govMeetings MediaManager - Platform Outage](https://stspg.io/vrqtwxszv2w1) | major | 5.9 h |
 | 2026-09-03 | [EngagementHQ Project Search Issues - Canada Region](https://stspg.io/qzhzft47nwvd) | minor | 22.8 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-22 | [Granicus Issue Notification: govMeetings Platform Degradation](https://stspg.io/cqgk89f27vkx) | major | 4.3 h |
 | 2026-08-20 | [Granicus Issue Notification: Issue affecting Swagit SoundSearch](https://stspg.io/60dffbvzrphc) | minor | 4.3 h |
 | 2026-08-19 | [Granicus Issue Notification: GovService - GovQA Duplicate Message History Entries](https://stspg.io/0l42q744sr79) | minor | 2.4 h |
-| 2026-08-19 | [Granicus Issue Notification: GovService - GovQA Checkbox Fields Not Saving](https://stspg.io/h3dlh8jhq4pd) | minor | 17.2 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/granicus.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/granicus.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Blend outage history — every incident their status page has posted
 
-**28 Blend incidents on record** spanning **2025-08-21** to **2026-09-04**. Status page:
+**29 Blend incidents on record** spanning **2025-08-21** to **2026-09-07**. Status page:
 [https://status.blend.com](https://status.blend.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **5.6 h** across 28 incidents where Blend posted both a start and a resolve time.
+Median incident length: **5.4 h** across 29 incidents where Blend posted both a start and a resolve time.
 
 This page republishes what Blend posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Blend External API](https://stspg.io/s9qgp4vqfpsc) | major | 3.0 h |
 | 2026-09-04 | [Connectivity Disruption between TotalExpert and Blend](https://stspg.io/w30brbclyd7h) | minor | 15.2 h |
 | 2026-08-13 | [Closings flowing from Encompass to Blend via EPC and PDD](https://stspg.io/szl7w2ny8mc2) | minor | 5.8 h |
 | 2026-08-10 | [Encompass Disclosure Delivery Errors](https://stspg.io/zcym9y3n26xc) | minor | 18.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-13 | [Pipeline View Search Functionality](https://stspg.io/xr0n2ls281rc) | none | 34 min |
 | 2026-04-24 | [Encompass (ICE) Degraded Performance](https://stspg.io/ttrdxsvzk05r) | minor | 21.4 h |
 | 2026-04-09 | [502 Error When Accessing Blend Beta Environments](https://stspg.io/sfhf0zc2c24k) | major | 3.7 h |
-| 2026-04-08 | [Ticket Delivery Delays](https://stspg.io/19mp96ymphk6) | none | 21.3 h |
 
-Newest 15 of 28. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/blend.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/blend.json).
 
 ## What is counted, and what is not
 
-Of 28 recorded incidents, **28** have a usable length. Excluded:
+Of 29 recorded incidents, **29** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

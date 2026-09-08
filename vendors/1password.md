@@ -2,7 +2,7 @@
 
 **44 1Password incidents on record** spanning **2025-08-05** to **2026-07-22**. Status page:
 [https://status.1password.com](https://status.1password.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **112 min** across 43 incidents where 1Password posted both a start and a resolve time.

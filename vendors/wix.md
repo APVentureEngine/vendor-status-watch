@@ -1,11 +1,11 @@
 # Wix outage history — every incident their status page has posted
 
-**46 Wix incidents on record** spanning **2025-08-06** to **2026-09-01**. Status page:
+**47 Wix incidents on record** spanning **2025-08-06** to **2026-09-07**. Status page:
 [https://status.wix.com](https://status.wix.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **75 min** across 45 incidents where Wix posted both a start and a resolve time.
+Median incident length: **78 min** across 46 incidents where Wix posted both a start and a resolve time.
 
 This page republishes what Wix posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [RESOLVED: Some Elements not Appearing on Wix Harmony Live Sites](https://stspg.io/jyhncq07n3mt) | minor | 6.8 h |
 | 2026-09-01 | [RESOLVED: SMS Delivery Delays on Twilio Side](https://stspg.io/x81bbt7j96gv) | minor | 5.7 h |
 | 2026-08-19 | [RESOLVED: Wix Sites Loading Slow in Some Regions](https://stspg.io/jht87c3lrf7p) | minor | 88 min |
 | 2026-08-12 | [RESOLVED: Issues opening Wix Editors and dashboards](https://stspg.io/ydvmr99dskgp) | minor | 25 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-23 | [RESOLVED: Issues with Stores Product Catalog](https://stspg.io/rcl8vmcd539r) | critical | 40 min |
 | 2026-06-10 | [RESOLVED: Issues Accessing Live Sites](https://stspg.io/gdxknwtgmj9q) | major | 23 min |
 | 2026-05-11 | [RESOLVED: Wix Sites Are Loading Slow or Not Loading for Some Visitors](https://stspg.io/wjmv3xx9dcv1) | minor | 5.8 h |
-| 2026-05-07 | [RESOLVED: Some Users Have Issues with Saving/Publishing Sites](https://stspg.io/4vdwlrshj24d) | minor | 10.2 h |
 
-Newest 15 of 46. Full machine-readable history:
+Newest 15 of 47. Full machine-readable history:
 [`history/wix.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/wix.json).
 
 ## What is counted, and what is not
 
-Of 46 recorded incidents, **45** have a usable length. Excluded:
+Of 47 recorded incidents, **46** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

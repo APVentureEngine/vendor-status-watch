@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Files incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/files.html</link><description>Incidents from Files's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>SFTP Login Failures for ed25519 key-based authentication only in all regions [postmortem]</title><link>https://stspg.io/k06cmc4qmt06</link><guid isPermaLink="false">files:2026-06-05T08:00:00.000-07:00</guid><pubDate>Fri, 05 Jun 2026 15:00:00 +0000</pubDate><description>Between 17:13 UTC on June 4, 2026 and 15:12 UTC on June 5, 2026, [Files.com](http://Files.com) customers using SFTP with ed25519 SSH key-based authentication experienced authentication failures. This incident was limited to SFTP connections using ed25519 public keys. All other authentication methods — including password-based SFTP authentication, RSA key authentication, and all other [Files.com](http://Files.com) protocols and services — continued to operate normally throughout this period.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Files incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/files.html</link><description>Incidents from Files's public status page, polled daily.</description><lastBuildDate>Tue, 08 Sep 2026 12:29:58 +0000</lastBuildDate><item><title>SFTP Login Failures for ed25519 key-based authentication only in all regions [postmortem]</title><link>https://stspg.io/k06cmc4qmt06</link><guid isPermaLink="false">files:2026-06-05T08:00:00.000-07:00</guid><pubDate>Fri, 05 Jun 2026 15:00:00 +0000</pubDate><description>Between 17:13 UTC on June 4, 2026 and 15:12 UTC on June 5, 2026, [Files.com](http://Files.com) customers using SFTP with ed25519 SSH key-based authentication experienced authentication failures. This incident was limited to SFTP connections using ed25519 public keys. All other authentication methods — including password-based SFTP authentication, RSA key authentication, and all other [Files.com](http://Files.com) protocols and services — continued to operate normally throughout this period.
 
 We deployed a change to our SFTP server infrastructure intended to improve host key handling, but it inadvertently broke the authentication path for clients using ed25519 public keys.
 
@@ -34,18 +34,4 @@ A code change in the [Files.com](http://Files.com) API control plane, intended t
 
 These errors were immediately generated and logged by</description></item><item><title>Outbound Connections to Sharepoint and OneDrive: Elevated Error Rates [resolved]</title><link>https://stspg.io/fnxl2k67l3kd</link><guid isPermaLink="false">files:2025-11-25T05:23:00.000-08:00</guid><pubDate>Tue, 25 Nov 2025 13:23:00 +0000</pubDate><description>We have resolved an issue which caused elevated error rates in outbound connections from Files.com to Sharepoint and OneDrive remote servers.  
 
-The impact was limited to these two remote server integrations and did not impact any inbound connections to Files.com that don’t involve Onedrive or SharePoint remote servers. This incident occurred between the times of 1:23PM and 2:58PM UTC.</description></item><item><title>Google Safe Browsing is falsely reporting the Files.com login page as a &quot;Dangerous Site&quot; if it is navigated to directly [postmortem]</title><link>https://stspg.io/y9vt2m7c8b59</link><guid isPermaLink="false">files:2025-08-04T05:28:32.000-07:00</guid><pubDate>Mon, 04 Aug 2025 12:28:32 +0000</pubDate><description>From 10:03 UTC to 19:02 UTC on August 4, 2025, some users attempting to sign in to [Files.com](http://Files.com) via URLs ending in /login \(e.g., [acme.files.com/login](http://acme.files.com/login)\) encountered a red warning stating “Deceptive site ahead.”
-
-This warning appeared in Chrome, Safari, Firefox, and other browsers that rely on Google Safe Browsing.
-
-Affected access paths included: 
-
-* Bookmarked links to /login 
-* Direct navigation to /login 
-* The &quot;Sign In&quot; button on our marketing website
-
-All other product surfaces—including APIs, desktop and CLI apps, agents, mobile apps, custom domains, and already-loaded web app sessions—remained fully functional and unaffected. 
-
-**Root Cause** 
-
-The Chrome, Safari, and Firefox browsers all use a service from Google called Google Safe Br</description></item></channel></rss>
+The impact was limited to these two remote server integrations and did not impact any inbound connections to Files.com that don’t involve Onedrive or SharePoint remote servers. This incident occurred between the times of 1:23PM and 2:58PM UTC.</description></item></channel></rss>

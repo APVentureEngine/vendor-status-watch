@@ -1,9 +1,9 @@
 # Intuit Developer outage history — every incident their status page has posted
 
-**30 Intuit Developer incidents on record** spanning **2025-08-05** to **2026-09-03**. Status page:
+**31 Intuit Developer incidents on record** spanning **2025-08-05** to **2026-09-08**. Status page:
 [https://intuitdevelopergroup.statuspage.io](https://intuitdevelopergroup.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **6.0 h** across 30 incidents where Intuit Developer posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Intermittent issue with sandbox company creation](https://stspg.io/g41xtt10jv79) | minor | — |
 | 2026-09-03 | [Intermittent issues with app connection flow](https://stspg.io/vdck2qphs1wm) | none | 78 min |
 | 2026-09-01 | [Major outage resulting in intermittent API timeout errors, sandbox company loading issues, and OAuth connection failures.](https://stspg.io/52f7k4sx3161) | major | 7.8 h |
 | 2026-07-26 | [Outage affecting multiple components.](https://stspg.io/rsx8llzswtm1) | minor | 73 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-08 | [Intermittent issues with app connections & API response](https://stspg.io/myvsm8n0l9j0) | minor | 6 min |
 | 2026-04-29 | [Intermittent timeout errors when accessing the QuickBooks Balance Sheet API.](https://stspg.io/05hrg9l5fnym) | none | 8.3 h |
 | 2026-03-02 | [Issue with applying taxes on the transactions created through API](https://stspg.io/9ywvqwxmvhrx) | none | 2.2 h |
-| 2026-02-10 | [There might be delay in displaying items created via API in the QuickBooks UI](https://stspg.io/cnb8nxqvbmhq) | none | 6.7 days |
 
-Newest 15 of 30. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/intuit-developer.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/intuit-developer.json).
 
 ## What is counted, and what is not
 
-Of 30 recorded incidents, **30** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 31 recorded incidents, **30** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

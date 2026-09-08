@@ -2,7 +2,7 @@
 
 **50 LaunchDarkly incidents on record** spanning **2026-02-06** to **2026-08-26**. Status page:
 [https://status.launchdarkly.com](https://status.launchdarkly.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **66 min** across 50 incidents where LaunchDarkly posted both a start and a resolve time.

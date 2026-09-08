@@ -2,7 +2,7 @@
 
 **21 Doctolib incidents on record** spanning **2025-12-05** to **2026-09-01**. Status page:
 [https://status.doctolib.com](https://status.doctolib.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **51 min** across 21 incidents where Doctolib posted both a start and a resolve time.

@@ -1,11 +1,11 @@
 # MxToolbox outage history — every incident their status page has posted
 
-**7 MxToolbox incidents on record** spanning **2025-08-04** to **2026-02-23**. Status page:
+**6 MxToolbox incidents on record** spanning **2025-09-11** to **2026-02-23**. Status page:
 [https://mxtoolbox.statuspage.io](https://mxtoolbox.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **7** MxToolbox incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **6** MxToolbox incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what MxToolbox posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -20,14 +20,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-20 | [MailFlow Monitoring Down / AWS Outage](https://stspg.io/xfqbqqpdf8l7) | critical | 3.0 days |
 | 2025-10-01 | [MailFlow Monitors Latency Issues](https://stspg.io/08hyshbdjgl8) | major | 6.0 h |
 | 2025-09-11 | [MxToolbox Outage 20250911](https://stspg.io/3qd1vh04n4c4) | major | 4.7 h |
-| 2025-08-04 | [MailFlow Down](https://stspg.io/1c451m8blq19) | critical | 3.4 h |
 
-Newest 7 of 7. Full machine-readable history:
+Newest 6 of 6. Full machine-readable history:
 [`history/mxtoolbox.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/mxtoolbox.json).
 
 ## What is counted, and what is not
 
-Of 7 recorded incidents, **7** have a usable length. Excluded:
+Of 6 recorded incidents, **6** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **51 Whatnot incidents on record** spanning **2026-04-09** to **2026-09-04**. Status page:
 [https://status.whatnot.com](https://status.whatnot.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **63 min** across 51 incidents where Whatnot posted both a start and a resolve time.

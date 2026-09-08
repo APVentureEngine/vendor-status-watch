@@ -2,7 +2,7 @@
 
 **51 KnowBe4 incidents on record** spanning **2025-12-11** to **2026-09-04**. Status page:
 [https://status.knowbe4.com](https://status.knowbe4.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.8 h** across 50 incidents where KnowBe4 posted both a start and a resolve time.

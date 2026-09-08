@@ -1,11 +1,11 @@
 # IBM Security outage history — every incident their status page has posted
 
-**50 IBM Security incidents on record** spanning **2025-08-13** to **2026-08-25**. Status page:
+**51 IBM Security incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
 [https://statuspage.ibmcloudsecurity.com](https://statuspage.ibmcloudsecurity.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **18.6 h** across 49 incidents where IBM Security posted both a start and a resolve time.
+Median incident length: **18.4 h** across 50 incidents where IBM Security posted both a start and a resolve time.
 
 This page republishes what IBM Security posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [IBM Verify (Japan Region) service impacting issue - now recovered.](https://stspg.io/lglk85ml9pt5) | none | 0 min |
 | 2026-08-25 | [IBM Verify (US Region Cluster C ) had brief service impact](https://stspg.io/8jqctdr6n4p1) | major | 6.0 h |
 | 2026-08-20 | [IBM Verify (Europe Region) experiencing service impacting issues.](https://stspg.io/4y5rh8hqlhm5) | major | 5.2 days |
 | 2026-08-11 | [IBM Security Verify (US Region) experiencing service impacting issues.](https://stspg.io/632k0gx6vvsc) | major | 61 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-24 | [IBM Security Verify (US Region)  service impacting issue](https://stspg.io/003vw7491904) | none | 113 min |
 | 2026-06-15 | [IBM Security Verify (US Region) experiencing service impacting issues.](https://stspg.io/jjd0mggmzwlw) | major | 45.5 h |
 | 2026-06-15 | [IBM Security Verify (US Region Cluster C ) experienced short service interruption](https://stspg.io/vl6f1f2fzkh4) | none | 0 min |
-| 2026-06-11 | [IBM Verify Canada - Brief interruptions occurred to traffic on vanity hostnames during planned maintenance activity.](https://stspg.io/bdtfvlprx51w) | minor | 0 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/ibm-security.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ibm-security.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

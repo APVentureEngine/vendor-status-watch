@@ -2,7 +2,7 @@
 
 **48 Pinecone incidents on record** spanning **2025-08-05** to **2026-09-01**. Status page:
 [https://status.pinecone.io](https://status.pinecone.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **76 min** across 48 incidents where Pinecone posted both a start and a resolve time.

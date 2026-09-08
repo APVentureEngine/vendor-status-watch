@@ -2,7 +2,7 @@
 
 **19 Wikimedia incidents on record** spanning **2025-09-11** to **2026-08-25**. Status page:
 [https://www.wikimediastatus.net](https://www.wikimediastatus.net) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **19** Wikimedia incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

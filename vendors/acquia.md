@@ -2,10 +2,10 @@
 
 **51 Acquia incidents on record** spanning **2025-10-28** to **2026-09-07**. Status page:
 [https://status.acquia.com](https://status.acquia.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.4 h** across 50 incidents where Acquia posted both a start and a resolve time.
+Median incident length: **3.4 h** across 51 incidents where Acquia posted both a start and a resolve time.
 
 This page republishes what Acquia posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-07 | [Intermittent Pipeline Job Start Failures](https://stspg.io/vrq02v36y56v) | minor | — |
+| 2026-09-07 | [Intermittent Pipeline Job Start Failures](https://stspg.io/vrq02v36y56v) | minor | 4.0 h |
 | 2026-09-03 | [Error rates for Acquia Task System](https://stspg.io/v80txq618pg9) | major | 3.0 h |
 | 2026-09-03 | [Multiple customers are currently affected by what appears to be an outage impacting the Site Studio endpoint](https://stspg.io/w32x9vnv014z) | critical | 10.6 h |
 | 2026-09-03 | [Degraded Performance - SearchStax Pulse Performance Graphs](https://stspg.io/jwrbw3j27l6w) | minor | 9.6 h |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

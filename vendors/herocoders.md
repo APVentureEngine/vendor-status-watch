@@ -2,7 +2,7 @@
 
 **50 HeroCoders incidents on record** spanning **2026-05-27** to **2026-08-29**. Status page:
 [https://status.herocoders.com](https://status.herocoders.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **10 min** across 49 incidents where HeroCoders posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **20 Zyte incidents on record** spanning **2025-08-10** to **2026-08-17**. Status page:
 [https://status.zyte.com](https://status.zyte.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **14.8 h** across 20 incidents where Zyte posted both a start and a resolve time.

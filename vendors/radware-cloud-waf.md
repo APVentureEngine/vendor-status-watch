@@ -1,11 +1,11 @@
 # Radware Cloud Waf outage history — every incident their status page has posted
 
-**54 Radware Cloud Waf incidents on record** spanning **2026-03-25** to **2026-09-06**. Status page:
+**56 Radware Cloud Waf incidents on record** spanning **2026-03-25** to **2026-09-08**. Status page:
 [https://cwaf.status.radwarecloud.com](https://cwaf.status.radwarecloud.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **101 min** across 49 incidents where Radware Cloud Waf posted both a start and a resolve time.
+Median incident length: **99 min** across 51 incidents where Radware Cloud Waf posted both a start and a resolve time.
 
 This page republishes what Radware Cloud Waf posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Radware CSMS Portal - Incident Notification](https://stspg.io/vtq3lr87rmt2) | none | 89 min |
+| 2026-09-07 | [Radware Cloud WAF Incident Notification](https://stspg.io/hdh0r7rpfl5z) | none | 52 min |
 | 2026-09-06 | [Radware Cloud WAF United Arab Emirates (Dubai) Maintenance Notification](https://stspg.io/s78h8msx9sck) | maintenance | — |
 | 2026-09-06 | [Radware Cloud WAF Middle East (Tel Aviv-4) Maintenance Notification](https://stspg.io/tkzc1zkpf55c) | maintenance | — |
 | 2026-09-04 | [Radware Cloud WAF Incident Notification - BOM PoP](https://stspg.io/spfpqr02sdl9) | none | 2.6 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-25 | [Radware Cloud WAF Incident Notification](https://stspg.io/rgpmhsdqh5xh) | minor | 45 min |
 | 2026-08-25 | [Radware Cloud WAF Incident Notification](https://stspg.io/09x79h26qzmg) | none | 53 min |
 | 2026-08-24 | [Radware Cloud WAF Lima (LIM) Incident Notification](https://stspg.io/mplr45jfm10c) | none | 92 min |
-| 2026-08-20 | [Radware Cloud WAF Incident Notification for Chennai (MAA) PoP](https://stspg.io/2312xm8rtw3f) | none | 113 min |
-| 2026-08-16 | [Radware Cloud WAF Incident Notification](https://stspg.io/sdjl2nsvk6dv) | none | 2.5 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 56. Full machine-readable history:
 [`history/radware-cloud-waf.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/radware-cloud-waf.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **49** have a usable length. Excluded:
+Of 56 recorded incidents, **51** have a usable length. Excluded:
 5 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

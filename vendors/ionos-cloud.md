@@ -2,10 +2,10 @@
 
 **51 Ionos Cloud incidents on record** spanning **2026-05-08** to **2026-09-04**. Status page:
 [https://status.ionos.cloud](https://status.ionos.cloud) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **21.7 h** across 48 incidents where Ionos Cloud posted both a start and a resolve time.
+Median incident length: **22.1 h** across 49 incidents where Ionos Cloud posted both a start and a resolve time.
 
 This page republishes what Ionos Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-04 | [Cloud Support: Limited Phone Support Availability](https://stspg.io/lj94bvfrkk8y) | minor | — |
+| 2026-09-04 | [Cloud Support: Limited Phone Support Availability](https://stspg.io/lj94bvfrkk8y) | minor | 3.6 days |
 | 2026-09-01 | [Partner Subcontracts can not access new location de/fra/1](https://stspg.io/wnv06cj6dsm0) | minor | 2.6 h |
 | 2026-08-31 | [DCD is Currently Unavailable](https://stspg.io/313v8jdt0dm8) | major | 88 min |
 | 2026-08-26 | [Object Storage - Increased latency in eu-central-1](https://stspg.io/5bfcrzmykmzl) | minor | 8.2 days |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **48** have a usable length. Excluded:
-0 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

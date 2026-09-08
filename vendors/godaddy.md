@@ -2,7 +2,7 @@
 
 **29 GoDaddy incidents on record** spanning **2026-07-07** to **2026-09-04**. Status page:
 [https://status.godaddy.com](https://status.godaddy.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **41 min** across 29 incidents where GoDaddy posted both a start and a resolve time.

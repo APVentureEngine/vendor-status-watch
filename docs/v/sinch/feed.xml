@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Mon, 07 Sep 2026 12:26:33 +0000</lastBuildDate><item><title>Campaigns Application Maintenance [maintenance]</title><link>https://stspg.io/xrrmdkn2bdvt</link><guid isPermaLink="false">sinch:2026-09-04T07:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 07:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>External Maintenance - United States - T-Mobile [maintenance]</title><link>https://stspg.io/hr7hr04p6ssh</link><guid isPermaLink="false">sinch:2026-09-04T03:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 03:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Service Degradation - Conversation API WhatsApp - BR [resolved]</title><link>https://stspg.io/s51b7pk2qcdr</link><guid isPermaLink="false">sinch:2026-09-04T02:07:06.607Z</guid><pubDate>Fri, 04 Sep 2026 02:07:06 +0000</pubDate><description>This incident has been resolved.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Tue, 08 Sep 2026 12:29:58 +0000</lastBuildDate><item><title>Delivery Issue Mexico - AT&amp;T [resolved]</title><link>https://stspg.io/r9tk1b8h85wd</link><guid isPermaLink="false">sinch:2026-09-08T00:21:59.549Z</guid><pubDate>Tue, 08 Sep 2026 00:21:59 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-09-07 23:56 UTC
+Incident End Time: 2026-09-08 00:58 UTC</description></item><item><title>Delivery Issue - Romania [resolved]</title><link>https://stspg.io/rw9qnn5nxlnb</link><guid isPermaLink="false">sinch:2026-09-07T15:12:06.143Z</guid><pubDate>Mon, 07 Sep 2026 15:12:06 +0000</pubDate><description>This incident has been resolved.
+
+Incident Start Time: 2026-09-07 14:17 UTC
+Incident End Time: 2026-09-08 07:52 UTC</description></item><item><title>Campaigns Application Maintenance [maintenance]</title><link>https://stspg.io/xrrmdkn2bdvt</link><guid isPermaLink="false">sinch:2026-09-04T07:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 07:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>External Maintenance - United States - T-Mobile [maintenance]</title><link>https://stspg.io/hr7hr04p6ssh</link><guid isPermaLink="false">sinch:2026-09-04T03:00:00.000Z</guid><pubDate>Fri, 04 Sep 2026 03:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Service Degradation - Conversation API WhatsApp - BR [resolved]</title><link>https://stspg.io/s51b7pk2qcdr</link><guid isPermaLink="false">sinch:2026-09-04T02:07:06.607Z</guid><pubDate>Fri, 04 Sep 2026 02:07:06 +0000</pubDate><description>This incident has been resolved.
 
 Incident Start Time: 2026-09-03 20:00 UTC
 Incident End Time: 2026-09-04 04:04 UTC</description></item><item><title>Interruption of Stats database [resolved]</title><link>https://stspg.io/zg9z093y8mqc</link><guid isPermaLink="false">sinch:2026-09-03T21:43:13.702Z</guid><pubDate>Thu, 03 Sep 2026 21:43:13 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Sinch Incident - FaxAPI [resolved]</title><link>https://stspg.io/v0km5x9zjsnp</link><guid isPermaLink="false">sinch:2026-09-02T13:55:45.480Z</guid><pubDate>Wed, 02 Sep 2026 13:55:45 +0000</pubDate><description>This incident has been resolved.
@@ -83,19 +89,4 @@ Incident Start Time: 2026-08-14 00:25 UTC
 Incident End Time: 2026-08-14 02:25 UTC</description></item><item><title>Service Degradation – Number Lookups – All Regions [resolved]</title><link>https://stspg.io/yzmd68ngm386</link><guid isPermaLink="false">sinch:2026-08-13T22:05:59.454Z</guid><pubDate>Thu, 13 Aug 2026 22:05:59 +0000</pubDate><description>Please be advised that we experienced a short service interruption with the Sinch Number Lookup API service. Requests received a 500 response to number lookup API requests. The incident is now resolved and impact times were 21:10 - 21:29. All services are now restored.
 
 We sincerely apologize for any inconvenience this may cause and appreciate your understanding as we close out this incident.
-For further information or assistance, please contact us at support@sinch.com.</description></item><item><title>Service Degradation - AU1 Site - Retroactive [resolved]</title><link>https://stspg.io/xcf2qyrdrl6t</link><guid isPermaLink="false">sinch:2026-08-13T10:14:00.000Z</guid><pubDate>Thu, 13 Aug 2026 10:14:00 +0000</pubDate><description>Dear client,
-
-We are writing to retroactively inform you that we experienced a temporary degradation on our AU1 Site.
-
-Incident Start Time: 2026-08-13 12:14 UTC
-Incident End Time: 2026-08-13 12:50 UTC
-
- Customers may have experienced short term connectivity issues, Missing/Delayed MTs/MOs during the incident period.
-
-If you have any questions, please contact support@sinch.com.</description></item><item><title>US1 &amp; US7 - Site Degradation [resolved]</title><link>https://stspg.io/y1xpgtmz1pdb</link><guid isPermaLink="false">sinch:2026-08-13T10:04:20.828Z</guid><pubDate>Thu, 13 Aug 2026 10:04:20 +0000</pubDate><description>This incident has been resolved.
-
-Incident Start Time: 2026-08-13 09:30 UTC
-
-Incident Restoration Time: 2026-08-13 10:12 UTC
-
-Incident End Time: 2026-08-13 10:30 UTC</description></item></channel></rss>
+For further information or assistance, please contact us at support@sinch.com.</description></item></channel></rss>

@@ -1,11 +1,11 @@
 # Bandwidth outage history — every incident their status page has posted
 
-**54 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-07**. Status page:
+**56 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-08**. Status page:
 [http://status.bandwidth.com](http://status.bandwidth.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`partial`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **2.8 h** across 53 incidents where Bandwidth posted both a start and a resolve time.
+Median incident length: **2.8 h** across 55 incidents where Bandwidth posted both a start and a resolve time.
 
 This page republishes what Bandwidth posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,9 +14,11 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Germany Datacenter Incident](https://stspg.io/fybfbqsx1h8b) | none | — |
+| 2026-09-07 | [Bandwidth Local Market Impairment - 636 - Fargo, ND](https://stspg.io/xxlfmxw79xz0) | critical | 2.3 h |
 | 2026-09-07 | [Bandwidth Local Market Impairment - 974 - Rochester, NY](https://stspg.io/q0g0j49bbkct) | none | 2.5 h |
 | 2026-09-07 | [Bandwidth Local Market Impairment - 240 - Frederick, MD](https://stspg.io/pdgk8gqhc6x7) | critical | 3.4 h |
-| 2026-09-06 | [Bandwidth Local Market Impairment - 973 - Palm Springs, CA](https://stspg.io/cd6pq0sxzj01) | critical | — |
+| 2026-09-06 | [Bandwidth Local Market Impairment - 973 - Palm Springs, CA](https://stspg.io/cd6pq0sxzj01) | critical | 10.8 h |
 | 2026-09-04 | [Bandwidth Local Market Impairment - 638 - Bismarck, ND](https://stspg.io/d971bhhzrp0p) | critical | 8.2 h |
 | 2026-09-03 | [STIR/SHAKEN Signing Incident](https://stspg.io/8kvjyj13kwwj) | none | 0 min |
 | 2026-09-03 | [Bandwidth Local Market Impairment - LATA 220 - Pleasantville, NJ](https://stspg.io/ydqdfhmz4tmb) | critical | 4.0 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [LAX Datacenter Incident](https://stspg.io/lnbr6rsnrhh7) | minor | 24.4 h |
 | 2026-09-02 | [MDR Generation Incident](https://stspg.io/jgwlc1h6jpnf) | minor | 2.6 h |
 | 2026-09-02 | [LATA 240 - Frederick, MD - CLEC Market Outage.](https://stspg.io/6lxhvzh0nnwg) | none | 5.1 h |
-| 2026-09-01 | [Outbound calling incident](https://stspg.io/5ld4414l48wd) | critical | 73 min |
-| 2026-09-01 | [Bandwidth International Market Impairment - Thailand](https://stspg.io/g5bwrvnd8dhk) | critical | 2.5 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 56. Full machine-readable history:
 [`history/bandwidth.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bandwidth.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **53** have a usable length. Excluded:
+Of 56 recorded incidents, **55** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

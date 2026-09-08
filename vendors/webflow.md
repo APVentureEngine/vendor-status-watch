@@ -2,7 +2,7 @@
 
 **43 Webflow incidents on record** spanning **2025-08-08** to **2026-08-25**. Status page:
 [https://status.webflow.com](https://status.webflow.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.4 h** across 43 incidents where Webflow posted both a start and a resolve time.

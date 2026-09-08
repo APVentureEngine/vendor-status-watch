@@ -1,9 +1,9 @@
 # TeamViewer outage history — every incident their status page has posted
 
-**25 TeamViewer incidents on record** spanning **2025-10-29** to **2026-08-27**. Status page:
+**26 TeamViewer incidents on record** spanning **2025-10-29** to **2026-09-08**. Status page:
 [https://status.teamviewer.com](https://status.teamviewer.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **63 min** across 25 incidents where TeamViewer posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [DEX Solutions 26.9 Upgrade \| CA Central 1](https://stspg.io/rsywlzz52wxz) | maintenance | — |
 | 2026-08-27 | [Major outage of TeamViewer services](https://stspg.io/qv0fvt50hfl7) | critical | 3 min |
 | 2026-08-17 | [Partial DNS Outage](https://stspg.io/pttpmp152yw5) | minor | 7.7 h |
 | 2026-07-17 | [DEX PLATFORM. Inventory Software pages not loading](https://stspg.io/qvnn4gk0n3kn) | major | 3.3 days |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-25 | [Issue with TeamViewer license validation](https://stspg.io/y2mcg06xrss1) | minor | 43 min |
 | 2026-03-10 | [High load on TeamViewer Services](https://stspg.io/yvwch79rzqvh) | critical | 40 min |
 | 2026-03-03 | [DEX Client Connectivity issues with West Europe 1](https://stspg.io/3bs80zxsynjj) | minor | 3.2 h |
-| 2026-02-13 | [TeamViewer services - degraded performance](https://stspg.io/m8cnkn6jf4jl) | minor | 95 min |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/teamviewer.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/teamviewer.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **25** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 26 recorded incidents, **25** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,11 +1,11 @@
 # Assembled outage history — every incident their status page has posted
 
-**33 Assembled incidents on record** spanning **2025-08-04** to **2026-08-31**. Status page:
+**34 Assembled incidents on record** spanning **2025-08-04** to **2026-09-08**. Status page:
 [https://status.assembled.com](https://status.assembled.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **30 min** across 33 incidents where Assembled posted both a start and a resolve time.
+Median incident length: **31 min** across 34 incidents where Assembled posted both a start and a resolve time.
 
 This page republishes what Assembled posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [[Reporting and Data Services] Delayed Metrics on Reporting Pages](https://stspg.io/cmr1v3nj7493) | minor | 2.7 h |
 | 2026-08-31 | [Temporarily degraded performance](https://stspg.io/38hlqbwjgbnh) | minor | 104 min |
 | 2026-08-21 | [All Salesforce Service Cloud authorizations have been invalidated](https://stspg.io/zwd7148spw4v) | none | 3.0 h |
 | 2026-07-22 | [Email autosends and other asynchronous jobs are experiencing problems](https://stspg.io/150x14lfhc39) | minor | 39 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-15 | [Assembled is experiencing site-wide issues](https://stspg.io/dvf5nxxksnpb) | critical | 8 min |
 | 2026-05-12 | [Assembled is experiencing site-wide issues](https://stspg.io/3mrxplr74h1x) | critical | 20 min |
 | 2026-05-07 | [Contact data not appearing in staffing timeline and reports](https://stspg.io/735l1fxp3wy4) | none | 0 min |
-| 2026-04-28 | [Temporarily degraded performance to proxied APIs in workflows](https://stspg.io/34ghxh2npjxq) | none | 14 min |
 
-Newest 15 of 33. Full machine-readable history:
+Newest 15 of 34. Full machine-readable history:
 [`history/assembled.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/assembled.json).
 
 ## What is counted, and what is not
 
-Of 33 recorded incidents, **33** have a usable length. Excluded:
+Of 34 recorded incidents, **34** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

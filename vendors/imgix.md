@@ -2,7 +2,7 @@
 
 **17 Imgix incidents on record** spanning **2025-09-17** to **2026-09-01**. Status page:
 [https://status.imgix.com](https://status.imgix.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **17** Imgix incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

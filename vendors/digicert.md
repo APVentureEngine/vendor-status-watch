@@ -1,11 +1,11 @@
 # DigiCert outage history — every incident their status page has posted
 
-**50 DigiCert incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
+**51 DigiCert incidents on record** spanning **2025-08-20** to **2026-09-08**. Status page:
 [https://status.digicert.com](https://status.digicert.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **107 min** across 49 incidents where DigiCert posted both a start and a resolve time.
+Median incident length: **103 min** across 50 incidents where DigiCert posted both a start and a resolve time.
 
 This page republishes what DigiCert posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [CertCentral: Payments through credit cards are intermittently failing at the payment gateway](https://stspg.io/h8qwb60213v5) | minor | 82 min |
 | 2026-09-04 | [DigiCert Support Email System Alert](https://stspg.io/3k64t6nf77zm) | major | 3.1 h |
 | 2026-08-19 | [DigiCert CertCentral Services](https://stspg.io/9m9wtcv9w7lf) | major | 19 min |
 | 2026-08-13 | [Digicert Alert - CertCentral EU Degraded Issuance](https://stspg.io/hpcx4vc51kbl) | minor | 69 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-19 | [DC1 NL Prod instance - Connectivity issues on the secondary network between DTM and DSE](https://stspg.io/35qrgdln5hzr) | minor | 5.5 h |
 | 2026-05-15 | [DigiCert Alert - DigiCert One TLM Manager is not reponsive](https://stspg.io/f5ywmprvm4z3) | major | 18 min |
 | 2026-05-11 | [DigiCert ONE Netherlands - Document Trust Manager](https://stspg.io/0w6blp39nznb) | major | 2.3 h |
-| 2026-05-11 | [DC1 NL instance STM Prod Customers encountering 500 errors while signing](https://stspg.io/gc1pgyw0hqlg) | major | 7.1 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/digicert.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/digicert.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

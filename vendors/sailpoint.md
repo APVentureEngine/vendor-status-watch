@@ -1,9 +1,9 @@
 # Sailpoint outage history — every incident their status page has posted
 
-**51 Sailpoint incidents on record** spanning **2025-11-03** to **2026-09-04**. Status page:
+**52 Sailpoint incidents on record** spanning **2025-11-03** to **2026-09-08**. Status page:
 [https://status.sailpoint.com](https://status.sailpoint.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **91 min** across 51 incidents where Sailpoint posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Identity Security Cloud is currently experiencing a service disruption](https://stspg.io/kbvp3zlx3qv9) | minor | — |
 | 2026-09-04 | [ISC is currently experiencing a service disruption](https://stspg.io/rdqqbtvffv8r) | minor | 5.3 h |
 | 2026-09-03 | [Identity Security Cloud is currently experiencing a service disruption.](https://stspg.io/r4s0l1lznryh) | major | 78 min |
 | 2026-09-02 | [Identity Security Cloud is currently experiencing a service disruption.](https://stspg.io/89f285mmt7j7) | minor | 18.3 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-22 | [Identity Security Cloud is intermittently experiencing a service disruption.](https://stspg.io/p8923nsktqwx) | minor | 25 min |
 | 2026-06-16 | [Search Degraded in US-East-1](https://stspg.io/xdynmm69n53f) | minor | 3.2 days |
 | 2026-06-03 | [Identity Security Cloud is currently experiencing an issue while loading identities](https://stspg.io/6593qbqjb49t) | minor | 6.8 h |
-| 2026-05-22 | [Search is currently experiencing a service disruption.](https://stspg.io/nfw983n55vml) | minor | 5.7 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/sailpoint.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sailpoint.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

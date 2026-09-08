@@ -2,8 +2,8 @@
 
 **53 Luno incidents on record** spanning **2026-02-23** to **2026-09-07**. Status page:
 [https://status.luno.com](https://status.luno.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **19.4 h** across 48 incidents where Luno posted both a start and a resolve time.
 

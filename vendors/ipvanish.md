@@ -1,11 +1,11 @@
 # IPVanish outage history — every incident their status page has posted
 
-**51 IPVanish incidents on record** spanning **2026-05-05** to **2026-09-04**. Status page:
+**52 IPVanish incidents on record** spanning **2026-05-05** to **2026-09-07**. Status page:
 [https://ipvanish.statuspage.io](https://ipvanish.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **5.2 h** across 47 incidents where IPVanish posted both a start and a resolve time.
+Median incident length: **6.0 h** across 48 incidents where IPVanish posted both a start and a resolve time.
 
 This page republishes what IPVanish posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Bucharest City, Romania](https://stspg.io/s72489k3nnmq) | minor | 6.8 h |
 | 2026-09-04 | [Chicago US Maintenance Part-2](https://stspg.io/hgyk6kz3v4f6) | none | — |
 | 2026-09-02 | [San Jose, Costa Rica](https://stspg.io/wz1492g2crf9) | minor | 2.5 h |
 | 2026-09-02 | [LAS- Las Vegas, USA](https://stspg.io/jsb1l86697lb) | minor | 20.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-31 | [Detroit, US](https://stspg.io/x6kxn9dsylc3) | maintenance | — |
 | 2026-07-19 | [Buenos Aires, Argentina](https://stspg.io/8c104nyn0w04) | minor | 11.2 h |
 | 2026-07-19 | [Santiago, Chile](https://stspg.io/nd18qzw8gsjp) | minor | 11.2 h |
-| 2026-07-19 | [Montevideo, Uruguay](https://stspg.io/gpsv8nt6vz7c) | minor | 11.2 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/ipvanish.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ipvanish.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **47** have a usable length. Excluded:
+Of 52 recorded incidents, **48** have a usable length. Excluded:
 4 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

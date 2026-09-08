@@ -2,7 +2,7 @@
 
 **33 Avaya Cloud incidents on record** spanning **2025-08-10** to **2026-04-23**. Status page:
 [https://status.avayacloud.com](https://status.avayacloud.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.5 h** across 33 incidents where Avaya Cloud posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **50 Zenoti incidents on record** spanning **2026-03-01** to **2026-09-01**. Status page:
 [https://status.zenoti.com](https://status.zenoti.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **98 min** across 48 incidents where Zenoti posted both a start and a resolve time.

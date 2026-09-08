@@ -1,11 +1,11 @@
 # Emnify outage history — every incident their status page has posted
 
-**50 Emnify incidents on record** spanning **2025-09-18** to **2026-08-01**. Status page:
+**51 Emnify incidents on record** spanning **2025-09-18** to **2026-09-07**. Status page:
 [https://status.emnify.com](https://status.emnify.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.0 h** across 50 incidents where Emnify posted both a start and a resolve time.
+Median incident length: **2.9 h** across 51 incidents where Emnify posted both a start and a resolve time.
 
 This page republishes what Emnify posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-07 | [Service degradation with data connectivity](https://stspg.io/r2vwbsnq5s74) | minor | 69 min |
 | 2026-08-01 | [Service Degradation - OpenVPN Connections and Portal Access](https://stspg.io/8fq8l5bq2493) | minor | 26 min |
 | 2026-07-27 | [Service Degradation - Data Usage Statistics](https://stspg.io/dy152f0j32vj) | minor | 7.0 days |
 | 2026-07-24 | [Service Degradation - operators in the LATAM region](https://stspg.io/z4k5r8pkw33t) | minor | 3.0 days |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-03 | [Service Degradation - 4G Connectivity](https://stspg.io/5x51tyy8zszb) | minor | 65 min |
 | 2026-06-02 | [Service Degradation - Claro (Paraguay, Uruguay, Argentina)](https://stspg.io/1n5mp0jkcxl2) | none | 0 min |
 | 2026-05-18 | [Service Degradation - Lonestar (Liberia)](https://stspg.io/m7xtbjw1rfbd) | minor | 2.4 days |
-| 2026-05-14 | [Service degradation - Play (Poland)](https://stspg.io/bych6r3mzvzg) | minor | 3.2 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/emnify.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/emnify.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

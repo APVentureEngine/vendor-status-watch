@@ -2,7 +2,7 @@
 
 **50 Jira Service Management incidents on record** spanning **2025-10-27** to **2026-09-03**. Status page:
 [https://jira-service-management.status.atlassian.com](https://jira-service-management.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.8 h** across 50 incidents where Jira Service Management posted both a start and a resolve time.

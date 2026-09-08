@@ -2,7 +2,7 @@
 
 **25 Docker Hub incidents on record** spanning **2026-08-24** to **2026-08-24**. Status page:
 [https://www.dockerstatus.com](https://www.dockerstatus.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 No Docker Hub incident carries both a vendor-posted start and resolve time, so no duration statistic is available.

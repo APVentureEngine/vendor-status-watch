@@ -2,7 +2,7 @@
 
 **32 Packet incidents on record** spanning **2025-08-08** to **2026-08-17**. Status page:
 [http://status.packet.net](http://status.packet.net) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **76 min** across 32 incidents where Packet posted both a start and a resolve time.

@@ -2,10 +2,10 @@
 
 **52 Linode incidents on record** spanning **2025-12-03** to **2026-09-07**. Status page:
 [https://status.linode.com](https://status.linode.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **4.6 h** across 49 incidents where Linode posted both a start and a resolve time.
+Median incident length: **4.5 h** across 50 incidents where Linode posted both a start and a resolve time.
 
 This page republishes what Linode posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-07 | [Service Issue - Cloud Manager and API](https://stspg.io/s7m13yr0g1g3) | minor | — |
+| 2026-09-07 | [Service Issue - Cloud Manager and API](https://stspg.io/s7m13yr0g1g3) | minor | 2.9 h |
 | 2026-08-28 | [Service Issue - US-SEA (Seattle, WA)](https://stspg.io/x22zq4bd4gd9) | none | 7.3 h |
 | 2026-08-24 | [Service Issue - Object Storage - US-SEA](https://stspg.io/55j87mnk3g26) | none | 3.3 h |
 | 2026-08-21 | [Service Issue - US-SEA (Seattle, WA)](https://stspg.io/gcbmqj8l4yxn) | none | 4.6 h |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **49** have a usable length. Excluded:
-1 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **50** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

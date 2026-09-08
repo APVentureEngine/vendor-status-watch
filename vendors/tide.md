@@ -1,11 +1,11 @@
 # Tide outage history — every incident their status page has posted
 
-**50 Tide incidents on record** spanning **2026-02-02** to **2026-09-01**. Status page:
+**51 Tide incidents on record** spanning **2026-02-02** to **2026-09-08**. Status page:
 [https://status.tide.co](https://status.tide.co) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.3 h** across 50 incidents where Tide posted both a start and a resolve time.
+Median incident length: **2.8 h** across 51 incidents where Tide posted both a start and a resolve time.
 
 This page republishes what Tide posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Phone calls audio issues](https://stspg.io/yhqjrynv5grc) | none | 92 min |
 | 2026-09-01 | [Adding Money via Cards or Digital wallets](https://stspg.io/yp52bd1t8xv1) | none | 5.7 h |
 | 2026-08-21 | [Inbound and outbound payments delay](https://stspg.io/r7l10glqrvb1) | none | 5 min |
 | 2026-08-11 | [Disruption in multiple payments services](https://stspg.io/dfb1frcm6v2p) | none | 56 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-01 | [Issues with Online Card Payments](https://stspg.io/7v2b51jm7lmd) | none | 20 min |
 | 2026-07-01 | [ATM balance issue](https://stspg.io/k7bcc3y399wb) | none | 5.5 h |
 | 2026-06-30 | [Confirmation of Payee for new payees is failing](https://stspg.io/45y8ngsdbztk) | none | 26 min |
-| 2026-06-28 | [Sort code and account number not visible for some members](https://stspg.io/fq912d09jlmm) | minor | 15.3 days |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/tide.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/tide.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **26 Dongee incidents on record** spanning **2026-02-26** to **2026-09-06**. Status page:
 [https://status.dongee.com](https://status.dongee.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **41 min** across 26 incidents where Dongee posted both a start and a resolve time.

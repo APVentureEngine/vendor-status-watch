@@ -2,7 +2,7 @@
 
 **50 Supabase incidents on record** spanning **2026-06-23** to **2026-09-04**. Status page:
 [https://status.supabase.com](https://status.supabase.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **2.0 h** across 48 incidents where Supabase posted both a start and a resolve time.

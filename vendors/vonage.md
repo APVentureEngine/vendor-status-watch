@@ -2,7 +2,7 @@
 
 **52 Vonage incidents on record** spanning **2025-12-18** to **2026-09-04**. Status page:
 [https://vcc.statuspage.io](https://vcc.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.7 h** across 52 incidents where Vonage posted both a start and a resolve time.

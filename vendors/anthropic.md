@@ -2,8 +2,8 @@
 
 **50 Anthropic incidents on record** spanning **2026-07-21** to **2026-09-03**. Status page:
 [https://status.anthropic.com](https://status.anthropic.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`unknown`**.
 
 Median incident length: **58 min** across 50 incidents where Anthropic posted both a start and a resolve time.
 

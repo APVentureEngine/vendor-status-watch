@@ -2,8 +2,8 @@
 
 **43 NVIDIA GeForce incidents on record** spanning **2025-08-06** to **2026-09-01**. Status page:
 [https://status.geforcenow.com](https://status.geforcenow.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **24.8 h** across 38 incidents where NVIDIA GeForce posted both a start and a resolve time.
 

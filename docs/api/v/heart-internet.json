@@ -3,11 +3,22 @@
 "slug": "heart-internet",
 "platform": "betterstack",
 "status_url": "https://www.heartstatus.uk",
-"last_checked": "2026-09-07T12:26:33Z",
+"last_checked": "2026-09-08T12:29:58Z",
 "last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": [
+{
+"first_seen": "2026-09-07T12:26:33Z",
+"impact": "maintenance",
+"last_seen": "2026-09-07T12:26:33Z",
+"resolved_at": "2026-09-08T12:29:58Z",
+"resolved_inferred": true,
+"started_at": "2026-09-07T23:00:42.000Z",
+"state": "maintenance",
+"title": "Scheduled System Upgrade: MVPS351 & MVPS387",
+"url": "https://www.heartstatus.uk"
+},
 {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",

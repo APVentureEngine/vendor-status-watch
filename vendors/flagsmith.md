@@ -2,7 +2,7 @@
 
 **3 Flagsmith incidents on record** spanning **2025-10-23** to **2026-03-03**. Status page:
 [https://flagsmith.statuspage.io](https://flagsmith.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **3** Flagsmith incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

@@ -2,7 +2,7 @@
 
 **34 SignalFx EU0 incidents on record** spanning **2025-08-20** to **2026-08-14**. Status page:
 [https://status.eu0.signalfx.com](https://status.eu0.signalfx.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **97 min** across 34 incidents where SignalFx EU0 posted both a start and a resolve time.

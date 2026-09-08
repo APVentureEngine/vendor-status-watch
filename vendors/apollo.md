@@ -2,7 +2,7 @@
 
 **25 Apollo incidents on record** spanning **2025-08-21** to **2026-09-01**. Status page:
 [http://status.apollographql.com](http://status.apollographql.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 21 incidents where Apollo posted both a start and a resolve time.

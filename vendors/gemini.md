@@ -2,10 +2,10 @@
 
 **51 Gemini incidents on record** spanning **2026-04-08** to **2026-09-07**. Status page:
 [https://status.gemini.com](https://status.gemini.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **6.3 h** across 49 incidents where Gemini posted both a start and a resolve time.
+Median incident length: **6.3 h** across 51 incidents where Gemini posted both a start and a resolve time.
 
 This page republishes what Gemini posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,11 +14,11 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-07 | [Delayed Polkadot Deposits and Withdrawals](https://stspg.io/y68qxm0j019z) | minor | — |
+| 2026-09-07 | [Delayed Polkadot Deposits and Withdrawals](https://stspg.io/y68qxm0j019z) | minor | 3.2 h |
 | 2026-09-04 | [Delayed order completion email notifications](https://stspg.io/k9183r5b5k9d) | none | 3.7 h |
 | 2026-08-26 | [BSC Network Delays](https://stspg.io/w4fzx71w1g4f) | minor | 99 min |
 | 2026-08-19 | [Websockets (wss://ws.gemini.com) connectivity issues](https://stspg.io/r3h8gc52mq1d) | minor | 18 min |
-| 2026-08-17 | [TON deposits, withdrawals and trading capabilities are temporarily unavailable](https://stspg.io/z4drhw8mhg5j) | minor | — |
+| 2026-08-17 | [TON deposits, withdrawals and trading capabilities are temporarily unavailable](https://stspg.io/z4drhw8mhg5j) | minor | 21.0 days |
 | 2026-08-14 | [Outage for Deposits and Withdrawals for Cosmos](https://stspg.io/j38z68vggh55) | major | 32.5 h |
 | 2026-08-12 | [Outage for Sui deposits and withdrawals](https://stspg.io/d6qr8tftj4mk) | minor | 10.6 h |
 | 2026-08-05 | [Singapore Withdrawals Temporarily Unavailable](https://stspg.io/43z9tc5jh2sy) | minor | 30 min |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

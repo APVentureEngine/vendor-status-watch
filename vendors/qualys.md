@@ -1,11 +1,11 @@
 # Qualys outage history — every incident their status page has posted
 
-**61 Qualys incidents on record** spanning **2026-07-01** to **2026-09-07**. Status page:
+**64 Qualys incidents on record** spanning **2026-07-01** to **2026-09-08**. Status page:
 [https://status.qualys.com](https://status.qualys.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **25.6 h** across 50 incidents where Qualys posted both a start and a resolve time.
+Median incident length: **26.3 h** across 51 incidents where Qualys posted both a start and a resolve time.
 
 This page republishes what Qualys posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [AU Platform 1: Cloud Agent Linux 7.5.0 Release Notification (CMB-367619)](https://stspg.io/g4jxvhmt2qqq) | maintenance | — |
+| 2026-09-07 | [US Platform 3: Total Cloud 2.27.0 Release Notification (CMB-365896)](https://stspg.io/22cj1365gd7k) | maintenance | — |
+| 2026-09-07 | [US Platform 3: Connector Centralization 2.20.0 Release Notification (CMB-365897)](https://stspg.io/1qg48174q49t) | maintenance | — |
 | 2026-09-07 | [KSA Platform 1: Cloud Agent for PowerPC 3.21.1-19 Release Notification (CMB-355341)](https://stspg.io/slkfwqp501jl) | maintenance | — |
 | 2026-09-07 | [KSA Platform 1: Cloud Agent for BSD 7.1.0-31 Release Notification (CMB-355340)](https://stspg.io/lfnst8fg3n15) | maintenance | — |
 | 2026-09-07 | [KSA Platform 1: Cloud Agent for AIX 6.0.0-44 Release Notification (CMB-355339)](https://stspg.io/rtvy8dhgb0rg) | maintenance | — |
@@ -24,19 +27,16 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-06 | [UK Platform 1: Connector Centralization 2.20.0 Release Notification (CMB-365927)](https://stspg.io/x9nzlzs6swbz) | maintenance | — |
 | 2026-09-06 | [UK Platform 1: Total Cloud 2.27.0 Release Notification (CMB-365926)](https://stspg.io/mrtnctyz6xbn) | maintenance | — |
 | 2026-09-06 | [IN Platform 1: Qualys Suite QWeb 10.40.0.0 Release Notification (CMB-367730)](https://stspg.io/9912nysrvgx8) | maintenance | — |
-| 2026-09-04 | [US Platform 1: Delay in Data Reflection in UI (IM-12844)](https://stspg.io/p4034ntzp676) | minor | — |
+| 2026-09-04 | [US Platform 1: Delay in Data Reflection in UI (IM-12844)](https://stspg.io/p4034ntzp676) | minor | 3.6 days |
 | 2026-09-03 | [IN Platform 1: Login Redirection Issue (IM-12843)](https://stspg.io/zb59yw7svzkc) | minor | 6.1 h |
-| 2026-09-01 | [EU Platform 1: High Lag on Data Sync Service [IM-12841]](https://stspg.io/lyzphx4qp7zm) | minor | 26.5 h |
-| 2026-08-27 | [IN Platform1: CSAM asset information is not loading (IM-12838)](https://stspg.io/8w1k49tqr79b) | minor | 5.6 h |
-| 2026-08-26 | [US Platform 3: Delay in Data Reflection in UI (IM-12837)](https://stspg.io/hqcrtk8jvydk) | minor | 33.6 h |
 
-Newest 15 of 61. Full machine-readable history:
+Newest 15 of 64. Full machine-readable history:
 [`history/qualys.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/qualys.json).
 
 ## What is counted, and what is not
 
-Of 61 recorded incidents, **50** have a usable length. Excluded:
-10 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 64 recorded incidents, **51** have a usable length. Excluded:
+13 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

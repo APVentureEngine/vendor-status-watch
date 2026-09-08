@@ -2,7 +2,7 @@
 
 **11 CodeTwo incidents on record** spanning **2025-08-25** to **2026-06-02**. Status page:
 [https://status.codetwo.com](https://status.codetwo.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **11** CodeTwo incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

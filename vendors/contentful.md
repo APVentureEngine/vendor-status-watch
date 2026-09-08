@@ -2,7 +2,7 @@
 
 **50 Contentful incidents on record** spanning **2025-11-19** to **2026-09-03**. Status page:
 [https://www.contentfulstatus.com](https://www.contentfulstatus.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **69 min** across 50 incidents where Contentful posted both a start and a resolve time.

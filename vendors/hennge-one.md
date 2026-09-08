@@ -2,8 +2,8 @@
 
 **29 HENNGE One incidents on record** spanning **2025-09-01** to **2026-09-07**. Status page:
 [https://status.hdeone.com](https://status.hdeone.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **4.1 h** across 28 incidents where HENNGE One posted both a start and a resolve time.
 

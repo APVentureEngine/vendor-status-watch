@@ -2,7 +2,7 @@
 
 **30 Udemy incidents on record** spanning **2025-10-20** to **2026-09-03**. Status page:
 [https://status.udemy.com](https://status.udemy.com) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.7 h** across 30 incidents where Udemy posted both a start and a resolve time.

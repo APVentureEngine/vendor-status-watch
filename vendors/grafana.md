@@ -1,9 +1,9 @@
 # Grafana outage history — every incident their status page has posted
 
-**53 Grafana incidents on record** spanning **2026-07-08** to **2026-09-04**. Status page:
+**54 Grafana incidents on record** spanning **2026-07-08** to **2026-09-08**. Status page:
 [https://grafanalabs.statuspage.io](https://grafanalabs.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-07 12:26 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **113 min** across 53 incidents where Grafana posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Scheduled Database Maintenance – Temporary Grafana Instance Unavailability](https://stspg.io/3gq97k2jty6p) | maintenance | — |
 | 2026-09-04 | [Degradation of Hosted Grafana in US Central Region](https://stspg.io/7n6x5qw9x9d5) | major | 3.6 h |
 | 2026-09-04 | [US Central Region Instability](https://stspg.io/b3b4ppnkx23p) | minor | 6.2 h |
 | 2026-09-04 | [Alert rule creation, deletion, and update degradation in prod-us-east-2](https://stspg.io/8gw4nt4mmp09) | minor | 2.9 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-25 | [Incident Management unavailable in US Central](https://stspg.io/kdhyw5xk6r56) | minor | 23 min |
 | 2026-08-18 | [Cloud Logs read path outage on eu-west-2](https://stspg.io/1g4dpsdmf2cf) | critical | 0 min |
 | 2026-08-13 | [K6 Test Outage](https://stspg.io/tv8plq4gysv5) | critical | 82 min |
-| 2026-08-10 | [Metrics: Elevated Error Rates Reads/Writes](https://stspg.io/0svqkyqmlzxl) | minor | 0 min |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/grafana.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/grafana.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **53** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **53** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 
