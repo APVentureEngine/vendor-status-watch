@@ -1,11 +1,11 @@
 # Gandi outage history — every incident their status page has posted
 
-**51 Gandi incidents on record** spanning **2025-08-25** to **2026-09-07**. Status page:
+**52 Gandi incidents on record** spanning **2025-08-25** to **2026-09-09**. Status page:
 [https://status.gandi.net](https://status.gandi.net) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`maintenance`**.
 
-Median incident length: **2.4 h** across 50 incidents where Gandi posted both a start and a resolve time.
+Median incident length: **2.4 h** across 51 incidents where Gandi posted both a start and a resolve time.
 
 This page republishes what Gandi posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-07 | [Slowness on change_owner domain operations](https://stspg.io/26g30yxpdg7t) | minor | — |
+| 2026-09-09 | [PaaS maintenance in FR-SD6](https://stspg.io/h303fzvw54q3) | maintenance | — |
+| 2026-09-07 | [Slowness on change_owner domain operations](https://stspg.io/26g30yxpdg7t) | minor | 20.5 h |
 | 2026-09-03 | [Notifications of 2FA emails delayed for the moment](https://stspg.io/m4wvt31wh4fd) | minor | 98 min |
 | 2026-08-11 | [Storage unit issue in FR-SD6](https://stspg.io/lnyqljshddfd) | minor | 5.2 h |
 | 2026-08-11 | [Gandimail admin errors](https://stspg.io/yxjlqq3t3zr2) | major | 89 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-23 | [Issue on a storage unit](https://stspg.io/3sk2t8l4rhb1) | minor | 16 min |
 | 2026-04-17 | [.fi domain operations unavailable](https://stspg.io/7q1pfddgbc3h) | minor | 59 min |
 | 2026-04-16 | [.fr registry incident (.re, .tf, .wf, .yt, .pm)](https://stspg.io/bfl5hzj35tkw) | major | 3.2 h |
-| 2026-03-24 | [LU-BI1 PaaS slowness](https://stspg.io/05vfd7xk479c) | minor | 8.7 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/gandi.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gandi.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

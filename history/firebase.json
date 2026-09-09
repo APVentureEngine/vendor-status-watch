@@ -55,6 +55,10 @@
 {
 "at": "2026-09-08T12:29:58Z",
 "state": "partial"
+},
+{
+"at": "2026-09-09T12:30:34Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -65,6 +69,8 @@
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "medium",
 "last_seen": "2026-09-08T12:29:58Z",
+"resolved_at": "2026-09-09T12:30:34Z",
+"resolved_inferred": true,
 "started_at": "2026-07-01T07:00:00+00:00",
 "state": "service_disruption",
 "title": "Performance Monitoring: Visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
@@ -72,10 +78,10 @@
 "url": "https://status.firebase.google.com/incidents/hBVSwDQrs8JPC53quJ8T"
 }
 },
-"last_checked": "2026-09-08T12:29:58Z",
-"last_description": "1 open incident",
+"last_checked": "2026-09-09T12:30:34Z",
+"last_description": "All services available",
 "last_error": null,
-"last_state": "partial",
+"last_state": "ok",
 "platform": "bespoke",
 "slug": "firebase",
 "status_url": "https://status.firebase.google.com",

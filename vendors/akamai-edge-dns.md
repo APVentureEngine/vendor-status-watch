@@ -2,7 +2,7 @@
 
 **51 Akamai Edge DNS incidents on record** spanning **2026-04-06** to **2026-09-04**. Status page:
 [https://edgedns.status.akamai.com](https://edgedns.status.akamai.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **14.2 h** across 51 incidents where Akamai Edge DNS posted both a start and a resolve time.

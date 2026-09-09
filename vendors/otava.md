@@ -1,9 +1,9 @@
 # Otava outage history — every incident their status page has posted
 
-**45 Otava incidents on record** spanning **2025-08-08** to **2026-09-07**. Status page:
+**47 Otava incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
 [https://status.otava.com](https://status.otava.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **2.9 days** across 44 incidents where Otava posted both a start and a resolve time.
 
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Denver (DEN2) OTAVA® DRaaS powered by Veeam (OCC) Service Degraded - 9/9/2026](https://stspg.io/tp3d58t94xj1) | major | — |
+| 2026-09-09 | [Mid-Michigan (MM) OTAVA® vCenter patching - 9/9/2026](https://stspg.io/t62js5fcj96p) | maintenance | — |
 | 2026-09-07 | [Mid-Michigan (MM1) - Internet Connectivity Degradation - 9/7/2026](https://stspg.io/6qqs4vm3vy0k) | minor | — |
 | 2026-08-12 | [Mid-Michigan (MM1) OTAVA® Data Center Networking Infrastructure Major Service Disruption – 08/12/2026](https://stspg.io/byw360jrlh07) | none | 24.4 h |
 | 2026-08-03 | [Ashburn (AB1) Router loss of redundancy  - 07/30/2026](https://stspg.io/twqgq1g2k6tx) | none | 9.3 days |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-03 | [Metro-Detroit (MD1)- Utility Power Disruption - 7/3/2026](https://stspg.io/fjyjjmqkfwts) | none | 2.8 days |
 | 2026-06-30 | [Indianapolis (IN1) Management Connectivity Issues on GEN3 DPaaS - 6/30/2026](https://stspg.io/9y7sg56h71fs) | major | 10.7 h |
 | 2026-06-29 | [Denver (DEN2) - Otava® Cloud Infrastructure - Compute IOM - 06/29/2025](https://stspg.io/s8nsjmr1gscm) | minor | 6.9 days |
-| 2026-06-24 | [Ashburn (VA4) to Austin (AU1) - Loss of Redundancy - 06/24/2026](https://stspg.io/dsxsclc4g8ty) | none | 2.1 days |
-| 2026-06-24 | [Ann Arbor (AA2) Internet connection loss of redundancy - 06/24/2026](https://stspg.io/62jfjyps9kht) | none | 2.3 days |
 
-Newest 15 of 45. Full machine-readable history:
+Newest 15 of 47. Full machine-readable history:
 [`history/otava.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/otava.json).
 
 ## What is counted, and what is not
 
-Of 45 recorded incidents, **44** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 47 recorded incidents, **44** have a usable length. Excluded:
+1 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

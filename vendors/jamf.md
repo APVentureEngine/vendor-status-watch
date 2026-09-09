@@ -2,7 +2,7 @@
 
 **39 Jamf incidents on record** spanning **2025-09-04** to **2026-09-03**. Status page:
 [https://status.jamf.com](https://status.jamf.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.5 h** across 37 incidents where Jamf posted both a start and a resolve time.

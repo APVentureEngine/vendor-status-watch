@@ -1,11 +1,11 @@
 # Supabase outage history — every incident their status page has posted
 
-**50 Supabase incidents on record** spanning **2026-06-23** to **2026-09-04**. Status page:
+**51 Supabase incidents on record** spanning **2026-06-23** to **2026-09-09**. Status page:
 [https://status.supabase.com](https://status.supabase.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **2.0 h** across 48 incidents where Supabase posted both a start and a resolve time.
+Median incident length: **2.0 h** across 49 incidents where Supabase posted both a start and a resolve time.
 
 This page republishes what Supabase posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Brief connection disruptions in us-east-1 (N. Virginia)](https://stspg.io/yl1dl21j7xd8) | minor | 0 min |
 | 2026-09-04 | [Project Lifecycle Actions Showing increased error rates across all regions](https://stspg.io/34wlkdly7fxp) | critical | 8.0 h |
 | 2026-09-01 | [User unable to log in to Supabase Dashboard](https://stspg.io/s2mz940kv44d) | critical | 109 min |
 | 2026-08-31 | [Project Creation Failures](https://stspg.io/56wmdpzzs6cj) | major | 2.6 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-19 | [Network access issues affecting a limited number of users in Myanmar](https://stspg.io/d0dv2tg5rmbn) | none | — |
 | 2026-08-19 | [Sign-in failures for `signInWithIdToken` (OIDC) logins on free-tier projects](https://stspg.io/364rg94t32hm) | minor | 3.1 h |
 | 2026-08-17 | [Project creation failing in selected regions](https://stspg.io/skjjn30687zq) | minor | 8 min |
-| 2026-08-14 | [Project access, updating and creation impacted in us-east-2](https://stspg.io/jq68bf48cfjj) | critical | 73 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/supabase.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/supabase.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **48** have a usable length. Excluded:
+Of 51 recorded incidents, **49** have a usable length. Excluded:
 0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Ellucian outage history — every incident their status page has posted
 
-**32 Ellucian incidents on record** spanning **2025-08-04** to **2026-09-02**. Status page:
+**31 Ellucian incidents on record** spanning **2025-08-18** to **2026-09-02**. Status page:
 [https://status.elluciancloud.com](https://status.elluciancloud.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.7 h** across 32 incidents where Ellucian posted both a start and a resolve time.
+Median incident length: **3.0 h** across 31 incidents where Ellucian posted both a start and a resolve time.
 
 This page republishes what Ellucian posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-18 | [Service Update: Person Manager](https://stspg.io/1ttcsbdxk68q) | none | 0 min |
 | 2026-03-14 | [Service Notification: Elevate in Canada Region](https://stspg.io/v6p93jzf49x2) | minor | 2.1 h |
 
-Newest 15 of 32. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/ellucian.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ellucian.json).
 
 ## What is counted, and what is not
 
-Of 32 recorded incidents, **32** have a usable length. Excluded:
+Of 31 recorded incidents, **31** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

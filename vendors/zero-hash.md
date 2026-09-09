@@ -1,9 +1,9 @@
 # Zero Hash outage history — every incident their status page has posted
 
-**50 Zero Hash incidents on record** spanning **2025-09-10** to **2026-08-11**. Status page:
+**51 Zero Hash incidents on record** spanning **2025-09-10** to **2026-09-09**. Status page:
 [https://status.zerohash.com](https://status.zerohash.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **106 min** across 50 incidents where Zero Hash posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [ATOM Mainnet Issues Causing Withdrawal Delays](https://stspg.io/sby0xw452g9b) | major | — |
 | 2026-08-11 | [Fund Withdrawal SDK fails to process tag-based withdrawals](https://stspg.io/dzc1s9t9ztr0) | minor | 4.1 h |
 | 2026-07-29 | [Delays In Broadcasting XRP Withdrawals](https://stspg.io/swj0y8k7178b) | minor | 55 min |
 | 2026-07-20 | [High Rrror Rate on RFQ and convert_withdraw Endpoints](https://stspg.io/kd7kv3vw4yxd) | major | 68 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-28 | [Degraded Client Portal Performance](https://stspg.io/r4fj1mzljx55) | major | 85 min |
 | 2026-05-27 | [Developer documentation site unavailable](https://stspg.io/by4lzsl0xgkp) | minor | 6.2 h |
 | 2026-05-22 | [Delayed ETH Withdrawals & Deposits](https://stspg.io/y8qqvbq720sy) | minor | 12 min |
-| 2026-05-19 | [Delayed Solana Withdrawals & Deposits](https://stspg.io/d65tfrkfczb4) | minor | 37 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/zero-hash.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/zero-hash.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

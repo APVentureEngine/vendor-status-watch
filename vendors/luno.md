@@ -2,10 +2,10 @@
 
 **53 Luno incidents on record** spanning **2026-02-23** to **2026-09-07**. Status page:
 [https://status.luno.com](https://status.luno.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **19.4 h** across 48 incidents where Luno posted both a start and a resolve time.
+Median incident length: **19.6 h** across 49 incidents where Luno posted both a start and a resolve time.
 
 This page republishes what Luno posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,7 +15,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-07 | [Planned maintenance on FPX instant deposit system in Malaysia](https://stspg.io/t82r4nxd5vms) | maintenance | — |
-| 2026-09-03 | [Delayed FPX deposits in Malaysia](https://stspg.io/rck72tsqnrxq) | none | — |
+| 2026-09-03 | [Delayed FPX deposits in Malaysia](https://stspg.io/rck72tsqnrxq) | none | 5.9 days |
 | 2026-09-02 | [Scheduled Maintenance: NOBU BI-FAST VA - Indonesia](https://stspg.io/6s7v99gjrllr) | maintenance | — |
 | 2026-08-31 | [Instant Buy not available in South Africa](https://stspg.io/5gzt2vlwrl32) | none | — |
 | 2026-08-28 | [Intermittent FPX deposit failures in Malaysia](https://stspg.io/qhn6lvz7bs85) | none | 5.1 days |
@@ -35,8 +35,8 @@ Newest 15 of 53. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **48** have a usable length. Excluded:
-2 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **49** have a usable length. Excluded:
+2 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

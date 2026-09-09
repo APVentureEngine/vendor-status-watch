@@ -1,11 +1,11 @@
 # Brivo outage history — every incident their status page has posted
 
-**31 Brivo incidents on record** spanning **2025-08-04** to **2026-08-24**. Status page:
+**30 Brivo incidents on record** spanning **2025-08-06** to **2026-08-24**. Status page:
 [https://status.brivo.com](https://status.brivo.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **109 min** across 31 incidents where Brivo posted both a start and a resolve time.
+Median incident length: **101 min** across 30 incidents where Brivo posted both a start and a resolve time.
 
 This page republishes what Brivo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-23 | [Degraded Panel Communications and Events](https://stspg.io/gn6hjcvmyxcw) | major | 82 min |
 | 2026-03-11 | [Identified issue with Brivo Smart Home](https://stspg.io/mw38kl7b8b3x) | minor | 109 min |
 
-Newest 15 of 31. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/brivo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/brivo.json).
 
 ## What is counted, and what is not
 
-Of 31 recorded incidents, **31** have a usable length. Excluded:
+Of 30 recorded incidents, **30** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

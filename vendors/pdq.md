@@ -1,9 +1,9 @@
 # Pdq outage history — every incident their status page has posted
 
-**50 Pdq incidents on record** spanning **2025-12-15** to **2026-09-03**. Status page:
+**51 Pdq incidents on record** spanning **2025-12-15** to **2026-09-09**. Status page:
 [https://pdq.statuspage.io](https://pdq.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **3.2 h** across 50 incidents where Pdq posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Connect - Delayed Vulnerability Updates](https://stspg.io/vjc6bc8v6djf) | minor | — |
 | 2026-09-03 | [Connect - Delayed Vulnerability Updates](https://stspg.io/n2rbygdh0l4r) | minor | 23.7 h |
 | 2026-08-27 | [Connect: Ctrl + Alt + Del is not working in Remote Desktop](https://stspg.io/5r0wrt761d3n) | major | 112 min |
 | 2026-08-26 | [Connect: Unable to install remote desktop agent](https://stspg.io/5f8wn3z43r85) | minor | 19 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-27 | [Delay in group count updates](https://stspg.io/xlj46nghk0h2) | minor | 89 min |
 | 2026-07-27 | [Users unable to signup for trials](https://stspg.io/9qvgfnnn6mln) | none | 0 min |
 | 2026-07-23 | [Connect Incident - Delayed processing of Windows updates](https://stspg.io/k11mb3lf1k2j) | minor | 4.7 h |
-| 2026-07-20 | [Scan data/results delayed & vulnerability delays](https://stspg.io/4tmwz9z7hq0f) | minor | 6.7 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/pdq.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/pdq.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

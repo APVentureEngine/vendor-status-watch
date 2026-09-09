@@ -1,11 +1,11 @@
 # Harness outage history — every incident their status page has posted
 
-**52 Harness incidents on record** spanning **2026-05-07** to **2026-09-05**. Status page:
+**53 Harness incidents on record** spanning **2026-05-07** to **2026-09-08**. Status page:
 [https://status.harness.io](https://status.harness.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.2 h** across 51 incidents where Harness posted both a start and a resolve time.
+Median incident length: **2.3 h** across 52 incidents where Harness posted both a start and a resolve time.
 
 This page republishes what Harness posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Slowness in Prod1 and Prod2 environment](https://stspg.io/nq6pjsvq1481) | minor | 6.6 h |
 | 2026-09-05 | [Prod2 was intermittently unavailable](https://stspg.io/wxvc3v9g5yc2) | none | 0 min |
 | 2026-09-04 | [CI Cloud Maintenance](https://stspg.io/8dtjn0v78mq0) | maintenance | — |
 | 2026-09-03 | [Pipelines are stuck in Prod1](https://stspg.io/1l82qknlzdl6) | minor | 99 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-04 | [Editing 'Variable Sets' in the IaCM module is experiencing issue](https://stspg.io/n87ctg0rb2bv) | minor | 3.4 h |
 | 2026-07-31 | [UI dashboards are lagging behind (CI)](https://stspg.io/9wsfx9tx5dbl) | none | 12.8 h |
 | 2026-07-31 | [Harness Artifact Registry upload is failing from pipeline - EU1 region](https://stspg.io/gc7mqtsqf2ck) | minor | 34.0 h |
-| 2026-07-29 | [Intermittent External Network Connectivity Issues Affecting Build VMs](https://stspg.io/qdjcv8bw5w5x) | minor | 21.4 h |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/harness.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/harness.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **51** have a usable length. Excluded:
+Of 53 recorded incidents, **52** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Teamwork outage history — every incident their status page has posted
 
-**27 Teamwork incidents on record** spanning **2025-08-04** to **2026-06-22**. Status page:
+**26 Teamwork incidents on record** spanning **2025-08-14** to **2026-06-22**. Status page:
 [https://status.teamwork.com](https://status.teamwork.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.6 h** across 27 incidents where Teamwork posted both a start and a resolve time.
+Median incident length: **2.7 h** across 26 incidents where Teamwork posted both a start and a resolve time.
 
 This page republishes what Teamwork posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-14 | [Teamwork Projects - Service Degradation.](https://stspg.io/g0y0kzw32478) | minor | 36 min |
 | 2026-01-12 | [Teamwork Slow Loading Issue](https://stspg.io/1hv9q1ty07d9) | minor | 3.1 h |
 
-Newest 15 of 27. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/teamwork.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/teamwork.json).
 
 ## What is counted, and what is not
 
-Of 27 recorded incidents, **27** have a usable length. Excluded:
+Of 26 recorded incidents, **26** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,8 +1,8 @@
 # QuickNode outage history — every incident their status page has posted
 
-**57 QuickNode incidents on record** spanning **2026-06-28** to **2026-09-08**. Status page:
+**59 QuickNode incidents on record** spanning **2026-06-28** to **2026-09-08**. Status page:
 [https://status.quicknode.com](https://status.quicknode.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **3.9 h** across 52 incidents where QuickNode posted both a start and a resolve time.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [BSC Mainnet Degraded Performance - FRA Region](https://stspg.io/wbpg11r0z1tp) | minor | — |
+| 2026-09-08 | [Cosmos Mainnet Network Stalled at Block 32,878,318](https://stspg.io/hw4tr29k5tw4) | minor | — |
 | 2026-09-08 | [Solana Testnet - Network Stalled](https://stspg.io/6mh2nr5qpn2n) | minor | — |
 | 2026-09-07 | [Gravity Mainnet Stalled at Block 41,384,106](https://stspg.io/49nwv3zgy5s6) | none | 12.8 h |
 | 2026-09-04 | [RobinHood Mainnet - Increased Latency](https://stspg.io/qybl1wxrnb85) | minor | 12.0 h |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-27 | [HyperLiquid Testnet - Degraded Performance](https://stspg.io/4gs25txf0hx0) | none | 24 min |
 | 2026-08-26 | [Stellar Mainnet JSON-RPC Degraded Performance](https://stspg.io/62bn5jc1sddb) | minor | 9.8 h |
 | 2026-08-24 | [[Urgent] Moca - Testnet - Upgrade to v1.4.0](https://stspg.io/03rg55sq6kmm) | none | 0 min |
-| 2026-08-24 | [Moca Testnet Degraded Performance](https://stspg.io/lcvtvrqlvwms) | none | 57 min |
-| 2026-08-24 | [Stacks Mainnet Degraded Performance](https://stspg.io/0tr0m5nhsw8b) | none | 76 min |
 
-Newest 15 of 57. Full machine-readable history:
+Newest 15 of 59. Full machine-readable history:
 [`history/quicknode.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/quicknode.json).
 
 ## What is counted, and what is not
 
-Of 57 recorded incidents, **52** have a usable length. Excluded:
-4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 59 recorded incidents, **52** have a usable length. Excluded:
+4 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

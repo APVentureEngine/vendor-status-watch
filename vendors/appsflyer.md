@@ -1,11 +1,11 @@
 # Appsflyer outage history — every incident their status page has posted
 
-**9 Appsflyer incidents on record** spanning **2025-08-05** to **2026-07-27**. Status page:
+**8 Appsflyer incidents on record** spanning **2025-08-20** to **2026-07-27**. Status page:
 [https://status.appsflyer.com](https://status.appsflyer.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **9** Appsflyer incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **8** Appsflyer incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Appsflyer posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -22,14 +22,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-26 | [An issue with processing clicks and impressions](https://stspg.io/qbp14rpgbk9w) | minor | 3.8 h |
 | 2025-09-20 | [Meta attribution impact due to errors from Meta ads’ attribution API](https://stspg.io/k1160jwjld03) | minor | 4.3 h |
 | 2025-08-20 | [Delay in Push API messages](https://stspg.io/tmk46k86880q) | minor | 12 min |
-| 2025-08-05 | [Unavailable Integrated Partners Settings page for some of the partners](https://stspg.io/xw2s6qfm842w) | minor | 21 min |
 
-Newest 9 of 9. Full machine-readable history:
+Newest 8 of 8. Full machine-readable history:
 [`history/appsflyer.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/appsflyer.json).
 
 ## What is counted, and what is not
 
-Of 9 recorded incidents, **9** have a usable length. Excluded:
+Of 8 recorded incidents, **8** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

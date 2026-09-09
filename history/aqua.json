@@ -83,6 +83,10 @@
 {
 "at": "2026-09-08T12:29:58Z",
 "state": "ok"
+},
+{
+"at": "2026-09-09T12:30:34Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -92,7 +96,7 @@
 "body": "Since approximately 09:00 UTC on August 31, 2025, our Supply Chain Vulnerability Scanning service has been experiencing a degradation. This is currently causing CI/CD pipeline timeouts and timeouts on the Supply Chain page.\n\nOur team is actively investigating and has engaged the relevant internal teams to work toward resolution. We will share updates as they become available. We apologize for any inconvenience this is causing.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-08-31T13:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-08-31T13:00:00.000Z",
@@ -105,7 +109,7 @@
 "body": "The maintenance for the CSPM scanning service has been completed. All systems are fully operational.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2025-09-05T03:26:21.907Z",
 "resolved_inferred": false,
 "started_at": "2025-09-04T19:30:40.000Z",
@@ -118,7 +122,7 @@
 "body": "Aqua Supply Chain Vulnerability Scanning Service Disruption Notice - Resolved\n\nSince approximately 09:00 UTC on August 31, 2025, our Supply Chain Vulnerability Scanning service experienced a degradation, causing CI/CD pipeline timeouts and timeouts on the Supply Chain page.\n\nUpdate: The applied fix has been confirmed effective following a period of active monitoring, and the service has returned to normal operation. The Supply Chain Vulnerability Scanning component status has been updated to Operational.\n\nWe apologize for the inconvenience this incident may have caused and thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-08-31T19:30:45.477Z",
 "resolved_inferred": false,
 "started_at": "2026-08-31T17:18:15.683Z",
@@ -131,7 +135,7 @@
 "body": "On October 1st, 2025, at approximately 08:10 AM UTC, our Container Image Scanning service experienced a performance degradation. This caused the resulting in partial impact on scanning requests.\n\nThe Aqua team promptly identified the issue and engaged the India team for resolution. The incident was mitigated at 08:56 AM UTC on October 1st, 2025.\n\nWe apologize for any inconvenience caused by this disruption. To prevent recurrence, we are enhancing our monitoring and alerting systems and implementing automated remediation measures where possible.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2025-10-01T08:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-10-01T08:00:00.000Z",
@@ -144,7 +148,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2025-09-08T10:55:52.972Z",
 "resolved_inferred": false,
 "started_at": "2025-09-08T08:34:31.108Z",
@@ -157,7 +161,7 @@
 "body": "The issues affecting login performance have been mitigated, and services are now operating normally.\nWe continue to monitor the situation to ensure stability.\nThank you for your patience and understanding.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2025-10-21T01:52:41.464Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T15:01:36.162Z",
@@ -167,7 +171,7 @@
 "url": "https://stspg.io/dbfg2wngqflk"
 }
 },
-"last_checked": "2026-09-08T12:29:58Z",
+"last_checked": "2026-09-09T12:30:34Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

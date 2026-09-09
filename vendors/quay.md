@@ -2,7 +2,7 @@
 
 **50 Quay incidents on record** spanning **2025-12-05** to **2026-08-31**. Status page:
 [https://status.quay.io](https://status.quay.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 48 incidents where Quay posted both a start and a resolve time.

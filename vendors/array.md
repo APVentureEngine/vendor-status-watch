@@ -2,7 +2,7 @@
 
 **52 Array incidents on record** spanning **2026-03-19** to **2026-09-05**. Status page:
 [https://status.array.com](https://status.array.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **84 min** across 52 incidents where Array posted both a start and a resolve time.

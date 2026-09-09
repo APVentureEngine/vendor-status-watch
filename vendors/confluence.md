@@ -1,11 +1,11 @@
 # Confluence outage history — every incident their status page has posted
 
-**39 Confluence incidents on record** spanning **2025-08-04** to **2026-08-27**. Status page:
+**38 Confluence incidents on record** spanning **2025-09-09** to **2026-08-27**. Status page:
 [https://confluence.status.atlassian.com](https://confluence.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.8 h** across 39 incidents where Confluence posted both a start and a resolve time.
+Median incident length: **2.7 h** across 38 incidents where Confluence posted both a start and a resolve time.
 
 This page republishes what Confluence posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-14 | [Disrupted Rovo availability for Automation rules](https://stspg.io/2ypzgvkf46j6) | critical | 3.8 h |
 | 2026-04-13 | [Users experiencing issues with login across Atlassian products](https://stspg.io/884syppcgv0c) | minor | 2.8 h |
 
-Newest 15 of 39. Full machine-readable history:
+Newest 15 of 38. Full machine-readable history:
 [`history/confluence.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/confluence.json).
 
 ## What is counted, and what is not
 
-Of 39 recorded incidents, **39** have a usable length. Excluded:
+Of 38 recorded incidents, **38** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

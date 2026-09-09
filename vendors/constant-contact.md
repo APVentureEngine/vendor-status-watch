@@ -1,11 +1,11 @@
 # Constant Contact outage history — every incident their status page has posted
 
-**25 Constant Contact incidents on record** spanning **2025-08-04** to **2026-09-02**. Status page:
+**24 Constant Contact incidents on record** spanning **2025-09-24** to **2026-09-02**. Status page:
 [https://status.constantcontact.com](https://status.constantcontact.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **90 min** across 25 incidents where Constant Contact posted both a start and a resolve time.
+Median incident length: **90 min** across 24 incidents where Constant Contact posted both a start and a resolve time.
 
 This page republishes what Constant Contact posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-06 | [Slow account navigation and sending campaigns](https://stspg.io/vrp3f8m46cdj) | none | 67 min |
 | 2026-01-22 | [Email Delivery Delays due to Microsoft Outage](https://stspg.io/fslgh98gh3bf) | minor | 13.0 h |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 24. Full machine-readable history:
 [`history/constant-contact.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/constant-contact.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **25** have a usable length. Excluded:
+Of 24 recorded incidents, **24** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Cloudflare outage history — every incident their status page has posted
 
-**67 Cloudflare incidents on record** spanning **2026-08-17** to **2026-09-08**. Status page:
+**72 Cloudflare incidents on record** spanning **2026-08-17** to **2026-09-09**. Status page:
 [https://www.cloudflarestatus.com](https://www.cloudflarestatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **75 min** across 60 incidents where Cloudflare posted both a start and a resolve time.
+Median incident length: **69 min** across 62 incidents where Cloudflare posted both a start and a resolve time.
 
 This page republishes what Cloudflare posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,11 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [LUN (Lusaka) on 2026-09-09](https://www.cloudflarestatus.com/incidents/zy5m26cfdv8s) | maintenance | — |
+| 2026-09-09 | [YYC (Calgary) on 2026-09-09](https://www.cloudflarestatus.com/incidents/vzz5rlgbjscq) | maintenance | — |
+| 2026-09-08 | [Intermittent issues accessing the Dashboard on Firefox and Safari](https://www.cloudflarestatus.com/incidents/hy0gsndpkypz) | minor | 46 min |
+| 2026-09-08 | [PHL (Philadelphia) on 2026-09-08](https://www.cloudflarestatus.com/incidents/svj9sgt36c65) | maintenance | — |
+| 2026-09-08 | [Errors in Unified Billing for some requests OpenAI models](https://www.cloudflarestatus.com/incidents/kq11rg5y66f2) | none | 0 min |
 | 2026-09-08 | [PHX (Phoenix) on 2026-09-08](https://www.cloudflarestatus.com/incidents/9b6d5g8fvlsg) | maintenance | — |
 | 2026-09-08 | [TXL (Berlin) on 2026-09-08](https://www.cloudflarestatus.com/incidents/fvn6px17xgjz) | maintenance | — |
 | 2026-09-08 | [Cache Reserve Issue in Paris](https://www.cloudflarestatus.com/incidents/qz292kvy220g) | minor | 116 min |
@@ -24,19 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-07 | [Increased Workflow Instance Creation Errors](https://www.cloudflarestatus.com/incidents/np4n61ckjdw7) | minor | 2.4 h |
 | 2026-09-06 | [Purchased domains from registrar not appearing in Cloudflare Dashboard](https://www.cloudflarestatus.com/incidents/1ghtnh94pby6) | minor | 4.7 h |
 | 2026-09-06 | [Service Connectivity Issues in Canberra](https://www.cloudflarestatus.com/incidents/htwds1qczkzd) | minor | 110 min |
-| 2026-09-04 | [Elevated number of R2 503 errors in Eastern North America region](https://www.cloudflarestatus.com/incidents/ftvf8c3m4mv5) | minor | 3.5 h |
-| 2026-09-04 | [Zero Trust Dashboard - Posture Check Visibility Issue](https://www.cloudflarestatus.com/incidents/6ztvhhp2ll11) | minor | 12 min |
-| 2026-09-04 | [Cache Purging Errors](https://www.cloudflarestatus.com/incidents/ff0yvx1d6tby) | minor | 2.1 h |
-| 2026-09-04 | [SEA (Seattle) on 2026-09-04](https://www.cloudflarestatus.com/incidents/g2bxd9wkjp7j) | maintenance | — |
-| 2026-09-04 | [YUL (Montréal) on 2026-09-04](https://www.cloudflarestatus.com/incidents/hjj5lcmx7gdg) | maintenance | — |
 
-Newest 15 of 67. Full machine-readable history:
+Newest 15 of 72. Full machine-readable history:
 [`history/cloudflare.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cloudflare.json).
 
 ## What is counted, and what is not
 
-Of 67 recorded incidents, **60** have a usable length. Excluded:
-5 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 1 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 72 recorded incidents, **62** have a usable length. Excluded:
+8 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 1 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

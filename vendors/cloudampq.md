@@ -2,7 +2,7 @@
 
 **39 CloudAMPQ incidents on record** spanning **2025-09-15** to **2026-08-26**. Status page:
 [http://status.cloudamqp.com](http://status.cloudamqp.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 39 incidents where CloudAMPQ posted both a start and a resolve time.

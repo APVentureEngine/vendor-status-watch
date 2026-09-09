@@ -1,11 +1,11 @@
 # Hevo outage history — every incident their status page has posted
 
-**31 Hevo incidents on record** spanning **2025-08-05** to **2026-08-02**. Status page:
+**30 Hevo incidents on record** spanning **2025-08-10** to **2026-08-02**. Status page:
 [https://status.hevodata.com](https://status.hevodata.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.1 h** across 31 incidents where Hevo posted both a start and a resolve time.
+Median incident length: **4.0 h** across 30 incidents where Hevo posted both a start and a resolve time.
 
 This page republishes what Hevo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-11 | [Degraded Job Monitoring Performance in the US Region](https://stspg.io/q1248zxj2y9y) | minor | 8.2 h |
 | 2026-02-04 | [Degraded performance in US2 [AWS, Oregon (us-west-2)] cluster](https://stspg.io/zr4fwkt9dx0v) | minor | 52 min |
 
-Newest 15 of 31. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/hevo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/hevo.json).
 
 ## What is counted, and what is not
 
-Of 31 recorded incidents, **31** have a usable length. Excluded:
+Of 30 recorded incidents, **30** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

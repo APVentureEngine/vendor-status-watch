@@ -2,7 +2,7 @@
 
 **50 Squarespace incidents on record** spanning **2025-08-18** to **2026-08-20**. Status page:
 [https://status.squarespace.com](https://status.squarespace.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **80 min** across 49 incidents where Squarespace posted both a start and a resolve time.

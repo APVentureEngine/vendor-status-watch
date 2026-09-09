@@ -83,6 +83,10 @@
 {
 "at": "2026-09-08T12:29:58Z",
 "state": "ok"
+},
+{
+"at": "2026-09-09T12:30:34Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -92,7 +96,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T14:19:03Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-09-04T18:37:42.130Z",
 "resolved_inferred": false,
 "started_at": "2026-09-04T13:25:38.000Z",
@@ -105,7 +109,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2025-10-21T00:39:26.485Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T12:36:23.786Z",
@@ -118,7 +122,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-03-25T16:32:54.510Z",
 "resolved_inferred": false,
 "started_at": "2026-03-25T14:15:20.221Z",
@@ -144,7 +148,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-03-17T17:36:26.784Z",
 "resolved_inferred": false,
 "started_at": "2026-03-17T13:52:34.598Z",
@@ -157,7 +161,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "resolved_at": "2026-01-21T17:21:23.949Z",
 "resolved_inferred": false,
 "started_at": "2026-01-21T13:52:08.111Z",
@@ -167,7 +171,7 @@
 "url": "https://stspg.io/lhxxgd92cq4z"
 }
 },
-"last_checked": "2026-09-08T12:29:58Z",
+"last_checked": "2026-09-09T12:30:34Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

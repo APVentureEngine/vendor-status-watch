@@ -2,7 +2,7 @@
 
 **52 Granicus incidents on record** spanning **2026-06-09** to **2026-09-07**. Status page:
 [https://status.granicusops.com](https://status.granicusops.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.0 h** across 52 incidents where Granicus posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **39 InfluxData incidents on record** spanning **2025-09-04** to **2026-09-07**. Status page:
 [https://status.influxdata.com](https://status.influxdata.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.4 h** across 39 incidents where InfluxData posted both a start and a resolve time.

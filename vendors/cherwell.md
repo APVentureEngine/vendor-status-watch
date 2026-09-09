@@ -2,8 +2,8 @@
 
 **59 Cherwell incidents on record** spanning **2026-05-29** to **2026-09-08**. Status page:
 [https://status.cherwellondemand.com](https://status.cherwellondemand.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **19.9 h** across 50 incidents where Cherwell posted both a start and a resolve time.
 

@@ -1,11 +1,11 @@
 # ServiceTitan outage history — every incident their status page has posted
 
-**40 ServiceTitan incidents on record** spanning **2025-08-12** to **2026-09-01**. Status page:
+**41 ServiceTitan incidents on record** spanning **2025-08-12** to **2026-09-08**. Status page:
 [https://status.servicetitan.com](https://status.servicetitan.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.0 h** across 40 incidents where ServiceTitan posted both a start and a resolve time.
+Median incident length: **116 min** across 41 incidents where ServiceTitan posted both a start and a resolve time.
 
 This page republishes what ServiceTitan posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [[Fleet Pro] Service Availability Issue](https://stspg.io/dywnpky4d0h1) | none | 95 min |
 | 2026-09-01 | [[Phones Pro] 3rd Party Service Availability Issue](https://stspg.io/sfcrdy73rrgj) | none | 3.5 h |
 | 2026-08-19 | [[Voice Agents] 3rd Party Service Availability Issue](https://stspg.io/jskydsm54l9m) | none | 105 min |
 | 2026-08-10 | [Outbound Calls: Downstream Provider Service Availability Issue](https://stspg.io/y55kzjh121j9) | major | 7.8 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-23 | [Service Availability Issue](https://stspg.io/zf7dt59vjw2r) | none | 3.3 h |
 | 2026-04-17 | [Contact Center Pro - 3rd Party Service Availability Issue](https://stspg.io/yv36dkncsdch) | minor | 28 min |
 | 2026-03-20 | [Virtual Voice Agents Performance Degradation](https://stspg.io/3zypq6nr6nsq) | major | 57 min |
-| 2026-03-10 | [Phones Pro - Intermittent Issues](https://stspg.io/9fvxzvfssc9z) | major | 2.2 h |
 
-Newest 15 of 40. Full machine-readable history:
+Newest 15 of 41. Full machine-readable history:
 [`history/servicetitan.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/servicetitan.json).
 
 ## What is counted, and what is not
 
-Of 40 recorded incidents, **40** have a usable length. Excluded:
+Of 41 recorded incidents, **41** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

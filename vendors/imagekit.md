@@ -1,11 +1,11 @@
 # ImageKit outage history — every incident their status page has posted
 
-**28 ImageKit incidents on record** spanning **2025-08-12** to **2026-09-03**. Status page:
+**29 ImageKit incidents on record** spanning **2025-08-12** to **2026-09-08**. Status page:
 [https://statuspage.imagekit.io](https://statuspage.imagekit.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **76 min** across 28 incidents where ImageKit posted both a start and a resolve time.
+Median incident length: **73 min** across 29 incidents where ImageKit posted both a start and a resolve time.
 
 This page republishes what ImageKit posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Delayed Propagation of Media Library Updates](https://stspg.io/dkw5vxszph0g) | none | 0 min |
 | 2026-09-03 | [Slow response time for Dashboard and Media Library](https://stspg.io/82ytnsctjs90) | minor | 73 min |
 | 2026-09-02 | [Elevated API Errors](https://stspg.io/wcj33klsqh3d) | minor | 89 min |
 | 2026-07-27 | [Elevated Upload API Errors](https://stspg.io/4rvn91k1srhy) | minor | 104 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-15 | [Imagekit Dashboard Media Library Slow response](https://stspg.io/hn8kbbtbvhrf) | minor | 14 min |
 | 2025-12-16 | [Video delivery and processing service degrade](https://stspg.io/ss921v4cwb6d) | major | 2.6 h |
 | 2025-12-15 | [Slow image response time in Mumbai region](https://stspg.io/dq40jws7qdxw) | none | 61 min |
-| 2025-12-10 | [CDN cache purges are delayed](https://stspg.io/8rymqkgl59tr) | minor | 19.6 h |
 
-Newest 15 of 28. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/imagekit.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/imagekit.json).
 
 ## What is counted, and what is not
 
-Of 28 recorded incidents, **28** have a usable length. Excluded:
+Of 29 recorded incidents, **29** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

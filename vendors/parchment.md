@@ -2,7 +2,7 @@
 
 **42 Parchment incidents on record** spanning **2025-08-19** to **2026-09-04**. Status page:
 [https://status.parchment.com](https://status.parchment.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.4 h** across 38 incidents where Parchment posted both a start and a resolve time.

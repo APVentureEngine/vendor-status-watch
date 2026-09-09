@@ -1,11 +1,11 @@
 # Ledger outage history — every incident their status page has posted
 
-**52 Ledger incidents on record** spanning **2026-06-03** to **2026-09-07**. Status page:
+**54 Ledger incidents on record** spanning **2026-06-03** to **2026-09-09**. Status page:
 [https://status.ledger.com](https://status.ledger.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`partial`**.
 
-Median incident length: **28 min** across 51 incidents where Ledger posted both a start and a resolve time.
+Median incident length: **28 min** across 52 incidents where Ledger posted both a start and a resolve time.
 
 This page republishes what Ledger posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Ethereum (ETH) Mainnet Degraded Service](https://stspg.io/k8cxnnw4qyr1) | major | 50 min |
+| 2026-09-08 | [Cosmos (ATOM) Mainnet Service Disruption](https://stspg.io/5rpxls7k3zf3) | critical | — |
 | 2026-09-07 | [Cosmos (ATOM) Mainnet Degraded Service](https://stspg.io/rrjvk822bfm0) | major | 7 min |
 | 2026-09-07 | [Cosmos (ATOM) Mainnet Degraded Service](https://stspg.io/mr28hkmz97zj) | major | 15 min |
 | 2026-09-02 | [Solana (SOL) Mainnet Service Disruption](https://stspg.io/mn2xy63pnwjj) | critical | 5 min |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-22 | [Near Protocol (NEAR) Mainnet Degraded Service](https://stspg.io/9qjdgdqx6gmq) | major | 108 min |
 | 2026-08-19 | [Multiple Ledger Wallet services experiencing intermittent errors](https://stspg.io/0sv62568vksb) | minor | 19 min |
 | 2026-08-17 | [Cronos (CRO) Mainnet Service Disruption](https://stspg.io/gn3npt0bkdjr) | none | 115 min |
-| 2026-08-13 | [Polygon (MATIC) Mainnet Degraded Service](https://stspg.io/s479rgr3n6m3) | major | 10 min |
-| 2026-08-09 | [Binance (BNB) Mainnet Degraded Service](https://stspg.io/jfcwrr8r1w0x) | major | 43 min |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/ledger.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ledger.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **51** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **52** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

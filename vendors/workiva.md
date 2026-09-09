@@ -1,11 +1,11 @@
 # Workiva outage history — every incident their status page has posted
 
-**34 Workiva incidents on record** spanning **2025-08-05** to **2026-08-28**. Status page:
+**34 Workiva incidents on record** spanning **2025-08-21** to **2026-09-08**. Status page:
 [https://status.workiva.com](https://status.workiva.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.8 h** across 34 incidents where Workiva posted both a start and a resolve time.
+Median incident length: **4.1 h** across 34 incidents where Workiva posted both a start and a resolve time.
 
 This page republishes what Workiva posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [KvK Filings Not Received](https://stspg.io/w95fldxk3hx7) | minor | 15.7 h |
 | 2026-08-28 | [Exports, Blacklines and XBRL Generations Degraded on US Prod](https://stspg.io/mwy48m40xhn1) | critical | 61 min |
 | 2026-08-27 | [Classic GRC Customer Experience degraded](https://stspg.io/rwbgsr4nnd81) | none | 4.0 h |
 | 2026-08-27 | [Wdata Customer Experience unavailable](https://stspg.io/8ds331qmv0v5) | major | 2.0 h |
@@ -28,7 +29,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-22 | [Chains Service Degraded](https://stspg.io/85sdjdhzbs3j) | major | 5.3 h |
 | 2026-05-07 | [EDGAR Filings Not Received](https://stspg.io/02v5kgch15xv) | minor | 97 min |
 | 2026-05-06 | [Workiva Outage impacting app.wdesk.com](https://stspg.io/58q706ylc53v) | critical | 2.5 h |
-| 2026-04-22 | [Workiva AI degraded experience](https://stspg.io/n7ftsgdzmcx4) | minor | 3.7 h |
 
 Newest 15 of 34. Full machine-readable history:
 [`history/workiva.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/workiva.json).

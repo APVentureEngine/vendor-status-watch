@@ -23,12 +23,16 @@
 {
 "at": "2026-09-08T12:29:58Z",
 "state": "ok"
+},
+{
+"at": "2026-09-09T12:30:34Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-05T08:54:55Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-08T12:29:58Z",
+"last_checked": "2026-09-09T12:30:34Z",
 "last_description": "All systems are go!",
 "last_error": null,
 "last_state": "ok",

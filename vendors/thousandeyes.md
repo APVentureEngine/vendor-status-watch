@@ -2,7 +2,7 @@
 
 **53 ThousandEyes incidents on record** spanning **2026-01-27** to **2026-09-08**. Status page:
 [https://status.thousandeyes.com](https://status.thousandeyes.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.6 h** across 47 incidents where ThousandEyes posted both a start and a resolve time.

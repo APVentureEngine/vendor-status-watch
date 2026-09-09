@@ -1,11 +1,11 @@
 # OpenAI outage history — every incident their status page has posted
 
-**25 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-04**. Status page:
+**27 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-08**. Status page:
 [https://status.openai.com](https://status.openai.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.7 h** across 25 incidents where OpenAI posted both a start and a resolve time.
+Median incident length: **2.9 h** across 27 incidents where OpenAI posted both a start and a resolve time.
 
 This page republishes what OpenAI posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | File uploads are delayed or failing | minor | 4.6 h |
+| 2026-09-08 | Elevated errors for image generation | minor | 7.4 h |
 | 2026-09-04 | Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud | minor | 3.8 h |
 | 2026-09-03 | Elevated errors across ChatGPT and Codex | minor | 117 min |
 | 2026-09-03 | ChatGPT Work Mode High Error Rates | major | 6 min |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-20 | Elevated Errors for Thinking mode in ChatGPT | minor | 2.9 h |
 | 2026-08-20 | Chatgpt.com is down - all signups and logins are down as of right now | minor | 52 min |
 | 2026-08-18 | Elevated errors deploying Sites | minor | 20 min |
-| 2026-08-13 | Elevated errors in ChatGPT conversations for Free users | minor | 8.6 h |
-| 2026-08-13 | Error while creating custom RBAC roles for Enterprise users | none | 8.4 h |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 27. Full machine-readable history:
 [`history/openai.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/openai.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **25** have a usable length. Excluded:
+Of 27 recorded incidents, **27** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

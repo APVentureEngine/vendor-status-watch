@@ -1,11 +1,11 @@
 # Caseware Cloud outage history — every incident their status page has posted
 
-**50 Caseware Cloud incidents on record** spanning **2026-01-22** to **2026-09-01**. Status page:
+**51 Caseware Cloud incidents on record** spanning **2026-01-22** to **2026-09-08**. Status page:
 [https://status.casewarecloud.com](https://status.casewarecloud.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **75 min** across 50 incidents where Caseware Cloud posted both a start and a resolve time.
+Median incident length: **75 min** across 51 incidents where Caseware Cloud posted both a start and a resolve time.
 
 This page republishes what Caseware Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Cloud-based Engagement Solutions, Degraded Performance for US region(s)](https://stspg.io/cr8h6f98vcpj) | minor | 50 min |
 | 2026-09-01 | [Caseware Cloud Service, Degraded Performance for Australian users](https://stspg.io/7hx66cvcl46f) | minor | 45 min |
 | 2026-08-31 | [SmartSync Cloud Service, Partial Outage for United States users](https://stspg.io/6x3tf06xqknv) | major | 35 min |
 | 2026-08-14 | [Cloud-based Engagement Solutions, Degraded Performance for all regions](https://stspg.io/8knk20d7g5bx) | minor | 8.5 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-16 | [Caseware Cloud Service, Degraded Performance for United States users](https://stspg.io/7c7r8x8xj4xs) | minor | 2.0 h |
 | 2026-07-14 | [SmartSync Cloud Service, Partial Outage for Canada users](https://stspg.io/3xtx1qwn3k4d) | major | 83 min |
 | 2026-07-14 | [Cloud-based Engagement Solutions, Degraded Performance for Asia Pacific users](https://stspg.io/vf7mb9hvky0x) | minor | 2.2 h |
-| 2026-07-13 | [Cloud-based Engagement Solutions -PDF generation & Reference copy, Degraded Performance for United States users](https://stspg.io/cln03p7hhhkb) | major | 52 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/caseware-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/caseware-cloud.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

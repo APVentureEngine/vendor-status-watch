@@ -2,7 +2,7 @@
 
 **51 Vercel incidents on record** spanning **2026-05-05** to **2026-09-04**. Status page:
 [https://www.vercel-status.com](https://www.vercel-status.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **60 min** across 50 incidents where Vercel posted both a start and a resolve time.

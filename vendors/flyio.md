@@ -2,7 +2,7 @@
 
 **50 Flyio incidents on record** spanning **2026-06-22** to **2026-09-02**. Status page:
 [https://status.fly.io](https://status.fly.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **96 min** across 50 incidents where Flyio posted both a start and a resolve time.

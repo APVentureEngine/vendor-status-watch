@@ -1,11 +1,11 @@
 # SendGrid outage history — every incident their status page has posted
 
-**75 SendGrid incidents on record** spanning **2026-08-21** to **2026-09-08**. Status page:
+**84 SendGrid incidents on record** spanning **2026-08-21** to **2026-09-09**. Status page:
 [https://status.sendgrid.com](https://status.sendgrid.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **9.4 h** across 65 incidents where SendGrid posted both a start and a resolve time.
+Median incident length: **7.5 h** across 74 incidents where SendGrid posted both a start and a resolve time.
 
 This page republishes what SendGrid posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,29 +14,29 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany](https://stspg.io/my2r6j6wcb66) | minor | — |
-| 2026-09-08 | [SMS Delivery Delays from Twilio to Megafon Tajikistan](https://stspg.io/d6k6v6yqtx16) | minor | — |
+| 2026-09-09 | [New Twilio Console – Voice 'Try It Out' Service Interruption](https://stspg.io/h617j0z16wt5) | minor | — |
+| 2026-09-09 | [Australia Voice Carrier Partner Maintenance](https://stspg.io/16k5sgzfdqw3) | maintenance | — |
+| 2026-09-08 | [SMS Delivery Delays from Twilio to Pelephone Israel](https://stspg.io/lzx3lsrqzmxh) | minor | 5.3 h |
+| 2026-09-08 | [SMS Delivery Delays from a Subset of Twilio Short Codes to C-spire and Dish United States](https://stspg.io/pt48pvssqxks) | minor | 2.9 h |
+| 2026-09-08 | [Voice Call Failures from Twilio Phone Numbers to Argentina](https://stspg.io/9dt6jb92df55) | minor | 9.2 h |
+| 2026-09-08 | [SMS Delivery Receipt Delays from Twilio to Safaricom Kenya](https://stspg.io/x4dx2tv6816h) | minor | 2.4 h |
+| 2026-09-08 | [Twilio Messaging Services Was Degraded](https://stspg.io/8kdtxgf405cw) | none | 12 min |
+| 2026-09-08 | [SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Short Codes to Vodafone Italy](https://stspg.io/x8jgt5j6ql45) | minor | — |
+| 2026-09-08 | [SMS Delivery Failures from a Subset of Twilio Long Codes to Multiple Networks in France](https://stspg.io/184nnb23lxfv) | minor | 2.4 h |
+| 2026-09-08 | [Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Germany](https://stspg.io/my2r6j6wcb66) | minor | 4.0 h |
+| 2026-09-08 | [SMS Delivery Delays from Twilio to Megafon Tajikistan](https://stspg.io/d6k6v6yqtx16) | minor | 11.5 h |
 | 2026-09-08 | [SMS Delivery Delays from Twilio to Tigo Honduras](https://stspg.io/tsc479rzf9t4) | minor | 41 min |
 | 2026-09-07 | [SMS Delivery Delays from Twilio to AT&T Mexico](https://stspg.io/06g9f3mrj9p1) | minor | 6.5 h |
-| 2026-09-07 | [SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless LLC United States](https://stspg.io/z79xc4gr373d) | minor | — |
+| 2026-09-07 | [SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Nex-Tech Wireless United States](https://stspg.io/z79xc4gr373d) | minor | 22.2 h |
 | 2026-09-07 | [Automated Alert: No Customer Impact](https://stspg.io/cvxwnkhd9wxc) | none | 26 min |
-| 2026-09-07 | [SMS Delivery Delays and Failures from Twilio Phone Numbers to Robi Bangladesh](https://stspg.io/1w46mvr0sqr5) | minor | 10.7 h |
-| 2026-09-07 | [SMS Delivery Delays and Failures from Twilio to Telefonica Spain](https://stspg.io/3wzt5ms4hgt2) | minor | 2.6 h |
-| 2026-09-06 | [SMS Delivery Delays from Twilio to MTN Congo](https://stspg.io/rs1x159791fg) | minor | 6.7 h |
-| 2026-09-06 | [MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States](https://stspg.io/fp77r2fzkvw0) | minor | 17.2 h |
-| 2026-09-05 | [SMS Delivery Receipt Delays from Twilio to Mauritel Mauritania](https://stspg.io/w4jztp2ccmcq) | minor | 21.5 h |
-| 2026-09-05 | [SMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in India](https://stspg.io/9gj90g028bg0) | minor | 108 min |
-| 2026-09-05 | [User Authentication Identity Gateway API Failure Increase for Pacificeast in United States](https://stspg.io/bnps82301v7z) | minor | 4.7 h |
-| 2026-09-04 | [Voice Call Failures from a Subset of Twilio Phone Numbers to Switzerland](https://stspg.io/8dmk6mw2yw7k) | minor | 25.1 h |
-| 2026-09-04 | [Interconnection Infrastructure Upgrade (SG1 – Edge2 Switch)](https://stspg.io/yvltfkxpx0p6) | maintenance | — |
 
-Newest 15 of 75. Full machine-readable history:
+Newest 15 of 84. Full machine-readable history:
 [`history/sendgrid.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sendgrid.json).
 
 ## What is counted, and what is not
 
-Of 75 recorded incidents, **65** have a usable length. Excluded:
-6 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 84 recorded incidents, **74** have a usable length. Excluded:
+7 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

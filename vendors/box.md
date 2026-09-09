@@ -1,11 +1,11 @@
 # Box outage history — every incident their status page has posted
 
-**50 Box incidents on record** spanning **2025-09-22** to **2026-09-03**. Status page:
+**51 Box incidents on record** spanning **2025-09-18** to **2026-09-03**. Status page:
 [https://status.box.com](https://status.box.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **70 min** across 50 incidents where Box posted both a start and a resolve time.
+Median incident length: **73 min** across 51 incidents where Box posted both a start and a resolve time.
 
 This page republishes what Box posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-23 | [[Medium] Issues with Box Hubs](https://stspg.io/vh4zgdtq8z4x) | major | 15 min |
 | 2026-07-23 | [[Medium] Issues with File Requests](https://stspg.io/tt41whfy05bc) | major | 116 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/box.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/box.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

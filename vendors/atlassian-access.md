@@ -1,11 +1,11 @@
 # Atlassian Access outage history — every incident their status page has posted
 
-**12 Atlassian Access incidents on record** spanning **2025-08-04** to **2026-05-14**. Status page:
+**11 Atlassian Access incidents on record** spanning **2025-09-22** to **2026-05-14**. Status page:
 [https://access.status.atlassian.com](https://access.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **12** Atlassian Access incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **11** Atlassian Access incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Atlassian Access posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -25,14 +25,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-13 | [2FA, Password reset, OTP, and verification emails being quarantined](https://stspg.io/xg512x20wxw7) | none | 3.2 days |
 | 2025-10-20 | [Atlassian Cloud Services impacted](https://stspg.io/kt1jwrnjf11l) | major | 21.5 h |
 | 2025-09-22 | [Degraded performance to multiple Atlassian experiences](https://stspg.io/jdd6vp4h0rb5) | minor | 77 min |
-| 2025-08-04 | [Product invitation emails not being correctly sent to users](https://stspg.io/k9786g6kqzyp) | minor | 4.6 h |
 
-Newest 12 of 12. Full machine-readable history:
+Newest 11 of 11. Full machine-readable history:
 [`history/atlassian-access.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/atlassian-access.json).
 
 ## What is counted, and what is not
 
-Of 12 recorded incidents, **12** have a usable length. Excluded:
+Of 11 recorded incidents, **11** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

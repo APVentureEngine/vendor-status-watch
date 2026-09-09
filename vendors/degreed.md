@@ -2,7 +2,7 @@
 
 **11 Degreed incidents on record** spanning **2025-08-06** to **2026-08-31**. Status page:
 [https://degreed.statuspage.io](https://degreed.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **11** Degreed incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

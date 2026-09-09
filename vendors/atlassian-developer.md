@@ -2,7 +2,7 @@
 
 **50 Atlassian Developer incidents on record** spanning **2025-09-08** to **2026-09-02**. Status page:
 [https://developer.status.atlassian.com](https://developer.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 50 incidents where Atlassian Developer posted both a start and a resolve time.

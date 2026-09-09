@@ -2,7 +2,7 @@
 
 **26 Clerk incidents on record** spanning **2026-04-25** to **2026-09-04**. Status page:
 [https://status.clerk.com](https://status.clerk.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **48 min** across 24 incidents where Clerk posted both a start and a resolve time.

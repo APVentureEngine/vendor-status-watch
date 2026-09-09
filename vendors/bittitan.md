@@ -2,10 +2,10 @@
 
 **11 Bittitan incidents on record** spanning **2025-12-05** to **2026-09-03**. Status page:
 [https://status.bittitan.com](https://status.bittitan.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **10** Bittitan incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **11** Bittitan incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Bittitan posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-03 | [MigrationWiz Document Migration Errors](https://stspg.io/l3sfcl2z3jxs) | none | — |
+| 2026-09-03 | [MigrationWiz Document Migration Errors](https://stspg.io/l3sfcl2z3jxs) | none | 5.0 days |
 | 2026-07-08 | [Investigating: OneDrive to OneDrive Migrations Using Delegate Application Authentication](https://stspg.io/z8q3hw8pp53d) | minor | 3.3 h |
 | 2026-02-25 | [Shopping Cart System Service Disruption (US Only)](https://stspg.io/fkl0d0ywh97w) | none | 4.3 h |
 | 2026-02-23 | [Shopping Cart System Service Disruption](https://stspg.io/svt1lgjm1y3x) | none | 15.5 h |
@@ -31,8 +31,8 @@ Newest 11 of 11. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 11 recorded incidents, **10** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 11 recorded incidents, **11** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

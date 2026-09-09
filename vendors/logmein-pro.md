@@ -1,11 +1,11 @@
 # LogMeIn Pro outage history — every incident their status page has posted
 
-**40 LogMeIn Pro incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
+**41 LogMeIn Pro incidents on record** spanning **2025-08-20** to **2026-09-08**. Status page:
 [https://status.logmeinaccess.com](https://status.logmeinaccess.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **68 min** across 40 incidents where LogMeIn Pro posted both a start and a resolve time.
+Median incident length: **67 min** across 41 incidents where LogMeIn Pro posted both a start and a resolve time.
 
 This page republishes what LogMeIn Pro posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Connectivity issues](https://stspg.io/g1cy85v9yhb9) | major | 52 min |
 | 2026-09-04 | [Emails not being delivered to customers](https://stspg.io/n7g499hjd5j4) | major | 60 min |
 | 2026-08-27 | [LogMeIn Rescue, G2ARS v5, Pro, and Central - Elevated session launch failures](https://stspg.io/myc1b4ssqqkj) | major | 24.5 h |
 | 2026-08-15 | [Grasshopper - password reset and OTP emails blocked](https://stspg.io/q488119xj1cy) | major | 90 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-08 | [Grasshopper - Login Issues](https://stspg.io/z6plt5brq1s9) | minor | 15.8 h |
 | 2026-05-07 | [GoTo Connect - Call Recording and Transcript](https://stspg.io/q9yknppncflj) | major | 7.5 h |
 | 2026-05-06 | [GoTo App - Cannot connect](https://stspg.io/y0gwvkx00wrz) | major | 27 min |
-| 2026-04-20 | [Login to GoTo applications - 504 timeout - multiple products impacted](https://stspg.io/z7k2xb8vk12n) | major | 69 min |
 
-Newest 15 of 40. Full machine-readable history:
+Newest 15 of 41. Full machine-readable history:
 [`history/logmein-pro.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/logmein-pro.json).
 
 ## What is counted, and what is not
 
-Of 40 recorded incidents, **40** have a usable length. Excluded:
+Of 41 recorded incidents, **41** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

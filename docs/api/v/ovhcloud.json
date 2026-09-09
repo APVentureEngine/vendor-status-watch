@@ -3,15 +3,57 @@
 "slug": "ovhcloud",
 "platform": "status.io",
 "status_url": "https://status.us.ovhcloud.com",
-"last_checked": "2026-09-08T12:29:58Z",
+"last_checked": "2026-09-09T12:30:34Z",
 "last_state": "maintenance",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
 "incidents": [
 {
+"body": "We are aware of an issue affecting a PCI host in this region. Some PCI instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.\r\n\r\nFor questions please contact our Support team for assistance: support.us.ovhcloud.com/hc/en-us/articles/115001819764-How-to-contact-OVHcloud-US-Support",
+"first_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-09T12:30:34Z",
+"started_at": "2026-09-09T08:48:10.588Z",
+"state": "investigating",
+"title": "PCI host outage in US-EAST-VA-1",
+"updated_at": "2026-09-09T08:48:10.601Z",
+"url": "https://status.us.ovhcloud.com"
+},
+{
+"body": "We are aware of an issue affecting a VPS host in this region. Some VPS instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.\r\n\r\nFor questions please contact our Support team for assistance: support.us.ovhcloud.com/hc/en-us/articles/115001819764-How-to-contact-OVHcloud-US-Support\r\n",
+"first_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-09T12:30:34Z",
+"started_at": "2026-09-09T08:29:06.543Z",
+"state": "investigating",
+"title": "VPS host outage in US-EAST-VA-2",
+"updated_at": "2026-09-09T08:29:06.580Z",
+"url": "https://status.us.ovhcloud.com"
+},
+{
+"body": "We are aware of an issue affecting a PCI host in this region. Some PCI instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.\r\n\r\nFor questions please contact our Support team for assistance: support.us.ovhcloud.com/hc/en-us/articles/115001819764-How-to-contact-OVHcloud-US-Support",
+"first_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-09T12:30:34Z",
+"started_at": "2026-09-09T00:48:25.184Z",
+"state": "investigating",
+"title": "PCI host outage in US-EAST-VA-1",
+"updated_at": "2026-09-09T00:48:25.206Z",
+"url": "https://status.us.ovhcloud.com"
+},
+{
+"body": "We are aware of an issue affecting a PCI host in this region. Some PCI instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.\r\n\r\nFor questions please contact our Support team for assistance: support.us.ovhcloud.com/hc/en-us/articles/115001819764-How-to-contact-OVHcloud-US-Support",
+"first_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-09T12:30:34Z",
+"started_at": "2026-09-08T17:26:52.415Z",
+"state": "investigating",
+"title": "PCI host outage in US-EAST-VA-1",
+"updated_at": "2026-09-08T17:26:52.455Z",
+"url": "https://status.us.ovhcloud.com"
+},
+{
 "body": "OVHcloud support staff is currently investigating a network fault at the Vint Hill Data Center in Rack V119G26 and V119G27 affecting connectivity.",
 "first_seen": "2026-09-06T12:28:17Z",
 "last_seen": "2026-09-08T12:29:58Z",
+"resolved_at": "2026-09-09T12:30:34Z",
+"resolved_inferred": true,
 "started_at": "2026-09-06T10:11:00.000Z",
 "state": "investigating",
 "title": "VIN - Network Issue - V119G26 - V119G27",
@@ -33,7 +75,7 @@
 {
 "first_seen": "2026-09-08T12:29:58Z",
 "impact": "maintenance",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "started_at": "2026-09-04T15:00:58.638Z",
 "state": "maintenance",
 "title": "Block storage maintenance notification[US-WEST-OR-1]",
@@ -54,7 +96,7 @@
 {
 "body": "Cancellation reversal is currently not working as intended. If the VPS is set to cancel and a request is made to cancel the service cancellation, it remains flagged for removal. \r\n\r\nIf you are attempting to remove services for VPS, please reach out to our support team by opening a ticket. \r\n\r\n",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "started_at": "2026-08-25T14:42:14.789Z",
 "state": "investigating",
 "title": "Service Cancelation issue for VPS Product",
@@ -64,7 +106,7 @@
 {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "started_at": "2026-08-20T04:05:04.640Z",
 "state": "maintenance",
 "title": "Maintenance to perform vCSA Minor Upgrade to 8.0U3k",
@@ -84,7 +126,7 @@
 {
 "body": "OVHcloud support staff is currently monitoring a rack fault in 120A02B. Power to the rack was  temporarily disrupted and has been restored . All servers on the rack are currently backup. If you are experiencing any issues please reach out to OVHcloud support staff.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "started_at": "2026-04-03T14:02:00.000Z",
 "state": "investigating",
 "title": "[VIN1] Server Power Loss VIN0120A02B",
@@ -94,7 +136,7 @@
 {
 "body": "The down VPS host has been brought back up, and all instances are running normally.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-08T12:29:58Z",
+"last_seen": "2026-09-09T12:30:34Z",
 "started_at": "2026-03-24T19:52:00.000Z",
 "state": "investigating",
 "title": "One VPS host down in VIN",

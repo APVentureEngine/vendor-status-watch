@@ -2,10 +2,10 @@
 
 **54 Cloudsigma incidents on record** spanning **2025-09-12** to **2026-09-08**. Status page:
 [https://status.cloudsigma.com](https://status.cloudsigma.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **2.3 h** across 51 incidents where Cloudsigma posted both a start and a resolve time.
+Median incident length: **2.3 h** across 52 incidents where Cloudsigma posted both a start and a resolve time.
 
 This page republishes what Cloudsigma posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,7 +15,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-08 | [[MNL2] Hardware Maintenance](https://stspg.io/qlzytfchdlfn) | maintenance | — |
-| 2026-09-08 | [[ZRH][GVA] Network Issue](https://stspg.io/wr3ynq42lwq2) | minor | — |
+| 2026-09-08 | [[ZRH][GVA] Network Issue](https://stspg.io/wr3ynq42lwq2) | minor | 8.9 h |
 | 2026-09-07 | [[ZRH][GVA] Network outage](https://stspg.io/8f2jh6m2s3ll) | major | 87 min |
 | 2026-09-04 | [[GVA] Inaccessible PaaS Panel](https://stspg.io/np91yrb5tv28) | minor | — |
 | 2026-09-03 | [[MNL2][CRK] Connectivity Issues](https://stspg.io/3fpk4czgqygl) | minor | 26.9 h |
@@ -35,8 +35,8 @@ Newest 15 of 54. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **51** have a usable length. Excluded:
-1 maintenance, 1 still open or missing a timestamp, 1 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **52** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 1 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

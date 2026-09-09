@@ -2,7 +2,7 @@
 
 **21 NetDocuments US incidents on record** spanning **2025-09-03** to **2026-07-16**. Status page:
 [https://trust-us.netdocuments.com](https://trust-us.netdocuments.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.9 h** across 21 incidents where NetDocuments US posted both a start and a resolve time.

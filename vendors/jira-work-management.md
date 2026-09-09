@@ -2,7 +2,7 @@
 
 **20 Jira Work Management incidents on record** spanning **2025-08-07** to **2026-09-01**. Status page:
 [https://jira-work-management.status.atlassian.com](https://jira-work-management.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 20 incidents where Jira Work Management posted both a start and a resolve time.

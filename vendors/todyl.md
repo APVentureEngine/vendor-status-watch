@@ -2,7 +2,7 @@
 
 **51 Todyl incidents on record** spanning **2025-11-07** to **2026-09-05**. Status page:
 [http://status.todyl.com](http://status.todyl.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 49 incidents where Todyl posted both a start and a resolve time.

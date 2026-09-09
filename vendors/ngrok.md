@@ -1,11 +1,11 @@
 # Ngrok outage history — every incident their status page has posted
 
-**14 Ngrok incidents on record** spanning **2025-08-11** to **2026-09-03**. Status page:
+**16 Ngrok incidents on record** spanning **2025-08-11** to **2026-09-08**. Status page:
 [https://status.ngrok.com](https://status.ngrok.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **14** Ngrok incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **16** Ngrok incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Ngrok posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Error when signing in via SSO](https://stspg.io/9b514j1t1wcc) | major | 102 min |
+| 2026-09-08 | [Endpoints using traffic policies are erroneously hitting limits](https://stspg.io/w90tznpdgvdk) | major | 84 min |
 | 2026-09-03 | [New accounts or newly created authtokens are not able to connect](https://stspg.io/bvhnjx5zffsq) | none | 36 min |
 | 2026-08-28 | [User invites disruption](https://stspg.io/gss8dg777mv5) | none | 0 min |
 | 2026-06-18 | [Delays issuing certificates](https://stspg.io/mfc4m9lmryc9) | minor | 8.8 h |
@@ -27,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-04 | [Connection issues with endpoints](https://stspg.io/1hlbzpxf3pzx) | major | 4.0 h |
 | 2025-08-27 | [Errors on our billing and usage pages](https://stspg.io/vlgfg2r329tn) | major | 40 min |
 | 2025-08-13 | [Some customers are running into degraded tunnel starts in all regions](https://stspg.io/30sg5y687s6n) | major | 2.7 h |
-| 2025-08-11 | [Agent connections in the SA region are receiving errors when starting](https://stspg.io/3br214p36v7v) | major | 67 min |
 
-Newest 14 of 14. Full machine-readable history:
+Newest 15 of 16. Full machine-readable history:
 [`history/ngrok.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ngrok.json).
 
 ## What is counted, and what is not
 
-Of 14 recorded incidents, **14** have a usable length. Excluded:
+Of 16 recorded incidents, **16** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

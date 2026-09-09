@@ -1,11 +1,11 @@
 # Webroot outage history — every incident their status page has posted
 
-**55 Webroot incidents on record** spanning **2026-05-21** to **2026-09-07**. Status page:
+**56 Webroot incidents on record** spanning **2026-05-21** to **2026-09-09**. Status page:
 [https://status.webroot.com](https://status.webroot.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`partial`**.
 
-Median incident length: **3.9 h** across 50 incidents where Webroot posted both a start and a resolve time.
+Median incident length: **3.9 h** across 51 incidents where Webroot posted both a start and a resolve time.
 
 This page republishes what Webroot posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Frankfurt EU8 experienced service degradation](https://stspg.io/6wk9q6csp1b1) | minor | 24 min |
 | 2026-09-07 | [IM3970459 - Certificate Renewal](https://stspg.io/rwtlr3nwnbjk) | maintenance | — |
 | 2026-09-06 | [Singapore SG20 Application Maintenance scheduled for 6 September 2026](https://stspg.io/pp7x6bncb6bf) | maintenance | — |
 | 2026-09-06 | [Sydney AP10 Application Maintenance scheduled for 6 September 2026](https://stspg.io/bld1mtv17trw) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-13 | [Cloud Fax services experienced delays in processing of fax files](https://stspg.io/8238ndf99z1l) | minor | 113 min |
 | 2026-08-09 | [Enterprise Service Management might have experienced issues accessing applications.](https://stspg.io/13xx9gnzqc3s) | minor | 17.2 h |
 | 2026-08-08 | ["Unknown Error" in CP Portal](https://stspg.io/vnn2f10l5p32) | major | 45.9 h |
-| 2026-08-07 | [Secure Cloud Portal - Microsoft 365 License Adjustements](https://stspg.io/crt579pkjntl) | none | 6.0 days |
 
-Newest 15 of 55. Full machine-readable history:
+Newest 15 of 56. Full machine-readable history:
 [`history/webroot.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/webroot.json).
 
 ## What is counted, and what is not
 
-Of 55 recorded incidents, **50** have a usable length. Excluded:
+Of 56 recorded incidents, **51** have a usable length. Excluded:
 4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

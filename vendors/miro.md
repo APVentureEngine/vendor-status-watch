@@ -1,9 +1,9 @@
 # Miro outage history — every incident their status page has posted
 
-**18 Miro incidents on record** spanning **2025-08-19** to **2026-08-31**. Status page:
+**19 Miro incidents on record** spanning **2025-08-19** to **2026-09-08**. Status page:
 [https://status.miro.com](https://status.miro.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`partial`**.
 
 Only **18** Miro incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | Sign-in with username and password is unavailable | major | — |
 | 2026-08-31 | Intermittent Issues with User Registration and Login | major | 85 min |
 | 2026-05-21 | Functionality degradation in Miro AI | minor | 3.7 h |
 | 2026-05-04 | Miro is partially down | major | 2.6 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-18 | Ongoing incident with one of our providers - Cloudflare | minor | 3.3 h |
 | 2025-10-30 | Application degradation in the US data residency | major | 60 min |
 | 2025-10-20 | Miro degraded | major | 4.8 h |
-| 2025-10-20 | User search degradation | major | 21.7 h |
 
-Newest 15 of 18. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/miro.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/miro.json).
 
 ## What is counted, and what is not
 
-Of 18 recorded incidents, **18** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 19 recorded incidents, **18** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

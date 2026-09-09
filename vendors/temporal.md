@@ -2,7 +2,7 @@
 
 **50 Temporal incidents on record** spanning **2026-04-10** to **2026-09-03**. Status page:
 [https://status.temporal.io](https://status.temporal.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 50 incidents where Temporal posted both a start and a resolve time.

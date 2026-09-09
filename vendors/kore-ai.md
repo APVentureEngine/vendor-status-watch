@@ -2,8 +2,8 @@
 
 **52 Kore.ai incidents on record** spanning **2026-04-07** to **2026-09-08**. Status page:
 [https://status.kore.com](https://status.kore.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **48 min** across 50 incidents where Kore.ai posted both a start and a resolve time.
 

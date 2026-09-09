@@ -1,11 +1,11 @@
 # Vonage API outage history — every incident their status page has posted
 
-**54 Vonage API incidents on record** spanning **2026-07-22** to **2026-09-07**. Status page:
+**57 Vonage API incidents on record** spanning **2026-07-22** to **2026-09-09**. Status page:
 [https://vonageapi.statuspage.io](https://vonageapi.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`degraded`**.
 
-Median incident length: **3.0 h** across 51 incidents where Vonage API posted both a start and a resolve time.
+Median incident length: **2.9 h** across 52 incidents where Vonage API posted both a start and a resolve time.
 
 This page republishes what Vonage API posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Australia Voice - Maintenance affecting Long Virtual Numbers](https://stspg.io/yt6rn0xncmjj) | maintenance | — |
+| 2026-09-09 | [Italy SMS - Delivery degradation affecting subset of Italy LVNs](https://stspg.io/ltqytlfbft95) | minor | — |
+| 2026-09-08 | [USA SMS - Delivery degradation affecting a subset of Short Codes sending towards US Networks](https://stspg.io/gf8hmdntlgrd) | minor | 2.2 h |
 | 2026-09-07 | [Service issue in Voice API platform](https://stspg.io/0xq443cb31mq) | minor | 92 min |
 | 2026-09-04 | [Issues impacting Verify API Email channel](https://stspg.io/p2wzy1xrwnlw) | minor | 5.0 h |
 | 2026-09-04 | [Canada Silent Authentication - Planned maintenance impacting multiple operators](https://stspg.io/hc4xpcwtrfy6) | maintenance | — |
@@ -26,17 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-01 | [USA MMS - Latency affecting MMS messages sent towards AT&T network](https://stspg.io/p3lfmwynxwgf) | minor | 9.4 h |
 | 2026-08-31 | [USA SMS - Delivery/MT receipt degradation affecting a subset of Short Codes to T-mobile](https://stspg.io/znml26dgsshc) | minor | 3.4 h |
 | 2026-08-29 | [India - multiple networks - MULTIPLE CHANNEL PROCESSING DEGRADATION](https://stspg.io/4ms77yv1hsmt) | minor | 2.1 days |
-| 2026-08-29 | [France Silent Authentication - Service degradation affecting Bouygues Telecom](https://stspg.io/2bmq2560bkpy) | minor | 119 min |
-| 2026-08-28 | [Voice API Issue in the US Region](https://stspg.io/j89dtdm3bfh3) | none | 54 min |
-| 2026-08-25 | [Issues impacting Conversational Connect](https://stspg.io/ynrtk2hs7nj7) | none | 36 min |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 57. Full machine-readable history:
 [`history/vonage-api.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/vonage-api.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **51** have a usable length. Excluded:
-3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 57 recorded incidents, **52** have a usable length. Excluded:
+4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,11 +1,11 @@
 # Assembled outage history — every incident their status page has posted
 
-**34 Assembled incidents on record** spanning **2025-08-04** to **2026-09-08**. Status page:
+**33 Assembled incidents on record** spanning **2025-08-06** to **2026-09-08**. Status page:
 [https://status.assembled.com](https://status.assembled.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **31 min** across 34 incidents where Assembled posted both a start and a resolve time.
+Median incident length: **33 min** across 33 incidents where Assembled posted both a start and a resolve time.
 
 This page republishes what Assembled posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-12 | [Assembled is experiencing site-wide issues](https://stspg.io/3mrxplr74h1x) | critical | 20 min |
 | 2026-05-07 | [Contact data not appearing in staffing timeline and reports](https://stspg.io/735l1fxp3wy4) | none | 0 min |
 
-Newest 15 of 34. Full machine-readable history:
+Newest 15 of 33. Full machine-readable history:
 [`history/assembled.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/assembled.json).
 
 ## What is counted, and what is not
 
-Of 34 recorded incidents, **34** have a usable length. Excluded:
+Of 33 recorded incidents, **33** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

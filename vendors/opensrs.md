@@ -2,7 +2,7 @@
 
 **48 Opensrs incidents on record** spanning **2025-08-05** to **2026-09-01**. Status page:
 [https://www.opensrsstatus.com](https://www.opensrsstatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **87 min** across 48 incidents where Opensrs posted both a start and a resolve time.

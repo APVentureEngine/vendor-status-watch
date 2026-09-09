@@ -1,11 +1,11 @@
 # Coinbase outage history — every incident their status page has posted
 
-**53 Coinbase incidents on record** spanning **2026-07-17** to **2026-09-07**. Status page:
+**54 Coinbase incidents on record** spanning **2026-07-17** to **2026-09-08**. Status page:
 [https://coinbase.statuspage.io](https://coinbase.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **86 min** across 52 incidents where Coinbase posted both a start and a resolve time.
+Median incident length: **86 min** across 54 incidents where Coinbase posted both a start and a resolve time.
 
 This page republishes what Coinbase posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,10 +14,11 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Delayed Sends/Receives - ATOM](https://stspg.io/plj7yw6mv4y3) | none | 24 min |
 | 2026-09-07 | [Degraded Performance - Futures and Prediction Markets Trading](https://stspg.io/t9m3vv4swffc) | none | 36 min |
 | 2026-09-06 | [Delayed Sends/Receives - Optimism](https://stspg.io/cky5gj2rs57g) | none | 55 min |
 | 2026-09-05 | [Delayed Sends/Receives - BSC Network](https://stspg.io/p08lz642g5vk) | none | 50 min |
-| 2026-09-03 | [Degraded Performance - Derivatives Positions](https://stspg.io/h3x4sldc943y) | minor | — |
+| 2026-09-03 | [Degraded Performance - Derivatives Positions](https://stspg.io/h3x4sldc943y) | minor | 4.6 days |
 | 2026-09-03 | [Delayed Sends/Receives - Mina](https://stspg.io/kw2rxq3kfgp1) | none | 11.3 h |
 | 2026-09-03 | [Delayed Sends and Receives - Ethereum Network](https://stspg.io/2whd22bdmmn3) | none | 78 min |
 | 2026-09-03 | [Degraded Performance - Derivatives Positions](https://stspg.io/146jtb1z5ncd) | minor | 39 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-01 | [Degraded performance - Coinbase Onramp](https://stspg.io/g2sktrxp49x9) | minor | 81 min |
 | 2026-09-01 | [Site Performance - Prediction Markets](https://stspg.io/q5k7g2grny94) | none | 4 min |
 | 2026-08-31 | [Delayed Sends/Receives - Injective Network](https://stspg.io/pp39cz1wtmsl) | none | 14.9 h |
-| 2026-08-30 | [Paused Sends/Receives - Core DAO Network](https://stspg.io/43s6cqkzm7vh) | none | 6.7 days |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/coinbase.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coinbase.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **52** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **54** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

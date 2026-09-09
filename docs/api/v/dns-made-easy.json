@@ -3,9 +3,19 @@
 "slug": "dns-made-easy",
 "platform": "status.io",
 "status_url": "https://dnsstatus.com",
-"last_checked": "2026-09-08T12:29:58Z",
-"last_state": "ok",
+"last_checked": "2026-09-09T12:30:34Z",
+"last_state": "maintenance",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
-"incidents": []
+"incidents": [
+{
+"first_seen": "2026-09-09T12:30:34Z",
+"impact": "maintenance",
+"last_seen": "2026-09-09T12:30:34Z",
+"started_at": "2026-09-09T12:08:24.218Z",
+"state": "maintenance",
+"title": "Network Maintenance in Washington DC, US PoP",
+"url": "https://dnsstatus.com"
+}
+]
 }

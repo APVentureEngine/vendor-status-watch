@@ -2,7 +2,7 @@
 
 **13 Cockroach Labs incidents on record** spanning **2025-09-24** to **2026-09-01**. Status page:
 [https://status.cockroachlabs.cloud](https://status.cockroachlabs.cloud) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **13** Cockroach Labs incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

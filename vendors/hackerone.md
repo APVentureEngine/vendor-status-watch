@@ -2,7 +2,7 @@
 
 **21 HackerOne incidents on record** spanning **2025-08-28** to **2026-08-14**. Status page:
 [https://www.hackeronestatus.com](https://www.hackeronestatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 21 incidents where HackerOne posted both a start and a resolve time.

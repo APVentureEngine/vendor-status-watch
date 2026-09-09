@@ -1,11 +1,11 @@
 # Ionos Cloud outage history — every incident their status page has posted
 
-**51 Ionos Cloud incidents on record** spanning **2026-05-08** to **2026-09-04**. Status page:
+**53 Ionos Cloud incidents on record** spanning **2026-05-08** to **2026-09-08**. Status page:
 [https://status.ionos.cloud](https://status.ionos.cloud) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **22.1 h** across 49 incidents where Ionos Cloud posted both a start and a resolve time.
+Median incident length: **21.7 h** across 50 incidents where Ionos Cloud posted both a start and a resolve time.
 
 This page republishes what Ionos Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [TXL - Network Connectivity](https://stspg.io/yhcpwhz191tz) | minor | — |
+| 2026-09-08 | [Cloud Support: Limited Phone Support Availability](https://stspg.io/w55tst6ln1tx) | minor | 7.7 h |
 | 2026-09-04 | [Cloud Support: Limited Phone Support Availability](https://stspg.io/lj94bvfrkk8y) | minor | 3.6 days |
 | 2026-09-01 | [Partner Subcontracts can not access new location de/fra/1](https://stspg.io/wnv06cj6dsm0) | minor | 2.6 h |
 | 2026-08-31 | [DCD is Currently Unavailable](https://stspg.io/313v8jdt0dm8) | major | 88 min |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-04 | [Managed Kubernetes - Intermittent Control Plane Unavailability](https://stspg.io/lf7frx7rltr6) | minor | 6.4 days |
 | 2026-08-04 | [Cloud Support: Telephone Line Availability Degraded](https://stspg.io/jzcx35pb662q) | minor | 102 min |
 | 2026-07-28 | [Connectivity Issues with DBaaS (MongoDB)](https://stspg.io/f975x3t3ccwm) | major | 2.8 h |
-| 2026-07-25 | [LAS: Storage Loss of Redundancy](https://stspg.io/jqd4pvg8q3k5) | minor | 82 min |
-| 2026-07-24 | [Cloud Support: Limited Phone Support Availability](https://stspg.io/qwkfzw8y09ty) | minor | 3.0 days |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/ionos-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ionos-cloud.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

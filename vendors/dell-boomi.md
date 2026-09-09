@@ -1,11 +1,11 @@
 # Dell Boomi outage history — every incident their status page has posted
 
-**29 Dell Boomi incidents on record** spanning **2025-08-04** to **2026-08-06**. Status page:
+**28 Dell Boomi incidents on record** spanning **2025-09-22** to **2026-08-06**. Status page:
 [https://status.boomi.com](https://status.boomi.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.2 h** across 29 incidents where Dell Boomi posted both a start and a resolve time.
+Median incident length: **2.2 h** across 28 incidents where Dell Boomi posted both a start and a resolve time.
 
 This page republishes what Dell Boomi posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-14 | [Boomi - Process Reporting Document Metadata Degraded - Resolved](https://stspg.io/xs9wg3k7q5rq) | minor | 23.7 h |
 | 2025-12-11 | [Boomi - Data Integration Service - Degraded - Resolved](https://stspg.io/r5t46qckn1gv) | minor | 14 min |
 
-Newest 15 of 29. Full machine-readable history:
+Newest 15 of 28. Full machine-readable history:
 [`history/dell-boomi.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/dell-boomi.json).
 
 ## What is counted, and what is not
 
-Of 29 recorded incidents, **29** have a usable length. Excluded:
+Of 28 recorded incidents, **28** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

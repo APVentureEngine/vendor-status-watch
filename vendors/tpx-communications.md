@@ -2,10 +2,10 @@
 
 **30 TPx Communications incidents on record** spanning **2025-08-08** to **2026-09-02**. Status page:
 [https://tpxcommunications.statuspage.io](https://tpxcommunications.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **17.7 h** across 28 incidents where TPx Communications posted both a start and a resolve time.
+Median incident length: **18.3 h** across 29 incidents where TPx Communications posted both a start and a resolve time.
 
 This page republishes what TPx Communications posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-02 | [Los Angeles Internet Traffic Degradation](https://stspg.io/t54dqtrrgrj5) | minor | — |
+| 2026-09-02 | [Los Angeles Internet Traffic Degradation](https://stspg.io/t54dqtrrgrj5) | minor | 6.0 days |
 | 2026-08-25 | [Arista Velocloud Platform Maintenance](https://stspg.io/n3pvyrmtsf1h) | minor | 7.9 days |
 | 2026-08-13 | [Arista Velocloud Platform Maintenance](https://stspg.io/y3ctc0yyhws9) | minor | 7.7 days |
 | 2026-08-10 | [Atlanta Slow Internet Event](https://stspg.io/vfdwkxctj07c) | minor | 14.1 h |
@@ -35,8 +35,8 @@ Newest 15 of 30. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 30 recorded incidents, **28** have a usable length. Excluded:
-1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 30 recorded incidents, **29** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

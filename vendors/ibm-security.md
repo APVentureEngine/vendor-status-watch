@@ -2,7 +2,7 @@
 
 **51 IBM Security incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
 [https://statuspage.ibmcloudsecurity.com](https://statuspage.ibmcloudsecurity.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **18.4 h** across 50 incidents where IBM Security posted both a start and a resolve time.

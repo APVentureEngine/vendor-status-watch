@@ -2,7 +2,7 @@
 
 **47 Playfab incidents on record** spanning **2025-08-08** to **2026-08-27**. Status page:
 [https://status.playfab.com](https://status.playfab.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.2 h** across 47 incidents where Playfab posted both a start and a resolve time.

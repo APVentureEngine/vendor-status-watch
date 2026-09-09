@@ -2,7 +2,7 @@
 
 **50 Secomea incidents on record** spanning **2025-10-20** to **2026-09-02**. Status page:
 [https://status.secomea.com](https://status.secomea.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **50 min** across 50 incidents where Secomea posted both a start and a resolve time.

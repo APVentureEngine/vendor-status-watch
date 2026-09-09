@@ -1,11 +1,11 @@
 # LaunchNotes outage history — every incident their status page has posted
 
-**4 LaunchNotes incidents on record** spanning **2025-08-04** to **2026-05-04**. Status page:
+**3 LaunchNotes incidents on record** spanning **2025-09-04** to **2026-05-04**. Status page:
 [https://status.launchnotes.com](https://status.launchnotes.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **4** LaunchNotes incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **3** LaunchNotes incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what LaunchNotes posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -17,14 +17,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-04 | Notifications sent using the LaunchNotes email service provider may not be delivered on time | major | 3.9 h |
 | 2025-11-04 | Announcement content changes not persisting | minor | 3.0 h |
 | 2025-09-04 | Services are unresponsive | critical | 5.0 h |
-| 2025-08-04 | Customer pages experiencing TLS errors when loading | major | 4.8 h |
 
-Newest 4 of 4. Full machine-readable history:
+Newest 3 of 3. Full machine-readable history:
 [`history/launchnotes.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/launchnotes.json).
 
 ## What is counted, and what is not
 
-Of 4 recorded incidents, **4** have a usable length. Excluded:
+Of 3 recorded incidents, **3** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Bandwidth outage history — every incident their status page has posted
 
-**56 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-08**. Status page:
+**58 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-09**. Status page:
 [http://status.bandwidth.com](http://status.bandwidth.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.8 h** across 55 incidents where Bandwidth posted both a start and a resolve time.
+Median incident length: **2.8 h** across 57 incidents where Bandwidth posted both a start and a resolve time.
 
 This page republishes what Bandwidth posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [Germany Datacenter Incident](https://stspg.io/fybfbqsx1h8b) | none | — |
+| 2026-09-09 | [Bandwidth Local Market Impairment - 	340 - Southfield, MI](https://stspg.io/m6g6gsgmmrm9) | none | — |
+| 2026-09-08 | [Port Order Delays - Toll Free Numbers](https://stspg.io/sw470083l3hg) | critical | 4.5 h |
+| 2026-09-08 | [Germany Datacenter Incident](https://stspg.io/fybfbqsx1h8b) | none | 118 min |
 | 2026-09-07 | [Bandwidth Local Market Impairment - 636 - Fargo, ND](https://stspg.io/xxlfmxw79xz0) | critical | 2.3 h |
 | 2026-09-07 | [Bandwidth Local Market Impairment - 974 - Rochester, NY](https://stspg.io/q0g0j49bbkct) | none | 2.5 h |
 | 2026-09-07 | [Bandwidth Local Market Impairment - 240 - Frederick, MD](https://stspg.io/pdgk8gqhc6x7) | critical | 3.4 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | [Bandwidth Local Market Impairment - 656 - Denver, CO](https://stspg.io/yv0y7mw09mlp) | critical | 19.5 h |
 | 2026-09-02 | [Bandwidth Local Market Impairment - 136 - Syracuse, NY](https://stspg.io/m7njg1gq4hnw) | critical | 34.0 h |
 | 2026-09-02 | [LAX Datacenter Incident](https://stspg.io/lnbr6rsnrhh7) | minor | 24.4 h |
-| 2026-09-02 | [MDR Generation Incident](https://stspg.io/jgwlc1h6jpnf) | minor | 2.6 h |
-| 2026-09-02 | [LATA 240 - Frederick, MD - CLEC Market Outage.](https://stspg.io/6lxhvzh0nnwg) | none | 5.1 h |
 
-Newest 15 of 56. Full machine-readable history:
+Newest 15 of 58. Full machine-readable history:
 [`history/bandwidth.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bandwidth.json).
 
 ## What is counted, and what is not
 
-Of 56 recorded incidents, **55** have a usable length. Excluded:
+Of 58 recorded incidents, **57** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **44 Arista Cloudvision incidents on record** spanning **2025-08-08** to **2026-09-01**. Status page:
 [https://status.arista.io](https://status.arista.io) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.1 h** across 44 incidents where Arista Cloudvision posted both a start and a resolve time.

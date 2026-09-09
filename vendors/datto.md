@@ -1,11 +1,11 @@
 # Datto outage history — every incident their status page has posted
 
-**56 Datto incidents on record** spanning **2026-07-08** to **2026-09-05**. Status page:
+**58 Datto incidents on record** spanning **2026-07-08** to **2026-09-08**. Status page:
 [https://status.datto.com](https://status.datto.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`maintenance`**.
 
-Median incident length: **11.7 h** across 48 incidents where Datto posted both a start and a resolve time.
+Median incident length: **13.0 h** across 49 incidents where Datto posted both a start and a resolve time.
 
 This page republishes what Datto posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Datto BCDR - Server5465 (US-East) - Degraded Node Functionality](https://stspg.io/p39rss781z9k) | major | — |
+| 2026-09-08 | [Datto BCDR - Server2214 (US-East) - Degraded Node Functionality](https://stspg.io/1c8n1zmpktsz) | major | — |
 | 2026-09-05 | [VSA9 - Scheduled System Maintenance - CGSINC](https://stspg.io/74pbbhjlrppq) | maintenance | — |
 | 2026-09-05 | [Upcoming Security Enhancement for Your VSA Environment](https://stspg.io/rvrqk31153ph) | maintenance | — |
 | 2026-09-04 | [Datto SaaS Protection - All Regions/V3 Pods - Maintenance Notice - Microsoft Graph API Migration](https://stspg.io/4jhr21tr4jpn) | maintenance | — |
@@ -22,21 +24,19 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | [Datto Endpoint Backup for PC - Backup and Restore - Service Disruption for Customers Hosted on Cloud Siris 299242](https://stspg.io/4fxpn7cw40z5) | minor | 18.8 h |
 | 2026-09-02 | [Datto Networking - Secure Edge Data Usage Reporting Issue](https://stspg.io/x480w33ywfn2) | major | 2.1 h |
 | 2026-09-02 | [Datto SaaS Protection - Backup performance degradation for Exchange services on pod 'aue1-saas-p0'](https://stspg.io/hmwyc74h6zm0) | minor | — |
-| 2026-09-02 | [Datto BCDR - Cloud Recovery - Cloud Operations Service Impact](https://stspg.io/ys5ngj1l37tr) | major | — |
+| 2026-09-02 | [Datto BCDR - Cloud Recovery - Cloud Operations Service Impact](https://stspg.io/ys5ngj1l37tr) | major | 6.3 days |
 | 2026-09-02 | [Error 500 in Datto Partner Portal for Backup & RMM Products.](https://stspg.io/sqc645v377b5) | critical | 4.2 h |
 | 2026-09-01 | [Intuit Reports QuickBooks Online API Errors](https://stspg.io/3tkhx468s6gz) | minor | 19.0 h |
 | 2026-09-01 | [Datto SaaS Protection - SaaS Protection Status Page Is Not Loading Details](https://stspg.io/n929fckhmbht) | critical | 74 min |
 | 2026-09-01 | [DattoRMM - Vidal - Users are unable to access the platform.](https://stspg.io/16505m12w1kb) | critical | 4.3 h |
-| 2026-08-31 | [Datto Workplace - US Region - Intermittent Service Connectivity Issues](https://stspg.io/fmzvg5y6n40z) | minor | 93 min |
-| 2026-08-28 | [[VSA9] - [EU - VSA114] - Service Disruption](https://stspg.io/6d1hz2403dgn) | critical | 69 min |
 
-Newest 15 of 56. Full machine-readable history:
+Newest 15 of 58. Full machine-readable history:
 [`history/datto.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/datto.json).
 
 ## What is counted, and what is not
 
-Of 56 recorded incidents, **48** have a usable length. Excluded:
-5 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 58 recorded incidents, **49** have a usable length. Excluded:
+5 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

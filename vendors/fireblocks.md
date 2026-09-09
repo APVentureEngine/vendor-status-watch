@@ -1,11 +1,11 @@
 # Fireblocks outage history — every incident their status page has posted
 
-**50 Fireblocks incidents on record** spanning **2026-03-27** to **2026-08-27**. Status page:
+**52 Fireblocks incidents on record** spanning **2026-03-27** to **2026-09-09**. Status page:
 [https://status.fireblocks.com](https://status.fireblocks.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **35 min** across 50 incidents where Fireblocks posted both a start and a resolve time.
+Median incident length: **39 min** across 52 incidents where Fireblocks posted both a start and a resolve time.
 
 This page republishes what Fireblocks posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [FB555U: ETH Missing or Confirming Transactions,  and Balance Gap](https://stspg.io/2p08np1hw06t) | none | 53 min |
+| 2026-09-08 | [FB554U: Transactions issues on Ethereum blockchain](https://stspg.io/qwf04bxyy8qc) | minor | 55 min |
 | 2026-08-27 | [FB553U: Intermittent delays with Ripple transactions](https://stspg.io/nxn66th9nywl) | minor | 37 min |
 | 2026-08-21 | [FB552U: Blockchain Mantra is halted](https://stspg.io/z7svqqmy0zsm) | critical | 28.9 h |
 | 2026-08-20 | [FB551U: THOR Chain (RUNE_THOR) Transactions Are Blocked on Fireblocks Platform due to THOR Node Infrastructure Issues](https://stspg.io/rsb6sx50k3z1) | none | 6.9 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-25 | [FB543U: Intermittent delays with updating transactions statues on Fireblocks console](https://stspg.io/479s31qmjbwc) | minor | 10 min |
 | 2026-07-21 | [FB542U: policy page not loading in the console](https://stspg.io/2k955jh35wf0) | none | 6 min |
 | 2026-07-18 | [FB541U: Transaction issues on Cardano blockchain](https://stspg.io/1193l4nmhd3l) | minor | 20 min |
-| 2026-07-14 | [FB540U:Transactions issues with outgoing transactions](https://stspg.io/chjschc2fmyv) | minor | 41 min |
-| 2026-07-13 | [FB539U: Blockchain TON Halt due to TON network issues](https://stspg.io/dmknhz7vgr1g) | minor | 3.1 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/fireblocks.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/fireblocks.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

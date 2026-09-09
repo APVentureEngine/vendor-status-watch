@@ -2,7 +2,7 @@
 
 **53 Cisco Systems incidents on record** spanning **2026-03-02** to **2026-09-08**. Status page:
 [https://status.sse.cisco.com](https://status.sse.cisco.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **84 min** across 50 incidents where Cisco Systems posted both a start and a resolve time.

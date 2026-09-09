@@ -2,8 +2,8 @@
 
 **13 Servebolt incidents on record** spanning **2025-10-20** to **2026-08-10**. Status page:
 [https://serveboltstatus.com](https://serveboltstatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`ok`**.
 
 Only **13** Servebolt incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 

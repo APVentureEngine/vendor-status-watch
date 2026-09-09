@@ -1,11 +1,11 @@
 # Egnyte outage history — every incident their status page has posted
 
-**32 Egnyte incidents on record** spanning **2025-08-04** to **2026-09-03**. Status page:
+**31 Egnyte incidents on record** spanning **2025-08-08** to **2026-09-03**. Status page:
 [https://status.egnyte.com](https://status.egnyte.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **58 min** across 32 incidents where Egnyte posted both a start and a resolve time.
+Median incident length: **58 min** across 31 incidents where Egnyte posted both a start and a resolve time.
 
 This page republishes what Egnyte posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-11 | [Intermittent issues in WebUI and Desktop App (US-East region)](https://stspg.io/3dqyfjlrg9p0) | major | 43 min |
 | 2026-02-25 | [Intermittent issues in FTP/SFTP & Public APIs (European region)](https://stspg.io/rrdm1dqj4grf) | minor | 59 min |
 
-Newest 15 of 32. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/egnyte.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/egnyte.json).
 
 ## What is counted, and what is not
 
-Of 32 recorded incidents, **32** have a usable length. Excluded:
+Of 31 recorded incidents, **31** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

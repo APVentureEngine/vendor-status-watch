@@ -1,11 +1,11 @@
 # Readme outage history — every incident their status page has posted
 
-**29 Readme incidents on record** spanning **2025-09-08** to **2026-08-21**. Status page:
+**30 Readme incidents on record** spanning **2025-09-08** to **2026-09-08**. Status page:
 [https://www.readmestatus.com](https://www.readmestatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.7 h** across 29 incidents where Readme posted both a start and a resolve time.
+Median incident length: **2.3 h** across 30 incidents where Readme posted both a start and a resolve time.
 
 This page republishes what Readme posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Admin interface outage](https://stspg.io/db77h1gnkwv5) | critical | 11 min |
 | 2026-08-21 | [Slow search within customer hubs](https://stspg.io/f2y9gm81f0wz) | minor | 105 min |
 | 2026-07-24 | [Degraded performance due to third-party infrastructure issues](https://stspg.io/jw2fjc1b0f7w) | minor | 75 min |
 | 2026-06-17 | [API Reference Degradation](https://stspg.io/34ngjpqg0434) | none | 2.7 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-24 | [Service disruption](https://stspg.io/4vq3br6pjwp6) | critical | 2.9 h |
 | 2026-04-22 | [Admin downtime](https://stspg.io/vwglppl7q8rr) | major | 2.0 h |
 | 2026-04-21 | [Slow performance, increased 500 errors upon page load](https://stspg.io/q9v4ll35y9dl) | minor | 44 min |
-| 2026-04-20 | [Increased Admin Response Times](https://stspg.io/tczvpm7qrql9) | minor | 75 min |
 
-Newest 15 of 29. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/readme.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/readme.json).
 
 ## What is counted, and what is not
 
-Of 29 recorded incidents, **29** have a usable length. Excluded:
+Of 30 recorded incidents, **30** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,9 +1,9 @@
 # Iristel outage history — every incident their status page has posted
 
-**23 Iristel incidents on record** spanning **2025-08-12** to **2026-08-29**. Status page:
+**24 Iristel incidents on record** spanning **2025-08-12** to **2026-09-09**. Status page:
 [https://status.iristel.com](https://status.iristel.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **20.6 h** across 23 incidents where Iristel posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [IRISTEL Maintenance - Carrier edge router replacement \| maintenance \| no service impact](https://stspg.io/xrwczw18jkgr) | maintenance | — |
 | 2026-08-29 | [PSTN Connectivity Issue - Fredericton, New Brunswick](https://stspg.io/dzv33dnwx38m) | major | 27.7 h |
 | 2026-08-09 | [PSTN Connectivity Issue: Val-d'Or, QC](https://stspg.io/db37x62p01gh) | major | 20.6 h |
 | 2026-07-23 | [PSTN Connectivity - Montreal and Quebec city](https://stspg.io/rjp0rnx8cnwg) | major | 5.1 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-01 | [PSTN connectivity: Richmond Hill, Ontario](https://stspg.io/fkbn9s7k62lv) | major | 5.6 h |
 | 2026-04-04 | [PSTN Connectivity Issue - Val d'Or, Quebec](https://stspg.io/tn9fnbww1z9g) | major | 26.8 days |
 | 2026-02-08 | [Inaccessiblity issue on EspressoDID Webpage](https://stspg.io/dshgbvcn7r28) | none | 0 min |
-| 2026-02-04 | [Enterprise system - issues with Webex log in.](https://stspg.io/z8t4bjs531gz) | none | 0 min |
 
-Newest 15 of 23. Full machine-readable history:
+Newest 15 of 24. Full machine-readable history:
 [`history/iristel.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/iristel.json).
 
 ## What is counted, and what is not
 
-Of 23 recorded incidents, **23** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 24 recorded incidents, **23** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

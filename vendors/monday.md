@@ -1,11 +1,11 @@
 # Monday outage history — every incident their status page has posted
 
-**51 Monday incidents on record** spanning **2025-08-04** to **2026-09-05**. Status page:
+**49 Monday incidents on record** spanning **2025-08-31** to **2026-09-05**. Status page:
 [https://status.monday.com](https://status.monday.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **57 min** across 51 incidents where Monday posted both a start and a resolve time.
+Median incident length: **55 min** across 49 incidents where Monday posted both a start and a resolve time.
 
 This page republishes what Monday posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-28 | [Investigating connectivity issues across accounts and devices](https://stspg.io/6s366rnwcnv8) | minor | 30 min |
 | 2026-04-28 | [Investigating issues with apps, docs, and automations](https://stspg.io/7m97k6bdj40h) | minor | 67 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 49. Full machine-readable history:
 [`history/monday.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/monday.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 49 recorded incidents, **49** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

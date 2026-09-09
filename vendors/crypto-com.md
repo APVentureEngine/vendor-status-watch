@@ -2,10 +2,10 @@
 
 **52 Crypto.com incidents on record** spanning **2025-09-09** to **2026-09-08**. Status page:
 [https://status.crypto.com](https://status.crypto.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **6.7 h** across 45 incidents where Crypto.com posted both a start and a resolve time.
+Median incident length: **6.8 h** across 46 incidents where Crypto.com posted both a start and a resolve time.
 
 This page republishes what Crypto.com posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [BARA, LION, MTD, CORGIAI, VVS Staking Temporary Service Disruption](https://stspg.io/js498dkvs9ps) | none | — |
+| 2026-09-08 | [BARA, LION, MTD, CORGIAI, VVS Staking Temporary Service Disruption](https://stspg.io/js498dkvs9ps) | none | 30.5 h |
 | 2026-09-07 | [Deposits Temporarily Suspended for Multiple Assets](https://stspg.io/2mkfq36spnnc) | none | — |
 | 2026-08-27 | [Equities Cash Transfers – Service Disruption](https://stspg.io/2g8q8pgzmcdq) | none | 8 min |
 | 2026-08-26 | [TON Staking Temporary Service Disruption](https://stspg.io/m7q4tfw6tpws) | none | — |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **45** have a usable length. Excluded:
-1 maintenance, 6 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **46** have a usable length. Excluded:
+1 maintenance, 5 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

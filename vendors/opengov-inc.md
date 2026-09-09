@@ -1,9 +1,9 @@
 # OpenGov Inc. outage history — every incident their status page has posted
 
-**50 OpenGov Inc. incidents on record** spanning **2026-02-26** to **2026-08-26**. Status page:
+**51 OpenGov Inc. incidents on record** spanning **2026-02-26** to **2026-09-08**. Status page:
 [https://www.opengovstatus.com](https://www.opengovstatus.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **7.0 h** across 50 incidents where OpenGov Inc. posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Procurement & Contract Management l Uploaded Images Not Rendering in Document Exports](https://stspg.io/mgtx50qjsk2r) | major | — |
 | 2026-08-26 | [Stories - PDF exports are failing for individual stories](https://stspg.io/5cv2qp79vfrz) | critical | 44 min |
 | 2026-08-20 | [Procurement & Contract Management l Completed DocuSign PowerForms Not Syncing Back to Portal](https://stspg.io/y39rm40gnc3d) | major | 6.0 days |
 | 2026-08-17 | [Enterprise Access Managment - Editing Reports](https://stspg.io/72k5zxmmkh52) | minor | 3.0 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-10 | [Budgeting & Performance \| Failing to Load](https://stspg.io/k80yjbdgkbzm) | critical | 2.7 h |
 | 2026-06-26 | [Dashboard Refresh:  Procurement](https://stspg.io/jg3sp8jp6z06) | major | 19.4 h |
 | 2026-06-25 | [Budgeting & Performance I Unable to Access Linked Workforce Positions from Budget Worksheets](https://stspg.io/5km6twxs7nlb) | none | 19.4 h |
-| 2026-06-23 | [Enterprise Asset Management Reporting Service Unresponsive](https://stspg.io/m7rdjbnrs97s) | critical | 32 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/opengov-inc.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/opengov-inc.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

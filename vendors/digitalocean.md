@@ -1,11 +1,11 @@
 # Digitalocean outage history — every incident their status page has posted
 
-**50 Digitalocean incidents on record** spanning **2026-04-17** to **2026-08-24**. Status page:
+**51 Digitalocean incidents on record** spanning **2026-04-17** to **2026-09-09**. Status page:
 [https://status.digitalocean.com](https://status.digitalocean.com) · platform:
-`statuspage` · last polled **2026-09-08 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.6 h** across 50 incidents where Digitalocean posted both a start and a resolve time.
+Median incident length: **2.6 h** across 51 incidents where Digitalocean posted both a start and a resolve time.
 
 This page republishes what Digitalocean posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Power Degradation impacting GPU Performance in ATL1](https://stspg.io/g4s2358yl9tt) | minor | 98 min |
 | 2026-08-24 | [Cloud Control Panel and API](https://stspg.io/8l5c24cxh3hr) | critical | 25.8 h |
 | 2026-08-23 | [Managed Databases Creation](https://stspg.io/8ld5fpw01tg4) | minor | 9.3 h |
 | 2026-08-21 | [Container Registry and Spaces Accessibility](https://stspg.io/2b4phnbmtm49) | minor | 112 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-27 | [Agent Platform Requests Returning HTTP 500 Errors](https://stspg.io/54mh0lzk9733) | major | 20.9 h |
 | 2026-07-24 | [Network Connectivity from India to NYC](https://stspg.io/y9g7qgc9qs6m) | minor | 2.1 h |
 | 2026-07-23 | [Llama-4-Maverick Model Availability](https://stspg.io/9pxmkrlffl58) | minor | 80 min |
-| 2026-07-22 | [Gradient AI Serverless Inference Requests Timing Out for qwen3.5-397b-a17b](https://stspg.io/2fdnm4tns3f1) | minor | 2.9 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/digitalocean.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/digitalocean.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
