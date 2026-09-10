@@ -1,11 +1,11 @@
 # Toast outage history — every incident their status page has posted
 
-**50 Toast incidents on record** spanning **2025-08-23** to **2026-08-15**. Status page:
+**51 Toast incidents on record** spanning **2025-08-23** to **2026-09-09**. Status page:
 [https://status.toasttab.com](https://status.toasttab.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **62 min** across 50 incidents where Toast posted both a start and a resolve time.
+Median incident length: **62 min** across 51 incidents where Toast posted both a start and a resolve time.
 
 This page republishes what Toast posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [MFA Incident 09/09/2026](https://stspg.io/52fvhy3z1095) | minor | 64 min |
 | 2026-08-15 | [(08/15/2026)Mastercard Payment Degradation](https://stspg.io/8s54tc0wvbty) | major | 70 min |
 | 2026-08-13 | [Toast Retail Issues](https://stspg.io/cz0y3161xr3q) | minor | 62 min |
 | 2026-07-31 | [Visa Card Processing Latency](https://stspg.io/4vrx6d3ctw8r) | minor | 20.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-22 | [ToastWeb Incident](https://stspg.io/s5hrm35p1qwx) | critical | 49 min |
 | 2026-04-21 | [Unable to Login on Devices](https://stspg.io/55hw2zd651nf) | minor | 5 min |
 | 2026-04-03 | [Publishing Outage](https://stspg.io/98ctd5w4br7f) | none | 25 min |
-| 2026-03-27 | [03/27/2026 - Digital Ordering Incident](https://stspg.io/z1jgk4q06xl3) | major | 116 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/toast.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/toast.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

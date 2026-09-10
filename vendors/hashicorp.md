@@ -2,7 +2,7 @@
 
 **26 Hashicorp incidents on record** spanning **2026-05-13** to **2026-09-04**. Status page:
 [https://status.hashicorp.com](https://status.hashicorp.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 26 incidents where Hashicorp posted both a start and a resolve time.

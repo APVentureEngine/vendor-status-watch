@@ -2,7 +2,7 @@
 
 **52 Fireblocks incidents on record** spanning **2026-03-27** to **2026-09-09**. Status page:
 [https://status.fireblocks.com](https://status.fireblocks.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **39 min** across 52 incidents where Fireblocks posted both a start and a resolve time.

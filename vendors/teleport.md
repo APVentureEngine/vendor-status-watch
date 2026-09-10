@@ -2,7 +2,7 @@
 
 **23 Teleport incidents on record** spanning **2025-09-24** to **2026-09-03**. Status page:
 [https://status.teleport.sh](https://status.teleport.sh) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **102 min** across 23 incidents where Teleport posted both a start and a resolve time.

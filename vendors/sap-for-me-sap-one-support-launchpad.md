@@ -2,7 +2,7 @@
 
 **15 Sap For Me Sap One Support Launchpad incidents on record** spanning **2025-09-16** to **2026-06-03**. Status page:
 [https://status.support.sap.com](https://status.support.sap.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **15** Sap For Me Sap One Support Launchpad incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

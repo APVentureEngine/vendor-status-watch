@@ -1,11 +1,11 @@
 # Keeper outage history — every incident their status page has posted
 
-**13 Keeper incidents on record** spanning **2025-08-21** to **2026-07-30**. Status page:
+**14 Keeper incidents on record** spanning **2025-08-21** to **2026-09-09**. Status page:
 [https://statuspage.keeper.io](https://statuspage.keeper.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **12** Keeper incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **13** Keeper incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Keeper posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [SMS 2FA issues with AWS aggregator](https://stspg.io/sgtmc5mmlktq) | minor | 3.2 h |
 | 2026-07-30 | [EU KeeperPAM router and gateway connections](https://stspg.io/sfd3sgm5mpbh) | none | 0 min |
 | 2026-07-08 | [Resolved: Keeper Gateway and KSM API errors](https://stspg.io/4z131lx31smt) | major | 22 min |
 | 2026-06-26 | [GovCloud region maintenance](https://stspg.io/00z3qcqm8j47) | maintenance | — |
@@ -28,12 +29,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-10 | [EU Region login API errors](https://stspg.io/p6vlghlxh5vy) | major | 6 min |
 | 2025-08-21 | [Resolved: Vault login API errors](https://stspg.io/3xx2lxq4wkvm) | none | 0 min |
 
-Newest 13 of 13. Full machine-readable history:
+Newest 14 of 14. Full machine-readable history:
 [`history/keeper.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/keeper.json).
 
 ## What is counted, and what is not
 
-Of 13 recorded incidents, **12** have a usable length. Excluded:
+Of 14 recorded incidents, **13** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

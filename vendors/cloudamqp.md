@@ -2,7 +2,7 @@
 
 **39 CloudAMQP incidents on record** spanning **2025-09-15** to **2026-08-26**. Status page:
 [https://status.cloudamqp.com](https://status.cloudamqp.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 39 incidents where CloudAMQP posted both a start and a resolve time.

@@ -1,11 +1,11 @@
 # Arista Cloudvision outage history — every incident their status page has posted
 
-**44 Arista Cloudvision incidents on record** spanning **2025-08-08** to **2026-09-01**. Status page:
+**45 Arista Cloudvision incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
 [https://status.arista.io](https://status.arista.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.1 h** across 44 incidents where Arista Cloudvision posted both a start and a resolve time.
+Median incident length: **2.2 h** across 45 incidents where Arista Cloudvision posted both a start and a resolve time.
 
 This page republishes what Arista Cloudvision posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Platform wide Disruption](https://stspg.io/rbjq8l3hyxkp) | major | 8.0 h |
 | 2026-09-01 | [High Device Streaming Latency experienced on the Platform](https://stspg.io/wv4mf6255y6t) | minor | 85 min |
 | 2026-08-28 | [Platform Disruption](https://stspg.io/zy2qz6k6qt3j) | minor | 3.0 h |
 | 2026-08-20 | [High Device Streaming Latency experienced on the Platform](https://stspg.io/3dtb1f876h1m) | minor | 2.2 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-10 | [High Streaming Latency](https://stspg.io/3gf2fjjrbf35) | minor | 4.2 h |
 | 2026-05-29 | [Network Provisioning - Device is present in an unexpected container](https://stspg.io/g523jwb8tppj) | major | 5.2 days |
 | 2026-05-29 | [Network Provisioning/Studios - Incorrect End Configurations Generated](https://stspg.io/mthnpxskt9jl) | major | 3.3 h |
-| 2026-05-26 | [Issues logging into the platform](https://stspg.io/knr5jghlqt8h) | major | 9.4 h |
 
-Newest 15 of 44. Full machine-readable history:
+Newest 15 of 45. Full machine-readable history:
 [`history/arista-cloudvision.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/arista-cloudvision.json).
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **44** have a usable length. Excluded:
+Of 45 recorded incidents, **45** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

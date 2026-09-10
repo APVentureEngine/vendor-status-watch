@@ -2,10 +2,10 @@
 
 **44 NVIDIA GeForce incidents on record** spanning **2025-08-06** to **2026-09-08**. Status page:
 [https://status.geforcenow.com](https://status.geforcenow.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **24.8 h** across 38 incidents where NVIDIA GeForce posted both a start and a resolve time.
+Median incident length: **26.9 h** across 40 incidents where NVIDIA GeForce posted both a start and a resolve time.
 
 This page republishes what NVIDIA GeForce posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,8 +15,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-08 | [Crimson Desert intermittent game crashes](https://stspg.io/21jmpj8z2c2n) | none | — |
-| 2026-09-01 | [Gamepad not working correctly on Windows PC](https://stspg.io/1jqt1xmhhfmh) | none | — |
-| 2026-08-26 | [Steam Workshop mods](https://stspg.io/756n68r168hh) | none | — |
+| 2026-09-01 | [Gamepad not working correctly on Windows PC](https://stspg.io/1jqt1xmhhfmh) | none | 8.0 days |
+| 2026-08-26 | [Steam Workshop mods](https://stspg.io/756n68r168hh) | none | 13.8 days |
 | 2026-08-23 | [NP-BOM-01 outage](https://stspg.io/f5fsjvvtsz97) | critical | 7.2 h |
 | 2026-08-20 | [S.T.A.L.K.E.R. 2: Heart of Chornobyl maintenance](https://stspg.io/j8fxpvncs8m4) | none | — |
 | 2026-08-18 | [Neverness to Everness no RTX settings](https://stspg.io/fdm5f35v8rcz) | none | — |
@@ -35,8 +35,8 @@ Newest 15 of 44. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **38** have a usable length. Excluded:
-0 maintenance, 6 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 44 recorded incidents, **40** have a usable length. Excluded:
+0 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

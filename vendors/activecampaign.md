@@ -2,7 +2,7 @@
 
 **38 ActiveCampaign incidents on record** spanning **2025-08-12** to **2026-08-28**. Status page:
 [https://status.activecampaign.com](https://status.activecampaign.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **95 min** across 38 incidents where ActiveCampaign posted both a start and a resolve time.

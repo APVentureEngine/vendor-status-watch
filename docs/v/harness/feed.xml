@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Harness incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/harness.html</link><description>Incidents from Harness's public status page, polled daily.</description><lastBuildDate>Wed, 09 Sep 2026 12:30:34 +0000</lastBuildDate><item><title>Slowness in Prod1 and Prod2 environment [resolved]</title><link>https://stspg.io/nq6pjsvq1481</link><guid isPermaLink="false">harness:2026-09-08T14:52:48.883-07:00</guid><pubDate>Tue, 08 Sep 2026 21:52:48 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Prod2 was intermittently unavailable [resolved]</title><link>https://stspg.io/wxvc3v9g5yc2</link><guid isPermaLink="false">harness:2026-09-05T02:40:02.542-07:00</guid><pubDate>Sat, 05 Sep 2026 09:40:02 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>CI Cloud Maintenance [maintenance]</title><link>https://stspg.io/8dtjn0v78mq0</link><guid isPermaLink="false">harness:2026-09-04T22:30:00.000-07:00</guid><pubDate>Sat, 05 Sep 2026 05:30:00 +0000</pubDate><description>Proactive Service Scaling Notice: 
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Harness incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/harness.html</link><description>Incidents from Harness's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>Slowness in Prod1 and Prod2 environment [postmortem]</title><link>https://stspg.io/nq6pjsvq1481</link><guid isPermaLink="false">harness:2026-09-08T14:52:48.883-07:00</guid><pubDate>Tue, 08 Sep 2026 21:52:48 +0000</pubDate><description>### Summary
+
+On September 8, 2026, customers in Prod 1 and Prod 2 experienced elevated platform latency and pipeline failures. The issue was caused by a regression in a newly released capability that triggered cascading failures under high load. Because the capability was behind a feature flag, it was quickly disabled, and service was restored after a brief monitoring period. 
+
+### Customer Impact
+
+* Customers encountered slowness and failures during pipeline execution and UI operations. Some API calls returned errors or timed out.
+* No data loss or corruption occurred.
+
+### Root Cause
+
+The new capability introduced a regression that created contention on a shared backend resource used by multiple Harness components. This saturated the shared platform infrastructure and caused the cascadin</description></item><item><title>Prod2 was intermittently unavailable [postmortem]</title><link>https://stspg.io/wxvc3v9g5yc2</link><guid isPermaLink="false">harness:2026-09-05T02:40:02.542-07:00</guid><pubDate>Sat, 05 Sep 2026 09:40:02 +0000</pubDate><description>## **Summary**
+
+Between 12:34am PST and 12:38am PST on 5th September, the Delegate service manager experienced some elevated exceptions when attempting to write to the database. Consequently, delegate connections were dropped, causing them to disconnect. Delegate automatically re-attempts registration back to the `delegate service manager`  and majority of the delegates got connected back after the incident. For Docker and ECS delegates the automatic restart is not enabled unless these delegates have health monitoring enabled. For these delegates a manual restart is needed and was recommended.  Post restart the delegate would re-connect and the issue was resolved.
+
+## **Root cause**
+
+On Prod2 cluster we identified a performance bottleneck in the delegate service that, under certain conditi</description></item><item><title>CI Cloud Maintenance [maintenance]</title><link>https://stspg.io/8dtjn0v78mq0</link><guid isPermaLink="false">harness:2026-09-04T22:30:00.000-07:00</guid><pubDate>Sat, 05 Sep 2026 05:30:00 +0000</pubDate><description>Proactive Service Scaling Notice: 
 As part of our ongoing efforts to support continued growth and ensure the scalability and reliability of our service, we will be scaling our production services during the scheduled maintenance window.
 This activity involves making planned capacity adjustments across our production infrastructure. As the changes may span multiple clusters, customers may notice brief variations in service performance during the activity.
 Our engineering team will be closely monitoring the environment throughout the process to ensure a smooth and stable rollout.
 No action is required from customers. This is a proactive infrastructure activity to ensure we maintain the capacity and reliability needed to support our growing usage.
-We appreciate your understanding as we contin</description></item><item><title>Pipelines are stuck in Prod1 [resolved]</title><link>https://stspg.io/1l82qknlzdl6</link><guid isPermaLink="false">harness:2026-09-03T03:00:57.335-07:00</guid><pubDate>Thu, 03 Sep 2026 10:00:57 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Entities in Harness are not loading on in Prod3 [postmortem]</title><link>https://stspg.io/y4dw5tg21696</link><guid isPermaLink="false">harness:2026-08-28T00:04:09.101-07:00</guid><pubDate>Fri, 28 Aug 2026 07:04:09 +0000</pubDate><description>## Summary
+We appreciate your understanding as we contin</description></item><item><title>Pipelines are stuck in Prod1 [postmortem]</title><link>https://stspg.io/1l82qknlzdl6</link><guid isPermaLink="false">harness:2026-09-03T03:00:57.335-07:00</guid><pubDate>Thu, 03 Sep 2026 10:00:57 +0000</pubDate><description># Summary
+
+On September 3, 2026, between approximately 2:54 AM and 3:44 AM PDT, customers running pipelines on Prod1 experienced delays in pipeline execution graph rendering and execution status updates. Pipeline execution itself was not affected — pipelines continued to run and complete — but the visual graph and status information in the Harness UI lagged behind actual execution progress. Harness engineering identified the cause, added processing capacity, and restored normal graph and status updates. Extended monitoring confirmed full recovery the following day.
+
+# Root Cause
+
+A planned database failover activity in the Prod1 region temporarily increased network latency between the pipeline execution service and its database while traffic was briefly served cross-region. This reduced th</description></item><item><title>Entities in Harness are not loading on in Prod3 [postmortem]</title><link>https://stspg.io/y4dw5tg21696</link><guid isPermaLink="false">harness:2026-08-28T00:04:09.101-07:00</guid><pubDate>Fri, 28 Aug 2026 07:04:09 +0000</pubDate><description>## Summary
 
 Between August 27 and August 28, 2026, customers experienced an issue where some pipelines, deployments, and related resources appeared as not found in the Harness UI and API, even though the underlying data remained intact.
 

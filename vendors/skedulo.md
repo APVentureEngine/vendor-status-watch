@@ -1,11 +1,11 @@
 # Skedulo outage history — every incident their status page has posted
 
-**14 Skedulo incidents on record** spanning **2025-08-05** to **2026-05-21**. Status page:
+**13 Skedulo incidents on record** spanning **2025-08-21** to **2026-05-21**. Status page:
 [https://status.skedulo.com](https://status.skedulo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **14** Skedulo incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **13** Skedulo incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Skedulo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -27,14 +27,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-24 | Skedulo Plus Android 3.19.0 Navigation Error Causing Crashes on v2 forms | major | 7.2 days |
 | 2025-09-01 | Job Details Not Loading in Mobile App | major | 22.3 h |
 | 2025-08-21 | Errors in the web app when allocating or creating job offers | critical | 2.4 h |
-| 2025-08-05 | Messaging Not Displaying in Skedulo Plus | major | 34.9 h |
 
-Newest 14 of 14. Full machine-readable history:
+Newest 13 of 13. Full machine-readable history:
 [`history/skedulo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/skedulo.json).
 
 ## What is counted, and what is not
 
-Of 14 recorded incidents, **14** have a usable length. Excluded:
+Of 13 recorded incidents, **13** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

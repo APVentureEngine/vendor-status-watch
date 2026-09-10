@@ -2,7 +2,7 @@
 
 **25 Plaid incidents on record** spanning **2026-05-21** to **2026-08-24**. Status page:
 [https://status.plaid.com](https://status.plaid.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 24 incidents where Plaid posted both a start and a resolve time.

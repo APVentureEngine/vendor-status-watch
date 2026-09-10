@@ -1,11 +1,11 @@
 # Forticlient Cloud outage history — every incident their status page has posted
 
-**15 Forticlient Cloud incidents on record** spanning **2025-08-05** to **2026-06-26**. Status page:
+**14 Forticlient Cloud incidents on record** spanning **2025-08-21** to **2026-06-26**. Status page:
 [https://forticlient-status.forticloud.com](https://forticlient-status.forticloud.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **15** Forticlient Cloud incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **14** Forticlient Cloud incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Forticlient Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -28,14 +28,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-08-30 | [US FortiClient Cloud Plano Data Center Beckend](https://stspg.io/yg2h43qhc0cy) | major | 5.4 h |
 | 2025-08-29 | [US FortiClient Cloud Plano Data Center Beckend](https://stspg.io/qdm2pjk2cmzm) | major | 6.3 h |
 | 2025-08-21 | [Fortinet Cloud Network Outage - Plano USA Region](https://stspg.io/nf94lnx1d4xg) | major | 70 min |
-| 2025-08-05 | [Fortinet Cloud Network Outage - Dubai Region](https://stspg.io/09lmd286hj5s) | minor | 4.6 h |
 
-Newest 15 of 15. Full machine-readable history:
+Newest 14 of 14. Full machine-readable history:
 [`history/forticlient-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/forticlient-cloud.json).
 
 ## What is counted, and what is not
 
-Of 15 recorded incidents, **15** have a usable length. Excluded:
+Of 14 recorded incidents, **14** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

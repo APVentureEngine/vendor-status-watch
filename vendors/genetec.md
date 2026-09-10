@@ -1,11 +1,11 @@
 # Genetec outage history — every incident their status page has posted
 
-**25 Genetec incidents on record** spanning **2026-07-10** to **2026-08-31**. Status page:
+**26 Genetec incidents on record** spanning **2026-07-10** to **2026-09-09**. Status page:
 [https://status.genetec.com](https://status.genetec.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.2 h** across 21 incidents where Genetec posted both a start and a resolve time.
+Median incident length: **2.2 h** across 22 incidents where Genetec posted both a start and a resolve time.
 
 This page republishes what Genetec posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | Failures when submitting Access Requests in the System Management Portal | minor | 2.1 h |
 | 2026-08-31 | Potential issue affecting Genetec Cloud Products / Security Center SaaS → Communications    Global | minor | 34 min |
 | 2026-08-28 | Potential issue affecting Genetec Cloud Products / Security Center SaaS → Communications    East US 2 | minor | 2.7 h |
 | 2026-08-26 | Potential issue affecting Genetec Cloud Products / Security Center SaaS → Communications Global | minor | 3.5 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-07 | Clearance - Services Unavailable | major | 22.9 h |
 | 2026-08-06 | Potential issue affecting Security Center SaaS → Enrollment of Cloudlink cameras in Australia | minor | 2.0 h |
 | 2026-08-05 | AutoVu Cloudrunner Functionality Degradation | minor | 3.5 h |
-| 2026-08-04 | Investigating a potential issue of email deliverability | minor | 4.0 h |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/genetec.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/genetec.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **21** have a usable length. Excluded:
+Of 26 recorded incidents, **22** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 4 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

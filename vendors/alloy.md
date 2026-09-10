@@ -1,8 +1,8 @@
 # Alloy outage history — every incident their status page has posted
 
-**38 Alloy incidents on record** spanning **2025-08-05** to **2026-09-04**. Status page:
+**38 Alloy incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
 [https://status.alloy.com](https://status.alloy.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **40 min** across 38 incidents where Alloy posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [[Retroactive] Issues loading Workflows, Journeys, and Application Queues](https://stspg.io/88l8mlzqxhnh) | none | 0 min |
 | 2026-09-04 | [Degraded Export Functionality](https://stspg.io/gsqcv5nbq24s) | minor | 44 min |
 | 2026-08-27 | [Threatmetrix integration downtime](https://stspg.io/l0bptz115015) | none | 0 min |
 | 2026-08-25 | [Degraded performance](https://stspg.io/svvwm99cljdl) | minor | 114 min |
@@ -28,7 +29,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-23 | [Test Suite endpoints experiencing an increase in errors](https://stspg.io/62zmxpzjgd2m) | minor | 67 min |
 | 2026-03-05 | [SDK Initialization Issue Affecting Some SDK Plugins](https://stspg.io/08cgj1447npy) | none | 0 min |
 | 2026-03-04 | [[Retroactive] Elevated JQ Evaluation Memory Errors](https://stspg.io/csgn4pp5vfkw) | none | 0 min |
-| 2026-02-24 | [API Downtime](https://stspg.io/f0dlj93lzr2m) | major | 29 min |
 
 Newest 15 of 38. Full machine-readable history:
 [`history/alloy.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/alloy.json).

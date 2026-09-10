@@ -1,11 +1,11 @@
 # Squiz outage history — every incident their status page has posted
 
-**17 Squiz incidents on record** spanning **2025-08-08** to **2026-06-16**. Status page:
+**19 Squiz incidents on record** spanning **2025-08-08** to **2026-09-10**. Status page:
 [https://status.squiz.cloud](https://status.squiz.cloud) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
-Only **16** Squiz incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **17** Squiz incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Squiz posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Funnelback UK - Degradation of service](https://stspg.io/xddrb4ypjqm3) | minor | — |
+| 2026-09-10 | [Emergency Maintenance - Search (Funnelback) ANZ](https://stspg.io/b12snnzhnpyt) | minor | 3.4 h |
 | 2026-06-16 | [UK search performance issues](https://stspg.io/ysdff8mbxjnj) | none | 25.8 h |
 | 2026-06-16 | [UK search performance issues (resolved)](https://stspg.io/t7bs856274zz) | none | 28 min |
 | 2026-04-16 | [Advanced Forms submission integration delay](https://stspg.io/7fmr8b43vzyj) | maintenance | — |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-26 | [Support Ticketing and Phone Issues](https://stspg.io/f2cxwz63km4v) | none | 29.4 h |
 | 2025-10-20 | [DXP Degradation](https://stspg.io/74lckvkjk3dt) | critical | 15.8 h |
 | 2025-10-20 | [AU DXP Component Issue](https://stspg.io/fqyrdrj42fr0) | minor | 51 min |
-| 2025-10-17 | [UK Datacentre Degradation](https://stspg.io/q8q7qjq2p9h5) | none | 12 min |
-| 2025-10-16 | [Funnelback UK Service Degradation](https://stspg.io/51txj12vtpjx) | major | 15 min |
 
-Newest 15 of 17. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/squiz.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/squiz.json).
 
 ## What is counted, and what is not
 
-Of 17 recorded incidents, **16** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 19 recorded incidents, **17** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

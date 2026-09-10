@@ -2,7 +2,7 @@
 
 **50 SurveyMonkey incidents on record** spanning **2025-10-01** to **2026-09-03**. Status page:
 [https://surveymonkey.statuspage.io](https://surveymonkey.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **89 min** across 50 incidents where SurveyMonkey posted both a start and a resolve time.

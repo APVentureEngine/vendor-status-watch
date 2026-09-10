@@ -2,7 +2,7 @@
 
 **53 Harness incidents on record** spanning **2026-05-07** to **2026-09-08**. Status page:
 [https://status.harness.io](https://status.harness.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.3 h** across 52 incidents where Harness posted both a start and a resolve time.

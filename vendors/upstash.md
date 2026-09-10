@@ -1,11 +1,11 @@
 # Upstash outage history — every incident their status page has posted
 
-**28 Upstash incidents on record** spanning **2025-08-18** to **2026-09-03**. Status page:
+**29 Upstash incidents on record** spanning **2025-08-18** to **2026-09-09**. Status page:
 [https://status.upstash.com](https://status.upstash.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **19 min** across 28 incidents where Upstash posted both a start and a resolve time.
+Median incident length: **17 min** across 29 incidents where Upstash posted both a start and a resolve time.
 
 This page republishes what Upstash posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Intermittent DNS Resolution Errors for Upstash Vector in US East (us-east-1)](https://stspg.io/yfkkt5363477) | minor | 0 min |
 | 2026-09-03 | [Upstash Console login issue](https://stspg.io/dmdmfrm8lycz) | none | 0 min |
 | 2026-08-28 | [Message Persistence Issue — QStash us-east-1](https://stspg.io/69bd84bqrpcq) | major | 0 min |
 | 2026-07-22 | [Fly.io infrastructure disruption affecting some Upstash Redis databases on Fly.io DFW Region](https://stspg.io/0l5sf44ng7bn) | none | 75 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-14 | [Upstash Redis – intermittent connection issues in some regions](https://stspg.io/qyl44kv5lw09) | major | 104 min |
 | 2026-05-12 | [Fly.io Upstash Redis Service Distruption](https://stspg.io/v8n17s5pgq0y) | critical | 4.0 h |
 | 2026-05-11 | [Fly.io Upstash Redis service distruption (FRA region)](https://stspg.io/xc9fkbk20d2w) | major | 3.3 h |
-| 2026-05-08 | [QStash US Region Service Disruption](https://stspg.io/zh00zgv2ks17) | critical | 22 min |
 
-Newest 15 of 28. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/upstash.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/upstash.json).
 
 ## What is counted, and what is not
 
-Of 28 recorded incidents, **28** have a usable length. Excluded:
+Of 29 recorded incidents, **29** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

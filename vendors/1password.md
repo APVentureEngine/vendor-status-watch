@@ -1,8 +1,8 @@
 # 1Password outage history — every incident their status page has posted
 
-**44 1Password incidents on record** spanning **2025-08-05** to **2026-07-22**. Status page:
+**44 1Password incidents on record** spanning **2025-08-18** to **2026-09-09**. Status page:
 [https://status.1password.com](https://status.1password.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **112 min** across 43 incidents where 1Password posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Device Trust Service Disruption](https://stspg.io/9sjwgt4v11kr) | major | 27 min |
 | 2026-07-22 | [Account governance functions are unavailable in SaaS Manager](https://stspg.io/9bt7rtjljklp) | major | 85 min |
 | 2026-07-17 | [SaaS Manager Workflows are not running as expected](https://stspg.io/662s09h6z852) | minor | 5 min |
 | 2026-07-13 | [Degraded user-related operations for individual and family accounts](https://stspg.io/nvvxqlclh4gh) | minor | 57 min |
@@ -28,7 +29,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-04 | [SaaS Manager workflows and integrations are failing](https://stspg.io/nknq7xrbw3tl) | critical | 35 min |
 | 2026-04-27 | [Login and Sync Issues](https://stspg.io/rl7gr1h78lyk) | critical | 27.1 h |
 | 2026-04-22 | [Sign-in issues affecting 1Password SaaS Manager](https://stspg.io/mwg0pldwp18t) | major | 47 min |
-| 2026-04-14 | [1Password Hosted Service in the US experiencing high latency and errors](https://stspg.io/649xbzq5nnrk) | critical | 8.5 h |
 
 Newest 15 of 44. Full machine-readable history:
 [`history/1password.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/1password.json).

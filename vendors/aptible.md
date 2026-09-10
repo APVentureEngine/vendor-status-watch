@@ -2,7 +2,7 @@
 
 **20 Aptible incidents on record** spanning **2025-08-07** to **2026-07-27**. Status page:
 [https://status.aptible.com](https://status.aptible.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.6 h** across 20 incidents where Aptible posted both a start and a resolve time.

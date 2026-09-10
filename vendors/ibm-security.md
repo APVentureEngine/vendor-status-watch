@@ -1,9 +1,9 @@
 # IBM Security outage history — every incident their status page has posted
 
-**51 IBM Security incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
+**52 IBM Security incidents on record** spanning **2025-08-13** to **2026-09-10**. Status page:
 [https://statuspage.ibmcloudsecurity.com](https://statuspage.ibmcloudsecurity.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`partial`**.
 
 Median incident length: **18.4 h** across 50 incidents where IBM Security posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [IBM Verify - Authentication with IBMid for admin users monitors failing](https://stspg.io/770k4592sry5) | critical | — |
 | 2026-09-08 | [IBM Verify (Japan Region) service impacting issue - now recovered.](https://stspg.io/lglk85ml9pt5) | none | 0 min |
 | 2026-08-25 | [IBM Verify (US Region Cluster C ) had brief service impact](https://stspg.io/8jqctdr6n4p1) | major | 6.0 h |
 | 2026-08-20 | [IBM Verify (Europe Region) experiencing service impacting issues.](https://stspg.io/4y5rh8hqlhm5) | major | 5.2 days |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-25 | [Datamart Ingestion processing slowness](https://stspg.io/949ysq2yjhpb) | minor | 3.8 days |
 | 2026-06-24 | [IBM Security Verify (US Region)  service impacting issue](https://stspg.io/003vw7491904) | none | 113 min |
 | 2026-06-15 | [IBM Security Verify (US Region) experiencing service impacting issues.](https://stspg.io/jjd0mggmzwlw) | major | 45.5 h |
-| 2026-06-15 | [IBM Security Verify (US Region Cluster C ) experienced short service interruption](https://stspg.io/vl6f1f2fzkh4) | none | 0 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/ibm-security.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ibm-security.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **50** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

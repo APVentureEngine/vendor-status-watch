@@ -2,8 +2,8 @@
 
 **50 Visma incidents on record** spanning **2026-07-30** to **2026-09-03**. Status page:
 [https://status.visma.com](https://status.visma.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **11 min** across 50 incidents where Visma posted both a start and a resolve time.
 

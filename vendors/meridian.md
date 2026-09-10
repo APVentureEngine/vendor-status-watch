@@ -1,8 +1,8 @@
 # Meridian outage history — every incident their status page has posted
 
-**6 Meridian incidents on record** spanning **2025-09-08** to **2026-06-02**. Status page:
+**7 Meridian incidents on record** spanning **2025-09-08** to **2026-09-09**. Status page:
 [http://status.meridiankiosks.com](http://status.meridiankiosks.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **6** Meridian incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Blank screen on some kiosks](https://stspg.io/v2tcl72rkvhp) | none | — |
 | 2026-06-02 | [Reporting endpoint maintenance](https://stspg.io/hbtmntdvpbhk) | none | 81 min |
 | 2026-03-20 | [Investigating Connectivity Issue](https://stspg.io/r467kv8qppv1) | none | 8 min |
 | 2025-12-11 | [Data Processing Delays - Reporting Tools Affected](https://stspg.io/vy065cdv8qdh) | none | 0 min |
@@ -21,13 +22,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-09 | [Payment Processing - Potential Service Interruption](https://stspg.io/br3hvsxc9rgs) | major | 17.9 h |
 | 2025-09-08 | [Chase Payment Processing incident (Resolved)](https://stspg.io/f29z5jmv17r8) | none | 0 min |
 
-Newest 6 of 6. Full machine-readable history:
+Newest 7 of 7. Full machine-readable history:
 [`history/meridian.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/meridian.json).
 
 ## What is counted, and what is not
 
-Of 6 recorded incidents, **6** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 7 recorded incidents, **6** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

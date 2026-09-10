@@ -2,7 +2,7 @@
 
 **9 BlazeMeter incidents on record** spanning **2025-09-11** to **2026-05-26**. Status page:
 [https://status.blazemeter.com](https://status.blazemeter.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **8** BlazeMeter incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

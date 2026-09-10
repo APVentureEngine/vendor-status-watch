@@ -1,11 +1,11 @@
 # Neo4j Aura outage history — every incident their status page has posted
 
-**20 Neo4j Aura incidents on record** spanning **2025-08-19** to **2026-09-03**. Status page:
+**21 Neo4j Aura incidents on record** spanning **2025-08-19** to **2026-09-09**. Status page:
 [https://status.neo4j.io](https://status.neo4j.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **5.0 h** across 20 incidents where Neo4j Aura posted both a start and a resolve time.
+Median incident length: **4.7 h** across 21 incidents where Neo4j Aura posted both a start and a resolve time.
 
 This page republishes what Neo4j Aura posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Console and API outage](https://stspg.io/x8rccw2ck809) | critical | 68 min |
 | 2026-09-03 | [A small number of Free Tier instances are experiencing issues updating](https://stspg.io/txy1c92n0b9m) | none | 22.9 h |
 | 2026-08-20 | [Aura metrics issue.](https://stspg.io/n4gtks67r6gp) | minor | 3.4 h |
 | 2026-08-05 | [Potential unexpected query failures.](https://stspg.io/fjp0c9ctq1bx) | minor | 46.0 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-26 | [Limited set of queries impacted by Cypher 25 issue](https://stspg.io/s3qllcm4gv6g) | minor | 20.5 h |
 | 2026-01-16 | [Data science feature on AuraDS , AuraDSE and Aura Professional tiers - Native projection affected.](https://stspg.io/pzcv6h9c57cw) | minor | 5.2 h |
 | 2025-11-26 | [Neo4j Aura Service impacted by Resource Shortage in Azure US East](https://stspg.io/z76b3z3k80h2) | major | 15.0 days |
-| 2025-11-18 | [Pause / Resume / Destroy operations failing](https://stspg.io/2bnk6pt9m3sr) | minor | 42 min |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 21. Full machine-readable history:
 [`history/neo4j-aura.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/neo4j-aura.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
+Of 21 recorded incidents, **21** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **51 Bunny incidents on record** spanning **2025-09-09** to **2026-09-08**. Status page:
 [https://status.bunny.net](https://status.bunny.net) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.2 h** across 51 incidents where Bunny posted both a start and a resolve time.

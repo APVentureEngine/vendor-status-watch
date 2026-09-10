@@ -2,7 +2,7 @@
 
 **5 Axway incidents on record** spanning **2025-12-09** to **2026-08-18**. Status page:
 [https://status.axway.com](https://status.axway.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **5** Axway incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

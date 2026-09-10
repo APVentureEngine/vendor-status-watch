@@ -1,11 +1,11 @@
 # ZoomInfo outage history — every incident their status page has posted
 
-**44 ZoomInfo incidents on record** spanning **2025-08-06** to **2026-09-04**. Status page:
+**43 ZoomInfo incidents on record** spanning **2025-08-18** to **2026-09-04**. Status page:
 [https://status.zoominfo.com](https://status.zoominfo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **90 min** across 44 incidents where ZoomInfo posted both a start and a resolve time.
+Median incident length: **90 min** across 43 incidents where ZoomInfo posted both a start and a resolve time.
 
 This page republishes what ZoomInfo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-17 | [Chorus - Service Disruption](https://stspg.io/1mq61505xq3z) | critical | 32 min |
 | 2026-06-02 | [Neverbounce - Bulk Processing](https://stspg.io/2s3x4j2ljffv) | minor | 4.6 h |
 
-Newest 15 of 44. Full machine-readable history:
+Newest 15 of 43. Full machine-readable history:
 [`history/zoominfo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/zoominfo.json).
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **44** have a usable length. Excluded:
+Of 43 recorded incidents, **43** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

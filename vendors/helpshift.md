@@ -2,7 +2,7 @@
 
 **31 Helpshift incidents on record** spanning **2025-08-08** to **2026-08-31**. Status page:
 [https://status.helpshift.com](https://status.helpshift.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **58 min** across 31 incidents where Helpshift posted both a start and a resolve time.

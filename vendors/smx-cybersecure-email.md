@@ -1,11 +1,11 @@
 # SMX Cybersecure Email outage history — every incident their status page has posted
 
-**4 SMX Cybersecure Email incidents on record** spanning **2025-08-06** to **2026-05-17**. Status page:
+**3 SMX Cybersecure Email incidents on record** spanning **2026-03-30** to **2026-05-17**. Status page:
 [https://status.smxemail.com](https://status.smxemail.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **4** SMX Cybersecure Email incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **3** SMX Cybersecure Email incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what SMX Cybersecure Email posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -17,14 +17,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-17 | [Outbound email flow degraded service.](https://stspg.io/nc2pnf0v1r21) | major | 0 min |
 | 2026-04-29 | [SMX email admin portal logs](https://stspg.io/k01sxmzqy2nk) | minor | 51 min |
 | 2026-03-30 | [Quarantine Self Release Emails](https://stspg.io/ctcl17tkjbz5) | none | 0 min |
-| 2025-08-06 | [Increase in False Positives](https://stspg.io/1sbdggdtty5y) | minor | 24 min |
 
-Newest 4 of 4. Full machine-readable history:
+Newest 3 of 3. Full machine-readable history:
 [`history/smx-cybersecure-email.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/smx-cybersecure-email.json).
 
 ## What is counted, and what is not
 
-Of 4 recorded incidents, **4** have a usable length. Excluded:
+Of 3 recorded incidents, **3** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Gladly outage history — every incident their status page has posted
 
-**21 Gladly incidents on record** spanning **2025-08-07** to **2026-08-31**. Status page:
+**23 Gladly incidents on record** spanning **2025-08-07** to **2026-09-09**. Status page:
 [https://gladly.statuspage.io](https://gladly.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **76 min** across 21 incidents where Gladly posted both a start and a resolve time.
+Median incident length: **88 min** across 23 incidents where Gladly posted both a start and a resolve time.
 
 This page republishes what Gladly posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Reports Not Loading](https://stspg.io/fctq4l1hncfy) | minor | 4.4 h |
+| 2026-09-09 | [Reports not loading](https://stspg.io/kkfl23l087vc) | minor | 119 min |
 | 2026-08-31 | [Reports not loading](https://stspg.io/vmpfxzmq5wsq) | minor | 4.8 h |
 | 2026-07-31 | [Investigating Login Issue](https://stspg.io/lcl4895nzs6p) | critical | 53 min |
 | 2026-07-30 | [Gladly AI Elevated Handoffs on Chat, Email and SMS](https://stspg.io/mnqkkltgflsk) | minor | 3 min |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-21 | [Investigating Login Issue](https://stspg.io/zsn5qd61ry5b) | critical | 26 min |
 | 2026-01-17 | [Intermittent issues loading conversations](https://stspg.io/ng69j96v1vvz) | none | 12 min |
 | 2026-01-07 | [Gladly Login Issues Upon Page Refresh](https://stspg.io/x7cg6ww88mys) | major | 0 min |
-| 2025-12-19 | [Investigating Latency](https://stspg.io/zf4wmvgwn1hn) | minor | 64 min |
-| 2025-12-05 | [Investigating Login Issue](https://stspg.io/sh6p3wdshrhm) | critical | 24 min |
 
-Newest 15 of 21. Full machine-readable history:
+Newest 15 of 23. Full machine-readable history:
 [`history/gladly.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gladly.json).
 
 ## What is counted, and what is not
 
-Of 21 recorded incidents, **21** have a usable length. Excluded:
+Of 23 recorded incidents, **23** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,9 +1,9 @@
 # Barracuda outage history — every incident their status page has posted
 
-**51 Barracuda incidents on record** spanning **2026-01-22** to **2026-09-04**. Status page:
+**52 Barracuda incidents on record** spanning **2026-01-22** to **2026-09-10**. Status page:
 [https://status.barracuda.com](https://status.barracuda.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **10.2 h** across 51 incidents where Barracuda posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [SecureEdge Maintenance](https://stspg.io/pv6rkdv8bgvk) | maintenance | — |
 | 2026-09-04 | [Incident Response - Slow email ingestion is limiting search and resulting in error in searching for messages](https://stspg.io/lt5jz4m36bnd) | minor | 3.9 h |
 | 2026-09-02 | [XDR Dashboard unavailable](https://stspg.io/ql0v5ymblm79) | critical | 3.4 h |
 | 2026-09-01 | [XDR Dashboard logins failing (reopening incident)](https://stspg.io/2lv3ptp8tlc2) | critical | 10.2 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-07 | [SAT Main Website Unavailable](https://stspg.io/f5lrpgm9xssb) | major | 59 min |
 | 2026-07-06 | [Barracuda XDR - Service Disruption on datasources visibility in dashboard](https://stspg.io/krqj2hl5w8vq) | minor | 26.4 h |
 | 2026-07-02 | [Email Gateway Defense attachment file scanning partially impacted in the Australia region](https://stspg.io/2sc4rht9ljdj) | major | 5.7 h |
-| 2026-07-01 | [Mail processing delayed in US region](https://stspg.io/jz75nv9f7bw4) | none | 15.5 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/barracuda.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/barracuda.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

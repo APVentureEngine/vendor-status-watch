@@ -2,7 +2,7 @@
 
 **25 Maze incidents on record** spanning **2026-01-26** to **2026-09-02**. Status page:
 [https://status.maze.co](https://status.maze.co) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **80 min** across 24 incidents where Maze posted both a start and a resolve time.

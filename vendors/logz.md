@@ -1,11 +1,11 @@
 # Logz outage history — every incident their status page has posted
 
-**42 Logz incidents on record** spanning **2025-08-25** to **2026-08-21**. Status page:
+**43 Logz incidents on record** spanning **2025-08-25** to **2026-09-09**. Status page:
 [https://status.logz.io](https://status.logz.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **63 min** across 42 incidents where Logz posted both a start and a resolve time.
+Median incident length: **62 min** across 43 incidents where Logz posted both a start and a resolve time.
 
 This page republishes what Logz posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [EU-Central-1: Some Customers Experiencing Lag](https://stspg.io/m0xsgjqhkg2t) | minor | 62 min |
 | 2026-08-21 | [Canada - Data Ingestions Delays For Some Customers](https://stspg.io/5wyw9jq4b2zp) | minor | 56 min |
 | 2026-08-06 | [Data Ingestions Delays For Some Customers - Degraded Performance - us-east-1](https://stspg.io/8r44md6b7t6t) | none | 0 min |
 | 2026-07-09 | [US-East - Data Ingestions Delays For Some Customers](https://stspg.io/l1jf2gf9fdf5) | minor | 21 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-10 | [US-EAST: Delayed indexing in opensearch for some customers](https://stspg.io/zr7xtg0w4rsr) | minor | 74 min |
 | 2026-03-30 | [Some Customers Experiencing Lag for Rolled Up Metrics: eu-central-1](https://stspg.io/xmhcx082ndnk) | minor | 69 min |
 | 2026-03-27 | [Degraded Log Ingestion](https://stspg.io/z0st2fsnb058) | none | 58 min |
-| 2026-03-10 | [US-East - Delayed Alerting for Some Customers](https://stspg.io/bqqmzvgt08dm) | minor | 28 min |
 
-Newest 15 of 42. Full machine-readable history:
+Newest 15 of 43. Full machine-readable history:
 [`history/logz.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/logz.json).
 
 ## What is counted, and what is not
 
-Of 42 recorded incidents, **42** have a usable length. Excluded:
+Of 43 recorded incidents, **43** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

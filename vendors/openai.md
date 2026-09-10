@@ -1,11 +1,11 @@
 # OpenAI outage history — every incident their status page has posted
 
-**27 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-08**. Status page:
+**30 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-10**. Status page:
 [https://status.openai.com](https://status.openai.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
-Median incident length: **2.9 h** across 27 incidents where OpenAI posted both a start and a resolve time.
+Median incident length: **2.7 h** across 29 incidents where OpenAI posted both a start and a resolve time.
 
 This page republishes what OpenAI posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | Unable to open shared ChatGPT Project using direct link | minor | — |
+| 2026-09-09 | Investigating unexpected usage limit resets | none | 24 min |
+| 2026-09-09 | Increased Error Rate For Pro and Plus Plan Conversations | minor | 68 min |
 | 2026-09-08 | File uploads are delayed or failing | minor | 4.6 h |
 | 2026-09-08 | Elevated errors for image generation | minor | 7.4 h |
 | 2026-09-04 | Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud | minor | 3.8 h |
@@ -26,17 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-27 | Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile | minor | 4.2 h |
 | 2026-08-21 | Unexpected logouts for some ChatGPT web users | minor | 3.4 h |
 | 2026-08-20 | Elevated Codex API authentication errors | minor | 53 min |
-| 2026-08-20 | Elevated Errors for Thinking mode in ChatGPT | minor | 2.9 h |
-| 2026-08-20 | Chatgpt.com is down - all signups and logins are down as of right now | minor | 52 min |
-| 2026-08-18 | Elevated errors deploying Sites | minor | 20 min |
 
-Newest 15 of 27. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/openai.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/openai.json).
 
 ## What is counted, and what is not
 
-Of 27 recorded incidents, **27** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 30 recorded incidents, **29** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

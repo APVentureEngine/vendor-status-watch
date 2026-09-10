@@ -2,7 +2,7 @@
 
 **28 Samanage incidents on record** spanning **2025-08-26** to **2026-09-08**. Status page:
 [https://status.samanage.com](https://status.samanage.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.3 h** across 28 incidents where Samanage posted both a start and a resolve time.

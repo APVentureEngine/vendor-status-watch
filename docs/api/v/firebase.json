@@ -3,11 +3,22 @@
 "slug": "firebase",
 "platform": "bespoke",
 "status_url": "https://status.firebase.google.com",
-"last_checked": "2026-09-09T12:30:34Z",
-"last_state": "ok",
+"last_checked": "2026-09-10T12:15:40Z",
+"last_state": "partial",
 "history_backfilled": false,
 "first_watched": "2026-09-04T11:14:03Z",
 "incidents": [
+{
+"body": "Firebase Test Lab is experiencing execution delay on ARM based virtual devices. We are currently investigating the cause.",
+"first_seen": "2026-09-10T12:15:40Z",
+"impact": "medium",
+"last_seen": "2026-09-10T12:15:40Z",
+"started_at": "2026-09-10T06:00:00+00:00",
+"state": "service_disruption",
+"title": "Test Lab: Firebase Test Lab is experiencing execution delay on ARM based virtual devices. We are currently investigating the cause.",
+"updated_at": "2026-09-10T07:16:16+00:00",
+"url": "https://status.firebase.google.com/incidents/3hLMVuTvy2nKuBqWsoPw"
+},
 {
 "body": "We are investigating a system issue. To protect platform stability, we have limited the volume of collected data. Expect a visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
 "first_seen": "2026-09-04T11:14:03Z",

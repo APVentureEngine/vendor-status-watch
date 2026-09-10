@@ -1,8 +1,8 @@
 # Elastic outage history — every incident their status page has posted
 
-**50 Elastic incidents on record** spanning **2026-02-18** to **2026-09-02**. Status page:
+**52 Elastic incidents on record** spanning **2026-02-18** to **2026-09-10**. Status page:
 [https://status.elastic.co](https://status.elastic.co) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **2.5 h** across 48 incidents where Elastic posted both a start and a resolve time.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Kibana access restored for UI-assigned Organization Owners on Hosted deployments](https://stspg.io/dh1b7zfw3t85) | major | — |
+| 2026-09-09 | [Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output](https://stspg.io/jfmrn98pwf2h) | major | — |
 | 2026-09-02 | [Elevated Error Rates for Specific Models Impacting Elastic Inference Service in EU Regions](https://stspg.io/h2j4gjbzyj4l) | major | 0 min |
 | 2026-09-01 | [Issue impacting services running in GCP us-central1](https://stspg.io/w5zlwvkv54rk) | major | 4.8 h |
 | 2026-09-01 | [Replication bug causing slow recoveries](https://stspg.io/nx73hprsrgph) | major | — |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-05 | [Elasticsearch 9.5.0 contains a query-correctness defect](https://stspg.io/21ysb6fmlb1g) | major | 6.4 days |
 | 2026-07-21 | [Metering issue with Elastic Cloud Hosted Deployments](https://stspg.io/drr3n7snbrxp) | major | 32.8 h |
 | 2026-07-21 | [AutoOps monitoring data not ingested for subset of deployments](https://stspg.io/3z2bvyhtq1qt) | major | 35 min |
-| 2026-07-21 | [Elastic Cloud - Email MFA Delivery Delays (Gmail)](https://stspg.io/h34xvx67pp28) | major | 2.3 days |
-| 2026-07-18 | [AutoOps monitoring data not ingested for subset of deployments](https://stspg.io/l2t3l8nlfvz8) | minor | 2.2 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/elastic.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/elastic.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **48** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **48** have a usable length. Excluded:
+0 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

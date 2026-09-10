@@ -2,7 +2,7 @@
 
 **50 Datadog incidents on record** spanning **2025-10-20** to **2026-09-03**. Status page:
 [https://status.datadoghq.com](https://status.datadoghq.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **84 min** across 50 incidents where Datadog posted both a start and a resolve time.

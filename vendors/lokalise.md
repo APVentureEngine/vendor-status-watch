@@ -2,7 +2,7 @@
 
 **8 Lokalise incidents on record** spanning **2025-09-08** to **2026-08-17**. Status page:
 [https://status.lokalise.com](https://status.lokalise.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **8** Lokalise incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

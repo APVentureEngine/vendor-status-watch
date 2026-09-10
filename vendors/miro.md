@@ -2,10 +2,10 @@
 
 **19 Miro incidents on record** spanning **2025-08-19** to **2026-09-08**. Status page:
 [https://status.miro.com](https://status.miro.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`partial`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Only **18** Miro incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **19** Miro incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Miro posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | Sign-in with username and password is unavailable | major | — |
+| 2026-09-08 | Sign-in with username and password is unavailable | major | 19.0 h |
 | 2026-08-31 | Intermittent Issues with User Registration and Login | major | 85 min |
 | 2026-05-21 | Functionality degradation in Miro AI | minor | 3.7 h |
 | 2026-05-04 | Miro is partially down | major | 2.6 h |
@@ -35,8 +35,8 @@ Newest 15 of 19. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 19 recorded incidents, **18** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 19 recorded incidents, **19** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

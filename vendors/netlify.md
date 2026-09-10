@@ -2,7 +2,7 @@
 
 **52 Netlify incidents on record** spanning **2026-02-10** to **2026-09-08**. Status page:
 [https://netlifystatus.com](https://netlifystatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **34 min** across 52 incidents where Netlify posted both a start and a resolve time.

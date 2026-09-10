@@ -2,7 +2,7 @@
 
 **32 Servers Australia incidents on record** spanning **2025-09-09** to **2026-09-03**. Status page:
 [https://status.mysau.com.au](https://status.mysau.com.au) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **7.8 h** across 30 incidents where Servers Australia posted both a start and a resolve time.

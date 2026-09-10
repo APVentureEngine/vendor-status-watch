@@ -2,10 +2,10 @@
 
 **42 Parchment incidents on record** spanning **2025-08-19** to **2026-09-04**. Status page:
 [https://status.parchment.com](https://status.parchment.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **5.4 h** across 38 incidents where Parchment posted both a start and a resolve time.
+Median incident length: **5.9 h** across 39 incidents where Parchment posted both a start and a resolve time.
 
 This page republishes what Parchment posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,7 +15,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-04 | [MFA code emails not being sent](https://stspg.io/t3078gy7stgy) | minor | 6.3 h |
-| 2026-08-17 | [Limited Consumer Support Hours](https://stspg.io/5flg0988nvmj) | minor | — |
+| 2026-08-17 | [Limited Consumer Support Hours](https://stspg.io/5flg0988nvmj) | minor | 22.9 days |
 | 2026-07-30 | [Brief system update to improve our School Search on Parchment.com](https://stspg.io/j7p9nx8k9xd4) | none | 90 min |
 | 2026-07-27 | [Page spins when you try to order a credential.](https://stspg.io/1gzgmp9spfn7) | minor | 5.9 h |
 | 2026-07-20 | [Parchment Message "Error: Failed to get orders"](https://stspg.io/hlt24920c5zv) | minor | 111 min |
@@ -35,8 +35,8 @@ Newest 15 of 42. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 42 recorded incidents, **38** have a usable length. Excluded:
-3 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 42 recorded incidents, **39** have a usable length. Excluded:
+3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

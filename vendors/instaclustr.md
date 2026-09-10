@@ -1,11 +1,11 @@
 # Instaclustr outage history — every incident their status page has posted
 
-**23 Instaclustr incidents on record** spanning **2025-08-20** to **2026-08-20**. Status page:
+**24 Instaclustr incidents on record** spanning **2025-08-20** to **2026-09-10**. Status page:
 [https://status.instaclustr.com](https://status.instaclustr.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.1 h** across 23 incidents where Instaclustr posted both a start and a resolve time.
+Median incident length: **4.1 h** across 24 incidents where Instaclustr posted both a start and a resolve time.
 
 This page republishes what Instaclustr posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Degraded Cluster Provisioning](https://stspg.io/wdq4ys97pmd7) | minor | 43 min |
 | 2026-08-20 | [GCP us-west1 Operational Issues](https://stspg.io/jw2l0pnxdvl9) | major | 2.5 h |
 | 2026-08-19 | [Compatability issues for Instaclustr OpenSearch issues and Instaclustr Terraform provider](https://stspg.io/lmtj90zbh0qz) | minor | 2.5 h |
 | 2026-07-29 | [Provisioning Failures for Private Network PostgreSQL clusters with 3 nodes](https://stspg.io/9qpr3qkrrchk) | none | 9.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-04 | [Provisioning Failures for Cadence and Kafka Connect into existing AWS VPC](https://stspg.io/zzly531x2bbd) | major | 5.8 h |
 | 2026-02-12 | [Provisioning Failures for OpenSearch](https://stspg.io/02jln06sjnpn) | major | 5.6 h |
 | 2026-01-27 | [Elevated Cluster Management API Latency](https://stspg.io/vlh2q3hlsnsd) | minor | 116 min |
-| 2026-01-27 | [Delays in making changes to Clickhouse Configurations,  Clickhouse Kafka integrations and Kafka Users](https://stspg.io/dy9jct92phn1) | minor | 39.8 h |
 
-Newest 15 of 23. Full machine-readable history:
+Newest 15 of 24. Full machine-readable history:
 [`history/instaclustr.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/instaclustr.json).
 
 ## What is counted, and what is not
 
-Of 23 recorded incidents, **23** have a usable length. Excluded:
+Of 24 recorded incidents, **24** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

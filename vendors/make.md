@@ -1,11 +1,11 @@
 # Make outage history — every incident their status page has posted
 
-**50 Make incidents on record** spanning **2025-10-22** to **2026-09-02**. Status page:
+**51 Make incidents on record** spanning **2025-10-22** to **2026-09-09**. Status page:
 [https://status.make.com](https://status.make.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.0 h** across 50 incidents where Make posted both a start and a resolve time.
+Median incident length: **2.0 h** across 51 incidents where Make posted both a start and a resolve time.
 
 This page republishes what Make posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Degradation on EU1 Region](https://stspg.io/j49gjx18vdvf) | major | 18.3 h |
 | 2026-09-02 | [Delayed scenario executions on us2.make.com](https://stspg.io/yhh3jv37kdtk) | minor | 0 min |
 | 2026-08-26 | [Delay in scenario executions affecting the EU1 (eu1.make.com)](https://stspg.io/gbsxs3pxgt00) | minor | 0 min |
 | 2026-08-24 | [Issues with Scenario saving and Execution on EU2](https://stspg.io/bv72cgw15ghf) | minor | 10 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-17 | [Login issues across multiple zones](https://stspg.io/t6bd61bnwrwy) | major | 2.0 h |
 | 2026-07-07 | [LinkedIn* app connections results in "The application is disabled"](https://stspg.io/w7d587k5k2wz) | major | 7.3 days |
 | 2026-06-30 | [Scenario editing incorrectly clearing module field values](https://stspg.io/r83dn1r29fb8) | none | 10.6 h |
-| 2026-06-29 | [Login to make.com doesn't work](https://stspg.io/fd3xk6kfwfxq) | major | 108 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/make.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/make.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Actionstep outage history — every incident their status page has posted
 
-**25 Actionstep incidents on record** spanning **2025-08-06** to **2026-08-28**. Status page:
+**24 Actionstep incidents on record** spanning **2025-08-16** to **2026-08-28**. Status page:
 [https://status.actionstep.com](https://status.actionstep.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **56 min** across 25 incidents where Actionstep posted both a start and a resolve time.
+Median incident length: **56 min** across 24 incidents where Actionstep posted both a start and a resolve time.
 
 This page republishes what Actionstep posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-07 | [Feature Degridation - us-east-1, us-west-1 - Actionstep Payments Unavailable - Nov 06 2025](https://stspg.io/zqgvk4fy42y8) | none | 24 min |
 | 2025-11-06 | [Server Outage - (eu-west-1) - Users Unable to Login - Nov 06 2025](https://stspg.io/dkfmzshwb660) | critical | 40 min |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 24. Full machine-readable history:
 [`history/actionstep.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/actionstep.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **25** have a usable length. Excluded:
+Of 24 recorded incidents, **24** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **37 Mailgun incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
 [https://status.mailgun.com](https://status.mailgun.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **86 min** across 37 incidents where Mailgun posted both a start and a resolve time.

@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -96,7 +100,7 @@
 "body": "This\u202fissue\u202fhas been resolved. We apologize for the inconvenience and appreciate your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-03-12T09:45:22.609-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-12T09:12:59.119-04:00",
@@ -109,7 +113,7 @@
 "body": "This\u202fissue\u202fhas been resolved. We apologize for the inconvenience and appreciate your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-03-23T08:16:02.712-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-23T04:30:18.195-04:00",
@@ -119,7 +123,7 @@
 "url": "https://stspg.io/l1trnyl2q2s3"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
+"last_checked": "2026-09-10T12:15:40Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

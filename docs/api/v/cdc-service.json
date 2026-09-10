@@ -3,9 +3,19 @@
 "slug": "cdc-service",
 "platform": "status.io",
 "status_url": "http://status.cdc.systems",
-"last_checked": "2026-09-09T12:30:34Z",
-"last_state": "ok",
+"last_checked": "2026-09-10T12:15:40Z",
+"last_state": "maintenance",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
-"incidents": []
+"incidents": [
+{
+"first_seen": "2026-09-10T12:15:40Z",
+"impact": "maintenance",
+"last_seen": "2026-09-10T12:15:40Z",
+"started_at": "2026-09-10T06:38:44.981Z",
+"state": "maintenance",
+"title": "[CDC-ID: #316498] UPS Maintenance Notification",
+"url": "http://status.cdc.systems"
+}
+]
 }

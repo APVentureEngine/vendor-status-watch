@@ -1,11 +1,11 @@
 # Incapsula outage history — every incident their status page has posted
 
-**51 Incapsula incidents on record** spanning **2026-03-27** to **2026-09-08**. Status page:
+**52 Incapsula incidents on record** spanning **2026-03-27** to **2026-09-09**. Status page:
 [https://status.incapsula.com](https://status.incapsula.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`maintenance`**.
 
-Median incident length: **3.4 h** across 51 incidents where Incapsula posted both a start and a resolve time.
+Median incident length: **3.4 h** across 52 incidents where Incapsula posted both a start and a resolve time.
 
 This page republishes what Incapsula posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [[ INC - 1129 ]Service Degradation Impacting Login to the Imperva Management Portal](https://stspg.io/4d6l22m33x8p) | minor | 5.0 h |
 | 2026-09-08 | [Network connectivity degradation in MAD PoP](https://stspg.io/jc25p5kysbrl) | minor | 34 min |
 | 2026-09-02 | [[INC-1120 ] Service Degradation affecting a subset of customers in North America region](https://stspg.io/66w024cpk58k) | minor | 4.2 h |
 | 2026-09-02 | [[INC-1118] Rio de Janeiro, Brazil (RIO) Data Center Issue](https://stspg.io/vbc91mbpycz1) | major | 2.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-05 | [[INC-1101] Real-Time WAF Alerting Service Degradation](https://stspg.io/xkggt81w2t3q) | minor | 59 min |
 | 2026-07-29 | [[INC-1096] Global Support Phone System Disruption](https://stspg.io/msqr3tjj1vqm) | major | 7.2 h |
 | 2026-07-27 | [[INC-1092] Support Ticketing System Issue](https://stspg.io/tq7ld9pgrth5) | minor | 2.4 h |
-| 2026-07-17 | [[INC -1084] Rio de Janeiro, Brazil (RIO) Data Center Issue](https://stspg.io/y19v4crmp3pz) | major | 25.4 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/incapsula.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/incapsula.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

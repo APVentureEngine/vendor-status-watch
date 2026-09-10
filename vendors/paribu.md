@@ -2,10 +2,10 @@
 
 **51 Paribu incidents on record** spanning **2025-12-08** to **2026-09-05**. Status page:
 [https://status.paribu.com](https://status.paribu.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`partial`**.
 
-Only **14** Paribu incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **15** Paribu incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Paribu posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -17,7 +17,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-05 | [Cosmos (ATOM) Yatırma ve Çekme İşlemleri](https://stspg.io/zpy8gmdl9cnc) | maintenance | — |
 | 2026-09-03 | [Mina (MINA) Ağ Güncellemesi](https://stspg.io/5g0hrfby8cf0) | maintenance | — |
 | 2026-08-28 | [Nesa (NES) DeFi Tokenı Alım ve Satım İşlemleri](https://stspg.io/l246dn63zwnw) | none | — |
-| 2026-08-28 | [TAC (TAC) DeFi Tokenı Alım ve Satım İşlemleri](https://stspg.io/4y5n1j0d0xrx) | none | — |
+| 2026-08-28 | [TAC (TAC) DeFi Tokenı Alım ve Satım İşlemleri](https://stspg.io/4y5n1j0d0xrx) | none | 12.1 days |
 | 2026-08-13 | [Kite (KITE) Yatırma ve Çekme İşlemleri](https://stspg.io/309fkf07l5b9) | critical | 14.1 days |
 | 2026-08-11 | [Ravencoin (RVN) Ağında Güncelleme](https://stspg.io/cnc370cvzn35) | critical | 21.3 days |
 | 2026-07-06 | [Bonk (BONK) Yatırma İşlemlerinde Aksaklık](https://stspg.io/26d38vtdyk5k) | major | 41.2 h |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **14** have a usable length. Excluded:
-34 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **15** have a usable length. Excluded:
+34 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

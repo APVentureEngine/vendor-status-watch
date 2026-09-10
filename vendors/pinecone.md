@@ -1,11 +1,11 @@
 # Pinecone outage history — every incident their status page has posted
 
-**48 Pinecone incidents on record** spanning **2025-08-05** to **2026-09-01**. Status page:
+**47 Pinecone incidents on record** spanning **2025-08-11** to **2026-09-01**. Status page:
 [https://status.pinecone.io](https://status.pinecone.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **76 min** across 48 incidents where Pinecone posted both a start and a resolve time.
+Median incident length: **78 min** across 47 incidents where Pinecone posted both a start and a resolve time.
 
 This page republishes what Pinecone posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-06 | [[AWS][us-east-1] 5xx errors for some requests on some indexes](https://stspg.io/t70kz736vzf0) | major | 27 min |
 | 2026-05-06 | [Pinecone Console loading slowly for some users](https://stspg.io/9nyjqj9k830d) | minor | 19 min |
 
-Newest 15 of 48. Full machine-readable history:
+Newest 15 of 47. Full machine-readable history:
 [`history/pinecone.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/pinecone.json).
 
 ## What is counted, and what is not
 
-Of 48 recorded incidents, **48** have a usable length. Excluded:
+Of 47 recorded incidents, **47** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

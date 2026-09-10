@@ -1,9 +1,9 @@
 # Barracuda MSP outage history — every incident their status page has posted
 
-**3 Barracuda MSP incidents on record** spanning **2026-01-05** to **2026-05-08**. Status page:
+**4 Barracuda MSP incidents on record** spanning **2026-01-05** to **2026-09-09**. Status page:
 [https://mwrmm.statuspage.io](https://mwrmm.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
 Only **3** Barracuda MSP incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,17 +14,18 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [US07 Degraded Performance](https://stspg.io/8l0h8m1bdywh) | minor | — |
 | 2026-05-08 | [US03 - Unplanned Outage - Investigation](https://stspg.io/1c7l63rnjsdh) | none | 24.3 h |
 | 2026-03-02 | [US07 - Degraded Performance](https://stspg.io/3532hdh61svg) | minor | 7.2 days |
 | 2026-01-05 | [Partners are not receiving emails from Barracuda RMM](https://stspg.io/j5lhld6z14h9) | minor | 23.5 h |
 
-Newest 3 of 3. Full machine-readable history:
+Newest 4 of 4. Full machine-readable history:
 [`history/barracuda-msp.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/barracuda-msp.json).
 
 ## What is counted, and what is not
 
-Of 3 recorded incidents, **3** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 4 recorded incidents, **3** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

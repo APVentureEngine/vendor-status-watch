@@ -1,11 +1,11 @@
 # TPx Communications outage history — every incident their status page has posted
 
-**30 TPx Communications incidents on record** spanning **2025-08-08** to **2026-09-02**. Status page:
+**31 TPx Communications incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
 [https://tpxcommunications.statuspage.io](https://tpxcommunications.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **18.3 h** across 29 incidents where TPx Communications posted both a start and a resolve time.
+Median incident length: **17.7 h** across 30 incidents where TPx Communications posted both a start and a resolve time.
 
 This page republishes what TPx Communications posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Test Incident](https://stspg.io/f0xqx3yyqpb4) | none | 1 min |
 | 2026-09-02 | [Los Angeles Internet Traffic Degradation](https://stspg.io/t54dqtrrgrj5) | minor | 6.0 days |
 | 2026-08-25 | [Arista Velocloud Platform Maintenance](https://stspg.io/n3pvyrmtsf1h) | minor | 7.9 days |
 | 2026-08-13 | [Arista Velocloud Platform Maintenance](https://stspg.io/y3ctc0yyhws9) | minor | 7.7 days |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-29 | [Los Angeles Towerstream OTT Outage](https://stspg.io/k3vl477rptds) | minor | 2.1 h |
 | 2026-05-25 | [Users are experiencing issues accessing VCO options.](https://stspg.io/4vpb4t0g66tg) | major | 3.4 h |
 | 2026-05-22 | [Updating Resolved Las Vegas Outage](https://stspg.io/zwq2vwl0b5d5) | critical | 1 min |
-| 2026-05-22 | [Las Vegas Network Outage](https://stspg.io/zvyvdcmcgmq0) | critical | 3.6 h |
 
-Newest 15 of 30. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/tpx-communications.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/tpx-communications.json).
 
 ## What is counted, and what is not
 
-Of 30 recorded incidents, **29** have a usable length. Excluded:
+Of 31 recorded incidents, **30** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

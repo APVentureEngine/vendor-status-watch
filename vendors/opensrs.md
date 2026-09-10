@@ -1,11 +1,11 @@
 # Opensrs outage history — every incident their status page has posted
 
-**48 Opensrs incidents on record** spanning **2025-08-05** to **2026-09-01**. Status page:
+**47 Opensrs incidents on record** spanning **2025-08-19** to **2026-09-01**. Status page:
 [https://www.opensrsstatus.com](https://www.opensrsstatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **87 min** across 48 incidents where Opensrs posted both a start and a resolve time.
+Median incident length: **88 min** across 47 incidents where Opensrs posted both a start and a resolve time.
 
 This page republishes what Opensrs posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-19 | [Issue impacting .AI, .LLC and .center TLD domains](https://stspg.io/8lqsw06lg2qj) | minor | 86 min |
 | 2026-04-16 | [Connectivity issues with the AFNIC (.FR) registry](https://stspg.io/8whslz5c12kc) | minor | 88 min |
 
-Newest 15 of 48. Full machine-readable history:
+Newest 15 of 47. Full machine-readable history:
 [`history/opensrs.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/opensrs.json).
 
 ## What is counted, and what is not
 
-Of 48 recorded incidents, **48** have a usable length. Excluded:
+Of 47 recorded incidents, **47** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

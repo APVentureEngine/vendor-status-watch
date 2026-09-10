@@ -1,11 +1,11 @@
 # Doppler outage history — every incident their status page has posted
 
-**5 Doppler incidents on record** spanning **2025-08-05** to **2026-07-16**. Status page:
+**4 Doppler incidents on record** spanning **2025-08-20** to **2026-07-16**. Status page:
 [https://www.dopplerstatus.com](https://www.dopplerstatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
-Only **5** Doppler incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **4** Doppler incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Doppler posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -18,14 +18,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-20 | [Background job delays impacting sync, webhook and email delivery](https://stspg.io/m9f4qljcp5mf) | major | 3.8 h |
 | 2025-11-18 | [System Outage](https://stspg.io/ym9ydy0mgtw3) | critical | 3.2 h |
 | 2025-08-20 | [Background job delays impacting sync and email delivery](https://stspg.io/zjcknwfkkngy) | critical | 66 min |
-| 2025-08-05 | [Elevated error rates for API and Dashboard](https://stspg.io/5fdwlt6ykjmf) | minor | 2.1 h |
 
-Newest 5 of 5. Full machine-readable history:
+Newest 4 of 4. Full machine-readable history:
 [`history/doppler.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/doppler.json).
 
 ## What is counted, and what is not
 
-Of 5 recorded incidents, **5** have a usable length. Excluded:
+Of 4 recorded incidents, **4** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

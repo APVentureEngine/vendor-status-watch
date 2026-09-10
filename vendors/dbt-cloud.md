@@ -1,11 +1,11 @@
 # Dbt Cloud outage history — every incident their status page has posted
 
-**27 Dbt Cloud incidents on record** spanning **2026-06-19** to **2026-09-08**. Status page:
+**28 Dbt Cloud incidents on record** spanning **2026-06-19** to **2026-09-10**. Status page:
 [https://status.getdbt.com](https://status.getdbt.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.2 h** across 24 incidents where Dbt Cloud posted both a start and a resolve time.
+Median incident length: **2.0 h** across 25 incidents where Dbt Cloud posted both a start and a resolve time.
 
 This page republishes what Dbt Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | State usage metrics not being ingested | major | 72 min |
 | 2026-09-08 | User Login Sessions Terminated | major | 4.5 h |
 | 2026-09-04 | dbt Platform not responding | critical | 91 min |
 | 2026-09-03 | New user onboarding issue for trial sign-ups | none | 1 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-09 | Fusion Stable: BigQuery incremental model builds affected | minor | 77 min |
 | 2026-07-29 | AI Codegen (Wizard) unavailable in EMEA | minor | 5 min |
 | 2026-07-27 | Certificate errors affecting the dbt platform | critical | 25 min |
-| 2026-07-24 | Scheduled jobs are intermittently affected by job failures caused by 403 error | minor | 7.0 h |
 
-Newest 15 of 27. Full machine-readable history:
+Newest 15 of 28. Full machine-readable history:
 [`history/dbt-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/dbt-cloud.json).
 
 ## What is counted, and what is not
 
-Of 27 recorded incidents, **24** have a usable length. Excluded:
+Of 28 recorded incidents, **25** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 3 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

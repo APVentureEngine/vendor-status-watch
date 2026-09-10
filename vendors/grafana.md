@@ -1,11 +1,11 @@
 # Grafana outage history — every incident their status page has posted
 
-**59 Grafana incidents on record** spanning **2026-07-08** to **2026-09-09**. Status page:
+**61 Grafana incidents on record** spanning **2026-07-08** to **2026-09-10**. Status page:
 [https://grafanalabs.statuspage.io](https://grafanalabs.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`maintenance`**.
 
-Median incident length: **2.0 h** across 55 incidents where Grafana posted both a start and a resolve time.
+Median incident length: **2.0 h** across 56 incidents where Grafana posted both a start and a resolve time.
 
 This page republishes what Grafana posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [Investigating elevated database load in AWS Germany](https://stspg.io/j1r7zw96mgh5) | minor | — |
+| 2026-09-10 | [API Maintenance](https://stspg.io/87dgsxvy0br4) | maintenance | — |
+| 2026-09-10 | [Scheduled Database Maintenance – Temporary Grafana Instance Unavailability](https://stspg.io/tgbr5w8hqvtm) | maintenance | — |
+| 2026-09-09 | [Investigating elevated database load in AWS Germany](https://stspg.io/j1r7zw96mgh5) | minor | 2.4 h |
 | 2026-09-09 | [Scheduled Database Maintenance – Temporary Grafana Instance Unavailability](https://stspg.io/9dztxgf5793s) | maintenance | — |
 | 2026-09-09 | [Scheduled Database Maintenance – Temporary Grafana Instance Unavailability](https://stspg.io/dwj0ck0sq4w3) | maintenance | — |
 | 2026-09-08 | [Issues with Geomap Tiles](https://stspg.io/lr44wpz3m0tz) | minor | 4.6 h |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | [High Latency in prod-ap-south-1](https://stspg.io/f6h7k3lq3v62) | major | 3.3 h |
 | 2026-09-02 | [Elevated Latency in Grafana Cloud Logs (prod-ap-south-1)](https://stspg.io/39bjpwxypjqn) | none | 0 min |
 | 2026-09-01 | [Investigating issues in US Central (prod-us-central-0, prod-us-central-5)](https://stspg.io/jvcf7d0j5x37) | minor | 4.9 h |
-| 2026-08-28 | [Partial Logs Write Outage](https://stspg.io/zc28d5qtcwdf) | major | 89 min |
-| 2026-08-28 | [Some Grafana UI features may be unavailable or reverting to legacy behaviour](https://stspg.io/lj9v7hbqc7gp) | minor | 102 min |
 
-Newest 15 of 59. Full machine-readable history:
+Newest 15 of 61. Full machine-readable history:
 [`history/grafana.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/grafana.json).
 
 ## What is counted, and what is not
 
-Of 59 recorded incidents, **55** have a usable length. Excluded:
-3 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 61 recorded incidents, **56** have a usable length. Excluded:
+5 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

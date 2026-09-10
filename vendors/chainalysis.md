@@ -1,11 +1,11 @@
 # Chainalysis outage history — every incident their status page has posted
 
-**51 Chainalysis incidents on record** spanning **2025-09-11** to **2026-09-08**. Status page:
+**52 Chainalysis incidents on record** spanning **2025-09-11** to **2026-09-10**. Status page:
 [https://status.chainalysis.com](https://status.chainalysis.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.0 h** across 51 incidents where Chainalysis posted both a start and a resolve time.
+Median incident length: **3.8 h** across 52 incidents where Chainalysis posted both a start and a resolve time.
 
 This page republishes what Chainalysis posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Reactor.chainalysis.com domain outage](https://stspg.io/vd3plkt4g6qt) | none | 0 min |
 | 2026-09-08 | [Reactor and KYT Service Disruption](https://stspg.io/kdx3whlw24jt) | critical | 2.2 h |
 | 2026-09-01 | [Cronos Data Delay](https://stspg.io/0qqz8wwcly2h) | minor | 33.1 h |
 | 2026-08-24 | [BNB Smart Chain Data Delay in KYT and Reactor](https://stspg.io/qmtr6p8qlhcq) | minor | 3.0 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-22 | [Hexagate Alerts Issues](https://stspg.io/n4ydk6g6nr8w) | none | 42.3 h |
 | 2026-06-20 | [Reactor graph loading issues and Plasma KYT monitoring delays](https://stspg.io/87rnnry1flx6) | minor | 43.2 h |
 | 2026-06-12 | [Server Error on Reactor, Rapid, and KYT](https://stspg.io/cq1rpwjxs0zq) | major | 72 min |
-| 2026-06-08 | [Reactor Degraded Performance](https://stspg.io/f1knd91gblps) | none | 0 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/chainalysis.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/chainalysis.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

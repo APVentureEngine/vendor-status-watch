@@ -1,11 +1,11 @@
 # Squarespace outage history — every incident their status page has posted
 
-**50 Squarespace incidents on record** spanning **2025-08-18** to **2026-08-20**. Status page:
+**51 Squarespace incidents on record** spanning **2025-08-18** to **2026-09-08**. Status page:
 [https://status.squarespace.com](https://status.squarespace.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **80 min** across 49 incidents where Squarespace posted both a start and a resolve time.
+Median incident length: **80 min** across 50 incidents where Squarespace posted both a start and a resolve time.
 
 This page republishes what Squarespace posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-08 | [Acuity Scheduling / Client Scheduling Page showing "SORRY" error](https://stspg.io/x9x9gptdvr9f) | major | 0 min |
 | 2026-08-20 | [Acuity Scheduling - Unable to Connect to Meta](https://stspg.io/2k9qclj3z9q3) | minor | 17.7 h |
 | 2026-08-20 | [Acuity Scheduling / Delayed Google calendar sync](https://stspg.io/dn65vw9nhlgq) | minor | 2.0 h |
 | 2026-08-12 | [Acuity Scheduling Service Disruption](https://stspg.io/nxhztwgsdsnp) | critical | 16 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-16 | [Checkout temporarily unavailable](https://stspg.io/173h0z4rwtpl) | maintenance | — |
 | 2026-04-09 | [Customers will see delays with domain transfers.](https://stspg.io/9j1gfdy95mqb) | minor | 80 min |
 | 2026-04-02 | [Connectivity issues](https://stspg.io/vqckvzzx9x7k) | none | 18 min |
-| 2026-03-31 | [Connectivity issues](https://stspg.io/67y6zdv24lq2) | major | 55 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/squarespace.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/squarespace.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

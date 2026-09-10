@@ -1,11 +1,11 @@
 # Mixpanel outage history — every incident their status page has posted
 
-**33 Mixpanel incidents on record** spanning **2025-08-06** to **2026-08-26**. Status page:
+**32 Mixpanel incidents on record** spanning **2025-08-11** to **2026-08-26**. Status page:
 [https://www.mixpanelstatus.com](https://www.mixpanelstatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.0 h** across 33 incidents where Mixpanel posted both a start and a resolve time.
+Median incident length: **3.8 h** across 32 incidents where Mixpanel posted both a start and a resolve time.
 
 This page republishes what Mixpanel posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-05 | [Snowflake pipeline exports degraded](https://stspg.io/df8kn00zn5b1) | none | 20.1 h |
 | 2026-04-09 | [Credit Card Processing Interruption](https://stspg.io/lk0xcrv7wxhs) | none | 101 min |
 
-Newest 15 of 33. Full machine-readable history:
+Newest 15 of 32. Full machine-readable history:
 [`history/mixpanel.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/mixpanel.json).
 
 ## What is counted, and what is not
 
-Of 33 recorded incidents, **33** have a usable length. Excluded:
+Of 32 recorded incidents, **32** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

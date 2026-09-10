@@ -2,7 +2,7 @@
 
 **8 Tidio incidents on record** spanning **2025-11-18** to **2026-07-01**. Status page:
 [https://status.tidio.com](https://status.tidio.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **8** Tidio incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

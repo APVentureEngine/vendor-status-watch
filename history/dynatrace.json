@@ -87,12 +87,27 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
-"incidents": {},
-"last_checked": "2026-09-09T12:30:34Z",
+"incidents": {
+"6aa28cd119fb1a04da432ad1": {
+"body": "We are investigating an issue affecting a subset of Dynatrace environments on AWS US East. Some customers may experience failures of DQL queries, when loading dashboards and applications, and delays or failures in alert processing, or missing alerts.\r\n\r\nWe apologize for the inconvenience and will provide the next update within one hour or sooner if significant new information becomes available.",
+"first_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-10T12:15:40Z",
+"started_at": "2026-09-10T10:56:17.642Z",
+"state": "investigating",
+"title": "Alerting and Dashboard/App Loading Issues on AWS US East",
+"updated_at": "2026-09-10T10:56:17.679Z",
+"url": "https://dynatrace.status.io"
+}
+},
+"last_checked": "2026-09-10T12:15:40Z",
 "last_description": "Operational",
 "last_error": null,
 "last_state": "ok",

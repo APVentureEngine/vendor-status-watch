@@ -2,7 +2,7 @@
 
 **38 Confluence incidents on record** spanning **2025-09-09** to **2026-08-27**. Status page:
 [https://confluence.status.atlassian.com](https://confluence.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.7 h** across 38 incidents where Confluence posted both a start and a resolve time.

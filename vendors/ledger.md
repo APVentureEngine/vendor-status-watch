@@ -1,11 +1,11 @@
 # Ledger outage history — every incident their status page has posted
 
-**54 Ledger incidents on record** spanning **2026-06-03** to **2026-09-09**. Status page:
+**55 Ledger incidents on record** spanning **2026-06-03** to **2026-09-09**. Status page:
 [https://status.ledger.com](https://status.ledger.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`partial`**.
 
-Median incident length: **28 min** across 52 incidents where Ledger posted both a start and a resolve time.
+Median incident length: **28 min** across 53 incidents where Ledger posted both a start and a resolve time.
 
 This page republishes what Ledger posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Near Protocol (NEAR) Mainnet Degraded Service](https://stspg.io/4pdpz34xfz11) | major | 12 min |
 | 2026-09-09 | [Ethereum (ETH) Mainnet Degraded Service](https://stspg.io/k8cxnnw4qyr1) | major | 50 min |
 | 2026-09-08 | [Cosmos (ATOM) Mainnet Service Disruption](https://stspg.io/5rpxls7k3zf3) | critical | — |
 | 2026-09-07 | [Cosmos (ATOM) Mainnet Degraded Service](https://stspg.io/rrjvk822bfm0) | major | 7 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-23 | [Near Protocol (NEAR) Mainnet Degraded Service](https://stspg.io/w0btt9dt2bx0) | major | 4.2 h |
 | 2026-08-22 | [Near Protocol (NEAR) Mainnet Degraded Service](https://stspg.io/9qjdgdqx6gmq) | major | 108 min |
 | 2026-08-19 | [Multiple Ledger Wallet services experiencing intermittent errors](https://stspg.io/0sv62568vksb) | minor | 19 min |
-| 2026-08-17 | [Cronos (CRO) Mainnet Service Disruption](https://stspg.io/gn3npt0bkdjr) | none | 115 min |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 55. Full machine-readable history:
 [`history/ledger.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ledger.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **52** have a usable length. Excluded:
+Of 55 recorded incidents, **53** have a usable length. Excluded:
 0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

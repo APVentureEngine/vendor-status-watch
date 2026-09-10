@@ -1,11 +1,11 @@
 # Gemini outage history — every incident their status page has posted
 
-**52 Gemini incidents on record** spanning **2026-04-08** to **2026-09-08**. Status page:
+**53 Gemini incidents on record** spanning **2026-04-08** to **2026-09-10**. Status page:
 [https://status.gemini.com](https://status.gemini.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **7.4 h** across 52 incidents where Gemini posted both a start and a resolve time.
+Median incident length: **6.3 h** across 53 incidents where Gemini posted both a start and a resolve time.
 
 This page republishes what Gemini posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Gemini Exchange Connectivity Issues](https://stspg.io/93tqh75g4bbp) | minor | 2.9 h |
 | 2026-09-08 | [Delayed Cosmos Deposits and Withdrawals](https://stspg.io/f2plh3tq507l) | minor | 16.9 h |
 | 2026-09-07 | [Delayed Polkadot Deposits and Withdrawals](https://stspg.io/y68qxm0j019z) | minor | 3.2 h |
 | 2026-09-04 | [Delayed order completion email notifications](https://stspg.io/k9183r5b5k9d) | none | 3.7 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-29 | [Delayed Solana Deposits and Withdrawals](https://stspg.io/b4dtkf6c1nfy) | minor | 6.2 h |
 | 2026-07-10 | [Sui Deposits and Withdrawals Delayed](https://stspg.io/fxw0kxsz12cf) | minor | 3.4 h |
 | 2026-07-09 | [TON Deposits and Withdrawals Delayed](https://stspg.io/nt2jrs9yz7xm) | minor | 3.4 h |
-| 2026-07-02 | [Delays for Filecoin Deposits and Withdrawals](https://stspg.io/cgn09qwnygc0) | major | 16.5 h |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/gemini.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gemini.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **52** have a usable length. Excluded:
+Of 53 recorded incidents, **53** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

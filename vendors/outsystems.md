@@ -2,7 +2,7 @@
 
 **46 Outsystems incidents on record** spanning **2025-08-14** to **2026-09-04**. Status page:
 [https://status.outsystems.com](https://status.outsystems.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **4.3 h** across 46 incidents where Outsystems posted both a start and a resolve time.

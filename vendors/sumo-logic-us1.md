@@ -2,7 +2,7 @@
 
 **44 Sumo Logic US1 incidents on record** spanning **2026-01-12** to **2026-09-07**. Status page:
 [http://status.us1.sumologic.com](http://status.us1.sumologic.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **51 min** across 44 incidents where Sumo Logic US1 posted both a start and a resolve time.

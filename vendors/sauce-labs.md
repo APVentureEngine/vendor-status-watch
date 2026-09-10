@@ -2,7 +2,7 @@
 
 **39 Sauce Labs incidents on record** spanning **2025-08-19** to **2026-09-02**. Status page:
 [https://status.saucelabs.com](https://status.saucelabs.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **7 min** across 39 incidents where Sauce Labs posted both a start and a resolve time.

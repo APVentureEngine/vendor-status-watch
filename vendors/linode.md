@@ -2,7 +2,7 @@
 
 **52 Linode incidents on record** spanning **2025-12-03** to **2026-09-07**. Status page:
 [https://status.linode.com](https://status.linode.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.5 h** across 50 incidents where Linode posted both a start and a resolve time.

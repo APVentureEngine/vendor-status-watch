@@ -2,7 +2,7 @@
 
 **38 ESET incidents on record** spanning **2025-08-13** to **2026-09-09**. Status page:
 [https://status.eset.com](https://status.eset.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **10.2 h** across 33 incidents where ESET posted both a start and a resolve time.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [ESET Cloud Office Security performance issues](https://stspg.io/bnjyjqz2b5fs) | minor | — |
+| 2026-09-09 | [ESET Secure Authentication performance issues](https://stspg.io/bnjyjqz2b5fs) | minor | — |
 | 2026-09-08 | [[ESET Secure Authentication] planned maintenance](https://stspg.io/vm8m6vrsyfmn) | maintenance | — |
 | 2026-09-07 | [[ESET Secure Authentication] planned maintenance](https://stspg.io/82mdjkwpv0q8) | maintenance | — |
 | 2026-09-04 | [[ESET PROTECT] planned maintenance](https://stspg.io/0d1v61kyrk6w) | maintenance | — |

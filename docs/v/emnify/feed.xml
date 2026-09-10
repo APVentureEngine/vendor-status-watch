@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emnify incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/emnify.html</link><description>Incidents from Emnify's public status page, polled daily.</description><lastBuildDate>Wed, 09 Sep 2026 12:30:34 +0000</lastBuildDate><item><title>Service degradation with data connectivity [resolved]</title><link>https://stspg.io/r2vwbsnq5s74</link><guid isPermaLink="false">emnify:2026-09-07T12:52:13.038Z</guid><pubDate>Mon, 07 Sep 2026 12:52:13 +0000</pubDate><description>Dear emnify Customers,
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Emnify incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/emnify.html</link><description>Incidents from Emnify's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>Events display issues in the emnify Portal and Data Streamer [monitoring]</title><link>https://stspg.io/zqgq5mrqss0j</link><guid isPermaLink="false">emnify:2026-09-10T12:03:17.161Z</guid><pubDate>Thu, 10 Sep 2026 12:03:17 +0000</pubDate><description>All remediation measures have been applied, and event processing is recovering.
+
+Some events are still being processed and may not yet be displayed as expected in the emnify Portal or via Data Streamer. We expect processing to fully catch up within approximately 20 minutes and will continue monitoring the recovery.</description></item><item><title>Portal search functionality degradation [resolved]</title><link>https://stspg.io/0x1ds74t5q70</link><guid isPermaLink="false">emnify:2026-09-09T13:25:45.585Z</guid><pubDate>Wed, 09 Sep 2026 13:25:45 +0000</pubDate><description>The issue affecting the search functionality in the emnify portal has been resolved. Search functionality and endpoint status information are now operating as expected.</description></item><item><title>Service degradation with data connectivity [resolved]</title><link>https://stspg.io/r2vwbsnq5s74</link><guid isPermaLink="false">emnify:2026-09-07T12:52:13.038Z</guid><pubDate>Mon, 07 Sep 2026 12:52:13 +0000</pubDate><description>Dear emnify Customers,
 
 This incident has been resolved, and we can confirm a steady recovery after close monitoring. 
 
@@ -144,10 +146,4 @@ In case you are still having issues, please reach out to our Support Team via ou
 
 
 Kind regards, 
-emnify Support Team</description></item><item><title>SMS service interruption [resolved]</title><link>https://stspg.io/5s6xqpdm1k5t</link><guid isPermaLink="false">emnify:2026-03-05T09:30:00.000Z</guid><pubDate>Thu, 05 Mar 2026 09:30:00 +0000</pubDate><description>Dear emnify Customers, 
-
-Earlier today, we observed a temporary degradation in the SMS services. Upon investigation, it was determined that A2P SMS-MT, or SMS messages sent from the portal/API to emnify devices, were affected. After applying a fix, we immediately started to see SMS-MT being processed as normal. 
-
-All SMS services are now fully operational as of writing.</description></item><item><title>Degradation in processing of portal/data streamer events and device usage statistics [resolved]</title><link>https://stspg.io/bpzj50sgf1mn</link><guid isPermaLink="false">emnify:2026-03-04T21:24:41.509Z</guid><pubDate>Wed, 04 Mar 2026 21:24:41 +0000</pubDate><description>This incident has been resolved and all data has been successfully backfilled. 
-
-If you continue to experience any issues, please contact our Customer Support team via the help center.</description></item></channel></rss>
+emnify Support Team</description></item></channel></rss>

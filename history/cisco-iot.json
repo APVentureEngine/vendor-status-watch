@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -96,7 +100,7 @@
 "body": "Org Hierarchy component has been decommissioned, closing this incident.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-07-13T09:11:06.842Z",
 "resolved_inferred": false,
 "started_at": "2026-07-13T08:29:20.979Z",
@@ -106,7 +110,7 @@
 "url": "https://stspg.io/wflrt4hwl36g"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
+"last_checked": "2026-09-10T12:15:40Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

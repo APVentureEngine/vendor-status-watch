@@ -1,11 +1,11 @@
 # Coveo Cloud outage history — every incident their status page has posted
 
-**27 Coveo Cloud incidents on record** spanning **2025-08-05** to **2026-08-26**. Status page:
+**26 Coveo Cloud incidents on record** spanning **2025-08-12** to **2026-08-26**. Status page:
 [https://status.cloud.coveo.com](https://status.cloud.coveo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **115 min** across 27 incidents where Coveo Cloud posted both a start and a resolve time.
+Median incident length: **112 min** across 26 incidents where Coveo Cloud posted both a start and a resolve time.
 
 This page republishes what Coveo Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-04 | [[US] Elevated source job refresh times](https://stspg.io/v6r0gpvwz9m3) | minor | 3 min |
 | 2026-02-06 | [[All Regions] Automatic Relevance Tuning Issue](https://stspg.io/vrc8k67fpw18) | minor | 4.3 h |
 
-Newest 15 of 27. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/coveo-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coveo-cloud.json).
 
 ## What is counted, and what is not
 
-Of 27 recorded incidents, **27** have a usable length. Excluded:
+Of 26 recorded incidents, **26** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

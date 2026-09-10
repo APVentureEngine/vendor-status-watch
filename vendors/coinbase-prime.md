@@ -1,11 +1,11 @@
 # Coinbase Prime outage history — every incident their status page has posted
 
-**52 Coinbase Prime incidents on record** spanning **2026-05-27** to **2026-09-08**. Status page:
+**53 Coinbase Prime incidents on record** spanning **2026-05-27** to **2026-09-09**. Status page:
 [https://status.prime.coinbase.com](https://status.prime.coinbase.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.9 h** across 50 incidents where Coinbase Prime posted both a start and a resolve time.
+Median incident length: **2.9 h** across 51 incidents where Coinbase Prime posted both a start and a resolve time.
 
 This page republishes what Coinbase Prime posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Delayed Transactions - Optimism](https://stspg.io/3bt1ljqb40l8) | none | 56 min |
 | 2026-09-08 | [Delayed Sends/Receives - ATOM](https://stspg.io/q2tcggc0zr8y) | none | 23 min |
 | 2026-09-06 | [Delayed Sends/Receives - Optimism](https://stspg.io/z0jj30wplldv) | none | 54 min |
 | 2026-09-03 | [Asset Update: IoTeX (IOTX)](https://stspg.io/z55m8630lcxh) | none | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-12 | [Delayed Sends/Receives - Noble Network](https://stspg.io/t1fgyc7fdj78) | none | 3 min |
 | 2026-08-11 | [SUI Network - Delayed Sends/Receives](https://stspg.io/2k5y3msxynrt) | none | 4.5 h |
 | 2026-08-10 | [Delayed Sends/Receives - Story](https://stspg.io/sxjl911215dl) | none | 5.9 h |
-| 2026-08-06 | [Delayed Sends/Receives - Kite (KITE)](https://stspg.io/h7nzhphnfjkg) | none | 21.1 days |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/coinbase-prime.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coinbase-prime.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **50** have a usable length. Excluded:
+Of 53 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

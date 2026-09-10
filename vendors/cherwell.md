@@ -1,11 +1,11 @@
 # Cherwell outage history — every incident their status page has posted
 
-**59 Cherwell incidents on record** spanning **2026-05-29** to **2026-09-08**. Status page:
+**61 Cherwell incidents on record** spanning **2026-05-29** to **2026-09-09**. Status page:
 [https://status.cherwellondemand.com](https://status.cherwellondemand.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **19.9 h** across 50 incidents where Cherwell posted both a start and a resolve time.
+Median incident length: **19.3 h** across 52 incidents where Cherwell posted both a start and a resolve time.
 
 This page republishes what Cherwell posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [LDZ PRD Workflow Performance Degradation](https://stspg.io/qwhzqksx8nwy) | minor | 2.3 h |
+| 2026-09-09 | [Ivanti Neurons for ITSM - Intermittent performance - IRW TRY](https://stspg.io/5dmn2hkprxg0) | minor | 19.8 h |
 | 2026-09-08 | [Neurons MLU AKS Upgrade - SRE 1977672](https://stspg.io/kvj8sd92z8qc) | maintenance | — |
 | 2026-09-05 | [Ivanti Neurons for ITSM - Security Updates for AUG 2026 on NVW-TRY](https://stspg.io/7sxjlt1hwkz0) | maintenance | — |
 | 2026-09-05 | [Ivanti Neurons for ITSM - Security Updates for July 2026 on IAZ STG/UAT Landscape](https://stspg.io/r5gptf3r3ht1) | maintenance | — |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [IRW PRD - Workflow Slowness](https://stspg.io/w2cfttnptsrd) | minor | 7.9 h |
 | 2026-08-30 | [BIDS Connectivity issue on NSZ PRD](https://stspg.io/9syz3gm4tnx7) | none | 3.7 h |
 | 2026-08-27 | [LDZ Prod - Workflow Delays](https://stspg.io/552lxd75ss9r) | minor | 3.0 h |
-| 2026-08-25 | [Ivanti Neurons for Secure Access and Zero Trust Access - APAC - Degraded 2001207](https://stspg.io/k663rhgc9vxy) | minor | 5.5 h |
-| 2026-08-21 | [Ivanti Neurons Platform: Periodic Logon Failures (2000203)](https://stspg.io/d3yd3ndb1975) | major | 4.7 h |
 
-Newest 15 of 59. Full machine-readable history:
+Newest 15 of 61. Full machine-readable history:
 [`history/cherwell.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cherwell.json).
 
 ## What is counted, and what is not
 
-Of 59 recorded incidents, **50** have a usable length. Excluded:
+Of 61 recorded incidents, **52** have a usable length. Excluded:
 9 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

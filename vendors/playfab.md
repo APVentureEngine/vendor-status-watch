@@ -1,11 +1,11 @@
 # Playfab outage history — every incident their status page has posted
 
-**47 Playfab incidents on record** spanning **2025-08-08** to **2026-08-27**. Status page:
+**48 Playfab incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
 [https://status.playfab.com](https://status.playfab.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **4.2 h** across 47 incidents where Playfab posted both a start and a resolve time.
+Median incident length: **4.0 h** across 48 incidents where Playfab posted both a start and a resolve time.
 
 This page republishes what Playfab posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Increased failure rate in Matchmaking, Leaderboard, Lobby, PubSub, and GameSave APIs](https://stspg.io/kv6041b46myb) | major | 63 min |
 | 2026-08-27 | [Degraded Leaderboard and Statistics operations](https://stspg.io/c7pc8zyl42jl) | major | 7.3 h |
 | 2026-08-23 | [Player Deletion Delay](https://stspg.io/6rqswqmvxxsx) | none | 6.9 h |
 | 2026-08-07 | [Lobby API availability impact](https://stspg.io/8xz93bhyfds8) | major | 10.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-19 | [Delayed event ingestion for Data Explorer basic and advanced.](https://stspg.io/ls9mjg3hmn75) | none | 2.2 h |
 | 2026-05-14 | [Economy V2 - Transaction history delayed for a subset of players](https://stspg.io/bb18mg3x7m8r) | minor | 28.1 days |
 | 2026-05-05 | [Ongoing degradation of Group APIs](https://stspg.io/ywxvgy9r4rvv) | none | 24.4 h |
-| 2026-04-29 | [Increased 504 error rate across various APIs](https://stspg.io/hd30sc2wgtw4) | major | 27.2 h |
 
-Newest 15 of 47. Full machine-readable history:
+Newest 15 of 48. Full machine-readable history:
 [`history/playfab.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/playfab.json).
 
 ## What is counted, and what is not
 
-Of 47 recorded incidents, **47** have a usable length. Excluded:
+Of 48 recorded incidents, **48** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

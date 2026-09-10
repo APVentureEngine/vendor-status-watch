@@ -2,7 +2,7 @@
 
 **55 Flexera incidents on record** spanning **2026-03-31** to **2026-09-08**. Status page:
 [https://status.flexera.com](https://status.flexera.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **3.0 h** across 51 incidents where Flexera posted both a start and a resolve time.

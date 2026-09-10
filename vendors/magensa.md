@@ -2,7 +2,7 @@
 
 **12 Magensa incidents on record** spanning **2025-08-12** to **2026-08-19**. Status page:
 [http://magensa.statuspage.io](http://magensa.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **12** Magensa incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

@@ -2,7 +2,7 @@
 
 **3 Coreweave incidents on record** spanning **2026-08-19** to **2026-09-03**. Status page:
 [https://status.coreweave.com](https://status.coreweave.com) · platform:
-`status.io` · last polled **2026-09-09 12:30 UTC**, last observed
+`status.io` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`maintenance`**.
 
 No Coreweave incident carries both a vendor-posted start and resolve time, so no duration statistic is available.

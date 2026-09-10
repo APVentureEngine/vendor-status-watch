@@ -1,9 +1,9 @@
 # Zyte outage history — every incident their status page has posted
 
-**20 Zyte incidents on record** spanning **2025-08-10** to **2026-08-17**. Status page:
+**21 Zyte incidents on record** spanning **2025-08-10** to **2026-09-10**. Status page:
 [https://status.zyte.com](https://status.zyte.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **14.8 h** across 20 incidents where Zyte posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Zyte API – Performance Degradation](https://stspg.io/q0k164281s8s) | minor | — |
 | 2026-08-17 | [Performance degradation in Periodic jobs scheduling and deployment](https://stspg.io/fp79s3vqtxqs) | minor | 3.6 h |
 | 2026-07-16 | [Partial Service Degradation of job scheduling in Scrapy Cloud](https://stspg.io/f9pcrzgn6n24) | major | 7.6 h |
 | 2026-06-28 | [Performance degradation in Periodic jobs scheduling](https://stspg.io/v4wrp30p9yf5) | minor | 16.2 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-20 | [AWS issue impacting our services](https://stspg.io/jfwlc80psq5j) | major | 3.9 h |
 | 2025-10-01 | [Service Degradation for Smart Proxy Manager](https://stspg.io/gmcj22ry4qx0) | critical | 25.0 h |
 | 2025-09-17 | [Zyte API – Performance Degradation](https://stspg.io/4jq5ncql09vf) | major | 3.4 h |
-| 2025-08-30 | [Zyte API – Performance Degradation](https://stspg.io/2nfcfszzrjf7) | minor | 11.7 h |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 21. Full machine-readable history:
 [`history/zyte.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/zyte.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 21 recorded incidents, **20** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

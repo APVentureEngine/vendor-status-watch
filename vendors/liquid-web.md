@@ -2,10 +2,10 @@
 
 **52 Liquid Web incidents on record** spanning **2026-01-04** to **2026-09-08**. Status page:
 [https://status.liquidweb.com](https://status.liquidweb.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **20.7 h** across 50 incidents where Liquid Web posted both a start and a resolve time.
+Median incident length: **21.8 h** across 52 incidents where Liquid Web posted both a start and a resolve time.
 
 This page republishes what Liquid Web posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,8 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [CVE-2026-67401 — cPanel/WHM EmailTrack SQL Injection](https://stspg.io/9byy7r635n5s) | none | — |
-| 2026-09-05 | [StyleSmuggler Vulnerability – Magento & Adobe Commerce](https://stspg.io/sft6x42b5cw6) | none | — |
+| 2026-09-08 | [CVE-2026-67401 — cPanel/WHM EmailTrack SQL Injection](https://stspg.io/9byy7r635n5s) | none | 26.5 h |
+| 2026-09-05 | [StyleSmuggler Vulnerability – Magento & Adobe Commerce](https://stspg.io/sft6x42b5cw6) | none | 4.4 days |
 | 2026-08-17 | [GitHub Peformance Impact](https://stspg.io/c6x8shtbl6rt) | none | 28.7 h |
 | 2026-08-13 | [Service disruption at the Phoenix Data Center](https://stspg.io/60dfqqhhjgkg) | critical | 2.7 days |
 | 2026-08-12 | [Security Advisory: WordPress Security Update for CVE-2026-65640](https://stspg.io/31mtnv2qzbwl) | none | 21.9 days |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **52** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,11 +1,11 @@
 # Obsidian Security outage history — every incident their status page has posted
 
-**17 Obsidian Security incidents on record** spanning **2025-08-06** to **2026-08-14**. Status page:
+**16 Obsidian Security incidents on record** spanning **2025-08-28** to **2026-08-14**. Status page:
 [https://status.obsidiansecurity.com](https://status.obsidiansecurity.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **17** Obsidian Security incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **16** Obsidian Security incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Obsidian Security posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-12 | [Obsidian Browser Extension ver. 1.13.x Page Unresponsive Errors](https://stspg.io/b9ch14083m81) | minor | 19.7 h |
 | 2025-11-06 | [Errors when authenticating to the Obsidian admin portal](https://stspg.io/bjfm9ys95j3l) | critical | 36 min |
 
-Newest 15 of 17. Full machine-readable history:
+Newest 15 of 16. Full machine-readable history:
 [`history/obsidian-security.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/obsidian-security.json).
 
 ## What is counted, and what is not
 
-Of 17 recorded incidents, **17** have a usable length. Excluded:
+Of 16 recorded incidents, **16** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

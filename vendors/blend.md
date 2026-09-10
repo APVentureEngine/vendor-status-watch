@@ -2,7 +2,7 @@
 
 **29 Blend incidents on record** spanning **2025-08-21** to **2026-09-07**. Status page:
 [https://status.blend.com](https://status.blend.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.4 h** across 29 incidents where Blend posted both a start and a resolve time.

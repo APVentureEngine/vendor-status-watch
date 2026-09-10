@@ -2,7 +2,7 @@
 
 **13 Cisco Meraki incidents on record** spanning **2025-10-01** to **2026-08-05**. Status page:
 [https://status.meraki.net](https://status.meraki.net) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Only **13** Cisco Meraki incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

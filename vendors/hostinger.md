@@ -1,11 +1,11 @@
 # Hostinger outage history — every incident their status page has posted
 
-**60 Hostinger incidents on record** spanning **2026-08-06** to **2026-09-09**. Status page:
+**63 Hostinger incidents on record** spanning **2026-08-06** to **2026-09-09**. Status page:
 [https://statuspage.hostinger.com](https://statuspage.hostinger.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **57 min** across 58 incidents where Hostinger posted both a start and a resolve time.
+Median incident length: **58 min** across 61 incidents where Hostinger posted both a start and a resolve time.
 
 This page republishes what Hostinger posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Emergency Server ID-1980 Maintenance](https://stspg.io/q844mwbqpzz3) | none | 63 min |
+| 2026-09-09 | [Database Service Maintenance](https://stspg.io/5srllz1w14jv) | none | 16.7 h |
+| 2026-09-09 | [Database Service Maintenance](https://stspg.io/pvycs0k3kx9d) | none | 0 min |
 | 2026-09-09 | [hPanel Accessibility Issues](https://stspg.io/bqkvq1d7synx) | minor | 19 min |
 | 2026-09-09 | [Scheduled server maintenance](https://stspg.io/vwqy44ygs57k) | maintenance | — |
 | 2026-09-09 | [Scheduled server maintenance](https://stspg.io/zmclq1v8l1ck) | maintenance | — |
@@ -26,16 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-04 | [Domain Management & Registration Issues](https://stspg.io/sf2f1gh3232j) | none | 58 min |
 | 2026-09-04 | [Emergency Server web879 Maintenance](https://stspg.io/zx4nbxjv1gw4) | minor | 91 min |
 | 2026-09-03 | [Emergency Server web877 Maintenance](https://stspg.io/c0xz954wjtsl) | none | 69 min |
-| 2026-09-02 | [Degraded Server US-1058 Performance](https://stspg.io/cpj00862z6zk) | none | 61 min |
-| 2026-09-02 | [Emergency Server ID-2261 Maintenance](https://stspg.io/yvrksxl9kmrx) | none | 6 min |
-| 2026-09-02 | [SSL issue in Hostinger File Manager](https://stspg.io/c0kkv9ycfd4f) | none | 57 min |
 
-Newest 15 of 60. Full machine-readable history:
+Newest 15 of 63. Full machine-readable history:
 [`history/hostinger.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/hostinger.json).
 
 ## What is counted, and what is not
 
-Of 60 recorded incidents, **58** have a usable length. Excluded:
+Of 63 recorded incidents, **61** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

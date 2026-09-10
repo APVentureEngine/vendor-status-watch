@@ -1,11 +1,11 @@
 # Snowflake outage history — every incident their status page has posted
 
-**51 Snowflake incidents on record** spanning **2025-11-19** to **2026-09-04**. Status page:
+**52 Snowflake incidents on record** spanning **2025-11-19** to **2026-09-09**. Status page:
 [https://status.snowflake.com](https://status.snowflake.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **2.0 h** across 50 incidents where Snowflake posted both a start and a resolve time.
+Median incident length: **118 min** across 51 incidents where Snowflake posted both a start and a resolve time.
 
 This page republishes what Snowflake posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [INC20000211](https://stspg.io/fzt53bjlcwhs) | critical | 118 min |
 | 2026-09-04 | [INC20000199](https://stspg.io/7h1x6766b1r4) | critical | 2.6 h |
 | 2026-09-01 | [INC20000190](https://stspg.io/5css9pgmdpnq) | major | 3.9 h |
 | 2026-08-31 | [INC20000188](https://stspg.io/d7bt2w604p92) | critical | 2.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-05 | [INC20000139](https://stspg.io/6k0kr0z5zjk5) | minor | 68 min |
 | 2026-08-03 | [INC20000129](https://stspg.io/x023s6yf3mb7) | critical | 6.8 h |
 | 2026-08-03 | [INC20000128](https://stspg.io/47d2jv4s8b94) | minor | 2.4 h |
-| 2026-07-30 | [INC20000115](https://stspg.io/2jfpk15p29pd) | critical | 116 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/snowflake.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/snowflake.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
+Of 52 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -96,7 +100,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-03-09T14:04:32.898-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-02T09:25:24.878-05:00",
@@ -109,7 +113,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-01-06T08:48:04.597-05:00",
 "resolved_inferred": false,
 "started_at": "2026-01-05T09:18:52.835-05:00",
@@ -122,7 +126,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-05-09T08:45:30.137-04:00",
 "resolved_inferred": false,
 "started_at": "2026-05-08T08:26:10.906-04:00",
@@ -130,12 +134,23 @@
 "title": "US03 - Unplanned Outage - Investigation",
 "updated_at": "2026-05-09T08:45:30.152-04:00",
 "url": "https://stspg.io/1c7l63rnjsdh"
+},
+"zr2pkwrsxvd1": {
+"body": "We are currently experiencing performance issues within Barracuda RMM. Until this is resolved, partners may experience disruptions. \n\nWe will provide an update and/or resolution when more information is available. \n\nKind regards, \nYour Barracuda RMM Team",
+"first_seen": "2026-09-10T12:15:40Z",
+"impact": "minor",
+"last_seen": "2026-09-10T12:15:40Z",
+"started_at": "2026-09-09T12:24:41.349-04:00",
+"state": "investigating",
+"title": "US07 Degraded Performance",
+"updated_at": "2026-09-09T12:24:41.415-04:00",
+"url": "https://stspg.io/8l0h8m1bdywh"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
-"last_description": "All Systems Operational",
+"last_checked": "2026-09-10T12:15:40Z",
+"last_description": "Partially Degraded Service",
 "last_error": null,
-"last_state": "ok",
+"last_state": "degraded",
 "platform": "statuspage",
 "slug": "barracuda-msp",
 "status_url": "https://mwrmm.statuspage.io",

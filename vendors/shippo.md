@@ -1,8 +1,8 @@
 # Shippo outage history — every incident their status page has posted
 
-**56 Shippo incidents on record** spanning **2026-06-26** to **2026-09-08**. Status page:
+**57 Shippo incidents on record** spanning **2026-06-26** to **2026-09-09**. Status page:
 [https://status.goshippo.com](https://status.goshippo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.2 h** across 55 incidents where Shippo posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Elevated error rate on Shippo Web Dashboard](https://stspg.io/b6g0kglt1tcr) | major | — |
 | 2026-09-08 | [Elevated error rates for the Lasership Transaction services](https://stspg.io/kn1nm71yvq3k) | major | 89 min |
 | 2026-09-06 | [USPS Maintenance](https://stspg.io/d1ph3yd6w36c) | maintenance | — |
 | 2026-09-05 | [APG Tracking disruption](https://stspg.io/r6pnprz2zjr7) | major | 2.5 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-01 | [Elevated error rate on Canada Post Shipment](https://stspg.io/ncd8gs15gxys) | major | 42 min |
 | 2026-08-31 | [Elevated error rate on Deutsche Post Transaction API](https://stspg.io/1gh1yk2th55t) | major | 70 min |
 | 2026-08-31 | [Elevated error rate on Colissimo Transaction](https://stspg.io/dtn4k84scm5w) | minor | 30 min |
-| 2026-08-31 | [Observing Interruption in Receiving USPS Tracking Events](https://stspg.io/1bkgbs98ryp4) | minor | 5.2 h |
 
-Newest 15 of 56. Full machine-readable history:
+Newest 15 of 57. Full machine-readable history:
 [`history/shippo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/shippo.json).
 
 ## What is counted, and what is not
 
-Of 56 recorded incidents, **55** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 57 recorded incidents, **55** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

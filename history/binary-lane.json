@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -96,7 +100,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-05-10T16:07:01.091+10:00",
 "resolved_inferred": false,
 "started_at": "2026-05-10T14:26:19.520+10:00",
@@ -109,7 +113,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-03-09T18:03:08.531+11:00",
 "resolved_inferred": false,
 "started_at": "2026-03-09T15:51:11.650+11:00",
@@ -122,7 +126,7 @@
 "body": "This update formally closes the incident of Friday 15 May.\n\nTo summarise the event: from 12:30 PM AEST our network was targeted by a large-scale volumetric denial-of-service attack directed evenly across our entire public IP space \u2014 the largest we have observed. The volume exceeded the international transit capacity of our primary upstream, who dropped our connectivity several times to protect their wider network. Services were kept reachable via alternate paths through the afternoon, with general availability restored by 7:12 PM that evening and all city POPs returned to their normal direct-service configuration by Monday 18 May.\n\nAs stated throughout: this was a network-level attack on reachability. It was not a breach or intrusion, no customer systems were accessed, and no customer data was involved. Our engagement with the Australian Signals Directorate on this incident has concluded from our side, with all requested material provided or accounted for. We again thank our customers for their patience and the constructive feedback we received. This incident is now resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-07-08T11:11:36.582+10:00",
 "resolved_inferred": false,
 "started_at": "2026-05-15T13:19:51.436+10:00",
@@ -135,7 +139,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-04-25T12:24:12.185+10:00",
 "resolved_inferred": false,
 "started_at": "2026-04-24T20:57:50.547+10:00",
@@ -145,7 +149,7 @@
 "url": "https://stspg.io/4b9pms71btjm"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
+"last_checked": "2026-09-10T12:15:40Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -1,11 +1,11 @@
 # Radware Cloud Waf outage history — every incident their status page has posted
 
-**57 Radware Cloud Waf incidents on record** spanning **2026-03-25** to **2026-09-08**. Status page:
+**58 Radware Cloud Waf incidents on record** spanning **2026-03-25** to **2026-09-10**. Status page:
 [https://cwaf.status.radwarecloud.com](https://cwaf.status.radwarecloud.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **98 min** across 52 incidents where Radware Cloud Waf posted both a start and a resolve time.
+Median incident length: **98 min** across 53 incidents where Radware Cloud Waf posted both a start and a resolve time.
 
 This page republishes what Radware Cloud Waf posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Radware Cloud WAF Incident Notification - Asia Pacific (Mumbai)](https://stspg.io/zrfp74q5blj2) | none | 38 min |
 | 2026-09-08 | [Radware Cloud WAF Incident Notification - Taipei PoP](https://stspg.io/h05nyyfw8dv2) | none | 10 min |
 | 2026-09-08 | [Radware CSMS Portal - Incident Notification](https://stspg.io/vtq3lr87rmt2) | none | 89 min |
 | 2026-09-07 | [Radware Cloud WAF Incident Notification](https://stspg.io/hdh0r7rpfl5z) | none | 52 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-01 | [Radware Cloud WAF Incident Notification - Seoul (SEO)](https://stspg.io/hn5rb02xkgh9) | none | 98 min |
 | 2026-08-30 | [Radware Cloud WAF Incident Notification - Asia Pacific - Asia Pacific (Singapore)](https://stspg.io/7jzhtqk71bfc) | minor | 11.5 h |
 | 2026-08-25 | [Radware Cloud WAF Incident Notification](https://stspg.io/rgpmhsdqh5xh) | minor | 45 min |
-| 2026-08-25 | [Radware Cloud WAF Incident Notification](https://stspg.io/09x79h26qzmg) | none | 53 min |
 
-Newest 15 of 57. Full machine-readable history:
+Newest 15 of 58. Full machine-readable history:
 [`history/radware-cloud-waf.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/radware-cloud-waf.json).
 
 ## What is counted, and what is not
 
-Of 57 recorded incidents, **52** have a usable length. Excluded:
+Of 58 recorded incidents, **53** have a usable length. Excluded:
 5 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

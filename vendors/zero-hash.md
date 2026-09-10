@@ -2,10 +2,10 @@
 
 **51 Zero Hash incidents on record** spanning **2025-09-10** to **2026-09-09**. Status page:
 [https://status.zerohash.com](https://status.zerohash.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **106 min** across 50 incidents where Zero Hash posted both a start and a resolve time.
+Median incident length: **107 min** across 51 incidents where Zero Hash posted both a start and a resolve time.
 
 This page republishes what Zero Hash posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [ATOM Mainnet Issues Causing Withdrawal Delays](https://stspg.io/sby0xw452g9b) | major | — |
+| 2026-09-09 | [ATOM Mainnet Issues Causing Withdrawal Delays](https://stspg.io/sby0xw452g9b) | major | 6.5 h |
 | 2026-08-11 | [Fund Withdrawal SDK fails to process tag-based withdrawals](https://stspg.io/dzc1s9t9ztr0) | minor | 4.1 h |
 | 2026-07-29 | [Delays In Broadcasting XRP Withdrawals](https://stspg.io/swj0y8k7178b) | minor | 55 min |
 | 2026-07-20 | [High Rrror Rate on RFQ and convert_withdraw Endpoints](https://stspg.io/kd7kv3vw4yxd) | major | 68 min |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

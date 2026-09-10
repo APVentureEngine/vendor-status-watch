@@ -2,7 +2,7 @@
 
 **50 MongoDB incidents on record** spanning **2026-01-30** to **2026-09-03**. Status page:
 [https://status.mongodb.com](https://status.mongodb.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **2.1 h** across 49 incidents where MongoDB posted both a start and a resolve time.

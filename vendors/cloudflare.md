@@ -1,11 +1,11 @@
 # Cloudflare outage history — every incident their status page has posted
 
-**72 Cloudflare incidents on record** spanning **2026-08-17** to **2026-09-09**. Status page:
+**80 Cloudflare incidents on record** spanning **2026-08-17** to **2026-09-10**. Status page:
 [https://www.cloudflarestatus.com](https://www.cloudflarestatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **69 min** across 62 incidents where Cloudflare posted both a start and a resolve time.
+Median incident length: **69 min** across 64 incidents where Cloudflare posted both a start and a resolve time.
 
 This page republishes what Cloudflare posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [LED (Saint Petersburg) on 2026-09-10](https://www.cloudflarestatus.com/incidents/dsqxy41yj1wn) | maintenance | — |
+| 2026-09-10 | [DEN (Denver) on 2026-09-10](https://www.cloudflarestatus.com/incidents/91stcpxnmp2v) | maintenance | — |
+| 2026-09-10 | [LAX (Los Angeles) on 2026-09-10](https://www.cloudflarestatus.com/incidents/t0qyjxhrwm51) | maintenance | — |
+| 2026-09-10 | [PHX (Phoenix) on 2026-09-10](https://www.cloudflarestatus.com/incidents/f4ltwdp1qh8n) | maintenance | — |
+| 2026-09-09 | [AMS (Amsterdam) on 2026-09-09](https://www.cloudflarestatus.com/incidents/3wyr0qt0slc4) | maintenance | — |
+| 2026-09-09 | [Workers Cron Triggers degraded](https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw) | minor | — |
+| 2026-09-09 | [Increased HTTP Errors](https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs) | none | 0 min |
+| 2026-09-09 | [Cloudflare Workers AI increased errors](https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym) | minor | 5.7 h |
 | 2026-09-09 | [LUN (Lusaka) on 2026-09-09](https://www.cloudflarestatus.com/incidents/zy5m26cfdv8s) | maintenance | — |
 | 2026-09-09 | [YYC (Calgary) on 2026-09-09](https://www.cloudflarestatus.com/incidents/vzz5rlgbjscq) | maintenance | — |
 | 2026-09-08 | [Intermittent issues accessing the Dashboard on Firefox and Safari](https://www.cloudflarestatus.com/incidents/hy0gsndpkypz) | minor | 46 min |
@@ -21,22 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-08 | [Errors in Unified Billing for some requests OpenAI models](https://www.cloudflarestatus.com/incidents/kq11rg5y66f2) | none | 0 min |
 | 2026-09-08 | [PHX (Phoenix) on 2026-09-08](https://www.cloudflarestatus.com/incidents/9b6d5g8fvlsg) | maintenance | — |
 | 2026-09-08 | [TXL (Berlin) on 2026-09-08](https://www.cloudflarestatus.com/incidents/fvn6px17xgjz) | maintenance | — |
-| 2026-09-08 | [Cache Reserve Issue in Paris](https://www.cloudflarestatus.com/incidents/qz292kvy220g) | minor | 116 min |
-| 2026-09-08 | [Cloudflare Account Member Invite Issue](https://www.cloudflarestatus.com/incidents/pjr4m9q1xxb1) | minor | 67 min |
-| 2026-09-07 | [Issues rendering route configuration table in Networking > Routes UI](https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs) | minor | 100 min |
-| 2026-09-07 | [Browser Isolation Session Initialization Failures](https://www.cloudflarestatus.com/incidents/z16209cfb1xv) | minor | 4.8 h |
-| 2026-09-07 | [Performance degradation affecting TURN service](https://www.cloudflarestatus.com/incidents/pgn7y7hgd25l) | minor | 49 min |
-| 2026-09-07 | [Increased Workflow Instance Creation Errors](https://www.cloudflarestatus.com/incidents/np4n61ckjdw7) | minor | 2.4 h |
-| 2026-09-06 | [Purchased domains from registrar not appearing in Cloudflare Dashboard](https://www.cloudflarestatus.com/incidents/1ghtnh94pby6) | minor | 4.7 h |
-| 2026-09-06 | [Service Connectivity Issues in Canberra](https://www.cloudflarestatus.com/incidents/htwds1qczkzd) | minor | 110 min |
 
-Newest 15 of 72. Full machine-readable history:
+Newest 15 of 80. Full machine-readable history:
 [`history/cloudflare.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cloudflare.json).
 
 ## What is counted, and what is not
 
-Of 72 recorded incidents, **62** have a usable length. Excluded:
-8 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 1 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 80 recorded incidents, **64** have a usable length. Excluded:
+13 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 1 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

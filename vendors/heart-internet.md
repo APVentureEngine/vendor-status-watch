@@ -2,7 +2,7 @@
 
 **4 Heart Internet incidents on record** spanning **2026-09-03** to **2026-09-09**. Status page:
 [https://www.heartstatus.uk](https://www.heartstatus.uk) · platform:
-`betterstack` · last polled **2026-09-09 12:30 UTC**, last observed
+`betterstack` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 No Heart Internet incident carries both a vendor-posted start and resolve time, so no duration statistic is available.

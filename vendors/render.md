@@ -1,11 +1,11 @@
 # Render outage history — every incident their status page has posted
 
-**50 Render incidents on record** spanning **2026-01-23** to **2026-09-02**. Status page:
+**51 Render incidents on record** spanning **2026-01-23** to **2026-09-09**. Status page:
 [https://status.render.com](https://status.render.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **53 min** across 50 incidents where Render posted both a start and a resolve time.
+Median incident length: **53 min** across 51 incidents where Render posted both a start and a resolve time.
 
 This page republishes what Render posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Elevated Build and Deploy Times in the Oregon Region](https://stspg.io/8tcpb8hhmt76) | minor | 11 min |
 | 2026-09-02 | [Degraded builds/deploys](https://stspg.io/0c54wfv6z90q) | major | 20 min |
 | 2026-08-31 | [Some Web services in Oregon unavailable](https://stspg.io/gy1v2vm9j8bn) | none | 0 min |
 | 2026-08-31 | [Service instability in Singapore](https://stspg.io/mk0p4x9j70kr) | major | 2.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-09 | [Some services and datastores in Singapore experiencing brief disruptions](https://stspg.io/ptzznyg209z0) | major | 26 min |
 | 2026-07-02 | [Delayed wildcard issuance or renewal](https://stspg.io/9r5zm303307g) | minor | 50 min |
 | 2026-06-23 | [External connections to Postgres services may terminate intermittently](https://stspg.io/s6rysc0cys4q) | minor | 105 min |
-| 2026-06-18 | [Slow/failing wildcard certificates related to LetsEncrypt incident](https://stspg.io/xmcw9ynhr8k5) | minor | 3.2 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/render.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/render.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

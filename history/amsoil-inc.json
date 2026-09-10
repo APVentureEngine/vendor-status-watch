@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -96,7 +100,7 @@
 "body": "We have successfully resolved the issue causing degraded performance at AMSOIL.com and AMSOIL.ca. We apologize for any inconvenience this may have caused. \nSincerely, \n\nAMSOIL INC.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2025-11-18T09:03:39.127-06:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T08:22:58.379-06:00",
@@ -109,7 +113,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-09T12:30:34Z",
+"last_seen": "2026-09-10T12:15:40Z",
 "resolved_at": "2026-05-29T11:03:36.517-05:00",
 "resolved_inferred": false,
 "started_at": "2026-05-27T15:09:52.416-05:00",
@@ -119,7 +123,7 @@
 "url": "https://stspg.io/mxlbyyz6ltqn"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
+"last_checked": "2026-09-10T12:15:40Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -2,10 +2,10 @@
 
 **51 OpenGov Inc. incidents on record** spanning **2026-02-26** to **2026-09-08**. Status page:
 [https://www.opengovstatus.com](https://www.opengovstatus.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **7.0 h** across 50 incidents where OpenGov Inc. posted both a start and a resolve time.
+Median incident length: **9.1 h** across 51 incidents where OpenGov Inc. posted both a start and a resolve time.
 
 This page republishes what OpenGov Inc. posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [Procurement & Contract Management l Uploaded Images Not Rendering in Document Exports](https://stspg.io/mgtx50qjsk2r) | major | — |
+| 2026-09-08 | [Procurement & Contract Management l Uploaded Images Not Rendering in Document Exports](https://stspg.io/mgtx50qjsk2r) | major | 23.7 h |
 | 2026-08-26 | [Stories - PDF exports are failing for individual stories](https://stspg.io/5cv2qp79vfrz) | critical | 44 min |
 | 2026-08-20 | [Procurement & Contract Management l Completed DocuSign PowerForms Not Syncing Back to Portal](https://stspg.io/y39rm40gnc3d) | major | 6.0 days |
 | 2026-08-17 | [Enterprise Access Managment - Editing Reports](https://stspg.io/72k5zxmmkh52) | minor | 3.0 h |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

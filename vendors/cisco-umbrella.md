@@ -2,7 +2,7 @@
 
 **50 Cisco Umbrella incidents on record** spanning **2026-02-27** to **2026-09-01**. Status page:
 [https://status.umbrella.com](https://status.umbrella.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **110 min** across 50 incidents where Cisco Umbrella posted both a start and a resolve time.

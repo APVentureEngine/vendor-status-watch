@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-09T12:30:33Z",
+ "generated_at": "2026-09-10T12:15:40Z",
  "source": "metoro-io/statusphere (MIT) + live probe",
  "count": 1141,
- "supported": 819,
+ "supported": 818,
  "vendors": [
   {
    "slug": "1password",
@@ -6153,9 +6153,10 @@
   {
    "slug": "replicate",
    "name": "Replicate",
-   "platform": "statuspage",
+   "platform": "unknown-html",
    "base": "https://replicatestatus.com",
-   "supported": true
+   "supported": false,
+   "note": "bespoke page"
   },
   {
    "slug": "replit",

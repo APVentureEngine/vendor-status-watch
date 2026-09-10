@@ -2,7 +2,7 @@
 
 **26 Postman incidents on record** spanning **2025-08-24** to **2026-08-13**. Status page:
 [https://status.postman.com](https://status.postman.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **51 min** across 26 incidents where Postman posted both a start and a resolve time.
@@ -31,7 +31,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-16 | [Postman application got affected due to the issue in backend services](https://stspg.io/xjcq2cm9srzm) | none | 0 min |
 
 Newest 15 of 26. Full machine-readable history:
-[`history/postman.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/postman.json).
+[`history/postman-2.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/postman-2.json).
 
 ## What is counted, and what is not
 
@@ -48,12 +48,12 @@ entire operating history.
 
 | | |
 | --- | --- |
-| This vendor's raw history (JSON) | [`history/postman.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/postman.json) |
+| This vendor's raw history (JSON) | [`history/postman-2.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/postman-2.json) |
 | All vendors, all incidents (dataset) | [Hugging Face](https://huggingface.co/datasets/APProjects/saas-vendor-status-pages-outages-incidents-daily) |
 | The vendor map (1,100+ status feeds) | [`vendors.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/vendors.json) |
 | Alert your Slack/Discord when Postman breaks | [free MIT GitHub Actions template](https://github.com/APVentureEngine/vendor-status-watch-template) |
 | Weekly digest of your vendors | [Vendor Status Digest](https://approj.gumroad.com/l/vendor-digest) · [free tier](https://approj.gumroad.com/l/vendor-digest-free) |
-| Browsable board with charts | [Postman on the live site](https://approjects-vendor-status-watch.static.hf.space/v/postman.html) |
+| Browsable board with charts | [Postman on the live site](https://approjects-vendor-status-watch.static.hf.space/v/postman-2.html) |
 
 ---
 

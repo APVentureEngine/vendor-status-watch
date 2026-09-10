@@ -2,7 +2,7 @@
 
 **39 UpCloud incidents on record** spanning **2025-10-07** to **2026-08-25**. Status page:
 [https://status.upcloud.com](https://status.upcloud.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 39 incidents where UpCloud posted both a start and a resolve time.

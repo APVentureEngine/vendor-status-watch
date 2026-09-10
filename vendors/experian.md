@@ -2,7 +2,7 @@
 
 **48 Experian incidents on record** spanning **2025-08-14** to **2026-08-26**. Status page:
 [https://status.edq.com](https://status.edq.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **55 min** across 48 incidents where Experian posted both a start and a resolve time.

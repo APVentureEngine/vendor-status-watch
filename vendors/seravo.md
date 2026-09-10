@@ -1,9 +1,9 @@
 # Seravo outage history — every incident their status page has posted
 
-**53 Seravo incidents on record** spanning **2025-09-29** to **2026-09-09**. Status page:
+**54 Seravo incidents on record** spanning **2025-09-29** to **2026-09-10**. Status page:
 [https://status.seravo.com](https://status.seravo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **49 min** across 53 incidents where Seravo posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Customer Support Phone Line not available](https://stspg.io/hd6sbtdbw11d) | maintenance | — |
 | 2026-09-09 | [Database issue in cluster fi-sestak](https://stspg.io/1mm0xg6tgkky) | major | 25 min |
 | 2026-09-07 | [Database issues in cluster FI-Metheny](https://stspg.io/2x4w9nxmcny0) | minor | 66 min |
 | 2026-09-04 | [Delays in WordPress site emails sent to Outlook / Office 365](https://stspg.io/9z4htxvfs8qx) | minor | 18.8 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-09 | [Networking issue in clusters](https://stspg.io/11bzhg0cydr0) | major | 58 min |
 | 2026-05-05 | [External DNS issues on .de domains](https://stspg.io/j89t33yqmwxg) | minor | 6.3 h |
 | 2026-04-22 | [Networking issue in cluster fi-sestak](https://stspg.io/vwfvvg8vcvyv) | major | 44 min |
-| 2026-03-31 | [Networking issue in cluster fi-sestak](https://stspg.io/k0c981m89tt2) | major | 29 min |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/seravo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/seravo.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **53** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **53** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

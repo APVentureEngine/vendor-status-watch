@@ -2,10 +2,10 @@
 
 **52 Nexcess incidents on record** spanning **2025-10-24** to **2026-09-09**. Status page:
 [https://status.nexcess.net](https://status.nexcess.net) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **10.8 h** across 50 incidents where Nexcess posted both a start and a resolve time.
+Median incident length: **9.9 h** across 51 incidents where Nexcess posted both a start and a resolve time.
 
 This page republishes what Nexcess posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [Service Interruption: cloudhost-9412708-us-midwest-1-nxcli-net and cloudhost-10309510.us-midwest-1.nxcli.net](https://stspg.io/8j5d8gg5ptp2) | major | — |
+| 2026-09-09 | [Service Interruption: cloudhost-9412708-us-midwest-1-nxcli-net and cloudhost-10309510.us-midwest-1.nxcli.net](https://stspg.io/8j5d8gg5ptp2) | major | 9.9 h |
 | 2026-09-05 | [StyleSmuggler Vulnerability – Magento & Adobe Commerce](https://stspg.io/6nrnww5rf1pc) | none | — |
 | 2026-09-02 | [DDoS Attack on cloudhost-2038507.us-west-1.nxcli.net](https://stspg.io/tw52rzb2syqb) | none | 3.4 h |
 | 2026-09-02 | [Service Interruption on a Subset of Cloudhosts and KVM in the au-south-1 region](https://stspg.io/pf93wvgq2m6x) | minor | 20.1 h |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

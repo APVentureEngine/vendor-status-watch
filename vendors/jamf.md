@@ -1,11 +1,11 @@
 # Jamf outage history — every incident their status page has posted
 
-**39 Jamf incidents on record** spanning **2025-09-04** to **2026-09-03**. Status page:
+**40 Jamf incidents on record** spanning **2025-09-04** to **2026-09-09**. Status page:
 [https://status.jamf.com](https://status.jamf.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.5 h** across 37 incidents where Jamf posted both a start and a resolve time.
+Median incident length: **3.4 h** across 38 incidents where Jamf posted both a start and a resolve time.
 
 This page republishes what Jamf posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Failure in a shared authentication component caused configuration profile delivery and MDM device communication to return errors for managed Apple devices in the US and EU](https://stspg.io/hkqs8w01r0x6) | none | 0 min |
 | 2026-09-03 | [Jamf Pro Partial Outage](https://stspg.io/dfwmftzscw1t) | major | 2.3 h |
 | 2026-08-17 | [Blueprint Management Unavailable for US Customers](https://stspg.io/lldyp8zdm5s4) | none | 93 min |
 | 2026-07-24 | [Jamf Trust app deactivation affecting all customers](https://stspg.io/wk2qg1r5sx36) | critical | 7.1 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-26 | [Jamf Pro versions 11.24 and below - Issue with Blueprints](https://stspg.io/687hgz6lk409) | minor | 7.0 h |
 | 2026-03-26 | [Jamf Pro - GCC High Device Compliance Issue](https://stspg.io/bfm9fs0r0cpl) | major | 2.1 h |
 | 2026-03-11 | [Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services](https://stspg.io/t30kxdngb2kp) | major | 4.0 h |
-| 2026-03-09 | [Jamf Pro - Degraded Performance - us-west-2 region](https://stspg.io/q291x7dw0808) | minor | 3.3 h |
 
-Newest 15 of 39. Full machine-readable history:
+Newest 15 of 40. Full machine-readable history:
 [`history/jamf.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/jamf.json).
 
 ## What is counted, and what is not
 
-Of 39 recorded incidents, **37** have a usable length. Excluded:
+Of 40 recorded incidents, **38** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

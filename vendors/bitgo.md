@@ -2,7 +2,7 @@
 
 **51 BitGo incidents on record** spanning **2026-04-08** to **2026-09-08**. Status page:
 [https://status.bitgo.com](https://status.bitgo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **99 min** across 51 incidents where BitGo posted both a start and a resolve time.

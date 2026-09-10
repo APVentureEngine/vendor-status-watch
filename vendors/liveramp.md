@@ -1,11 +1,11 @@
 # Liveramp outage history — every incident their status page has posted
 
-**50 Liveramp incidents on record** spanning **2026-06-08** to **2026-09-03**. Status page:
+**51 Liveramp incidents on record** spanning **2026-06-08** to **2026-09-09**. Status page:
 [https://status.liveramp.com](https://status.liveramp.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **8 min** across 50 incidents where Liveramp posted both a start and a resolve time.
+Median incident length: **8 min** across 51 incidents where Liveramp posted both a start and a resolve time.
 
 This page republishes what Liveramp posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Intermittent issues impacting Connect UI](https://stspg.io/3xczqsp1qb3m) | major | 7 min |
 | 2026-09-03 | [Incident Resolved for Cleanroom - Habu API via Grafana](https://stspg.io/ynbh0nnmrtjt) | major | 8 min |
 | 2026-09-03 | [Incident Resolved for Cleanroom - Habu API via Grafana](https://stspg.io/kcnhgytv2y1y) | major | 0 min |
 | 2026-09-01 | [Incident Resolved for Public API - Distribution API via Grafana](https://stspg.io/pkcvrlcqp6ct) | major | 1 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-25 | [Incident Resolved for Analytics Environment - Reporting via Grafana](https://stspg.io/q1n2lh59nk2n) | major | 20 min |
 | 2026-08-25 | [Incident Resolved for Cleanroom - Habu API via Grafana](https://stspg.io/2txt02741r4w) | major | 6 min |
 | 2026-08-24 | [Incident Resolved for Identity Engine - Identity Engine UI via Grafana](https://stspg.io/9fycp3fwz1f0) | major | 94 min |
-| 2026-08-24 | [Incident Resolved for Connect UI - Connect UI Website via Grafana](https://stspg.io/fwpxk4bl657w) | major | 95 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/liveramp.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/liveramp.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

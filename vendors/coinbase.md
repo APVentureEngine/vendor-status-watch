@@ -1,11 +1,11 @@
 # Coinbase outage history — every incident their status page has posted
 
-**54 Coinbase incidents on record** spanning **2026-07-17** to **2026-09-08**. Status page:
+**55 Coinbase incidents on record** spanning **2026-07-17** to **2026-09-09**. Status page:
 [https://coinbase.statuspage.io](https://coinbase.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **86 min** across 54 incidents where Coinbase posted both a start and a resolve time.
+Median incident length: **81 min** across 55 incidents where Coinbase posted both a start and a resolve time.
 
 This page republishes what Coinbase posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Delayed Transactions - Optimism](https://stspg.io/887sl3wwf408) | none | 58 min |
 | 2026-09-08 | [Delayed Sends/Receives - ATOM](https://stspg.io/plj7yw6mv4y3) | none | 24 min |
 | 2026-09-07 | [Degraded Performance - Futures and Prediction Markets Trading](https://stspg.io/t9m3vv4swffc) | none | 36 min |
 | 2026-09-06 | [Delayed Sends/Receives - Optimism](https://stspg.io/cky5gj2rs57g) | none | 55 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [Delayed Sends/Receives - Solana Network](https://stspg.io/rg9g3lhyvf1l) | none | 3.4 h |
 | 2026-09-01 | [Degraded performance - Coinbase Onramp](https://stspg.io/g2sktrxp49x9) | minor | 81 min |
 | 2026-09-01 | [Site Performance - Prediction Markets](https://stspg.io/q5k7g2grny94) | none | 4 min |
-| 2026-08-31 | [Delayed Sends/Receives - Injective Network](https://stspg.io/pp39cz1wtmsl) | none | 14.9 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 55. Full machine-readable history:
 [`history/coinbase.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/coinbase.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **54** have a usable length. Excluded:
+Of 55 recorded incidents, **55** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

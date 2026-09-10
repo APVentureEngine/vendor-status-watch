@@ -1,11 +1,11 @@
 # Duo Security outage history — every incident their status page has posted
 
-**42 Duo Security incidents on record** spanning **2025-08-05** to **2026-09-03**. Status page:
+**40 Duo Security incidents on record** spanning **2025-08-18** to **2026-09-03**. Status page:
 [https://status.duo.com](https://status.duo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.2 h** across 42 incidents where Duo Security posted both a start and a resolve time.
+Median incident length: **3.2 h** across 40 incidents where Duo Security posted both a start and a resolve time.
 
 This page republishes what Duo Security posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-22 | [Duo Phone Call Authentication Failure for US Based Carriers](https://stspg.io/43mz410cgng5) | none | 4.2 h |
 | 2026-03-22 | [Duo Phone Call Authentication Failure for US Based Carriers](https://stspg.io/gb8nrv3dcbml) | none | 3.2 h |
 
-Newest 15 of 42. Full machine-readable history:
+Newest 15 of 40. Full machine-readable history:
 [`history/duo-security.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/duo-security.json).
 
 ## What is counted, and what is not
 
-Of 42 recorded incidents, **42** have a usable length. Excluded:
+Of 40 recorded incidents, **40** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

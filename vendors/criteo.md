@@ -2,7 +2,7 @@
 
 **47 Criteo incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
 [https://status.criteo.com](https://status.criteo.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **4.7 h** across 46 incidents where Criteo posted both a start and a resolve time.

@@ -1,11 +1,11 @@
 # Gainsight outage history — every incident their status page has posted
 
-**13 Gainsight incidents on record** spanning **2025-08-11** to **2026-06-26**. Status page:
+**14 Gainsight incidents on record** spanning **2025-08-11** to **2026-09-09**. Status page:
 [https://status.gainsight.com](https://status.gainsight.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Only **13** Gainsight incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **14** Gainsight incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Gainsight posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Performance degradation observed in CS US2](https://stspg.io/388v2pclk8mt) | minor | 3.0 h |
 | 2026-06-26 | [Gainsight CS - US1 and US2 -  Home Page not Loading](https://stspg.io/gz6803qrf55x) | minor | 28 min |
 | 2026-05-12 | [Gainsight CS - US1 - Product filtering incident](https://stspg.io/4s5y1xdt43f2) | minor | 12.8 h |
 | 2026-05-08 | [Gainsight CS - US1 - Rules Engine Queue delays for a subset of customers](https://stspg.io/rgxrprcpnrk2) | minor | 16.4 h |
@@ -28,12 +29,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-08-11 | [Gainsight CS pages not loading from Salesforce Envrionment](https://stspg.io/vb0thzd77ngr) | none | 25.1 h |
 | 2025-08-11 | [Gainsight CS pages not loading from Salesforce Envrionment](https://stspg.io/mgxhbywnlskx) | none | 61 min |
 
-Newest 13 of 13. Full machine-readable history:
+Newest 14 of 14. Full machine-readable history:
 [`history/gainsight.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gainsight.json).
 
 ## What is counted, and what is not
 
-Of 13 recorded incidents, **13** have a usable length. Excluded:
+Of 14 recorded incidents, **14** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

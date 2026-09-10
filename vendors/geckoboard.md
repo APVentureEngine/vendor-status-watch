@@ -1,11 +1,11 @@
 # Geckoboard outage history — every incident their status page has posted
 
-**30 Geckoboard incidents on record** spanning **2025-08-05** to **2026-08-28**. Status page:
+**29 Geckoboard incidents on record** spanning **2025-08-13** to **2026-08-28**. Status page:
 [https://geckoboard.statuspage.io](https://geckoboard.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.2 h** across 30 incidents where Geckoboard posted both a start and a resolve time.
+Median incident length: **2.3 h** across 29 incidents where Geckoboard posted both a start and a resolve time.
 
 This page republishes what Geckoboard posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-24 | [MS Teams Snapshots and Notifications](https://stspg.io/rpdtrr9q6rjn) | major | 106 min |
 | 2026-03-17 | [Investigating issues with Slack connections](https://stspg.io/mtfr11l20n99) | none | 31 min |
 
-Newest 15 of 30. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/geckoboard.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/geckoboard.json).
 
 ## What is counted, and what is not
 
-Of 30 recorded incidents, **30** have a usable length. Excluded:
+Of 29 recorded incidents, **29** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

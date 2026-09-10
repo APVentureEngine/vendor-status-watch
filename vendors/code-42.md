@@ -2,7 +2,7 @@
 
 **50 Code 42 incidents on record** spanning **2025-08-26** to **2026-08-25**. Status page:
 [https://status.code42.com](https://status.code42.com) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **7.0 h** across 50 incidents where Code 42 posted both a start and a resolve time.

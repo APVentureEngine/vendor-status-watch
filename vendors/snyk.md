@@ -1,11 +1,11 @@
 # Snyk outage history — every incident their status page has posted
 
-**50 Snyk incidents on record** spanning **2026-03-31** to **2026-08-30**. Status page:
+**51 Snyk incidents on record** spanning **2026-03-31** to **2026-09-09**. Status page:
 [https://status.snyk.io](https://status.snyk.io) · platform:
-`statuspage` · last polled **2026-09-09 12:30 UTC**, last observed
+`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **8.1 h** across 50 incidents where Snyk posted both a start and a resolve time.
+Median incident length: **7.0 h** across 51 incidents where Snyk posted both a start and a resolve time.
 
 This page republishes what Snyk posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-09 | [Imports and PR Checks Degraded](https://stspg.io/nj88v3zvvd8l) | minor | 2.4 h |
 | 2026-08-30 | [Partial Broker Service Degradation](https://stspg.io/5x2wk123d46l) | minor | 2.7 days |
 | 2026-08-30 | [Partial Broker Service Degradation](https://stspg.io/72y59nytnwgb) | minor | 71 min |
 | 2026-08-20 | [Snyk Code Degradation](https://stspg.io/j5l7xf8zz1y7) | none | 0 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-22 | [Temporary Degradation of Open Source and Container](https://stspg.io/rxbcbt6772g6) | major | 21.5 h |
 | 2026-07-14 | [Workspaces Service & Code PR Checks Degraded](https://stspg.io/29yh5t27kb8h) | minor | 114 min |
 | 2026-07-14 | [API Routes Degradation](https://stspg.io/d6mpv37zxpnc) | minor | 2.3 h |
-| 2026-07-10 | [Snyk Partial Test Degradation](https://stspg.io/plchshjprdk1) | minor | 6.4 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/snyk.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/snyk.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

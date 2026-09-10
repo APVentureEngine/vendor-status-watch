@@ -87,6 +87,10 @@
 {
 "at": "2026-09-09T12:30:34Z",
 "state": "ok"
+},
+{
+"at": "2026-09-10T12:15:40Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -103,12 +107,22 @@
 "title": "Email Delivery Delays  to O365",
 "updated_at": "2026-09-04T10:55:50.675Z",
 "url": "https://status.mimecast.com"
+},
+"6aa1608d96d41a47784d9c08": {
+"body": "We are aware that some customers may be experiencing an issue with calls to our South Africa (ZA) support line 086 not ringing. In the meantime, customers can alternatively contact us on (011) 722-3700. We are currently investigating and will post updates here as they become available.",
+"first_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-10T12:15:40Z",
+"started_at": "2026-09-09T13:35:09.640Z",
+"state": "investigating",
+"title": "ZA Support Line (086) issue ",
+"updated_at": "2026-09-09T13:35:09.683Z",
+"url": "https://status.mimecast.com"
 }
 },
-"last_checked": "2026-09-09T12:30:34Z",
-"last_description": "Operational",
+"last_checked": "2026-09-10T12:15:40Z",
+"last_description": "Degraded Performance",
 "last_error": null,
-"last_state": "ok",
+"last_state": "degraded",
 "platform": "status.io",
 "slug": "mimecast",
 "status_url": "https://status.mimecast.com",

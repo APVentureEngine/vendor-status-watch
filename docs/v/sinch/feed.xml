@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Wed, 09 Sep 2026 12:30:34 +0000</lastBuildDate><item><title>US1 - Site Degradation [resolved]</title><link>https://stspg.io/vd9r6hzb74kn</link><guid isPermaLink="false">sinch:2026-09-09T04:47:03.003Z</guid><pubDate>Wed, 09 Sep 2026 04:47:03 +0000</pubDate><description>This incident has been resolved.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>Campaigns Stats are not available [resolved]</title><link>https://stspg.io/lnjrtw95l578</link><guid isPermaLink="false">sinch:2026-09-10T07:26:29.154Z</guid><pubDate>Thu, 10 Sep 2026 07:26:29 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Degradation - Elastic SIP Trunking - US East [resolved]</title><link>https://stspg.io/c280t78x3rtz</link><guid isPermaLink="false">sinch:2026-09-09T14:30:00.000Z</guid><pubDate>Wed, 09 Sep 2026 14:30:00 +0000</pubDate><description>During the below time frame we experienced an issue with our Elastic SIP Trunking services in the US East region.
+
+Incident Start Time: 2026-09-09 14:34 UTC
+Incident End Time: 2026-09-09 14:42 UTC
+
+Impact: Customers may have experienced intermittent issues with non-completed calls on Elastic SIP Trunking
+
+We sincerely apologize for any inconvenience this may have caused.</description></item><item><title>Sinch Post-Incident Notification - Customer Dashboard [resolved]</title><link>https://stspg.io/6htzkmrq5v1b</link><guid isPermaLink="false">sinch:2026-09-09T09:00:00.000Z</guid><pubDate>Wed, 09 Sep 2026 09:00:00 +0000</pubDate><description>We are retroactively informing you of an incident affecting the Multi-Factor Authentication for the Sinch Customer Dashboard. 
+
+Impact: Customers may have noticed issues receiving One-time passcodes for AT&amp;T devices during the below timeframe.
+
+Incident Start Time: 2026-09-09 11:07 UTC
+Incident End Time: 2026-09-09 19:44 UTC</description></item><item><title>US1 - Site Degradation [resolved]</title><link>https://stspg.io/vd9r6hzb74kn</link><guid isPermaLink="false">sinch:2026-09-09T04:47:03.003Z</guid><pubDate>Wed, 09 Sep 2026 04:47:03 +0000</pubDate><description>This incident has been resolved.
 
 Incident Start Time: 2026-09-09 04:13 UTC
 Incident End Time: 2026-09-09 07:14 UTC</description></item><item><title>Delivery Issue Italy - Poste Mobile [resolved]</title><link>https://stspg.io/fx224wsg514b</link><guid isPermaLink="false">sinch:2026-09-08T20:22:03.881Z</guid><pubDate>Tue, 08 Sep 2026 20:22:03 +0000</pubDate><description>This incident has been resolved.
@@ -79,14 +91,4 @@ Incident End Time: 2026-08-18 09:16 UTC</description></item><item><title>Deliver
 
 Incident Start Time: 2026-08-17 21:26 UTC
 
-Incident End Time: 2026-08-18 09:16 UTC</description></item><item><title>Service Degradation - REST API - US [resolved]</title><link>https://stspg.io/h13713dnrm0h</link><guid isPermaLink="false">sinch:2026-08-16T20:43:55.583Z</guid><pubDate>Sun, 16 Aug 2026 20:43:55 +0000</pubDate><description>This incident has been resolved.
-
-Incident Start Time: 2026-08-16 17:58 UTC
-Incident End Time: 2026-08-17 02:45 UTC</description></item><item><title>Delivery Issue - United Kingdom - O2 UK [resolved]</title><link>https://stspg.io/gnhvm36r9g23</link><guid isPermaLink="false">sinch:2026-08-14T09:57:04.927Z</guid><pubDate>Fri, 14 Aug 2026 09:57:04 +0000</pubDate><description>This incident has been resolved.
-
-Incident Start Time: 2026-08-14 09:36 UTC
-
-Incident End Time: 2026-08-14 10:12 UTC</description></item><item><title>Delivery Issue Sweden - Telia [resolved]</title><link>https://stspg.io/f0s12mvnjz56</link><guid isPermaLink="false">sinch:2026-08-14T08:13:31.916Z</guid><pubDate>Fri, 14 Aug 2026 08:13:31 +0000</pubDate><description>This incident has been resolved.
-
-Incident Start Time: 2026-08-14 07:44 UTC
-Incident End Time: 2026-08-14 09:27 UTC</description></item></channel></rss>
+Incident End Time: 2026-08-18 09:16 UTC</description></item></channel></rss>
