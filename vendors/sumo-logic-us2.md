@@ -1,11 +1,11 @@
 # Sumo Logic US2 outage history — every incident their status page has posted
 
-**44 Sumo Logic US2 incidents on record** spanning **2026-01-12** to **2026-09-07**. Status page:
+**45 Sumo Logic US2 incidents on record** spanning **2026-01-12** to **2026-09-11**. Status page:
 [http://status.us2.sumologic.com](http://status.us2.sumologic.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **51 min** across 44 incidents where Sumo Logic US2 posted both a start and a resolve time.
+Median incident length: **52 min** across 45 incidents where Sumo Logic US2 posted both a start and a resolve time.
 
 This page republishes what Sumo Logic US2 posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Problem with Cloud SIEM Processing in Australia (AU)](https://stspg.io/78c44gy7t17t) | minor | 87 min |
 | 2026-09-07 | [Problem with Cloud SIEM Processing in Europe 1 (EU)](https://stspg.io/y6pn1hk9rhvr) | minor | 14 min |
 | 2026-09-04 | [Problem with Cloud SIEM UI in North America 1 (US1)](https://stspg.io/4zcf8kmsm404) | minor | 104 min |
 | 2026-09-03 | [Problem with Cloud SIEM Processing in North America 2 (US2)](https://stspg.io/8rcxqdr8pbl7) | minor | 4.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-14 | [Problem with Metrics Searches in North America 1 (US1)](https://stspg.io/3p6hbg7clx9m) | minor | 2.2 h |
 | 2026-07-09 | [Problem with CSE Processing Pipeline in Europe 1 (EU)](https://stspg.io/14d0jcsjbtfk) | minor | 27 min |
 | 2026-06-18 | [Problem with CSE Processing Pipeline in North America 1 (US1)](https://stspg.io/cbxg7gm03qrk) | minor | 54 min |
-| 2026-06-17 | [Problem with Logs Searches in Canada (CA)](https://stspg.io/p5283y1rzptg) | minor | 26 min |
 
-Newest 15 of 44. Full machine-readable history:
+Newest 15 of 45. Full machine-readable history:
 [`history/sumo-logic-us2.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sumo-logic-us2.json).
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **44** have a usable length. Excluded:
+Of 45 recorded incidents, **45** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

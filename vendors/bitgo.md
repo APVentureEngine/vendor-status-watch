@@ -1,11 +1,11 @@
 # BitGo outage history — every incident their status page has posted
 
-**51 BitGo incidents on record** spanning **2026-04-08** to **2026-09-08**. Status page:
+**53 BitGo incidents on record** spanning **2026-04-08** to **2026-09-10**. Status page:
 [https://status.bitgo.com](https://status.bitgo.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **99 min** across 51 incidents where BitGo posted both a start and a resolve time.
+Median incident length: **100 min** across 53 incidents where BitGo posted both a start and a resolve time.
 
 This page republishes what BitGo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Delay in processing SUI withdrawals on Go account](https://stspg.io/s14ky55s8qms) | minor | 3.1 h |
+| 2026-09-10 | [Delay in processing DOT transactions](https://stspg.io/3qm7f6c7p3hm) | minor | 2.4 h |
 | 2026-09-08 | [Delay in Processing ATOM Transactions](https://stspg.io/xj151w2jxzcl) | minor | 7.6 h |
 | 2026-08-27 | [Trade orderbook is currently unavailable](https://stspg.io/n3t0ypl5n8k5) | minor | 52 min |
 | 2026-08-25 | [Delay in processing Transactions affecting multiple coins](https://stspg.io/d059k2pr0zr6) | minor | 41 min |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-22 | [Issues Affecting Persona Liveness Verification Flow](https://stspg.io/by1zshkx2nws) | minor | 78 min |
 | 2026-07-16 | [Issues with accessing trade platform](https://stspg.io/9xnbmcgr5m3k) | major | 2.9 h |
 | 2026-07-13 | [Delay in processing TON transactions](https://stspg.io/vj9zsm3g0y3d) | major | 60 min |
-| 2026-07-02 | [Delays in transaction confirmation processing](https://stspg.io/whsnqnr9htmc) | none | 0 min |
-| 2026-07-01 | [Delay in processing transactions](https://stspg.io/4v7d3d8rgg22) | minor | 62 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/bitgo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bitgo.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 53 recorded incidents, **53** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

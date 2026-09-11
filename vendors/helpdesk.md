@@ -2,7 +2,7 @@
 
 **25 HelpDesk incidents on record** spanning **2025-12-22** to **2026-01-20**. Status page:
 [https://status.helpdesk.com](https://status.helpdesk.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **2** HelpDesk incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

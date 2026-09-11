@@ -2,10 +2,10 @@
 
 **6 SugarSync incidents on record** spanning **2025-11-18** to **2026-09-08**. Status page:
 [https://status.sugarsync.com](https://status.sugarsync.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
-Only **5** SugarSync incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **6** SugarSync incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what SugarSync posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [Login / Access Degradation](https://stspg.io/xzzqccjvgmbm) | major | — |
+| 2026-09-08 | [Login / Access Degradation](https://stspg.io/xzzqccjvgmbm) | none | 2.3 days |
 | 2026-08-26 | [Support limited due to network maintenance](https://stspg.io/p5v0h6h832d1) | none | 62 min |
 | 2026-04-15 | [Login and connectivity issues](https://stspg.io/s181s8p0zgpl) | critical | 21.1 h |
 | 2026-04-11 | [Login and connectivity issues](https://stspg.io/b6k7cjlg3ms1) | critical | 37.9 h |
@@ -26,8 +26,8 @@ Newest 6 of 6. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 6 recorded incidents, **5** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 6 recorded incidents, **6** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

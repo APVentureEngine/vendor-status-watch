@@ -1,11 +1,11 @@
 # Circle CI outage history — every incident their status page has posted
 
-**51 Circle CI incidents on record** spanning **2026-02-26** to **2026-09-04**. Status page:
+**52 Circle CI incidents on record** spanning **2026-02-26** to **2026-09-10**. Status page:
 [https://status.circleci.com](https://status.circleci.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **78 min** across 51 incidents where Circle CI posted both a start and a resolve time.
+Median incident length: **74 min** across 52 incidents where Circle CI posted both a start and a resolve time.
 
 This page republishes what Circle CI posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Issues loading pipelines for a small number of projects](https://stspg.io/l0tsrtv1tkbl) | minor | 1 min |
 | 2026-09-04 | [macOS Job Delays](https://stspg.io/l8rtj1qhr625) | minor | 99 min |
 | 2026-08-26 | [Intermittent errors when viewing plan usage UIs or calling plan usage APIs](https://stspg.io/961zy5b9fnjk) | minor | 26 min |
 | 2026-08-25 | [GitHub Login Disruption](https://stspg.io/ns4jz57ynx52) | minor | 0 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-24 | [GitHub service degradation may impact customers using GitHub](https://stspg.io/8pvsx88khry9) | minor | 65 min |
 | 2026-07-22 | [Delays in starting  jobs using the gen3 resource class](https://stspg.io/jjsrf04jn924) | minor | 6.1 h |
 | 2026-07-22 | [Errors loading app.circleci.com](https://stspg.io/cw24pb57b6s9) | none | 13 min |
-| 2026-07-20 | [Errors with GitHub APIs delaying workflows](https://stspg.io/96ffdz58cxdr) | minor | 69 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/circle-ci.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/circle-ci.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

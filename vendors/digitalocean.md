@@ -2,7 +2,7 @@
 
 **51 Digitalocean incidents on record** spanning **2026-04-17** to **2026-09-09**. Status page:
 [https://status.digitalocean.com](https://status.digitalocean.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.6 h** across 51 incidents where Digitalocean posted both a start and a resolve time.

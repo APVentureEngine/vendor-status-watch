@@ -1,11 +1,11 @@
 # Moveworks outage history — every incident their status page has posted
 
-**51 Moveworks incidents on record** spanning **2025-08-06** to **2026-09-10**. Status page:
+**50 Moveworks incidents on record** spanning **2025-08-13** to **2026-09-10**. Status page:
 [https://status.moveworks.com](https://status.moveworks.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **109 min** across 48 incidents where Moveworks posted both a start and a resolve time.
+Median incident length: **111 min** across 47 incidents where Moveworks posted both a start and a resolve time.
 
 This page republishes what Moveworks posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-18 | [Jira ITSM – Intermittent Update and Resolution Failures](https://stspg.io/m6nfcsls1tpq) | minor | 7.5 h |
 | 2026-06-11 | [Enterprise Search Unavailable in AI Assistant — Resolved](https://stspg.io/bbrk6lgrz8lc) | major | 0 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 50. Full machine-readable history:
 [`history/moveworks.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/moveworks.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **48** have a usable length. Excluded:
+Of 50 recorded incidents, **47** have a usable length. Excluded:
 0 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

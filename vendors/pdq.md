@@ -2,10 +2,10 @@
 
 **51 Pdq incidents on record** spanning **2025-12-15** to **2026-09-09**. Status page:
 [https://pdq.statuspage.io](https://pdq.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **3.2 h** across 50 incidents where Pdq posted both a start and a resolve time.
+Median incident length: **3.3 h** across 51 incidents where Pdq posted both a start and a resolve time.
 
 This page republishes what Pdq posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [Connect - Delayed Vulnerability Updates](https://stspg.io/vjc6bc8v6djf) | minor | — |
+| 2026-09-09 | [Connect - Delayed Vulnerability Updates](https://stspg.io/vjc6bc8v6djf) | minor | 46.2 h |
 | 2026-09-03 | [Connect - Delayed Vulnerability Updates](https://stspg.io/n2rbygdh0l4r) | minor | 23.7 h |
 | 2026-08-27 | [Connect: Ctrl + Alt + Del is not working in Remote Desktop](https://stspg.io/5r0wrt761d3n) | major | 112 min |
 | 2026-08-26 | [Connect: Unable to install remote desktop agent](https://stspg.io/5f8wn3z43r85) | minor | 19 min |
@@ -35,8 +35,8 @@ Newest 15 of 51. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,9 +1,9 @@
 # ThousandEyes outage history — every incident their status page has posted
 
-**53 ThousandEyes incidents on record** spanning **2026-01-27** to **2026-09-08**. Status page:
+**54 ThousandEyes incidents on record** spanning **2026-01-27** to **2026-09-11**. Status page:
 [https://status.thousandeyes.com](https://status.thousandeyes.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **4.6 h** across 47 incidents where ThousandEyes posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Network Maintenance in Las Vegas, NV](https://stspg.io/nsr9rnhspj4r) | maintenance | — |
 | 2026-09-08 | [Degradation in BGP Private Monitors in US1 Region](https://stspg.io/0sv9mfsvhr3n) | minor | 6.3 h |
 | 2026-09-05 | [Network Maintenance in Medellin, Colombia (Claro)](https://stspg.io/41kvz5wjprzs) | maintenance | — |
 | 2026-09-04 | [Emergency Network Maintenance in Phoenix, AZ](https://stspg.io/7zpq2m9gjrg0) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-06 | [Network outage in Frankfurt, Germany (Webex Calling)](https://stspg.io/bvdd6p8qbdv1) | maintenance | — |
 | 2026-07-24 | [Service Degradation Affecting Test Views Load Times](https://stspg.io/cxvrl9cbz3z0) | minor | 14.9 days |
 | 2026-07-23 | [Issues with Dashboard Widgets in the US1 Region](https://stspg.io/w60g5ljsk713) | minor | 3.1 h |
-| 2026-07-21 | [Service degradation affecting Dashboards in US2 Region](https://stspg.io/7x5j97byymbr) | none | 25.6 h |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/thousandeyes.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/thousandeyes.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **47** have a usable length. Excluded:
-5 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **47** have a usable length. Excluded:
+6 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

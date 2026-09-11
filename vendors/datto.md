@@ -1,8 +1,8 @@
 # Datto outage history — every incident their status page has posted
 
-**61 Datto incidents on record** spanning **2026-07-08** to **2026-09-10**. Status page:
+**63 Datto incidents on record** spanning **2026-07-08** to **2026-09-11**. Status page:
 [https://status.datto.com](https://status.datto.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **15.1 h** across 50 incidents where Datto posted both a start and a resolve time.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Autotask - AU01, AU02, AU03, AU04 - Server Maintenance Notice](https://stspg.io/4r99tyb48jrt) | maintenance | — |
+| 2026-09-11 | [Scheduled Maintenance – Cloud Target Appliance Upgrades](https://stspg.io/gk84ylhy6jlm) | maintenance | — |
 | 2026-09-10 | [PSA - 2026.4.3 Minor Release - AU01-AU04](https://stspg.io/qyqqnrf9qyxt) | maintenance | — |
 | 2026-09-10 | [Rocketcyber - eu.rocketcyber.com temporarily inaccessible](https://stspg.io/bbfv6lxdvp7l) | none | — |
 | 2026-09-09 | [[VSA9] - [PHILKAS01] - Intermittent Service Disruption](https://stspg.io/5x454m8lx7h6) | major | — |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | [Datto Endpoint Backup for PC - Backup and Restore - Service Disruption for Customers Hosted on Cloud Siris 299242](https://stspg.io/4fxpn7cw40z5) | minor | 18.8 h |
 | 2026-09-02 | [Datto Networking - Secure Edge Data Usage Reporting Issue](https://stspg.io/x480w33ywfn2) | major | 2.1 h |
 | 2026-09-02 | [Datto SaaS Protection - Backup performance degradation for Exchange services on pod 'aue1-saas-p0'](https://stspg.io/hmwyc74h6zm0) | minor | — |
-| 2026-09-02 | [Datto BCDR - Cloud Recovery - Cloud Operations Service Impact](https://stspg.io/ys5ngj1l37tr) | major | 6.3 days |
-| 2026-09-02 | [Error 500 in Datto Partner Portal for Backup & RMM Products.](https://stspg.io/sqc645v377b5) | critical | 4.2 h |
 
-Newest 15 of 61. Full machine-readable history:
+Newest 15 of 63. Full machine-readable history:
 [`history/datto.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/datto.json).
 
 ## What is counted, and what is not
 
-Of 61 recorded incidents, **50** have a usable length. Excluded:
-6 maintenance, 5 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 63 recorded incidents, **50** have a usable length. Excluded:
+8 maintenance, 5 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

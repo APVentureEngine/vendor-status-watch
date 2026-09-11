@@ -1,11 +1,11 @@
 # NVIDIA GeForce outage history — every incident their status page has posted
 
-**44 NVIDIA GeForce incidents on record** spanning **2025-08-06** to **2026-09-08**. Status page:
+**43 NVIDIA GeForce incidents on record** spanning **2025-09-11** to **2026-09-08**. Status page:
 [https://status.geforcenow.com](https://status.geforcenow.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **26.9 h** across 40 incidents where NVIDIA GeForce posted both a start and a resolve time.
+Median incident length: **28.9 h** across 39 incidents where NVIDIA GeForce posted both a start and a resolve time.
 
 This page republishes what NVIDIA GeForce posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-09 | [Elevated packet loss and latency in Frankfurt](https://stspg.io/y8jcr50xs8k9) | minor | 45.0 h |
 | 2026-05-02 | [Long queue times in GeForce NOW](https://stspg.io/tw8sldsmsl8s) | none | 9.4 days |
 
-Newest 15 of 44. Full machine-readable history:
+Newest 15 of 43. Full machine-readable history:
 [`history/nvidia-geforce.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/nvidia-geforce.json).
 
 ## What is counted, and what is not
 
-Of 44 recorded incidents, **40** have a usable length. Excluded:
+Of 43 recorded incidents, **39** have a usable length. Excluded:
 0 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

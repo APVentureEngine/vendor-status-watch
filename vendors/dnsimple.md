@@ -2,7 +2,7 @@
 
 **40 DNSimple incidents on record** spanning **2025-08-11** to **2026-09-06**. Status page:
 [https://dnsimple.statuspage.io](https://dnsimple.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **77 min** across 39 incidents where DNSimple posted both a start and a resolve time.

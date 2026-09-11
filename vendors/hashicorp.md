@@ -1,11 +1,11 @@
 # Hashicorp outage history — every incident their status page has posted
 
-**26 Hashicorp incidents on record** spanning **2026-05-13** to **2026-09-04**. Status page:
+**27 Hashicorp incidents on record** spanning **2026-05-13** to **2026-09-10**. Status page:
 [https://status.hashicorp.com](https://status.hashicorp.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 26 incidents where Hashicorp posted both a start and a resolve time.
+Median incident length: **2.7 h** across 27 incidents where Hashicorp posted both a start and a resolve time.
 
 This page republishes what Hashicorp posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | Hashicorp Linux packages GPG key rotation | major | 7.3 h |
 | 2026-09-04 | Errors creating new VCS workspaces with Bitbucket cloud provider | minor | 3.9 h |
 | 2026-08-15 | Delayed HCP Terraform Runs | minor | 2.8 days |
 | 2026-08-13 | Terraform AWS Provider v6.59.0 — errors during plan for aws_network_acl_rule resources | minor | 75 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-29 | Increased Load Times for HCP Portal | none | 15.7 h |
 | 2026-07-21 | Terraform Runs Failing to Fetch GitHub Sources Over SSH | minor | 2.2 h |
 | 2026-07-07 | Intermittent Bitbucket Data Center VCS Triggered Terraform run Failures | none | 7.9 h |
-| 2026-06-30 | Terraform releases page experiencing errors | minor | 43 min |
 
-Newest 15 of 26. Full machine-readable history:
+Newest 15 of 27. Full machine-readable history:
 [`history/hashicorp.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/hashicorp.json).
 
 ## What is counted, and what is not
 
-Of 26 recorded incidents, **26** have a usable length. Excluded:
+Of 27 recorded incidents, **27** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

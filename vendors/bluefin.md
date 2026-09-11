@@ -1,11 +1,11 @@
 # Bluefin outage history — every incident their status page has posted
 
-**24 Bluefin incidents on record** spanning **2025-08-07** to **2026-09-02**. Status page:
+**23 Bluefin incidents on record** spanning **2025-08-21** to **2026-09-02**. Status page:
 [https://status.bluefin.com](https://status.bluefin.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.8 h** across 24 incidents where Bluefin posted both a start and a resolve time.
+Median incident length: **3.3 h** across 23 incidents where Bluefin posted both a start and a resolve time.
 
 This page republishes what Bluefin posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-29 | [3rd Party Incident](https://stspg.io/ytyln219dj8g) | major | 12.2 h |
 | 2025-12-12 | [Investigating reports of decryption failures](https://stspg.io/rjpg1gvf1wmh) | minor | 5.3 h |
 
-Newest 15 of 24. Full machine-readable history:
+Newest 15 of 23. Full machine-readable history:
 [`history/bluefin.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bluefin.json).
 
 ## What is counted, and what is not
 
-Of 24 recorded incidents, **24** have a usable length. Excluded:
+Of 23 recorded incidents, **23** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

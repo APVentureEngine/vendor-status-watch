@@ -2,8 +2,8 @@
 
 **61 Grafana Labs incidents on record** spanning **2026-07-08** to **2026-09-10**. Status page:
 [https://status.grafana.com](https://status.grafana.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **2.0 h** across 56 incidents where Grafana Labs posted both a start and a resolve time.
 

@@ -2,7 +2,7 @@
 
 **26 PlanetScale incidents on record** spanning **2025-10-01** to **2026-09-05**. Status page:
 [https://www.planetscalestatus.com](https://www.planetscalestatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **44 min** across 24 incidents where PlanetScale posted both a start and a resolve time.

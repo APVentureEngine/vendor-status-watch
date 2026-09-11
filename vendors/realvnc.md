@@ -1,11 +1,11 @@
 # RealVNC outage history — every incident their status page has posted
 
-**9 RealVNC incidents on record** spanning **2025-10-21** to **2026-08-20**. Status page:
+**10 RealVNC incidents on record** spanning **2025-10-21** to **2026-09-10**. Status page:
 [https://realvnc.statuspage.io](https://realvnc.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **9** RealVNC incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **10** RealVNC incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what RealVNC posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Cloud Connection Issues](https://stspg.io/2kgcmffsdmbj) | critical | 17.4 h |
 | 2026-08-20 | [Cloud Connection Delays](https://stspg.io/kfzw8svv930l) | minor | 13.7 h |
 | 2026-08-19 | [Cloud Connection Delays](https://stspg.io/6c2gml2hhcr5) | minor | 17.5 h |
 | 2026-08-13 | [Cloud Connectivity and Portal Issues](https://stspg.io/qvrtn984ppbg) | none | 17.0 h |
@@ -24,12 +25,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-18 | [Incident with Cloudflare](https://stspg.io/qc0xz5mj3djy) | critical | 20.2 h |
 | 2025-10-21 | [Issue identified with the RealVNC Connect Connectivity and Team Management services](https://stspg.io/s4cdhhf8tnh0) | minor | 47 min |
 
-Newest 9 of 9. Full machine-readable history:
+Newest 10 of 10. Full machine-readable history:
 [`history/realvnc.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/realvnc.json).
 
 ## What is counted, and what is not
 
-Of 9 recorded incidents, **9** have a usable length. Excluded:
+Of 10 recorded incidents, **10** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

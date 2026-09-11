@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,7 +104,7 @@
 "body": "The incident has been resolved. Our upstream partner has also officially concluded their investigation and closed the underlying incident. We have verified that all services are operating at expected performance levels and have now concluded our monitoring period. We apologize for the disruption and appreciate your patience while we worked toward this resolution.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-02-20T23:51:22.000Z",
 "resolved_inferred": false,
 "started_at": "2026-02-20T18:45:33.000Z",
@@ -110,7 +114,7 @@
 "url": "https://stspg.io/lzvx7rhvxp99"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

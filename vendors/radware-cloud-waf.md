@@ -2,7 +2,7 @@
 
 **58 Radware Cloud Waf incidents on record** spanning **2026-03-25** to **2026-09-10**. Status page:
 [https://cwaf.status.radwarecloud.com](https://cwaf.status.radwarecloud.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **98 min** across 53 incidents where Radware Cloud Waf posted both a start and a resolve time.

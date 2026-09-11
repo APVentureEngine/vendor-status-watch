@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,7 +104,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-01-09T11:24:17.347-06:00",
 "resolved_inferred": false,
 "started_at": "2026-01-08T12:41:35.692-06:00",
@@ -113,7 +117,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-07T02:52:41.760-05:00",
 "resolved_inferred": false,
 "started_at": "2026-06-30T07:11:01.257-05:00",
@@ -126,7 +130,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-01T10:35:00.081-05:00",
 "resolved_inferred": false,
 "started_at": "2026-06-30T06:00:06.320-05:00",
@@ -135,11 +139,22 @@
 "updated_at": "2026-07-01T10:35:00.099-05:00",
 "url": "https://stspg.io/h6s732st513v"
 },
+"gnzzrjhhq0ln": {
+"body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+"first_seen": "2026-09-11T12:29:42Z",
+"impact": "maintenance",
+"last_seen": "2026-09-11T12:29:42Z",
+"started_at": "2026-09-11T07:00:00.000-05:00",
+"state": "maintenance",
+"title": "Infrastructure Upgrade - Aurora MySQL Environments - Saturday, September 12, 2026",
+"updated_at": "2026-09-11T07:00:08.382-05:00",
+"url": "https://stspg.io/7f4vfw0j0z7r"
+},
 "jsgvpjpvmk4x": {
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-10-10T11:36:26.662-05:00",
 "resolved_inferred": false,
 "started_at": "2025-10-06T13:26:03.075-05:00",
@@ -165,7 +180,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-28T05:31:36.367-05:00",
 "resolved_inferred": false,
 "started_at": "2026-07-08T11:39:31.389-05:00",
@@ -178,7 +193,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-31T07:27:17.074-05:00",
 "resolved_inferred": false,
 "started_at": "2026-07-28T06:59:40.640-05:00",
@@ -188,10 +203,10 @@
 "url": "https://stspg.io/0dd9z7p93qmj"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "All Systems Operational",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "Service Under Maintenance",
 "last_error": null,
-"last_state": "ok",
+"last_state": "maintenance",
 "platform": "statuspage",
 "slug": "kenna-security",
 "status_url": "https://status.kennasecurity.com",

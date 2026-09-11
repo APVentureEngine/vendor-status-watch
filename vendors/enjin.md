@@ -1,11 +1,11 @@
 # Enjin outage history — every incident their status page has posted
 
-**6 Enjin incidents on record** spanning **2025-08-07** to **2026-08-20**. Status page:
+**5 Enjin incidents on record** spanning **2025-08-20** to **2026-08-20**. Status page:
 [https://www.enjinstatus.com](https://www.enjinstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **5** Enjin incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **4** Enjin incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Enjin posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -19,14 +19,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-11 | [Enjin Platform Cloud: Intermittent Server Errors](https://stspg.io/b5d9dngj1xwl) | critical | 4.4 h |
 | 2025-09-02 | [Metadata Service Outage Impacting NFT.io and Enjin Wallet](https://stspg.io/43mv2nsf7q1z) | major | 2.8 h |
 | 2025-08-20 | [Degraded access to Staking – Pool Overview in Enjin Wallet](https://stspg.io/0rt11jw02rrk) | minor | 12.6 h |
-| 2025-08-07 | [Documentation Site Outage](https://stspg.io/s7g3kxzy0vm2) | none | 3.7 h |
 
-Newest 6 of 6. Full machine-readable history:
+Newest 5 of 5. Full machine-readable history:
 [`history/enjin.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/enjin.json).
 
 ## What is counted, and what is not
 
-Of 6 recorded incidents, **5** have a usable length. Excluded:
+Of 5 recorded incidents, **4** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

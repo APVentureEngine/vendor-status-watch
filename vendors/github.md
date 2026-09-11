@@ -2,7 +2,7 @@
 
 **52 GitHub incidents on record** spanning **2026-07-14** to **2026-09-04**. Status page:
 [https://www.githubstatus.com](https://www.githubstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **79 min** across 52 incidents where GitHub posted both a start and a resolve time.

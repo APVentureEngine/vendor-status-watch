@@ -1,11 +1,11 @@
 # Highspot outage history — every incident their status page has posted
 
-**10 Highspot incidents on record** spanning **2025-10-20** to **2026-08-22**. Status page:
+**11 Highspot incidents on record** spanning **2025-10-20** to **2026-09-10**. Status page:
 [https://status.highspot.com](https://status.highspot.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **8** Highspot incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **9** Highspot incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Highspot posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Performance issues in AMERICAS2 Data Center](https://stspg.io/fbbppmb2f70l) | minor | 80 min |
 | 2026-08-22 | [Planned Maintenance: SCORM Lessons Unavailable](https://stspg.io/wdntz4n17n19) | maintenance | — |
 | 2026-08-05 | [Performance issues in AMERICAS2 Data Center](https://stspg.io/vcwkpqzfx4t9) | major | 77 min |
 | 2026-07-17 | [Review Submission tab within Learning Center Issue in AMERICAS1 & AMERICAS2 Data Center](https://stspg.io/pqd4bz72qhng) | major | 3.8 h |
@@ -25,12 +26,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-10 | [Platform Incident](https://stspg.io/kn4rdvnk294l) | critical | 31 min |
 | 2025-10-20 | [Performance Degradation Due to AWS Service Disruptions for AMERICAS](https://stspg.io/2902rv93stk6) | minor | 23.1 h |
 
-Newest 10 of 10. Full machine-readable history:
+Newest 11 of 11. Full machine-readable history:
 [`history/highspot.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/highspot.json).
 
 ## What is counted, and what is not
 
-Of 10 recorded incidents, **8** have a usable length. Excluded:
+Of 11 recorded incidents, **9** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

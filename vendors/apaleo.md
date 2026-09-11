@@ -1,11 +1,11 @@
 # Apaleo outage history — every incident their status page has posted
 
-**19 Apaleo incidents on record** spanning **2025-08-07** to **2026-08-27**. Status page:
+**18 Apaleo incidents on record** spanning **2025-08-20** to **2026-08-27**. Status page:
 [https://status.apaleo.com](https://status.apaleo.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **19** Apaleo incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **18** Apaleo incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Apaleo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-18 | [Login and payment availability issue](https://stspg.io/9lmy7gq698jr) | major | 4.5 h |
 | 2025-11-05 | [UI and API perfomance degradation and occasional timeouts](https://stspg.io/q4w99lkgw1nw) | none | 0 min |
 
-Newest 15 of 19. Full machine-readable history:
+Newest 15 of 18. Full machine-readable history:
 [`history/apaleo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/apaleo.json).
 
 ## What is counted, and what is not
 
-Of 19 recorded incidents, **19** have a usable length. Excluded:
+Of 18 recorded incidents, **18** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,10 +2,10 @@
 
 **49 Otava incidents on record** spanning **2025-08-08** to **2026-09-10**. Status page:
 [https://status.otava.com](https://status.otava.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **2.8 days** across 45 incidents where Otava posted both a start and a resolve time.
+Median incident length: **2.3 days** across 47 incidents where Otava posted both a start and a resolve time.
 
 This page republishes what Otava posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,8 +15,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-10 | [Denver (DEN2) OTAVA® VMs Patching in Denver vCenter - 9/10/2026](https://stspg.io/p2bmfn33qcrf) | maintenance | — |
-| 2026-09-09 | [Phoenix (PHX) OTAVA® Cloud Backup (OCB), Service Degraded - 9/9/2026](https://stspg.io/ybsdx3lq1f99) | major | — |
-| 2026-09-09 | [Denver (DEN2) OTAVA® DRaaS powered by Veeam (OCC) Service Degraded - 9/9/2026](https://stspg.io/tp3d58t94xj1) | major | — |
+| 2026-09-09 | [Phoenix (PHX) OTAVA® Cloud Backup (OCB), Service Degraded - 9/9/2026](https://stspg.io/ybsdx3lq1f99) | major | 23.6 h |
+| 2026-09-09 | [Denver (DEN2) OTAVA® DRaaS powered by Veeam (OCC) Service Degraded - 9/9/2026](https://stspg.io/tp3d58t94xj1) | major | 27.1 h |
 | 2026-09-09 | [Mid-Michigan (MM) OTAVA® vCenter patching - 9/9/2026](https://stspg.io/t62js5fcj96p) | maintenance | — |
 | 2026-09-07 | [Mid-Michigan (MM1) - Internet Connectivity Degradation - 9/7/2026](https://stspg.io/6qqs4vm3vy0k) | minor | 47.1 h |
 | 2026-08-12 | [Mid-Michigan (MM1) OTAVA® Data Center Networking Infrastructure Major Service Disruption – 08/12/2026](https://stspg.io/byw360jrlh07) | none | 24.4 h |
@@ -35,8 +35,8 @@ Newest 15 of 49. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 49 recorded incidents, **45** have a usable length. Excluded:
-2 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 49 recorded incidents, **47** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

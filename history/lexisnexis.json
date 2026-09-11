@@ -91,12 +91,16 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "partial"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "partial"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
 "incidents": {},
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "Partial System Outage",
 "last_error": null,
 "last_state": "partial",

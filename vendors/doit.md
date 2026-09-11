@@ -1,9 +1,9 @@
 # Doit outage history — every incident their status page has posted
 
-**20 Doit incidents on record** spanning **2025-08-31** to **2026-09-01**. Status page:
+**21 Doit incidents on record** spanning **2025-08-31** to **2026-09-11**. Status page:
 [https://status.doit.com](https://status.doit.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **45.7 h** across 20 incidents where Doit posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Cost anomalies showing stale excess cost and status](https://stspg.io/t2smyw9rnqj3) | minor | — |
 | 2026-09-01 | [Google Cloud issue [ONGOING]: Multiple Google Cloud services](https://stspg.io/93kmzd7qgtdj) | none | 25.2 h |
 | 2026-07-17 | [AWS billing data issue causing inaccurate cost signals in DoiT Cloud Intelligence](https://stspg.io/lgymyy4v1gfs) | minor | 46.8 h |
 | 2026-06-26 | [General issue with opening GCP Expert Inquiry tickets from the DCI Console](https://stspg.io/2fdv13g839ln) | minor | 37.8 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-13 | [Delayed GCP cost and usage data updates since January 10, 2026](https://stspg.io/hngczfyqkrr5) | minor | 7.1 days |
 | 2026-01-03 | [Subset of public APIs are unavailable](https://stspg.io/1b52691bcxb1) | major | 7.5 h |
 | 2025-12-11 | [Sign-in via Magic Link Unavailable](https://stspg.io/97wtzknp52r0) | none | 4.3 h |
-| 2025-12-08 | [Billing profiles unavailable in DoiT Console](https://stspg.io/s928mjqn33vq) | minor | 44.5 h |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 21. Full machine-readable history:
 [`history/doit.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/doit.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 21 recorded incidents, **20** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

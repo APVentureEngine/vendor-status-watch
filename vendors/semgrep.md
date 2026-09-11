@@ -1,11 +1,11 @@
 # Semgrep outage history — every incident their status page has posted
 
-**51 Semgrep incidents on record** spanning **2025-11-10** to **2026-09-04**. Status page:
+**52 Semgrep incidents on record** spanning **2025-11-10** to **2026-09-10**. Status page:
 [https://status.semgrep.dev](https://status.semgrep.dev) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **97 min** across 51 incidents where Semgrep posted both a start and a resolve time.
+Median incident length: **95 min** across 52 incidents where Semgrep posted both a start and a resolve time.
 
 This page republishes what Semgrep posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [general platform instability](https://stspg.io/g5jfpwwkwfg1) | none | 18 min |
 | 2026-09-04 | [Incomplete Semgrep 1.176.1 release: PyPI installs cannot use Pro Engine](https://stspg.io/ph646ydmt05p) | major | 24 min |
 | 2026-09-03 | [SMS Scans Degraded](https://stspg.io/yqrp6kb8qk5s) | major | 70 min |
 | 2026-09-01 | [Dynamic Maven & Gradle dependency resolution impaired](https://stspg.io/043kszj1qkzw) | none | 25.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-22 | [Delays in scan processing](https://stspg.io/w1mxy9cjbtl8) | none | 4.0 h |
 | 2026-06-08 | [Degraded scan performance in CI and Semgrep Managed Scans](https://stspg.io/9ml7mncgdtcd) | minor | 107 min |
 | 2026-05-20 | [Logins are failing for users via GitHub auth](https://stspg.io/pt3vqkp32fpp) | major | 44 min |
-| 2026-05-20 | [Managed Scans: full project scans being associated with HEAD instead of the default branch name](https://stspg.io/fbxd57pynd9v) | minor | 93 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/semgrep.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/semgrep.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

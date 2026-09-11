@@ -1,11 +1,11 @@
 # Bitbucket outage history — every incident their status page has posted
 
-**18 Bitbucket incidents on record** spanning **2025-08-19** to **2026-07-31**. Status page:
+**19 Bitbucket incidents on record** spanning **2025-08-19** to **2026-09-11**. Status page:
 [https://bitbucket.status.atlassian.com](https://bitbucket.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **18** Bitbucket incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **19** Bitbucket incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Bitbucket posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Intermittent reliability issue with Bitbucket Cloud](https://stspg.io/hd61ntzs517q) | minor | 88 min |
 | 2026-07-31 | [BitBucket Site fails to Load](https://stspg.io/21tkhnmzjbxx) | none | 2.5 h |
 | 2026-06-11 | [Degraded performance of Bitbucket](https://stspg.io/x11jczb81t0m) | minor | 86 min |
 | 2026-05-14 | [Users experiencing issues accessing multiple Atlassian products](https://stspg.io/2p9sklcysd8r) | critical | 104 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-27 | [Outbound Email, Mobile Push Notifications, and Support Ticket Delivery Impacting All Cloud Products](https://stspg.io/5ptmqqb7jd52) | critical | 37 min |
 | 2025-11-11 | [Bitbucket availability degraded](https://stspg.io/1yhf38bwm7rf) | critical | 4.2 h |
 | 2025-10-20 | [Atlassian Cloud Services impacted](https://stspg.io/k1ddqd9k8d27) | none | 21.5 h |
-| 2025-09-16 | [Delays in running Bitbucket Pipelines](https://stspg.io/d00sxrvhxxck) | minor | 30 min |
 
-Newest 15 of 18. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/bitbucket.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bitbucket.json).
 
 ## What is counted, and what is not
 
-Of 18 recorded incidents, **18** have a usable length. Excluded:
+Of 19 recorded incidents, **19** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

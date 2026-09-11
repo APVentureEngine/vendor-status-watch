@@ -1,9 +1,9 @@
 # Kenna Security outage history — every incident their status page has posted
 
-**7 Kenna Security incidents on record** spanning **2025-10-06** to **2026-09-05**. Status page:
+**8 Kenna Security incidents on record** spanning **2025-10-06** to **2026-09-11**. Status page:
 [https://status.kennasecurity.com](https://status.kennasecurity.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Only **6** Kenna Security incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Infrastructure Upgrade - Aurora MySQL Environments - Saturday, September 12, 2026](https://stspg.io/7f4vfw0j0z7r) | maintenance | — |
 | 2026-09-05 | [Infrastructure Upgrade - Aurora MySQL Environments - Saturday,September 05, 2026](https://stspg.io/tg1drfdzfrgb) | maintenance | — |
 | 2026-07-28 | [Kenna US Prod2 Service Outage: Export Runs](https://stspg.io/0dd9z7p93qmj) | critical | 3.0 days |
 | 2026-07-08 | [Kenna Platform Degraded Service: Connectors EU](https://stspg.io/w8kgrf6tj4tc) | minor | 19.7 days |
@@ -22,13 +23,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-08 | [Virtual Tunnel Connector Failures](https://stspg.io/wy9jmfyy6z4r) | major | 22.7 h |
 | 2025-10-06 | [Degraded performance](https://stspg.io/dmdtcmml821s) | minor | 3.9 days |
 
-Newest 7 of 7. Full machine-readable history:
+Newest 8 of 8. Full machine-readable history:
 [`history/kenna-security.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/kenna-security.json).
 
 ## What is counted, and what is not
 
-Of 7 recorded incidents, **6** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 8 recorded incidents, **6** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

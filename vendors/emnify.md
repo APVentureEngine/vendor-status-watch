@@ -1,11 +1,11 @@
 # Emnify outage history — every incident their status page has posted
 
-**53 Emnify incidents on record** spanning **2025-09-18** to **2026-09-10**. Status page:
+**54 Emnify incidents on record** spanning **2025-09-18** to **2026-09-11**. Status page:
 [https://status.emnify.com](https://status.emnify.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.0 h** across 52 incidents where Emnify posted both a start and a resolve time.
+Median incident length: **2.6 h** across 54 incidents where Emnify posted both a start and a resolve time.
 
 This page republishes what Emnify posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-10 | [Events display issues in the emnify Portal and Data Streamer](https://stspg.io/zqgq5mrqss0j) | minor | — |
+| 2026-09-11 | [Events display issues in the emnify Portal and Data Streamer](https://stspg.io/q4yw29z9b80z) | minor | 85 min |
+| 2026-09-10 | [Events display issues in the emnify Portal and Data Streamer](https://stspg.io/zqgq5mrqss0j) | minor | 34 min |
 | 2026-09-09 | [Portal search functionality degradation](https://stspg.io/0x1ds74t5q70) | minor | 3.1 h |
 | 2026-09-07 | [Service degradation with data connectivity](https://stspg.io/r2vwbsnq5s74) | minor | 69 min |
 | 2026-08-01 | [Service Degradation - OpenVPN Connections and Portal Access](https://stspg.io/8fq8l5bq2493) | minor | 26 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-20 | [Degraded Performance – Embedded Dashboards & Stats API](https://stspg.io/b9bw10szcyhg) | minor | 8.6 h |
 | 2026-06-18 | [Service degradation - EE (UK)](https://stspg.io/n6h5s470bbj3) | minor | 3.1 h |
 | 2026-06-04 | [Service Degradation - Orange (Guinea)](https://stspg.io/5966h2r111wb) | minor | 4.0 days |
-| 2026-06-03 | [Service Degradation - 4G Connectivity](https://stspg.io/5x51tyy8zszb) | minor | 65 min |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/emnify.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/emnify.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **52** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 54 recorded incidents, **54** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

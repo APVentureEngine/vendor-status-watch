@@ -2,7 +2,7 @@
 
 **52 Bitso incidents on record** spanning **2026-02-05** to **2026-09-08**. Status page:
 [https://status.bitso.com](https://status.bitso.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **2.2 h** across 51 incidents where Bitso posted both a start and a resolve time.

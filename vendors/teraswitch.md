@@ -1,11 +1,11 @@
 # TeraSwitch outage history — every incident their status page has posted
 
-**45 TeraSwitch incidents on record** spanning **2025-08-07** to **2026-09-04**. Status page:
+**44 TeraSwitch incidents on record** spanning **2025-08-08** to **2026-09-04**. Status page:
 [https://www.teraswitchstatus.com](https://www.teraswitchstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **13.2 h** across 45 incidents where TeraSwitch posted both a start and a resolve time.
+Median incident length: **14.6 h** across 44 incidents where TeraSwitch posted both a start and a resolve time.
 
 This page republishes what TeraSwitch posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-26 | [AMS1 - Loss of Connectivity](https://stspg.io/w5r5d85ryn3m) | critical | 7.0 days |
 | 2026-03-19 | [EWR2 - Network Connectivity Issues](https://stspg.io/24zh1n01w7my) | major | 6.0 days |
 
-Newest 15 of 45. Full machine-readable history:
+Newest 15 of 44. Full machine-readable history:
 [`history/teraswitch.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/teraswitch.json).
 
 ## What is counted, and what is not
 
-Of 45 recorded incidents, **45** have a usable length. Excluded:
+Of 44 recorded incidents, **44** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

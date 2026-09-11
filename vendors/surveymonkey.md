@@ -1,11 +1,11 @@
 # SurveyMonkey outage history — every incident their status page has posted
 
-**50 SurveyMonkey incidents on record** spanning **2025-10-01** to **2026-09-03**. Status page:
+**51 SurveyMonkey incidents on record** spanning **2025-10-01** to **2026-09-10**. Status page:
 [https://surveymonkey.statuspage.io](https://surveymonkey.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **89 min** across 50 incidents where SurveyMonkey posted both a start and a resolve time.
+Median incident length: **88 min** across 51 incidents where SurveyMonkey posted both a start and a resolve time.
 
 This page republishes what SurveyMonkey posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Adding contacts on the contacts page didn't work](https://stspg.io/bj5jdvbplvc2) | none | 0 min |
 | 2026-09-03 | [Possible service degradation due to AWS outage](https://stspg.io/k674mhmy7c7k) | minor | 59 min |
 | 2026-08-31 | [Problem with AI features](https://stspg.io/w6672jsmv7zz) | minor | 117 min |
 | 2026-08-28 | [Customers who have surveys shared with them may run into errors accessing the quick create chat feature](https://stspg.io/dn24xfdc31st) | none | 75 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-14 | [Customers are unable to contact support through our Help Center chatbot](https://stspg.io/y87jglbj3vkv) | major | 58 min |
 | 2026-07-06 | [SurveyMonkey 'Home' page unavailable for US/CA customers](https://stspg.io/th623wj0hnx0) | minor | 90 min |
 | 2026-06-30 | [Issue Impacting Exporting for Canadian SurveyMonkey Accounts](https://stspg.io/pvqbx7z473d4) | none | 0 min |
-| 2026-06-25 | [[MRx] Analyze page is not showing Major US regional data within responses collected](https://stspg.io/9kw9kmt11xzp) | minor | 2.1 days |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/surveymonkey.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/surveymonkey.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

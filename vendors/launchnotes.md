@@ -2,7 +2,7 @@
 
 **3 LaunchNotes incidents on record** spanning **2025-09-04** to **2026-05-04**. Status page:
 [https://status.launchnotes.com](https://status.launchnotes.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **3** LaunchNotes incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

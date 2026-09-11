@@ -1,9 +1,9 @@
 # Sinch outage history — every incident their status page has posted
 
-**59 Sinch incidents on record** spanning **2026-07-19** to **2026-09-10**. Status page:
+**60 Sinch incidents on record** spanning **2026-07-19** to **2026-09-11**. Status page:
 [https://status.sinch.com](https://status.sinch.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **2.0 h** across 57 incidents where Sinch posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Campaigns Application Maintenance](https://stspg.io/41yvxv2mqph7) | maintenance | — |
 | 2026-09-10 | [Campaigns Stats are not available](https://stspg.io/lnjrtw95l578) | major | 6 min |
 | 2026-09-09 | [Service Degradation - Elastic SIP Trunking - US East](https://stspg.io/c280t78x3rtz) | none | 0 min |
 | 2026-09-09 | [Sinch Post-Incident Notification - Customer Dashboard](https://stspg.io/6htzkmrq5v1b) | none | 0 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [Sinch Incident - FaxAPI](https://stspg.io/v0km5x9zjsnp) | minor | 68 min |
 | 2026-09-02 | [Sinch Engage - Bulk Messaging -  Degradation](https://stspg.io/flz641sg7s89) | minor | 90 min |
 | 2026-09-02 | [Delivery Issue Spain](https://stspg.io/vv2yyjzs0jgn) | minor | 109 min |
-| 2026-08-28 | [Delivery Issue United Kingdom - Lycamobile](https://stspg.io/g0181k1p848f) | minor | 95 min |
 
-Newest 15 of 59. Full machine-readable history:
+Newest 15 of 60. Full machine-readable history:
 [`history/sinch.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sinch.json).
 
 ## What is counted, and what is not
 
-Of 59 recorded incidents, **57** have a usable length. Excluded:
-2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 60 recorded incidents, **57** have a usable length. Excluded:
+3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -2,7 +2,7 @@
 
 **27 Balena incidents on record** spanning **2025-08-14** to **2026-07-27**. Status page:
 [https://status.balena.io](https://status.balena.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.9 h** across 27 incidents where Balena posted both a start and a resolve time.

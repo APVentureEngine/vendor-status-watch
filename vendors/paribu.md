@@ -1,11 +1,11 @@
 # Paribu outage history — every incident their status page has posted
 
-**51 Paribu incidents on record** spanning **2025-12-08** to **2026-09-05**. Status page:
+**52 Paribu incidents on record** spanning **2025-12-08** to **2026-09-10**. Status page:
 [https://status.paribu.com](https://status.paribu.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`partial`**.
 
-Only **15** Paribu incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **16** Paribu incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Paribu posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Vakıfbank Türk Lirası Yatırma İşlemleri](https://stspg.io/zg5v3hmb394t) | minor | 2.1 h |
 | 2026-09-05 | [Cosmos (ATOM) Yatırma ve Çekme İşlemleri](https://stspg.io/zpy8gmdl9cnc) | maintenance | — |
 | 2026-09-03 | [Mina (MINA) Ağ Güncellemesi](https://stspg.io/5g0hrfby8cf0) | maintenance | — |
 | 2026-08-28 | [Nesa (NES) DeFi Tokenı Alım ve Satım İşlemleri](https://stspg.io/l246dn63zwnw) | none | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-30 | [Kripto Varlık Yatırma ve Çekme İşlemlerinde Planlı Bakım Çalışması](https://stspg.io/j5fjlls9j9vq) | maintenance | — |
 | 2026-04-28 | [Injective (INJ) Ağ Güncellemesi](https://stspg.io/lqjfvthbc3nx) | maintenance | — |
 | 2026-04-28 | [BNB Smart Chain (BEP-20) Ağ Güncellemesi](https://stspg.io/lz7w5nrh5056) | maintenance | — |
-| 2026-04-27 | [Chiliz Chain’de Gerçekleşen Akıllı Kontrat Güncellemeleri](https://stspg.io/7fd7gqpcs3cj) | maintenance | — |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/paribu.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/paribu.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **15** have a usable length. Excluded:
+Of 52 recorded incidents, **16** have a usable length. Excluded:
 34 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

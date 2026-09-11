@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Project44 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/project44.html</link><description>Incidents from Project44's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>CMA CGM Event Hub - Scheduled Maintenance [maintenance]</title><link>https://stspg.io/rgj4z38d4wv8</link><guid isPermaLink="false">project44:2026-09-05T05:00:00.000Z</guid><pubDate>Sat, 05 Sep 2026 05:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Disptach Request Failing [resolved]</title><link>https://stspg.io/n4glmztlrwd6</link><guid isPermaLink="false">project44:2026-09-01T16:53:04.000Z</guid><pubDate>Tue, 01 Sep 2026 16:53:04 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Shipment Shared-Visibility Degraded for Carrier Tenants [resolved]</title><link>https://stspg.io/t1xz94lrlxy3</link><guid isPermaLink="false">project44:2026-09-01T16:45:26.000Z</guid><pubDate>Tue, 01 Sep 2026 16:45:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Container Track &amp; Trace (CTT) – Partial Service Disruption [resolved]</title><link>https://stspg.io/8b3rqnd8418p</link><guid isPermaLink="false">project44:2026-08-26T11:41:34.229Z</guid><pubDate>Wed, 26 Aug 2026 11:41:34 +0000</pubDate><description>Dear Valued Customer,
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Project44 incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/project44.html</link><description>Incidents from Project44's public status page, polled daily.</description><lastBuildDate>Fri, 11 Sep 2026 12:29:42 +0000</lastBuildDate><item><title>AI Disruption Navigator Experiencing Partial Impact [identified]</title><link>https://stspg.io/w15p2n5gyts8</link><guid isPermaLink="false">project44:2026-09-10T18:26:39.599Z</guid><pubDate>Thu, 10 Sep 2026 18:26:39 +0000</pubDate><description>Dear Valued Customer,
+
+We would like to inform you that the issue affecting the AI Disruption Navigator has been identified, and our team is actively working with our partners to implement a resolution.
+
+We apologize for any inconvenience this may have caused and sincerely appreciate your patience as we work to resolve this promptly.
+
+We will continue to keep you updated as progress is made.
+
+Regards,
+Customer Support</description></item><item><title>CMA CGM Event Hub - Scheduled Maintenance [maintenance]</title><link>https://stspg.io/rgj4z38d4wv8</link><guid isPermaLink="false">project44:2026-09-05T05:00:00.000Z</guid><pubDate>Sat, 05 Sep 2026 05:00:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Disptach Request Failing [resolved]</title><link>https://stspg.io/n4glmztlrwd6</link><guid isPermaLink="false">project44:2026-09-01T16:53:04.000Z</guid><pubDate>Tue, 01 Sep 2026 16:53:04 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Shipment Shared-Visibility Degraded for Carrier Tenants [resolved]</title><link>https://stspg.io/t1xz94lrlxy3</link><guid isPermaLink="false">project44:2026-09-01T16:45:26.000Z</guid><pubDate>Tue, 01 Sep 2026 16:45:26 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Container Track &amp; Trace (CTT) – Partial Service Disruption [resolved]</title><link>https://stspg.io/8b3rqnd8418p</link><guid isPermaLink="false">project44:2026-08-26T11:41:34.229Z</guid><pubDate>Wed, 26 Aug 2026 11:41:34 +0000</pubDate><description>Dear Valued Customer,
 
 The disruption affecting the Container Track &amp; Trace (CTT) system has been resolved.
 
@@ -178,9 +187,4 @@ The issue affecting Yard Management System (YMS) reporting in the North America 
 As an organization, we are committed to providing reliable, high-availability services to our customers. If you have any questions, please don&#x27;t hesitate to contact us at support@project44.com.
 
 Regards,
-Customer support.</description></item><item><title>Service Update: Kuehne + Nagel Shipment Tracking [resolved]</title><link>https://stspg.io/x8y196x258wn</link><guid isPermaLink="false">project44:2026-01-08T07:59:01.953Z</guid><pubDate>Thu, 08 Jan 2026 07:59:01 +0000</pubDate><description>Dear Valued Customer,
-
-We would like to inform you that the issue has been resolved from the carrier&#x27;s (Kuehne Nagel) side. The Shipment Tracking is now operating as expected for this carrier.
-
-Best regards,
-Customer Support</description></item></channel></rss>
+Customer support.</description></item></channel></rss>

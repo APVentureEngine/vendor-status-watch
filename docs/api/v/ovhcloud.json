@@ -3,7 +3,7 @@
 "slug": "ovhcloud",
 "platform": "status.io",
 "status_url": "https://status.us.ovhcloud.com",
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_state": "maintenance",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
@@ -11,7 +11,7 @@
 {
 "body": "We are aware of an issue affecting a PCI host in this region. Some PCI instances may be unavailable or unresponsive during this time.\r\n\r\nOur teams are actively working toward a resolution, and updates will be shared as progress is made. We apologize for the inconvenience.\r\n\r\nFor questions please contact our Support team for assistance: support.us.ovhcloud.com/hc/en-us/articles/115001819764-How-to-contact-OVHcloud-US-Support",
 "first_seen": "2026-09-10T12:15:40Z",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "started_at": "2026-09-09T21:19:37.670Z",
 "state": "investigating",
 "title": "PCI host outage in US-EAST-VA-1",
@@ -128,7 +128,7 @@
 {
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "maintenance",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "started_at": "2026-08-20T04:05:04.640Z",
 "state": "maintenance",
 "title": "Maintenance to perform vCSA Minor Upgrade to 8.0U3k",
@@ -148,7 +148,7 @@
 {
 "body": "OVHcloud support staff is currently monitoring a rack fault in 120A02B. Power to the rack was  temporarily disrupted and has been restored . All servers on the rack are currently backup. If you are experiencing any issues please reach out to OVHcloud support staff.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "started_at": "2026-04-03T14:02:00.000Z",
 "state": "investigating",
 "title": "[VIN1] Server Power Loss VIN0120A02B",
@@ -158,7 +158,7 @@
 {
 "body": "The down VPS host has been brought back up, and all instances are running normally.",
 "first_seen": "2026-09-04T07:06:16Z",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "started_at": "2026-03-24T19:52:00.000Z",
 "state": "investigating",
 "title": "One VPS host down in VIN",

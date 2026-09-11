@@ -2,7 +2,7 @@
 
 **61 Ivanti Cloud incidents on record** spanning **2026-05-29** to **2026-09-09**. Status page:
 [https://status.ivanticloud.com](https://status.ivanticloud.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **19.3 h** across 52 incidents where Ivanti Cloud posted both a start and a resolve time.

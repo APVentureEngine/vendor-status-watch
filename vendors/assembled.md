@@ -2,7 +2,7 @@
 
 **32 Assembled incidents on record** spanning **2025-08-21** to **2026-09-08**. Status page:
 [https://status.assembled.com](https://status.assembled.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **31 min** across 32 incidents where Assembled posted both a start and a resolve time.

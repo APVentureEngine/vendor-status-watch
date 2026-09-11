@@ -2,7 +2,7 @@
 
 **29 Upstash incidents on record** spanning **2025-08-18** to **2026-09-09**. Status page:
 [https://status.upstash.com](https://status.upstash.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **17 min** across 29 incidents where Upstash posted both a start and a resolve time.

@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -112,6 +116,8 @@
 "body": "We are aware that some customers may be experiencing an issue with calls to our South Africa (ZA) support line 086 not ringing. In the meantime, customers can alternatively contact us on (011) 722-3700. We are currently investigating and will post updates here as they become available.",
 "first_seen": "2026-09-10T12:15:40Z",
 "last_seen": "2026-09-10T12:15:40Z",
+"resolved_at": "2026-09-11T12:29:42Z",
+"resolved_inferred": true,
 "started_at": "2026-09-09T13:35:09.640Z",
 "state": "investigating",
 "title": "ZA Support Line (086) issue ",
@@ -119,10 +125,10 @@
 "url": "https://status.mimecast.com"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "Degraded Performance",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "Operational",
 "last_error": null,
-"last_state": "degraded",
+"last_state": "ok",
 "platform": "status.io",
 "slug": "mimecast",
 "status_url": "https://status.mimecast.com",

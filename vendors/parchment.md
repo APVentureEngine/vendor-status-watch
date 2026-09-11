@@ -1,11 +1,11 @@
 # Parchment outage history — every incident their status page has posted
 
-**42 Parchment incidents on record** spanning **2025-08-19** to **2026-09-04**. Status page:
+**43 Parchment incidents on record** spanning **2025-08-19** to **2026-09-10**. Status page:
 [https://status.parchment.com](https://status.parchment.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **5.9 h** across 39 incidents where Parchment posted both a start and a resolve time.
+Median incident length: **5.4 h** across 40 incidents where Parchment posted both a start and a resolve time.
 
 This page republishes what Parchment posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Login Issues](https://stspg.io/frgj06vvypvb) | none | 25 min |
 | 2026-09-04 | [MFA code emails not being sent](https://stspg.io/t3078gy7stgy) | minor | 6.3 h |
 | 2026-08-17 | [Limited Consumer Support Hours](https://stspg.io/5flg0988nvmj) | minor | 22.9 days |
 | 2026-07-30 | [Brief system update to improve our School Search on Parchment.com](https://stspg.io/j7p9nx8k9xd4) | none | 90 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-11 | [Slow login times](https://stspg.io/q7j5r2yrfzyp) | maintenance | — |
 | 2026-05-07 | [Instructure Resources Under Investigation](https://stspg.io/ml69hmt9b1vd) | maintenance | — |
 | 2026-05-05 | [Notice: Learner Chat Currently Unavailable](https://stspg.io/jx8qtzyllb0c) | minor | 41.9 days |
-| 2026-05-05 | [Page does not load when attempting to place a SAIR or RAIR order](https://stspg.io/2y6fj6s8czq0) | minor | 29.6 h |
 
-Newest 15 of 42. Full machine-readable history:
+Newest 15 of 43. Full machine-readable history:
 [`history/parchment.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/parchment.json).
 
 ## What is counted, and what is not
 
-Of 42 recorded incidents, **39** have a usable length. Excluded:
+Of 43 recorded incidents, **40** have a usable length. Excluded:
 3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

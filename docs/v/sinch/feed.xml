@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>Campaigns Stats are not available [resolved]</title><link>https://stspg.io/lnjrtw95l578</link><guid isPermaLink="false">sinch:2026-09-10T07:26:29.154Z</guid><pubDate>Thu, 10 Sep 2026 07:26:29 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Degradation - Elastic SIP Trunking - US East [resolved]</title><link>https://stspg.io/c280t78x3rtz</link><guid isPermaLink="false">sinch:2026-09-09T14:30:00.000Z</guid><pubDate>Wed, 09 Sep 2026 14:30:00 +0000</pubDate><description>During the below time frame we experienced an issue with our Elastic SIP Trunking services in the US East region.
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Sinch incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/sinch.html</link><description>Incidents from Sinch's public status page, polled daily.</description><lastBuildDate>Fri, 11 Sep 2026 12:29:42 +0000</lastBuildDate><item><title>Campaigns Application Maintenance [maintenance]</title><link>https://stspg.io/41yvxv2mqph7</link><guid isPermaLink="false">sinch:2026-09-11T12:30:00.000Z</guid><pubDate>Fri, 11 Sep 2026 12:30:00 +0000</pubDate><description>Scheduled maintenance is currently in progress. We will provide updates as necessary.</description></item><item><title>Campaigns Stats are not available [resolved]</title><link>https://stspg.io/lnjrtw95l578</link><guid isPermaLink="false">sinch:2026-09-10T07:26:29.154Z</guid><pubDate>Thu, 10 Sep 2026 07:26:29 +0000</pubDate><description>This incident has been resolved.</description></item><item><title>Service Degradation - Elastic SIP Trunking - US East [resolved]</title><link>https://stspg.io/c280t78x3rtz</link><guid isPermaLink="false">sinch:2026-09-09T14:30:00.000Z</guid><pubDate>Wed, 09 Sep 2026 14:30:00 +0000</pubDate><description>During the below time frame we experienced an issue with our Elastic SIP Trunking services in the US East region.
 
 Incident Start Time: 2026-09-09 14:34 UTC
 Incident End Time: 2026-09-09 14:42 UTC
@@ -84,10 +84,6 @@ Incident End Time: 2026-08-18 12:04 UTC</description></item><item><title>Deliver
 Incident Start Time: 2026-08-17 21:26 UTC
 
 Incident End Time: 2026-08-17 23:29 UTC</description></item><item><title>Delivery Issue Martinique - Free Caraibe [resolved]</title><link>https://stspg.io/g60xg0v038bz</link><guid isPermaLink="false">sinch:2026-08-18T00:08:17.991Z</guid><pubDate>Tue, 18 Aug 2026 00:08:17 +0000</pubDate><description>This incident has been resolved.
-
-Incident Start Time: 2026-08-17 21:26 UTC
-
-Incident End Time: 2026-08-18 09:16 UTC</description></item><item><title>Delivery Issue Guadeloupe - Free Caraibe [resolved]</title><link>https://stspg.io/lg8wgzn88crk</link><guid isPermaLink="false">sinch:2026-08-18T00:04:17.167Z</guid><pubDate>Tue, 18 Aug 2026 00:04:17 +0000</pubDate><description>This incident has been resolved.
 
 Incident Start Time: 2026-08-17 21:26 UTC
 

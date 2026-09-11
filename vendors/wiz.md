@@ -2,7 +2,7 @@
 
 **50 Wiz incidents on record** spanning **2025-08-27** to **2026-09-03**. Status page:
 [https://status.wiz.io](https://status.wiz.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 49 incidents where Wiz posted both a start and a resolve time.

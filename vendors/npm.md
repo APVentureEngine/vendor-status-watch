@@ -2,7 +2,7 @@
 
 **27 NPM incidents on record** spanning **2025-08-07** to **2026-09-04**. Status page:
 [https://status.npmjs.org](https://status.npmjs.org) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 27 incidents where NPM posted both a start and a resolve time.

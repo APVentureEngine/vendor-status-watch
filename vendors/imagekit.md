@@ -2,7 +2,7 @@
 
 **29 ImageKit incidents on record** spanning **2025-08-12** to **2026-09-08**. Status page:
 [https://statuspage.imagekit.io](https://statuspage.imagekit.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **73 min** across 29 incidents where ImageKit posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **51 Snyk incidents on record** spanning **2026-03-31** to **2026-09-09**. Status page:
 [https://status.snyk.io](https://status.snyk.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **7.0 h** across 51 incidents where Snyk posted both a start and a resolve time.

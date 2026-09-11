@@ -1,11 +1,11 @@
 # Alchemy outage history — every incident their status page has posted
 
-**53 Alchemy incidents on record** spanning **2026-07-10** to **2026-09-08**. Status page:
+**54 Alchemy incidents on record** spanning **2026-07-10** to **2026-09-11**. Status page:
 [https://status.alchemy.com](https://status.alchemy.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **73 min** across 53 incidents where Alchemy posted both a start and a resolve time.
+Median incident length: **77 min** across 54 incidents where Alchemy posted both a start and a resolve time.
 
 This page republishes what Alchemy posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Elevated Latency for Solana Mainnet](https://stspg.io/zm47w943mgp0) | minor | 81 min |
 | 2026-09-08 | [Robinhood Mainnet - Increased Latency in APAC](https://stspg.io/dhs3r9gdlw1x) | minor | 3.0 h |
 | 2026-09-04 | [Elevated Latency and Block Lag](https://stspg.io/lbw4ztxn3p9l) | minor | 65 min |
 | 2026-09-04 | [Robinhood Mainnet - Elevated latencies and Increased Request Failures](https://stspg.io/j95v4sx1tk44) | minor | 41 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-26 | [[Network Wide] Xdc Testnet Chain Stalled](https://stspg.io/psqrw28fl7ck) | none | 9.5 h |
 | 2026-08-25 | [[Network Wide] Zetachain Mainnet Block Production Stalled](https://stspg.io/7fy16g8gfb06) | minor | 5.0 h |
 | 2026-08-24 | [Unichain Mainnet - safe/finalized head stalled in use1](https://stspg.io/7l31d0tj04gw) | minor | 6.2 h |
-| 2026-08-23 | [BNB Smart Chain Mainnet - Intermittent Elevated Latencies](https://stspg.io/898ysyt00bsb) | minor | 2.0 days |
 
-Newest 15 of 53. Full machine-readable history:
+Newest 15 of 54. Full machine-readable history:
 [`history/alchemy.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/alchemy.json).
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **53** have a usable length. Excluded:
+Of 54 recorded incidents, **54** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

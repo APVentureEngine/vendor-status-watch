@@ -1,11 +1,11 @@
 # Secureworks outage history — every incident their status page has posted
 
-**50 Secureworks incidents on record** spanning **2025-09-19** to **2026-08-27**. Status page:
+**52 Secureworks incidents on record** spanning **2025-09-19** to **2026-09-10**. Status page:
 [https://status.ctpx.secureworks.com](https://status.ctpx.secureworks.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.0 h** across 50 incidents where Secureworks posted both a start and a resolve time.
+Median incident length: **3.1 h** across 51 incidents where Secureworks posted both a start and a resolve time.
 
 This page republishes what Secureworks posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Foxtrot Environment: Detections/Alerts Delayed](https://stspg.io/hm75k2303s2d) | none | — |
+| 2026-09-10 | [7 hour detection delay in the Taegis India environment](https://stspg.io/j6wmr9jt14bx) | none | 6.7 h |
 | 2026-08-27 | [Alerts are delayed in charlie by upto 40mins](https://stspg.io/7pvlk2sw9jdk) | none | 8.9 h |
 | 2026-08-18 | [Playbook executions may be delayed](https://stspg.io/mxyy5wyfsw4k) | none | 2.9 h |
 | 2026-08-18 | [Playbook executions may be delayed](https://stspg.io/4jzrt5dlrd9j) | none | 2.7 h |
@@ -27,16 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-18 | [Microsoft Response Actions is a feature degraded in foxtrot](https://stspg.io/gmvtt2nnwp77) | none | 17 min |
 | 2026-05-29 | [Azure West US2 Service Degradation for Taegis Defender Endpoint Ingest for Foxtrot Environment](https://stspg.io/98fhw20g1ynl) | none | 6.0 h |
 | 2026-05-27 | [Triage of certain Taegis MDR alerts may be delayed](https://stspg.io/s1yfdv052ysg) | none | 3.7 h |
-| 2026-05-11 | [Entra Sign In Events Delayed](https://stspg.io/fcn3d0kfpdjf) | none | 17.2 h |
-| 2026-05-08 | [Alert Triage Delay in Echo](https://stspg.io/gb8cx2snm855) | none | 53 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/secureworks.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/secureworks.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -91,12 +91,16 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
 "incidents": {},
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "Partially Degraded Service",
 "last_error": null,
 "last_state": "degraded",

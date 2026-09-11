@@ -2,7 +2,7 @@
 
 **43 Rapid7 incidents on record** spanning **2025-08-11** to **2026-09-06**. Status page:
 [https://status.rapid7.com](https://status.rapid7.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.8 h** across 38 incidents where Rapid7 posted both a start and a resolve time.

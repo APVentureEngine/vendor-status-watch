@@ -2,7 +2,7 @@
 
 **56 IONOS incidents on record** spanning **2026-05-22** to **2026-09-08**. Status page:
 [https://www.ionos-status.de](https://www.ionos-status.de) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.1 h** across 54 incidents where IONOS posted both a start and a resolve time.

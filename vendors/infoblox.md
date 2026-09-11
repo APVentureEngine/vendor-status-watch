@@ -1,11 +1,11 @@
 # Infoblox outage history — every incident their status page has posted
 
-**33 Infoblox incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
+**34 Infoblox incidents on record** spanning **2025-08-08** to **2026-09-11**. Status page:
 [https://status.infoblox.com](https://status.infoblox.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`maintenance`**.
 
-Median incident length: **2.1 h** across 26 incidents where Infoblox posted both a start and a resolve time.
+Median incident length: **119 min** across 27 incidents where Infoblox posted both a start and a resolve time.
 
 This page republishes what Infoblox posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Diagnostic Tools intermittently failing in Infoblox Portal for North America](https://stspg.io/ykbswywzwswm) | minor | 25 min |
 | 2026-09-09 | [Issue with updating DNS resource records (US Region)](https://stspg.io/p2xyg1t14gxh) | none | 2.4 h |
 | 2026-09-09 | [[No Operational Impact] Scheduled maintenance of Infoblox Cloud Data Connector (CDC)](https://stspg.io/w77jjcyszmr5) | maintenance | — |
 | 2026-08-23 | [NIOS-X servers Reporting Degraded State (NA Region)](https://stspg.io/p7hfkxspzz27) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-12 | [Infoblox Portal Access Issues EU Region](https://stspg.io/7jqvdfp970k1) | minor | 97 min |
 | 2026-04-23 | [Scheduled Maintenance: Infoblox NIOS-X Server Platform Components](https://stspg.io/hgzzh6z0h66k) | none | — |
 | 2026-04-22 | [Traffic Reroute – Singapore](https://stspg.io/7cg41cbyzdfq) | none | 2 min |
-| 2026-04-20 | [Traffic Reroute – Bahrain Site](https://stspg.io/34bmt5301h2b) | maintenance | — |
 
-Newest 15 of 33. Full machine-readable history:
+Newest 15 of 34. Full machine-readable history:
 [`history/infoblox.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/infoblox.json).
 
 ## What is counted, and what is not
 
-Of 33 recorded incidents, **26** have a usable length. Excluded:
+Of 34 recorded incidents, **27** have a usable length. Excluded:
 7 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

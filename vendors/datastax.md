@@ -2,7 +2,7 @@
 
 **31 DataStax incidents on record** spanning **2025-08-08** to **2026-09-01**. Status page:
 [https://status.astra.datastax.com](https://status.astra.datastax.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.0 h** across 29 incidents where DataStax posted both a start and a resolve time.

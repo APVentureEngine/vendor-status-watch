@@ -1,8 +1,8 @@
 # Segment outage history — every incident their status page has posted
 
-**48 Segment incidents on record** spanning **2025-08-07** to **2026-09-03**. Status page:
+**48 Segment incidents on record** spanning **2025-08-14** to **2026-09-10**. Status page:
 [https://status.segment.com](https://status.segment.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 48 incidents where Segment posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [SSO Login Issues with the Segment App](https://stspg.io/h5jylclwx3bx) | major | 71 min |
 | 2026-09-03 | [Issue with Engage UI](https://stspg.io/8q4vs0j2vjd0) | major | 4.8 h |
 | 2026-09-02 | [Segment App UI Issue with Profile Traits with no recent activity](https://stspg.io/15rt770yyw55) | minor | 21.6 h |
 | 2026-08-18 | [Intermittent Segment application login errors](https://stspg.io/y9dv1gn6xb2x) | major | 4.2 h |
@@ -28,7 +29,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-07 | [Reddit Conversions API destination is experiencing delivery failures](https://stspg.io/469pt3nv9bx7) | minor | 3.4 h |
 | 2026-04-29 | [Destinations Failing to Load in UI](https://stspg.io/5lgqt1nm0pw1) | minor | 4.5 h |
 | 2026-04-27 | [Unable to add Activation to Event Triggered Journey](https://stspg.io/pm6typh9x2sm) | none | 0 min |
-| 2026-04-27 | [Audience Preview Failures](https://stspg.io/nv6v8pr2pqbq) | minor | 0 min |
 
 Newest 15 of 48. Full machine-readable history:
 [`history/segment.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/segment.json).

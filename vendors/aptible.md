@@ -1,11 +1,11 @@
 # Aptible outage history — every incident their status page has posted
 
-**20 Aptible incidents on record** spanning **2025-08-07** to **2026-07-27**. Status page:
+**19 Aptible incidents on record** spanning **2025-10-10** to **2026-07-27**. Status page:
 [https://status.aptible.com](https://status.aptible.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.6 h** across 20 incidents where Aptible posted both a start and a resolve time.
+Only **19** Aptible incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Aptible posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-29 | [Operations Impacted by Host Provisioning Failures](https://stspg.io/9pg6fj55hwr8) | minor | 33 min |
 | 2025-10-28 | [Delays and failures for provisioning-related operations in us-east-1](https://stspg.io/g96sgtv03wr8) | none | 4.0 h |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/aptible.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/aptible.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
+Of 19 recorded incidents, **19** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

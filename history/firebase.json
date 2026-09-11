@@ -63,6 +63,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "partial"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -73,6 +77,8 @@
 "first_seen": "2026-09-10T12:15:40Z",
 "impact": "medium",
 "last_seen": "2026-09-10T12:15:40Z",
+"resolved_at": "2026-09-11T12:29:42Z",
+"resolved_inferred": true,
 "started_at": "2026-09-10T06:00:00+00:00",
 "state": "service_disruption",
 "title": "Test Lab: Firebase Test Lab is experiencing execution delay on ARM based virtual devices. We are currently investigating the cause.",
@@ -93,10 +99,10 @@
 "url": "https://status.firebase.google.com/incidents/hBVSwDQrs8JPC53quJ8T"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "1 open incident",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "All services available",
 "last_error": null,
-"last_state": "partial",
+"last_state": "ok",
 "platform": "bespoke",
 "slug": "firebase",
 "status_url": "https://status.firebase.google.com",

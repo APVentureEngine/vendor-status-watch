@@ -1,26 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>MeridianLink incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/meridianlink.html</link><description>Incidents from MeridianLink's public status page, polled daily.</description><lastBuildDate>Thu, 10 Sep 2026 12:15:40 +0000</lastBuildDate><item><title>Meridianlink Insight Consumer and Opening- Data Refresh Delay [resolved]</title><link>https://stspg.io/y4r6jgffw1qc</link><guid isPermaLink="false">meridianlink:2026-09-09T12:11:14.974-07:00</guid><pubDate>Wed, 09 Sep 2026 19:11:14 +0000</pubDate><description>Insight Consumer and Opening data source data is now refreshed, please reach out if there are any issues!</description></item><item><title>Data Connect - Data Refresh Delay [identified]</title><link>https://stspg.io/9h92xcl7vdxk</link><guid isPermaLink="false">meridianlink:2026-09-09T06:35:53.302-07:00</guid><pubDate>Wed, 09 Sep 2026 13:35:53 +0000</pubDate><description>Current Situation:
-We&#x27;ve identified the root cause of the Data Connect service issue. 
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>MeridianLink incidents — Vendor Status Watch</title><link>https://approjects-vendor-status-watch.static.hf.space/v/meridianlink.html</link><description>Incidents from MeridianLink's public status page, polled daily.</description><lastBuildDate>Fri, 11 Sep 2026 12:29:42 +0000</lastBuildDate><item><title>Meridianlink Insight Consumer and Opening- Data Refresh Delay [resolved]</title><link>https://stspg.io/y4r6jgffw1qc</link><guid isPermaLink="false">meridianlink:2026-09-09T12:11:14.974-07:00</guid><pubDate>Wed, 09 Sep 2026 19:11:14 +0000</pubDate><description>Insight Consumer and Opening data source data is now refreshed, please reach out if there are any issues!</description></item><item><title>Data Connect - Data Refresh Delay [resolved]</title><link>https://stspg.io/9h92xcl7vdxk</link><guid isPermaLink="false">meridianlink:2026-09-09T06:35:53.302-07:00</guid><pubDate>Wed, 09 Sep 2026 13:35:53 +0000</pubDate><description>We can confirm that the Data Connect outage that was affecting your data pulls is now resolved. Our engineering and infrastructure teams worked with Databricks to identify and fix the underlying problem.
  
-What&#x27;s Affected:
-Delta Share access to the following tables:
-da_derogatory_summary
-da_company_info
-da_trade_summary
-da_credit_report
-da_public_record
-da_cc_specific_loan_info
-da_spouse
-da_applicants_address_ssn
-da_consumer_vehicle_processings
-
-Data Refresh Status:
-All data has been fully refreshed and is current.
+What You Need to Do:
+Please rerun your pipelines this morning to pull in any data that was missed during the outage from yesterday and today.
  
-Workaround:
-While we work to resolve the underlying storage account issue, you can continue your data refresh process by modifying your scripts to exclude the tables listed above. Your pipeline should complete successfully once these tables are removed from your pull requests.
+If you run into any issues or have questions, please contact us through our Meridianlink Support Portal.
 
-Resolution:
-Our engineering team is actively coordinating with our internal infrastructure teams to resolve the sto</description></item><item><title>Meridianlink Insight Consumer and Opening- Data Refresh Delay [resolved]</title><link>https://stspg.io/4z55h6h87r75</link><guid isPermaLink="false">meridianlink:2026-09-04T10:49:52.920-07:00</guid><pubDate>Fri, 04 Sep 2026 17:49:52 +0000</pubDate><description>Insight Consumer and Opening data source data is now refreshed, please reach out if there are any issues!</description></item><item><title>Dealertrack Issue [resolved]</title><link>https://stspg.io/9v3dzmkw9dy4</link><guid isPermaLink="false">meridianlink:2026-09-04T07:36:16.297-07:00</guid><pubDate>Fri, 04 Sep 2026 14:36:16 +0000</pubDate><description>Dealertrack has informed us that the issue has been resolved. As of approximately 11:30 AM EST, services should be functioning normally.
+We apologize for the disruption and appreciate your patience as we worked towards a resolution.</description></item><item><title>Meridianlink Insight Consumer and Opening- Data Refresh Delay [resolved]</title><link>https://stspg.io/4z55h6h87r75</link><guid isPermaLink="false">meridianlink:2026-09-04T10:49:52.920-07:00</guid><pubDate>Fri, 04 Sep 2026 17:49:52 +0000</pubDate><description>Insight Consumer and Opening data source data is now refreshed, please reach out if there are any issues!</description></item><item><title>Dealertrack Issue [resolved]</title><link>https://stspg.io/9v3dzmkw9dy4</link><guid isPermaLink="false">meridianlink:2026-09-04T07:36:16.297-07:00</guid><pubDate>Fri, 04 Sep 2026 14:36:16 +0000</pubDate><description>Dealertrack has informed us that the issue has been resolved. As of approximately 11:30 AM EST, services should be functioning normally.
 
 Please review and let us know if you continue to experience any issues.</description></item><item><title>Partner Connect Data Refresh Delay [resolved]</title><link>https://stspg.io/t51x5spnc3cw</link><guid isPermaLink="false">meridianlink:2026-09-02T06:45:06.542-07:00</guid><pubDate>Wed, 02 Sep 2026 13:45:06 +0000</pubDate><description>Partner Connect data is now refreshed, please reach out if there are any issues!</description></item><item><title>Partner Connect Data Refresh Delay [resolved]</title><link>https://stspg.io/wfr0c8lzrj0g</link><guid isPermaLink="false">meridianlink:2026-09-01T09:16:26.796-07:00</guid><pubDate>Tue, 01 Sep 2026 16:16:26 +0000</pubDate><description>Partner Connect data is now refreshed, please reach out if there are any issues!
 

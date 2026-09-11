@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "unknown"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -123,10 +127,10 @@
 "url": "https://stspg.io/mfv1z9h80vlx"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "All Systems Operational",
-"last_error": null,
-"last_state": "ok",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "unknown",
+"last_error": "http 401",
+"last_state": "unknown",
 "platform": "statuspage",
 "slug": "ghost-inspector",
 "status_url": "https://ghostinspector.statuspage.io",

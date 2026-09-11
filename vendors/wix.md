@@ -2,7 +2,7 @@
 
 **46 Wix incidents on record** spanning **2025-08-07** to **2026-09-07**. Status page:
 [https://status.wix.com](https://status.wix.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **81 min** across 45 incidents where Wix posted both a start and a resolve time.

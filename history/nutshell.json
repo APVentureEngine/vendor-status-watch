@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,7 +104,7 @@
 "body": "On August 21, from approximately 8:00 AM to 8:35 AM Eastern Daylight Time, some Nutshell customers experienced difficulty logging in or accessing their Nutshell account. We identified an overloaded authentication service, due to an upcoming software upgrade. We've resolved the configuration issue. Sorry for the trouble!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-08-21T08:00:00.000-04:00",
 "resolved_inferred": false,
 "started_at": "2025-08-21T08:00:00.000-04:00",
@@ -113,7 +117,7 @@
 "body": "Our upgrade completed successfully, with no customer impact.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-04-10T01:10:32.627-04:00",
 "resolved_inferred": false,
 "started_at": "2026-04-09T20:17:35.011-04:00",
@@ -126,7 +130,7 @@
 "body": "Nutshell has been performing at optimal levels for several hours. We continue to monitor for any issues that might result from our infrastructure provider. Our team will perform a retrospective to identify ways to mitigate future issues and learn from this experience. No data was lost during this event.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-10-20T17:29:35.131-04:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T08:30:49.323-04:00",
@@ -139,7 +143,7 @@
 "body": "We have addressed the database issue which caused some slowdowns for our customers. We are continuing to expand our infrastructure fleet for a more reliable and speedy Nutshell experience!",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-06-04T13:16:34.971-04:00",
 "resolved_inferred": false,
 "started_at": "2026-06-04T12:45:56.163-04:00",
@@ -152,7 +156,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-03-09T17:37:25.338-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-09T17:23:19.653-04:00",
@@ -165,7 +169,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-07T21:01:08.280-04:00",
 "resolved_inferred": false,
 "started_at": "2026-07-07T20:49:25.556-04:00",
@@ -178,7 +182,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-09-23T16:57:12.592-04:00",
 "resolved_inferred": false,
 "started_at": "2025-09-23T08:59:46.177-04:00",
@@ -188,7 +192,7 @@
 "url": "https://stspg.io/sfxpvjbflz83"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -1,9 +1,9 @@
 # Kore.ai outage history — every incident their status page has posted
 
-**52 Kore.ai incidents on record** spanning **2026-04-07** to **2026-09-08**. Status page:
+**53 Kore.ai incidents on record** spanning **2026-04-07** to **2026-09-11**. Status page:
 [https://status.kore.com](https://status.kore.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **48 min** across 50 incidents where Kore.ai posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [JP REGION: [ARTEMIS v1.6.1] Agent Platform v2 Production Patch:  11-SEP-2026](https://stspg.io/czh5413yd7wh) | maintenance | — |
 | 2026-09-08 | [[ARTEMIS v1.6.0] Agent Platform v2 Production Deployment - 08-SEP-2026](https://stspg.io/qxm0k0xnk9s1) | maintenance | — |
 | 2026-09-07 | [[AGENT PLATFORM] Hot fix upon v1.8.9 Release - US Region](https://stspg.io/qnmvd0pgpbgt) | maintenance | — |
 | 2026-09-03 | [OpenAI (Third-party) incident notification: Possible impact on Kore apps](https://stspg.io/xfksrtwxz0bq) | minor | 0 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-28 | [AU region with Degraded Bot Responses specific to Website Crawl and Document Knowledge Sources with XO11](https://stspg.io/8tl62cl7jx82) | minor | 71 min |
 | 2026-07-23 | [Connectivity Issues in Azure West US Region](https://stspg.io/gnlr1jqpj9wx) | none | 0 min |
 | 2026-07-22 | [US SaaS - Issue observed with Search Assist](https://stspg.io/pf2c44gdsjf6) | critical | 19 min |
-| 2026-07-16 | [Kore.ai Developer Portal Accessibility Issue](https://stspg.io/wpsjwvgryn0d) | none | 0 min |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/kore-ai.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/kore-ai.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **50** have a usable length. Excluded:
-2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **50** have a usable length. Excluded:
+3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,11 +1,11 @@
 # Slido outage history — every incident their status page has posted
 
-**10 Slido incidents on record** spanning **2025-08-06** to **2026-06-10**. Status page:
+**9 Slido incidents on record** spanning **2025-11-18** to **2026-06-10**. Status page:
 [https://status.slido.com](https://status.slido.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **10** Slido incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **9** Slido incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Slido posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -23,14 +23,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-26 | [Issue with Google Slides Chrome Extension](https://stspg.io/xbnzklrpbg57) | minor | 2.7 days |
 | 2025-11-26 | [Issue with quiz timer](https://stspg.io/c4qdtgy88rtp) | major | 18 min |
 | 2025-11-18 | [Invoice Services](https://stspg.io/nsmr5gt6gt85) | none | 40 min |
-| 2025-08-06 | [Help center articles are not accessible](https://stspg.io/5y3v67lyq52h) | major | 3.0 h |
 
-Newest 10 of 10. Full machine-readable history:
+Newest 9 of 9. Full machine-readable history:
 [`history/slido.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/slido.json).
 
 ## What is counted, and what is not
 
-Of 10 recorded incidents, **10** have a usable length. Excluded:
+Of 9 recorded incidents, **9** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

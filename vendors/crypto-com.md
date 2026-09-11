@@ -1,11 +1,11 @@
 # Crypto.com outage history — every incident their status page has posted
 
-**52 Crypto.com incidents on record** spanning **2025-09-09** to **2026-09-08**. Status page:
+**53 Crypto.com incidents on record** spanning **2025-09-09** to **2026-09-10**. Status page:
 [https://status.crypto.com](https://status.crypto.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **6.8 h** across 46 incidents where Crypto.com posted both a start and a resolve time.
+Median incident length: **6.7 h** across 47 incidents where Crypto.com posted both a start and a resolve time.
 
 This page republishes what Crypto.com posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Issues with US ACH Pull Instant Deposit](https://stspg.io/0mzj8tlrzv0f) | none | 50 min |
 | 2026-09-08 | [BARA, LION, MTD, CORGIAI, VVS Staking Temporary Service Disruption](https://stspg.io/js498dkvs9ps) | none | 30.5 h |
 | 2026-09-07 | [Deposits Temporarily Suspended for Multiple Assets](https://stspg.io/2mkfq36spnnc) | none | — |
 | 2026-08-27 | [Equities Cash Transfers – Service Disruption](https://stspg.io/2g8q8pgzmcdq) | none | 8 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-09 | [Crypto.com Pay-on-ramp service maintenance](https://stspg.io/qydy2s53nb6x) | none | — |
 | 2026-05-28 | [SUI network deposits/withdrawals temporarily disabled](https://stspg.io/bprkx87xctz5) | none | 15.8 h |
 | 2026-05-27 | [KSM Staking Temporary Service Disruption](https://stspg.io/9l38v75pjx2r) | none | 15.0 days |
-| 2026-05-22 | [USD fiat wallet vendor Greendot Issues](https://stspg.io/89rw1cd25yky) | none | 5.2 h |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/crypto-com.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/crypto-com.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **46** have a usable length. Excluded:
+Of 53 recorded incidents, **47** have a usable length. Excluded:
 1 maintenance, 5 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

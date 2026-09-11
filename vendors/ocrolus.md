@@ -2,7 +2,7 @@
 
 **14 Ocrolus incidents on record** spanning **2025-08-21** to **2026-08-10**. Status page:
 [https://status.ocrolus.com](https://status.ocrolus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **14** Ocrolus incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

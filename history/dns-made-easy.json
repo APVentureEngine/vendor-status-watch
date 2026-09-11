@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -111,16 +115,18 @@
 "first_seen": "2026-09-10T12:15:40Z",
 "impact": "maintenance",
 "last_seen": "2026-09-10T12:15:40Z",
+"resolved_at": "2026-09-11T12:29:42Z",
+"resolved_inferred": true,
 "started_at": "2026-09-10T12:09:46.987Z",
 "state": "maintenance",
 "title": "Network Maintenance at Johannesburg, South Africa PoP",
 "url": "https://dnsstatus.com"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "Planned Maintenance",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "Operational",
 "last_error": null,
-"last_state": "maintenance",
+"last_state": "ok",
 "platform": "status.io",
 "slug": "dns-made-easy",
 "status_url": "https://dnsstatus.com",

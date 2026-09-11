@@ -2,8 +2,8 @@
 
 **18 Wasabi incidents on record** spanning **2025-08-18** to **2026-09-01**. Status page:
 [https://status.wasabi.com](https://status.wasabi.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
 Only **17** Wasabi incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 

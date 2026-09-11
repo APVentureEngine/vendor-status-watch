@@ -2,7 +2,7 @@
 
 **14 Ovhcloud incidents on record** spanning **2026-03-24** to **2026-09-09**. Status page:
 [https://status.us.ovhcloud.com](https://status.us.ovhcloud.com) · platform:
-`status.io` · last polled **2026-09-10 12:15 UTC**, last observed
+`status.io` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`maintenance`**.
 
 No Ovhcloud incident carries both a vendor-posted start and resolve time, so no duration statistic is available.

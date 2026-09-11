@@ -2,7 +2,7 @@
 
 **53 Sailpoint incidents on record** spanning **2025-11-03** to **2026-09-09**. Status page:
 [https://status.sailpoint.com](https://status.sailpoint.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **86 min** across 52 incidents where Sailpoint posted both a start and a resolve time.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [Identity Security Cloud is currently experiencing a service disruption.](https://stspg.io/dfz4j2mjmvcj) | minor | — |
+| 2026-09-09 | [Identity Security Cloud is currently experiencing a service disruption. (US-EAST-1)](https://stspg.io/dfz4j2mjmvcj) | minor | — |
 | 2026-09-08 | [Identity Security Cloud is currently experiencing a service disruption](https://stspg.io/kbvp3zlx3qv9) | minor | 43 min |
 | 2026-09-04 | [ISC is currently experiencing a service disruption](https://stspg.io/rdqqbtvffv8r) | major | 5.3 h |
 | 2026-09-03 | [Identity Security Cloud is currently experiencing a service disruption.](https://stspg.io/r4s0l1lznryh) | major | 78 min |

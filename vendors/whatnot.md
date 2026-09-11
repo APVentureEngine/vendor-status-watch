@@ -1,11 +1,11 @@
 # Whatnot outage history — every incident their status page has posted
 
-**51 Whatnot incidents on record** spanning **2026-04-09** to **2026-09-04**. Status page:
+**52 Whatnot incidents on record** spanning **2026-04-09** to **2026-09-11**. Status page:
 [https://status.whatnot.com](https://status.whatnot.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **63 min** across 51 incidents where Whatnot posted both a start and a resolve time.
+Median incident length: **64 min** across 52 incidents where Whatnot posted both a start and a resolve time.
 
 This page republishes what Whatnot posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [DHL is experiencing label generation issues](https://stspg.io/jl1knzpkyqqz) | minor | 3.1 h |
 | 2026-09-04 | [DHL is experiencing label generation errors](https://stspg.io/0y0rr2b4j995) | minor | 54 min |
 | 2026-09-01 | [DHL is experiencing label generation issues](https://stspg.io/80p7l06zvgl4) | major | 3.1 h |
 | 2026-08-31 | [Canada Post label generation outage](https://stspg.io/4y72pf7wkgp5) | minor | 6 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-05 | [ChitChats is experiencing label generation error](https://stspg.io/fv0qc7pwks6h) | minor | 54 min |
 | 2026-08-03 | [[Investigating] Multiple Services](https://stspg.io/6t98y4v502wv) | none | 9 min |
 | 2026-08-01 | [[Investigating] Multiple Services](https://stspg.io/756183rs5085) | none | 23 min |
-| 2026-07-31 | [[Investigating] Multiple Services](https://stspg.io/0pzl7r74zpx4) | none | 2 min |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/whatnot.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/whatnot.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

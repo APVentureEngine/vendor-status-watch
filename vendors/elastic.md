@@ -2,10 +2,10 @@
 
 **52 Elastic incidents on record** spanning **2026-02-18** to **2026-09-10**. Status page:
 [https://status.elastic.co](https://status.elastic.co) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`partial`**.
 
-Median incident length: **2.5 h** across 48 incidents where Elastic posted both a start and a resolve time.
+Median incident length: **2.8 h** across 49 incidents where Elastic posted both a start and a resolve time.
 
 This page republishes what Elastic posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-10 | [Kibana access restored for UI-assigned Organization Owners on Hosted deployments](https://stspg.io/dh1b7zfw3t85) | major | — |
+| 2026-09-10 | [Kibana access restored for UI-assigned Organization Owners on Hosted deployments](https://stspg.io/dh1b7zfw3t85) | major | 21.0 h |
 | 2026-09-09 | [Elastic Agent enrollment/check-in failures on 9.5.3 (and 9.4.6) with Fleet remote Elasticsearch output](https://stspg.io/jfmrn98pwf2h) | major | — |
 | 2026-09-02 | [Elevated Error Rates for Specific Models Impacting Elastic Inference Service in EU Regions](https://stspg.io/h2j4gjbzyj4l) | major | 0 min |
 | 2026-09-01 | [Issue impacting services running in GCP us-central1](https://stspg.io/w5zlwvkv54rk) | major | 4.8 h |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **48** have a usable length. Excluded:
-0 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **49** have a usable length. Excluded:
+0 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

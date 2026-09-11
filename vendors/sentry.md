@@ -1,11 +1,11 @@
 # Sentry outage history — every incident their status page has posted
 
-**50 Sentry incidents on record** spanning **2026-04-07** to **2026-09-01**. Status page:
+**52 Sentry incidents on record** spanning **2026-04-07** to **2026-09-10**. Status page:
 [https://status.sentry.io](https://status.sentry.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 50 incidents where Sentry posted both a start and a resolve time.
+Median incident length: **2.5 h** across 52 incidents where Sentry posted both a start and a resolve time.
 
 This page republishes what Sentry posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Ingestion is delayed in US](https://stspg.io/gdjjp911yksz) | minor | 56 min |
+| 2026-09-10 | [Sentry.io elevated number of 500 errors](https://stspg.io/10yb4b5w2szj) | major | 61 min |
 | 2026-09-01 | [Span ingestion is degraded in US](https://stspg.io/nc8v40xh55zt) | minor | 6.2 h |
 | 2026-09-01 | [Sentry requests timing out / 504's](https://stspg.io/hks9pdczmhhv) | major | 3.3 h |
 | 2026-08-31 | [Ingestion backlog](https://stspg.io/4bkrdrmv44ym) | minor | 2.2 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-12 | [Delayed Error ingestion in our US region](https://stspg.io/tcdgnyx93p0q) | major | 3.0 h |
 | 2026-08-07 | [Spans, crons, logs ingestion delayed in US region](https://stspg.io/hm0ff1mzq3vl) | critical | 47 min |
 | 2026-08-06 | [Delayed Error ingestion in our US region](https://stspg.io/g528fth7fzvw) | major | 2.4 h |
-| 2026-07-27 | [Error and profile ingestion issues in US](https://stspg.io/0cy4vyqy4yhr) | critical | 2.0 h |
-| 2026-07-21 | [Delayed ingestion on us region](https://stspg.io/sn99hk0v2nct) | minor | 3.7 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/sentry.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/sentry.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

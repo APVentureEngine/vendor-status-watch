@@ -2,7 +2,7 @@
 
 **32 Mixpanel incidents on record** spanning **2025-08-11** to **2026-08-26**. Status page:
 [https://www.mixpanelstatus.com](https://www.mixpanelstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.8 h** across 32 incidents where Mixpanel posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **50 SEOmonitor incidents on record** spanning **2025-08-25** to **2026-08-24**. Status page:
 [https://status.seomonitor.com](https://status.seomonitor.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **6.3 h** across 50 incidents where SEOmonitor posted both a start and a resolve time.

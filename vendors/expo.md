@@ -2,7 +2,7 @@
 
 **54 Expo incidents on record** spanning **2026-04-28** to **2026-09-08**. Status page:
 [https://status.expo.io](https://status.expo.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **72 min** across 54 incidents where Expo posted both a start and a resolve time.

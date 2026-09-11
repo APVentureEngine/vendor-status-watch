@@ -63,6 +63,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -82,7 +86,7 @@
 "url": "https://status.play.google.com/incidents/yrUiYMxvcr1qsAhJRWHd"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "All services available",
 "last_error": null,
 "last_state": "ok",

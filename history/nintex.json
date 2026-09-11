@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "partial"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,16 +104,28 @@
 "first_seen": "2026-09-10T12:15:40Z",
 "impact": "maintenance",
 "last_seen": "2026-09-10T12:15:40Z",
+"resolved_at": "2026-09-11T12:29:42Z",
+"resolved_inferred": true,
 "started_at": "2026-09-04T19:01:33.127Z",
 "state": "maintenance",
 "title": "Nintex K2 Cloud service maintenance",
 "url": "https://status.nintex.com"
+},
+"6aa2ce914d52214768b56973": {
+"body": "We are currently investigating a problem affecting the user management page not loading users caused by the SCIM endpoint.",
+"first_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-11T12:29:42Z",
+"started_at": "2026-09-10T15:36:49.684Z",
+"state": "investigating",
+"title": "User management page not loading users",
+"updated_at": "2026-09-10T15:36:49.728Z",
+"url": "https://status.nintex.com"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
-"last_description": "Planned Maintenance",
+"last_checked": "2026-09-11T12:29:42Z",
+"last_description": "Partial Service Disruption",
 "last_error": null,
-"last_state": "maintenance",
+"last_state": "partial",
 "platform": "status.io",
 "slug": "nintex",
 "status_url": "https://status.nintex.com",

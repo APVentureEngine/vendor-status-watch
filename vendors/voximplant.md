@@ -2,7 +2,7 @@
 
 **52 Voximplant incidents on record** spanning **2026-04-20** to **2026-09-07**. Status page:
 [https://status.voximplant.com](https://status.voximplant.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **87 min** across 42 incidents where Voximplant posted both a start and a resolve time.

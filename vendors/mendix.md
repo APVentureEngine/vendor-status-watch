@@ -2,7 +2,7 @@
 
 **51 Mendix incidents on record** spanning **2025-12-09** to **2026-09-06**. Status page:
 [https://status.mendix.com](https://status.mendix.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **15.3 h** across 47 incidents where Mendix posted both a start and a resolve time.

@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,7 +104,7 @@
 "body": "The incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-08-29T02:48:33.164Z",
 "resolved_inferred": false,
 "started_at": "2025-08-28T03:15:09.502Z",
@@ -113,7 +117,7 @@
 "body": "AWS has confirmed that the outage in the US-EAST-1 region has now been resolved, and all services are operational.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-10-20T23:11:17.977Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:38:23.825Z",
@@ -123,7 +127,7 @@
 "url": "https://stspg.io/5lkcbjkzktb0"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

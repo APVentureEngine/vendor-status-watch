@@ -2,10 +2,10 @@
 
 **47 Criteo incidents on record** spanning **2025-08-13** to **2026-09-08**. Status page:
 [https://status.criteo.com](https://status.criteo.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **4.7 h** across 46 incidents where Criteo posted both a start and a resolve time.
+Median incident length: **4.8 h** across 47 incidents where Criteo posted both a start and a resolve time.
 
 This page republishes what Criteo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-08 | [Users may have trouble accessing Criteo reporting API component](https://stspg.io/kqm2q2q3qvfs) | major | — |
+| 2026-09-08 | [Users may have trouble accessing Criteo reporting API component](https://stspg.io/kqm2q2q3qvfs) | major | 2.2 days |
 | 2026-08-27 | [Users may have trouble accessing Commerce Max Analytics UI](https://stspg.io/bxb8zk9rcz3m) | major | 3.6 h |
 | 2026-08-12 | [Data Processing Delays - Reporting Tools Affected](https://stspg.io/wgr37nqls8gl) | minor | 8.1 h |
 | 2026-07-29 | [Users may have trouble accessing Criteo UI and APIs.](https://stspg.io/g10g45pcnc8b) | minor | 24 min |
@@ -35,8 +35,8 @@ Newest 15 of 47. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 47 recorded incidents, **46** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 47 recorded incidents, **47** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

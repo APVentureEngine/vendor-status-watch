@@ -1,11 +1,11 @@
 # Scaleway outage history — every incident their status page has posted
 
-**65 Scaleway incidents on record** spanning **2026-07-23** to **2026-09-10**. Status page:
+**66 Scaleway incidents on record** spanning **2026-07-23** to **2026-09-11**. Status page:
 [https://status.scaleway.com](https://status.scaleway.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **91 min** across 59 incidents where Scaleway posted both a start and a resolve time.
+Median incident length: **89 min** across 60 incidents where Scaleway posted both a start and a resolve time.
 
 This page republishes what Scaleway posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [[NETI] - DC2/S103/A7 - Public switch reboot](https://stspg.io/248w8k01ll8w) | minor | 73 min |
 | 2026-09-10 | [[generative-apis] - [fr-par ] - gemma4 unhealthy](https://stspg.io/3vdz173fn81j) | minor | — |
 | 2026-09-10 | [[VPC] - [PAR2/PAR3] - VPC infrastructure upgrade](https://stspg.io/34nxz8tftlzj) | maintenance | — |
 | 2026-09-10 | [[NL-AMS] nats server maintenance](https://stspg.io/vvgwrcvbn4f2) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-07 | [[NETI] - DC2 / 202-A / A11 - Switch unreachable](https://stspg.io/kdffdxtsj5z5) | minor | 2 min |
 | 2026-09-05 | [[OBJS] - [it-mil] - Elevated error rate - All hive nodes are down](https://stspg.io/qgv84dsl291w) | major | 52 min |
 | 2026-09-05 | [[IT-MIL]Multiple APIs are down](https://stspg.io/h814nsxzr670) | critical | 3.3 h |
-| 2026-09-04 | [[TREM] -  Delivery latency](https://stspg.io/slbntx28qn76) | minor | 16 min |
 
-Newest 15 of 65. Full machine-readable history:
+Newest 15 of 66. Full machine-readable history:
 [`history/scaleway.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/scaleway.json).
 
 ## What is counted, and what is not
 
-Of 65 recorded incidents, **59** have a usable length. Excluded:
+Of 66 recorded incidents, **60** have a usable length. Excluded:
 2 maintenance, 4 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

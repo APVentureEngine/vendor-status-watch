@@ -2,7 +2,7 @@
 
 **24 Instaclustr incidents on record** spanning **2025-08-20** to **2026-09-10**. Status page:
 [https://status.instaclustr.com](https://status.instaclustr.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.1 h** across 24 incidents where Instaclustr posted both a start and a resolve time.

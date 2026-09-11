@@ -1,11 +1,11 @@
 # Bandwidth outage history — every incident their status page has posted
 
-**61 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-10**. Status page:
+**63 Bandwidth incidents on record** spanning **2026-07-17** to **2026-09-11**. Status page:
 [http://status.bandwidth.com](http://status.bandwidth.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`partial`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`degraded`**.
 
-Median incident length: **3.1 h** across 60 incidents where Bandwidth posted both a start and a resolve time.
+Median incident length: **3.4 h** across 62 incidents where Bandwidth posted both a start and a resolve time.
 
 This page republishes what Bandwidth posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,8 +14,10 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Bandwidth Local Market Impairment - 226 - Harrisburg, PA](https://stspg.io/8c69npgd6c06) | none | 4.5 h |
+| 2026-09-10 | [Messaging Delivery Incident- AT&T](https://stspg.io/5jk78vfn7bmj) | minor | — |
 | 2026-09-10 | [Bandwidth Local Market Impairment - 330 - Evansville, IN](https://stspg.io/8hqpl4bstqj1) | none | 5.6 h |
-| 2026-09-09 | [Bandwidth Local Market Impairment - 340 - DETROIT, M](https://stspg.io/kjj24t5vxsy1) | critical | — |
+| 2026-09-09 | [Bandwidth Local Market Impairment - 340 - DETROIT, M](https://stspg.io/kjj24t5vxsy1) | critical | 11.1 h |
 | 2026-09-09 | [Bandwidth Local Market Impairment - 636 - Fargo, ND](https://stspg.io/tk6mq4lkphpv) | critical | 4.5 h |
 | 2026-09-09 | [Bandwidth Local Market Impairment - 	340 - Southfield, MI](https://stspg.io/m6g6gsgmmrm9) | none | 11.2 h |
 | 2026-09-08 | [Port Order Delays - Toll Free Numbers](https://stspg.io/sw470083l3hg) | critical | 4.5 h |
@@ -27,15 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-04 | [Bandwidth Local Market Impairment - 638 - Bismarck, ND](https://stspg.io/d971bhhzrp0p) | critical | 8.2 h |
 | 2026-09-03 | [STIR/SHAKEN Signing Incident](https://stspg.io/8kvjyj13kwwj) | none | 0 min |
 | 2026-09-03 | [Bandwidth Local Market Impairment - LATA 220 - Pleasantville, NJ](https://stspg.io/ydqdfhmz4tmb) | critical | 4.0 h |
-| 2026-09-03 | [Bandwidth Local Market Impairment - 330 - Evansville, IN](https://stspg.io/17dwhqdjmnb6) | critical | 21.4 h |
-| 2026-09-03 | [Outbound Calling Incident - Germany Datacenter](https://stspg.io/d9d1h98bhxv3) | minor | 2.0 h |
 
-Newest 15 of 61. Full machine-readable history:
+Newest 15 of 63. Full machine-readable history:
 [`history/bandwidth.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bandwidth.json).
 
 ## What is counted, and what is not
 
-Of 61 recorded incidents, **60** have a usable length. Excluded:
+Of 63 recorded incidents, **62** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

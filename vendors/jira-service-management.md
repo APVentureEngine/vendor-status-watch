@@ -1,11 +1,11 @@
 # Jira Service Management outage history — every incident their status page has posted
 
-**50 Jira Service Management incidents on record** spanning **2025-10-27** to **2026-09-03**. Status page:
+**51 Jira Service Management incidents on record** spanning **2025-10-27** to **2026-09-11**. Status page:
 [https://jira-service-management.status.atlassian.com](https://jira-service-management.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.8 h** across 50 incidents where Jira Service Management posted both a start and a resolve time.
+Median incident length: **2.8 h** across 51 incidents where Jira Service Management posted both a start and a resolve time.
 
 This page republishes what Jira Service Management posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Degraded performance affecting Jira Software and Jira Service Management](https://stspg.io/3mw650bc2djs) | minor | 51 min |
 | 2026-09-03 | [Jira Service Management - Degradation with Affected Services Field](https://stspg.io/kdjpr5v3lh24) | minor | 2.7 h |
 | 2026-09-01 | [Jira - Work Item transition failures](https://stspg.io/0wpylxd56m7m) | none | 92 min |
 | 2026-08-27 | [Issues accessing multiple Atlassian products in some regions](https://stspg.io/wtpl0h6xdf9g) | critical | 53 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-19 | [Jira : Incoming emails partial outage](https://stspg.io/x932djl5306z) | major | 6.3 days |
 | 2026-06-10 | [Unable to load Assets page](https://stspg.io/9y0yybjd7jsn) | minor | 17 min |
 | 2026-06-10 | [Delays in processing incoming Emails, Work Item notifications, and Scheduled Triggers in Marketplace Apps](https://stspg.io/2pq565q12h85) | minor | 95 min |
-| 2026-06-09 | [Some users experiencing issues viewing boards and work items](https://stspg.io/ws0xswrspv8v) | major | 13.0 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/jira-service-management.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/jira-service-management.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

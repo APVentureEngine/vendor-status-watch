@@ -2,7 +2,7 @@
 
 **38 ESET incidents on record** spanning **2025-08-13** to **2026-09-09**. Status page:
 [https://status.eset.com](https://status.eset.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **10.2 h** across 33 incidents where ESET posted both a start and a resolve time.

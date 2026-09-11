@@ -1,11 +1,11 @@
 # Gladly outage history — every incident their status page has posted
 
-**23 Gladly incidents on record** spanning **2025-08-07** to **2026-09-09**. Status page:
+**23 Gladly incidents on record** spanning **2025-08-21** to **2026-09-10**. Status page:
 [https://gladly.statuspage.io](https://gladly.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **88 min** across 23 incidents where Gladly posted both a start and a resolve time.
+Median incident length: **115 min** across 23 incidents where Gladly posted both a start and a resolve time.
 
 This page republishes what Gladly posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Intermittent Report Loading Issues](https://stspg.io/jv858shcsj5l) | major | 9.4 h |
 | 2026-09-09 | [Reports Not Loading](https://stspg.io/fctq4l1hncfy) | minor | 4.4 h |
 | 2026-09-09 | [Reports not loading](https://stspg.io/kkfl23l087vc) | minor | 119 min |
 | 2026-08-31 | [Reports not loading](https://stspg.io/vmpfxzmq5wsq) | minor | 4.8 h |
@@ -28,7 +29,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-01-27 | [Increased Unexpected Handoffs (Gladly Structured Threads - Legacy)](https://stspg.io/nbf8w24s2z3v) | none | 8.8 h |
 | 2026-01-21 | [Investigating Login Issue](https://stspg.io/zsn5qd61ry5b) | critical | 26 min |
 | 2026-01-17 | [Intermittent issues loading conversations](https://stspg.io/ng69j96v1vvz) | none | 12 min |
-| 2026-01-07 | [Gladly Login Issues Upon Page Refresh](https://stspg.io/x7cg6ww88mys) | major | 0 min |
 
 Newest 15 of 23. Full machine-readable history:
 [`history/gladly.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/gladly.json).

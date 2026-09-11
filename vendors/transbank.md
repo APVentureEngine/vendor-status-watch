@@ -2,7 +2,7 @@
 
 **51 Transbank incidents on record** spanning **2025-09-13** to **2026-09-05**. Status page:
 [https://status.transbankdevelopers.cl](https://status.transbankdevelopers.cl) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **31 min** across 51 incidents where Transbank posted both a start and a resolve time.

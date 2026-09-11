@@ -1,11 +1,11 @@
 # Latitude.sh outage history — every incident their status page has posted
 
-**40 Latitude.sh incidents on record** spanning **2025-08-10** to **2026-08-08**. Status page:
+**41 Latitude.sh incidents on record** spanning **2025-08-10** to **2026-09-10**. Status page:
 [https://status.latitude.sh](https://status.latitude.sh) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.0 h** across 39 incidents where Latitude.sh posted both a start and a resolve time.
+Median incident length: **3.0 h** across 40 incidents where Latitude.sh posted both a start and a resolve time.
 
 This page republishes what Latitude.sh posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Network issue affecting services in Sao Paulo location](https://stspg.io/frf2plwwch4w) | major | 2.0 h |
 | 2026-08-08 | [Power Issue - LON2](https://stspg.io/9rqprg3w3l72) | major | 23.6 h |
 | 2026-06-26 | [Network Connectivity Issues - New York](https://stspg.io/hykfcffsl48w) | minor | 76 min |
 | 2026-06-25 | [Increased error rate for Reinstalling and Deploying](https://stspg.io/dlbml26d7cj0) | critical | 12.1 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-11 | [Network Connectivity Issues - SAO1](https://stspg.io/5b7yjjs096l0) | minor | 3.2 h |
 | 2026-03-04 | [Increased error rate for deployments and Dallas connectivity](https://stspg.io/0kf5z82913pv) | major | 102 min |
 | 2026-02-16 | [Network Connectivity Incident - SAO and SAO2](https://stspg.io/yzjmdrsvq607) | minor | 6.7 h |
-| 2026-02-11 | [Intermittent deployments on US regions impacting Ubuntu 24/22 and Debian 12](https://stspg.io/blvnpv4hlgzr) | minor | 5.2 h |
 
-Newest 15 of 40. Full machine-readable history:
+Newest 15 of 41. Full machine-readable history:
 [`history/latitude-sh.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/latitude-sh.json).
 
 ## What is counted, and what is not
 
-Of 40 recorded incidents, **39** have a usable length. Excluded:
+Of 41 recorded incidents, **40** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

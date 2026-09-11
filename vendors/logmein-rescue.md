@@ -2,7 +2,7 @@
 
 **42 LogMeIn Rescue incidents on record** spanning **2025-08-20** to **2026-09-09**. Status page:
 [https://status.logmeinremotesupport.com](https://status.logmeinremotesupport.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **64 min** across 42 incidents where LogMeIn Rescue posted both a start and a resolve time.

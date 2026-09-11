@@ -1,11 +1,11 @@
 # Shakepay outage history — every incident their status page has posted
 
-**41 Shakepay incidents on record** spanning **2025-08-14** to **2026-09-04**. Status page:
+**42 Shakepay incidents on record** spanning **2025-08-14** to **2026-09-10**. Status page:
 [https://status.shakepay.com](https://status.shakepay.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **53 min** across 41 incidents where Shakepay posted both a start and a resolve time.
+Median incident length: **53 min** across 42 incidents where Shakepay posted both a start and a resolve time.
 
 This page republishes what Shakepay posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Problems with Interac e-Transfer Request Money](https://stspg.io/l4ss4xnp1gr5) | major | 2.4 h |
 | 2026-09-04 | [Ethereum & USDC cashouts currently unavailable](https://stspg.io/2zwdjpq4fgxt) | major | 42 min |
 | 2026-07-21 | [Card Service (Issuing, Digital Wallet Tokenization) problems](https://stspg.io/jph34nv5p4ty) | minor | 2.4 h |
 | 2026-07-08 | [Widespread Service Unavailability](https://stspg.io/q0xn87lgtxsw) | major | 26 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-03 | [E-transfer outage](https://stspg.io/vcb7q1rbh4x0) | major | 27 min |
 | 2026-02-23 | [Delayed ETH & USDC transactions](https://stspg.io/9y225cjf41ck) | minor | 21 min |
 | 2026-02-22 | [E-transfers](https://stspg.io/5gb2y245ywby) | minor | 6.4 h |
-| 2026-02-12 | [Delayed ETH/USDC cashins & cashouts](https://stspg.io/0m9981472n3y) | major | 15 min |
 
-Newest 15 of 41. Full machine-readable history:
+Newest 15 of 42. Full machine-readable history:
 [`history/shakepay.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/shakepay.json).
 
 ## What is counted, and what is not
 
-Of 41 recorded incidents, **41** have a usable length. Excluded:
+Of 42 recorded incidents, **42** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,8 +2,8 @@
 
 **27 TeamViewer incidents on record** spanning **2025-10-29** to **2026-09-10**. Status page:
 [https://status.teamviewer.com](https://status.teamviewer.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **63 min** across 25 incidents where TeamViewer posted both a start and a resolve time.
 

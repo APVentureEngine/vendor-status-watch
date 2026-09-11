@@ -2,8 +2,8 @@
 
 **17 LMAX incidents on record** spanning **2025-08-18** to **2026-09-10**. Status page:
 [https://status.lmax.com](https://status.lmax.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
 Only **15** LMAX incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 

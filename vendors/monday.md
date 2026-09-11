@@ -2,7 +2,7 @@
 
 **50 Monday incidents on record** spanning **2025-08-31** to **2026-09-09**. Status page:
 [https://status.monday.com](https://status.monday.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **53 min** across 50 incidents where Monday posted both a start and a resolve time.

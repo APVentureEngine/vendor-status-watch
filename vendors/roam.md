@@ -2,7 +2,7 @@
 
 **7 Roam incidents on record** spanning **2025-08-12** to **2026-07-20**. Status page:
 [https://www.roamstatus.com](https://www.roamstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **7** Roam incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

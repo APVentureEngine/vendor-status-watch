@@ -1,11 +1,11 @@
 # Brex outage history — every incident their status page has posted
 
-**50 Brex incidents on record** spanning **2025-08-07** to **2026-09-01**. Status page:
+**49 Brex incidents on record** spanning **2025-08-25** to **2026-09-01**. Status page:
 [https://status.brex.com](https://status.brex.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **64 min** across 46 incidents where Brex posted both a start and a resolve time.
+Median incident length: **64 min** across 45 incidents where Brex posted both a start and a resolve time.
 
 This page republishes what Brex posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-13 | [Elevated errors on the Team API and Brex Dashboard](https://stspg.io/3mkrlbm309g5) | critical | 7 min |
 | 2026-06-13 | [Brex Travel Outage](https://stspg.io/06j7cdnzyk6t) | critical | 2.5 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 49. Full machine-readable history:
 [`history/brex.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/brex.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **46** have a usable length. Excluded:
+Of 49 recorded incidents, **45** have a usable length. Excluded:
 4 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,11 +1,11 @@
 # Discord outage history — every incident their status page has posted
 
-**50 Discord incidents on record** spanning **2025-10-23** to **2026-09-03**. Status page:
+**51 Discord incidents on record** spanning **2025-10-23** to **2026-09-10**. Status page:
 [https://discordstatus.com](https://discordstatus.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **53 min** across 50 incidents where Discord posted both a start and a resolve time.
+Median incident length: **56 min** across 51 incidents where Discord posted both a start and a resolve time.
 
 This page republishes what Discord posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-10 | [Issue with establishing voice calls](https://stspg.io/6kw0tkg5sg53) | major | 2.3 h |
 | 2026-09-03 | [Some Servers Unavailable](https://stspg.io/3628f7vbg5p8) | none | 56 min |
 | 2026-09-03 | [Some servers unavailable](https://stspg.io/c16w1zbh6v2x) | major | 62 min |
 | 2026-09-02 | [Voice endpoint selection issues](https://stspg.io/ys9tgzwhjxtk) | major | 16 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-10 | [Issues with billing operations](https://stspg.io/0j2xlzm53hb2) | major | 2.7 h |
 | 2026-06-29 | [Intermittent chat functionality issues](https://stspg.io/kkdbyktwf42v) | minor | 97 min |
 | 2026-06-10 | [Activities cannot be launched](https://stspg.io/sxth7s567by1) | major | 79 min |
-| 2026-06-09 | [All clients may see issues connecting to Discord](https://stspg.io/2nt2792k0yg8) | major | 19 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/discord.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/discord.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

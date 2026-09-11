@@ -2,7 +2,7 @@
 
 **12 Yasoon incidents on record** spanning **2025-10-29** to **2026-04-10**. Status page:
 [https://status.yasoon.com](https://status.yasoon.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`degraded`**.
 
 Only **11** Yasoon incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

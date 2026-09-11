@@ -1,11 +1,11 @@
 # MongoDB outage history — every incident their status page has posted
 
-**50 MongoDB incidents on record** spanning **2026-01-30** to **2026-09-03**. Status page:
+**51 MongoDB incidents on record** spanning **2026-01-30** to **2026-09-11**. Status page:
 [https://status.mongodb.com](https://status.mongodb.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **2.1 h** across 49 incidents where MongoDB posted both a start and a resolve time.
+Median incident length: **2.1 h** across 50 incidents where MongoDB posted both a start and a resolve time.
 
 This page republishes what MongoDB posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Atlas is experiencing issues with issuing certificates from Lets Encrypt](https://stspg.io/hxqhp3d2p4nt) | minor | 2.4 h |
 | 2026-09-03 | [Impaired Cluster operations in AWS me-central-1 and AWS me-south-1](https://stspg.io/jwd31x8yx3q5) | major | — |
 | 2026-08-28 | [MongoDB Atlas Log Integration service degraded](https://stspg.io/yh337w1rxdlj) | minor | 0 min |
 | 2026-08-19 | [Issues rotating certificates for projects containing only Atlas Free and Flex clusters](https://stspg.io/qbmmtp87vb40) | none | 25.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-09 | [Atlas Stream Processing is experiencing issues in Azure - West Europe](https://stspg.io/896391t5m0lb) | minor | 2.1 h |
 | 2026-07-09 | [Atlas is experiencing issues with issuing certificates from Lets Encrypt](https://stspg.io/gq098tnc7xd0) | minor | 19.3 h |
 | 2026-07-09 | [Atlas Data Federation and Online Archive cloud-provider IAM authentication error](https://stspg.io/djy0g3bcxk3k) | minor | 42 min |
-| 2026-07-02 | [Impaired Cluster Operations due to Lets Encrypt Service Degradation](https://stspg.io/7kwsvslt71wz) | minor | 26 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/mongodb.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/mongodb.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

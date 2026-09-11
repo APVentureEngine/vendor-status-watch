@@ -2,7 +2,7 @@
 
 **22 Ingage incidents on record** spanning **2025-09-11** to **2026-09-04**. Status page:
 [https://status.ingage.jp](https://status.ingage.jp) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **100 min** across 22 incidents where Ingage posted both a start and a resolve time.

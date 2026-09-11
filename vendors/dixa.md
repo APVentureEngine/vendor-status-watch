@@ -2,7 +2,7 @@
 
 **23 Dixa incidents on record** spanning **2025-08-26** to **2026-07-28**. Status page:
 [https://status.dixa.io](https://status.dixa.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.0 h** across 23 incidents where Dixa posted both a start and a resolve time.

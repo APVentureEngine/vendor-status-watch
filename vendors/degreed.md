@@ -1,11 +1,11 @@
 # Degreed outage history — every incident their status page has posted
 
-**11 Degreed incidents on record** spanning **2025-08-06** to **2026-08-31**. Status page:
+**10 Degreed incidents on record** spanning **2025-08-27** to **2026-08-31**. Status page:
 [https://degreed.statuspage.io](https://degreed.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Only **11** Degreed incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **10** Degreed incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Degreed posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -24,14 +24,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-03 | [Content catalog (end user, admin) are not loading](https://stspg.io/m4n466pm4yx5) | minor | 2.8 h |
 | 2025-10-29 | [Incident Notice: Degreed Loading Issue](https://stspg.io/x8t3zs3y6q85) | major | 6.2 h |
 | 2025-08-27 | [Login and SSO failures](https://stspg.io/f7pbj7ztf1sj) | major | 42 min |
-| 2025-08-06 | [In-App Reports Unable to Generate](https://stspg.io/qgcljtqqcry1) | none | 61 min |
 
-Newest 11 of 11. Full machine-readable history:
+Newest 10 of 10. Full machine-readable history:
 [`history/degreed.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/degreed.json).
 
 ## What is counted, and what is not
 
-Of 11 recorded incidents, **11** have a usable length. Excluded:
+Of 10 recorded incidents, **10** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

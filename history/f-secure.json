@@ -91,6 +91,10 @@
 {
 "at": "2026-09-10T12:15:40Z",
 "state": "ok"
+},
+{
+"at": "2026-09-11T12:29:42Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -100,7 +104,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-09-03T11:32:05.152Z",
 "resolved_inferred": false,
 "started_at": "2026-09-02T11:15:50.347Z",
@@ -113,7 +117,7 @@
 "body": "We're writing to confirm that the activation issue affecting partners in the APAC/Japan region has been resolved.\n\nSummary: Yesterday, a backend infrastructure fault in our ap-northeast-1 environment caused intermittent server errors, which prevented some customer activations in the region from completing.\n\nResolution: Our engineering team identified and restored the affected service. Activations are now processing normally, and we've confirmed no further errors since the fix was applied.\n\nWe regret inconvenience this may have caused your customers, and thank you for your patience.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2026-07-29T10:36:18.329Z",
 "resolved_inferred": false,
 "started_at": "2026-07-28T10:34:49.594Z",
@@ -126,7 +130,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-10T12:15:40Z",
+"last_seen": "2026-09-11T12:29:42Z",
 "resolved_at": "2025-11-10T07:40:09.826Z",
 "resolved_inferred": false,
 "started_at": "2025-09-26T05:14:48.036Z",
@@ -136,7 +140,7 @@
 "url": "https://stspg.io/dlhs5cdh8xns"
 }
 },
-"last_checked": "2026-09-10T12:15:40Z",
+"last_checked": "2026-09-11T12:29:42Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

@@ -2,7 +2,7 @@
 
 **51 Nitro incidents on record** spanning **2026-03-26** to **2026-09-08**. Status page:
 [https://status.gonitro.com](https://status.gonitro.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5 min** across 51 incidents where Nitro posted both a start and a resolve time.

@@ -1,9 +1,9 @@
 # Bunny outage history — every incident their status page has posted
 
-**51 Bunny incidents on record** spanning **2025-09-09** to **2026-09-08**. Status page:
+**52 Bunny incidents on record** spanning **2025-09-09** to **2026-09-11**. Status page:
 [https://status.bunny.net](https://status.bunny.net) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **3.2 h** across 51 incidents where Bunny posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Dashboard Search Function Maintenance](https://stspg.io/4gpjf9wcqjg7) | maintenance | — |
 | 2026-09-08 | [Payment Gateway Failures on Dashboard](https://stspg.io/s2xlsdf691bn) | minor | 2.6 h |
 | 2026-09-03 | [Video Playback and Encoding Failures on Bunny Stream](https://stspg.io/kxy8s177tc7x) | major | 111 min |
 | 2026-09-03 | [Network issues in Los Angeles](https://stspg.io/7bynx1wqwc98) | minor | 4.3 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-23 | [Shield API Intermittent Errors](https://stspg.io/x4bnjzcfbyhb) | none | 13.8 h |
 | 2026-06-18 | [Free certificate issuance with degraded performance](https://stspg.io/7v31krkvk5cb) | minor | 12.7 h |
 | 2026-06-15 | [Synchronization and Configuration Propagation Delays](https://stspg.io/0j4d1lbh5h72) | minor | 59 min |
-| 2026-06-03 | [Lets Encrypt SSL API Errors](https://stspg.io/3pnzszsh7d68) | none | 3.6 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/bunny.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bunny.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **51** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

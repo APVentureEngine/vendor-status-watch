@@ -2,7 +2,7 @@
 
 **20 Exalate incidents on record** spanning **2025-08-29** to **2026-08-27**. Status page:
 [https://status.exalate.com](https://status.exalate.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **5.8 h** across 20 incidents where Exalate posted both a start and a resolve time.

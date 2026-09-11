@@ -2,7 +2,7 @@
 
 **52 Nexcess incidents on record** spanning **2025-10-24** to **2026-09-09**. Status page:
 [https://status.nexcess.net](https://status.nexcess.net) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **9.9 h** across 51 incidents where Nexcess posted both a start and a resolve time.

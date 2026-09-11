@@ -1,11 +1,11 @@
 # Amplitude outage history — every incident their status page has posted
 
-**51 Amplitude incidents on record** spanning **2025-11-17** to **2026-09-09**. Status page:
+**52 Amplitude incidents on record** spanning **2025-11-17** to **2026-09-09**. Status page:
 [https://status.amplitude.com](https://status.amplitude.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **104 min** across 51 incidents where Amplitude posted both a start and a resolve time.
+Median incident length: **100 min** across 52 incidents where Amplitude posted both a start and a resolve time.
 
 This page republishes what Amplitude posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -15,6 +15,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
 | 2026-09-09 | [We are actively investigating an issue with our realtime ingestion pipelines.](https://stspg.io/cxp8j2g29kj5) | minor | 53 min |
+| 2026-09-09 | [S3 export delivery permissions - Resolved](https://stspg.io/bt52n4ry5kh3) | none | 0 min |
 | 2026-08-26 | [We are actively investigating a processing delay in our realtime pipeline](https://stspg.io/vmdkzmqmgk2x) | minor | 3.2 h |
 | 2026-08-25 | [Brief Service Disruption](https://stspg.io/j4s0w7ty1g09) | none | 0 min |
 | 2026-08-24 | [Login Page Unavailable for New Sign-ins](https://stspg.io/vjk9qh983w97) | none | 76 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-23 | [Delay in realtime data processing](https://stspg.io/lg1lq67xbmdc) | minor | 2.5 h |
 | 2026-07-22 | [Some users may have experienced errors when accessing Amplitude.](https://stspg.io/6t23f5sp6h28) | none | 0 min |
 | 2026-07-13 | [Amplitude UI and MCP is down](https://stspg.io/xvxd55g7kwjb) | critical | 96 min |
-| 2026-07-13 | [AI features degraded](https://stspg.io/rfw2ps7rc34c) | major | 4.4 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/amplitude.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/amplitude.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **51** have a usable length. Excluded:
+Of 52 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

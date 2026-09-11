@@ -2,7 +2,7 @@
 
 **25 Aiven incidents on record** spanning **2025-09-26** to **2026-08-08**. Status page:
 [https://status.aiven.io](https://status.aiven.io) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **4.6 h** across 25 incidents where Aiven posted both a start and a resolve time.

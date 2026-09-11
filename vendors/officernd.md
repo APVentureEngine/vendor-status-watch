@@ -2,7 +2,7 @@
 
 **9 OfficeRnD incidents on record** spanning **2025-09-01** to **2026-06-23**. Status page:
 [https://status.officernd.com](https://status.officernd.com) · platform:
-`statuspage` · last polled **2026-09-10 12:15 UTC**, last observed
+`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
 state **`ok`**.
 
 Only **9** OfficeRnD incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
