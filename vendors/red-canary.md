@@ -2,7 +2,7 @@
 
 **19 Red Canary incidents on record** spanning **2025-08-12** to **2026-06-29**. Status page:
 [https://status.redcanary.com](https://status.redcanary.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **18** Red Canary incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

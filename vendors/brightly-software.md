@@ -2,10 +2,10 @@
 
 **39 Brightly Software incidents on record** spanning **2025-08-14** to **2026-09-10**. Status page:
 [https://status.brightlysoftware.com](https://status.brightlysoftware.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **6.7 h** across 36 incidents where Brightly Software posted both a start and a resolve time.
+Median incident length: **6.8 h** across 37 incidents where Brightly Software posted both a start and a resolve time.
 
 This page republishes what Brightly Software posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-10 | [Asset Essentials - Login Issue](https://stspg.io/k2rlzrsv7gpp) | minor | — |
+| 2026-09-10 | [Asset Essentials - Login Issue](https://stspg.io/k2rlzrsv7gpp) | minor | 25.8 h |
 | 2026-08-28 | [Asset Essentials - Latency when loading pages](https://stspg.io/9jcs8rys832t) | minor | 6.8 h |
 | 2026-08-26 | [Confirm EMEA - Date Format Issues](https://stspg.io/klb6vg8z3jkn) | minor | 4.0 h |
 | 2026-08-20 | [TheWorxHub Support Chat Feature](https://stspg.io/hznj4tkvxhm0) | major | 100 min |
@@ -35,8 +35,8 @@ Newest 15 of 39. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 39 recorded incidents, **36** have a usable length. Excluded:
-1 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 39 recorded incidents, **37** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

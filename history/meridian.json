@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-10-10T12:59:27.211Z",
 "resolved_inferred": false,
 "started_at": "2025-10-09T19:01:42.543Z",
@@ -117,7 +121,7 @@
 "body": "Between 2:11 PM and 2:23 PM Eastern, some customers accessing view.meridiankiosks.com experienced service unavailability. Monitoring alerts triggered an investigation that quickly isolated the issue to an application-level fault affecting request handling for a subset of sessions. Engineering implemented a targeted patch to remediate the fault and restore normal service.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-12-11T19:00:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-12-11T19:00:00.000Z",
@@ -130,7 +134,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-06-03T01:04:17.399Z",
 "resolved_inferred": false,
 "started_at": "2026-06-02T23:43:14.342Z",
@@ -143,7 +147,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-10-20T20:05:38.085Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T11:13:08.723Z",
@@ -153,21 +157,23 @@
 "url": "https://stspg.io/1ng06psmmp0d"
 },
 "qwr1x5p5krhs": {
-"body": "A fix has been implemented and we are monitoring the results.",
+"body": "This incident has been resolved.",
 "first_seen": "2026-09-10T12:15:40Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
+"resolved_at": "2026-09-11T13:54:13.982Z",
+"resolved_inferred": false,
 "started_at": "2026-09-09T16:19:39.628Z",
-"state": "monitoring",
+"state": "resolved",
 "title": "Blank screen on some kiosks",
-"updated_at": "2026-09-09T19:26:50.392Z",
+"updated_at": "2026-09-11T13:54:14.001Z",
 "url": "https://stspg.io/v2tcl72rkvhp"
 },
 "sq99p5b61vfs": {
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-03-20T15:47:55.089Z",
 "resolved_inferred": false,
 "started_at": "2026-03-20T15:39:30.926Z",
@@ -180,7 +186,7 @@
 "body": "MzeroPay customers using Chase may have experienced an interruption in payment processing services due to an outage at Chase. The issue was with the 3rd party Chase platform from around 4:45 AM EST on 09/08/2025. The incident has been resolved, and regular transaction traffic has returned.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-09-08T08:30:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-09-08T08:30:00.000Z",
@@ -190,7 +196,7 @@
 "url": "https://stspg.io/f29z5jmv17r8"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

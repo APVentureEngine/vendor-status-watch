@@ -2,7 +2,7 @@
 
 **3 Airbrake incidents on record** spanning **2026-05-06** to **2026-07-13**. Status page:
 [https://status.airbrake.io](https://status.airbrake.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **3** Airbrake incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

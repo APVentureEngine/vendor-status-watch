@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "An infrastructure change caused unhealthy nodes that led to imports failing in US production.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-05-05T00:30:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-05-05T00:30:00.000Z",
@@ -117,7 +121,7 @@
 "body": "We had a temporary outage of our web services that lasted about 5 minutes, starting at 9:40 am PT. All services are back online now and we're monitoring the situation.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-02-10T17:40:00.000Z",
 "resolved_inferred": false,
 "started_at": "2026-02-10T17:40:00.000Z",
@@ -130,7 +134,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-07-17T21:29:37.251Z",
 "resolved_inferred": false,
 "started_at": "2026-07-17T21:05:57.000Z",
@@ -143,7 +147,7 @@
 "body": "All systems are back to normal performance now.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-09-30T02:40:05.105Z",
 "resolved_inferred": false,
 "started_at": "2025-09-29T16:04:40.033Z",
@@ -156,7 +160,7 @@
 "body": "Service is stable, incident is resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-01-12T20:23:05.969Z",
 "resolved_inferred": false,
 "started_at": "2026-01-12T20:05:38.672Z",
@@ -169,7 +173,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-07-28T20:30:51.242Z",
 "resolved_inferred": false,
 "started_at": "2026-07-28T19:21:36.965Z",
@@ -179,7 +183,7 @@
 "url": "https://stspg.io/mrmb2hxvq890"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

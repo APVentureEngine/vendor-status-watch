@@ -2,7 +2,7 @@
 
 **4 Athennian incidents on record** spanning **2025-11-18** to **2026-08-28**. Status page:
 [https://athennian.statuspage.io](https://athennian.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Only **3** Athennian incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

@@ -2,7 +2,7 @@
 
 **14 Subsplash incidents on record** spanning **2025-09-28** to **2026-07-09**. Status page:
 [https://status.subsplash.com](https://status.subsplash.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **14** Subsplash incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

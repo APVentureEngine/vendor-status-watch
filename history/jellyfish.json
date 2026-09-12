@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-10-21T11:35:49.395Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T13:56:12.000Z",
@@ -117,7 +121,7 @@
 "body": "The Jellyfish web app is now back online after some unavailability.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-10-20T07:30:00.000Z",
 "resolved_inferred": false,
 "started_at": "2025-10-20T07:30:00.000Z",
@@ -127,7 +131,7 @@
 "url": "https://stspg.io/wjjv8c37vsf5"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

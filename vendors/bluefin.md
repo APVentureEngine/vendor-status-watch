@@ -2,7 +2,7 @@
 
 **23 Bluefin incidents on record** spanning **2025-08-21** to **2026-09-02**. Status page:
 [https://status.bluefin.com](https://status.bluefin.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.3 h** across 23 incidents where Bluefin posted both a start and a resolve time.

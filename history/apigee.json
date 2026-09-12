@@ -95,15 +95,31 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": true,
-"incidents": {},
-"last_checked": "2026-09-11T12:29:42Z",
-"last_description": "All Systems Operational",
+"incidents": {
+"2vvrxjqcxj30": {
+"body": "Apigee Status Page",
+"first_seen": "2026-09-12T12:30:15Z",
+"impact": "maintenance",
+"last_seen": "2026-09-12T12:30:15Z",
+"started_at": "2026-09-11T11:00:00.000-07:00",
+"state": "maintenance",
+"title": "Apigee Status Page Decommissioning",
+"updated_at": "2026-09-11T11:13:23.416-07:00",
+"url": "https://stspg.io/9r1x7s003tmx"
+}
+},
+"last_checked": "2026-09-12T12:30:15Z",
+"last_description": "All Systems Operational (scheduled maintenance in progress)",
 "last_error": null,
-"last_state": "ok",
+"last_state": "maintenance",
 "platform": "statuspage",
 "slug": "apigee",
 "status_url": "https://status.apigee.com",

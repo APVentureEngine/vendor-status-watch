@@ -1,11 +1,11 @@
 # Helpshift outage history — every incident their status page has posted
 
-**31 Helpshift incidents on record** spanning **2025-08-08** to **2026-08-31**. Status page:
+**30 Helpshift incidents on record** spanning **2025-08-12** to **2026-08-31**. Status page:
 [https://status.helpshift.com](https://status.helpshift.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **58 min** across 31 incidents where Helpshift posted both a start and a resolve time.
+Median incident length: **66 min** across 30 incidents where Helpshift posted both a start and a resolve time.
 
 This page republishes what Helpshift posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-01 | [Helpshift Automations Service Disruption](https://stspg.io/18xh1ksdcl0s) | major | 12 min |
 | 2026-03-10 | [Degraded performance on Helpshift Dashboard](https://stspg.io/08lmj862fyb5) | minor | 3.2 h |
 
-Newest 15 of 31. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/helpshift.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/helpshift.json).
 
 ## What is counted, and what is not
 
-Of 31 recorded incidents, **31** have a usable length. Excluded:
+Of 30 recorded incidents, **30** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

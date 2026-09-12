@@ -1,11 +1,11 @@
 # Wealthsimple outage history — every incident their status page has posted
 
-**41 Wealthsimple incidents on record** spanning **2025-08-07** to **2026-09-03**. Status page:
+**40 Wealthsimple incidents on record** spanning **2025-08-13** to **2026-09-03**. Status page:
 [https://status.wealthsimple.com](https://status.wealthsimple.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **107 min** across 41 incidents where Wealthsimple posted both a start and a resolve time.
+Median incident length: **113 min** across 40 incidents where Wealthsimple posted both a start and a resolve time.
 
 This page republishes what Wealthsimple posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-13 | [Account service issues \| Problèmes liés aux services de comptes](https://stspg.io/c3npkc4c9cr2) | minor | 2.9 days |
 | 2026-02-01 | [e-Transfer issues \| Problèmes de virement électronique](https://stspg.io/g25sqglz82fm) | none | 2.3 h |
 
-Newest 15 of 41. Full machine-readable history:
+Newest 15 of 40. Full machine-readable history:
 [`history/wealthsimple.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/wealthsimple.json).
 
 ## What is counted, and what is not
 
-Of 41 recorded incidents, **41** have a usable length. Excluded:
+Of 40 recorded incidents, **40** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **34 OPSWAT incidents on record** spanning **2025-10-16** to **2026-09-05**. Status page:
 [https://trust.opswat.com](https://trust.opswat.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **44 min** across 33 incidents where OPSWAT posted both a start and a resolve time.

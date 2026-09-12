@@ -1,11 +1,11 @@
 # Zenoti outage history — every incident their status page has posted
 
-**54 Zenoti incidents on record** spanning **2026-03-01** to **2026-09-10**. Status page:
+**55 Zenoti incidents on record** spanning **2026-03-01** to **2026-09-11**. Status page:
 [https://status.zenoti.com](https://status.zenoti.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **118 min** across 51 incidents where Zenoti posted both a start and a resolve time.
+Median incident length: **2.0 h** across 53 incidents where Zenoti posted both a start and a resolve time.
 
 This page republishes what Zenoti posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,10 +14,11 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Slowness for API Services - AMRS09](https://stspg.io/01njq8yl4bjy) | minor | 3.0 h |
 | 2026-09-10 | [Intermittent Connectivity Issues – Netherlands Region](https://stspg.io/wj32mkwswj6z) | none | 14.6 h |
 | 2026-09-10 | [Issue with Purchase Order Listing page](https://stspg.io/3k4t2r4rpndx) | none | 20.9 h |
 | 2026-09-09 | [Data refresh for Analytics Reports is impacted - AMRS22](https://stspg.io/yfg6bcxv64gg) | none | 5.7 h |
-| 2026-09-09 | [Intermittent Outbound Call Failures – HyperConnect (UK Region)](https://stspg.io/46w82hr8py4x) | none | — |
+| 2026-09-09 | [Intermittent Outbound Call Failures – HyperConnect (UK Region)](https://stspg.io/46w82hr8py4x) | none | 2.4 days |
 | 2026-09-01 | [Intermittent issues in Zenoti Application](https://stspg.io/fwy1r78r7ckn) | minor | 8.7 h |
 | 2026-08-31 | [Intermittent issues in Zenoti Application](https://stspg.io/wbkqcn4zylh5) | major | 12.6 h |
 | 2026-08-22 | [Intermittent Zenoti Application Slowness - AMRS19](https://stspg.io/cw205hnxbtkt) | none | 2.5 days |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-16 | [Analytics Plus Reports are impacted - EURO01](https://stspg.io/ty6sfy87vhg4) | none | 3.6 h |
 | 2026-08-15 | [Data refresh for analytics reports is impacted - EURO01](https://stspg.io/6bhwcfgp21jz) | none | 5.5 h |
 | 2026-08-07 | [Zenoti Application Slowness - AMRS05](https://stspg.io/xw7231mk4972) | minor | 96 min |
-| 2026-07-23 | [Zenoti Application Slowness - AMRS11](https://stspg.io/7y8cpqjvdjrr) | minor | 3.3 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 55. Full machine-readable history:
 [`history/zenoti.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/zenoti.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **51** have a usable length. Excluded:
-2 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 55 recorded incidents, **53** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

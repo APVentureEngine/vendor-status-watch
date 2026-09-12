@@ -1,11 +1,11 @@
 # Jira Work Management outage history — every incident their status page has posted
 
-**20 Jira Work Management incidents on record** spanning **2025-08-07** to **2026-09-01**. Status page:
+**19 Jira Work Management incidents on record** spanning **2025-09-09** to **2026-09-01**. Status page:
 [https://jira-work-management.status.atlassian.com](https://jira-work-management.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 20 incidents where Jira Work Management posted both a start and a resolve time.
+Only **19** Jira Work Management incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Jira Work Management posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-15 | [Some users are unable to send emails from Jira](https://stspg.io/4nghwhzdgl4s) | major | 43.3 h |
 | 2025-10-27 | [Jira Platform Incident - viewIssue and createIssue Service Disruption](https://stspg.io/7mbbwffjq45p) | major | 76 min |
 
-Newest 15 of 20. Full machine-readable history:
+Newest 15 of 19. Full machine-readable history:
 [`history/jira-work-management.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/jira-work-management.json).
 
 ## What is counted, and what is not
 
-Of 20 recorded incidents, **20** have a usable length. Excluded:
+Of 19 recorded incidents, **19** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

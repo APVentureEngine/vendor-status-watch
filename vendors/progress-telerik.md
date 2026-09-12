@@ -2,7 +2,7 @@
 
 **5 Progress Telerik incidents on record** spanning **2025-10-10** to **2026-07-08**. Status page:
 [https://status.telerik.com](https://status.telerik.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **4** Progress Telerik incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

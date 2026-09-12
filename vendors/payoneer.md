@@ -2,7 +2,7 @@
 
 **36 Payoneer incidents on record** spanning **2025-08-13** to **2026-08-03**. Status page:
 [https://status.payoneer.com](https://status.payoneer.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **81 min** across 36 incidents where Payoneer posted both a start and a resolve time.

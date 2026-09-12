@@ -35,12 +35,16 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-05T08:54:55Z",
 "history_backfilled": false,
 "incidents": {},
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "No open incidents on the vendor's incident.io feed",
 "last_error": null,
 "last_state": "ok",

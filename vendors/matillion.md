@@ -2,7 +2,7 @@
 
 **51 Matillion incidents on record** spanning **2025-08-19** to **2026-09-11**. Status page:
 [https://status.matillion.com](https://status.matillion.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **115 min** across 51 incidents where Matillion posted both a start and a resolve time.

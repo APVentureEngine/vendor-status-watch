@@ -1,9 +1,9 @@
 # Quay outage history — every incident their status page has posted
 
-**51 Quay incidents on record** spanning **2025-11-27** to **2026-08-31**. Status page:
+**52 Quay incidents on record** spanning **2025-11-27** to **2026-09-12**. Status page:
 [https://status.quay.io](https://status.quay.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **3.1 h** across 49 incidents where Quay posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [OpenShift Cluster Manager Database Maintenance 2026-09-12](https://stspg.io/7pqvl5xh2056) | major | — |
 | 2026-08-31 | [Ask Red Hat - Outage](https://stspg.io/1vnkklf314f3) | major | 15 min |
 | 2026-08-18 | [Search Degradation](https://stspg.io/7zt6fv2gqxn5) | major | 4.7 h |
 | 2026-08-18 | [Search Degradation](https://stspg.io/pms2869bypyz) | major | 2.8 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-16 | [Docs.redhat.com - Outage Identified](https://stspg.io/9qt8bzqfr76v) | major | 3.4 h |
 | 2026-07-10 | [Ecosystem Catalog Partial Outage](https://stspg.io/mmhscccrqk45) | minor | 15.4 h |
 | 2026-07-10 | [Ecosystem Catalog Partial Outage](https://stspg.io/znvtr1l05n7p) | minor | 3.2 h |
-| 2026-07-09 | [Partner Portal Outage](https://stspg.io/b8cw17n6h70j) | major | 4.1 h |
 
-Newest 15 of 51. Full machine-readable history:
+Newest 15 of 52. Full machine-readable history:
 [`history/quay.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/quay.json).
 
 ## What is counted, and what is not
 
-Of 51 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 1 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **49** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 1 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

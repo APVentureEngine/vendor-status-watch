@@ -1,8 +1,8 @@
 # BigLeaf outage history — every incident their status page has posted
 
-**12 BigLeaf incidents on record** spanning **2025-08-08** to **2026-07-08**. Status page:
+**12 BigLeaf incidents on record** spanning **2025-08-22** to **2026-09-11**. Status page:
 [https://status.bigleaf.net](https://status.bigleaf.net) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **12** BigLeaf incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Bigleaf Cloud Connect Dashboard DOWN](https://stspg.io/c748n7930cts) | critical | 2.9 h |
 | 2026-07-08 | [Bigleaf Cloud Connect Dashboard and API functionality](https://stspg.io/b6vqw1jt5stj) | minor | 76 min |
 | 2026-06-18 | [Network Performance Issues - NYC](https://stspg.io/q20wb9rn8z07) | minor | 4.1 h |
 | 2026-04-30 | [Network Performance Issues - ATL](https://stspg.io/vrf0yzb9txq9) | none | 2.1 h |
@@ -25,7 +26,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-12 | [Missing Site Metrics](https://stspg.io/x20yvdgtn8lt) | major | 108 min |
 | 2025-09-11 | [Emergency Maintenance - Frankfurt, DE Gateway Cluster](https://stspg.io/lchb1b91c66x) | minor | 93 min |
 | 2025-08-22 | [Bigleaf Cloud Connect Dashboard DOWN](https://stspg.io/zh3rt82sl3g6) | minor | 68 min |
-| 2025-08-08 | [Bigleaf Cloud Connect Dashboard Down](https://stspg.io/w4dh089l85m6) | major | 36 min |
 
 Newest 12 of 12. Full machine-readable history:
 [`history/bigleaf.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bigleaf.json).

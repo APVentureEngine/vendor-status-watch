@@ -1,11 +1,11 @@
 # Wix outage history — every incident their status page has posted
 
-**46 Wix incidents on record** spanning **2025-08-07** to **2026-09-07**. Status page:
+**45 Wix incidents on record** spanning **2025-08-08** to **2026-09-07**. Status page:
 [https://status.wix.com](https://status.wix.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **81 min** across 45 incidents where Wix posted both a start and a resolve time.
+Median incident length: **81 min** across 44 incidents where Wix posted both a start and a resolve time.
 
 This page republishes what Wix posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-10 | [RESOLVED: Issues Accessing Live Sites](https://stspg.io/gdxknwtgmj9q) | major | 23 min |
 | 2026-05-11 | [RESOLVED: Wix Sites Are Loading Slow or Not Loading for Some Visitors](https://stspg.io/wjmv3xx9dcv1) | minor | 5.8 h |
 
-Newest 15 of 46. Full machine-readable history:
+Newest 15 of 45. Full machine-readable history:
 [`history/wix.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/wix.json).
 
 ## What is counted, and what is not
 
-Of 46 recorded incidents, **45** have a usable length. Excluded:
+Of 45 recorded incidents, **44** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

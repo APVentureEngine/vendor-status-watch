@@ -2,7 +2,7 @@
 
 **51 Acquia incidents on record** spanning **2025-10-28** to **2026-09-07**. Status page:
 [https://status.acquia.com](https://status.acquia.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.4 h** across 51 incidents where Acquia posted both a start and a resolve time.

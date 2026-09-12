@@ -2,8 +2,8 @@
 
 **54 Seravo incidents on record** spanning **2025-09-29** to **2026-09-10**. Status page:
 [https://status.seravo.com](https://status.seravo.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **49 min** across 53 incidents where Seravo posted both a start and a resolve time.
 

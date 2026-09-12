@@ -1,11 +1,11 @@
 # Smartsheet outage history — every incident their status page has posted
 
-**35 Smartsheet incidents on record** spanning **2025-08-25** to **2026-08-27**. Status page:
+**36 Smartsheet incidents on record** spanning **2025-08-25** to **2026-09-11**. Status page:
 [https://status.smartsheet.com](https://status.smartsheet.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.6 h** across 35 incidents where Smartsheet posted both a start and a resolve time.
+Median incident length: **3.5 h** across 36 incidents where Smartsheet posted both a start and a resolve time.
 
 This page republishes what Smartsheet posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Smartsheet and Smartsheet Login Unavailable for Smartsheet US](https://stspg.io/rljmp4ztkybb) | major | 3.1 h |
 | 2026-08-27 | [Unexpected HTTP response code affecting login, sheet access, Control Center, Dynamic View and other premium apps](https://stspg.io/y1r6gdt3yg08) | critical | 2.3 h |
 | 2026-08-26 | [Sheets in Smartsheet US are failing to load](https://stspg.io/9cmq02rdjgvb) | critical | 4.9 h |
 | 2026-08-25 | [Intermittent Cell Link and Cross Sheet Reference delays/failures](https://stspg.io/9sqz47rrrh2c) | minor | 3.6 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-22 | [Investigating Workspace panel not opening or closing unexpectedly](https://stspg.io/8mm5692kl3jr) | minor | 2.6 h |
 | 2026-04-17 | [Smartsheet's Resource Management Integration Loading Issues](https://stspg.io/fdr449sfg01c) | minor | 4.7 h |
 | 2026-04-13 | [Failures during Form Submissions](https://stspg.io/r2bsl4ll5n5y) | major | 4.2 h |
-| 2026-03-31 | [Proof Performance and Watermarks](https://stspg.io/t6x0vn34jryk) | minor | 3.1 h |
 
-Newest 15 of 35. Full machine-readable history:
+Newest 15 of 36. Full machine-readable history:
 [`history/smartsheet.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/smartsheet.json).
 
 ## What is counted, and what is not
 
-Of 35 recorded incidents, **35** have a usable length. Excluded:
+Of 36 recorded incidents, **36** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

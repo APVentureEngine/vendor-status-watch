@@ -2,7 +2,7 @@
 
 **16 TimeClock Plus incidents on record** spanning **2025-08-11** to **2026-08-26**. Status page:
 [https://status.tcpsoftware.com](https://status.tcpsoftware.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **15** TimeClock Plus incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

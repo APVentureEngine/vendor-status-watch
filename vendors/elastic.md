@@ -2,7 +2,7 @@
 
 **52 Elastic incidents on record** spanning **2026-02-18** to **2026-09-10**. Status page:
 [https://status.elastic.co](https://status.elastic.co) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **2.8 h** across 49 incidents where Elastic posted both a start and a resolve time.

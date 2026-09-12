@@ -1,11 +1,11 @@
 # hCaptcha outage history — every incident their status page has posted
 
-**8 hCaptcha incidents on record** spanning **2025-08-21** to **2026-08-27**. Status page:
+**9 hCaptcha incidents on record** spanning **2025-08-21** to **2026-09-11**. Status page:
 [https://www.hcaptchastatus.com](https://www.hcaptchastatus.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **6** hCaptcha incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **7** hCaptcha incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what hCaptcha posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Increased endpoint latency in some regions](https://stspg.io/7pm3jjfhq6y2) | minor | 16 min |
 | 2026-08-27 | [Enterprise: Analytics queries under maintenance](https://stspg.io/wzl08dk0b91y) | maintenance | — |
 | 2026-07-29 | [Increased 429 rates on several ASNs](https://stspg.io/7hz1jyr4mg69) | none | 0 min |
 | 2026-05-05 | [Increased error rate on API loads](https://stspg.io/2hk8wfn6mcmk) | none | 0 min |
@@ -23,12 +24,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-08 | [Elevated P99 times in South America (Brazil) regions](https://stspg.io/8slwldy29gh6) | minor | 0 min |
 | 2025-08-21 | [Elevated latency in IAD region for connections from AWS us-east-1](https://stspg.io/vtl4hy1sk2y8) | minor | 7 min |
 
-Newest 8 of 8. Full machine-readable history:
+Newest 9 of 9. Full machine-readable history:
 [`history/hcaptcha.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/hcaptcha.json).
 
 ## What is counted, and what is not
 
-Of 8 recorded incidents, **6** have a usable length. Excluded:
+Of 9 recorded incidents, **7** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

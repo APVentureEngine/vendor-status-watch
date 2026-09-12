@@ -1,11 +1,11 @@
 # Cloudsigma outage history — every incident their status page has posted
 
-**54 Cloudsigma incidents on record** spanning **2025-09-12** to **2026-09-08**. Status page:
+**55 Cloudsigma incidents on record** spanning **2025-09-12** to **2026-09-11**. Status page:
 [https://status.cloudsigma.com](https://status.cloudsigma.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.3 h** across 52 incidents where Cloudsigma posted both a start and a resolve time.
+Median incident length: **2.3 h** across 53 incidents where Cloudsigma posted both a start and a resolve time.
 
 This page republishes what Cloudsigma posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [[ZRH] Degraded API Performance](https://stspg.io/9n348lnfqq2y) | minor | 93 min |
 | 2026-09-08 | [[MNL2] Hardware Maintenance](https://stspg.io/qlzytfchdlfn) | maintenance | — |
 | 2026-09-08 | [[ZRH][GVA] Network Issue](https://stspg.io/wr3ynq42lwq2) | minor | 8.9 h |
 | 2026-09-07 | [[ZRH][GVA] Network outage](https://stspg.io/8f2jh6m2s3ll) | major | 87 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-09 | [[MNL2] Degraded Network Performance](https://stspg.io/4ccws1pn4pks) | minor | 79 min |
 | 2026-06-14 | [[MNL] Web VNC unavailable](https://stspg.io/0q8nz84jzbwd) | minor | 30.4 h |
 | 2026-06-05 | [[MTY] Unavailable hosts](https://stspg.io/ndvrm6v52p58) | minor | 2.0 h |
-| 2026-06-02 | [[FRA] API Degraded Performance](https://stspg.io/53t1kw4d2mcl) | minor | 2.3 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 55. Full machine-readable history:
 [`history/cloudsigma.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cloudsigma.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **52** have a usable length. Excluded:
+Of 55 recorded incidents, **53** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 1 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

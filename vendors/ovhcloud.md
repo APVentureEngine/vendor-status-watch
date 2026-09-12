@@ -2,7 +2,7 @@
 
 **14 Ovhcloud incidents on record** spanning **2026-03-24** to **2026-09-09**. Status page:
 [https://status.us.ovhcloud.com](https://status.us.ovhcloud.com) · platform:
-`status.io` · last polled **2026-09-11 12:29 UTC**, last observed
+`status.io` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`maintenance`**.
 
 No Ovhcloud incident carries both a vendor-posted start and resolve time, so no duration statistic is available.
@@ -35,7 +35,7 @@ Newest 14 of 14. Full machine-readable history:
 ## What is counted, and what is not
 
 Of 14 recorded incidents, **0** have a usable length. Excluded:
-3 maintenance, 3 still open or missing a timestamp, 8 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+3 maintenance, 2 still open or missing a timestamp, 9 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

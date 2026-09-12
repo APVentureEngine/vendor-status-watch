@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "We've resolved an issue with our email notifications. The issue was caused by email asset delivery which we've resolved. We apologize for any inconvenience. Please email support at support@airbrake.io if you have any questions or concerns.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-06-01T08:53:12.777-07:00",
 "resolved_inferred": false,
 "started_at": "2026-06-01T07:22:17.515-07:00",
@@ -117,7 +121,7 @@
 "body": "The incident has been resolved and metrics are back online. There will be a dip in metric count graphs while the incident was experienced. Error event data was recorded normally and was unaffected. We apologize for the inconvenience. If you have any questions please reach us at support@airbrake.io.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-07-13T20:29:00.352-07:00",
 "resolved_inferred": false,
 "started_at": "2026-07-13T08:15:00.000-07:00",
@@ -130,7 +134,7 @@
 "body": "A subset of customers experienced an issue where the error dashboard list was not loading properly. This may have resulted in error filtering being faulty or the errors list being blank. The issue was escalated to our techops team which resolved the issue.\n\nWe apologize for the inconvenience that this has caused. If you have any questions or concerns, please reach us at support@airbrake.io.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-05-06T04:00:03.000-07:00",
 "resolved_inferred": false,
 "started_at": "2026-05-06T04:00:03.000-07:00",
@@ -140,7 +144,7 @@
 "url": "https://stspg.io/lb9wb9fx874g"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

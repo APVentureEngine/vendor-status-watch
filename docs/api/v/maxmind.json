@@ -3,9 +3,20 @@
 "slug": "maxmind",
 "platform": "status.io",
 "status_url": "https://status.maxmind.com",
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_state": "ok",
 "history_backfilled": false,
 "first_watched": "2026-09-04T07:06:16Z",
-"incidents": []
+"incidents": [
+{
+"body": "Customers may have experienced high latency in API requests from ~4 to 7 AM  UTC on 2026-09-11 . The cause appears to be network instability and packet loss in connections from the IAD Cloudflare zone.  We are communicating with providers about the issue. ",
+"first_seen": "2026-09-12T12:30:15Z",
+"last_seen": "2026-09-12T12:30:15Z",
+"started_at": "2026-09-11T15:47:00.000Z",
+"state": "investigating",
+"title": "High latency for the us-east region",
+"updated_at": "2026-09-11T15:47:00.000Z",
+"url": "https://status.maxmind.com"
+}
+]
 }

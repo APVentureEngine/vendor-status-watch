@@ -1,11 +1,11 @@
 # Shippo outage history — every incident their status page has posted
 
-**58 Shippo incidents on record** spanning **2026-06-26** to **2026-09-11**. Status page:
+**59 Shippo incidents on record** spanning **2026-06-26** to **2026-09-12**. Status page:
 [https://status.goshippo.com](https://status.goshippo.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
-Median incident length: **2.2 h** across 56 incidents where Shippo posted both a start and a resolve time.
+Median incident length: **2.2 h** across 57 incidents where Shippo posted both a start and a resolve time.
 
 This page republishes what Shippo posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,8 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-11 | [Elevated error rate on  USPS QR code generation](https://stspg.io/y3jh370whk59) | minor | — |
+| 2026-09-12 | [Aramex Scheduled Maintenance](https://stspg.io/k01trslv6h05) | maintenance | — |
+| 2026-09-11 | [Elevated error rate on  USPS QR code generation](https://stspg.io/y3jh370whk59) | minor | 13.0 h |
 | 2026-09-09 | [Elevated error rate on Shippo Web Dashboard](https://stspg.io/b6g0kglt1tcr) | none | 16.8 h |
 | 2026-09-08 | [Elevated error rates for the Lasership Transaction services](https://stspg.io/kn1nm71yvq3k) | major | 89 min |
 | 2026-09-06 | [USPS Maintenance](https://stspg.io/d1ph3yd6w36c) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-01 | [Elevated error rate on Canada Post Shipment API](https://stspg.io/83c89p5xjs9p) | major | 2.0 h |
 | 2026-09-01 | [Elevated error rate on Colissimo Transaction API](https://stspg.io/68x1ll2bptm1) | major | 58 min |
 | 2026-09-01 | [Elevated error rate on Canada Post Shipment](https://stspg.io/ncd8gs15gxys) | major | 42 min |
-| 2026-08-31 | [Elevated error rate on Deutsche Post Transaction API](https://stspg.io/1gh1yk2th55t) | major | 70 min |
 
-Newest 15 of 58. Full machine-readable history:
+Newest 15 of 59. Full machine-readable history:
 [`history/shippo.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/shippo.json).
 
 ## What is counted, and what is not
 
-Of 58 recorded incidents, **56** have a usable length. Excluded:
-1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 59 recorded incidents, **57** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

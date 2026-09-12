@@ -1,11 +1,11 @@
 # Cohere outage history — every incident their status page has posted
 
-**11 Cohere incidents on record** spanning **2025-08-07** to **2026-09-01**. Status page:
+**10 Cohere incidents on record** spanning **2025-10-01** to **2026-09-01**. Status page:
 [https://status.cohere.ai](https://status.cohere.ai) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **11** Cohere incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **10** Cohere incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Cohere posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -24,14 +24,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-02-13 | Some chat models are unresponsive or timing out | major | 77 min |
 | 2025-10-18 | Chat models return 503 service error when /v1/chat requests omit message and chat_history while providing tool_results | none | 36 min |
 | 2025-10-01 | logprobs param degeraded for `command-a-03-2025` and `command-a-reasoning-08-2025` | minor | 3.8 h |
-| 2025-08-07 | Command-a-vision-07-2025 degraded performance | minor | 10 min |
 
-Newest 11 of 11. Full machine-readable history:
+Newest 10 of 10. Full machine-readable history:
 [`history/cohere.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/cohere.json).
 
 ## What is counted, and what is not
 
-Of 11 recorded incidents, **11** have a usable length. Excluded:
+Of 10 recorded incidents, **10** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

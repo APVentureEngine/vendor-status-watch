@@ -1,11 +1,11 @@
 # TPx Communications outage history — every incident their status page has posted
 
-**31 TPx Communications incidents on record** spanning **2025-08-08** to **2026-09-09**. Status page:
+**30 TPx Communications incidents on record** spanning **2025-08-10** to **2026-09-09**. Status page:
 [https://tpxcommunications.statuspage.io](https://tpxcommunications.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **17.7 h** across 30 incidents where TPx Communications posted both a start and a resolve time.
+Median incident length: **17.1 h** across 29 incidents where TPx Communications posted both a start and a resolve time.
 
 This page republishes what TPx Communications posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-25 | [Users are experiencing issues accessing VCO options.](https://stspg.io/4vpb4t0g66tg) | major | 3.4 h |
 | 2026-05-22 | [Updating Resolved Las Vegas Outage](https://stspg.io/zwq2vwl0b5d5) | critical | 1 min |
 
-Newest 15 of 31. Full machine-readable history:
+Newest 15 of 30. Full machine-readable history:
 [`history/tpx-communications.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/tpx-communications.json).
 
 ## What is counted, and what is not
 
-Of 31 recorded incidents, **30** have a usable length. Excluded:
+Of 30 recorded incidents, **29** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

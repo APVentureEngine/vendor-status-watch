@@ -2,7 +2,7 @@
 
 **74 Qualys incidents on record** spanning **2026-07-01** to **2026-09-11**. Status page:
 [https://status.qualys.com](https://status.qualys.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **26.3 h** across 53 incidents where Qualys posted both a start and a resolve time.

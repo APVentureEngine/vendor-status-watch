@@ -2,7 +2,7 @@
 
 **30 Readme incidents on record** spanning **2025-09-08** to **2026-09-08**. Status page:
 [https://www.readmestatus.com](https://www.readmestatus.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.3 h** across 30 incidents where Readme posted both a start and a resolve time.

@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "partial"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "partial"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -114,7 +118,7 @@
 "6aa2ce914d52214768b56973": {
 "body": "We are currently investigating a problem affecting the user management page not loading users caused by the SCIM endpoint.",
 "first_seen": "2026-09-11T12:29:42Z",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "started_at": "2026-09-10T15:36:49.684Z",
 "state": "investigating",
 "title": "User management page not loading users",
@@ -122,7 +126,7 @@
 "url": "https://status.nintex.com"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "Partial Service Disruption",
 "last_error": null,
 "last_state": "partial",

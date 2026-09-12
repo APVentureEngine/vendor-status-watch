@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "Nach R\u00fcckmeldung unseres Anbieters wurde das Problem behoben.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-11-18T13:13:52.947+01:00",
 "resolved_inferred": false,
 "started_at": "2025-11-18T13:07:47.934+01:00",
@@ -117,7 +121,7 @@
 "body": "Die DENIC hat das Problem am 06.05.2026, 03:42 Uhr behoben.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-05-06T07:21:46.105+02:00",
 "resolved_inferred": false,
 "started_at": "2026-05-06T00:54:15.850+02:00",
@@ -127,7 +131,7 @@
 "url": "https://stspg.io/j17cxws6zvk2"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

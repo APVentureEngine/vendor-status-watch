@@ -2,7 +2,7 @@
 
 **17 One incidents on record** spanning **2026-02-13** to **2026-09-04**. Status page:
 [https://status.one.com](https://status.one.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **15** One incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

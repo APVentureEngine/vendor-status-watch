@@ -2,7 +2,7 @@
 
 **52 Semgrep incidents on record** spanning **2025-11-10** to **2026-09-10**. Status page:
 [https://status.semgrep.dev](https://status.semgrep.dev) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **95 min** across 52 incidents where Semgrep posted both a start and a resolve time.

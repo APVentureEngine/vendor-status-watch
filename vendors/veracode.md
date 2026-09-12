@@ -1,9 +1,9 @@
 # Veracode outage history — every incident their status page has posted
 
-**48 Veracode incidents on record** spanning **2025-08-13** to **2026-09-09**. Status page:
+**49 Veracode incidents on record** spanning **2025-08-13** to **2026-09-12**. Status page:
 [https://status.veracode.com](https://status.veracode.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **2.8 h** across 48 incidents where Veracode posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Scheduled maintenance](https://stspg.io/xsr0pjpbs29r) | maintenance | — |
 | 2026-09-09 | [Analytics Degraded](https://stspg.io/qdc1mcg79367) | none | 71 min |
 | 2026-09-02 | [Static scan processing delays](https://stspg.io/n6zm1pnhndcs) | none | 24.4 h |
 | 2026-09-01 | [Reporting APIs are not working.](https://stspg.io/ks6mc2xmww1q) | none | 31 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-01 | [Policy Service DIsruption](https://stspg.io/bw9gq4x1yjdr) | none | 30 min |
 | 2026-05-26 | [Veracode Platform web login unavailable](https://stspg.io/9vf9k63tzl0r) | none | 3.2 h |
 | 2026-05-19 | [Static scans are delayed](https://stspg.io/1dsb2rdqvyk2) | none | 3.1 h |
-| 2026-04-24 | [Package Firewall UI unresponsive](https://stspg.io/grbpm50rff9d) | minor | 82 min |
 
-Newest 15 of 48. Full machine-readable history:
+Newest 15 of 49. Full machine-readable history:
 [`history/veracode.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/veracode.json).
 
 ## What is counted, and what is not
 
-Of 48 recorded incidents, **48** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 49 recorded incidents, **48** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -2,7 +2,7 @@
 
 **46 Huntress incidents on record** spanning **2025-09-02** to **2026-08-31**. Status page:
 [https://huntressstatus.statuspage.io](https://huntressstatus.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **3.2 h** across 45 incidents where Huntress posted both a start and a resolve time.

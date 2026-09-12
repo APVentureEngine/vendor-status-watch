@@ -2,7 +2,7 @@
 
 **7 Files incidents on record** spanning **2025-11-25** to **2026-06-05**. Status page:
 [https://status.files.com](https://status.files.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **7** Files incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

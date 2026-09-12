@@ -95,15 +95,29 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "major"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
 "history_backfilled": false,
-"incidents": {},
-"last_checked": "2026-09-11T12:29:42Z",
-"last_description": "Operational",
+"incidents": {
+"6a9af7840d937e47612f7637": {
+"first_seen": "2026-09-12T12:30:15Z",
+"impact": "maintenance",
+"last_seen": "2026-09-12T12:30:15Z",
+"started_at": "2026-09-04T16:53:24.611Z",
+"state": "maintenance",
+"title": "Sectigo Certificate Manager (SCM) 26.9 Release is scheduled for Saturday September 12th",
+"url": "https://sectigo.status.io"
+}
+},
+"last_checked": "2026-09-12T12:30:15Z",
+"last_description": "Service Disruption",
 "last_error": null,
-"last_state": "ok",
+"last_state": "major",
 "platform": "status.io",
 "slug": "sectigo",
 "status_url": "https://sectigo.status.io",

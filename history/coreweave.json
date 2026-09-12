@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "maintenance"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "maintenance"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -125,14 +129,14 @@
 "6a98ccb0495e3647627df34f": {
 "first_seen": "2026-09-09T12:30:34Z",
 "impact": "maintenance",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "started_at": "2026-09-03T01:26:08.984Z",
 "state": "maintenance",
 "title": "Scheduled CoreWeave Maintenance - US-EAST-06A",
 "url": "https://status.coreweave.com"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "Planned Maintenance",
 "last_error": null,
 "last_state": "maintenance",

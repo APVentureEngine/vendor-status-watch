@@ -1,11 +1,11 @@
 # Flexera outage history — every incident their status page has posted
 
-**56 Flexera incidents on record** spanning **2026-03-31** to **2026-09-11**. Status page:
+**57 Flexera incidents on record** spanning **2026-03-31** to **2026-09-12**. Status page:
 [https://status.flexera.com](https://status.flexera.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`partial`**.
 
-Median incident length: **3.0 h** across 51 incidents where Flexera posted both a start and a resolve time.
+Median incident length: **2.9 h** across 52 incidents where Flexera posted both a start and a resolve time.
 
 This page republishes what Flexera posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Flexera One - IT asset management- EU - Intermittent Black/Pink screen error](https://stspg.io/605jl64jldbp) | major | 0 min |
 | 2026-09-11 | [Flexera One - IT Asset Management - APAC & EU - Inventory .ZIP File Processing Delays](https://stspg.io/zmmg3mrj8myh) | major | — |
 | 2026-09-08 | [Flexera One – IT Asset Management – EU – Reconciliation Failures](https://stspg.io/3q38jfcj7h35) | major | — |
 | 2026-09-08 | [Flexera One - IT Asset Management - APAC - Service Unavailable](https://stspg.io/zj8b8chwd3h6) | critical | 2.2 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-06 | [Flexera Support Cases - Delayed or Failed Email Notifications for Case Updates](https://stspg.io/gc2f663xhz0z) | minor | 7.0 days |
 | 2026-08-05 | [Flexera One - IT Asset management -  APAC - Data loading failures/slowness](https://stspg.io/z0fwqsdk6mtg) | major | 0 min |
 | 2026-08-02 | [Flexera One- IT Asset management - EU  - Inventory upload and Beacon communication issues](https://stspg.io/bqxvlf3421k1) | major | 28.2 h |
-| 2026-07-28 | [Software Vulnerability Research (SVR) - Service Disruption](https://stspg.io/sy76mhkrh4t3) | critical | 5.3 h |
 
-Newest 15 of 56. Full machine-readable history:
+Newest 15 of 57. Full machine-readable history:
 [`history/flexera.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/flexera.json).
 
 ## What is counted, and what is not
 
-Of 56 recorded incidents, **51** have a usable length. Excluded:
+Of 57 recorded incidents, **52** have a usable length. Excluded:
 3 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

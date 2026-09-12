@@ -1,11 +1,11 @@
 # Kinghost outage history — every incident their status page has posted
 
-**50 Kinghost incidents on record** spanning **2025-09-24** to **2026-09-01**. Status page:
+**51 Kinghost incidents on record** spanning **2025-09-24** to **2026-09-11**. Status page:
 [https://status.kinghost.net.br](https://status.kinghost.net.br) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **76 min** across 49 incidents where Kinghost posted both a start and a resolve time.
+Median incident length: **72 min** across 50 incidents where Kinghost posted both a start and a resolve time.
 
 This page republishes what Kinghost posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Acesso ao painel de controle pode apresentar erro de autenticação.](https://stspg.io/b0tlv9v6bhzw) | minor | 24 min |
 | 2026-09-01 | [VPS - Instabilidade no Acesso](https://stspg.io/zsdssxtvbf8q) | minor | 96 min |
 | 2026-08-21 | [E-mail – Instabilidade no acesso](https://stspg.io/zh3fy365zmjv) | minor | 114 min |
 | 2026-08-20 | [E-mail – Instabilidade no acesso](https://stspg.io/kchpmsscxz99) | minor | 3.4 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-09 | [E-mail - Dificuldade de acesso ao Webmail e gerenciadores](https://stspg.io/97xp99h5c994) | minor | 2.1 h |
 | 2026-06-30 | [Novidade: Serviços desativados por atraso no pagamento? Reative agora!](https://stspg.io/h3mmchj5hcps) | none | — |
 | 2026-06-12 | [Dificuldade no atendimento através do WhatsApp](https://stspg.io/g86h7cbyy7gk) | none | 2.1 h |
-| 2026-06-03 | [Instabilidade no Atendimento através do Chat e WhatsApp](https://stspg.io/38cpfqxl4jlm) | minor | 25 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/kinghost.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/kinghost.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

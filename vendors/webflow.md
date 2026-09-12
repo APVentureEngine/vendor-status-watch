@@ -1,11 +1,11 @@
 # Webflow outage history — every incident their status page has posted
 
-**43 Webflow incidents on record** spanning **2025-08-08** to **2026-08-25**. Status page:
+**42 Webflow incidents on record** spanning **2025-08-18** to **2026-08-25**. Status page:
 [https://status.webflow.com](https://status.webflow.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.4 h** across 43 incidents where Webflow posted both a start and a resolve time.
+Median incident length: **2.4 h** across 42 incidents where Webflow posted both a start and a resolve time.
 
 This page republishes what Webflow posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-18 | [[RESOLVED] Reports of issues publishing for some customers](https://stspg.io/rhpp6h24b3gb) | minor | 3.9 h |
 | 2026-04-14 | [[RESOLVED] Reports of intermittent 5xx errors on some hosted sites and issues accessing Webflow services](https://stspg.io/0mdzjwg9253p) | major | 15.9 h |
 
-Newest 15 of 43. Full machine-readable history:
+Newest 15 of 42. Full machine-readable history:
 [`history/webflow.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/webflow.json).
 
 ## What is counted, and what is not
 
-Of 43 recorded incidents, **43** have a usable length. Excluded:
+Of 42 recorded incidents, **42** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

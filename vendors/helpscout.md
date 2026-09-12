@@ -1,11 +1,11 @@
 # HelpScout outage history — every incident their status page has posted
 
-**46 HelpScout incidents on record** spanning **2025-08-07** to **2026-08-31**. Status page:
+**45 HelpScout incidents on record** spanning **2025-09-09** to **2026-08-31**. Status page:
 [https://status.helpscout.com](https://status.helpscout.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **78 min** across 46 incidents where HelpScout posted both a start and a resolve time.
+Median incident length: **79 min** across 45 incidents where HelpScout posted both a start and a resolve time.
 
 This page republishes what HelpScout posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-27 | [Connection Issues](https://stspg.io/lmkwjyz30fqk) | minor | 10 min |
 | 2026-04-21 | [AI Feature Issue](https://stspg.io/5n4qb39krz4r) | none | 2.2 h |
 
-Newest 15 of 46. Full machine-readable history:
+Newest 15 of 45. Full machine-readable history:
 [`history/helpscout.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/helpscout.json).
 
 ## What is counted, and what is not
 
-Of 46 recorded incidents, **46** have a usable length. Excluded:
+Of 45 recorded incidents, **45** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **44 TeraSwitch incidents on record** spanning **2025-08-08** to **2026-09-04**. Status page:
 [https://www.teraswitchstatus.com](https://www.teraswitchstatus.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **14.6 h** across 44 incidents where TeraSwitch posted both a start and a resolve time.

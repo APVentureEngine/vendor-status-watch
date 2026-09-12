@@ -1,11 +1,11 @@
 # ClearlyIP outage history — every incident their status page has posted
 
-**28 ClearlyIP incidents on record** spanning **2025-08-13** to **2026-09-01**. Status page:
+**29 ClearlyIP incidents on record** spanning **2025-08-13** to **2026-09-11**. Status page:
 [https://status.clearlyip.com](https://status.clearlyip.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **116 min** across 28 incidents where ClearlyIP posted both a start and a resolve time.
+Median incident length: **105 min** across 29 incidents where ClearlyIP posted both a start and a resolve time.
 
 This page republishes what ClearlyIP posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Reports of outbound call failures with Clearly Cloud USA](https://stspg.io/j6fx9385zz09) | minor | 51 min |
 | 2026-09-01 | [Outbound Calls to a Small Percentage of Rate Centers are Failing](https://stspg.io/pf84l0ly544z) | minor | 36.9 h |
 | 2026-08-25 | [Delayed Mail Delivery to Microsoft Mail Services](https://stspg.io/zpdhkswlqqd7) | minor | 41.4 h |
 | 2026-08-21 | [Intermittent call quality issues with Inbound Calls](https://stspg.io/8rm0wz75j1hv) | minor | 80 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-03 | [Issues with Grandstream devices with XCast Labs](https://stspg.io/4tcwqvlyk2k6) | minor | 35.0 days |
 | 2026-03-19 | [Issues with portals and CDM](https://stspg.io/b4s8fm8szht2) | minor | 97 min |
 | 2026-03-13 | [Outbound calling issues for some clients](https://stspg.io/1zr9ypf6ntz6) | minor | 87 min |
-| 2026-02-19 | [Call Panel inoperative](https://stspg.io/18tkfwplp8pc) | major | 2.1 h |
 
-Newest 15 of 28. Full machine-readable history:
+Newest 15 of 29. Full machine-readable history:
 [`history/clearlyip.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/clearlyip.json).
 
 ## What is counted, and what is not
 
-Of 28 recorded incidents, **28** have a usable length. Excluded:
+Of 29 recorded incidents, **29** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

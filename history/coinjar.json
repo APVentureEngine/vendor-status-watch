@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-06-23T18:29:27.111+10:00",
 "resolved_inferred": false,
 "started_at": "2026-06-23T17:16:34.309+10:00",
@@ -117,7 +121,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-08-26T18:56:59.954+10:00",
 "resolved_inferred": false,
 "started_at": "2025-08-26T17:01:31.023+10:00",
@@ -130,7 +134,7 @@
 "body": "This incident has been resolved. Please contact support@coinjar.com if you need assistance with an impacted transaction.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-06-04T13:56:10.169+10:00",
 "resolved_inferred": false,
 "started_at": "2026-06-04T11:58:40.773+10:00",
@@ -143,7 +147,7 @@
 "body": "This incident has been resolved. Please contact support@coinjar.com if you experience any other issues.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-12-24T10:52:37.871+11:00",
 "resolved_inferred": false,
 "started_at": "2025-12-24T09:55:46.000+11:00",
@@ -153,7 +157,7 @@
 "url": "https://stspg.io/z8b4vdrn0y6l"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

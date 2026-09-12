@@ -3,9 +3,21 @@
 "slug": "apigee",
 "platform": "statuspage",
 "status_url": "https://status.apigee.com",
-"last_checked": "2026-09-11T12:29:42Z",
-"last_state": "ok",
+"last_checked": "2026-09-12T12:30:15Z",
+"last_state": "maintenance",
 "history_backfilled": true,
 "first_watched": "2026-09-04T07:06:16Z",
-"incidents": []
+"incidents": [
+{
+"body": "Apigee Status Page",
+"first_seen": "2026-09-12T12:30:15Z",
+"impact": "maintenance",
+"last_seen": "2026-09-12T12:30:15Z",
+"started_at": "2026-09-11T11:00:00.000-07:00",
+"state": "maintenance",
+"title": "Apigee Status Page Decommissioning",
+"updated_at": "2026-09-11T11:13:23.416-07:00",
+"url": "https://stspg.io/9r1x7s003tmx"
+}
+]
 }

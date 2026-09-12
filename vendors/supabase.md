@@ -2,10 +2,10 @@
 
 **52 Supabase incidents on record** spanning **2026-06-23** to **2026-09-10**. Status page:
 [https://status.supabase.com](https://status.supabase.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **2.0 h** across 49 incidents where Supabase posted both a start and a resolve time.
+Median incident length: **2.0 h** across 50 incidents where Supabase posted both a start and a resolve time.
 
 This page republishes what Supabase posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-10 | [Unresponsive Projects](https://stspg.io/jqy7hh45k7l1) | major | — |
+| 2026-09-10 | [Unresponsive Projects](https://stspg.io/jqy7hh45k7l1) | major | 27.7 h |
 | 2026-09-09 | [Brief connection disruptions in us-east-1 (N. Virginia)](https://stspg.io/yl1dl21j7xd8) | minor | 0 min |
 | 2026-09-04 | [Project Lifecycle Actions Showing increased error rates across all regions](https://stspg.io/34wlkdly7fxp) | critical | 8.0 h |
 | 2026-09-01 | [User unable to log in to Supabase Dashboard](https://stspg.io/s2mz940kv44d) | critical | 109 min |
@@ -35,8 +35,8 @@ Newest 15 of 52. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 3 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 52 recorded incidents, **50** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

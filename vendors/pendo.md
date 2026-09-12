@@ -2,7 +2,7 @@
 
 **22 Pendo incidents on record** spanning **2025-10-07** to **2026-09-02**. Status page:
 [https://status.pendo.io](https://status.pendo.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.7 h** across 22 incidents where Pendo posted both a start and a resolve time.

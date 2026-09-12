@@ -2,7 +2,7 @@
 
 **6 GoodTime incidents on record** spanning **2025-10-09** to **2026-07-30**. Status page:
 [https://status.goodtime.io](https://status.goodtime.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **6** GoodTime incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

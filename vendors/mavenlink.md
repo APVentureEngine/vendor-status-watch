@@ -1,9 +1,9 @@
 # Mavenlink outage history — every incident their status page has posted
 
-**21 Mavenlink incidents on record** spanning **2025-09-15** to **2026-08-31**. Status page:
+**22 Mavenlink incidents on record** spanning **2025-09-15** to **2026-09-11**. Status page:
 [https://status.mavenlink.com](https://status.mavenlink.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **102 min** across 20 incidents where Mavenlink posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Kantata OX API - Enhanced Security Testing Window](https://stspg.io/v32jc3xpv2qy) | maintenance | — |
 | 2026-08-31 | [Data Processing Delays - Insights Data Exports](https://stspg.io/k25ltkyg47bf) | major | 90 min |
 | 2026-08-18 | [Subscribed Event API: Delay in event generation](https://stspg.io/fm2z0r7rnd1n) | minor | 2.0 h |
 | 2026-07-26 | [Delayed Insights Loads](https://stspg.io/294kbr2bjd2x) | minor | 27 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-06 | [Investigating Issues with MBridge Syncing Data](https://stspg.io/l14fvhzhvq9k) | minor | 58 min |
 | 2026-04-01 | [Delay in Audit Log Data](https://stspg.io/64cq1zzyjjn1) | none | 3.5 h |
 | 2026-03-26 | [Pulse Surveys Unavailable](https://stspg.io/4qtql79vx9mc) | critical | 75 min |
-| 2026-01-14 | [Elevated Errors](https://stspg.io/pkjfqt6lttmk) | minor | 2.7 h |
 
-Newest 15 of 21. Full machine-readable history:
+Newest 15 of 22. Full machine-readable history:
 [`history/mavenlink.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/mavenlink.json).
 
 ## What is counted, and what is not
 
-Of 21 recorded incidents, **20** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 22 recorded incidents, **20** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

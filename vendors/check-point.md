@@ -2,7 +2,7 @@
 
 **51 Check Point incidents on record** spanning **2026-02-10** to **2026-09-06**. Status page:
 [https://status.checkpoint.com](https://status.checkpoint.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **76 min** across 42 incidents where Check Point posted both a start and a resolve time.

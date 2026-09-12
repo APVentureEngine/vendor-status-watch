@@ -2,8 +2,8 @@
 
 **55 Gandi incidents on record** spanning **2025-08-25** to **2026-09-10**. Status page:
 [https://status.gandi.net](https://status.gandi.net) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`ok`**.
 
 Median incident length: **2.6 h** across 52 incidents where Gandi posted both a start and a resolve time.
 

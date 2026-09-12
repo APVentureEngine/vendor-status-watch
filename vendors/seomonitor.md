@@ -1,11 +1,11 @@
 # SEOmonitor outage history — every incident their status page has posted
 
-**50 SEOmonitor incidents on record** spanning **2025-08-25** to **2026-08-24**. Status page:
+**51 SEOmonitor incidents on record** spanning **2025-08-25** to **2026-09-12**. Status page:
 [https://status.seomonitor.com](https://status.seomonitor.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **6.3 h** across 50 incidents where SEOmonitor posted both a start and a resolve time.
+Median incident length: **4.7 h** across 51 incidents where SEOmonitor posted both a start and a resolve time.
 
 This page republishes what SEOmonitor posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Delays in processing daily ranks](https://stspg.io/sb9tyh4twm7b) | minor | 9 min |
 | 2026-08-24 | [Delays in processing daily ranks](https://stspg.io/f4q03mv2bvqx) | minor | 46.8 h |
 | 2026-07-29 | [Delay in processing AIO citation data for Mobile](https://stspg.io/fvthqpp0p71b) | minor | 5.9 days |
 | 2026-07-27 | [Delays in processing daily ranks](https://stspg.io/xpm18sddh6jh) | minor | 29.8 days |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-15 | [Slow loading times (or downtime) across the platform](https://stspg.io/99sb028f9rs2) | minor | 5 min |
 | 2026-06-11 | [Dellays in article generation](https://stspg.io/9qhkjw56bzyk) | minor | 47 min |
 | 2026-06-10 | [Slow loading times (or downtime) across the platform](https://stspg.io/4657v0gc3ll6) | minor | 25 min |
-| 2026-05-13 | [Slow loading times (or downtime) across the platform](https://stspg.io/tkvjrlnrqc80) | minor | 5 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/seomonitor.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/seomonitor.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **50** have a usable length. Excluded:
+Of 51 recorded incidents, **51** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

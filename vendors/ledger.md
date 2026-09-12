@@ -2,7 +2,7 @@
 
 **55 Ledger incidents on record** spanning **2026-06-03** to **2026-09-09**. Status page:
 [https://status.ledger.com](https://status.ledger.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **28 min** across 53 incidents where Ledger posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **51 Ada incidents on record** spanning **2025-11-21** to **2026-09-07**. Status page:
 [https://status.ada.support](https://status.ada.support) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **77 min** across 51 incidents where Ada posted both a start and a resolve time.

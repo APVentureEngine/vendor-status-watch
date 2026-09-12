@@ -1,11 +1,11 @@
 # Ivanti Cloud outage history — every incident their status page has posted
 
-**61 Ivanti Cloud incidents on record** spanning **2026-05-29** to **2026-09-09**. Status page:
+**62 Ivanti Cloud incidents on record** spanning **2026-05-29** to **2026-09-11**. Status page:
 [https://status.ivanticloud.com](https://status.ivanticloud.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **19.3 h** across 52 incidents where Ivanti Cloud posted both a start and a resolve time.
+Median incident length: **18.8 h** across 53 incidents where Ivanti Cloud posted both a start and a resolve time.
 
 This page republishes what Ivanti Cloud posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Ivanti Neurons Platform - Users people page is saying unavailable - 1940141](https://stspg.io/j3p122cxlsyz) | minor | 3.2 h |
 | 2026-09-09 | [LDZ PRD Workflow Performance Degradation](https://stspg.io/qwhzqksx8nwy) | minor | 2.3 h |
 | 2026-09-09 | [Ivanti Neurons for ITSM - Intermittent performance - IRW TRY](https://stspg.io/5dmn2hkprxg0) | minor | 19.8 h |
 | 2026-09-08 | [Neurons MLU AKS Upgrade - SRE 1977672](https://stspg.io/kvj8sd92z8qc) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [Ivanti Neurons for MDM - degradation - https://ap1.mobileiron.com/- 2007380](https://stspg.io/zks75hxyb9mk) | minor | 2.5 h |
 | 2026-09-02 | [IRW PRD - Workflow Slowness](https://stspg.io/w2cfttnptsrd) | minor | 7.9 h |
 | 2026-08-30 | [BIDS Connectivity issue on NSZ PRD](https://stspg.io/9syz3gm4tnx7) | none | 3.7 h |
-| 2026-08-27 | [LDZ Prod - Workflow Delays](https://stspg.io/552lxd75ss9r) | minor | 3.0 h |
 
-Newest 15 of 61. Full machine-readable history:
+Newest 15 of 62. Full machine-readable history:
 [`history/ivanti-cloud.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/ivanti-cloud.json).
 
 ## What is counted, and what is not
 
-Of 61 recorded incidents, **52** have a usable length. Excluded:
+Of 62 recorded incidents, **53** have a usable length. Excluded:
 9 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -1,9 +1,9 @@
 # Atlassian Support outage history — every incident their status page has posted
 
-**11 Atlassian Support incidents on record** spanning **2025-10-06** to **2026-05-14**. Status page:
+**12 Atlassian Support incidents on record** spanning **2025-10-06** to **2026-09-11**. Status page:
 [https://support.status.atlassian.com](https://support.status.atlassian.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Only **11** Atlassian Support incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Atlassian Community Forum read-only mode for maintenance](https://stspg.io/glfp2bfmbppr) | maintenance | — |
 | 2026-05-14 | [Users experiencing issues accessing multiple Atlassian products](https://stspg.io/ycypwk2gvz95) | critical | 104 min |
 | 2026-05-08 | [Multiple Atlassian services are experiencing issues](https://stspg.io/sk0lcf8f0skk) | minor | 30 min |
 | 2026-05-02 | [The Work Item view experience of Jira is restored](https://stspg.io/5bl24cvpgwpw) | critical | 69 min |
@@ -26,13 +27,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-08 | [Loom Users on Chrome Extension Encountering Video Saving Delays](https://stspg.io/c4m1g48r2sx8) | minor | 21.6 h |
 | 2025-10-06 | [Visibility of Support tickets and uploading attachments in Atlassian support portal is partially impacted](https://stspg.io/nkhtlldhm8fr) | major | 2.0 days |
 
-Newest 11 of 11. Full machine-readable history:
+Newest 12 of 12. Full machine-readable history:
 [`history/atlassian-support.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/atlassian-support.json).
 
 ## What is counted, and what is not
 
-Of 11 recorded incidents, **11** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 12 recorded incidents, **11** have a usable length. Excluded:
+1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

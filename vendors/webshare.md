@@ -2,7 +2,7 @@
 
 **25 Webshare incidents on record** spanning **2025-12-14** to **2026-07-28**. Status page:
 [https://status.webshare.io](https://status.webshare.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **45 min** across 25 incidents where Webshare posted both a start and a resolve time.

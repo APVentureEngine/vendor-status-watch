@@ -1,11 +1,11 @@
 # Packet outage history — every incident their status page has posted
 
-**32 Packet incidents on record** spanning **2025-08-08** to **2026-08-17**. Status page:
+**31 Packet incidents on record** spanning **2025-08-08** to **2026-08-17**. Status page:
 [http://status.packet.net](http://status.packet.net) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **76 min** across 32 incidents where Packet posted both a start and a resolve time.
+Median incident length: **80 min** across 31 incidents where Packet posted both a start and a resolve time.
 
 This page republishes what Packet posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-19 | [DC1 \| Equinix Maintenance CHG0111322](https://stspg.io/5lm41gg4qzn0) | none | 2.0 h |
 | 2025-12-02 | [DC13 Network Connectivity Issue](https://stspg.io/wzsy0lt8qwqw) | minor | 80 min |
 
-Newest 15 of 32. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/packet.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/packet.json).
 
 ## What is counted, and what is not
 
-Of 32 recorded incidents, **32** have a usable length. Excluded:
+Of 31 recorded incidents, **31** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

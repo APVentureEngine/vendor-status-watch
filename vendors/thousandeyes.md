@@ -1,11 +1,11 @@
 # ThousandEyes outage history — every incident their status page has posted
 
-**54 ThousandEyes incidents on record** spanning **2026-01-27** to **2026-09-11**. Status page:
+**55 ThousandEyes incidents on record** spanning **2026-01-27** to **2026-09-11**. Status page:
 [https://status.thousandeyes.com](https://status.thousandeyes.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`maintenance`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **4.6 h** across 47 incidents where ThousandEyes posted both a start and a resolve time.
+Median incident length: **4.5 h** across 48 incidents where ThousandEyes posted both a start and a resolve time.
 
 This page republishes what ThousandEyes posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Issues with Custom Webhook Integrations](https://stspg.io/wfxfj5wv6r7g) | none | 2.5 h |
 | 2026-09-11 | [Network Maintenance in Las Vegas, NV](https://stspg.io/nsr9rnhspj4r) | maintenance | — |
 | 2026-09-08 | [Degradation in BGP Private Monitors in US1 Region](https://stspg.io/0sv9mfsvhr3n) | minor | 6.3 h |
 | 2026-09-05 | [Network Maintenance in Medellin, Colombia (Claro)](https://stspg.io/41kvz5wjprzs) | maintenance | — |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-07 | [Service Degradation Affecting Logins in US Regions](https://stspg.io/kyl4vm2qb4s4) | minor | 4.9 days |
 | 2026-08-06 | [Network outage in Frankfurt, Germany (Webex Calling)](https://stspg.io/bvdd6p8qbdv1) | maintenance | — |
 | 2026-07-24 | [Service Degradation Affecting Test Views Load Times](https://stspg.io/cxvrl9cbz3z0) | minor | 14.9 days |
-| 2026-07-23 | [Issues with Dashboard Widgets in the US1 Region](https://stspg.io/w60g5ljsk713) | minor | 3.1 h |
 
-Newest 15 of 54. Full machine-readable history:
+Newest 15 of 55. Full machine-readable history:
 [`history/thousandeyes.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/thousandeyes.json).
 
 ## What is counted, and what is not
 
-Of 54 recorded incidents, **47** have a usable length. Excluded:
+Of 55 recorded incidents, **48** have a usable length. Excluded:
 6 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

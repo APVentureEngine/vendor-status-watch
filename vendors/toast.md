@@ -2,7 +2,7 @@
 
 **51 Toast incidents on record** spanning **2025-08-23** to **2026-09-09**. Status page:
 [https://status.toasttab.com](https://status.toasttab.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **62 min** across 51 incidents where Toast posted both a start and a resolve time.

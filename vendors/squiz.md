@@ -1,11 +1,11 @@
 # Squiz outage history — every incident their status page has posted
 
-**19 Squiz incidents on record** spanning **2025-08-08** to **2026-09-10**. Status page:
+**18 Squiz incidents on record** spanning **2025-09-11** to **2026-09-10**. Status page:
 [https://status.squiz.cloud](https://status.squiz.cloud) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Only **18** Squiz incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
+Only **17** Squiz incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what Squiz posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-20 | [DXP Degradation](https://stspg.io/74lckvkjk3dt) | critical | 15.8 h |
 | 2025-10-20 | [AU DXP Component Issue](https://stspg.io/fqyrdrj42fr0) | minor | 51 min |
 
-Newest 15 of 19. Full machine-readable history:
+Newest 15 of 18. Full machine-readable history:
 [`history/squiz.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/squiz.json).
 
 ## What is counted, and what is not
 
-Of 19 recorded incidents, **18** have a usable length. Excluded:
+Of 18 recorded incidents, **17** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

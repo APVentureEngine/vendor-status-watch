@@ -1,11 +1,11 @@
 # NPM outage history — every incident their status page has posted
 
-**27 NPM incidents on record** spanning **2025-08-07** to **2026-09-04**. Status page:
+**26 NPM incidents on record** spanning **2025-08-26** to **2026-09-04**. Status page:
 [https://status.npmjs.org](https://status.npmjs.org) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 27 incidents where NPM posted both a start and a resolve time.
+Median incident length: **2.5 h** across 26 incidents where NPM posted both a start and a resolve time.
 
 This page republishes what NPM posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-30 | [delay and errors viewing packages and submitting web based authentication](https://stspg.io/yp6c3lqqsfk5) | minor | 64 min |
 | 2026-03-25 | [Issue with npm website and login.](https://stspg.io/64sps5l1qm0t) | major | 46 min |
 
-Newest 15 of 27. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/npm.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/npm.json).
 
 ## What is counted, and what is not
 
-Of 27 recorded incidents, **27** have a usable length. Excluded:
+Of 26 recorded incidents, **26** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

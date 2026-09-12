@@ -1,8 +1,8 @@
 # Vonage API outage history — every incident their status page has posted
 
-**59 Vonage API incidents on record** spanning **2026-07-22** to **2026-09-11**. Status page:
+**60 Vonage API incidents on record** spanning **2026-07-22** to **2026-09-12**. Status page:
 [https://vonageapi.statuspage.io](https://vonageapi.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **3.0 h** across 53 incidents where Vonage API posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [France Silent Authentication - Service degradation affecting the Bouygues Telecom network](https://stspg.io/9vcfthchgmgc) | minor | — |
 | 2026-09-11 | [Belgium Voice - Degradation towards all network affecting Long Virtual Numbers](https://stspg.io/vv290blghhh3) | minor | — |
 | 2026-09-10 | [USA Silent Authentication - Planned maintenance affecting the AT&T network](https://stspg.io/05rcgj7h2wql) | maintenance | — |
 | 2026-09-09 | [Australia Voice - Maintenance affecting Long Virtual Numbers](https://stspg.io/yt6rn0xncmjj) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-02 | [Thailand SMS - Delivery Degradation of Pre-Registered brands towards all networks](https://stspg.io/v71zbtw09lk7) | minor | 6.3 h |
 | 2026-09-02 | [Spain SMS - Delivery degradation affecting messages from a subset of LVNs](https://stspg.io/cn49ps3khgtn) | minor | 4.1 h |
 | 2026-09-01 | [Mexico Voice - calls affecting from/to subset of our Vonage LVNs](https://stspg.io/nv8jywc9d8yq) | minor | 14.1 h |
-| 2026-09-01 | [USA MMS - Latency affecting MMS messages sent towards AT&T network](https://stspg.io/p3lfmwynxwgf) | minor | 9.4 h |
 
-Newest 15 of 59. Full machine-readable history:
+Newest 15 of 60. Full machine-readable history:
 [`history/vonage-api.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/vonage-api.json).
 
 ## What is counted, and what is not
 
-Of 59 recorded incidents, **53** have a usable length. Excluded:
-5 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 60 recorded incidents, **53** have a usable length. Excluded:
+5 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

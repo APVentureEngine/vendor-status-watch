@@ -2,7 +2,7 @@
 
 **52 Amplitude incidents on record** spanning **2025-11-17** to **2026-09-09**. Status page:
 [https://status.amplitude.com](https://status.amplitude.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **100 min** across 52 incidents where Amplitude posted both a start and a resolve time.

@@ -1,8 +1,8 @@
 # Webroot outage history — every incident their status page has posted
 
-**56 Webroot incidents on record** spanning **2026-05-21** to **2026-09-09**. Status page:
+**57 Webroot incidents on record** spanning **2026-05-21** to **2026-09-12**. Status page:
 [https://status.webroot.com](https://status.webroot.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`partial`**.
 
 Median incident length: **3.9 h** across 51 incidents where Webroot posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [System Maintenance scheduled for 12 September 2026](https://stspg.io/p4vqg1vx7hxm) | maintenance | — |
 | 2026-09-09 | [Frankfurt EU8 experienced service degradation](https://stspg.io/6wk9q6csp1b1) | minor | 24 min |
 | 2026-09-07 | [IM3970459 - Certificate Renewal](https://stspg.io/rwtlr3nwnbjk) | maintenance | — |
 | 2026-09-06 | [Singapore SG20 Application Maintenance scheduled for 6 September 2026](https://stspg.io/pp7x6bncb6bf) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-13 | [Zix - Secure Cloud Portal - Microsoft 365 - Unable to assign licensing](https://stspg.io/2j89qzpw7scq) | none | 21.8 h |
 | 2026-08-13 | [Cloud Fax services experienced delays in processing of fax files](https://stspg.io/8238ndf99z1l) | minor | 113 min |
 | 2026-08-09 | [Enterprise Service Management might have experienced issues accessing applications.](https://stspg.io/13xx9gnzqc3s) | minor | 17.2 h |
-| 2026-08-08 | ["Unknown Error" in CP Portal](https://stspg.io/vnn2f10l5p32) | major | 45.9 h |
 
-Newest 15 of 56. Full machine-readable history:
+Newest 15 of 57. Full machine-readable history:
 [`history/webroot.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/webroot.json).
 
 ## What is counted, and what is not
 
-Of 56 recorded incidents, **51** have a usable length. Excluded:
-4 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 57 recorded incidents, **51** have a usable length. Excluded:
+5 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

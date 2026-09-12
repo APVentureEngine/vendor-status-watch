@@ -1,11 +1,11 @@
 # Apify outage history — every incident their status page has posted
 
-**32 Apify incidents on record** spanning **2025-08-07** to **2026-08-20**. Status page:
+**31 Apify incidents on record** spanning **2025-09-09** to **2026-08-20**. Status page:
 [https://status.apify.com](https://status.apify.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.5 h** across 32 incidents where Apify posted both a start and a resolve time.
+Median incident length: **2.5 h** across 31 incidents where Apify posted both a start and a resolve time.
 
 This page republishes what Apify posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-01 | [Degraded Console UI and API performance](https://stspg.io/11jlgswb7lq0) | minor | 33 min |
 | 2026-04-29 | [Outage of API and Actors](https://stspg.io/l02d7hkr1lr3) | major | 2.6 h |
 
-Newest 15 of 32. Full machine-readable history:
+Newest 15 of 31. Full machine-readable history:
 [`history/apify.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/apify.json).
 
 ## What is counted, and what is not
 
-Of 32 recorded incidents, **32** have a usable length. Excluded:
+Of 31 recorded incidents, **31** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

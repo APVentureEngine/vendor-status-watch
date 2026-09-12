@@ -2,7 +2,7 @@
 
 **50 Cloudways incidents on record** spanning **2025-11-18** to **2026-09-01**. Status page:
 [http://status.cloudways.com](http://status.cloudways.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **11.7 h** across 50 incidents where Cloudways posted both a start and a resolve time.

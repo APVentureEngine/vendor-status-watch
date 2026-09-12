@@ -1,11 +1,11 @@
 # Plaid outage history — every incident their status page has posted
 
-**25 Plaid incidents on record** spanning **2026-05-21** to **2026-08-24**. Status page:
+**26 Plaid incidents on record** spanning **2026-05-21** to **2026-09-11**. Status page:
 [https://status.plaid.com](https://status.plaid.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **3.1 h** across 24 incidents where Plaid posted both a start and a resolve time.
+Median incident length: **3.3 h** across 25 incidents where Plaid posted both a start and a resolve time.
 
 This page republishes what Plaid posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | Statements API downtime | none | 5.3 h |
 | 2026-08-24 | Elevated API errors | minor | 15.6 h |
 | 2026-08-16 | Service Disruption Impacting Navy Federal Credit Union connections | minor | 3.6 h |
 | 2026-08-12 | Service Disruption Impacting Navy Federal Credit Union connections | none | 8.3 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-16 | Elevated dashboard.plaid.com error rates | major | 102 min |
 | 2026-07-12 | Elevated API errors | none | 2.9 h |
 | 2026-07-12 | Service Disruption Impacting Chase connections | major | 2 min |
-| 2026-07-11 | Service Disruption Impacting Wells Fargo connections | major | 19 min |
 
-Newest 15 of 25. Full machine-readable history:
+Newest 15 of 26. Full machine-readable history:
 [`history/plaid.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/plaid.json).
 
 ## What is counted, and what is not
 
-Of 25 recorded incidents, **24** have a usable length. Excluded:
+Of 26 recorded incidents, **25** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 1 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

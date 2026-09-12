@@ -1,9 +1,9 @@
 # LMAX outage history — every incident their status page has posted
 
-**17 LMAX incidents on record** spanning **2025-08-18** to **2026-09-10**. Status page:
+**18 LMAX incidents on record** spanning **2025-08-18** to **2026-09-12**. Status page:
 [https://status.lmax.com](https://status.lmax.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Only **15** LMAX incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Exchange Maintenance](https://stspg.io/f5y16w4hfs9x) | maintenance | — |
 | 2026-09-10 | [Digital UAT Maintenance](https://stspg.io/hmhj4zfxtn4y) | maintenance | — |
 | 2026-09-05 | [Exchange Maintenance](https://stspg.io/qjhxrvkf610l) | maintenance | — |
 | 2026-05-22 | [LMAX Perpetual Futures - Pricing Incident](https://stspg.io/7ybq6gqyxptw) | major | 2.5 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-12-12 | [PD #1525: Digital broker's custodian 2 integration has stopped detecting deposits after kit44 patch release.](https://stspg.io/cyl70n3dkpdn) | none | 35 min |
 | 2025-12-08 | [Java API rejections in London Professional](https://stspg.io/hlw7fnnqmxsv) | minor | 100 min |
 | 2025-11-18 | [DFX Trading Portal is unavailable](https://stspg.io/65qh0pc04tsp) | none | 42 min |
-| 2025-11-18 | [LMAX Global Trading platform down](https://stspg.io/cf75pgc4y8w4) | minor | 56 min |
 
-Newest 15 of 17. Full machine-readable history:
+Newest 15 of 18. Full machine-readable history:
 [`history/lmax.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/lmax.json).
 
 ## What is counted, and what is not
 
-Of 17 recorded incidents, **15** have a usable length. Excluded:
-2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 18 recorded incidents, **15** have a usable length. Excluded:
+3 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

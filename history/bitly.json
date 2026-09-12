@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "The 3rd party outage causing issues with transactional email sends has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-09-12T06:24:39.507-04:00",
 "resolved_inferred": false,
 "started_at": "2025-09-12T04:46:42.709-04:00",
@@ -117,7 +121,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-01-05T18:04:11.960-05:00",
 "resolved_inferred": false,
 "started_at": "2026-01-05T16:42:41.087-05:00",
@@ -130,7 +134,7 @@
 "body": "The outage of our 3rd party provider that was blocking new user sign ups has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "major",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-09-11T20:21:46.878-04:00",
 "resolved_inferred": false,
 "started_at": "2025-09-11T19:21:55.911-04:00",
@@ -143,7 +147,7 @@
 "body": "The issue has been identified and resolved. We will continue to monitor.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-03-16T16:20:51.503-04:00",
 "resolved_inferred": false,
 "started_at": "2026-03-16T15:42:56.737-04:00",
@@ -156,7 +160,7 @@
 "body": "The incident affecting availability of bitly.com has been resolved and the website is fully operational.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "critical",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-04-25T19:10:32.815-04:00",
 "resolved_inferred": false,
 "started_at": "2026-04-25T19:04:19.776-04:00",
@@ -169,7 +173,7 @@
 "body": "The incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "none",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-09-12T10:11:05.402-04:00",
 "resolved_inferred": false,
 "started_at": "2025-09-12T08:38:44.610-04:00",
@@ -182,7 +186,7 @@
 "body": "This incident has been resolved.",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2026-02-19T21:21:33.805-05:00",
 "resolved_inferred": false,
 "started_at": "2026-02-12T12:49:44.394-05:00",
@@ -192,7 +196,7 @@
 "url": "https://stspg.io/km4nbns6f15y"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

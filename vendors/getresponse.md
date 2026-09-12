@@ -1,11 +1,11 @@
 # GetResponse outage history — every incident their status page has posted
 
-**21 GetResponse incidents on record** spanning **2025-08-08** to **2026-05-08**. Status page:
+**20 GetResponse incidents on record** spanning **2025-10-13** to **2026-05-08**. Status page:
 [https://status.getresponse.com](https://status.getresponse.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **75 min** across 20 incidents where GetResponse posted both a start and a resolve time.
+Only **19** GetResponse incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
 This page republishes what GetResponse posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-18 | [Possible downgraded performance resulting from network partner global issue](https://stspg.io/739fxw2r36ms) | minor | 2.5 h |
 | 2025-10-31 | [Ongoing Service Issue affecting EU and US Self-Service Clients](https://stspg.io/w6n6cwrqtr4y) | minor | 4.9 h |
 
-Newest 15 of 21. Full machine-readable history:
+Newest 15 of 20. Full machine-readable history:
 [`history/getresponse.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/getresponse.json).
 
 ## What is counted, and what is not
 
-Of 21 recorded incidents, **20** have a usable length. Excluded:
+Of 20 recorded incidents, **19** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

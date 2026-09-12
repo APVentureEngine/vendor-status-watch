@@ -1,11 +1,11 @@
 # SignalFx US0 outage history — every incident their status page has posted
 
-**50 SignalFx US0 incidents on record** spanning **2025-11-06** to **2026-08-24**. Status page:
+**51 SignalFx US0 incidents on record** spanning **2025-11-06** to **2026-09-11**. Status page:
 [https://status.us0.signalfx.com](https://status.us0.signalfx.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.1 h** across 49 incidents where SignalFx US0 posted both a start and a resolve time.
+Median incident length: **2.1 h** across 50 incidents where SignalFx US0 posted both a start and a resolve time.
 
 This page republishes what SignalFx US0 posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Datapoints Being Dropped](https://stspg.io/b4k4r128cdrq) | minor | 14 min |
 | 2026-08-24 | [MetricTimeSeries Creation Delayed](https://stspg.io/q96h2ytqyvmr) | major | 71 min |
 | 2026-07-30 | [Splunk APM Monitoring MetricSets dropped](https://stspg.io/g23x9y51qlcq) | critical | 46 min |
 | 2026-07-24 | [Alert Notification Delayed](https://stspg.io/41kgx3wzbj82) | none | 0 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-02 | [Detectors Delayed](https://stspg.io/gg95ndkyskd5) | minor | 99 min |
 | 2026-07-02 | [Splunk APM Monitoring MetricSets delayed](https://stspg.io/vfk931qfcs2m) | major | 2.1 h |
 | 2026-07-01 | [A partial outage of Splunk APM Tag Spotlight](https://stspg.io/p6smzlb75x3f) | minor | 0 min |
-| 2026-06-25 | [Logs correlation experience from a APM TraceView page was broken.](https://stspg.io/s7rrmd12gw4c) | minor | 0 min |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/signalfx-us0.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/signalfx-us0.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
+Of 51 recorded incidents, **50** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

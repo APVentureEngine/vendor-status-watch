@@ -1,11 +1,11 @@
 # Otava outage history — every incident their status page has posted
 
-**49 Otava incidents on record** spanning **2025-08-08** to **2026-09-10**. Status page:
+**48 Otava incidents on record** spanning **2025-09-10** to **2026-09-10**. Status page:
 [https://status.otava.com](https://status.otava.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.3 days** across 47 incidents where Otava posted both a start and a resolve time.
+Median incident length: **2.2 days** across 46 incidents where Otava posted both a start and a resolve time.
 
 This page republishes what Otava posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -30,12 +30,12 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-13 | [Mid-Michigan (MM1) OTAVA® DRaaS powered by Veeam (OCC) Service Disruption - 7/13/2026](https://stspg.io/9wblns2d05vj) | minor | 21.8 h |
 | 2026-07-03 | [Metro-Detroit (MD1)- Utility Power Disruption - 7/3/2026](https://stspg.io/fjyjjmqkfwts) | none | 2.8 days |
 
-Newest 15 of 49. Full machine-readable history:
+Newest 15 of 48. Full machine-readable history:
 [`history/otava.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/otava.json).
 
 ## What is counted, and what is not
 
-Of 49 recorded incidents, **47** have a usable length. Excluded:
+Of 48 recorded incidents, **46** have a usable length. Excluded:
 2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

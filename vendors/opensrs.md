@@ -1,11 +1,11 @@
 # Opensrs outage history — every incident their status page has posted
 
-**48 Opensrs incidents on record** spanning **2025-08-19** to **2026-09-11**. Status page:
+**49 Opensrs incidents on record** spanning **2025-08-19** to **2026-09-11**. Status page:
 [https://www.opensrsstatus.com](https://www.opensrsstatus.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **87 min** across 48 incidents where Opensrs posted both a start and a resolve time.
+Median incident length: **88 min** across 49 incidents where Opensrs posted both a start and a resolve time.
 
 This page republishes what Opensrs posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Chat Support](https://stspg.io/5ttwvf8581rk) | minor | 12.1 h |
 | 2026-09-11 | [Cluster B - Webmail and IMAP/POP](https://stspg.io/l6789x32xpm9) | minor | 34 min |
 | 2026-09-01 | [Phone Support](https://stspg.io/k3b7w9h7m16n) | minor | 2.5 h |
 | 2026-08-11 | [Domains resolution on systemdns.com nameservers](https://stspg.io/h36bxfxpsytv) | minor | 5.7 h |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-05-12 | [Cluster A/B Sending Issue](https://stspg.io/825rnfknc1sy) | minor | 20 min |
 | 2026-04-23 | [Reseller Control Panel - Login issues](https://stspg.io/2gpbzshpk0jl) | minor | 31 min |
 | 2026-04-22 | [Cluster A Webmail Sending](https://stspg.io/15bxx9qmqm2c) | minor | 3 min |
-| 2026-04-19 | [Issue impacting .AI, .LLC and .center TLD domains](https://stspg.io/8lqsw06lg2qj) | minor | 86 min |
 
-Newest 15 of 48. Full machine-readable history:
+Newest 15 of 49. Full machine-readable history:
 [`history/opensrs.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/opensrs.json).
 
 ## What is counted, and what is not
 
-Of 48 recorded incidents, **48** have a usable length. Excluded:
+Of 49 recorded incidents, **49** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

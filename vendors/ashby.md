@@ -2,7 +2,7 @@
 
 **51 Ashby incidents on record** spanning **2025-10-21** to **2026-09-10**. Status page:
 [https://status.ashbyhq.com](https://status.ashbyhq.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **60 min** across 51 incidents where Ashby posted both a start and a resolve time.

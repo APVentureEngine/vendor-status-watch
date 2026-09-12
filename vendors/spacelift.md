@@ -1,8 +1,8 @@
 # Spacelift outage history — every incident their status page has posted
 
-**13 Spacelift incidents on record** spanning **2025-08-07** to **2026-07-29**. Status page:
+**13 Spacelift incidents on record** spanning **2025-10-17** to **2026-09-11**. Status page:
 [https://spacelift.statuspage.io](https://spacelift.statuspage.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **13** Spacelift incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Event Processing Delays](https://stspg.io/nlmyx6ssfn19) | major | 20 min |
 | 2026-07-29 | [AWS connectivity for runs using hashicorp/aws v6.57.0](https://stspg.io/jx79l6fcqgmp) | none | 2.1 h |
 | 2026-07-13 | [External symlink configuration issue](https://stspg.io/wbhfh8ml7ppl) | none | 3.0 days |
 | 2026-06-01 | [Runs failing on workers](https://stspg.io/81yrrmdk5fr2) | major | 2.3 h |
@@ -26,7 +27,6 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-11-18 | [Elevated GitHub Error Rate](https://stspg.io/wm6p8pls3q5q) | major | 48 min |
 | 2025-10-30 | [Event Processing Delays](https://stspg.io/hvdkdmbh235v) | minor | 55 min |
 | 2025-10-17 | [Elevated API Errors](https://stspg.io/3q2btcm8ggwl) | major | 11 min |
-| 2025-08-07 | [Spacelift unavailable](https://stspg.io/p9hnpths2vm4) | critical | 8 min |
 
 Newest 13 of 13. Full machine-readable history:
 [`history/spacelift.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/spacelift.json).

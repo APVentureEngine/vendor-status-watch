@@ -1,8 +1,8 @@
 # Vistage Worldwide, Inc. outage history — every incident their status page has posted
 
-**8 Vistage Worldwide, Inc. incidents on record** spanning **2025-09-30** to **2026-08-11**. Status page:
+**9 Vistage Worldwide, Inc. incidents on record** spanning **2025-09-30** to **2026-09-11**. Status page:
 [https://status.vistage.com](https://status.vistage.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Only **8** Vistage Worldwide, Inc. incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Minor disruption to speaker-related features in Chair App and MyVistage](https://stspg.io/1kff1vf6200r) | minor | — |
 | 2026-08-11 | [IT SERVICE ADVISORY: Vistage.com, MyVistage, ChairApp and other sites affected by Hosting Provider Issue](https://stspg.io/hg26dyfjjcxr) | critical | 5.3 h |
 | 2026-06-27 | [Chairapp certificate error preventing access](https://stspg.io/55nc1zrstw42) | major | 105 min |
 | 2026-06-01 | [Investigating MyVistage site connection error messages (unable to connect or unsupported protocol)](https://stspg.io/6d0hmfltssvn) | none | 13 min |
@@ -23,13 +24,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-10-31 | [IT SERVICE ADVISORY: Friday, October 31 - MyVistage Performance Degradation](https://stspg.io/7mllyj09hqk5) | minor | 23 min |
 | 2025-09-30 | [Chair App - email marketing campaigns not sending](https://stspg.io/fghnmthmnsnn) | minor | 24.0 h |
 
-Newest 8 of 8. Full machine-readable history:
+Newest 9 of 9. Full machine-readable history:
 [`history/vistage-worldwide-inc.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/vistage-worldwide-inc.json).
 
 ## What is counted, and what is not
 
-Of 8 recorded incidents, **8** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 9 recorded incidents, **8** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

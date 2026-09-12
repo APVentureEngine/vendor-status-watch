@@ -95,6 +95,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "ok"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "ok"
 }
 ],
 "first_watched": "2026-09-04T07:06:16Z",
@@ -104,7 +108,7 @@
 "body": "All Canary services that were being impacted by the Amazon Web Services incident have now been restored. If you are continuing to experience any issues, please contact our support team via support@canary.is",
 "first_seen": "2026-09-04T07:06:16Z",
 "impact": "minor",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "resolved_at": "2025-10-20T18:10:10.551-04:00",
 "resolved_inferred": false,
 "started_at": "2025-10-20T15:08:32.805-04:00",
@@ -114,7 +118,7 @@
 "url": "https://stspg.io/rmv49j690bmr"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
+"last_checked": "2026-09-12T12:30:15Z",
 "last_description": "All Systems Operational",
 "last_error": null,
 "last_state": "ok",

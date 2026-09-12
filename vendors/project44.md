@@ -2,7 +2,7 @@
 
 **52 Project44 incidents on record** spanning **2025-09-19** to **2026-09-10**. Status page:
 [https://status.project44.com](https://status.project44.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
 Median incident length: **5.6 h** across 49 incidents where Project44 posted both a start and a resolve time.

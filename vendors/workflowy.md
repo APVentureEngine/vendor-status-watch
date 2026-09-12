@@ -2,7 +2,7 @@
 
 **3 WorkFlowy incidents on record** spanning **2025-08-12** to **2025-09-04**. Status page:
 [https://status.workflowy.com](https://status.workflowy.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Only **3** WorkFlowy incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.

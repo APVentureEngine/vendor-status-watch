@@ -1,9 +1,9 @@
 # Guidewire outage history — every incident their status page has posted
 
-**34 Guidewire incidents on record** spanning **2025-08-20** to **2026-09-04**. Status page:
+**35 Guidewire incidents on record** spanning **2025-08-20** to **2026-09-12**. Status page:
 [https://status.guidewire.com](https://status.guidewire.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Median incident length: **6.5 h** across 33 incidents where Guidewire posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Guidewire Predictive Analytics Production APAC - Sydney](https://stspg.io/7n40b55vr07s) | maintenance | — |
 | 2026-09-04 | [Status Page Update: Expect Temporary Emails](https://stspg.io/t766zwzq7cpk) | maintenance | — |
 | 2026-07-28 | [TeamCity Build Service Interruption in Non-Production for Integration Gateway Apps Impacting Multiple Customers Across All Regions](https://stspg.io/53s0jcwfdpl7) | minor | 3.1 days |
 | 2026-07-20 | [TeamCity Build Service Interruption in Non-Production Environments Affecting Multiple Customers in All Regions](https://stspg.io/j5j6dx8c84pz) | minor | 8.6 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-03-03 | [Advanced Product Designer(APD) APIs Interruption Affecting Multiple Customers in All Regions](https://stspg.io/4bxd05plsbfq) | major | 6.8 h |
 | 2026-03-03 | [Database Restore Service Interruption Affecting Multiple Customers in ALL REGIONS for PRE-PRODUCTION and NON-PRODUCTION environments](https://stspg.io/3w4f9hbyqpxh) | minor | 6.5 h |
 | 2026-02-25 | [Autopilot Workflow Service Interruption Affecting Multiple Customers in Multiple Regions in Production and Non-Production](https://stspg.io/qx9vb7ydc7z9) | minor | 2.0 days |
-| 2026-02-17 | [LifeCycle Manager (LCM) Service Interruption Affecting Multiple Customers in Multiple Regions in Production and Non-Production](https://stspg.io/wqscr611c9xv) | minor | 5.2 h |
 
-Newest 15 of 34. Full machine-readable history:
+Newest 15 of 35. Full machine-readable history:
 [`history/guidewire.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/guidewire.json).
 
 ## What is counted, and what is not
 
-Of 34 recorded incidents, **33** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 35 recorded incidents, **33** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

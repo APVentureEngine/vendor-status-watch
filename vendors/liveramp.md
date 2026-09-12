@@ -2,7 +2,7 @@
 
 **52 Liveramp incidents on record** spanning **2026-06-08** to **2026-09-10**. Status page:
 [https://status.liveramp.com](https://status.liveramp.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **8 min** across 52 incidents where Liveramp posted both a start and a resolve time.

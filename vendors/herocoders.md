@@ -1,11 +1,11 @@
 # HeroCoders outage history — every incident their status page has posted
 
-**52 HeroCoders incidents on record** spanning **2026-05-27** to **2026-09-11**. Status page:
+**53 HeroCoders incidents on record** spanning **2026-05-27** to **2026-09-11**. Status page:
 [https://status.herocoders.com](https://status.herocoders.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **10 min** across 51 incidents where HeroCoders posted both a start and a resolve time.
+Median incident length: **9 min** across 52 incidents where HeroCoders posted both a start and a resolve time.
 
 This page republishes what HeroCoders posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Slower response (Issue Checklist Pro)](https://stspg.io/r1r881nhk3y6) | critical | 0 min |
 | 2026-09-11 | [Slower response (Issue Checklist Pro)](https://stspg.io/dh03dbrk5r0v) | critical | 0 min |
 | 2026-09-11 | [Slower response (Issue Checklist Pro)](https://stspg.io/qh090wvpd4sv) | critical | 0 min |
 | 2026-08-29 | [Slower response (Issue Checklist Pro)](https://stspg.io/b6x8k07624dq) | critical | 0 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-28 | [Slower response (Issue Checklist Pro)](https://stspg.io/6q50z04v6m3f) | minor | 10 min |
 | 2026-07-28 | [Slower response (Issue Checklist Pro)](https://stspg.io/2h025ckz64lx) | minor | 9 min |
 | 2026-07-28 | [Slower response (Issue Checklist Pro)](https://stspg.io/fs8zh8fw033z) | minor | 16 min |
-| 2026-07-28 | [Slower response (Issue Checklist Pro)](https://stspg.io/37wt461n1cgl) | minor | 13 min |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/herocoders.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/herocoders.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **51** have a usable length. Excluded:
+Of 53 recorded incidents, **52** have a usable length. Excluded:
 1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **52 Sentry incidents on record** spanning **2026-04-07** to **2026-09-10**. Status page:
 [https://status.sentry.io](https://status.sentry.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.5 h** across 52 incidents where Sentry posted both a start and a resolve time.

@@ -2,7 +2,7 @@
 
 **26 The Linux Foundation incidents on record** spanning **2026-08-05** to **2026-09-09**. Status page:
 [https://status.linuxfoundation.org](https://status.linuxfoundation.org) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`major`**.
 
 Median incident length: **2.6 h** across 24 incidents where The Linux Foundation posted both a start and a resolve time.

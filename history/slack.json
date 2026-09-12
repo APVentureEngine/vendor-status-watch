@@ -67,6 +67,10 @@
 {
 "at": "2026-09-11T12:29:42Z",
 "state": "degraded"
+},
+{
+"at": "2026-09-12T12:30:15Z",
+"state": "degraded"
 }
 ],
 "first_watched": "2026-09-04T11:14:03Z",
@@ -76,16 +80,27 @@
 "body": "Messaging, Workspace/Org Administration",
 "first_seen": "2026-09-04T11:14:03Z",
 "impact": "incident",
-"last_seen": "2026-09-11T12:29:42Z",
+"last_seen": "2026-09-12T12:30:15Z",
 "started_at": "2026-08-13T14:21:41-07:00",
 "state": "active",
 "title": "Trouble Accessing Historical Messages With Custom Data Retention Policies Enabled",
-"updated_at": "2026-09-08T19:37:23-07:00",
+"updated_at": "2026-09-11T08:53:33-07:00",
 "url": "https://slack-status.com/2026-08/e07b9271f0346c3b"
+},
+"slack-1578": {
+"body": "Files",
+"first_seen": "2026-09-12T12:30:15Z",
+"impact": "incident",
+"last_seen": "2026-09-12T12:30:15Z",
+"started_at": "2026-09-12T04:04:17-07:00",
+"state": "active",
+"title": "Some customers experiencing blurry image previews and download issues",
+"updated_at": "2026-09-12T04:29:49-07:00",
+"url": "https://slack-status.com/2026-09/f171324a097abb9a"
 }
 },
-"last_checked": "2026-09-11T12:29:42Z",
-"last_description": "1 active incident on slack-status.com",
+"last_checked": "2026-09-12T12:30:15Z",
+"last_description": "2 active incidents on slack-status.com",
 "last_error": null,
 "last_state": "degraded",
 "platform": "bespoke",

@@ -2,10 +2,10 @@
 
 **53 Sailpoint incidents on record** spanning **2025-11-03** to **2026-09-09**. Status page:
 [https://status.sailpoint.com](https://status.sailpoint.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`degraded`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`ok`**.
 
-Median incident length: **86 min** across 52 incidents where Sailpoint posted both a start and a resolve time.
+Median incident length: **91 min** across 53 incidents where Sailpoint posted both a start and a resolve time.
 
 This page republishes what Sailpoint posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,7 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
-| 2026-09-09 | [Identity Security Cloud is currently experiencing a service disruption. (US-EAST-1)](https://stspg.io/dfz4j2mjmvcj) | minor | — |
+| 2026-09-09 | [Identity Security Cloud is currently experiencing a service disruption. (US-EAST-1)](https://stspg.io/dfz4j2mjmvcj) | minor | 47.1 h |
 | 2026-09-08 | [Identity Security Cloud is currently experiencing a service disruption](https://stspg.io/kbvp3zlx3qv9) | minor | 43 min |
 | 2026-09-04 | [ISC is currently experiencing a service disruption](https://stspg.io/rdqqbtvffv8r) | major | 5.3 h |
 | 2026-09-03 | [Identity Security Cloud is currently experiencing a service disruption.](https://stspg.io/r4s0l1lznryh) | major | 78 min |
@@ -35,8 +35,8 @@ Newest 15 of 53. Full machine-readable history:
 
 ## What is counted, and what is not
 
-Of 53 recorded incidents, **52** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **53** have a usable length. Excluded:
+0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

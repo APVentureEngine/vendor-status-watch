@@ -1,9 +1,9 @@
 # Breach Secure Now! outage history — every incident their status page has posted
 
-**16 Breach Secure Now! incidents on record** spanning **2025-09-02** to **2026-06-18**. Status page:
+**17 Breach Secure Now! incidents on record** spanning **2025-09-02** to **2026-09-12**. Status page:
 [https://status.breachsecurenow.com](https://status.breachsecurenow.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`maintenance`**.
 
 Only **15** Breach Secure Now! incidents carry both a vendor-posted start and resolve time — below the 20-incident floor this dataset requires before publishing a median, so none is quoted here.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Scheduled Portal Downtime on 9/12/26](https://stspg.io/q6lm3dkw105x) | maintenance | — |
 | 2026-06-18 | [Portal Login](https://stspg.io/5wx0l9mdd2xt) | maintenance | — |
 | 2026-06-16 | [BSN Portal Down](https://stspg.io/v8nkzxgyxkmv) | none | 6.8 h |
 | 2026-04-08 | [User Profile Updates & User Creation Issue](https://stspg.io/l4vm8x5x9mr5) | major | 9.0 h |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2025-09-25 | [Catch Phish Upgrade Needed Before Microsoft Exchange Online Token Shutdown](https://stspg.io/z6kljhj0jkbx) | minor | 56.0 days |
 | 2025-09-22 | [Issue with SSO Setup](https://stspg.io/h4lq9ppt7mwp) | minor | 34.7 days |
 | 2025-09-19 | [Simulated Phishing Delivery Issue in Google Workspace and Gmail](https://stspg.io/hyg8rnhxx2gk) | major | 14.1 days |
-| 2025-09-15 | [Simulated Phishing Processing Issue](https://stspg.io/7h3cc5fy87rc) | major | 42.2 days |
 
-Newest 15 of 16. Full machine-readable history:
+Newest 15 of 17. Full machine-readable history:
 [`history/breach-secure-now.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/breach-secure-now.json).
 
 ## What is counted, and what is not
 
-Of 16 recorded incidents, **15** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 17 recorded incidents, **15** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

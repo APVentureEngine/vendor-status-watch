@@ -2,7 +2,7 @@
 
 **50 Sanity incidents on record** spanning **2025-10-16** to **2026-09-01**. Status page:
 [https://status.sanity.io](https://status.sanity.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **49 min** across 50 incidents where Sanity posted both a start and a resolve time.

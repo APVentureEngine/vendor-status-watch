@@ -2,7 +2,7 @@
 
 **26 Coveo Cloud incidents on record** spanning **2025-08-12** to **2026-08-26**. Status page:
 [https://status.cloud.coveo.com](https://status.cloud.coveo.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **112 min** across 26 incidents where Coveo Cloud posted both a start and a resolve time.

@@ -1,11 +1,11 @@
 # Anthropic outage history — every incident their status page has posted
 
-**52 Anthropic incidents on record** spanning **2026-07-21** to **2026-09-10**. Status page:
+**53 Anthropic incidents on record** spanning **2026-07-21** to **2026-09-11**. Status page:
 [https://status.anthropic.com](https://status.anthropic.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`degraded`**.
 
-Median incident length: **61 min** across 51 incidents where Anthropic posted both a start and a resolve time.
+Median incident length: **58 min** across 52 incidents where Anthropic posted both a start and a resolve time.
 
 This page republishes what Anthropic posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,8 +14,9 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1](https://stspg.io/n9n8kfcxtkfm) | major | 17 min |
 | 2026-09-10 | [Elevated latency on the Claude API for some users](https://stspg.io/hfs7749ykl14) | minor | 100 min |
-| 2026-09-10 | [Degraded functionality for Claude Cowork on Windows](https://stspg.io/5yp3rhhztm30) | minor | — |
+| 2026-09-10 | [Degraded functionality for Claude Cowork on Windows](https://stspg.io/5yp3rhhztm30) | major | — |
 | 2026-09-03 | [Elevated errors for multiple models](https://stspg.io/9xz4hhmd1jzn) | major | 3.0 h |
 | 2026-09-03 | [Elevated errors for Claude Sonnet 5](https://stspg.io/jt14jk41pjsf) | major | 18 min |
 | 2026-09-02 | [Elevated errors for Claude Sonnet 5](https://stspg.io/9dgzwz3ymz42) | major | 26 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-24 | [Issues logging into Claude.ai](https://stspg.io/6211zbpptv0y) | minor | 14 min |
 | 2026-08-24 | [Errors logging into Claude.ai](https://stspg.io/kg59rclpfzsz) | minor | 3 min |
 | 2026-08-24 | [Elevated errors for multiple models](https://stspg.io/5kzdprb1xsbx) | major | 3.4 h |
-| 2026-08-20 | [Elevated errors on requests to multiple models](https://stspg.io/w7yghz6hfr72) | major | 26 min |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/anthropic.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/anthropic.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **51** have a usable length. Excluded:
+Of 53 recorded incidents, **52** have a usable length. Excluded:
 0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.

@@ -2,7 +2,7 @@
 
 **20 Documo incidents on record** spanning **2025-08-25** to **2026-08-25**. Status page:
 [https://status.documo.com](https://status.documo.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **2.6 h** across 20 incidents where Documo posted both a start and a resolve time.

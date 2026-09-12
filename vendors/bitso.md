@@ -1,8 +1,8 @@
 # Bitso outage history — every incident their status page has posted
 
-**52 Bitso incidents on record** spanning **2026-02-05** to **2026-09-08**. Status page:
+**53 Bitso incidents on record** spanning **2026-02-05** to **2026-09-12**. Status page:
 [https://status.bitso.com](https://status.bitso.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`maintenance`**.
 
 Median incident length: **2.2 h** across 51 incidents where Bitso posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [Scheduled Maintenance impacting Stock Services](https://stspg.io/b44lbxg7fj08) | maintenance | — |
 | 2026-09-08 | [Cosmos Network Issues \| ATOM Deposits & Withdrawals](https://stspg.io/kpxc1d92qlfj) | major | 15.6 h |
 | 2026-09-03 | [Issues affecting PSE operations](https://stspg.io/ksxhz68gh0vv) | major | 4.0 h |
 | 2026-09-02 | [Important update: ACX (Across Protocol) will be delisted](https://stspg.io/bp2xbm4nmx03) | maintenance | — |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-08-03 | [BRFQ Operations Issues](https://stspg.io/h5kpkx8vykjw) | major | 20.8 h |
 | 2026-07-13 | [GRAM Deposits & Withdrawals Temporarily Disabled](https://stspg.io/fftxfr2txjr7) | major | 79 min |
 | 2026-07-07 | [USDT Earnings Calculation Discrepancy](https://stspg.io/mm6d9cptnt8c) | none | 6.3 h |
-| 2026-07-07 | [SPEI Deposits & Withdrawals — Temporary Disruption \| Depósitos y Retiros SPEI — Interrupción Temporal](https://stspg.io/bmzc83nhkwz5) | none | 31 min |
 
-Newest 15 of 52. Full machine-readable history:
+Newest 15 of 53. Full machine-readable history:
 [`history/bitso.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/bitso.json).
 
 ## What is counted, and what is not
 
-Of 52 recorded incidents, **51** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 53 recorded incidents, **51** have a usable length. Excluded:
+2 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

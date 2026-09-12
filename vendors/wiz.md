@@ -1,8 +1,8 @@
 # Wiz outage history — every incident their status page has posted
 
-**50 Wiz incidents on record** spanning **2025-08-27** to **2026-09-03**. Status page:
+**51 Wiz incidents on record** spanning **2025-08-27** to **2026-09-12**. Status page:
 [https://status.wiz.io](https://status.wiz.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
 Median incident length: **3.1 h** across 49 incidents where Wiz posted both a start and a resolve time.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-12 | [We are investigating an issue causing delays in processing and displaying Security Graph updates and findings for some customers.](https://stspg.io/qrz7368sx0js) | none | — |
 | 2026-09-03 | [We are investigating an issue affecting some Wiz services for tenants hosted in the AWS us-west-2 region, related to an ongoing AWS service disruption](https://stspg.io/cjy9c5mbcp22) | none | 79 min |
 | 2026-07-23 | [Portal and API Service Degradation Across Multiple US Data Centers](https://stspg.io/mdzw0vl74ch0) | none | 5.1 h |
 | 2026-07-10 | [Elevated error rates due to an upstream dependency](https://stspg.io/vk313x3z9pth) | none | 73 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-04-17 | [The GitHub streaming integration has stopped sending events.](https://stspg.io/d8kbxfvnp9ql) | none | 19.3 h |
 | 2026-04-14 | [Intermittent Performance Issues Affecting EU4](https://stspg.io/c84f731w7p21) | none | 26 min |
 | 2026-04-03 | [Some customers may see critical issues created from incorrectly classified vulnerability findings for CVE-2026-4800, CVE-2026-33937, CVE-2026-33938, and CVE-2026-33940](https://stspg.io/s5s19c5z4yxz) | none | 27.5 h |
-| 2026-03-24 | [We are investigating an issue causing false positive issues on controls wc-id-3088, wc-id-3089, wc-id-3090, wc-id-3091, and wc-id-3092 related to leaked cloud keys. These issues can be ignored and do not require investigation at this time.](https://stspg.io/trmzk7svv7zx) | none | 2.4 days |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/wiz.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/wiz.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
-0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+0 maintenance, 2 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

@@ -1,9 +1,9 @@
 # Doctolib outage history — every incident their status page has posted
 
-**22 Doctolib incidents on record** spanning **2025-12-05** to **2026-09-08**. Status page:
+**23 Doctolib incidents on record** spanning **2025-12-05** to **2026-09-11**. Status page:
 [https://status.doctolib.com](https://status.doctolib.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`partial`**.
 
 Median incident length: **54 min** across 22 incidents where Doctolib posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Consultation assitant is down](https://stspg.io/pgtvpnr77r4y) | major | — |
 | 2026-09-08 | [Our services are not available for PRO users (FR, DE, IT) and for Patients.](https://stspg.io/z3nw34h160f2) | critical | 58 min |
 | 2026-09-01 | [Financial OS is partially down](https://stspg.io/f08dx3bn14pf) | critical | 83 min |
 | 2026-09-01 | [Consultation Assistant is not available](https://stspg.io/3gl04jsw253t) | critical | 14 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-06-05 | [All doctors are not being able to make an appointment by experiencing frontend error](https://stspg.io/t9yjscq9p5p9) | minor | 22 min |
 | 2026-05-29 | [Components impacted: Phone Assistant](https://stspg.io/44tsm0yx3l48) | minor | 22.5 h |
 | 2026-05-29 | [Phone assistant slow answers or hangups; general latency degradation for all AI products](https://stspg.io/4x93l9chn4c1) | minor | 60 min |
-| 2026-05-20 | [5 min drop of traffic which had a snowball effect on MDP when traffic came back](https://stspg.io/wwc3s4rxz9h7) | minor | 16 min |
 
-Newest 15 of 22. Full machine-readable history:
+Newest 15 of 23. Full machine-readable history:
 [`history/doctolib.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/doctolib.json).
 
 ## What is counted, and what is not
 
-Of 22 recorded incidents, **22** have a usable length. Excluded:
-0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 23 recorded incidents, **22** have a usable length. Excluded:
+0 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

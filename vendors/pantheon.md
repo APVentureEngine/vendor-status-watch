@@ -1,9 +1,9 @@
 # Pantheon outage history — every incident their status page has posted
 
-**50 Pantheon incidents on record** spanning **2025-09-05** to **2026-09-03**. Status page:
+**51 Pantheon incidents on record** spanning **2025-09-05** to **2026-09-11**. Status page:
 [https://status.pantheon.io](https://status.pantheon.io) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
-state **`ok`**.
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
+state **`degraded`**.
 
 Median incident length: **4.8 h** across 49 incidents where Pantheon posted both a start and a resolve time.
 
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | [Security Advisory: Unauthorized Access via Credential Stuffing](https://stspg.io/dzblw0bcyxw4) | minor | — |
 | 2026-09-03 | [Database Connection Issues and 504 Errors on Subset of Sites](https://stspg.io/vssytt1sf6tb) | major | 77 min |
 | 2026-09-01 | [Dashboard Outage](https://stspg.io/td9jtg9jym8d) | critical | 5.4 h |
 | 2026-08-20 | [Dashboard – Degraded Performance](https://stspg.io/lh8j4359mkf1) | minor | 70 min |
@@ -28,15 +29,14 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-07-20 | [Site availability issues](https://stspg.io/pfpy89765xbc) | major | 37.3 h |
 | 2026-07-20 | [WordPress 7.0.2 wp2shell](https://stspg.io/fbz4j2v42j3z) | major | 26.1 h |
 | 2026-07-10 | [Dashboard Performance Issues](https://stspg.io/j6dd3x25m445) | minor | 29.0 h |
-| 2026-07-02 | [Git Push and deployment Operations Failing](https://stspg.io/dg508schsg74) | critical | 7.2 h |
 
-Newest 15 of 50. Full machine-readable history:
+Newest 15 of 51. Full machine-readable history:
 [`history/pantheon.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/pantheon.json).
 
 ## What is counted, and what is not
 
-Of 50 recorded incidents, **49** have a usable length. Excluded:
-1 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
+Of 51 recorded incidents, **49** have a usable length. Excluded:
+1 maintenance, 1 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
 

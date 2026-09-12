@@ -1,11 +1,11 @@
 # OpenAI outage history — every incident their status page has posted
 
-**34 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-11**. Status page:
+**35 OpenAI incidents on record** spanning **2026-08-04** to **2026-09-11**. Status page:
 [https://status.openai.com](https://status.openai.com) · platform:
-`statuspage` · last polled **2026-09-11 12:29 UTC**, last observed
+`statuspage` · last polled **2026-09-12 12:30 UTC**, last observed
 state **`ok`**.
 
-Median incident length: **2.3 h** across 34 incidents where OpenAI posted both a start and a resolve time.
+Median incident length: **2.4 h** across 35 incidents where OpenAI posted both a start and a resolve time.
 
 This page republishes what OpenAI posted on its own status page. It is rebuilt
 daily by an automated poller — no login, no account, MIT-licensed data.
@@ -14,6 +14,7 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 
 | Started | Incident | Impact | Length |
 | --- | --- | --- | ---: |
+| 2026-09-11 | 1% of ChatGPT Work (mobile/web) turns are failing for existing threads | minor | 9.6 h |
 | 2026-09-11 | Elevated errors for GPT-5.6 Sol on the API | minor | 2.2 h |
 | 2026-09-11 | Elevated errors for ChatGPT users in Europe | minor | 2.4 h |
 | 2026-09-10 | Delays in customer support responses | none | 115 min |
@@ -28,14 +29,13 @@ daily by an automated poller — no login, no account, MIT-licensed data.
 | 2026-09-03 | ChatGPT Work Mode High Error Rates | major | 6 min |
 | 2026-09-02 | Elevated errors creating new accounts | none | 31 min |
 | 2026-09-01 | Elevated errors in ChatGPT conversations for Free and Go plans | minor | 21 min |
-| 2026-08-31 | Elevated latency in the Responses API | minor | 20.6 h |
 
-Newest 15 of 34. Full machine-readable history:
+Newest 15 of 35. Full machine-readable history:
 [`history/openai.json`](https://raw.githubusercontent.com/APVentureEngine/vendor-status-watch/main/history/openai.json).
 
 ## What is counted, and what is not
 
-Of 34 recorded incidents, **34** have a usable length. Excluded:
+Of 35 recorded incidents, **35** have a usable length. Excluded:
 0 maintenance, 0 still open or missing a timestamp, 0 whose resolution time we inferred rather than read, 0 with a resolve time before the start time. Those exclusions are the reason the numbers here are lower than a naive
 count of the status page, and they are why a median from this dataset can be
 compared across vendors at all.
